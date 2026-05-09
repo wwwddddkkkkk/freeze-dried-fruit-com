@@ -667,8 +667,12 @@ async function build() {
     body: renderArticlesIndex({ articles, category: null }), screen: "articles",
   }));
 
-  // Articles by category
-  const cats = [...new Set(articles.map(a => a.category))];
+  // Articles by category — include both categories that have articles AND
+  // categories referenced from the nav (so a nav link to "Fruit Reports"
+  // resolves to a valid empty-state page until the first article lands).
+  const articleCats = new Set(articles.map(a => a.category));
+  const navCats = (site.nav || []).filter(n => n.category).map(n => n.category);
+  const cats = [...new Set([...articleCats, ...navCats])];
   for (const c of cats) {
     await writeFilePage(`${categoryUrl(c).slice(1)}index.html`, renderPage({
       site, mailto, currentPath: categoryUrl(c), title: c,

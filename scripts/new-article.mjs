@@ -44,7 +44,18 @@ async function main() {
 title: "${title.replace(/"/g, '\\"')}"
 category: "${category}"
 date: ${today}
-hero: ${hero}
+
+# COVER — pick ONE style:
+#  (a) clean SVG diagram (good for industry insight / process pieces)
+hero: ${hero}        # quality | fresh-frozen | sugar | pricing | process | moisture
+#
+#  (b) real food photo (good for product / variety / snack / consumer pieces)
+#      Drop the file in public/images/articles/ then uncomment + edit:
+# cover_image: /images/articles/${slug}.jpg
+# cover_alt: "Short alt text describing the photo"
+# cover_credit: "Photographer / License"          # only if attribution is required
+# cover_credit_url: "https://link-to-source"
+
 read: "5 min read"
 summary: "Short summary that appears in cards and meta tags. Keep it under ~200 chars."
 intro: "Optional one-line italic intro shown above the cover image."

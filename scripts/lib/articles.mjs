@@ -58,6 +58,15 @@ export async function loadArticles(dir) {
       title: data.title || id,
       category: data.category || "Uncategorized",
       hero: data.hero || "quality",
+      // cover_image overrides the SVG hero — used for product / variety /
+      // snack / consumer-facing pieces that benefit from a real photo.
+      cover_image: data.cover_image || null,
+      cover_alt: data.cover_alt || null,
+      // Required for any photo under a license that needs attribution
+      // (e.g. Wikimedia CC BY-SA, Unsplash with credit). Renders as the
+      // small caption strip on the article cover.
+      cover_credit: data.cover_credit || null,
+      cover_credit_url: data.cover_credit_url || null,
       summary: data.summary || "",
       intro: data.intro || data.summary || "",
       read: data.read || readTime(content),

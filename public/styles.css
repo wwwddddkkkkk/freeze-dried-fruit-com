@@ -1167,6 +1167,15 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
 /* ---------- Article hero illustrations ---------- */
 .illust { width: 100%; height: 100%; display: block; }
 
+/* Real-photo cover variant — fills the same wrappers as .illust */
+.cover-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
 /* ---------- Responsive ---------- */
 @media (max-width: 1080px) {
   .home-hero { grid-template-columns: 1fr; }

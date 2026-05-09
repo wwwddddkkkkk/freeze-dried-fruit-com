@@ -38,6 +38,30 @@ function applyBase(html) {
   return html.replace(/(href|src)="\/(?!\/)/g, `$1="${BASE_PATH}/`);
 }
 
+// Renders an article's cover — either a real photo (if cover_image is set
+// in frontmatter) or the SVG hero variant. Used everywhere a hero used to
+// be: home, sidebar, latest, list rows, article cover, related cards.
+function renderCover(article) {
+  if (article.cover_image) {
+    const alt = article.cover_alt || article.title || "";
+    return `<img class="cover-img" src="${escapeHtml(article.cover_image)}" alt="${escapeHtml(alt)}" loading="lazy" decoding="async">`;
+  }
+  return renderHero(article.hero);
+}
+
+// Caption strip rendered over the bottom-left of the main article cover.
+// SVG figures get "FIG. — Category"; real photos get either a photo credit
+// (if license requires attribution) or just the category.
+function coverCaption(article) {
+  if (!article.cover_image) return `FIG. — ${escapeHtml(article.category)}`;
+  if (!article.cover_credit) return escapeHtml(article.category);
+  const credit = escapeHtml(article.cover_credit);
+  if (article.cover_credit_url) {
+    return `Photo · <a href="${escapeHtml(article.cover_credit_url)}" rel="noopener nofollow" target="_blank" style="color:inherit;border-bottom:1px solid currentColor">${credit}</a>`;
+  }
+  return `Photo · ${credit}`;
+}
+
 async function writeFilePage(relPath, content) {
   const out = path.join(DIST, relPath);
   await mkdir(path.dirname(out), { recursive: true });
@@ -232,7 +256,7 @@ function renderHomeBody({ site, mailto, articles, home, news, homeConfig }) {
     ${i > 0 ? `<div class="feat-side__divider"></div>` : ""}
     <article class="feat-side__item">
       <a href="${articleUrl(a.id)}" style="display:block;color:inherit">
-        <div class="feat-side__img">${renderHero(a.hero)}</div>
+        <div class="feat-side__img">${renderCover(a)}</div>
         <h3 class="feat-side__title">${escapeHtml(a.title)}</h3>
         <p class="feat-side__sum">${escapeHtml(a.summary)}</p>
         <div class="feat-side__byline">${escapeHtml(a.category)} · ${escapeHtml(a.dateLabel)}</div>
@@ -242,7 +266,7 @@ function renderHomeBody({ site, mailto, articles, home, news, homeConfig }) {
   const latestHtml = latest.map(a => `
     <article class="latest__item">
       <a href="${articleUrl(a.id)}" style="display:contents;color:inherit">
-        <div class="latest__img">${renderHero(a.hero)}</div>
+        <div class="latest__img">${renderCover(a)}</div>
         <div>
           <div class="latest__cat">${escapeHtml(a.category)}</div>
           <h3 class="latest__title">${escapeHtml(a.title)}</h3>
@@ -258,7 +282,7 @@ function renderHomeBody({ site, mailto, articles, home, news, homeConfig }) {
       <div class="home-hero__main">
         <article class="home-hero__article">
           <a href="${articleUrl(featured.id)}" style="display:block;color:inherit">
-            <div class="home-hero__media">${renderHero(featured.hero)}</div>
+            <div class="home-hero__media">${renderCover(featured)}</div>
             <div class="home-hero__cat">${escapeHtml(featured.category)}</div>
             <h1 class="home-hero__title">${escapeHtml(featured.title)}</h1>
             <p class="home-hero__sum">${escapeHtml(featured.summary)}</p>
@@ -311,7 +335,7 @@ function renderArticlesIndex({ articles, category }) {
   const rows = filtered.map(a => `
     <article class="list__row">
       <a href="${articleUrl(a.id)}" style="display:contents;color:inherit">
-        <div class="list__img">${renderHero(a.hero)}</div>
+        <div class="list__img">${renderCover(a)}</div>
         <div>
           <div class="list__cat">${escapeHtml(a.category)}</div>
           <h3 class="list__title">${escapeHtml(a.title)}</h3>
@@ -353,7 +377,7 @@ function renderArticle({ article, related, mailto }) {
 
   const relatedHtml = related.map(r => `
     <a href="${articleUrl(r.id)}" class="related__card" style="display:block;color:inherit">
-      <div class="related__img">${renderHero(r.hero)}</div>
+      <div class="related__img">${renderCover(r)}</div>
       <div class="related__cat">${escapeHtml(r.category)}</div>
       <h4 class="related__title">${escapeHtml(r.title)}</h4>
     </a>`).join("");
@@ -372,8 +396,8 @@ function renderArticle({ article, related, mailto }) {
 
       <div class="container-narrow">
         <div class="article-cover">
-          ${renderHero(article.hero)}
-          <div class="article-cover__caption">FIG. — ${escapeHtml(article.category)}</div>
+          ${renderCover(article)}
+          <div class="article-cover__caption">${coverCaption(article)}</div>
         </div>
       </div>
 

@@ -2,7 +2,10 @@
 title: "A Field Guide to Mango Varieties for Freeze-Drying"
 category: "Fruit Reports"
 date: 2026-05-09
-hero: "quality"
+cover_image: /images/articles/mango-varieties.jpg
+cover_alt: "Whole and halved ripe mangoes on a plain background"
+cover_credit: "Ivar Leidus / CC BY-SA 4.0"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Mangos_-_single_and_halved.jpg"
 read: "12 min read"
 summary: "Tommy Atkins, Kent, Ataulfo, Alphonso, Kesar, Nam Dok Mai, Sindhri, Carabao — they don't taste the same, freeze the same, or ship the same. A working reference for buyers comparing mango cultivars by sugar, fiber, aroma, supply, and how each behaves in a freeze-dryer."
 intro: "Tommy Atkins, Kent, Ataulfo, Alphonso, Kesar, Carabao — written on a label, they all read as \"mango.\" Inside the bag, they don't behave the same."

@@ -145,9 +145,11 @@ scripts/
   update-news.yml   fetches news every 6 hours, commits feed.json (triggers Cloudflare rebuild)
 ```
 
-## Hero illustrations
+## Article covers — SVG diagrams or real photos
 
-The six SVG hero variants live in [`scripts/lib/illustrations.mjs`](scripts/lib/illustrations.mjs). Pick one with the `hero:` frontmatter key:
+Each article picks one of two cover styles:
+
+**(a) Clean SVG diagram** — best for industry insight and process pieces. Six built-ins live in [`scripts/lib/illustrations.mjs`](scripts/lib/illustrations.mjs):
 
 | Key            | Visual                          |
 | -------------- | ------------------------------- |
@@ -158,4 +160,23 @@ The six SVG hero variants live in [`scripts/lib/illustrations.mjs`](scripts/lib/
 | `process`      | Four-step freeze-drying diagram |
 | `moisture`     | Drop + moisture-over-time chart |
 
-To add a seventh, drop a new function in `illustrations.mjs` and register it in `HEROES`.
+```yaml
+hero: process
+```
+
+To add a seventh diagram, drop a new function in `illustrations.mjs` and register it in `HEROES`.
+
+**(b) Real food photo** — best for product, fruit variety, snack idea, and consumer-facing pieces. Drop the JPG/WebP in `public/images/articles/` and reference it from frontmatter:
+
+```yaml
+cover_image: /images/articles/mango-varieties.jpg
+cover_alt: "Whole and halved ripe mangoes on a plain background"
+cover_credit: "Ivar Leidus / CC BY-SA 4.0"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Mangos_-_single_and_halved.jpg"
+```
+
+`cover_credit` is only needed if the photo's license requires attribution (most CC BY / CC BY-SA / Unsplash). `cover_image` takes precedence over `hero` — no need to remove the hero key.
+
+**Recommended mix:** roughly 60% clean SVG diagrams (industry/process) and 40% real food photos (variety/product/consumer) so the homepage reads like a modern food publication.
+
+**Image sizing:** ship roughly 1600px wide (covers render at up to ~800px on desktop) and ≤300KB for fast loads. JPEG quality 80–85 is a good baseline; WebP saves more if you can produce it.

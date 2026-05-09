@@ -1,5 +1,0 @@
-# Optional: deploying via the Wrangler CLI (`npx wrangler pages deploy dist`).
-# If you connect the GitHub repo to Cloudflare Pages directly, this file is not needed.
-name = "freeze-dried-fruit-com"
-compatibility_date = "2026-01-01"
-pages_build_output_dir = "dist"

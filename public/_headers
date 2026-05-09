@@ -1,0 +1,14 @@
+# Cache hints for Cloudflare Pages
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+/styles.css
+  Cache-Control: public, max-age=86400
+
+/feed.xml
+  Cache-Control: public, max-age=1800
+
+/sitemap.xml
+  Cache-Control: public, max-age=3600

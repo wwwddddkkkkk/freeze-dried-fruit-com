@@ -1,0 +1,45 @@
+name: Auto-update News Wire
+
+# Pulls fresh items from the configured RSS sources every six hours and commits
+# the updated content/news/feed.json back to main. The follow-up push to main
+# triggers the deploy workflow, so the homepage News Wire stays current
+# without any manual work.
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Fetch RSS sources
+        run: npm run fetch-news
+
+      - name: Commit updated feed.json
+        run: |
+          git config user.name "freezedriedfruit-bot"
+          git config user.email "bot@freeze-dried-fruit.com"
+          if git diff --quiet -- content/news/feed.json; then
+            echo "No news changes — skipping commit."
+            exit 0
+          fi
+          git add content/news/feed.json
+          git commit -m "chore(news): refresh wire feed"
+          git push

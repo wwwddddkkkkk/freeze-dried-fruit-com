@@ -1,0 +1,62 @@
+name: Build & Deploy
+
+# Triggers:
+#  - push to main (any commit, including ones from the news-fetch workflow)
+#  - manual rerun
+#  - daily safety net at 06:00 UTC so feed.xml/sitemap.xml stay fresh
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+
+      # ---- GitHub Pages deploy (default target) ----
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      # ---- Cloudflare Pages deploy (optional) ----
+      # Uncomment AND set CLOUDFLARE_API_TOKEN + CLOUDFLARE_ACCOUNT_ID secrets
+      # in the repo settings to push to Cloudflare instead of (or alongside)
+      # GitHub Pages. The project name must match what you created in the
+      # Cloudflare dashboard.
+      #
+      # - name: Deploy to Cloudflare Pages
+      #   uses: cloudflare/wrangler-action@v3
+      #   with:
+      #     apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      #     accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      #     command: pages deploy dist --project-name=freeze-dried-fruit-com --branch=main
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

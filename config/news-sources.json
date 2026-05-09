@@ -1,0 +1,16 @@
+{
+  "_comment": "RSS feeds polled by scripts/fetch-news.mjs. The GitHub Action 'update-news' runs every 6 hours, fetches these, writes content/news/feed.json, and commits. The build embeds news items on the homepage.",
+
+  "limit_per_source": 6,
+  "total_limit": 12,
+  "sources": [
+    {
+      "name": "Google News — freeze-dried fruit",
+      "url": "https://news.google.com/rss/search?q=%22freeze-dried+fruit%22&hl=en-US&gl=US&ceid=US:en"
+    },
+    {
+      "name": "Google News — freeze drying industry",
+      "url": "https://news.google.com/rss/search?q=%22freeze+drying%22+industry&hl=en-US&gl=US&ceid=US:en"
+    }
+  ]
+}

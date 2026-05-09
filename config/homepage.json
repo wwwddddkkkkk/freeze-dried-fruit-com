@@ -1,0 +1,10 @@
+{
+  "_comment": "Edit this file to change which articles appear in the home page hero / sidebar / guide card. Each value is the article 'id' (filename without .md in content/articles/). Set 'auto_latest' to true to let the build pick the most recent article as the featured story.",
+
+  "auto_latest": false,
+  "featured_id": "quality-varies",
+  "sidebar_ids": ["added-sugar", "fresh-vs-frozen"],
+  "guide_id": "buyer-guide",
+  "latest_count": 4,
+  "show_news_section": true
+}

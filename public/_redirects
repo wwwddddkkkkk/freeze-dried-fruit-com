@@ -1,0 +1,15 @@
+# Cloudflare Pages redirect rules.
+# Trailing-slash normalization (so /articles works the same as /articles/).
+/articles                 /articles/                 301
+/exchange                 /exchange/                 301
+/about                    /about/                    301
+/contact                  /contact/                  301
+/privacy                  /privacy/                  301
+
+# Legacy hash-routed URLs from the design prototype → real paths.
+/#home                    /                          301
+/#articles                /articles/                 301
+/#exchange                /exchange/                 301
+/#about                   /about/                    301
+/#contact                 /contact/                  301
+/#privacy                 /privacy/                  301

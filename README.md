@@ -85,25 +85,18 @@ To change sources, edit `config/news-sources.json`:
 
 ## Deployment
 
-### GitHub Pages (default)
+### Cloudflare Pages (current setup)
 
-1. Push the repo to GitHub.
-2. Settings → Pages → Source: **GitHub Actions**.
-3. The included `Build & Deploy` workflow handles the rest. First deploy creates the site; subsequent commits update it.
+1. Cloudflare dashboard → **Workers & Pages** → **Create** → **Pages** → **Connect to Git**.
+2. Authorize GitHub, pick this repo.
+3. Build command: `npm run build`. Build output directory: `dist`.
+4. Save and Deploy.
 
-### Cloudflare Pages
+Cloudflare watches `main` and rebuilds on every push — including the automated commits from the news-update workflow. No secrets, no GitHub Actions deploy step needed.
 
-Two options — pick one:
+### GitHub Pages (alternative)
 
-**A. Connect the GitHub repo (recommended):**
-1. Cloudflare dashboard → Workers & Pages → Create → connect your GitHub repo.
-2. Build command: `npm run build`. Output directory: `dist`.
-3. Cloudflare deploys on every push. No secrets needed.
-
-**B. Wrangler from GitHub Actions:**
-1. In the repo: Settings → Secrets → add `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
-2. Uncomment the "Deploy to Cloudflare Pages" step in [.github/workflows/deploy.yml](.github/workflows/deploy.yml).
-3. Make sure the `--project-name` matches what you created in the dashboard.
+The build is path-portable: set `BASE_PATH=/<repo>` and `SITE_URL=https://<owner>.github.io/<repo>` and the emitted HTML uses the right prefixes. To deploy via GitHub Actions, restore a workflow with `actions/configure-pages@v5` (with `enablement: true`), `actions/upload-pages-artifact@v3`, and `actions/deploy-pages@v4`, and pass those env vars to `npm run build`. Pages must be enabled with **Source: GitHub Actions** in the repo settings before the first run.
 
 ### Custom domain
 
@@ -111,21 +104,23 @@ After connecting the deploy target, add `freeze-dried-fruit.com` in the host's D
 
 ## Automation push (CI / external triggers)
 
-Three useful entry points the deploy workflow already exposes:
+| Trigger                                 | Effect                                                                |
+| --------------------------------------- | --------------------------------------------------------------------- |
+| `git push` to `main`                    | Cloudflare Pages auto-rebuilds and deploys                            |
+| `gh workflow run "Auto-update News"`    | Pull RSS now (auto-commits `feed.json` if there are new items)        |
+| Cron `0 */6 * * *` (in update-news.yml) | Runs the news fetch every six hours; commits trigger a redeploy       |
 
-| Trigger                              | Effect                                              |
-| ------------------------------------ | --------------------------------------------------- |
-| `git push` to `main`                 | Full rebuild + deploy                               |
-| `gh workflow run "Build & Deploy"`   | Manual rebuild without a code change                |
-| `gh workflow run "Auto-update News"` | Pull RSS now (auto-commits if there are new items)  |
-| Cron `0 */6 * * *`                   | Auto-runs the news fetch every six hours            |
-| Cron `0 6 * * *`                     | Daily safety-net rebuild (refreshes feeds/sitemaps) |
+To force a redeploy from any external system, just push an empty commit to `main`:
 
-To kick off a deploy from any external system, hit the GitHub API:
+```bash
+git commit --allow-empty -m "redeploy" && git push
+```
+
+Or trigger the news fetch from the GitHub API:
 
 ```bash
 curl -X POST -H "Authorization: Bearer $GH_TOKEN" \
-  https://api.github.com/repos/<owner>/<repo>/actions/workflows/deploy.yml/dispatches \
+  https://api.github.com/repos/<owner>/<repo>/actions/workflows/update-news.yml/dispatches \
   -d '{"ref":"main"}'
 ```
 
@@ -147,8 +142,7 @@ scripts/
   serve.mjs         local preview server
   lib/              shared modules (layout, illustrations, icons, mailto, articles)
 .github/workflows/
-  deploy.yml        builds and deploys on every push (+ daily cron)
-  update-news.yml   fetches news every 6 hours, commits feed.json
+  update-news.yml   fetches news every 6 hours, commits feed.json (triggers Cloudflare rebuild)
 ```
 
 ## Hero illustrations

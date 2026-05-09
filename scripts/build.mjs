@@ -338,7 +338,7 @@ function renderArticle({ article, related, mailto }) {
         <p class="article-head__intro">${escapeHtml(intro)}</p>
       </div>
 
-      <div class="container">
+      <div class="container-narrow">
         <div class="article-cover">
           ${renderHero(article.hero)}
           <div class="article-cover__caption">FIG. — ${escapeHtml(article.category)}</div>

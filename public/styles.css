@@ -787,8 +787,11 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
 }
 
 /* ---------- Article (single) ---------- */
+/* Use padding-top/bottom (not the 4-side shorthand) so the horizontal padding
+   from .container-narrow on the same element is preserved on small viewports. */
 .article-head {
-  padding: 56px 0 24px;
+  padding-top: 56px;
+  padding-bottom: 24px;
 }
 .article-head__meta {
   display: flex;

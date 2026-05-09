@@ -1,8 +1,8 @@
 {
   "_comment": "RSS feeds polled by scripts/fetch-news.mjs. The GitHub Action 'update-news' runs every 6 hours, fetches these, writes content/news/feed.json, and commits. The build embeds news items on the homepage.",
 
-  "limit_per_source": 6,
-  "total_limit": 12,
+  "limit_per_source": 15,
+  "total_limit": 30,
   "sources": [
     {
       "name": "Google News — freeze-dried fruit",

@@ -15,6 +15,7 @@
     { "label": "Technology", "category": "Technology" },
     { "label": "Labels & Quality", "category": "Labels & Quality" },
     { "label": "Fruit Reports", "category": "Fruit Reports" },
+    { "label": "News Wire", "to": "/news/" },
     { "label": "Industry Exchange", "to": "/exchange/" },
     { "label": "About", "to": "/about/" }
   ]

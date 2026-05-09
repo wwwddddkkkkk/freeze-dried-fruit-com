@@ -128,8 +128,18 @@ function newsletterBand({ mailto }) {
   </section>`;
 }
 
-function newsWireSection(news) {
-  const items = (news?.items || []).slice(0, 12);
+function renderWireItems(items) {
+  return items.map(it => `
+    <article class="news-wire__item">
+      <div class="news-wire__src">${escapeHtml(it.source || "Wire")}</div>
+      <h3 class="news-wire__title"><a href="${escapeHtml(it.link)}" rel="noopener nofollow" target="_blank">${escapeHtml(it.title)}</a></h3>
+      <div class="news-wire__meta">${escapeHtml(it.date_label || "")}</div>
+    </article>`).join("");
+}
+
+function newsWireSection(news, opts = {}) {
+  const limit = opts.limit ?? 10;
+  const items = (news?.items || []).slice(0, limit);
   if (!items.length) {
     return `
     <section class="section" style="padding-top:0">
@@ -146,12 +156,6 @@ function newsWireSection(news) {
   const updated = news.updated_at
     ? new Date(news.updated_at).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })
     : "";
-  const html = items.map(it => `
-    <article class="news-wire__item">
-      <div class="news-wire__src">${escapeHtml(it.source || "Wire")}</div>
-      <h3 class="news-wire__title"><a href="${escapeHtml(it.link)}" rel="noopener nofollow" target="_blank">${escapeHtml(it.title)}</a></h3>
-      <div class="news-wire__meta">${escapeHtml(it.date_label || "")}</div>
-    </article>`).join("");
   return `
     <section class="section" style="padding-top:0">
       <div class="container">
@@ -160,8 +164,36 @@ function newsWireSection(news) {
           <h2 class="fi-head__title">News Wire</h2>
         </div>
         <div class="fi-rule"></div>
-        <div class="news-wire">${html}</div>
-        ${updated ? `<p class="muted" style="font-size:12px;margin-top:16px;letter-spacing:0.1em;text-transform:uppercase">Auto-updated · ${escapeHtml(updated)}</p>` : ""}
+        <div class="news-wire">${renderWireItems(items)}</div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding-top:16px;gap:16px;flex-wrap:wrap">
+          ${updated ? `<p class="muted" style="font-size:12px;margin:0;letter-spacing:0.1em;text-transform:uppercase">Auto-updated · ${escapeHtml(updated)}</p>` : "<span></span>"}
+          <a href="/news/" class="btn-arrow">View Full Wire ${Icons.arrowSmall}</a>
+        </div>
+      </div>
+    </section>`;
+}
+
+function renderNewsBody({ news }) {
+  const items = news?.items || [];
+  const updated = news?.updated_at
+    ? new Date(news.updated_at).toLocaleString("en-US", { dateStyle: "medium", timeStyle: "short" })
+    : null;
+  const body = items.length
+    ? `<div class="news-wire">${renderWireItems(items)}</div>`
+    : `<div class="news-wire__empty">News feed warming up — automated updates run every six hours.</div>`;
+
+  return `
+    <section class="page-head">
+      <div class="container">
+        <span class="eyebrow">Wire · ${items.length} ${items.length === 1 ? "story" : "stories"}${updated ? " · auto-updated" : ""}</span>
+        <h1>News Wire</h1>
+        <p>Automated headlines about freeze-dried fruit, freeze-drying technology, and the broader category. Pulled from RSS feeds every six hours, deduplicated, and sorted newest-first. Click any headline to open the original source.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        ${body}
+        ${updated ? `<p class="muted" style="font-size:12px;margin-top:32px;letter-spacing:0.1em;text-transform:uppercase">Auto-updated · ${escapeHtml(updated)}</p>` : ""}
       </div>
     </section>`;
 }
@@ -587,6 +619,7 @@ function buildSitemap({ site, articles }) {
   const urls = [
     "/",
     "/articles/",
+    "/news/",
     "/exchange/",
     "/about/",
     "/contact/",
@@ -675,6 +708,11 @@ async function build() {
     description: "How we handle information on Freeze-Dried-Fruit.com.",
     body: renderPrivacyBody({ site }), screen: "privacy",
   }));
+  await writeFilePage("news/index.html", renderPage({
+    site, mailto, currentPath: "/news/", title: "News Wire",
+    description: "Auto-updated headlines about freeze-dried fruit and freeze-drying technology.",
+    body: renderNewsBody({ news }), screen: "news",
+  }));
 
   // Feeds
   await writeFilePage("feed.xml", buildRssFeed({ site, articles }));
@@ -684,7 +722,8 @@ async function build() {
   // Static assets
   await copyTree(path.join(ROOT, "public"), DIST);
 
-  console.log(`→ build: wrote ${articles.length + cats.length + 6} pages to dist/`);
+  // home + articles-index + N categories + N articles + 5 static + 3 feeds
+  console.log(`→ build: wrote ${articles.length + cats.length + 10} pages to dist/`);
 }
 
 build().catch(err => {

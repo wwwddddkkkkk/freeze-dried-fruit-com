@@ -30,7 +30,21 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      - run: npm run build
+
+      # Auto-enables Pages on the repo if it isn't already, and exposes
+      # base_path / base_url so the build can render correct URLs under
+      # the /<repo>/ subpath (or root, if a custom domain is set).
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Build
+        run: npm run build
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
 
       # ---- GitHub Pages deploy (default target) ----
       - name: Upload Pages artifact

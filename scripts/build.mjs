@@ -20,16 +20,29 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const DIST = path.join(ROOT, "dist");
 
+// Subpath support: when GitHub Pages serves the site under
+// /freeze-dried-fruit-com/, the workflow sets BASE_PATH so internal links
+// (which are written as root-absolute /foo) get rewritten to /<base>/foo.
+// SITE_URL overrides the canonical/og:url base for the same reason.
+const BASE_PATH = (process.env.BASE_PATH || "").replace(/\/$/, "");
+
 // ---------- Helpers ----------
 
 async function readJson(p) {
   return JSON.parse(await readFile(p, "utf8"));
 }
 
-async function writeFilePage(relPath, html) {
+function applyBase(html) {
+  if (!BASE_PATH) return html;
+  // Match href="/..." and src="/..." but skip protocol-relative //example.com.
+  return html.replace(/(href|src)="\/(?!\/)/g, `$1="${BASE_PATH}/`);
+}
+
+async function writeFilePage(relPath, content) {
   const out = path.join(DIST, relPath);
   await mkdir(path.dirname(out), { recursive: true });
-  await writeFile(out, html, "utf8");
+  const final = relPath.endsWith(".html") ? applyBase(content) : content;
+  await writeFile(out, final, "utf8");
 }
 
 async function copyTree(src, dest) {
@@ -600,6 +613,7 @@ async function build() {
     readJson(path.join(ROOT, "config", "homepage.json")),
     readJson(path.join(ROOT, "content", "news", "feed.json")).catch(() => ({ items: [] })),
   ]);
+  if (process.env.SITE_URL) site.url = process.env.SITE_URL.replace(/\/$/, "");
   const mailto = buildMailto(site.email);
   const articles = await loadArticles(path.join(ROOT, "content", "articles"));
   console.log(`→ build: ${articles.length} articles loaded`);

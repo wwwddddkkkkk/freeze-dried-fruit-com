@@ -178,6 +178,23 @@ Use `Fruit Reports` only for user-requested fruit profiles or fruit-specific rep
 
 If a new category is used, confirm it fits the nav/content model in `config/site.json`.
 
+## Fruit Report Template
+
+Fruit Reports are on-demand only. When the user asks for one, write it as a serious field guide rather than a casual fruit profile.
+
+Recommended structure:
+
+1. Open with a clear editorial thesis: why this fruit matters for freeze-drying, sourcing, texture, or market positioning.
+2. Add a short "how to use this guide" paragraph for buyers, operators, and curious consumers.
+3. Include a quick comparison table when the fruit has meaningful varieties, origins, formats, or quality grades.
+4. Explain what matters technically: sugar/Brix, fiber, acidity, aroma, color, seed/skin ratio, cell structure, moisture sensitivity, breakage, or format behavior.
+5. Describe the main varieties, origins, or commercial forms with practical freeze-drying implications.
+6. Add a "quality in the finished bag" section: color, aroma, texture, breakage, powder, chew, and flavor finish.
+7. Add a sourcing reality section: seasonality, origin, pricing pressure, blends, label claims, and what buyers should ask suppliers.
+8. Close with a buyer-friendly conclusion that turns the report into a practical decision tool.
+
+Fruit Reports should feel like a magazine-quality field guide with industry utility: sensory enough to be readable, technical enough to be trusted, and cautious with claims that would need sourcing.
+
 ## Topic Pools
 
 Technical / research / process topics:

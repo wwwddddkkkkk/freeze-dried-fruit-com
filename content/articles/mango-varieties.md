@@ -6,9 +6,9 @@ cover_image: /images/articles/mango-varieties.jpg
 cover_alt: "Whole and halved ripe mangoes on a plain background"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Mangos_-_single_and_halved.jpg"
-read: "12 min read"
-summary: "Tommy Atkins, Kent, Ataulfo, Alphonso, Kesar, Nam Dok Mai, Sindhri, Carabao — they don't taste the same, freeze the same, or ship the same. A working reference for buyers comparing mango cultivars by sugar, fiber, aroma, supply, and how each behaves in a freeze-dryer."
-intro: "Tommy Atkins, Kent, Ataulfo, Alphonso, Kesar, Carabao — written on a label, they all read as \"mango.\" Inside the bag, they don't behave the same."
+read: "13 min read"
+summary: "A buyer-focused field guide to mango cultivars for freeze-drying, covering sweetness, fiber, aroma, seasonality, sourcing reality, and best-use formats."
+intro: "Tommy Atkins, Kent, Ataulfo, Alphonso, Kesar, Carabao — written on a label, they all read as \"mango.\" Inside the bag, they do not behave the same."
 takeaways:
   - "Mango cultivars vary widely in sugar, fiber, aroma, and skin behavior — all of which show up in freeze-dried form."
   - "Low-fiber, high-Brix varieties (Ataulfo, Alphonso, Kesar, Nam Dok Mai) tend to freeze-dry into the most premium snacks."
@@ -17,9 +17,27 @@ takeaways:
   - "When sourcing, ask the variety, the country, and the harvest window — not just \"mango.\""
 ---
 
-Tommy Atkins, Kent, Ataulfo, Alphonso, Kesar, Carabao — written on a label, they all read as "mango." Inside the bag, they don't behave the same. Different cultivars carry different sugar levels, different fiber loads, different aroma profiles, and different skin and stone ratios. Every one of those traits shows up in freeze-dried form.
+Tommy Atkins, Kent, Ataulfo, Alphonso, Kesar, Carabao — written on a label, they all read as "mango." Inside the bag, they do not behave the same. Different cultivars carry different sugar levels, different fiber loads, different aroma profiles, and different skin and stone ratios. Every one of those traits shows up in freeze-dried form.
 
 This is a working field guide for the most commonly sourced commercial mangoes. It's written for snack founders, ingredient buyers, and curious consumers who want to know what's actually in the bag and why one freeze-dried mango can taste like cardboard while another tastes like dessert.
+
+Use this guide less like a fruit encyclopedia and more like a sourcing tool. If you are comparing freeze-dried mango samples, the useful question is not only whether the product tastes good. It is whether the cultivar, harvest window, format, price, and label claim all make sense together.
+
+## Quick comparison: mango cultivars for freeze-drying
+
+| Cultivar | Freeze-dried personality | Fiber | Sweetness / aroma | Best use |
+| --- | --- | --- | --- | --- |
+| Tommy Atkins | Functional, mild, sometimes stringy | Higher | Moderate sweetness, restrained aroma | Budget blends, powders, lower-cost chunks |
+| Kent | Smooth, sweet, processor-friendly | Low to medium | Sweet, clean, reliable | Mid-tier snacks, cubes, chunks |
+| Keitt | Clean, consistent, late-season | Low | Sweet, mild, steady color | Cubes, slices, alternate-season supply |
+| Ataulfo | Dense, honeyed, dessert-like | Very low | High sweetness, rich aroma | Premium snacking, large slices |
+| Alphonso | Saffron-orange, intense, aromatic | Very low | Very high aroma and sweetness | Premium South Asian-style products |
+| Kesar | Balanced, aromatic, slightly brighter | Very low | Sweet with more acidity than Alphonso | Premium snacks, Alphonso blends |
+| Sindhri | Mild, sweet, clean | Low | Sweet, softer aroma | South Asian-market snacks, ingredient streams |
+| Nam Dok Mai | Floral, soft yellow, elegant | Low | High sweetness, floral aroma | Thai-origin slices and chunks |
+| Carabao | Very sweet, tropical, aromatic | Low | High sweetness, clean tropical aroma | Premium Asian-market mango snacks |
+
+The table is deliberately practical, not botanical. A buyer choosing mango for freeze-drying is usually trying to predict texture, color, aroma, breakage, cost, and whether the product will still taste like mango after water is removed.
 
 ## Why variety matters in freeze-drying
 
@@ -73,7 +91,7 @@ Beyond the supermarket four, a small group of regional cultivars dominate premiu
 
 Often called the "King of Mangoes." Grown almost exclusively in Maharashtra, India. Saffron-orange flesh, very high Brix, a heady aroma layered with notes of peach, citrus, and resin. Fiber is essentially nil. Season is brutally short — typically April through June.
 
-Alphonso is the gold standard for freeze-dried mango in South Asian markets and increasingly in premium Western snack lines. The product is unmistakable: bright orange, intensely aromatic, melt-in-mouth. Pricing is the catch. True Alphonso is two to three times the cost of Tommy Atkins, and adulteration with cheaper Indian cultivars is common at lower price points.
+Alphonso is a gold standard for freeze-dried mango in South Asian markets and increasingly in premium Western snack lines. The product is unmistakable: bright orange, intensely aromatic, melt-in-mouth. Pricing is the catch. True Alphonso is typically much more expensive than commodity mango inputs, and lower-cost products may blend it with cheaper Indian cultivars while still leaning on the Alphonso halo.
 
 ### Kesar
 
@@ -101,7 +119,7 @@ Nam Dok Mai freeze-dries into a soft yellow product with strong floral notes. It
 
 ### Carabao (Manila, Philippine)
 
-Internationally recognized for its sweetness — at one point the Carabao mango held a Guinness record for "sweetest mango." Yellow-green skin, deep yellow flesh, very high Brix, low fiber, and a clean tropical aroma.
+Internationally recognized for its sweetness, Carabao has a reputation as one of the world's sweetest commercial mangoes. Yellow-green skin, deep yellow flesh, very high Brix, low fiber, and a clean tropical aroma.
 
 Freeze-dried Carabao is intensely sweet and aromatic. The Philippines exports both fresh and freeze-dried Carabao globally, and it's a common premium origin for Asian-market freeze-dried mango.
 
@@ -132,6 +150,18 @@ Different cultivars suit different freeze-dried formats. A few rules of thumb:
 - **Crumbles and powders** — fiber matters less because particle size masks it. Tommy Atkins and Palmer often appear here.
 - **Premium snacking bags marketed on flavor** — Ataulfo, Alphonso, Kesar, Carabao. These cultivars drive most of the "tastes like real mango" reviews.
 
+## What quality looks like in the finished bag
+
+Variety is not the only driver of quality, but it sets the ceiling. A strong freeze-dried mango sample usually has a few visible traits:
+
+- **Color that matches the cultivar** rather than a dull beige cast.
+- **Aroma that appears before the first bite** instead of only after chewing.
+- **Clean breakage** without excessive powder at the bottom of the pouch.
+- **Low stringiness** in slices and chunks.
+- **A finish that tastes like mango, not only sugar.**
+
+For processors, this is where the fruit report becomes practical. The cultivar tells you what the sample is capable of. The finished bag tells you whether sourcing, ripeness, cutting, drying, handling, and packaging protected that potential.
+
 ## Sourcing reality
 
 Cultivar availability is shaped less by buyer preference than by **season, origin, and currency**.
@@ -157,6 +187,12 @@ A "year-round" freeze-dried mango product almost always blends multiple cultivar
 ::: note "Sourcing checklist"
 When evaluating a mango supplier, ask: Which cultivar (not just "mango")? Which country and growing region? Which harvest window? Is the product single-cultivar or a blend? If a blend, what's the ratio? What's the typical Brix at intake? What's the fiber spec? Is the variety changing across the year?
 :::
+
+## The buyer's short list
+
+For a premium standalone freeze-dried mango, start with Ataulfo, Alphonso, Kesar, Nam Dok Mai, Carabao, Kent, or Keitt. For a value product, Tommy Atkins, Palmer, or blended mango may be acceptable, but the format matters: smaller pieces, crumbles, powders, or mixed fruit blends can hide some of the texture limits.
+
+For an ingredient buyer, the smartest sample request is not one bag. Ask for the same format across at least two cultivars or origins. Compare color, aroma, fiber, powder at the bottom of the bag, and texture after the package sits open for a short period. The differences will usually be obvious.
 
 ## How to read a freeze-dried mango label
 

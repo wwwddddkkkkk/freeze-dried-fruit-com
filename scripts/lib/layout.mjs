@@ -143,6 +143,7 @@ export function renderPage({ site, mailto, currentPath, title, description, body
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="${FONTS_HREF}" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css?v=${BUILD_VERSION}">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="alternate" type="application/rss+xml" title="Freeze-Dried-Fruit.com Articles" href="/feed.xml">
 </head>
 <body>

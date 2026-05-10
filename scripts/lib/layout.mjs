@@ -55,7 +55,7 @@ function renderHeader({ site, mailto, currentPath }) {
     <div class="container">
       <div class="site-header__top">
         <div class="site-header__top-left">
-          <button class="utility-btn" type="button" data-menu-toggle aria-expanded="false" aria-controls="primary-nav">${Icons.menu} Menu</button>
+          <button class="utility-btn" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-menu">${Icons.menu} Menu</button>
           <button class="utility-btn utility-btn--search" type="button" data-search-toggle aria-expanded="false" aria-controls="site-search">Search ${Icons.search}</button>
         </div>
         <div class="site-header__top-right">
@@ -63,13 +63,26 @@ function renderHeader({ site, mailto, currentPath }) {
         </div>
       </div>
 
-      <form class="site-search" id="site-search" role="search" action="https://www.google.com/search" method="get" hidden>
+      <div class="site-menu" id="site-menu" hidden>
+        <div class="site-menu__grid">
+          <a href="/">Home</a>
+          <a href="/articles/">All Articles</a>
+          <a href="/news/">News Wire</a>
+          <a href="/exchange/">Industry Exchange</a>
+          <a href="/about/">About</a>
+          <a href="/contact/">Contact</a>
+          <a href="/privacy/">Privacy Policy</a>
+          <a href="${mailto.notes}">Industry Notes</a>
+        </div>
+      </div>
+
+      <form class="site-search" id="site-search" role="search" action="/search/" method="get" hidden>
         <label class="site-search__label" for="site-search-input">Search Freeze-Dried-Fruit.com</label>
         <div class="site-search__row">
           <input id="site-search-input" name="q" type="search" placeholder="Search articles, moisture, mango, suppliers..." autocomplete="off">
           <button class="btn btn-primary" type="submit">Search</button>
         </div>
-        <p class="site-search__hint">Search opens Google results limited to Freeze-Dried-Fruit.com.</p>
+        <p class="site-search__hint">Search articles on this site.</p>
       </form>
 
       <div class="masthead">
@@ -139,11 +152,13 @@ function headerScript() {
 
   var menuButton = header.querySelector('[data-menu-toggle]');
   var searchButton = header.querySelector('[data-search-toggle]');
+  var menuPanel = header.querySelector('#site-menu');
   var searchForm = header.querySelector('#site-search');
   var searchInput = header.querySelector('#site-search-input');
 
   function setMenu(open) {
     header.classList.toggle('site-header--menu-open', open);
+    if (menuPanel) menuPanel.hidden = !open;
     if (menuButton) menuButton.setAttribute('aria-expanded', String(open));
   }
 
@@ -175,13 +190,14 @@ function headerScript() {
         searchInput.focus();
         return;
       }
-      event.preventDefault();
-      window.location.href = 'https://www.google.com/search?q=' + encodeURIComponent('site:freeze-dried-fruit.com ' + query);
     });
   }
 
   document.addEventListener('keydown', function (event) {
-    if (event.key === 'Escape') setSearch(false);
+    if (event.key === 'Escape') {
+      setMenu(false);
+      setSearch(false);
+    }
   });
 })();
 </script>`;

@@ -617,6 +617,97 @@ function renderPrivacyBody({ site }) {
     </section>`;
 }
 
+function renderSearchBody({ articles }) {
+  const data = articles.map(a => ({
+    title: a.title,
+    category: a.category,
+    summary: a.summary,
+    intro: a.intro,
+    url: articleUrl(a.id),
+    date: a.dateLabel,
+    takeaways: a.takeaways || [],
+  }));
+  const json = JSON.stringify(data).replace(/</g, "\\u003c");
+
+  return `
+    <section class="page-head">
+      <div class="container">
+        <span class="eyebrow">Search · Freeze-Dried-Fruit.com</span>
+        <h1>Search the Field Guide</h1>
+        <p>Search articles, fruit reports, quality notes, technology explainers, buyer guides, and packaging topics published on this site.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <form class="search-panel" role="search" action="/search/" method="get">
+          <label class="site-search__label" for="search-page-input">Search articles</label>
+          <div class="search-panel__row">
+            <input id="search-page-input" name="q" type="search" placeholder="Try moisture, mango, supplier, packaging..." autocomplete="off">
+            <button class="btn btn-primary" type="submit">Search</button>
+          </div>
+        </form>
+        <div id="searchSummary" class="eyebrow" style="margin-bottom:16px"></div>
+        <div id="searchResults" class="search-results"></div>
+      </div>
+    </section>
+    <script type="application/json" id="search-data">${json}</script>
+    <script>
+(function () {
+  var input = document.getElementById('search-page-input');
+  var results = document.getElementById('searchResults');
+  var summary = document.getElementById('searchSummary');
+  var dataNode = document.getElementById('search-data');
+  var data = dataNode ? JSON.parse(dataNode.textContent) : [];
+
+  function escapeHtml(value) {
+    return String(value || '').replace(/[&<>"']/g, function (ch) {
+      return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[ch];
+    });
+  }
+
+  function searchable(article) {
+    return [
+      article.title,
+      article.category,
+      article.summary,
+      article.intro,
+      article.date,
+      (article.takeaways || []).join(' ')
+    ].join(' ').toLowerCase();
+  }
+
+  function render(query) {
+    var q = query.trim().toLowerCase();
+    var matches = q
+      ? data.filter(function (article) { return searchable(article).includes(q); })
+      : data;
+
+    summary.textContent = q
+      ? matches.length + ' result' + (matches.length === 1 ? '' : 's') + ' for "' + query.trim() + '"'
+      : 'Latest articles';
+
+    if (!matches.length) {
+      results.innerHTML = '<div class="search-empty">No matching articles yet. Try a broader term like moisture, fruit, packaging, supplier, or quality.</div>';
+      return;
+    }
+
+    results.innerHTML = matches.map(function (article) {
+      return '<a class="search-result" href="' + escapeHtml(article.url) + '">' +
+        '<div class="search-result__cat">' + escapeHtml(article.category) + (article.date ? ' · ' + escapeHtml(article.date) : '') + '</div>' +
+        '<h2>' + escapeHtml(article.title) + '</h2>' +
+        '<p>' + escapeHtml(article.summary || article.intro || '') + '</p>' +
+      '</a>';
+    }).join('');
+  }
+
+  var params = new URLSearchParams(window.location.search);
+  var initial = params.get('q') || '';
+  if (input) input.value = initial;
+  render(initial);
+})();
+    </script>`;
+}
+
 // ---------- RSS feed for the site itself ----------
 function buildRssFeed({ site, articles }) {
   const items = articles.slice(0, 20).map(a => `
@@ -644,6 +735,7 @@ function buildSitemap({ site, articles }) {
     "/",
     "/articles/",
     "/news/",
+    "/search/",
     "/exchange/",
     "/about/",
     "/contact/",
@@ -741,6 +833,11 @@ async function build() {
     description: "Auto-updated headlines about freeze-dried fruit and freeze-drying technology.",
     body: renderNewsBody({ news }), screen: "news",
   }));
+  await writeFilePage("search/index.html", renderPage({
+    site, mailto, currentPath: "/search/", title: "Search",
+    description: "Search Freeze-Dried-Fruit.com articles and field guide topics.",
+    body: renderSearchBody({ articles }), screen: "search",
+  }));
 
   // Feeds
   await writeFilePage("feed.xml", buildRssFeed({ site, articles }));
@@ -750,8 +847,8 @@ async function build() {
   // Static assets
   await copyTree(path.join(ROOT, "public"), DIST);
 
-  // home + articles-index + N categories + N articles + 5 static + 3 feeds
-  console.log(`→ build: wrote ${articles.length + cats.length + 10} pages to dist/`);
+  // home + articles-index + N categories + N articles + 6 static + 3 feeds
+  console.log(`→ build: wrote ${articles.length + cats.length + 11} pages to dist/`);
 }
 
 build().catch(err => {

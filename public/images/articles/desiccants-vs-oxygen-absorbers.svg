@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Desiccants versus oxygen absorbers for freeze-dried fruit</title>
+  <desc id="desc">A packaging diagram showing different protection roles for moisture and oxygen packets.</desc>
+  <rect width="1200" height="680" fill="#f5f1e8"/>
+  <rect x="78" y="72" width="1044" height="536" rx="34" fill="#fffdf8" stroke="#d6cebd" stroke-width="2"/>
+  <text x="116" y="128" fill="#21352f" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700">One pouch, two different protection jobs</text>
+  <text x="116" y="166" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="17">Desiccants manage moisture. Oxygen absorbers manage oxygen.</text>
+
+  <g transform="translate(140 214)">
+    <path d="M136 0h232c34 0 62 28 62 62v272c0 34-28 62-62 62H136c-34 0-62-28-62-62V62c0-34 28-62 62-62Z" fill="#eef6f1" stroke="#b9d2c5" stroke-width="2"/>
+    <path d="M112 54h282" stroke="#b9d2c5" stroke-width="2"/>
+    <path d="M168 120c36-30 80-30 116 0s80 30 116 0" fill="none" stroke="#83b89f" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="194" cy="196" r="22" fill="#e6b06f"/>
+    <circle cx="264" cy="226" r="18" fill="#c86557"/>
+    <circle cx="334" cy="188" r="20" fill="#d99564"/>
+    <rect x="166" y="286" width="172" height="54" rx="14" fill="#fffdf8" stroke="#d6cebd"/>
+    <text x="193" y="319" fill="#21352f" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">FRUIT POUCH</text>
+  </g>
+
+  <g transform="translate(116 536)">
+    <rect width="438" height="44" rx="22" fill="#21352f"/>
+    <text x="28" y="29" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Main texture risk: humidity pickup</text>
+  </g>
+
+  <g transform="translate(646 232)">
+    <rect width="392" height="132" rx="22" fill="#f7fbf8" stroke="#c9d8cf"/>
+    <text x="28" y="42" fill="#21352f" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Desiccant</text>
+    <text x="28" y="75" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="15">Captures moisture to help protect crunch</text>
+    <g transform="translate(282 30)" fill="none" stroke="#7aa58f" stroke-width="3" stroke-linecap="round">
+      <path d="M16 48c18-24 18-38 0-62C-2 10-2 24 16 48Z" fill="#cfe5da"/>
+      <path d="M56 48c18-24 18-38 0-62-18 24-18 38 0 62Z" fill="#cfe5da"/>
+    </g>
+  </g>
+
+  <g transform="translate(646 398)">
+    <rect width="392" height="132" rx="22" fill="#fff8ee" stroke="#dfcdae"/>
+    <text x="28" y="42" fill="#21352f" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Oxygen absorber</text>
+    <text x="28" y="75" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="15">Reduces oxygen to support color and aroma</text>
+    <g transform="translate(292 34)">
+      <circle cx="0" cy="24" r="16" fill="#e6b06f"/>
+      <circle cx="42" cy="24" r="16" fill="#e6b06f"/>
+      <text x="-11" y="30" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">O</text>
+      <text x="31" y="30" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">O</text>
+      <path d="M82 24h44" stroke="#b98b5b" stroke-width="4" stroke-linecap="round"/>
+      <path d="M114 10l14 14-14 14" fill="none" stroke="#b98b5b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+  </g>
+</svg>

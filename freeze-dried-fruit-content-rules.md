@@ -11,12 +11,15 @@ Default daily output:
 - 3 articles per day
 - 2 industry / research / technical articles
 - 1 consumer-facing article
+- 0 Fruit Reports unless specifically requested by the user
 
 Recommended daily split:
 
 - Technical article 1: process, science, packaging, moisture, water activity, defects, equipment, or quality control
 - Technical article 2: buyer, supplier, pricing, standards, sourcing, commercial use, or industry trend
 - Consumer article: fruit variety, taste, texture, storage, toppings, snack use, or practical shopping question
+
+Fruit Reports are not part of the daily automation. Only write a Fruit Report when the user explicitly asks for one, such as a specific mango, dragon fruit, mangosteen, jackfruit, jujube, berry, or other fruit profile/report.
 
 Avoid duplicate topics by checking `content/articles/*.md` before writing.
 
@@ -171,6 +174,8 @@ Preferred categories:
 - `Buyer Guides`
 - `Applications`
 
+Use `Fruit Reports` only for user-requested fruit profiles or fruit-specific reports. Daily automation should avoid this category and choose from `Technology`, `Industry Insights`, `Labels & Quality`, `Quality & Pricing`, `Packaging & Shelf Life`, `Buyer Guides`, or `Applications`.
+
 If a new category is used, confirm it fits the nav/content model in `config/site.json`.
 
 ## Topic Pools
@@ -266,8 +271,8 @@ Daily automation should:
 2. Read this rules file and existing `content/articles/*.md`.
 3. Create 2 technical/industry articles with custom SVG covers.
 4. Create 1 consumer-facing article with a selected local photo when available.
-5. Update `used-hero-images.json` for any reused-source photo selected as cover.
-6. Run `npm run build`.
-7. Commit the new Markdown, SVG/photo assets, and usage log.
-8. Attempt push if network allows. If Codex cannot push, the Mac LaunchAgent can push later.
-
+5. Do not create Fruit Reports during daily automation.
+6. Update `used-hero-images.json` for any reused-source photo selected as cover.
+7. Run `npm run build`.
+8. Commit the new Markdown, SVG/photo assets, and usage log.
+9. Attempt push if network allows. If Codex cannot push, the Mac LaunchAgent can push later.

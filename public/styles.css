@@ -296,7 +296,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
 .home-hero__media {
   background: var(--bg-soft);
   border-radius: 4px;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 9;
   position: relative;
   overflow: hidden;
   margin-bottom: 24px;
@@ -445,7 +445,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
 .feat-side__img {
   background: var(--bg-soft);
   border-radius: 4px;
-  aspect-ratio: 5 / 3;
+  aspect-ratio: 16 / 9;
   margin: 0 0 14px;
   overflow: hidden;
   position: relative;
@@ -517,7 +517,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
 .latest__img {
   background: var(--bg-soft);
   border-radius: 4px;
-  aspect-ratio: 5 / 3;
+  aspect-ratio: 16 / 9;
   position: relative;
   overflow: hidden;
   transition: transform .3s ease;
@@ -744,7 +744,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
 .list__img {
   background: var(--bg-soft);
   border-radius: 4px;
-  aspect-ratio: 5 / 3;
+  aspect-ratio: 16 / 9;
   position: relative;
   overflow: hidden;
   transition: transform .3s ease;
@@ -827,7 +827,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
 
 .article-cover {
   background: var(--bg-soft);
-  aspect-ratio: 21 / 9;
+  aspect-ratio: 16 / 9;
   margin: 32px 0 48px;
   position: relative;
   overflow: hidden;
@@ -995,7 +995,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
 .related__img {
   background: var(--bg-soft);
   border-radius: 4px;
-  aspect-ratio: 5 / 3;
+  aspect-ratio: 16 / 9;
   margin-bottom: 14px;
   position: relative;
   overflow: hidden;

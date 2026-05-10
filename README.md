@@ -179,4 +179,8 @@ cover_credit_url: "https://commons.wikimedia.org/wiki/File:Mangos_-_single_and_h
 
 **Recommended mix:** roughly 60% clean SVG diagrams (industry/process) and 40% real food photos (variety/product/consumer) so the homepage reads like a modern food publication.
 
-**Image sizing:** ship roughly 1600px wide (covers render at up to ~800px on desktop) and ≤300KB for fast loads. JPEG quality 80–85 is a good baseline; WebP saves more if you can produce it.
+**Image sizing:** every cover wrapper is 16:9, so deliver photos at **1600×900** (or any 16:9 multiple) and `object-fit: cover` won't crop anything. Aim for ≤300KB; JPEG quality 80–85 is a good baseline, WebP saves more if you can produce it. To re-crop a photo to 16:9 quickly:
+
+```bash
+sips -c 900 1600 input.jpg --out cover.jpg     # macOS, in-place crop centered
+```

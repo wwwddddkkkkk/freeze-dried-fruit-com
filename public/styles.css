@@ -105,6 +105,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   font-weight: 500;
 }
 .utility-btn:hover { background: var(--ink); color: #fff; }
+.utility-btn[aria-expanded="true"] { background: var(--ink); color: #fff; }
 .utility-btn--search { padding-right: 64px; min-width: 280px; }
 .utility-btn--search svg { margin-left: auto; position: relative; right: -48px; }
 
@@ -120,6 +121,46 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   gap: 8px;
 }
 .site-header__top-right a:hover { color: var(--mint-deep); }
+
+.site-search {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+.site-search[hidden] { display: none; }
+.site-search__label {
+  display: block;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.site-search__row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 10px;
+}
+.site-search input {
+  width: 100%;
+  border: 1px solid var(--ink);
+  border-radius: 2px;
+  min-height: 46px;
+  padding: 0 14px;
+  font: 500 16px var(--sans);
+  color: var(--ink);
+  background: #fff;
+}
+.site-search input:focus {
+  outline: 3px solid rgba(60, 207, 161, 0.28);
+  outline-offset: 1px;
+}
+.site-search__hint {
+  margin: 8px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+}
 
 .masthead {
   padding: 32px 0 24px;
@@ -1184,8 +1225,60 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   .utility-btn--search { min-width: 200px; }
 }
 @media (max-width: 880px) {
+  .container { padding: 0 20px; }
+  .site-header__top {
+    display: flex;
+    align-items: stretch;
+    gap: 10px;
+    padding: 12px 0;
+  }
+  .site-header__top-left {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .utility-btn {
+    width: 100%;
+    justify-content: center;
+    min-height: 42px;
+    padding: 8px 12px;
+  }
+  .utility-btn--search {
+    min-width: 0;
+    padding-right: 12px;
+  }
+  .utility-btn--search svg {
+    margin-left: 0;
+    right: auto;
+  }
+  .site-header__top-right { display: none; }
+  .site-search { padding: 12px 0 16px; }
+  .site-search__row { grid-template-columns: 1fr; }
   .masthead { flex-direction: column; align-items: flex-start; gap: 12px; }
   .masthead__tag { text-align: left; }
+  .nav-strip { display: none; padding: 12px 0; }
+  .site-header--menu-open .nav-strip { display: block; }
+  .nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    align-items: stretch;
+  }
+  .nav__quick {
+    margin: 0 0 4px;
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .nav a {
+    display: block;
+    padding: 10px 0;
+    border-top: 1px solid var(--line);
+  }
+  .nav a.active::before { display: none; }
   .exchange { grid-template-columns: 1fr; padding: 48px 32px; }
   .footer__grid { grid-template-columns: 1fr 1fr; }
   .newsletter { grid-template-columns: 1fr; }
@@ -1195,14 +1288,15 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   .who-list { grid-template-columns: 1fr 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
   .stats { grid-template-columns: repeat(2, 1fr); }
-  .site-header__top { display: none; }
   .latest__item { grid-template-columns: 120px 1fr; gap: 16px; }
 }
 @media (max-width: 600px) {
   .section { padding: 48px 0; }
   .who-list { grid-template-columns: 1fr; }
   .footer__grid { grid-template-columns: 1fr; gap: 32px; }
-  .nav { font-size: 14px; gap: 16px; }
+  .nav { font-size: 14px; }
+  .wordmark { font-size: clamp(24px, 8vw, 34px); }
+  .wordmark__dot { width: 8px; height: 8px; }
 }
 
 /* ---------- News wire (auto-updated) ---------- */
@@ -1256,4 +1350,3 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
 
 /* Anchor offset so in-page links don't tuck under the masthead */
 :target { scroll-margin-top: 24px; }
-

@@ -55,13 +55,22 @@ function renderHeader({ site, mailto, currentPath }) {
     <div class="container">
       <div class="site-header__top">
         <div class="site-header__top-left">
-          <button class="utility-btn" type="button">${Icons.menu} Menu</button>
-          <button class="utility-btn utility-btn--search" type="button">Search ${Icons.search}</button>
+          <button class="utility-btn" type="button" data-menu-toggle aria-expanded="false" aria-controls="primary-nav">${Icons.menu} Menu</button>
+          <button class="utility-btn utility-btn--search" type="button" data-search-toggle aria-expanded="false" aria-controls="site-search">Search ${Icons.search}</button>
         </div>
         <div class="site-header__top-right">
           <a href="${mailto.notes}">Sign Up for Industry Notes</a>
         </div>
       </div>
+
+      <form class="site-search" id="site-search" role="search" action="https://www.google.com/search" method="get" hidden>
+        <label class="site-search__label" for="site-search-input">Search Freeze-Dried-Fruit.com</label>
+        <div class="site-search__row">
+          <input id="site-search-input" name="q" type="search" placeholder="Search articles, moisture, mango, suppliers..." autocomplete="off">
+          <button class="btn btn-primary" type="submit">Search</button>
+        </div>
+        <p class="site-search__hint">Search opens Google results limited to Freeze-Dried-Fruit.com.</p>
+      </form>
 
       <div class="masthead">
         <a href="/" class="wordmark">Freeze-Dried-Fruit<span class="wordmark__dot"></span><span class="wordmark__suffix">com</span></a>
@@ -69,7 +78,7 @@ function renderHeader({ site, mailto, currentPath }) {
       </div>
 
       <div class="nav-strip">
-        <nav class="nav">
+        <nav class="nav" id="primary-nav">
           <span class="nav__quick">Sections:</span>
           ${navHtml}
         </nav>
@@ -122,6 +131,62 @@ function renderFooter({ site, mailto }) {
   </footer>`;
 }
 
+function headerScript() {
+  return `<script>
+(function () {
+  var header = document.querySelector('.site-header');
+  if (!header) return;
+
+  var menuButton = header.querySelector('[data-menu-toggle]');
+  var searchButton = header.querySelector('[data-search-toggle]');
+  var searchForm = header.querySelector('#site-search');
+  var searchInput = header.querySelector('#site-search-input');
+
+  function setMenu(open) {
+    header.classList.toggle('site-header--menu-open', open);
+    if (menuButton) menuButton.setAttribute('aria-expanded', String(open));
+  }
+
+  function setSearch(open) {
+    header.classList.toggle('site-header--search-open', open);
+    if (searchForm) searchForm.hidden = !open;
+    if (searchButton) searchButton.setAttribute('aria-expanded', String(open));
+    if (open && searchInput) setTimeout(function () { searchInput.focus(); }, 30);
+  }
+
+  if (menuButton) {
+    menuButton.addEventListener('click', function () {
+      setMenu(!header.classList.contains('site-header--menu-open'));
+    });
+  }
+
+  if (searchButton) {
+    searchButton.addEventListener('click', function () {
+      setSearch(!header.classList.contains('site-header--search-open'));
+    });
+  }
+
+  if (searchForm) {
+    searchForm.addEventListener('submit', function (event) {
+      if (!searchInput) return;
+      var query = searchInput.value.trim();
+      if (!query) {
+        event.preventDefault();
+        searchInput.focus();
+        return;
+      }
+      event.preventDefault();
+      window.location.href = 'https://www.google.com/search?q=' + encodeURIComponent('site:freeze-dried-fruit.com ' + query);
+    });
+  }
+
+  document.addEventListener('keydown', function (event) {
+    if (event.key === 'Escape') setSearch(false);
+  });
+})();
+</script>`;
+}
+
 // Wraps a page body with shared <head>, header, footer.
 export function renderPage({ site, mailto, currentPath, title, description, body, screen }) {
   const pageTitle = title ? `${title} — Freeze-Dried-Fruit.com` : site.title;
@@ -150,6 +215,7 @@ export function renderPage({ site, mailto, currentPath, title, description, body
 ${renderHeader({ site, mailto, currentPath })}
 <main data-screen-label="${screen || ""}">${body}</main>
 ${renderFooter({ site, mailto })}
+${headerScript()}
 </body>
 </html>`;
 }

@@ -4,6 +4,12 @@ import { Icons } from "./icons.mjs";
 const FONTS_HREF =
   "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap";
 
+// Build-time stamp appended to /styles.css as a query string so the long
+// browser cache (max-age 86400 in _headers) invalidates the moment the CSS
+// changes. The query string is identical for every page in a single build,
+// then bumps on the next build.
+const BUILD_VERSION = Date.now().toString(36);
+
 export function escapeHtml(s) {
   return String(s ?? "")
     .replace(/&/g, "&amp;")
@@ -136,7 +142,7 @@ export function renderPage({ site, mailto, currentPath, title, description, body
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="${FONTS_HREF}" rel="stylesheet">
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="/styles.css?v=${BUILD_VERSION}">
 <link rel="alternate" type="application/rss+xml" title="Freeze-Dried-Fruit.com Articles" href="/feed.xml">
 </head>
 <body>

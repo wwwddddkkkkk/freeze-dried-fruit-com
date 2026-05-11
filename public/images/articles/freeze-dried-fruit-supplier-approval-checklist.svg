@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Freeze-dried fruit supplier approval checklist</title>
+  <desc id="desc">A buyer scorecard diagram covering technical control, product quality, packaging, and commercial fit for supplier approval.</desc>
+  <rect width="1200" height="680" fill="#f5f1e8"/>
+  <rect x="76" y="72" width="1048" height="536" rx="34" fill="#fffdf8" stroke="#d8d0bf" stroke-width="2"/>
+  <text x="116" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Approve the supplier, not only the sample</text>
+  <text x="116" y="166" fill="#69736d" font-family="Inter, Arial, sans-serif" font-size="17">A strong buying decision combines technical evidence, packaging fit, and commercial reliability.</text>
+
+  <g transform="translate(116 216)">
+    <rect width="970" height="300" rx="26" fill="#f7f3ea" stroke="#d8d0bf"/>
+    <line x1="240" y1="0" x2="240" y2="300" stroke="#d8d0bf"/>
+    <line x1="486" y1="0" x2="486" y2="300" stroke="#d8d0bf"/>
+    <line x1="728" y1="0" x2="728" y2="300" stroke="#d8d0bf"/>
+    <line x1="0" y1="76" x2="970" y2="76" stroke="#d8d0bf"/>
+    <line x1="0" y1="150" x2="970" y2="150" stroke="#d8d0bf"/>
+    <line x1="0" y1="224" x2="970" y2="224" stroke="#d8d0bf"/>
+
+    <text x="26" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Technical control</text>
+    <text x="266" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Finished quality</text>
+    <text x="512" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Packaging fit</text>
+    <text x="754" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Commercial fit</text>
+
+    <text x="26" y="108" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">spec sheet</text>
+    <text x="26" y="130" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">moisture / aw target</text>
+    <text x="266" y="108" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">color and aroma</text>
+    <text x="266" y="130" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">breakage tolerance</text>
+    <text x="512" y="108" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">film structure</text>
+    <text x="512" y="130" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">reopen risk</text>
+    <text x="754" y="108" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">MOQ and lead time</text>
+    <text x="754" y="130" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">docs and claims</text>
+
+    <text x="26" y="182" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">origin policy</text>
+    <text x="26" y="204" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">lot repeatability</text>
+    <text x="266" y="182" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">piece size match</text>
+    <text x="266" y="204" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">powder at bag bottom</text>
+    <text x="512" y="182" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">seal validation</text>
+    <text x="512" y="204" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">shipping conditions</text>
+    <text x="754" y="182" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">private label support</text>
+    <text x="754" y="204" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">complaint response</text>
+
+    <text x="26" y="256" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">sample from multiple lots</text>
+    <text x="266" y="256" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">taste + texture after opening</text>
+    <text x="512" y="256" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">desiccant logic</text>
+    <text x="754" y="256" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">launch cadence fit</text>
+  </g>
+
+  <g transform="translate(116 538)">
+    <rect width="970" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Approval shortcut: score repeatability, spec discipline, packaging logic, and execution before price dominates.</text>
+  </g>
+</svg>

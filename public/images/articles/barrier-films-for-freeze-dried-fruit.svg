@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Barrier film selection for freeze-dried fruit packaging</title>
+  <desc id="desc">A field-guide style diagram showing pouch layers, humidity path, and a film selection matrix for freeze-dried fruit.</desc>
+  <rect width="1200" height="680" fill="#f6f2e9"/>
+  <rect x="76" y="72" width="1048" height="536" rx="34" fill="#fffdf8" stroke="#d7cfbf" stroke-width="2"/>
+  <text x="116" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Barrier films do the heavy lifting before any packet does</text>
+  <text x="116" y="166" fill="#68736b" font-family="Inter, Arial, sans-serif" font-size="17">Match the pouch structure to humidity risk, oxygen sensitivity, and opening pattern.</text>
+
+  <g transform="translate(118 220)">
+    <rect width="432" height="274" rx="24" fill="#edf5f0" stroke="#c3d6cb"/>
+    <text x="28" y="46" fill="#203b34" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Pouch cross-section</text>
+    <text x="28" y="76" fill="#68736b" font-family="Inter, Arial, sans-serif" font-size="14">Outer print layer, barrier layer, sealant, then product space</text>
+    <g transform="translate(50 116)">
+      <rect x="0" y="0" width="44" height="122" rx="10" fill="#d6c3a4"/>
+      <rect x="44" y="0" width="68" height="122" rx="10" fill="#8eae9f"/>
+      <rect x="112" y="0" width="54" height="122" rx="10" fill="#f0dfc1"/>
+      <rect x="206" y="18" width="146" height="88" rx="18" fill="#fffdf8" stroke="#c3d6cb"/>
+      <circle cx="242" cy="62" r="14" fill="#d06f5d"/>
+      <circle cx="280" cy="80" r="16" fill="#e2a55c"/>
+      <circle cx="314" cy="56" r="13" fill="#c8a15e"/>
+      <text x="8" y="148" fill="#44554f" font-family="Inter, Arial, sans-serif" font-size="13">print</text>
+      <text x="54" y="148" fill="#44554f" font-family="Inter, Arial, sans-serif" font-size="13">barrier</text>
+      <text x="118" y="148" fill="#44554f" font-family="Inter, Arial, sans-serif" font-size="13">sealant</text>
+      <text x="210" y="148" fill="#44554f" font-family="Inter, Arial, sans-serif" font-size="13">product</text>
+      <path d="M382 26c18 16 28 30 28 44s-10 28-28 44" fill="none" stroke="#82a996" stroke-width="4" stroke-linecap="round"/>
+      <path d="M354 24h16M354 110h16" stroke="#82a996" stroke-width="4" stroke-linecap="round"/>
+      <text x="292" y="190" fill="#203b34" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Humidity path gets harder here</text>
+    </g>
+  </g>
+
+  <g transform="translate(624 220)">
+    <rect width="462" height="274" rx="24" fill="#f5efe4" stroke="#d7cfbf"/>
+    <text x="28" y="46" fill="#203b34" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Selection matrix</text>
+    <text x="28" y="76" fill="#68736b" font-family="Inter, Arial, sans-serif" font-size="14">Choose protection by pack use, not only by material cost</text>
+    <g transform="translate(28 108)">
+      <rect width="402" height="38" rx="12" fill="#fffdf8" stroke="#d7cfbf"/>
+      <rect y="52" width="402" height="38" rx="12" fill="#fffdf8" stroke="#d7cfbf"/>
+      <rect y="104" width="402" height="38" rx="12" fill="#fffdf8" stroke="#d7cfbf"/>
+      <text x="18" y="24" fill="#203b34" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">single-serve</text>
+      <text x="180" y="24" fill="#68736b" font-family="Inter, Arial, sans-serif" font-size="14">lower reopen risk</text>
+      <text x="320" y="24" fill="#203b34" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">moderate barrier</text>
+      <text x="18" y="76" fill="#203b34" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">resealable pouch</text>
+      <text x="180" y="76" fill="#68736b" font-family="Inter, Arial, sans-serif" font-size="14">daily reopen risk</text>
+      <text x="322" y="76" fill="#203b34" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">strong barrier</text>
+      <text x="18" y="128" fill="#203b34" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">bulk ingredient bag</text>
+      <text x="180" y="128" fill="#68736b" font-family="Inter, Arial, sans-serif" font-size="14">handling + humidity</text>
+      <text x="302" y="128" fill="#203b34" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">system review</text>
+    </g>
+  </g>
+
+  <g transform="translate(118 538)">
+    <rect width="968" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Buyer note: ask for structure, barrier logic, seal validation, and real storage testing.</text>
+  </g>
+</svg>

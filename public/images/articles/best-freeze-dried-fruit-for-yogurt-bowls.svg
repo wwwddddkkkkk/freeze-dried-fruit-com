@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Best freeze-dried fruit for yogurt bowls</title>
+  <desc id="desc">A field-guide style yogurt bowl illustration labeling different freeze-dried fruit topping roles for crunch, color, and sweetness.</desc>
+  <rect width="1200" height="680" fill="#f7f2e8"/>
+  <rect x="76" y="72" width="1048" height="536" rx="34" fill="#fffdf8" stroke="#d8d0bf" stroke-width="2"/>
+  <text x="116" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">A yogurt bowl works best when the fruit role is clear</text>
+  <text x="116" y="166" fill="#69736d" font-family="Inter, Arial, sans-serif" font-size="17">Choose toppings for crunch, color, sweetness, or full-bowl flavor coverage.</text>
+
+  <g transform="translate(132 220)">
+    <ellipse cx="408" cy="196" rx="246" ry="84" fill="#e6d8c5"/>
+    <ellipse cx="408" cy="182" rx="246" ry="84" fill="#fffdf8" stroke="#d6c9b6" stroke-width="2"/>
+    <ellipse cx="408" cy="172" rx="214" ry="58" fill="#f5f1ea"/>
+
+    <circle cx="306" cy="148" r="24" fill="#cf6f5d"/>
+    <circle cx="348" cy="198" r="18" fill="#7b8db6"/>
+    <circle cx="394" cy="154" r="20" fill="#e1a55c"/>
+    <circle cx="452" cy="204" r="16" fill="#c45f7f"/>
+    <circle cx="494" cy="156" r="18" fill="#7b8db6"/>
+    <circle cx="536" cy="194" r="23" fill="#cf6f5d"/>
+
+    <path d="M308 112l-56-54" stroke="#c59d89" stroke-width="3" stroke-linecap="round"/>
+    <path d="M348 222l-94 38" stroke="#c59d89" stroke-width="3" stroke-linecap="round"/>
+    <path d="M394 120l0-78" stroke="#c59d89" stroke-width="3" stroke-linecap="round"/>
+    <path d="M452 226l60 56" stroke="#c59d89" stroke-width="3" stroke-linecap="round"/>
+    <path d="M536 156l96-18" stroke="#c59d89" stroke-width="3" stroke-linecap="round"/>
+
+    <text x="116" y="58" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">strawberry: strongest color cue</text>
+    <text x="32" y="278" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">blueberry: smaller bursts</text>
+    <text x="316" y="26" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">mango: sweeter larger bites</text>
+    <text x="530" y="306" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">raspberry: tart intensity</text>
+    <text x="646" y="142" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">timing decides crunch</text>
+  </g>
+
+  <g transform="translate(118 538)">
+    <rect width="968" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Practical rule: add the fruit just before eating if texture contrast matters most.</text>
+  </g>
+</svg>

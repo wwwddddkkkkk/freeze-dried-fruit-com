@@ -167,14 +167,19 @@ Preferred categories:
 
 - `Technology`
 - `Industry Insights`
-- `Labels & Quality`
-- `Quality & Pricing`
-- `Fruit Reports`
-- `Packaging & Shelf Life`
-- `Buyer Guides`
 - `Applications`
+- `Labels & Quality`
+- `Fruit Reports`
 
-Use `Fruit Reports` only for user-requested fruit profiles or fruit-specific reports. Daily automation should avoid this category and choose from `Technology`, `Industry Insights`, `Labels & Quality`, `Quality & Pricing`, `Packaging & Shelf Life`, `Buyer Guides`, or `Applications`.
+Category mapping:
+
+- Use `Technology` for process, packaging, shelf life, moisture, equipment, and technical quality-control topics.
+- Use `Industry Insights` for supplier, buyer, sourcing, market, pricing, private label, and trade-structure topics.
+- Use `Applications` for consumer use cases, storage after opening, toppings, snack formats, recipe-adjacent topics, and practical ways to use freeze-dried fruit.
+- Use `Labels & Quality` for ingredient lists, added sugar, defects, specs, value comparison, and quality signals.
+- Use `Fruit Reports` only for user-requested fruit profiles or fruit-specific reports.
+
+Daily automation should avoid `Fruit Reports` and choose from `Technology`, `Industry Insights`, `Applications`, or `Labels & Quality`.
 
 If a new category is used, confirm it fits the nav/content model in `config/site.json`.
 

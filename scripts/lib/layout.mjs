@@ -115,7 +115,9 @@ function renderFooter({ site, mailto }) {
             <li><a href="/articles/">All Articles</a></li>
             <li><a href="${categoryUrl("Industry Insights")}">Insights</a></li>
             <li><a href="${categoryUrl("Technology")}">Technology</a></li>
+            <li><a href="${categoryUrl("Applications")}">Applications</a></li>
             <li><a href="${categoryUrl("Labels & Quality")}">Labels &amp; Quality</a></li>
+            <li><a href="${categoryUrl("Fruit Reports")}">Fruit Reports</a></li>
           </ul>
         </div>
         <div>

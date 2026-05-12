@@ -63,7 +63,7 @@ Each ID matches a filename in `content/articles/` (without `.md`). Set `auto_lat
 
 ## News Wire (auto-updated)
 
-The Wire under "Latest News" pulls items from the RSS feeds in `config/news-sources.json`. The `update-news` GitHub Action runs every 6 hours, refreshes `content/news/feed.json`, commits it, and that commit triggers the build/deploy workflow.
+The News Wire section on the homepage pulls items from the RSS feeds in `config/news-sources.json`. The `update-news` GitHub Action runs every 6 hours, refreshes `content/news/feed.json`, commits it, and that commit triggers the build/deploy workflow.
 
 To run the fetcher manually:
 

@@ -1,6 +1,6 @@
 ---
 title: "The Buyer's Guide to Freeze-Dried Fruit Quality"
-category: "Quality & Pricing"
+category: "Labels & Quality"
 date: 2026-05-06
 read: "14 min read"
 hero: "quality"

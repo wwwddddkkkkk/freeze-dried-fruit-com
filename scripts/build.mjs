@@ -308,7 +308,7 @@ function renderHomeBody({ site, mailto, articles, home, news, homeConfig }) {
     <div class="container">
       <div class="fi-head">
         <div class="fi-head__icon">${Icons.article}</div>
-        <h2 class="fi-head__title">Latest News</h2>
+        <h2 class="fi-head__title">Latest Articles</h2>
       </div>
       <div class="fi-rule"></div>
       <div class="latest">${latestHtml}</div>

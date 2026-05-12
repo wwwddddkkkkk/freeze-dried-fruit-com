@@ -1,6 +1,6 @@
 ---
 title: "Desiccants vs Oxygen Absorbers for Freeze-Dried Fruit"
-category: "Packaging & Shelf Life"
+category: "Technology"
 date: 2026-05-10
 read: "6 min read"
 summary: "Desiccants manage moisture. Oxygen absorbers manage oxygen. Freeze-dried fruit buyers should know which problem each packet is meant to solve."

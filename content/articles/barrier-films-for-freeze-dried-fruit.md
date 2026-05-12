@@ -1,6 +1,6 @@
 ---
 title: "How to Choose Barrier Films for Freeze-Dried Fruit Packaging"
-category: "Packaging & Shelf Life"
+category: "Technology"
 date: 2026-05-11
 read: "7 min read"
 summary: "Barrier film choice shapes how well freeze-dried fruit resists humidity, oxygen pickup, and texture loss. Buyers should match film structure to pack size, format, and channel."

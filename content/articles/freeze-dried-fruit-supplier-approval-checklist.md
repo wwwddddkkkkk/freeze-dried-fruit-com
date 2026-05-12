@@ -1,6 +1,6 @@
 ---
 title: "Freeze-Dried Fruit Supplier Approval Checklist for Buyers"
-category: "Buyer Guides"
+category: "Industry Insights"
 date: 2026-05-11
 read: "8 min read"
 summary: "Approving a freeze-dried fruit supplier takes more than liking one sample. Buyers should review specs, process control, packaging logic, and commercial fit before committing."

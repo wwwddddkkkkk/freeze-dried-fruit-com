@@ -13,6 +13,7 @@
   "nav": [
     { "label": "Insights", "category": "Industry Insights" },
     { "label": "Technology", "category": "Technology" },
+    { "label": "Applications", "category": "Applications" },
     { "label": "Labels & Quality", "category": "Labels & Quality" },
     { "label": "Fruit Reports", "category": "Fruit Reports" },
     { "label": "News Wire", "to": "/news/" },

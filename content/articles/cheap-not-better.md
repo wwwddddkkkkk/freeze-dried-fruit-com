@@ -1,6 +1,6 @@
 ---
 title: "Why Cheap Freeze-Dried Fruit May Not Be Better Value"
-category: "Quality & Pricing"
+category: "Labels & Quality"
 date: 2026-04-14
 read: "6 min read"
 hero: "pricing"

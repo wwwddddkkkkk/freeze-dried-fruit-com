@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How piece thickness changes freeze-dried fruit cycle time and texture</title>
+  <desc id="desc">A technical field-guide diagram comparing thin, medium, and thick fruit slices against drying time, center risk, and texture outcome.</desc>
+  <rect width="1200" height="680" fill="#f5f1e8"/>
+  <rect x="76" y="72" width="1048" height="536" rx="34" fill="#fffdf8" stroke="#d8d0bf" stroke-width="2"/>
+  <text x="116" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Thickness changes the drying path inside each piece</text>
+  <text x="116" y="166" fill="#69736d" font-family="Inter, Arial, sans-serif" font-size="17">Longer water travel means longer cycles, more center risk, and tighter endpoint control.</text>
+
+  <g transform="translate(116 214)">
+    <rect width="492" height="310" rx="26" fill="#f7f3ea" stroke="#d8d0bf"/>
+    <text x="28" y="44" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Slice geometry</text>
+    <text x="28" y="72" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="14">Same fruit, different thickness bands</text>
+
+    <g transform="translate(52 118)">
+      <rect x="0" y="54" width="88" height="32" rx="16" fill="#e3a66d"/>
+      <line x1="108" y1="70" x2="188" y2="70" stroke="#b98b5b" stroke-width="3" stroke-dasharray="6 6"/>
+      <text x="202" y="76" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">thin slice</text>
+      <text x="202" y="100" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="14">fast, even drying</text>
+    </g>
+
+    <g transform="translate(52 182)">
+      <rect x="0" y="42" width="108" height="56" rx="24" fill="#d88f58"/>
+      <line x1="128" y1="70" x2="188" y2="70" stroke="#b98b5b" stroke-width="3" stroke-dasharray="6 6"/>
+      <text x="202" y="76" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">medium cut</text>
+      <text x="202" y="100" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="14">best compromise for many retail packs</text>
+    </g>
+
+    <g transform="translate(52 246)">
+      <rect x="0" y="26" width="132" height="88" rx="30" fill="#c6784a"/>
+      <circle cx="66" cy="70" r="12" fill="#f7d8bd"/>
+      <line x1="152" y1="70" x2="188" y2="70" stroke="#b98b5b" stroke-width="3" stroke-dasharray="6 6"/>
+      <text x="202" y="76" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">thick chunk</text>
+      <text x="202" y="100" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="14">premium look, higher center risk</text>
+    </g>
+  </g>
+
+  <g transform="translate(640 214)">
+    <rect width="444" height="310" rx="26" fill="#edf4ef" stroke="#c9d8ce"/>
+    <text x="28" y="44" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Cycle impact</text>
+    <text x="28" y="72" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="14">Indicative relationship between thickness and drying demand</text>
+
+    <g transform="translate(40 104)">
+      <line x1="0" y1="154" x2="344" y2="154" stroke="#a8b9af" stroke-width="2"/>
+      <line x1="0" y1="154" x2="0" y2="6" stroke="#a8b9af" stroke-width="2"/>
+      <text x="-4" y="178" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="13">thinner</text>
+      <text x="282" y="178" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="13">thicker</text>
+      <text x="10" y="14" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="13">more drying time</text>
+      <path d="M18 138 C84 132, 116 118, 164 88 S260 30, 326 20" fill="none" stroke="#38624f" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="108" cy="120" r="8" fill="#1f332d"/>
+      <circle cx="214" cy="72" r="8" fill="#1f332d"/>
+      <circle cx="306" cy="28" r="8" fill="#1f332d"/>
+      <text x="116" y="116" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="13">uniform crunch</text>
+      <text x="222" y="68" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="13">more endpoint checks</text>
+      <text x="210" y="136" fill="#8c5f38" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">center softness risk rises if the cycle is compressed</text>
+    </g>
+  </g>
+
+  <g transform="translate(116 538)">
+    <rect width="968" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Buyer note: piece spec, drying time, and shipping breakage should be reviewed together, not separately.</text>
+  </g>
+</svg>

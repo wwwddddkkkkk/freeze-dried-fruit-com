@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How buyers should set breakage specs for freeze-dried fruit</title>
+  <desc id="desc">A technical matrix showing whole pieces, small fragments, and powder bands across different freeze-dried fruit use cases.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="76" y="72" width="1048" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="116" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Breakage only makes sense when the use case is clear</text>
+  <text x="116" y="166" fill="#69736d" font-family="Inter, Arial, sans-serif" font-size="17">Separate sellable pieces, acceptable fragments, and unacceptable powder before arguing about quality.</text>
+
+  <g transform="translate(116 214)">
+    <rect width="970" height="302" rx="26" fill="#f7f3ea" stroke="#d8d0bf"/>
+    <line x1="250" y1="0" x2="250" y2="302" stroke="#d8d0bf"/>
+    <line x1="554" y1="0" x2="554" y2="302" stroke="#d8d0bf"/>
+    <line x1="788" y1="0" x2="788" y2="302" stroke="#d8d0bf"/>
+    <line x1="0" y1="76" x2="970" y2="76" stroke="#d8d0bf"/>
+    <line x1="0" y1="150" x2="970" y2="150" stroke="#d8d0bf"/>
+    <line x1="0" y1="226" x2="970" y2="226" stroke="#d8d0bf"/>
+
+    <text x="28" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Format</text>
+    <text x="278" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Whole-piece target</text>
+    <text x="582" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Small fragments</text>
+    <text x="816" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Powder / fines</text>
+
+    <text x="28" y="118" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">premium snack pouch</text>
+    <rect x="278" y="94" width="236" height="34" rx="17" fill="#cadccf"/>
+    <text x="296" y="116" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="14">tight appearance spec</text>
+    <rect x="582" y="94" width="160" height="34" rx="17" fill="#ecd8b8"/>
+    <text x="600" y="116" fill="#6b5136" font-family="Inter, Arial, sans-serif" font-size="14">limited tolerance</text>
+    <rect x="816" y="94" width="108" height="34" rx="17" fill="#e7beb0"/>
+    <text x="834" y="116" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="14">very low</text>
+
+    <text x="28" y="192" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">yogurt / topping</text>
+    <rect x="278" y="168" width="206" height="34" rx="17" fill="#cadccf"/>
+    <text x="296" y="190" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="14">visible pieces still matter</text>
+    <rect x="582" y="168" width="194" height="34" rx="17" fill="#e4cfaa"/>
+    <text x="600" y="190" fill="#6b5136" font-family="Inter, Arial, sans-serif" font-size="14">moderate tolerance</text>
+    <rect x="816" y="168" width="122" height="34" rx="17" fill="#e7beb0"/>
+    <text x="834" y="190" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="14">watch bag bottom</text>
+
+    <text x="28" y="268" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">ingredient / bakery use</text>
+    <rect x="278" y="244" width="170" height="34" rx="17" fill="#cadccf"/>
+    <text x="296" y="266" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="14">visual spec can relax</text>
+    <rect x="582" y="244" width="214" height="34" rx="17" fill="#dcc28f"/>
+    <text x="600" y="266" fill="#6b5136" font-family="Inter, Arial, sans-serif" font-size="14">fragments often still usable</text>
+    <rect x="816" y="244" width="134" height="34" rx="17" fill="#e6c5b8"/>
+    <text x="834" y="266" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="14">only reject excess dust</text>
+  </g>
+
+  <g transform="translate(116 538)">
+    <rect width="968" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Practical rule: evaluate the full pouch after handling, not only the cleanest pieces near the top seal.</text>
+  </g>
+</svg>

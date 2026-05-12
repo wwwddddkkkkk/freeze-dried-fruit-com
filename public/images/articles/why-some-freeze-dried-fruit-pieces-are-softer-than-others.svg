@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Why some freeze-dried fruit pieces are softer than others</title>
+  <desc id="desc">A field-guide diagram comparing crisp and softer freeze-dried fruit pieces and the main causes of texture variation.</desc>
+  <rect width="1200" height="680" fill="#f7f2e8"/>
+  <rect x="76" y="72" width="1048" height="536" rx="34" fill="#fffdf8" stroke="#d8d0bf" stroke-width="2"/>
+  <text x="116" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Soft pieces usually have a reason, not just bad luck</text>
+  <text x="116" y="166" fill="#69736d" font-family="Inter, Arial, sans-serif" font-size="17">Thickness, sugar, broken edges, and post-opening humidity can shift texture inside the same bag.</text>
+
+  <g transform="translate(122 214)">
+    <rect width="446" height="304" rx="26" fill="#f7f3ea" stroke="#d8d0bf"/>
+    <text x="28" y="44" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Texture comparison</text>
+    <text x="28" y="72" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="14">Two pieces can feel different without the whole bag being defective</text>
+
+    <g transform="translate(52 120)">
+      <circle cx="84" cy="84" r="64" fill="#cf6f5d"/>
+      <path d="M44 84h80" stroke="#fff3eb" stroke-width="6" stroke-linecap="round" stroke-dasharray="2 14"/>
+      <text x="0" y="182" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">crisp piece</text>
+      <text x="0" y="206" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="14">lighter snap</text>
+    </g>
+
+    <g transform="translate(244 108)">
+      <rect x="0" y="0" width="124" height="148" rx="56" fill="#d88f58"/>
+      <ellipse cx="62" cy="74" rx="28" ry="20" fill="#f7d7bf"/>
+      <text x="8" y="194" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">softer piece</text>
+      <text x="8" y="218" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="14">denser center or picked-up humidity</text>
+    </g>
+  </g>
+
+  <g transform="translate(606 214)">
+    <rect width="478" height="304" rx="26" fill="#edf4ef" stroke="#c9d8ce"/>
+    <text x="28" y="44" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Common causes</text>
+    <text x="28" y="72" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="14">Variation is often strongest where geometry or exposure changes</text>
+
+    <g transform="translate(34 108)">
+      <rect width="120" height="58" rx="18" fill="#d7e4dc"/>
+      <text x="18" y="35" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">thicker cut</text>
+
+      <rect x="146" width="120" height="58" rx="18" fill="#d7e4dc"/>
+      <text x="174" y="35" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">higher sugar</text>
+
+      <rect x="292" width="120" height="58" rx="18" fill="#d7e4dc"/>
+      <text x="312" y="35" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">broken edge</text>
+
+      <line x1="60" y1="76" x2="60" y2="144" stroke="#9eb5a7" stroke-width="3"/>
+      <line x1="206" y1="76" x2="206" y2="144" stroke="#9eb5a7" stroke-width="3"/>
+      <line x1="352" y1="76" x2="352" y2="144" stroke="#9eb5a7" stroke-width="3"/>
+
+      <rect x="86" y="144" width="240" height="70" rx="22" fill="#fffdf8" stroke="#c9d8ce"/>
+      <text x="114" y="184" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">opened-bag humidity reaches exposed surfaces first</text>
+    </g>
+  </g>
+
+  <g transform="translate(116 538)">
+    <rect width="968" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Consumer shortcut: a few denser pieces can be normal; widespread softness usually points to moisture exposure.</text>
+  </g>
+</svg>

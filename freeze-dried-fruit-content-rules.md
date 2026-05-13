@@ -8,16 +8,19 @@ Do not change the existing News Wire automation. The RSS-based News Wire already
 
 Default daily output:
 
-- 3 articles per day
-- 2 industry / research / technical articles
-- 1 consumer-facing article
+- 4 articles per day
+- 1 Technology article
+- 1 Industry Insights article
+- 1 Labels & Quality article
+- 1 Applications article
 - 0 Fruit Reports unless specifically requested by the user
 
 Recommended daily split:
 
-- Technical article 1: process, science, packaging, moisture, water activity, defects, equipment, or quality control
-- Technical article 2: buyer, supplier, pricing, standards, sourcing, commercial use, or industry trend
-- Consumer article: fruit variety, taste, texture, storage, toppings, snack use, or practical shopping question
+- Technology: process, science, packaging, moisture, water activity, equipment, drying behavior, or technical quality-control topics
+- Industry Insights: buyer, supplier, pricing, standards, sourcing, commercial use, private label, foodservice, or industry trend topics
+- Labels & Quality: ingredient labels, added sugar, specs, defects, value comparison, quality signals, breakage, or purchasing checks
+- Applications: consumer-facing use cases, storage after opening, toppings, snack formats, recipe-adjacent ideas, shopping questions, or practical ways to use freeze-dried fruit
 
 Fruit Reports are not part of the daily automation. Only write a Fruit Report when the user explicitly asks for one, such as a specific mango, dragon fruit, mangosteen, jackfruit, jujube, berry, or other fruit profile/report.
 
@@ -179,7 +182,9 @@ Category mapping:
 - Use `Labels & Quality` for ingredient lists, added sugar, defects, specs, value comparison, and quality signals.
 - Use `Fruit Reports` only for user-requested fruit profiles or fruit-specific reports.
 
-Daily automation should avoid `Fruit Reports` and choose from `Technology`, `Industry Insights`, `Applications`, or `Labels & Quality`.
+Daily automation should avoid `Fruit Reports` and should normally create one article in each of these four categories: `Technology`, `Industry Insights`, `Labels & Quality`, and `Applications`.
+
+Do not use older category names such as `Quality & Pricing`, `Packaging & Shelf Life`, or `Buyer Guides` unless the site navigation is intentionally changed first.
 
 If a new category is used, confirm it fits the nav/content model in `config/site.json`.
 

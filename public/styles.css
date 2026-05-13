@@ -855,11 +855,17 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
 /* ---------- Fruit report series tabs ---------- */
 .report-tabs {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  padding: 22px 0 4px;
-  border-bottom: 1px solid var(--line);
+  flex-wrap: nowrap;
+  gap: 12px;
+  padding: 22px 0 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
 }
+.report-tabs::-webkit-scrollbar { display: none; }
 .report-tab {
   appearance: none;
   border: 1px solid var(--line);
@@ -870,6 +876,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   padding: 0 14px 0 16px;
   display: inline-flex;
   align-items: center;
+  flex: 0 0 auto;
   gap: 10px;
   font: inherit;
   cursor: pointer;
@@ -885,7 +892,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   color: #fff;
 }
 .report-tab span {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   letter-spacing: .02em;
 }

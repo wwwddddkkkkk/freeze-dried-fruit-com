@@ -364,12 +364,12 @@ function renderArticlesIndex({ articles, category }) {
   const fruitReportTabs = isFruitReports ? `
     <div class="report-tabs" data-report-tabs>
       <button class="report-tab is-active" type="button" data-series="all">
-        <span>All Fruit Reports</span>
+        <span>All</span>
         <strong>${filtered.length}</strong>
       </button>
       ${fruitReportSeries.map(series => `
         <button class="report-tab" type="button" data-series="${escapeHtml(series)}">
-          <span>${escapeHtml(series)}</span>
+          <span>${escapeHtml(series === "Fruit Variety Guide" ? "Fruit Variety Report" : series)}</span>
           <strong>${seriesCounts[series] || 0}</strong>
         </button>`).join("")}
     </div>

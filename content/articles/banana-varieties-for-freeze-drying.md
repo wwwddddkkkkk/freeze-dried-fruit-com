@@ -1,7 +1,7 @@
 ---
 title: "A Field Guide to Bananas for Freeze-Drying"
 category: "Fruit Reports"
-report_series: "Fruit Variety Guide"
+report_series: "Freeze-Dried Guide"
 date: 2026-05-11
 cover_image: /images/articles/banana-varieties-for-freeze-drying.jpg
 cover_alt: "A bunch of bananas growing on a plant"

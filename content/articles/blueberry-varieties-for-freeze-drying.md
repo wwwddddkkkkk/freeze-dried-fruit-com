@@ -1,7 +1,7 @@
 ---
 title: "A Field Guide to Blueberries for Freeze-Drying"
 category: "Fruit Reports"
-report_series: "Fruit Variety Guide"
+report_series: "Freeze-Dried Guide"
 date: 2026-05-11
 cover_image: /images/articles/blueberry-varieties-for-freeze-drying.jpg
 cover_alt: "Fresh blueberries in a clear plastic pack"

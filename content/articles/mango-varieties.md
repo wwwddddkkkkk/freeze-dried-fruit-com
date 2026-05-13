@@ -1,7 +1,7 @@
 ---
 title: "A Field Guide to Mango Varieties for Freeze-Drying"
 category: "Fruit Reports"
-report_series: "Fruit Variety Guide"
+report_series: "Freeze-Dried Guide"
 date: 2026-05-09
 cover_image: /images/articles/mango-varieties.jpg
 cover_alt: "Whole and halved ripe mangoes on a plain background"

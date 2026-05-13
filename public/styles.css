@@ -928,6 +928,9 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   align-items: start;
   cursor: pointer;
 }
+.list__row.is-filtered-out {
+  display: none;
+}
 .list__row:hover .list__title { color: var(--mint-deep); }
 .list__img {
   background: var(--bg-soft);

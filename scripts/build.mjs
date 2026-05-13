@@ -382,12 +382,17 @@ function renderArticlesIndex({ articles, category }) {
           const rows = [...document.querySelectorAll("[data-report-series]")];
           const buttons = [...tabs.querySelectorAll("[data-series]")];
           const setSeries = (series) => {
-            buttons.forEach(button => button.classList.toggle("is-active", button.dataset.series === series));
+            buttons.forEach(button => {
+              const isActive = button.dataset.series === series;
+              button.classList.toggle("is-active", isActive);
+              button.setAttribute("aria-pressed", String(isActive));
+            });
             rows.forEach(row => {
-              row.hidden = series !== "all" && row.dataset.reportSeries !== series;
+              row.classList.toggle("is-filtered-out", series !== "all" && row.dataset.reportSeries !== series);
             });
           };
           buttons.forEach(button => button.addEventListener("click", () => setSeries(button.dataset.series)));
+          setSeries(tabs.querySelector(".is-active")?.dataset.series || "all");
         };
         if (document.readyState === "loading") {
           document.addEventListener("DOMContentLoaded", bindTabs);

@@ -331,13 +331,21 @@ function renderArticlesIndex({ articles, category }) {
     ? `Articles filed under ${category}.`
     : "Long-form explainers, label analysis, and category notes from the freeze-dried fruit space.";
   const eyebrow = category ? "Section" : "The Archive";
+  const isFruitReports = category === "Fruit Reports";
+  const fruitReportSeries = ["Freeze-Dried Guide", "Fruit Variety Guide"];
+  const seriesCounts = isFruitReports
+    ? Object.fromEntries(fruitReportSeries.map(series => [
+        series,
+        filtered.filter(a => (a.report_series || "Freeze-Dried Guide") === series).length,
+      ]))
+    : {};
 
   const rows = filtered.map(a => `
-    <article class="list__row">
+    <article class="list__row"${isFruitReports ? ` data-report-series="${escapeHtml(a.report_series || "Freeze-Dried Guide")}"` : ""}>
       <a href="${articleUrl(a.id)}" style="display:contents;color:inherit">
         <div class="list__img">${renderCover(a)}</div>
         <div>
-          <div class="list__cat">${escapeHtml(a.category)}</div>
+          <div class="list__cat">${escapeHtml(a.category)}${isFruitReports && a.report_series ? ` · ${escapeHtml(a.report_series)}` : ""}</div>
           <h3 class="list__title">${escapeHtml(a.title)}</h3>
           <p class="list__sum">${escapeHtml(a.summary)}</p>
         </div>
@@ -353,6 +361,33 @@ function renderArticlesIndex({ articles, category }) {
       <p>No articles published in this section yet.</p>
       <p>We're working on it — <a href="/contact/" style="color:var(--mint-deep)">get in touch</a> for updates.</p>
     </div>`;
+  const fruitReportTabs = isFruitReports ? `
+    <div class="report-tabs" data-report-tabs>
+      <button class="report-tab is-active" type="button" data-series="all">
+        <span>All Fruit Reports</span>
+        <strong>${filtered.length}</strong>
+      </button>
+      ${fruitReportSeries.map(series => `
+        <button class="report-tab" type="button" data-series="${escapeHtml(series)}">
+          <span>${escapeHtml(series)}</span>
+          <strong>${seriesCounts[series] || 0}</strong>
+        </button>`).join("")}
+    </div>
+    <script>
+      (() => {
+        const tabs = document.querySelector("[data-report-tabs]");
+        if (!tabs) return;
+        const rows = [...document.querySelectorAll("[data-report-series]")];
+        const buttons = [...tabs.querySelectorAll("[data-series]")];
+        const setSeries = (series) => {
+          buttons.forEach(button => button.classList.toggle("is-active", button.dataset.series === series));
+          rows.forEach(row => {
+            row.hidden = series !== "all" && row.dataset.reportSeries !== series;
+          });
+        };
+        buttons.forEach(button => button.addEventListener("click", () => setSeries(button.dataset.series)));
+      })();
+    </script>` : "";
 
   return `
     <section class="page-head">
@@ -363,6 +398,7 @@ function renderArticlesIndex({ articles, category }) {
       </div>
     </section>
     <div class="container">
+      ${fruitReportTabs}
       <div class="list">${filtered.length ? rows : empty}</div>
     </div>`;
 }

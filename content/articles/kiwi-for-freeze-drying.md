@@ -1,6 +1,7 @@
 ---
 title: "A Field Guide to Kiwi for Freeze-Drying"
 category: "Fruit Reports"
+report_series: "Freeze-Dried Guide"
 date: 2026-05-12
 cover_image: /images/articles/kiwi-for-freeze-drying.jpg
 cover_alt: "A sliced kiwi fruit showing green flesh and black seeds"

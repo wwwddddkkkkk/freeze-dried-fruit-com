@@ -1,6 +1,7 @@
 ---
 title: "A Field Guide to Plums for Freeze-Drying"
 category: "Fruit Reports"
+report_series: "Freeze-Dried Guide"
 date: 2026-05-12
 cover_image: /images/articles/plum-for-freeze-drying.jpg
 cover_alt: "A plum on a white background"

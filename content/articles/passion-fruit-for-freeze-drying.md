@@ -1,6 +1,7 @@
 ---
 title: "A Field Guide to Passion Fruit for Freeze-Drying"
 category: "Fruit Reports"
+report_series: "Freeze-Dried Guide"
 date: 2026-05-12
 cover_image: /images/articles/passion-fruit-for-freeze-drying.jpg
 cover_alt: "Whole and halved passion fruits showing yellow pulp and seeds"

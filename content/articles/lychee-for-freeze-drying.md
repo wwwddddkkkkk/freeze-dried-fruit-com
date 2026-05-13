@@ -1,6 +1,7 @@
 ---
 title: "A Field Guide to Lychee for Freeze-Drying"
 category: "Fruit Reports"
+report_series: "Freeze-Dried Guide"
 date: 2026-05-11
 cover_image: /images/articles/lychee-for-freeze-drying.jpg
 cover_alt: "Lychee fruits with peeled flesh and seed visible"

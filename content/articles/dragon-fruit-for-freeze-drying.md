@@ -1,6 +1,7 @@
 ---
 title: "A Field Guide to Dragon Fruit for Freeze-Drying"
 category: "Fruit Reports"
+report_series: "Freeze-Dried Guide"
 date: 2026-05-11
 cover_image: /images/articles/dragon-fruit-for-freeze-drying.jpg
 cover_alt: "A halved red dragon fruit showing bright magenta flesh"

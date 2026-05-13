@@ -1,6 +1,7 @@
 ---
 title: "A Field Guide to Apples for Freeze-Drying"
 category: "Fruit Reports"
+report_series: "Fruit Variety Guide"
 date: 2026-05-12
 cover_image: /images/articles/apple-varieties-for-freeze-drying.jpg
 cover_alt: "Golden Delicious apples photographed together"

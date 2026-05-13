@@ -852,6 +852,60 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   line-height: 1.55;
 }
 
+/* ---------- Fruit report series tabs ---------- */
+.report-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 22px 0 4px;
+  border-bottom: 1px solid var(--line);
+}
+.report-tab {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.66);
+  color: var(--ink);
+  border-radius: 999px;
+  min-height: 42px;
+  padding: 0 14px 0 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font: inherit;
+  cursor: pointer;
+  transition: border-color .2s ease, background .2s ease, transform .2s ease;
+}
+.report-tab:hover {
+  transform: translateY(-1px);
+  border-color: rgba(30,87,70,.28);
+}
+.report-tab.is-active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: #fff;
+}
+.report-tab span {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+.report-tab strong {
+  min-width: 26px;
+  height: 26px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-soft);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+.report-tab.is-active strong {
+  background: rgba(255,255,255,.18);
+  color: #fff;
+}
+
 /* ---------- Article listing — list rows w/ image ---------- */
 .list {
   display: flex;

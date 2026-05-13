@@ -1,6 +1,7 @@
 ---
 title: "A Field Guide to Pineapple for Freeze-Drying"
 category: "Fruit Reports"
+report_series: "Fruit Variety Guide"
 date: 2026-05-11
 cover_image: /images/articles/pineapple-varieties-for-freeze-drying.jpg
 cover_alt: "A whole pineapple fruit photographed close up"

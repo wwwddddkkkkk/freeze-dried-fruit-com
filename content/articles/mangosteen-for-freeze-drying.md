@@ -1,6 +1,7 @@
 ---
 title: "A Field Guide to Mangosteen for Freeze-Drying"
 category: "Fruit Reports"
+report_series: "Freeze-Dried Guide"
 date: 2026-05-11
 cover_image: /images/articles/mangosteen-for-freeze-drying.jpg
 cover_alt: "Opened mangosteen fruit showing white segments and purple rind"

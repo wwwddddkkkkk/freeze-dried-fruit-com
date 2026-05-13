@@ -1,6 +1,7 @@
 ---
 title: "A Field Guide to Jackfruit for Freeze-Drying"
 category: "Fruit Reports"
+report_series: "Freeze-Dried Guide"
 date: 2026-05-11
 cover_image: /images/articles/jackfruit-for-freeze-drying.jpg
 cover_alt: "Large jackfruit hanging from a tree"

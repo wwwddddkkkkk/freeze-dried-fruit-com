@@ -1,6 +1,7 @@
 ---
 title: "A Field Guide to Mulberries for Freeze-Drying"
 category: "Fruit Reports"
+report_series: "Freeze-Dried Guide"
 date: 2026-05-11
 cover_image: /images/articles/mulberry-for-freeze-drying.jpg
 cover_alt: "Dark mulberries photographed close up"

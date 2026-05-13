@@ -1,6 +1,7 @@
 ---
 title: "A Field Guide to Soursop for Freeze-Drying"
 category: "Fruit Reports"
+report_series: "Freeze-Dried Guide"
 date: 2026-05-12
 cover_image: /images/articles/soursop-for-freeze-drying.jpg
 cover_alt: "Soursop fruit displayed at a market"

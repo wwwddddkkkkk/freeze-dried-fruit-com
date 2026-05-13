@@ -187,6 +187,11 @@ If a new category is used, confirm it fits the nav/content model in `config/site
 
 Fruit Reports are on-demand only. When the user asks for one, write it as a serious field guide rather than a casual fruit profile.
 
+Fruit Reports use two series labels:
+
+- `report_series: "Freeze-Dried Guide"` for fruit-specific processing, sourcing, texture, and format reports.
+- `report_series: "Fruit Variety Guide"` for cultivar/variety-led reports where the main value is comparing fruit types, varieties, origins, or commercial grades.
+
 Recommended structure:
 
 1. Open with a clear editorial thesis: why this fruit matters for freeze-drying, sourcing, texture, or market positioning.

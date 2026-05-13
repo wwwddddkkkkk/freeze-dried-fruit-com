@@ -1,6 +1,7 @@
 ---
 title: "A Field Guide to Watermelon for Freeze-Drying"
 category: "Fruit Reports"
+report_series: "Freeze-Dried Guide"
 date: 2026-05-12
 cover_image: /images/articles/watermelon-for-freeze-drying.jpg
 cover_alt: "Sliced watermelon wedges"

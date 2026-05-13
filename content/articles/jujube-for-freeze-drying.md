@@ -1,6 +1,7 @@
 ---
 title: "A Field Guide to Jujube for Freeze-Drying"
 category: "Fruit Reports"
+report_series: "Freeze-Dried Guide"
 date: 2026-05-12
 cover_image: /images/articles/jujube-for-freeze-drying.jpg
 cover_alt: "A pile of ripe jujube fruit"

@@ -1,6 +1,7 @@
 ---
 title: "A Field Guide to Apricots for Freeze-Drying"
 category: "Fruit Reports"
+report_series: "Freeze-Dried Guide"
 date: 2026-05-12
 cover_image: /images/articles/apricot-for-freeze-drying.jpg
 cover_alt: "Fresh apricots grouped together"

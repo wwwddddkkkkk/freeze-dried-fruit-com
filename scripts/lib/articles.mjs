@@ -57,6 +57,7 @@ export async function loadArticles(dir) {
       id,
       title: data.title || id,
       category: data.category || "Uncategorized",
+      report_series: data.report_series || null,
       hero: data.hero || "quality",
       // cover_image overrides the SVG hero — used for product / variety /
       // snack / consumer-facing pieces that benefit from a real photo.

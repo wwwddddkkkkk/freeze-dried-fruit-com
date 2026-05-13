@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How oxidation changes color and aroma in freeze-dried fruit</title>
+  <desc id="desc">A technical diagram showing oxidation pressure points from cut fruit surfaces through packaging exposure and visible color loss.</desc>
+  <rect width="1200" height="680" fill="#f5f1e8"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d0bf" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">Color stability begins before the pouch is sealed</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Oxidation can dull pigments, flatten aroma, and expose weak process control in freeze-dried fruit.</text>
+
+  <g transform="translate(112 214)">
+    <rect width="308" height="284" rx="24" fill="#f7f3ea" stroke="#d8d0bf"/>
+    <text x="28" y="44" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Before drying</text>
+    <text x="28" y="74" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="14">Cutting, bruising, and staging time set the starting risk.</text>
+    <g transform="translate(26 112)">
+      <circle cx="54" cy="48" r="34" fill="#f7c9a0"/>
+      <path d="M20 48c10-20 56-28 78 0-18 18-60 30-78 0Z" fill="#f2a56b"/>
+      <path d="M166 46h96" stroke="#c49a6c" stroke-width="3" stroke-dasharray="6 8"/>
+      <circle cx="190" cy="38" r="14" fill="#d88961"/>
+      <circle cx="226" cy="58" r="11" fill="#d88961"/>
+      <circle cx="256" cy="34" r="9" fill="#d88961"/>
+      <text x="0" y="118" fill="#4b5952" font-family="Inter, Arial, sans-serif" font-size="15">exposed cut surface</text>
+      <text x="0" y="142" fill="#4b5952" font-family="Inter, Arial, sans-serif" font-size="15">bruised ripe tissue</text>
+    </g>
+  </g>
+
+  <g transform="translate(446 214)">
+    <rect width="308" height="284" rx="24" fill="#edf5ef" stroke="#c8d7cb"/>
+    <text x="28" y="44" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">During drying</text>
+    <text x="28" y="74" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="14">Uneven endpoint and surface exposure change pigment stability.</text>
+    <g transform="translate(32 112)">
+      <rect x="0" y="0" width="228" height="104" rx="18" fill="#fffdf8" stroke="#c8d7cb"/>
+      <path d="M24 78 C60 34, 108 26, 150 48 S214 84, 236 28" fill="none" stroke="#b96b4f" stroke-width="5" stroke-linecap="round"/>
+      <circle cx="108" cy="46" r="7" fill="#1f332d"/>
+      <text x="0" y="136" fill="#4b5952" font-family="Inter, Arial, sans-serif" font-size="15">high surface area</text>
+      <text x="0" y="160" fill="#4b5952" font-family="Inter, Arial, sans-serif" font-size="15">patchy residual moisture</text>
+    </g>
+  </g>
+
+  <g transform="translate(780 214)">
+    <rect width="308" height="284" rx="24" fill="#f8f0e7" stroke="#d8d0bf"/>
+    <text x="28" y="44" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">After packing</text>
+    <text x="28" y="74" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="14">Residual oxygen and weak seals slowly erode color and aroma.</text>
+    <g transform="translate(26 110)">
+      <rect x="0" y="0" width="92" height="132" rx="14" fill="#fffdf8" stroke="#d8d0bf"/>
+      <path d="M18 22h56v88H18z" fill="#f8d79d"/>
+      <circle cx="170" cy="42" r="14" fill="#d88961"/>
+      <circle cx="208" cy="62" r="12" fill="#d88961"/>
+      <path d="M94 46h92" stroke="#c49a6c" stroke-width="3" stroke-dasharray="6 8"/>
+      <text x="0" y="162" fill="#4b5952" font-family="Inter, Arial, sans-serif" font-size="15">oxygen ingress</text>
+      <text x="0" y="186" fill="#4b5952" font-family="Inter, Arial, sans-serif" font-size="15">duller pigment tone</text>
+    </g>
+  </g>
+
+  <g transform="translate(112 526)">
+    <rect width="976" height="42" rx="21" fill="#1f332d"/>
+    <text x="26" y="27" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Buyer note: review fruit handling, release specs, and package oxygen control together. Color alone is not the full story.</text>
+  </g>
+</svg>

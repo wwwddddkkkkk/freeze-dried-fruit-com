@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">What actually drives freeze-dried fruit landed cost</title>
+  <desc id="desc">A technical cost matrix mapping raw fruit, yield, breakage, packaging, freight, and duties into real landed cost.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">The quote is only the first number</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Real landed cost comes from yield, usable output, packaging, and logistics after the ex-works price.</text>
+
+  <g transform="translate(112 214)">
+    <rect width="976" height="300" rx="26" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <line x1="156" y1="0" x2="156" y2="300" stroke="#d8d2c3"/>
+    <line x1="326" y1="0" x2="326" y2="300" stroke="#d8d2c3"/>
+    <line x1="486" y1="0" x2="486" y2="300" stroke="#d8d2c3"/>
+    <line x1="652" y1="0" x2="652" y2="300" stroke="#d8d2c3"/>
+    <line x1="816" y1="0" x2="816" y2="300" stroke="#d8d2c3"/>
+    <line x1="0" y1="80" x2="976" y2="80" stroke="#d8d2c3"/>
+    <line x1="0" y1="154" x2="976" y2="154" stroke="#d8d2c3"/>
+    <line x1="0" y1="228" x2="976" y2="228" stroke="#d8d2c3"/>
+
+    <text x="26" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Raw fruit</text>
+    <text x="182" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Dry yield</text>
+    <text x="352" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Usable yield</text>
+    <text x="512" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Packaging</text>
+    <text x="678" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Freight</text>
+    <text x="842" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Import + handling</text>
+
+    <text x="26" y="110" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">variety / grade</text>
+    <text x="182" y="110" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">fruit-to-dry ratio</text>
+    <text x="352" y="110" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">whole pieces vs fines</text>
+    <text x="512" y="110" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">barrier structure</text>
+    <text x="678" y="110" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">case density</text>
+    <text x="842" y="110" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">duties / tariffs</text>
+
+    <text x="26" y="184" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">trim loss</text>
+    <text x="182" y="184" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">seasonal variance</text>
+    <text x="352" y="184" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">screening loss</text>
+    <text x="512" y="184" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">reseal / bulk format</text>
+    <text x="678" y="184" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">damage in transit</text>
+    <text x="842" y="184" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">brokerage / storage</text>
+
+    <text x="26" y="258" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">fresh vs IQF input</text>
+    <text x="182" y="258" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">piece thickness</text>
+    <text x="352" y="258" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">spec tolerance</text>
+    <text x="512" y="258" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">desiccant / label work</text>
+    <text x="678" y="258" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">pallet efficiency</text>
+    <text x="842" y="258" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">warehouse touches</text>
+  </g>
+
+  <g transform="translate(112 534)">
+    <rect width="976" height="34" rx="17" fill="#1f332d"/>
+    <text x="26" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Cost shortcut: compare suppliers on cost per usable kilogram, not only on case price.</text>
+  </g>
+</svg>

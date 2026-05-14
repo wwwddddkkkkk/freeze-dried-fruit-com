@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Best freeze-dried fruit for trail mix and snack mixes</title>
+  <desc id="desc">An application matrix comparing several freeze-dried fruits for trail mix roles such as color, crunch, tartness, and durability.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Trail mix fruit should survive the ride</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">The best choice balances flavor, color, and durability after shaking through a snack pouch.</text>
+
+  <g transform="translate(112 214)">
+    <rect width="976" height="302" rx="26" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <line x1="198" y1="0" x2="198" y2="302" stroke="#d8d2c3"/>
+    <line x1="424" y1="0" x2="424" y2="302" stroke="#d8d2c3"/>
+    <line x1="616" y1="0" x2="616" y2="302" stroke="#d8d2c3"/>
+    <line x1="804" y1="0" x2="804" y2="302" stroke="#d8d2c3"/>
+    <line x1="0" y1="76" x2="976" y2="76" stroke="#d8d2c3"/>
+    <line x1="0" y1="150" x2="976" y2="150" stroke="#d8d2c3"/>
+    <line x1="0" y1="226" x2="976" y2="226" stroke="#d8d2c3"/>
+
+    <text x="28" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Fruit</text>
+    <text x="224" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Main strength</text>
+    <text x="450" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Best role</text>
+    <text x="642" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Watch-out</text>
+    <text x="830" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Mix fit</text>
+
+    <text x="28" y="118" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Strawberry</text>
+    <text x="224" y="118" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">color and familiarity</text>
+    <text x="450" y="118" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">headline fruit</text>
+    <text x="642" y="118" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">large pieces can break</text>
+    <rect x="830" y="94" width="110" height="28" rx="14" fill="#cadccf"/>
+    <text x="856" y="113" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="13">easy win</text>
+
+    <text x="28" y="192" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Blueberry</text>
+    <text x="224" y="192" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">quiet flavor spread</text>
+    <text x="450" y="192" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">even distribution</text>
+    <text x="642" y="192" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">less visual punch</text>
+    <rect x="830" y="168" width="110" height="28" rx="14" fill="#cadccf"/>
+    <text x="850" y="187" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="13">great base</text>
+
+    <text x="28" y="268" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Apple</text>
+    <text x="224" y="268" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">clean crisp bite</text>
+    <text x="450" y="268" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">texture support</text>
+    <text x="642" y="268" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">less color drama</text>
+    <rect x="830" y="244" width="110" height="28" rx="14" fill="#cadccf"/>
+    <text x="852" y="263" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="13">very flexible</text>
+  </g>
+
+  <g transform="translate(112 536)">
+    <rect width="976" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">No suitable unused local photo was available, so this Applications cover is a custom editorial SVG.</text>
+  </g>
+</svg>

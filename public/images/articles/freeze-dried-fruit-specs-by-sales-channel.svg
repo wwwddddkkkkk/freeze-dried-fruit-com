@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Why retail, ingredient, and foodservice buyers need different freeze-dried fruit specs</title>
+  <desc id="desc">A sales-channel matrix comparing retail, foodservice, and ingredient priorities for freeze-dried fruit piece quality, packaging, and handling.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">One fruit, three buying briefs</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Retail sells appearance, foodservice sells handling, ingredient lines buy fit-for-use yield.</text>
+
+  <g transform="translate(112 214)">
+    <rect width="976" height="302" rx="26" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <line x1="234" y1="0" x2="234" y2="302" stroke="#d8d2c3"/>
+    <line x1="486" y1="0" x2="486" y2="302" stroke="#d8d2c3"/>
+    <line x1="732" y1="0" x2="732" y2="302" stroke="#d8d2c3"/>
+    <line x1="0" y1="82" x2="976" y2="82" stroke="#d8d2c3"/>
+    <line x1="0" y1="154" x2="976" y2="154" stroke="#d8d2c3"/>
+    <line x1="0" y1="228" x2="976" y2="228" stroke="#d8d2c3"/>
+
+    <text x="28" y="48" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Priority</text>
+    <text x="276" y="48" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Retail</text>
+    <text x="530" y="48" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Foodservice</text>
+    <text x="770" y="48" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Ingredient</text>
+
+    <text x="28" y="124" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">Visible piece quality</text>
+    <text x="276" y="124" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="15">highest importance</text>
+    <text x="530" y="124" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="15">moderate, use-case based</text>
+    <text x="770" y="124" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="15">only if process needs it</text>
+
+    <text x="28" y="196" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">Breakage tolerance</text>
+    <text x="276" y="196" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="15">tight</text>
+    <text x="530" y="196" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="15">medium</text>
+    <text x="770" y="196" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="15">often flexible</text>
+
+    <text x="28" y="270" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">Pack / handling concern</text>
+    <text x="276" y="270" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="15">shelf look + reseal</text>
+    <text x="530" y="270" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="15">service speed + repeated opening</text>
+    <text x="770" y="270" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="15">bulk use + usable yield</text>
+  </g>
+
+  <g transform="translate(112 538)">
+    <rect width="976" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Buying shortcut: define the channel first, or the supplier will define it for you inside the quote.</text>
+  </g>
+</svg>

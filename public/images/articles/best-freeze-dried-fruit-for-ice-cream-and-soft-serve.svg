@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Best freeze-dried fruit for ice cream and soft serve toppings</title>
+  <desc id="desc">Application chart comparing freeze-dried fruit topping choices for ice cream and soft serve by color contrast, crunch, and sticking behavior.</desc>
+  <rect width="1200" height="680" fill="#f5f1e8"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d0bf" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">Frozen desserts keep crunch longer, but only for a while</text>
+  <text x="112" y="166" fill="#69736d" font-family="Inter, Arial, sans-serif" font-size="17">Berry pieces bring contrast. Small bits and powder stick best on soft serve.</text>
+
+  <g transform="translate(112 212)">
+    <rect width="446" height="310" rx="24" fill="#f7f3ea" stroke="#d8d0bf"/>
+    <text x="28" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Scooped ice cream</text>
+    <text x="28" y="76" fill="#69736d" font-family="Inter, Arial, sans-serif" font-size="14">Supports larger visible pieces.</text>
+    <circle cx="142" cy="188" r="82" fill="#f1e5cd"/>
+    <circle cx="142" cy="188" r="58" fill="#fff8eb"/>
+    <circle cx="116" cy="160" r="12" fill="#d96a64"/>
+    <circle cx="174" cy="154" r="10" fill="#a44d7b"/>
+    <circle cx="182" cy="206" r="13" fill="#5d78c6"/>
+    <text x="258" y="154" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">Best all-around:</text>
+    <text x="258" y="180" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">strawberry</text>
+    <text x="258" y="224" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">High-contrast berries:</text>
+    <text x="258" y="250" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">raspberry, blueberry</text>
+  </g>
+
+  <g transform="translate(642 212)">
+    <rect width="446" height="310" rx="24" fill="#edf5ef" stroke="#c8d7cb"/>
+    <text x="28" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Soft serve</text>
+    <text x="28" y="76" fill="#69736d" font-family="Inter, Arial, sans-serif" font-size="14">Smaller fruit distributes and sticks better.</text>
+    <path d="M132 108 C96 132, 94 174, 120 196 C92 214, 98 252, 142 270 C186 252, 192 214, 164 196 C190 174, 188 132, 152 108 Z" fill="#fff8eb" stroke="#d4d9cc" stroke-width="2"/>
+    <circle cx="116" cy="166" r="6" fill="#d96a64"/>
+    <circle cx="154" cy="154" r="6" fill="#a44d7b"/>
+    <circle cx="132" cy="204" r="5" fill="#5d78c6"/>
+    <circle cx="148" cy="226" r="4" fill="#f0b35b"/>
+    <text x="246" y="154" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">Best texture fit:</text>
+    <text x="246" y="180" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">small pieces or powder</text>
+    <text x="246" y="224" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">Softer flavor options:</text>
+    <text x="246" y="250" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">mango, banana, apple</text>
+  </g>
+
+  <g transform="translate(112 538)">
+    <rect width="976" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Serving note: add fruit near the end and keep syrup off the top if you want the crisp texture to stay visible.</text>
+  </g>
+</svg>

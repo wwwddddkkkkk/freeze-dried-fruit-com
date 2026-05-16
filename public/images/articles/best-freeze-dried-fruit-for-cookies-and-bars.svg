@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Best freeze-dried fruit for cookies and bars</title>
+  <desc id="desc">A baking application chart comparing freeze-dried fruit pieces, crumbles, and powder for cookies and snack bars.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Bakery fruit works best when the format matches the dough</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Cookies often reward visible pieces. Bars usually reward smaller cuts, crumble, or powder.</text>
+
+  <g transform="translate(138 220)">
+    <rect width="924" height="286" rx="26" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <line x1="0" y1="78" x2="924" y2="78" stroke="#d8d2c3"/>
+    <line x1="216" y1="0" x2="216" y2="286" stroke="#d8d2c3"/>
+    <line x1="478" y1="0" x2="478" y2="286" stroke="#d8d2c3"/>
+    <line x1="700" y1="0" x2="700" y2="286" stroke="#d8d2c3"/>
+    <line x1="0" y1="150" x2="924" y2="150" stroke="#d8d2c3"/>
+    <line x1="0" y1="222" x2="924" y2="222" stroke="#d8d2c3"/>
+
+    <text x="26" y="48" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Format</text>
+    <text x="256" y="48" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Best in cookies</text>
+    <text x="520" y="48" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Best in bars</text>
+    <text x="738" y="48" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Main strength</text>
+
+    <text x="26" y="118" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">Pieces</text>
+    <text x="256" y="118" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="15">yes, if fruit should be seen</text>
+    <text x="520" y="118" fill="#7a3f30" font-family="Inter, Arial, sans-serif" font-size="15">only if cut size stays controlled</text>
+    <text x="738" y="118" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">visible identity</text>
+
+    <text x="26" y="190" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">Crumble</text>
+    <text x="256" y="190" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="15">good for even spread</text>
+    <text x="520" y="190" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="15">often ideal</text>
+    <text x="738" y="190" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">balanced distribution</text>
+
+    <text x="26" y="262" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">Powder</text>
+    <text x="256" y="262" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="15">background flavor</text>
+    <text x="520" y="262" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="15">easy scale and consistency</text>
+    <text x="738" y="262" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">full-batch fruit note</text>
+  </g>
+
+  <g transform="translate(112 536)">
+    <rect width="976" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">No suitable local consumer photo was available, so this article uses a custom field-guide SVG cover.</text>
+  </g>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Whole pieces versus broken pieces in freeze-dried fruit buying</title>
+  <desc id="desc">A buyer decision matrix comparing whole pieces and broken pieces by visual value, delivered cost, fragility, and application fit.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Pay for the format that survives the job</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Whole pieces earn visual premium. Broken pieces often earn better usable value in mixes, bakery, and toppings.</text>
+
+  <g transform="translate(146 218)">
+    <rect width="910" height="298" rx="26" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <line x1="214" y1="0" x2="214" y2="298" stroke="#d8d2c3"/>
+    <line x1="560" y1="0" x2="560" y2="298" stroke="#d8d2c3"/>
+    <line x1="0" y1="78" x2="910" y2="78" stroke="#d8d2c3"/>
+    <line x1="0" y1="152" x2="910" y2="152" stroke="#d8d2c3"/>
+    <line x1="0" y1="226" x2="910" y2="226" stroke="#d8d2c3"/>
+
+    <text x="28" y="48" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Decision factor</text>
+    <text x="272" y="48" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Whole pieces</text>
+    <text x="620" y="48" fill="#7a3f30" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Broken pieces</text>
+
+    <text x="28" y="118" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">Best fit</text>
+    <text x="272" y="118" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="15">snack pouches, clear visual display</text>
+    <text x="620" y="118" fill="#7a3f30" font-family="Inter, Arial, sans-serif" font-size="15">bars, bakery, toppings, blends</text>
+
+    <text x="28" y="192" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">Main cost driver</text>
+    <text x="272" y="192" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="15">appearance retention and protection</text>
+    <text x="620" y="192" fill="#7a3f30" font-family="Inter, Arial, sans-serif" font-size="15">size control and fines discipline</text>
+
+    <text x="28" y="266" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">Main risk</text>
+    <text x="272" y="266" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="15">transit breakage can erase premium</text>
+    <text x="620" y="266" fill="#7a3f30" font-family="Inter, Arial, sans-serif" font-size="15">format can drift into powder if vague</text>
+  </g>
+
+  <g transform="translate(146 538)">
+    <rect width="910" height="30" rx="15" fill="#1f332d"/>
+    <text x="24" y="20" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Buyer shortcut: compare cost per usable output, not only the visual prestige of the sample cup.</text>
+  </g>
+</svg>

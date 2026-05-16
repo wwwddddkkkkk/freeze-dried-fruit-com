@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How tray loading affects freeze-dried fruit drying uniformity</title>
+  <desc id="desc">A technical field-guide diagram showing even and uneven tray loading, vapor escape paths, and resulting dry-zone differences.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Uniform drying starts before the chamber closes</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Layer depth, spacing, and cut-size mix decide whether the tray behaves like one load or several.</text>
+
+  <g transform="translate(118 220)">
+    <rect width="452" height="274" rx="24" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <text x="24" y="34" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">Tray view</text>
+    <rect x="28" y="58" width="178" height="174" rx="18" fill="#edf6f1" stroke="#c9d8cf"/>
+    <text x="48" y="86" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Even load</text>
+    <rect x="48" y="112" width="138" height="24" rx="12" fill="#cadccf"/>
+    <rect x="48" y="146" width="138" height="24" rx="12" fill="#cadccf"/>
+    <rect x="48" y="180" width="138" height="24" rx="12" fill="#cadccf"/>
+    <path d="M76 230 C76 202 76 168 76 112" fill="none" stroke="#5e9380" stroke-width="3" stroke-dasharray="7 7"/>
+    <path d="M118 230 C118 202 118 168 118 112" fill="none" stroke="#5e9380" stroke-width="3" stroke-dasharray="7 7"/>
+    <path d="M160 230 C160 202 160 168 160 112" fill="none" stroke="#5e9380" stroke-width="3" stroke-dasharray="7 7"/>
+
+    <rect x="246" y="58" width="178" height="174" rx="18" fill="#fff0eb" stroke="#e1c1b6"/>
+    <text x="266" y="86" fill="#7a3f30" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Uneven load</text>
+    <rect x="266" y="112" width="138" height="24" rx="12" fill="#e7c0b5"/>
+    <rect x="266" y="146" width="100" height="24" rx="12" fill="#e7c0b5"/>
+    <rect x="284" y="180" width="120" height="30" rx="15" fill="#d98972"/>
+    <path d="M296 230 C296 202 296 182 296 112" fill="none" stroke="#b56b55" stroke-width="3" stroke-dasharray="7 7"/>
+    <path d="M338 230 C338 210 332 194 332 146" fill="none" stroke="#b56b55" stroke-width="3" stroke-dasharray="7 7"/>
+    <path d="M380 230 C380 220 378 212 378 180" fill="none" stroke="#b56b55" stroke-width="3" stroke-dasharray="7 7"/>
+
+    <text x="28" y="258" fill="#55645e" font-family="Inter, Arial, sans-serif" font-size="14">Dashed lines show vapor escape path. Crowded zones behave like deeper beds.</text>
+  </g>
+
+  <g transform="translate(612 220)">
+    <rect width="476" height="274" rx="24" fill="#fffdf8" stroke="#d8d2c3"/>
+    <text x="24" y="34" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">Likely outcomes</text>
+    <line x1="24" y1="58" x2="452" y2="58" stroke="#e7e0d2"/>
+    <line x1="24" y1="112" x2="452" y2="112" stroke="#e7e0d2"/>
+    <line x1="24" y1="166" x2="452" y2="166" stroke="#e7e0d2"/>
+    <line x1="24" y1="220" x2="452" y2="220" stroke="#e7e0d2"/>
+    <text x="30" y="92" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">Even depth</text>
+    <text x="164" y="92" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="15">clean endpoint</text>
+    <text x="310" y="92" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="15">more consistent crunch</text>
+    <text x="30" y="146" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">Mixed size</text>
+    <text x="164" y="146" fill="#7a3f30" font-family="Inter, Arial, sans-serif" font-size="15">competing dry rates</text>
+    <text x="310" y="146" fill="#7a3f30" font-family="Inter, Arial, sans-serif" font-size="15">harder endpoint choice</text>
+    <text x="30" y="200" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">Overlap points</text>
+    <text x="164" y="200" fill="#7a3f30" font-family="Inter, Arial, sans-serif" font-size="15">sheltered moisture</text>
+    <text x="310" y="200" fill="#7a3f30" font-family="Inter, Arial, sans-serif" font-size="15">soft spots later</text>
+    <text x="30" y="254" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">Overloaded center</text>
+    <text x="164" y="254" fill="#7a3f30" font-family="Inter, Arial, sans-serif" font-size="15">longer cycle pressure</text>
+    <text x="310" y="254" fill="#7a3f30" font-family="Inter, Arial, sans-serif" font-size="15">extra breakage risk</text>
+  </g>
+
+  <g transform="translate(112 536)">
+    <rect width="976" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Process rule: if the tray is not physically uniform, the endpoint number alone may hide quality variation.</text>
+  </g>
+</svg>

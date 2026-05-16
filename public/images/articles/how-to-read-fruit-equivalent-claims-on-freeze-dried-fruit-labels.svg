@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How to read fruit equivalent claims on freeze-dried fruit labels</title>
+  <desc id="desc">An annotated label diagram showing fruit-equivalent claim, serving size, ingredient line, and net weight as separate reading cues.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">A fruit-equivalent claim is context, not the whole verdict</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Read ingredient line and serving size first, then use the fresh-fruit claim as translation.</text>
+
+  <g transform="translate(150 214)">
+    <rect width="430" height="312" rx="26" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+    <text x="34" y="52" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Front label panel</text>
+    <rect x="34" y="82" width="302" height="52" rx="16" fill="#cadccf"/>
+    <text x="52" y="115" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Made from 2 cups of fruit</text>
+    <rect x="34" y="158" width="180" height="32" rx="16" fill="#e7c0b5"/>
+    <text x="52" y="179" fill="#713d2f" font-family="Inter, Arial, sans-serif" font-size="15">Serving: 28 g</text>
+    <rect x="34" y="210" width="252" height="32" rx="16" fill="#cfe1ee"/>
+    <text x="52" y="231" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="15">Ingredients: strawberries</text>
+    <rect x="34" y="262" width="146" height="32" rx="16" fill="#ead8b7"/>
+    <text x="52" y="283" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="15">Net wt 1.2 oz</text>
+  </g>
+
+  <g transform="translate(656 214)">
+    <rect width="398" height="312" rx="26" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <text x="26" y="42" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">Read in this order</text>
+    <text x="26" y="88" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">1. Ingredient line</text>
+    <text x="26" y="118" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">2. Serving and net amount</text>
+    <text x="26" y="148" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">3. Fruit-equivalent claim</text>
+    <text x="26" y="192" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="15">Use the claim to understand concentration,</text>
+    <text x="26" y="218" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="15">not to skip the product definition.</text>
+    <text x="26" y="262" fill="#7a3f30" font-family="Inter, Arial, sans-serif" font-size="15">Watch for strong claims paired with added</text>
+    <text x="26" y="288" fill="#7a3f30" font-family="Inter, Arial, sans-serif" font-size="15">sweeteners or very small servings.</text>
+  </g>
+
+  <g transform="translate(112 536)">
+    <rect width="976" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Label rule: front-panel fruit language becomes more trustworthy when the ingredient line stays simple.</text>
+  </g>
+</svg>

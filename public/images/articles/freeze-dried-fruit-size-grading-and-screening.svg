@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How size grading and screening improve freeze-dried fruit consistency</title>
+  <desc id="desc">A technical field-guide diagram showing mixed freeze-dried fruit moving through graded screens into whole-piece, fragment, and fines bands.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">Consistency starts after the dryer too</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">A mixed lot becomes a sellable format only when size bands, fragments, and fines are separated deliberately.</text>
+
+  <g transform="translate(112 214)">
+    <rect width="420" height="290" rx="28" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <text x="26" y="42" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">Mixed output</text>
+    <rect x="26" y="74" width="368" height="54" rx="18" fill="#efe4cf"/>
+    <circle cx="78" cy="102" r="15" fill="#d86f4a"/>
+    <circle cx="126" cy="99" r="11" fill="#c95846"/>
+    <rect x="164" y="88" width="30" height="22" rx="9" fill="#e8ab59"/>
+    <rect x="216" y="84" width="48" height="28" rx="12" fill="#de7d56"/>
+    <circle cx="310" cy="101" r="7" fill="#bb4f3e"/>
+    <circle cx="336" cy="98" r="5" fill="#bb4f3e"/>
+    <text x="26" y="166" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">Input variation comes from cut size, fruit geometry,</text>
+    <text x="26" y="192" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">breakage during handling, and tray-to-tray differences.</text>
+
+    <rect x="26" y="224" width="170" height="38" rx="19" fill="#cadccf"/>
+    <text x="48" y="248" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Broad lot = broad result</text>
+  </g>
+
+  <g transform="translate(560 214)">
+    <rect width="528" height="290" rx="28" fill="#fffdf8" stroke="#d8d2c3"/>
+    <text x="28" y="42" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">Screening bands</text>
+
+    <rect x="28" y="78" width="472" height="52" rx="18" fill="#dbe8dd" stroke="#b5c8b8"/>
+    <text x="48" y="111" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Whole pieces</text>
+    <text x="198" y="111" fill="#40645a" font-family="Inter, Arial, sans-serif" font-size="15">retail appearance / topping identity</text>
+
+    <rect x="28" y="148" width="472" height="52" rx="18" fill="#ead8b7" stroke="#d1bc92"/>
+    <text x="48" y="181" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Fragments</text>
+    <text x="176" y="181" fill="#7b6840" font-family="Inter, Arial, sans-serif" font-size="15">usable for granola, bakery, controlled blends</text>
+
+    <rect x="28" y="218" width="472" height="52" rx="18" fill="#e7c0b5" stroke="#d4a092"/>
+    <text x="48" y="251" fill="#713d2f" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Fines</text>
+    <text x="124" y="251" fill="#875749" font-family="Inter, Arial, sans-serif" font-size="15">bottom dust, powder stream, or secondary use</text>
+
+    <line x1="334" y1="62" x2="334" y2="282" stroke="#d8d2c3" stroke-dasharray="6 8"/>
+    <text x="356" y="102" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="14">Tighter grading</text>
+    <text x="356" y="126" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="14">improves appearance</text>
+    <text x="356" y="150" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="14">but lowers premium-band yield</text>
+  </g>
+
+  <g transform="translate(112 536)">
+    <rect width="976" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Buying shortcut: ask for the size band, the fines limit, and how transit breakage is counted.</text>
+  </g>
+</svg>

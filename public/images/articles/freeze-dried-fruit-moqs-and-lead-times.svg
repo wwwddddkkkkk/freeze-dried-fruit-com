@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How MOQ and lead time shape freeze-dried fruit buying</title>
+  <desc id="desc">A planning diagram showing minimum order quantity, forecast commitment, production slot, packaging work, and delivery timing in freeze-dried fruit sourcing.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">A quote becomes real when timing and order floor are survivable</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">MOQ decides the commitment; lead time decides how early the decision has to be made.</text>
+
+  <g transform="translate(112 214)">
+    <rect width="250" height="290" rx="28" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <text x="28" y="44" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">MOQ pressure</text>
+    <rect x="28" y="78" width="194" height="118" rx="22" fill="#cadccf"/>
+    <text x="54" y="122" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">Order floor</text>
+    <text x="54" y="156" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="18">cash + storage + SKU risk</text>
+    <text x="28" y="242" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">Low MOQ helps testing.</text>
+    <text x="28" y="268" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">High MOQ can improve economics</text>
+    <text x="28" y="292" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">but only if the channel can absorb it.</text>
+  </g>
+
+  <g transform="translate(394 214)">
+    <rect width="694" height="290" rx="28" fill="#fffdf8" stroke="#d8d2c3"/>
+    <text x="28" y="44" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">Lead-time chain</text>
+
+    <rect x="28" y="92" width="118" height="62" rx="18" fill="#dbe8dd"/>
+    <text x="48" y="128" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Forecast</text>
+    <text x="48" y="147" fill="#40645a" font-family="Inter, Arial, sans-serif" font-size="13">demand signal</text>
+
+    <rect x="182" y="92" width="118" height="62" rx="18" fill="#ead8b7"/>
+    <text x="206" y="128" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Production</text>
+    <text x="212" y="147" fill="#7b6840" font-family="Inter, Arial, sans-serif" font-size="13">slotting</text>
+
+    <rect x="336" y="92" width="118" height="62" rx="18" fill="#cfe1ee"/>
+    <text x="364" y="128" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Pack + art</text>
+    <text x="365" y="147" fill="#486985" font-family="Inter, Arial, sans-serif" font-size="13">especially private label</text>
+
+    <rect x="490" y="92" width="118" height="62" rx="18" fill="#e7c0b5"/>
+    <text x="524" y="128" fill="#713d2f" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Docs</text>
+    <text x="514" y="147" fill="#875749" font-family="Inter, Arial, sans-serif" font-size="13">COA, claims, approvals</text>
+
+    <rect x="546" y="196" width="118" height="62" rx="18" fill="#efe4cf"/>
+    <text x="578" y="232" fill="#6c5334" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Delivery</text>
+    <text x="572" y="251" fill="#82684a" font-family="Inter, Arial, sans-serif" font-size="13">warehouse arrival</text>
+
+    <line x1="146" y1="123" x2="182" y2="123" stroke="#9aa6a0" stroke-width="3"/>
+    <line x1="300" y1="123" x2="336" y2="123" stroke="#9aa6a0" stroke-width="3"/>
+    <line x1="454" y1="123" x2="490" y2="123" stroke="#9aa6a0" stroke-width="3"/>
+    <line x1="608" y1="154" x2="608" y2="196" stroke="#9aa6a0" stroke-width="3"/>
+
+    <text x="28" y="222" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">The buyer's risk is not only wait time. It is the gap between</text>
+    <text x="28" y="248" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">when inventory must be committed and when demand becomes clear.</text>
+  </g>
+
+  <g transform="translate(112 536)">
+    <rect width="976" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Planning rule: convert MOQ and lead time into weeks of inventory before calling one quote “better.”</text>
+  </g>
+</svg>

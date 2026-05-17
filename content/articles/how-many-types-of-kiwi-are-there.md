@@ -3,6 +3,7 @@ title: "How Many Types of Kiwi Are There? A Guide to Kiwi Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-22
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-kiwi-are-there.jpg
 cover_alt: "A sliced kiwi fruit showing green flesh and black seeds"
 cover_credit: "Andre Karwath aka Aka / CC BY-SA 2.5"
@@ -15,6 +16,21 @@ takeaways:
   - "Green kiwi, gold kiwi, red kiwi, smooth-skinned baby kiwi, fresh-market and processing kiwi"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of kiwi are there?"
+    a: "Kiwi varieties are usually grouped by flesh color, skin type, sweetness, and acidity. Familiar names include Hayward, SunGold, Zespri Green, plus golden kiwi, red kiwi, baby kiwi, and kiwiberry — broadly split into green kiwi, gold kiwi, red kiwi, smooth-skinned baby kiwi, and processing-grade fruit."
+  - q: "What's the difference between green and golden kiwi?"
+    a: "Green kiwi (Hayward and similar) carries more acidity, the iconic vivid green flesh, and a sharper bite. Golden kiwi (SunGold and similar) is sweeter, less acidic, with yellow flesh and a more tropical flavor profile — softer to eat and friendlier for casual snacking, but visually less dramatic."
+  - q: "What is SunGold kiwi?"
+    a: "SunGold is a yellow-fleshed kiwi variety developed and commercialized by the New Zealand Zespri program. It is sweeter and less acidic than green Hayward kiwi, with smooth skin (not fuzzy), and it became a major premium retail kiwi in international export markets."
+  - q: "What is baby kiwi or kiwiberry?"
+    a: "Baby kiwi (also called kiwiberry) is a related Actinidia species with grape-sized fruit, smooth edible skin, and a sweet kiwi-like flavor. It is sold as a snackable whole-fruit format rather than the larger sliced kiwi familiar from retail. Less common commercially but expanding in specialty markets."
+  - q: "Which kiwi variety is best for freeze-drying?"
+    a: "Variety affects color, acidity, seed texture, and slice appeal. Green kiwi brings sharpness and the iconic visual seed ring; gold kiwi tastes sweeter and less aggressive; red kiwi adds premium visual interest. Buyers should ask flesh color, cultivar where available, slice thickness, Brix, acidity, peel status, and whether the product is slices, dices, powder, or inclusions."
+  - q: "Is red kiwi a real fruit?"
+    a: "Yes — red-fleshed kiwi cultivars exist, often with a pink or red core radiating from the center. They are less common in mainstream retail than green or gold but are grown commercially, especially in China, where kiwi originated and where the deepest cultivar diversity remains."
+  - q: "What should buyers ask freeze-dried kiwi suppliers?"
+    a: "Ask flesh color (green, gold, red, baby), cultivar where available, origin, slice thickness, peel status, expected whole-slice percentage, target moisture or water activity, added sugar status, and the intended product positioning (snack slices, mixed-fruit ingredient, or powder)."
 ---
 
 Kiwi is not just the fuzzy green fruit most shoppers know. The category includes green, gold, red-centered, smooth-skinned, and baby kiwi types. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

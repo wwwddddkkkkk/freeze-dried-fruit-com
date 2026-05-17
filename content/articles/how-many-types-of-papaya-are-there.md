@@ -3,6 +3,7 @@ title: "How Many Types of Papaya Are There? A Guide to Papaya Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-21
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-papaya-are-there.jpg
 cover_alt: "A close-up of a papaya cut lengthwise with orange flesh and black seeds"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Small dessert papaya, large tropical papaya, green culinary papaya, processing papaya"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of papaya are there?"
+    a: "Papaya varieties are usually grouped by size, flesh color, ripeness use, seed cavity, and commercial origin. Familiar names include Solo, Sunrise, Maradol, Red Lady, Formosa, Hawaiian papaya, Mexican papaya, and green papaya — split into small dessert papaya, large tropical papaya, green culinary papaya, and processing papaya."
+  - q: "What's the difference between Solo and Maradol papaya?"
+    a: "Solo (and the related Sunrise) is a small Hawaiian dessert papaya — typically single-serve size, yellow or pink flesh, sweet but mild. Maradol is a large Mexican papaya — pound-plus weight, deep red-orange flesh, more pronounced tropical aroma. They serve different markets: Solo for premium small-format retail, Maradol for volume Mexican and U.S. supply."
+  - q: "What is green papaya?"
+    a: "Green papaya is unripe papaya, used as a culinary vegetable rather than a sweet fruit. It is the base for Thai green papaya salad (som tam) and similar Southeast Asian dishes. Texture is firm, crunchy, neutral. It is a different ingredient category from ripe papaya — buyers must clarify ripe vs green when sourcing."
+  - q: "What is Red Lady papaya?"
+    a: "Red Lady is a hybrid papaya variety bred for reliable yield, disease resistance, and good color in tropical commercial production. It carries red-orange flesh similar to Maradol but with more consistent supply chain behavior. It is increasingly common in tropical export markets and shipping-friendly production systems."
+  - q: "Which papaya variety freeze-dries best?"
+    a: "Aroma is the hardest quality signal. Mild papaya can disappear in a blend; overripe papaya can taste heavy. Aromatic small-fruited types (Solo, Sunrise) often deliver more flavor density per piece; larger red-flesh types (Maradol, Red Lady) deliver volume and color. Buyers should ask variety or type, flesh color, ripeness, cut size, seed cavity trimming, and source state."
+  - q: "Where is papaya grown commercially?"
+    a: "Hawaii is the original commercial home of small dessert papayas (Solo, Sunrise). Mexico and Central America dominate large red-flesh papaya supply (Maradol, Mexican papaya). Southeast Asia produces both ripe and green papaya extensively. Tropical export production from Brazil, Philippines, India, and other regions uses Red Lady, Formosa, and hybrid types."
+  - q: "What should buyers ask freeze-dried papaya suppliers?"
+    a: "Ask variety or type (Solo, Maradol, Red Lady, etc.), flesh color, ripeness or Brix at intake, seed-cavity trimming, cut format, raw material state (fresh, frozen, puree-derived), target moisture or water activity, added sugar status, and the intended product positioning (standalone snack, tropical blend, or color/aroma ingredient)."
 ---
 
 Papaya variety changes size, flesh color, aroma, sweetness, seed cavity, and whether the fruit is eaten ripe or green. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

@@ -10,11 +10,27 @@ import { mkdir, readFile, copyFile, readdir, stat, writeFile, rm } from "node:fs
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { loadArticles } from "./lib/articles.mjs";
+import { loadArticles, renderMarkdown } from "./lib/articles.mjs";
+import { loadPillars, extractTocFromHtml, ensureH2Anchors } from "./lib/pillars.mjs";
+import { loadReports } from "./lib/reports.mjs";
+import { t as iT, categoryLabel as iCategoryLabel } from "./lib/i18n.mjs";
+import {
+  FRUIT_EQUIVALENCY,
+  CLIMATE_ZONES,
+  SHELF_LIFE_OPTIONS,
+  PACK_SIZES,
+  FRAGILITY_LEVELS,
+  BASE_BARRIER_TARGETS,
+} from "./lib/calculators-data.mjs";
+import { FRUIT_DATA, SLUG_TO_FRUIT, clusterForFruit, buildComparisonPairs, CLUSTERS } from "./lib/fruit-data.mjs";
 import { renderHero } from "./lib/illustrations.mjs";
 import { Icons } from "./lib/icons.mjs";
 import { buildMailto } from "./lib/mailto.mjs";
-import { renderPage, escapeHtml, articleUrl, categoryUrl } from "./lib/layout.mjs";
+import { renderPage as renderPageRaw, escapeHtml, articleUrl, categoryUrl } from "./lib/layout.mjs";
+import {
+  renderArticleOgSvg, renderSiteOgSvg, rasterize,
+  OG_WIDTH, OG_HEIGHT,
+} from "./lib/og-images.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -32,6 +48,27 @@ async function readJson(p) {
   return JSON.parse(await readFile(p, "utf8"));
 }
 
+// Build a per-locale i18n object that closes over `lang` and exposes the
+// two helpers layout.mjs expects: t(key) and categoryLabel(name).
+function makeI18n(lang) {
+  return {
+    t: (key) => iT(lang, key),
+    categoryLabel: (name) => iCategoryLabel(lang, name),
+  };
+}
+const I18N_EN = makeI18n("en");
+const I18N_ES = makeI18n("es");
+
+// renderPage wrapper that injects the correct i18n object for the page's
+// locale (defaulting to English). Every existing call site continues to
+// work without modification; new bilingual pages pass `lang` and
+// `alternates` explicitly.
+function renderPage(opts) {
+  const lang = opts.lang || "en";
+  const i18n = opts.i18n || (lang === "es" ? I18N_ES : I18N_EN);
+  return renderPageRaw({ ...opts, lang, i18n });
+}
+
 function applyBase(html) {
   if (!BASE_PATH) return html;
   // Match href="/..." and src="/..." but skip protocol-relative //example.com.
@@ -41,10 +78,17 @@ function applyBase(html) {
 // Renders an article's cover — either a real photo (if cover_image is set
 // in frontmatter) or the SVG hero variant. Used everywhere a hero used to
 // be: home, sidebar, latest, list rows, article cover, related cards.
+//
+// When intrinsic dimensions were auto-detected at load time, we emit
+// explicit width / height attributes — eliminating CLS on Core Web Vitals
+// and giving Google a stable layout signal before the image loads.
 function renderCover(article) {
   if (article.cover_image) {
     const alt = article.cover_alt || article.title || "";
-    return `<img class="cover-img" src="${escapeHtml(article.cover_image)}" alt="${escapeHtml(alt)}" loading="lazy" decoding="async">`;
+    const dimAttrs = (article.cover_width && article.cover_height)
+      ? ` width="${article.cover_width}" height="${article.cover_height}"`
+      : "";
+    return `<img class="cover-img" src="${escapeHtml(article.cover_image)}" alt="${escapeHtml(alt)}"${dimAttrs} loading="lazy" decoding="async">`;
   }
   return renderHero(article.hero);
 }
@@ -244,6 +288,342 @@ function stripMd(s) {
   return String(s || "").replace(/\*\*([^*]+)\*\*/g, "$1").replace(/\*([^*]+)\*/g, "$1");
 }
 
+// ---------- Structured data (JSON-LD) ----------
+
+// Resolve a path or relative URL to an absolute URL using the site origin.
+function absUrl(site, p) {
+  if (!p) return null;
+  if (/^https?:\/\//i.test(p)) return p;
+  const origin = site.url.replace(/\/$/, "");
+  return `${origin}${p.startsWith("/") ? "" : "/"}${p}`;
+}
+
+function organizationNode(site) {
+  const node = {
+    "@type": "Organization",
+    "@id": `${site.url}/#organization`,
+    name: "Freeze-Dried-Fruit.com",
+    url: site.url,
+    logo: {
+      "@type": "ImageObject",
+      url: absUrl(site, "/favicon.svg"),
+    },
+    email: site.email?.hello,
+    sameAs: [],
+  };
+  if (site.editorial) {
+    node.subOrganization = { "@id": `${site.url}/#editorial` };
+  }
+  return node;
+}
+
+function websiteNode(site) {
+  return {
+    "@type": "WebSite",
+    "@id": `${site.url}/#website`,
+    url: site.url,
+    name: site.title,
+    description: site.description,
+    inLanguage: "en-US",
+    publisher: { "@id": `${site.url}/#organization` },
+    potentialAction: {
+      "@type": "SearchAction",
+      target: {
+        "@type": "EntryPoint",
+        urlTemplate: `${site.url}/search/?q={search_term_string}`,
+      },
+      "query-input": "required name=search_term_string",
+    },
+  };
+}
+
+function breadcrumbsNode(site, trail) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: trail.map((step, i) => ({
+      "@type": "ListItem",
+      position: i + 1,
+      name: step.name,
+      item: absUrl(site, step.path),
+    })),
+  };
+}
+
+// The editorial collective is an Organization sub-entity of the publisher.
+// Returns the same shape we use everywhere we credit "the editorial desk" —
+// stable @id, parent reference, and a URL pointing at /editorial/ where the
+// E-E-A-T context (who we are, how we work, what we won't do) lives.
+function editorialNode(site) {
+  const byline = site.editorial?.byline || "Editorial Desk";
+  const url = absUrl(site, site.editorial?.url || "/editorial/");
+  return {
+    "@type": "Organization",
+    "@id": `${site.url}/#editorial`,
+    name: byline,
+    url,
+    description: site.editorial?.tagline || "Independent editorial team covering the freeze-dried fruit category.",
+    parentOrganization: { "@id": `${site.url}/#organization` },
+  };
+}
+
+function editorialPageJsonLd({ site }) {
+  const url = absUrl(site, site.editorial?.url || "/editorial/");
+  const byline = site.editorial?.byline || "Editorial Desk";
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      url,
+      name: byline,
+      description: site.editorial?.tagline,
+      inLanguage: "en-US",
+      isPartOf: { "@id": `${site.url}/#website` },
+      mainEntity: editorialNode(site),
+    },
+    breadcrumbsNode(site, [
+      { name: "Home", path: "/" },
+      { name: byline, path: site.editorial?.url || "/editorial/" },
+    ]),
+  ];
+}
+
+function homeJsonLd({ site, articles }) {
+  const graph = [
+    organizationNode(site),
+    websiteNode(site),
+    {
+      "@type": "CollectionPage",
+      "@id": `${site.url}/#home`,
+      url: `${site.url}/`,
+      name: site.title,
+      description: site.description,
+      isPartOf: { "@id": `${site.url}/#website` },
+      inLanguage: "en-US",
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: Math.min(articles.length, 10),
+        itemListElement: articles.slice(0, 10).map((a, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          url: absUrl(site, articleUrl(a.id)),
+          name: a.title,
+        })),
+      },
+    },
+  ];
+  return [{ "@context": "https://schema.org", "@graph": graph }];
+}
+
+// Resolve the og:image / Article.image URL for an article.
+// If the article has a real photo (JPG/PNG cover), prefer that for stronger
+// social previews. Otherwise fall back to the auto-generated 1200×630 OG card
+// that lives at /images/og/<slug>.png — this is the path that makes every
+// article eligible for Google's Article rich-result image requirement.
+function articleImageUrl(site, article) {
+  if (article.cover_image && !article.cover_image.toLowerCase().endsWith(".svg")) {
+    return absUrl(site, article.cover_image);
+  }
+  return `${site.url.replace(/\/$/, "")}/images/og/${article.id}.png`;
+}
+
+function articleJsonLd({ site, article }) {
+  const url = absUrl(site, articleUrl(article.id));
+  const imageUrl = articleImageUrl(site, article);
+  const usingGeneratedCard = !article.cover_image || article.cover_image.toLowerCase().endsWith(".svg");
+  const published = article.date ? article.date.toISOString() : undefined;
+
+  const articleNode = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.summary || article.intro || "",
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    url,
+    inLanguage: "en-US",
+    articleSection: article.category,
+    isAccessibleForFree: true,
+    // ImageObject with explicit dimensions. The generated OG card is always
+    // 1200×630 (the spec Google asks for). Real photo covers ship the
+    // pixel dimensions we auto-detected from disk at load time — giving
+    // every article an Image rich-result-eligible payload.
+    image: usingGeneratedCard
+      ? { "@type": "ImageObject", url: imageUrl, width: OG_WIDTH, height: OG_HEIGHT }
+      : (article.cover_width && article.cover_height
+          ? { "@type": "ImageObject", url: imageUrl, width: article.cover_width, height: article.cover_height }
+          : imageUrl),
+    author: editorialNode(site),
+    publisher: organizationNode(site),
+  };
+  if (published) {
+    articleNode.datePublished = published;
+    articleNode.dateModified = article.updated ? article.updated.toISOString() : published;
+  }
+
+  // SpeakableSpecification — points Google Assistant / Bixby / Alexa-style
+  // voice readers at the CSS selectors that compose a coherent spoken
+  // summary of the article: the lede intro, the takeaways box, and the FAQ
+  // Q&A pairs. The same selectors are also useful signals to AI engines
+  // (ChatGPT/Perplexity) about which on-page text is "the answer."
+  articleNode.speakable = {
+    "@type": "SpeakableSpecification",
+    cssSelector: [
+      ".article-head__intro",
+      ".takeaways",
+      ".faq__q",
+      ".faq__a",
+    ],
+  };
+
+  // Outbound citations to authoritative sources become a citation[] array of
+  // CreativeWork nodes. Schema.org's `citation` property is one of the
+  // strongest E-E-A-T signals a content site can declare in JSON-LD: it tells
+  // Google (and AI search engines) which specific external references back up
+  // the article's claims.
+  if (article.sources && article.sources.length) {
+    articleNode.citation = article.sources.map(s => {
+      const node = {
+        "@type": "CreativeWork",
+        name: s.title,
+        url: s.url,
+      };
+      if (s.publisher) {
+        node.publisher = { "@type": "Organization", name: s.publisher };
+      }
+      return node;
+    });
+  }
+
+  const trail = [
+    { name: "Home", path: "/" },
+    { name: "Articles", path: "/articles/" },
+    { name: article.category, path: categoryUrl(article.category) },
+    { name: article.title, path: articleUrl(article.id) },
+  ];
+
+  const nodes = [articleNode, breadcrumbsNode(site, trail)];
+
+  if (article.faqs && article.faqs.length) {
+    nodes.push({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: article.faqs.map(f => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: {
+          "@type": "Answer",
+          // Schema.org allows HTML in answers; the pre-rendered markdown
+          // (with glossary auto-links applied) maps cleanly to short
+          // paragraphs and lists that LLMs extract well.
+          text: (f.aHtml || renderMarkdown(f.a)).trim(),
+        },
+      })),
+    });
+  }
+
+  // HowTo JSON-LD for procedural / checklist articles. The visible body is
+  // still the canonical content — this node just gives Bing, Alexa, voice
+  // search, and AI engines a strictly typed step-by-step payload they can
+  // surface verbatim when answering "how do I…" queries.
+  if (article.howto && article.howto.steps && article.howto.steps.length) {
+    const ht = article.howto;
+    const node = {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      name: ht.name,
+      step: ht.steps.map((s, i) => {
+        const step = { "@type": "HowToStep", position: i + 1, name: s.name };
+        if (s.text) step.text = s.text;
+        if (s.url) {
+          // Relative anchor URLs become absolute so the schema is portable.
+          step.url = s.url.startsWith("#") ? `${url}${s.url}` : s.url;
+        }
+        return step;
+      }),
+    };
+    if (ht.description) node.description = ht.description;
+    if (ht.totalTime) node.totalTime = ht.totalTime;
+    nodes.push(node);
+  }
+
+  return nodes;
+}
+
+function articleListJsonLd({ site, articles, category, currentPath, name, description }) {
+  const url = absUrl(site, currentPath);
+  const trail = [{ name: "Home", path: "/" }, { name: "Articles", path: "/articles/" }];
+  if (category) trail.push({ name: category, path: currentPath });
+
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      url,
+      name,
+      description,
+      inLanguage: "en-US",
+      isPartOf: { "@id": `${site.url}/#website` },
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: articles.length,
+        itemListElement: articles.slice(0, 50).map((a, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          url: absUrl(site, articleUrl(a.id)),
+          name: a.title,
+        })),
+      },
+    },
+    breadcrumbsNode(site, trail),
+  ];
+}
+
+function simplePageJsonLd({ site, currentPath, name, description, type = "WebPage", extraTrail = [] }) {
+  const url = absUrl(site, currentPath);
+  const trail = [{ name: "Home", path: "/" }, ...extraTrail, { name, path: currentPath }];
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": type,
+      url,
+      name,
+      description,
+      inLanguage: "en-US",
+      isPartOf: { "@id": `${site.url}/#website` },
+    },
+    breadcrumbsNode(site, trail),
+  ];
+}
+
+function newsListJsonLd({ site, news }) {
+  const items = (news?.items || []).slice(0, 20);
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      url: absUrl(site, "/news/"),
+      name: "News Wire — Freeze-Dried-Fruit.com",
+      description: "Auto-updated headlines about freeze-dried fruit and freeze-drying technology.",
+      inLanguage: "en-US",
+      isPartOf: { "@id": `${site.url}/#website` },
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: items.length,
+        itemListElement: items.map((it, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          url: it.link,
+          name: it.title,
+        })),
+      },
+    },
+    breadcrumbsNode(site, [
+      { name: "Home", path: "/" },
+      { name: "News Wire", path: "/news/" },
+    ]),
+  ];
+}
+
 // ---------- Pages ----------
 
 function renderHomeBody({ site, mailto, articles, home, news, homeConfig }) {
@@ -286,7 +666,7 @@ function renderHomeBody({ site, mailto, articles, home, news, homeConfig }) {
             <div class="home-hero__cat">${escapeHtml(featured.category)}</div>
             <h1 class="home-hero__title">${escapeHtml(featured.title)}</h1>
             <p class="home-hero__sum">${escapeHtml(featured.summary)}</p>
-            <div class="home-hero__byline">FreezeDriedFruit Editorial · ${escapeHtml(featured.dateLabel)} · ${escapeHtml(featured.read)}</div>
+            <div class="home-hero__byline">${escapeHtml(site.editorial?.byline || "Editorial Desk")} · ${escapeHtml(featured.dateLabel)} · ${escapeHtml(featured.read)}</div>
           </a>
         </article>
         ${guide ? guideCard(guide) : ""}
@@ -324,13 +704,997 @@ function renderHomeBody({ site, mailto, articles, home, news, homeConfig }) {
   ${newsletterBand({ mailto })}`;
 }
 
-function renderArticlesIndex({ articles, category }) {
+// ---------- Cross-fruit comparison table ----------
+
+// Render the freeze-drying comparison table for one fruit, showing the
+// current fruit highlighted alongside the other fruits in its cluster.
+// Output is a standalone <section> meant to be injected into the article
+// body just before the conclusion.
+function renderFruitCompareTable(fruitKey) {
+  const cluster = clusterForFruit(fruitKey);
+  if (!cluster) return "";
+  const self = FRUIT_DATA[fruitKey];
+  if (!self) return "";
+
+  // Self goes first, then the other cluster fruits in their declared order.
+  // Skipped any cluster entries that don't have data (defensive against typos).
+  const rows = [fruitKey, ...cluster.fruits.filter(k => k !== fruitKey)]
+    .map(k => ({ key: k, data: FRUIT_DATA[k] }))
+    .filter(r => r.data);
+
+  const tbody = rows.map(({ key, data }) => {
+    const isSelf = key === fruitKey;
+    return `
+      <tr${isSelf ? ' class="is-self"' : ""}>
+        <th scope="row" class="fruit-compare__name">${escapeHtml(data.name)}${isSelf ? `<span class="fruit-compare__badge">this report</span>` : ""}</th>
+        <td class="fruit-compare__num">${escapeHtml(data.brix)}</td>
+        <td>${escapeHtml(data.fiber)}</td>
+        <td>${escapeHtml(data.aroma)}</td>
+        <td>${escapeHtml(data.colorStability)}</td>
+        <td>${escapeHtml(data.breakage)}</td>
+        <td class="fruit-compare__format">${escapeHtml(data.format)}</td>
+      </tr>`;
+  }).join("");
+
+  return `
+    <section class="fruit-compare" aria-labelledby="fruit-compare-heading">
+      <div class="fruit-compare__eyebrow">Comparison · ${escapeHtml(cluster.label)}</div>
+      <h2 id="fruit-compare-heading" class="fruit-compare__title">How ${escapeHtml(self.name.toLowerCase())} compares</h2>
+      <p class="fruit-compare__intro">A quick reference for how <strong>${escapeHtml(self.name.toLowerCase())}</strong> sits alongside the freeze-drying personalities of its closest siblings.</p>
+      <div class="fruit-compare__scroll">
+        <table class="fruit-compare__table">
+          <thead>
+            <tr>
+              <th scope="col">Fruit</th>
+              <th scope="col">Brix</th>
+              <th scope="col">Fiber</th>
+              <th scope="col">Aroma</th>
+              <th scope="col">Color stability</th>
+              <th scope="col">Breakage risk</th>
+              <th scope="col">Typical format</th>
+            </tr>
+          </thead>
+          <tbody>${tbody}</tbody>
+        </table>
+      </div>
+      <p class="fruit-compare__caption">Values are typical industry ranges. Variety, origin, harvest window, and process all shift them.</p>
+    </section>`;
+}
+
+// Pick the top-N comparison pairs to surface in a fruit report's
+// "Compare with..." strip. Intra-cluster siblings rank first (alphabetical),
+// then cross-cluster celebrity pairs.
+function relevantPairsFor(fruitKey, limit = 4) {
+  const pairs = buildComparisonPairs();
+  const cluster = clusterForFruit(fruitKey);
+  const relevant = pairs.filter(p => p.a === fruitKey || p.b === fruitKey);
+  relevant.sort((p1, p2) => {
+    const o1 = p1.a === fruitKey ? p1.b : p1.a;
+    const o2 = p2.a === fruitKey ? p2.b : p2.a;
+    const inCluster1 = cluster?.fruits.includes(o1) ? 0 : 1;
+    const inCluster2 = cluster?.fruits.includes(o2) ? 0 : 1;
+    if (inCluster1 !== inCluster2) return inCluster1 - inCluster2;
+    const A = FRUIT_DATA[o1]?.name || o1;
+    const B = FRUIT_DATA[o2]?.name || o2;
+    return A.localeCompare(B);
+  });
+  return relevant.slice(0, limit);
+}
+
+// Render the "Compare with..." strip for a fruit report — a small grid of
+// links pointing at the canonical pairwise comparison pages for this fruit's
+// most relevant siblings. Lives at the bottom of the article, after the FAQ.
+function renderCompareWithStrip(fruitKey) {
+  if (!fruitKey) return "";
+  const self = FRUIT_DATA[fruitKey];
+  if (!self) return "";
+  const pairs = relevantPairsFor(fruitKey, 4);
+  if (!pairs.length) return "";
+
+  const cards = pairs.map(p => {
+    const otherKey = p.a === fruitKey ? p.b : p.a;
+    const other = FRUIT_DATA[otherKey];
+    if (!other) return "";
+    return `
+      <a href="/compare/${p.slug}/" class="compare-with__card">
+        <span class="compare-with__pair"><span class="compare-with__self">${escapeHtml(self.name)}</span><span class="compare-with__vs">vs</span><span class="compare-with__other">${escapeHtml(other.name)}</span></span>
+        <span class="compare-with__cta">See comparison ${Icons.arrowSmall}</span>
+      </a>`;
+  }).join("");
+
+  return `
+    <section class="compare-with" aria-labelledby="compare-with-heading">
+      <div class="compare-with__eyebrow">Compare ${escapeHtml(self.name.toLowerCase())} with</div>
+      <h2 id="compare-with-heading" class="compare-with__heading">How ${escapeHtml(self.name.toLowerCase())} compares side-by-side</h2>
+      <div class="compare-with__grid">${cards}</div>
+      <a href="/compare/" class="compare-with__all">See all freeze-dried fruit comparisons ${Icons.arrowSmall}</a>
+    </section>`;
+}
+
+// Render the "Continue reading in [Category]" strip — a 3-card pillar-aware
+// reading path that lives between the article's Sources block and the
+// fruit-report Compare-with strip. Different from the bottom "Related
+// Reading" block: this one stays inside the current pillar so a reader who
+// finished a Technology article gets nudged to the next Technology article,
+// not a Fruit Report. The bottom Related Reading block then offers a
+// cross-pillar branch.
+//
+// Selection: `siblings` is a pre-filtered list of same-category articles,
+// excluding the current one, ordered newest-first. We show up to 3.
+function renderContinueReading(siblings, category) {
+  if (!siblings || !siblings.length) return "";
+  const top = siblings.slice(0, 3);
+  const cards = top.map(a => `
+    <a class="continue-reading__card" href="${articleUrl(a.id)}">
+      <span class="continue-reading__date">${escapeHtml(a.dateLabel || "")}</span>
+      <span class="continue-reading__title">${escapeHtml(a.title)}</span>
+      <span class="continue-reading__cta">Read article ${Icons.arrowSmall}</span>
+    </a>`).join("");
+  return `
+    <section class="continue-reading" aria-labelledby="continue-reading-heading">
+      <div class="continue-reading__eyebrow">Continue reading in ${escapeHtml(category)}</div>
+      <h2 id="continue-reading-heading" class="continue-reading__heading">Next stops in the field guide</h2>
+      <div class="continue-reading__grid">${cards}</div>
+      <a class="continue-reading__all" href="${categoryUrl(category)}">See all ${escapeHtml(category)} articles ${Icons.arrowSmall}</a>
+    </section>`;
+}
+
+// Render the "Primary sources & further reading" section for an article that
+// declares a `sources:` array in its frontmatter. These are dofollow outbound
+// links to authoritative publishers (FDA, USDA, IFT, ASTM, ISO, etc.) used to
+// substantiate technical claims — a direct E-E-A-T trust signal.
+//
+// We open external links in a new tab and add rel="external noopener" (NOT
+// nofollow) because we are vouching for the cited source.
+function renderSources(sources) {
+  if (!sources || !sources.length) return "";
+  const items = sources.map(s => {
+    const publisherHtml = s.publisher
+      ? `<span class="sources__publisher">${escapeHtml(s.publisher)}</span>`
+      : "";
+    const noteHtml = s.note
+      ? `<span class="sources__note">${escapeHtml(s.note)}</span>`
+      : "";
+    return `
+      <li class="sources__item">
+        <a class="sources__link" href="${escapeHtml(s.url)}" target="_blank" rel="external noopener">
+          <span class="sources__title">${escapeHtml(s.title)}</span>
+          ${publisherHtml}
+        </a>
+        ${noteHtml}
+      </li>`;
+  }).join("");
+  return `
+    <section class="sources" aria-labelledby="sources-heading">
+      <div class="sources__eyebrow">References</div>
+      <h2 id="sources-heading" class="sources__heading">Primary sources &amp; further reading</h2>
+      <ol class="sources__list">${items}</ol>
+      <p class="sources__disclosure">External links open in a new tab. We do not receive compensation from any organization listed; sources are referenced because they are primary, current, and publicly verifiable.</p>
+    </section>`;
+}
+
+// Inject the comparison table into rendered article HTML for fruit reports.
+// We slot it BEFORE the article's conclusion-style final H2 ("Conclusion",
+// "Bottom line", or similar) so the comparison feels like a reference the
+// reader sees just before the wrap-up rather than after it.
+function injectFruitCompareTable(bodyHtml, fruitKey) {
+  const table = renderFruitCompareTable(fruitKey);
+  if (!table) return bodyHtml;
+
+  // Find the last H2 in the body. If its text matches a conclusion-style
+  // heading, place the table immediately before that H2. Otherwise append.
+  const h2Re = /<h2[^>]*>([\s\S]*?)<\/h2>/g;
+  let lastMatch = null;
+  let m;
+  while ((m = h2Re.exec(bodyHtml))) {
+    lastMatch = { index: m.index, text: m[1].replace(/<[^>]+>/g, "").trim().toLowerCase() };
+  }
+  if (lastMatch && /(conclusion|bottom line|the bottom line|in conclusion|wrap[- ]up)/i.test(lastMatch.text)) {
+    return bodyHtml.slice(0, lastMatch.index) + table + bodyHtml.slice(lastMatch.index);
+  }
+  return bodyHtml + table;
+}
+
+// ---------- Pairwise comparison pages ----------
+
+// Map a fruit key back to its primary article (source-of-truth content) so
+// the comparison page can link to the full report at the bottom.
+function findArticleForFruit(articles, fruitKey) {
+  // Prefer the "X-for-freeze-drying" variant; fall back to "how-many-types-of-X"
+  // or the special-case mango-varieties.
+  const candidates = [];
+  for (const [slug, key] of Object.entries(SLUG_TO_FRUIT)) {
+    if (key !== fruitKey) continue;
+    candidates.push(slug);
+  }
+  const preferred = candidates.find(s => s.endsWith("-for-freeze-drying"))
+    || candidates.find(s => s.endsWith("-varieties-for-freeze-drying"))
+    || candidates.find(s => s === "mango-varieties")
+    || candidates[0];
+  if (!preferred) return null;
+  return articles.find(a => a.id === preferred) || null;
+}
+
+// Lightweight ordinal scale used to surface meaningful attribute differences
+// in the generated prose / FAQ — *not* shown verbatim to readers.
+function rankFiber(value) {
+  const v = String(value || "").toLowerCase();
+  if (v.includes("very low")) return 0;
+  if (v.startsWith("low")) return 1;
+  if (v.includes("medium")) return 2;
+  if (v.includes("high")) return 3;
+  return 2; // default mid
+}
+function rankAroma(value) {
+  const v = String(value || "").toLowerCase();
+  if (v.includes("very strong")) return 4;
+  if (v.includes("sharp")) return 3;
+  if (v.includes("strong")) return 3;
+  if (v.includes("moderate")) return 2;
+  if (v.includes("mild")) return 1;
+  if (v.includes("quiet")) return 1;
+  return 2;
+}
+function rankColor(value) {
+  const v = String(value || "").toLowerCase();
+  if (v.includes("very strong")) return 4;
+  if (v.includes("strong")) return 3;
+  if (v.includes("moderate")) return 2;
+  if (v.includes("poor")) return 1;
+  return 2;
+}
+function rankBreakage(value) {
+  const v = String(value || "").toLowerCase();
+  if (v.includes("low")) return 1;
+  if (v.includes("medium")) return 2;
+  if (v.includes("high")) return 3;
+  return 2;
+}
+
+// Render one pairwise comparison page. Each page reuses the existing fruit
+// comparison table (filtered to just these two fruits) plus side-by-side
+// reference cards and a small set of generated FAQs derived from attribute
+// differences — so every URL is factually unique without templated filler.
+function renderComparePage({ a, b, articles }) {
+  const A = FRUIT_DATA[a];
+  const B = FRUIT_DATA[b];
+  if (!A || !B) return null;
+
+  const aArticle = findArticleForFruit(articles, a);
+  const bArticle = findArticleForFruit(articles, b);
+  const clusterA = clusterForFruit(a);
+  const clusterB = clusterForFruit(b);
+  const sameCluster = clusterA && clusterB && clusterA.id === clusterB.id;
+  const clusterLabel = sameCluster ? clusterA.label : `${clusterA?.label || "Fruit"} vs ${clusterB?.label || "Fruit"}`;
+
+  // Two-row comparison table that mirrors the existing fruit-compare style.
+  const tableHtml = `
+    <section class="fruit-compare compare-page__table" aria-label="At-a-glance comparison">
+      <div class="fruit-compare__eyebrow">At a glance</div>
+      <div class="fruit-compare__scroll">
+        <table class="fruit-compare__table">
+          <thead>
+            <tr>
+              <th scope="col">Fruit</th>
+              <th scope="col">Brix</th>
+              <th scope="col">Fiber</th>
+              <th scope="col">Aroma</th>
+              <th scope="col">Color stability</th>
+              <th scope="col">Breakage risk</th>
+              <th scope="col">Typical format</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="fruit-compare__name">${escapeHtml(A.name)}</th>
+              <td class="fruit-compare__num">${escapeHtml(A.brix)}</td>
+              <td>${escapeHtml(A.fiber)}</td>
+              <td>${escapeHtml(A.aroma)}</td>
+              <td>${escapeHtml(A.colorStability)}</td>
+              <td>${escapeHtml(A.breakage)}</td>
+              <td class="fruit-compare__format">${escapeHtml(A.format)}</td>
+            </tr>
+            <tr>
+              <th scope="row" class="fruit-compare__name">${escapeHtml(B.name)}</th>
+              <td class="fruit-compare__num">${escapeHtml(B.brix)}</td>
+              <td>${escapeHtml(B.fiber)}</td>
+              <td>${escapeHtml(B.aroma)}</td>
+              <td>${escapeHtml(B.colorStability)}</td>
+              <td>${escapeHtml(B.breakage)}</td>
+              <td class="fruit-compare__format">${escapeHtml(B.format)}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>`;
+
+  // Side-by-side reference cards — each fruit's editorial one-liner plus a
+  // richer attribute grid that surfaces the sourcing and commercial data
+  // (best use, seasonality, cost tier, key origins) alongside the technical
+  // fields. The compare page at the top still carries the technical at-a-glance.
+  const fruitCard = (fruit, key, article) => `
+    <div class="compare-card">
+      <div class="compare-card__eyebrow">${escapeHtml(clusterForFruit(key)?.label || "Fruit")}</div>
+      <h2 class="compare-card__name">${escapeHtml(fruit.name)}</h2>
+      <p class="compare-card__one-line">${escapeHtml(fruit.oneLine || "")}</p>
+      <dl class="compare-card__attrs">
+        <div><dt>Brix</dt><dd class="is-mono">${escapeHtml(fruit.brix)}</dd></div>
+        <div><dt>Cost tier</dt><dd>${escapeHtml(fruit.costTier || "—")}</dd></div>
+        <div><dt>Best use</dt><dd>${escapeHtml(fruit.bestUse || "—")}</dd></div>
+        <div><dt>Seasonality</dt><dd>${escapeHtml(fruit.seasonality || "—")}</dd></div>
+      </dl>
+      ${fruit.keyOrigins ? `<div class="compare-card__origins"><span class="compare-card__origins-label">Key origins</span><span class="compare-card__origins-value">${escapeHtml(fruit.keyOrigins)}</span></div>` : ""}
+      ${article ? `<a href="${articleUrl(article.id)}" class="compare-card__link">Read the ${escapeHtml(fruit.name.toLowerCase())} field guide ${Icons.arrowSmall}</a>` : ""}
+    </div>`;
+
+  // Auto-generated diff bullets: only the differences worth surfacing
+  // between the two fruits. Empty bullets are filtered out, so two very
+  // similar fruits produce a shorter list rather than padded filler.
+  const diffs = [];
+  // Brix
+  if (A.brix !== B.brix) {
+    diffs.push(`<strong>Sugar (Brix).</strong> ${escapeHtml(A.name)} ${escapeHtml(A.brix)}, ${escapeHtml(B.name)} ${escapeHtml(B.brix)}. Higher Brix usually produces more concentrated flavor after drying.`);
+  }
+  // Fiber
+  const fa = rankFiber(A.fiber), fb = rankFiber(B.fiber);
+  if (fa !== fb) {
+    const [more, less] = fa > fb ? [A, B] : [B, A];
+    diffs.push(`<strong>Fiber.</strong> ${escapeHtml(more.name)} carries more fiber (${escapeHtml(more.fiber)}) than ${escapeHtml(less.name)} (${escapeHtml(less.fiber)}). Fiber shows up as toughness or chewiness in larger pieces.`);
+  }
+  // Aroma
+  const aa = rankAroma(A.aroma), ab = rankAroma(B.aroma);
+  if (aa !== ab) {
+    const [more, less] = aa > ab ? [A, B] : [B, A];
+    diffs.push(`<strong>Aroma.</strong> ${escapeHtml(more.name)} reads as ${escapeHtml(more.aroma.toLowerCase())}, ${escapeHtml(less.name)} as ${escapeHtml(less.aroma.toLowerCase())}. The more aromatic fruit usually carries a blend even at low inclusion.`);
+  } else {
+    diffs.push(`<strong>Aroma.</strong> Both fruits read as ${escapeHtml(A.aroma.toLowerCase())} when handled well. Variety, ripeness, and packaging integrity decide which one survives storage.`);
+  }
+  // Color stability
+  const ca = rankColor(A.colorStability), cb = rankColor(B.colorStability);
+  if (ca !== cb) {
+    const [more, less] = ca > cb ? [A, B] : [B, A];
+    diffs.push(`<strong>Color stability.</strong> ${escapeHtml(more.name)} holds color better (${escapeHtml(more.colorStability)}) than ${escapeHtml(less.name)} (${escapeHtml(less.colorStability)}). The weaker fruit demands tighter oxygen and packaging discipline.`);
+  }
+  // Breakage
+  const bra = rankBreakage(A.breakage), brb = rankBreakage(B.breakage);
+  if (bra !== brb) {
+    const [fragile, sturdy] = bra > brb ? [A, B] : [B, A];
+    diffs.push(`<strong>Breakage risk.</strong> ${escapeHtml(fragile.name)} (${escapeHtml(fragile.breakage)}) is more fragile in transit than ${escapeHtml(sturdy.name)} (${escapeHtml(sturdy.breakage)}). Expect more powder at the bottom of the bag and tighter whole-piece tolerances on the more fragile fruit.`);
+  }
+
+  const diffHtml = `
+    <section class="compare-page__diffs" aria-labelledby="diffs-heading">
+      <h2 id="diffs-heading">Where they differ</h2>
+      <ul>${diffs.map(d => `<li>${d}</li>`).join("")}</ul>
+    </section>`;
+
+  // Choice section: a short, opinionated read on when each fruit makes more
+  // sense. Generated from the attribute deltas above so it stays factual.
+  const choice = (() => {
+    const aBetter = [];
+    const bBetter = [];
+    if (rankAroma(A.aroma) > rankAroma(B.aroma)) aBetter.push("stronger aroma carrying a blend");
+    if (rankAroma(B.aroma) > rankAroma(A.aroma)) bBetter.push("stronger aroma carrying a blend");
+    if (rankColor(A.colorStability) > rankColor(B.colorStability)) aBetter.push("more stable color through shelf life");
+    if (rankColor(B.colorStability) > rankColor(A.colorStability)) bBetter.push("more stable color through shelf life");
+    if (rankBreakage(B.breakage) > rankBreakage(A.breakage)) aBetter.push("sturdier handling in transit");
+    if (rankBreakage(A.breakage) > rankBreakage(B.breakage)) bBetter.push("sturdier handling in transit");
+    if (rankFiber(A.fiber) < rankFiber(B.fiber)) aBetter.push("cleaner mouthfeel with less fiber");
+    if (rankFiber(B.fiber) < rankFiber(A.fiber)) bBetter.push("cleaner mouthfeel with less fiber");
+    return { aBetter, bBetter };
+  })();
+
+  const choiceHtml = `
+    <section class="compare-page__choice" aria-labelledby="choice-heading">
+      <h2 id="choice-heading">Which to choose</h2>
+      <div class="compare-page__choice-grid">
+        <div class="compare-page__choice-card">
+          <div class="compare-page__choice-label">Choose ${escapeHtml(A.name)} when you want</div>
+          <ul>${
+            choice.aBetter.length
+              ? choice.aBetter.map(x => `<li>${escapeHtml(x)}</li>`).join("")
+              : `<li>the specific fruit identity ${escapeHtml(A.name.toLowerCase())} brings — there is no broad attribute where ${escapeHtml(A.name.toLowerCase())} clearly outranks ${escapeHtml(B.name.toLowerCase())}</li>`
+          }</ul>
+        </div>
+        <div class="compare-page__choice-card">
+          <div class="compare-page__choice-label">Choose ${escapeHtml(B.name)} when you want</div>
+          <ul>${
+            choice.bBetter.length
+              ? choice.bBetter.map(x => `<li>${escapeHtml(x)}</li>`).join("")
+              : `<li>the specific fruit identity ${escapeHtml(B.name.toLowerCase())} brings — there is no broad attribute where ${escapeHtml(B.name.toLowerCase())} clearly outranks ${escapeHtml(A.name.toLowerCase())}</li>`
+          }</ul>
+        </div>
+      </div>
+    </section>`;
+
+  // Build a few FAQs from the attribute differences. Each Q is unique to
+  // this pair, since the answer pulls in the actual values.
+  const faqs = [];
+  faqs.push({
+    q: `Which is sweeter — freeze-dried ${A.name.toLowerCase()} or freeze-dried ${B.name.toLowerCase()}?`,
+    a: `By typical Brix at harvest, ${A.name.toLowerCase()} sits at ${A.brix} and ${B.name.toLowerCase()} sits at ${B.brix}. Higher Brix usually produces more concentrated sweetness in the finished freeze-dried piece, though ripeness at processing and the variety chosen matter as much as the headline range.`,
+  });
+  if (rankFiber(A.fiber) !== rankFiber(B.fiber)) {
+    const [more, less] = rankFiber(A.fiber) > rankFiber(B.fiber) ? [A, B] : [B, A];
+    faqs.push({
+      q: `Which has more fiber, ${A.name.toLowerCase()} or ${B.name.toLowerCase()}?`,
+      a: `${more.name} typically carries more fiber (${more.fiber}) than ${less.name} (${less.fiber}). In freeze-dried form, higher fiber shows up as toughness or chewiness, especially in larger pieces — relevant when sourcing for premium snack packs.`,
+    });
+  }
+  if (rankBreakage(A.breakage) !== rankBreakage(B.breakage)) {
+    const [fragile, sturdy] = rankBreakage(A.breakage) > rankBreakage(B.breakage) ? [A, B] : [B, A];
+    faqs.push({
+      q: `Which is more fragile in transit — freeze-dried ${A.name.toLowerCase()} or ${B.name.toLowerCase()}?`,
+      a: `${fragile.name} (${fragile.breakage} breakage risk) tends to be more fragile than ${sturdy.name} (${sturdy.breakage}). Expect more powder at the bottom of the bag with ${fragile.name.toLowerCase()}, and consider whether the use case justifies whole-piece premium pricing or whether broken-piece formats deliver better value.`,
+    });
+  }
+  if (rankColor(A.colorStability) !== rankColor(B.colorStability)) {
+    const [strong, weak] = rankColor(A.colorStability) > rankColor(B.colorStability) ? [A, B] : [B, A];
+    faqs.push({
+      q: `Which holds color better, ${A.name.toLowerCase()} or ${B.name.toLowerCase()}?`,
+      a: `${strong.name} (color stability: ${strong.colorStability}) holds visual quality through shelf life more reliably than ${weak.name} (${weak.colorStability}). The weaker fruit needs tighter oxygen control, better barrier film, and faster handling between cutting and freezing.`,
+    });
+  }
+  faqs.push({
+    q: `Can you substitute freeze-dried ${A.name.toLowerCase()} for ${B.name.toLowerCase()} in a recipe?`,
+    a: `Sometimes, but they are not interchangeable. ${A.name} (${A.aroma.toLowerCase()} aroma, ${A.colorStability.toLowerCase()} color stability) and ${B.name} (${B.aroma.toLowerCase()} aroma, ${B.colorStability.toLowerCase()} color stability) deliver different flavor profiles and visual cues. For ingredient applications, swap by weight cautiously; for snack-bag use, treat them as different products.`,
+  });
+
+  const faqHtml = `
+    <section class="faq compare-page__faq" aria-labelledby="compare-faq-heading">
+      <h2 id="compare-faq-heading">Frequently asked questions</h2>
+      ${faqs.map(f => `
+        <div class="faq__item">
+          <h3 class="faq__q">${escapeHtml(f.q)}</h3>
+          <div class="faq__a"><p>${escapeHtml(f.a)}</p></div>
+        </div>`).join("")}
+    </section>`;
+
+  const readMoreHtml = (aArticle || bArticle) ? `
+    <section class="compare-page__more">
+      <div class="compare-page__more-label">Read the full field guides</div>
+      <div class="compare-page__more-links">
+        ${aArticle ? `<a href="${articleUrl(aArticle.id)}" class="compare-page__more-link">
+          <span class="compare-page__more-eyebrow">${escapeHtml(aArticle.category)}</span>
+          <span class="compare-page__more-title">${escapeHtml(aArticle.title)}</span>
+        </a>` : ""}
+        ${bArticle ? `<a href="${articleUrl(bArticle.id)}" class="compare-page__more-link">
+          <span class="compare-page__more-eyebrow">${escapeHtml(bArticle.category)}</span>
+          <span class="compare-page__more-title">${escapeHtml(bArticle.title)}</span>
+        </a>` : ""}
+      </div>
+    </section>` : "";
+
+  // Page head + body composed in the same masthead language as other field-guide pages.
+  const bodyHtml = `
+    <section class="page-head compare-page__head">
+      <div class="container">
+        <span class="eyebrow">Comparison · ${escapeHtml(clusterLabel)}</span>
+        <h1>Freeze-Dried ${escapeHtml(A.name)} vs ${escapeHtml(B.name)}</h1>
+        <p>How ${escapeHtml(A.name.toLowerCase())} and ${escapeHtml(B.name.toLowerCase())} compare in freeze-dried form — sugar, fiber, aroma, color stability, breakage, and the buying decision behind each.</p>
+      </div>
+    </section>
+    <div class="container-narrow compare-page">
+      ${tableHtml}
+      <section class="compare-page__cards" aria-label="Fruit reference cards">
+        ${fruitCard(A, a, aArticle)}
+        ${fruitCard(B, b, bArticle)}
+      </section>
+      ${diffHtml}
+      ${choiceHtml}
+      ${faqHtml}
+      ${readMoreHtml}
+    </div>`;
+
+  return { bodyHtml, faqs, A, B };
+}
+
+function comparePageJsonLd({ site, a, b, currentPath, A, B, faqs }) {
+  const url = absUrl(site, currentPath);
+  const name = `Freeze-Dried ${A.name} vs ${B.name}`;
+  const trail = [
+    { name: "Home", path: "/" },
+    { name: "Compare", path: "/compare/" },
+    { name: `${A.name} vs ${B.name}`, path: currentPath },
+  ];
+
+  // Dataset + PropertyValue payload for the at-a-glance comparison table.
+  // Schema.org's Dataset is one of the most parseable structures for AI
+  // search — ChatGPT/Perplexity/Claude all index it explicitly when asked
+  // for spec comparisons. Each measured attribute becomes a PropertyValue
+  // node listing the value for both fruits so a single structured query
+  // returns the comparison verbatim.
+  const measuredAttrs = [
+    { name: "Brix",            key: "brix",            unit: "° Brix",   description: "Dissolved sugar concentration of the fresh fruit, in degrees Brix. Higher Brix usually produces more concentrated flavor after drying." },
+    { name: "Fiber",           key: "fiber",           unit: null,       description: "Relative fiber content as a qualitative band. Higher-fiber fruits read tougher or chewier in larger freeze-dried pieces." },
+    { name: "Aroma",           key: "aroma",           unit: null,       description: "Qualitative aroma intensity after freeze-drying. Stronger aroma usually carries a blend at lower inclusion rates." },
+    { name: "Color stability", key: "colorStability", unit: null,       description: "Resistance to fade or browning during storage. Weaker color stability demands tighter oxygen and packaging discipline." },
+    { name: "Breakage risk",   key: "breakage",        unit: null,       description: "Susceptibility to fragmenting into powder or fines during shipping and handling." },
+    { name: "Typical format",  key: "format",          unit: null,       description: "Most common commercial format the freeze-dried fruit ships in (whole pieces, slices, dice, crumble, powder)." },
+  ];
+  const datasetNode = {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    name: `Freeze-dried ${A.name} vs freeze-dried ${B.name} — specification comparison`,
+    description: `Structured side-by-side comparison of freeze-dried ${A.name.toLowerCase()} and freeze-dried ${B.name.toLowerCase()} across six measured attributes used in commercial sourcing: Brix, fiber, aroma, color stability, breakage risk, and typical format.`,
+    url,
+    isAccessibleForFree: true,
+    inLanguage: "en-US",
+    keywords: [
+      `freeze-dried ${A.name.toLowerCase()}`,
+      `freeze-dried ${B.name.toLowerCase()}`,
+      `${A.name.toLowerCase()} vs ${B.name.toLowerCase()}`,
+      "freeze-dried fruit comparison",
+      "freeze-dried fruit specification",
+    ],
+    creator: organizationNode(site),
+    license: "https://creativecommons.org/licenses/by/4.0/",
+    measurementTechnique: "Editorial compilation from supplier specifications, published USDA / IFT references, and direct sample observation.",
+    variableMeasured: measuredAttrs.map(attr => {
+      const node = {
+        "@type": "PropertyValue",
+        name: attr.name,
+        description: attr.description,
+        // PropertyValue can carry a single value plus a structured
+        // alternative — we put the two fruits' values into alternateName
+        // (a string list) so a downstream consumer reads them as a tuple.
+        value: `${A.name}: ${A[attr.key]}; ${B.name}: ${B[attr.key]}`,
+      };
+      if (attr.unit) node.unitText = attr.unit;
+      return node;
+    }),
+    distribution: {
+      "@type": "DataDownload",
+      encodingFormat: "text/html",
+      contentUrl: url,
+    },
+  };
+
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": url,
+      url,
+      name,
+      description: `Side-by-side comparison of freeze-dried ${A.name.toLowerCase()} and freeze-dried ${B.name.toLowerCase()} — Brix, fiber, aroma, color stability, breakage, and typical format.`,
+      inLanguage: "en-US",
+      isPartOf: { "@id": `${site.url}/#website` },
+    },
+    breadcrumbsNode(site, trail),
+    datasetNode,
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqs.map(f => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
+    },
+  ];
+}
+
+// /compare/ hub page — groups every generated comparison by cluster so
+// readers can find pair pages by the fruit they came from.
+function renderCompareHub({ pairs }) {
+  const byCluster = new Map();
+  for (const p of pairs) {
+    const ca = clusterForFruit(p.a);
+    const cb = clusterForFruit(p.b);
+    const clusterId = (ca && cb && ca.id === cb.id) ? ca.id : "cross-cluster";
+    const clusterLabel = (ca && cb && ca.id === cb.id) ? ca.label : "Cross-category comparisons";
+    if (!byCluster.has(clusterId)) byCluster.set(clusterId, { label: clusterLabel, items: [] });
+    byCluster.get(clusterId).items.push(p);
+  }
+  // Render clusters in a stable, intuitive order
+  const order = ["berries", "stone", "pome", "tropical", "asian-tropical", "citrus", "melon", "structural", "cross-cluster"];
+  const clusters = order
+    .filter(id => byCluster.has(id))
+    .map(id => ({ id, ...byCluster.get(id) }));
+
+  const sectionsHtml = clusters.map(c => `
+    <section class="compare-hub__section">
+      <h2 class="compare-hub__h2">${escapeHtml(c.label)}</h2>
+      <ul class="compare-hub__list">
+        ${c.items.map(p => {
+          const A = FRUIT_DATA[p.a];
+          const B = FRUIT_DATA[p.b];
+          return `<li><a href="/compare/${escapeHtml(p.slug)}/" class="compare-hub__item">
+            <span class="compare-hub__pair">${escapeHtml(A.name)} <span class="compare-hub__vs">vs</span> ${escapeHtml(B.name)}</span>
+          </a></li>`;
+        }).join("")}
+      </ul>
+    </section>`).join("");
+
+  return `
+    <section class="page-head">
+      <div class="container">
+        <span class="eyebrow">Compare · ${pairs.length} pairings</span>
+        <h1>Compare Freeze-Dried Fruits</h1>
+        <p>Side-by-side reference pages for freeze-dried fruit pairings — Brix, fiber, aroma, color stability, breakage, and the buying decision behind each. Organized by cluster.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container-narrow compare-hub">${sectionsHtml}</div>
+    </section>`;
+}
+
+function compareHubJsonLd({ site, pairs }) {
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      url: absUrl(site, "/compare/"),
+      name: "Compare Freeze-Dried Fruits",
+      description: "Side-by-side comparisons of freeze-dried fruits across Brix, fiber, aroma, color stability, breakage, and typical format.",
+      inLanguage: "en-US",
+      isPartOf: { "@id": `${site.url}/#website` },
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: pairs.length,
+        itemListElement: pairs.slice(0, 50).map((p, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          url: absUrl(site, `/compare/${p.slug}/`),
+          name: `${FRUIT_DATA[p.a].name} vs ${FRUIT_DATA[p.b].name}`,
+        })),
+      },
+    },
+    breadcrumbsNode(site, [
+      { name: "Home", path: "/" },
+      { name: "Compare", path: "/compare/" },
+    ]),
+  ];
+}
+
+// ---------- Pillar pages ----------
+
+// Renders the editorial pillar layout that sits ABOVE the category archive
+// list. Pillars are markdown-driven (one file per category in content/pillars/)
+// so the editorial team can revise without touching code. The glossary linker
+// and FAQ rendering reuse the same pipeline as articles.
+function renderPillar({ pillar, articles, articlesById, linker, mailto }) {
+  // Step 1: render the pillar's markdown body to HTML.
+  let bodyHtml = renderMarkdown(pillar.bodyMd || "");
+
+  // Step 2: replace `:::related` placeholders with real article-card grids.
+  // The marked extension emits <div data-related="slug1,slug2"></div>; we
+  // expand each into a row of compact pillar-card links to those articles.
+  bodyHtml = bodyHtml.replace(/<div data-related="([^"]+)"><\/div>/g, (_, csv) => {
+    const slugs = csv.split(",").map(s => s.trim()).filter(Boolean);
+    const cards = slugs.map(slug => {
+      const a = articlesById[slug];
+      if (!a) return "";
+      return `
+        <a href="${articleUrl(a.id)}" class="pillar-card" style="display:block;color:inherit">
+          <div class="pillar-card__cat">${escapeHtml(a.category)}</div>
+          <div class="pillar-card__title">${escapeHtml(a.title)}</div>
+          <div class="pillar-card__sum">${escapeHtml(a.summary)}</div>
+          <div class="pillar-card__cta">Read article ${Icons.arrowSmall}</div>
+        </a>`;
+    }).filter(Boolean).join("");
+    return `<div class="pillar-related">${cards}</div>`;
+  });
+
+  // Step 3: ensure every H2 has a stable id so the TOC anchors actually land.
+  bodyHtml = ensureH2Anchors(bodyHtml);
+
+  // Step 4: extract the TOC after anchors are in place.
+  const toc = extractTocFromHtml(bodyHtml);
+
+  // Step 5: run the shared glossary auto-linker over the pillar body.
+  const bodyUsed = new Set();
+  bodyHtml = linker(bodyHtml, bodyUsed);
+
+  // Step 6: render FAQs (same shape as article FAQs) and link inside answers.
+  const faqUsed = new Set();
+  const faqsRendered = (pillar.faqs || []).map(f => ({
+    q: f.q,
+    aHtml: linker(renderMarkdown(f.a), faqUsed),
+  }));
+
+  const faqHtml = faqsRendered.length
+    ? `<section class="faq pillar-faq" aria-labelledby="pillar-faq-heading">
+         <h2 id="pillar-faq-heading">Frequently asked questions</h2>
+         ${faqsRendered.map(f => `
+           <div class="faq__item">
+             <h3 class="faq__q">${escapeHtml(f.q)}</h3>
+             <div class="faq__a">${f.aHtml}</div>
+           </div>`).join("")}
+       </section>` : "";
+
+  const tocHtml = toc.length
+    ? `<nav class="pillar-toc" aria-label="On this page">
+         <div class="pillar-toc__label">On this page</div>
+         <ol class="pillar-toc__list">
+           ${toc.map(s => `<li><a href="#${escapeHtml(s.id)}">${escapeHtml(s.text)}</a></li>`).join("")}
+           ${faqsRendered.length ? `<li><a href="#pillar-faq-heading">Frequently asked questions</a></li>` : ""}
+         </ol>
+       </nav>` : "";
+
+  const introHtml = pillar.intro
+    ? `<p class="pillar-intro">${escapeHtml(pillar.intro)}</p>` : "";
+
+  // Page head — same masthead language as other top-level pages.
+  const headHtml = `
+    <section class="page-head pillar-head">
+      <div class="container">
+        <span class="eyebrow">Field Guide · ${escapeHtml(pillar.category)}</span>
+        <h1>${escapeHtml(pillar.heading || pillar.category)}</h1>
+        ${pillar.intro ? `<p>${escapeHtml(pillar.intro)}</p>` : ""}
+      </div>
+    </section>`;
+
+  return {
+    pillarHtml: `
+      ${headHtml}
+      <div class="container-narrow pillar">
+        ${tocHtml}
+        <div class="pillar-body prose">${bodyHtml}</div>
+        ${faqHtml}
+      </div>`,
+    faqsRendered,
+  };
+}
+
+function pillarCategoryPageJsonLd({ site, articles, category, currentPath, name, description, pillar, faqsRendered }) {
+  const url = absUrl(site, currentPath);
+  const trail = [
+    { name: "Home", path: "/" },
+    { name: "Articles", path: "/articles/" },
+    { name: category, path: currentPath },
+  ];
+  const nodes = [
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      url,
+      name,
+      description,
+      inLanguage: "en-US",
+      isPartOf: { "@id": `${site.url}/#website` },
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: articles.length,
+        itemListElement: articles.slice(0, 50).map((a, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          url: absUrl(site, articleUrl(a.id)),
+          name: a.title,
+        })),
+      },
+    },
+    breadcrumbsNode(site, trail),
+  ];
+  if (faqsRendered && faqsRendered.length) {
+    nodes.push({
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqsRendered.map(f => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.aHtml.trim() },
+      })),
+    });
+  }
+  return nodes;
+}
+
+// Meta-pillar for `/articles/` — surfaces all 5 categories with featured
+// articles and a routing FAQ, then renders the full archive below. Visually
+// reuses the pillar TOC + pillar-card patterns already shipped, so the look
+// matches the per-category pillar pages.
+function renderArticlesMetaPillar({ site, articles, articlesById }) {
+  // Editorial selection of 4 featured articles per category, in the order
+  // they should appear. Curated rather than auto-derived so the page leads
+  // with the strongest entry points into each section.
+  const categoryFeatures = [
+    {
+      category: "Industry Insights",
+      slug: "industry-insights",
+      lead: "How the freeze-dried fruit supply chain actually works — landed cost, supplier evaluation, channel-specific specs, and the quality patterns that recur across the category.",
+      featured: [
+        "quality-varies",
+        "freeze-dried-fruit-landed-cost-drivers",
+        "freeze-dried-fruit-supplier-approval-checklist",
+        "freeze-dried-fruit-specs-by-sales-channel",
+      ],
+    },
+    {
+      category: "Technology",
+      slug: "technology",
+      lead: "Sublimation, moisture and water activity, packaging barrier films, oxidation control, and the process decisions that decide whether a finished bag stays crunchy.",
+      featured: [
+        "how-its-made",
+        "water-activity-vs-moisture-content",
+        "barrier-films-for-freeze-dried-fruit",
+        "freeze-dried-fruit-color-retention-and-oxidation",
+      ],
+    },
+    {
+      category: "Labels & Quality",
+      slug: "labels-and-quality",
+      lead: "What's actually on the bag — ingredient labels, breakage specs, organic claims, value comparison, and the framework for telling a real premium product from a marketed one.",
+      featured: [
+        "buyer-guide",
+        "added-sugar",
+        "how-to-read-a-freeze-dried-fruit-spec-sheet",
+        "freeze-dried-fruit-breakage-specs",
+      ],
+    },
+    {
+      category: "Applications",
+      slug: "applications",
+      lead: "How freeze-dried fruit actually gets used — yogurt bowls, oatmeal, trail mix, ice cream toppings, and the storage habits that protect the crunch you paid for.",
+      featured: [
+        "best-freeze-dried-fruit-for-yogurt-bowls",
+        "best-freeze-dried-fruit-for-oatmeal-and-overnight-oats",
+        "best-freeze-dried-fruit-for-trail-mix-and-snack-mixes",
+        "how-to-store-freeze-dried-fruit-after-opening",
+      ],
+    },
+    {
+      category: "Fruit Reports",
+      slug: "fruit-reports",
+      lead: "Per-fruit field guides covering origin, variety, processing personality, and what to ask suppliers — from strawberry and mango to lychee, jackfruit, and starfruit.",
+      featured: [
+        "mango-varieties",
+        "strawberry-varieties-for-freeze-drying",
+        "blueberry-varieties-for-freeze-drying",
+        "how-many-types-of-mangoes-are-there",
+      ],
+    },
+  ];
+
+  // Routing FAQ — meta-level questions that help readers find the right
+  // section. Each question answer is a short paragraph; they double as
+  // FAQPage schema for AI engines navigating the catalog.
+  const metaFaqs = [
+    {
+      q: "How is Freeze-Dried-Fruit.com organized?",
+      a: "Five editorial sections, each with a different job. *Industry Insights* covers the supply chain and supplier evaluation. *Technology* covers the freeze-drying process and packaging. *Labels & Quality* covers reading labels and comparing products. *Applications* covers how freeze-dried fruit gets used. *Fruit Reports* covers per-fruit variety guides. The full archive lives at the bottom of this page.",
+    },
+    {
+      q: "Where should freeze-dried fruit buyers and brands start?",
+      a: "Start with Industry Insights and Labels & Quality. The Buyer's Guide to Freeze-Dried Fruit Quality is the foundational anchor; the Supplier Approval Checklist and Landed Cost articles cover the sourcing conversation. Technology articles deepen the process understanding when needed.",
+    },
+    {
+      q: "Where should consumers start?",
+      a: "Start with Applications and Fruit Reports. The Applications section covers how to use freeze-dried fruit in yogurt bowls, oatmeal, trail mix, and at home. Fruit Reports give per-fruit context — what to expect from freeze-dried mango, strawberry, blueberry, and dozens of others."
+    },
+    {
+      q: "How current is the content?",
+      a: "Articles carry both a publish date and an *updated* date when the content has been materially revised. The article meta strip and the sitemap both flow from those fields. Most articles in the Technology, Labels & Quality, and Industry Insights sections are reviewed and refreshed at intervals as the category evolves.",
+    },
+    {
+      q: "Is Freeze-Dried-Fruit.com independent?",
+      a: "Yes. The site does not accept paid placements, sponsored articles, or affiliate compensation tied to editorial coverage. Disclosures and editorial methodology are documented in the Methodology page, and authorship sits with the Editorial Desk rather than fictional named bylines.",
+    },
+    {
+      q: "How are articles selected for each category?",
+      a: "Daily publishing aims for one article each in Technology, Industry Insights, Labels & Quality, and Applications. Fruit Reports are written when a fruit warrants a standalone variety or processing guide. Editorial cadence is documented in the Methodology page and in the content rules used by the publishing automation.",
+    },
+  ];
+
+  // Category sections — H2 + lead + 4 article cards + "See all" link
+  const categorySectionsHtml = categoryFeatures.map(cf => {
+    const cards = cf.featured.map(slug => {
+      const a = articlesById[slug];
+      if (!a) return "";
+      return `
+        <a href="${articleUrl(a.id)}" class="pillar-card" style="display:block;color:inherit">
+          <div class="pillar-card__cat">${escapeHtml(a.category)}</div>
+          <div class="pillar-card__title">${escapeHtml(a.title)}</div>
+          <div class="pillar-card__sum">${escapeHtml(a.summary || "")}</div>
+          <div class="pillar-card__cta">Read article ${Icons.arrowSmall}</div>
+        </a>`;
+    }).filter(Boolean).join("");
+    const totalInCat = articles.filter(a => a.category === cf.category).length;
+    return `
+      <section class="meta-pillar__section" id="${cf.slug}">
+        <header class="meta-pillar__section-head">
+          <div class="meta-pillar__section-eyebrow">Section · ${totalInCat} articles</div>
+          <h2 class="meta-pillar__section-title">${escapeHtml(cf.category)}</h2>
+          <p class="meta-pillar__section-lead">${escapeHtml(cf.lead)}</p>
+        </header>
+        <div class="pillar-related">${cards}</div>
+        <a href="${categoryUrl(cf.category)}" class="meta-pillar__see-all">See all ${escapeHtml(cf.category)} articles ${Icons.arrowSmall}</a>
+      </section>`;
+  }).join("");
+
+  // TOC — links to the H2 anchors above
+  const tocHtml = `
+    <nav class="pillar-toc" aria-label="On this page">
+      <div class="pillar-toc__label">On this page</div>
+      <ol class="pillar-toc__list">
+        ${categoryFeatures.map(cf =>
+          `<li><a href="#${cf.slug}">${escapeHtml(cf.category)}</a></li>`
+        ).join("")}
+        <li><a href="#field-guide-faq">Frequently asked questions</a></li>
+        <li><a href="#field-guide-archive">Full archive</a></li>
+      </ol>
+    </nav>`;
+
+  // FAQ block — same shape as article FAQs so visual styling matches
+  const faqHtml = `
+    <section class="faq meta-pillar__faq" aria-labelledby="field-guide-faq">
+      <h2 id="field-guide-faq">Frequently asked questions</h2>
+      ${metaFaqs.map(f => `
+        <div class="faq__item">
+          <h3 class="faq__q">${escapeHtml(f.q)}</h3>
+          <div class="faq__a">${renderMarkdown(f.a)}</div>
+        </div>`).join("")}
+    </section>`;
+
+  // Page head + the body. The full archive is appended below (in build
+  // orchestration) with the suppressHead path so we don't duplicate the H1.
+  return {
+    bodyHtml: `
+      <section class="page-head pillar-head meta-pillar__head">
+        <div class="container">
+          <span class="eyebrow">Field Guide · ${articles.length} articles</span>
+          <h1>The Field Guide to Freeze-Dried Fruit</h1>
+          <p>Everything published on Freeze-Dried-Fruit.com, organized by what you're trying to do — make better products, understand the category, choose the right fruit, or use it well at home.</p>
+        </div>
+      </section>
+      <div class="container-narrow meta-pillar">
+        ${tocHtml}
+        <div class="meta-pillar__sections">${categorySectionsHtml}</div>
+        ${faqHtml}
+        <div id="field-guide-archive"></div>
+      </div>`,
+    faqs: metaFaqs,
+  };
+}
+
+function articlesMetaPillarJsonLd({ site, articles, faqs }) {
+  const url = absUrl(site, "/articles/");
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      url,
+      name: "The Field Guide to Freeze-Dried Fruit — All Articles",
+      description: "All articles on Freeze-Dried-Fruit.com, organized across Industry Insights, Technology, Labels & Quality, Applications, and Fruit Reports.",
+      inLanguage: "en-US",
+      isPartOf: { "@id": `${site.url}/#website` },
+      mainEntity: {
+        "@type": "ItemList",
+        numberOfItems: articles.length,
+        itemListElement: articles.slice(0, 50).map((a, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          url: absUrl(site, articleUrl(a.id)),
+          name: a.title,
+        })),
+      },
+    },
+    breadcrumbsNode(site, [
+      { name: "Home", path: "/" },
+      { name: "Articles", path: "/articles/" },
+    ]),
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqs.map(f => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: renderMarkdown(f.a).trim() },
+      })),
+    },
+  ];
+}
+
+function renderArticlesIndex({ articles, category, suppressHead = false, eyebrowLabel = null }) {
   const filtered = category ? articles.filter(a => a.category === category) : articles;
   const headTitle = category || "All Articles";
   const headSub = category
     ? `Articles filed under ${category}.`
     : "Long-form explainers, label analysis, and category notes from the freeze-dried fruit space.";
-  const eyebrow = category ? "Section" : "The Archive";
+  const eyebrow = suppressHead
+    ? (eyebrowLabel || (category ? `Full Archive · ${category}` : "Full Archive"))
+    : (category ? "Section" : "The Archive");
   const isFruitReports = category === "Fruit Reports";
   const fruitReportSeries = ["Freeze-Dried Guide", "Fruit Variety Guide"];
   const seriesCounts = isFruitReports
@@ -402,27 +1766,172 @@ function renderArticlesIndex({ articles, category }) {
       })();
     </script>` : "";
 
+  const headHtml = suppressHead
+    ? `<section class="archive-head">
+         <div class="container">
+           <span class="eyebrow">${eyebrow} · ${filtered.length} ${filtered.length === 1 ? "article" : "articles"}</span>
+         </div>
+       </section>`
+    : `<section class="page-head">
+         <div class="container">
+           <span class="eyebrow">${eyebrow} · ${filtered.length} ${filtered.length === 1 ? "article" : "articles"}</span>
+           <h1>${escapeHtml(headTitle)}</h1>
+           <p>${escapeHtml(headSub)}</p>
+         </div>
+       </section>`;
+
   return `
-    <section class="page-head">
-      <div class="container">
-        <span class="eyebrow">${eyebrow} · ${filtered.length} ${filtered.length === 1 ? "article" : "articles"}</span>
-        <h1>${escapeHtml(headTitle)}</h1>
-        <p>${escapeHtml(headSub)}</p>
-      </div>
-    </section>
+    ${headHtml}
     <div class="container">
       ${fruitReportTabs}
       <div class="list">${filtered.length ? rows : empty}</div>
     </div>`;
 }
 
-function renderArticle({ article, related, mailto }) {
+// ---------- Annual / flagship industry report ----------
+// Long-form flagship pages (e.g. /state-of-freeze-dried-fruit-2026/) get a
+// dedicated template with a covered hero, edition banner, sticky-feel TOC,
+// and a heavier reference apparatus at the bottom. This is the highest-
+// authority asset format in B2B food publishing — used as the answer when
+// LLMs are asked "what's the state of the freeze-dried fruit category."
+function renderReportBody({ report, mailto, site }) {
+  const bodyHtml = ensureH2Anchors(report.bodyHtml);
+
+  const tocHtml = report.sections.length
+    ? `<nav class="report-toc" aria-label="${escapeHtml(report.toc_label)}">
+         <div class="report-toc__eyebrow">${escapeHtml(report.toc_label)}</div>
+         <ol class="report-toc__list">
+           ${report.sections.map((s, i) => `
+             <li class="report-toc__item">
+               <a class="report-toc__link" href="#${escapeHtml(s.id)}">
+                 <span class="report-toc__num">${String(i + 1).padStart(2, "0")}</span>
+                 <span class="report-toc__title">${escapeHtml(s.title)}</span>
+               </a>
+             </li>`).join("")}
+         </ol>
+       </nav>` : "";
+
+  const takeawaysHtml = report.takeaways && report.takeaways.length
+    ? `<div class="report-takeaways">
+         <div class="report-takeaways__title">Key takeaways</div>
+         <ul>${report.takeaways.map(t => `<li>${renderInlineMd(t)}</li>`).join("")}</ul>
+       </div>` : "";
+
+  const sourcesHtml = renderSources(report.sources);
+
+  const editorialUrl = site?.editorial?.url || "/editorial/";
+  const editorialByline = site?.editorial?.byline || "Editorial Desk";
+  const publishedIso = report.date ? report.date.toISOString().slice(0, 10) : "";
+  const updatedIso = report.updated ? report.updated.toISOString().slice(0, 10) : "";
+
+  return `
+    <article class="report">
+      <section class="report-cover">
+        <div class="container-narrow">
+          <div class="report-cover__edition">${escapeHtml(report.edition || "Annual Report")}</div>
+          <h1 class="report-cover__title">${escapeHtml(report.title)}</h1>
+          ${report.subtitle ? `<p class="report-cover__subtitle">${escapeHtml(report.subtitle)}</p>` : ""}
+          <div class="report-cover__meta">
+            <span><time datetime="${publishedIso}">${escapeHtml(report.dateLabel)}</time></span>
+            ${report.read ? `<span>${escapeHtml(report.read)}</span>` : ""}
+            <span>By <a href="${editorialUrl}" class="byline-link" rel="author">${escapeHtml(editorialByline)}</a></span>
+          </div>
+          ${report.isUpdated ? `<p class="report-cover__updated"><span class="meta-updated">Updated</span> <time datetime="${updatedIso}">${escapeHtml(report.updatedLabel)}</time></p>` : ""}
+        </div>
+      </section>
+
+      <section class="report-intro">
+        <div class="container-narrow">
+          <p class="report-intro__lede">${escapeHtml(report.intro)}</p>
+        </div>
+      </section>
+
+      <div class="container-narrow report-body">
+        ${tocHtml}
+        ${takeawaysHtml}
+        <div class="prose report-prose">${bodyHtml}</div>
+        ${sourcesHtml}
+
+        <div class="exchange-cta">
+          <div>
+            <strong>Building or buying in the category?</strong>
+            <div class="muted" style="font-size:14px;margin-top:4px">Suppliers, brands, and operators can share notes for the next edition.</div>
+          </div>
+          <a href="${mailto.join}" class="btn btn-primary">Join the Exchange ${Icons.arrow}</a>
+        </div>
+      </div>
+    </article>`;
+}
+
+function reportJsonLd({ site, report }) {
+  const url = absUrl(site, `/${report.slug}/`);
+  const published = report.date ? report.date.toISOString() : undefined;
+  const reportNode = {
+    "@context": "https://schema.org",
+    "@type": "Report",
+    headline: report.title,
+    description: report.summary || report.intro || "",
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    url,
+    inLanguage: "en-US",
+    isAccessibleForFree: true,
+    image: `${site.url.replace(/\/$/, "")}/images/og/${report.slug}.png`,
+    author: editorialNode(site),
+    publisher: organizationNode(site),
+    reportNumber: report.edition || "",
+    abstract: report.summary || "",
+    keywords: [
+      "freeze-dried fruit",
+      "industry report",
+      "category overview",
+      "freeze-dried fruit market",
+      "freeze-dried fruit supply",
+    ],
+    // SpeakableSpecification — voice assistants and AI engines should read
+    // the lede, the takeaways block, and every H2 in the body.
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: [".report-intro__lede", ".report-takeaways", ".report-prose h2"],
+    },
+  };
+  if (published) {
+    reportNode.datePublished = published;
+    reportNode.dateModified = report.updated ? report.updated.toISOString() : published;
+  }
+  if (report.sources && report.sources.length) {
+    reportNode.citation = report.sources.map(s => {
+      const node = { "@type": "CreativeWork", name: s.title, url: s.url };
+      if (s.publisher) node.publisher = { "@type": "Organization", name: s.publisher };
+      return node;
+    });
+  }
+  const trail = [
+    { name: "Home", path: "/" },
+    { name: report.title, path: `/${report.slug}/` },
+  ];
+  return [reportNode, breadcrumbsNode(site, trail)];
+}
+
+function renderArticle({ article, related, continueReading, mailto, site }) {
   const intro = article.intro || article.summary;
   const takeaways = article.takeaways && article.takeaways.length
     ? `<div class="takeaways">
          <div class="takeaways__title">Key Takeaways</div>
          <ul>${article.takeaways.map(t => `<li>${renderInlineMd(t)}</li>`).join("")}</ul>
        </div>` : "";
+
+  // Visible FAQ block, paired with FAQPage JSON-LD in articleJsonLd().
+  // Rendered as h2 + h3 + div so AI engines and screen readers parse the
+  // Q&A pairs without any JS or accordion behavior.
+  const faqHtml = article.faqs && article.faqs.length
+    ? `<section class="faq" aria-labelledby="faq-heading">
+         <h2 id="faq-heading">Frequently Asked Questions</h2>
+         ${article.faqs.map(f => `
+           <div class="faq__item">
+             <h3 class="faq__q">${escapeHtml(f.q)}</h3>
+             <div class="faq__a">${f.aHtml || renderMarkdown(f.a)}</div>
+           </div>`).join("")}
+       </section>` : "";
 
   const relatedHtml = related.map(r => `
     <a href="${articleUrl(r.id)}" class="related__card" style="display:block;color:inherit">
@@ -431,14 +1940,41 @@ function renderArticle({ article, related, mailto }) {
       <h4 class="related__title">${escapeHtml(r.title)}</h4>
     </a>`).join("");
 
+  // The byline date: when an article carries an `updated:` newer than its
+  // publish date, the freshness date becomes the headline meta and the original
+  // date drops to a small italic line below — same masthead language as the
+  // rest of the field guide. <time datetime=…> markers give Google and AI
+  // engines a clean signal independent of the JSON-LD payload.
+  const publishedIso = article.date ? article.date.toISOString().slice(0, 10) : "";
+  const updatedIso = article.updated ? article.updated.toISOString().slice(0, 10) : "";
+  const dateMetaHtml = article.isUpdated
+    ? `<span><span class="meta-updated">Updated</span> <time datetime="${updatedIso}">${escapeHtml(article.updatedLabel)}</time></span>`
+    : `<span><time datetime="${publishedIso}">${escapeHtml(article.dateLabel)}</time></span>`;
+
+  // Supplementary italic line beneath the meta strip: "By <byline>" always
+  // shown (links to the editorial desk page), with the originally-published
+  // date appended when the article carries an `updated:`. Combining these
+  // into a single small serif-italic line keeps the masthead clean and gives
+  // the eye one place to look for provenance.
+  const editorialUrl = site?.editorial?.url || "/editorial/";
+  const editorialByline = site?.editorial?.byline || "Editorial Desk";
+  const bylineParts = [
+    `By <a href="${editorialUrl}" class="byline-link" rel="author">${escapeHtml(editorialByline)}</a>`,
+  ];
+  if (article.isUpdated) {
+    bylineParts.push(`Originally published <time datetime="${publishedIso}">${escapeHtml(article.dateLabel)}</time>`);
+  }
+  const originalLineHtml = `<p class="article-head__original">${bylineParts.join(" · ")}</p>`;
+
   return `
     <article>
       <div class="container-narrow article-head">
         <div class="article-head__meta">
           <span class="accent">${escapeHtml(article.category)}</span>
-          <span>${escapeHtml(article.dateLabel)}</span>
+          ${dateMetaHtml}
           <span>${escapeHtml(article.read)}</span>
         </div>
+        ${originalLineHtml}
         <h1>${escapeHtml(article.title)}</h1>
         <p class="article-head__intro">${escapeHtml(intro)}</p>
       </div>
@@ -453,6 +1989,10 @@ function renderArticle({ article, related, mailto }) {
       <div class="container-narrow article-body">
         ${takeaways}
         ${article.bodyHtml}
+        ${faqHtml}
+        ${renderSources(article.sources)}
+        ${renderContinueReading(continueReading, article.category)}
+        ${renderCompareWithStrip(SLUG_TO_FRUIT[article.id])}
 
         <div class="exchange-cta">
           <div>
@@ -666,6 +2206,568 @@ function renderPrivacyBody({ site }) {
     </section>`;
 }
 
+function renderEditorialBody({ site, mailto }) {
+  const byline = site.editorial?.byline || "Editorial Desk";
+  const tagline = site.editorial?.tagline || "Independent editorial team.";
+
+  return `
+    <section class="page-head">
+      <div class="container">
+        <span class="eyebrow">Editorial · Masthead</span>
+        <h1>${escapeHtml(byline)}</h1>
+        <p>${escapeHtml(tagline)}</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container-narrow">
+        <div class="prose">
+          <h2>Who writes the field guide</h2>
+          <p>The ${escapeHtml(byline)} is the collective byline used on Freeze-Dried-Fruit.com. Articles are produced by a small editorial team building in the fruit snack space — operators, ingredient buyers, and writers who work directly with freeze-dried fruit suppliers, equipment, and product development.</p>
+          <p>We publish under a single editorial byline rather than individual author names because the work is collaborative. A typical article involves research, supplier conversations, internal review, and editing across more than one contributor. Attributing it to one person would misrepresent how the field guide actually gets made.</p>
+
+          <h2>What we cover</h2>
+          <p>The editorial desk focuses on five areas:</p>
+          <ul>
+            <li><strong>Technology</strong> — freeze-drying process, packaging, moisture and water activity control, equipment behavior, shelf-life mechanisms.</li>
+            <li><strong>Industry Insights</strong> — sourcing, supplier evaluation, landed cost, pricing pressure, private label, trade-structure shifts.</li>
+            <li><strong>Labels &amp; Quality</strong> — ingredient labels, breakage and powder specs, value comparison, label claims and grading.</li>
+            <li><strong>Applications</strong> — consumer use cases, storage after opening, toppings, snack formats, recipe-adjacent topics.</li>
+            <li><strong>Fruit Reports</strong> — variety-level guides covering origin, cultivar behavior, processing implications, and sourcing reality for specific fruits.</li>
+          </ul>
+
+          <h2>How articles are researched</h2>
+          <p>Every article draws on a combination of published industry research, supplier and operator conversations, and direct observation of the product category — including labels, packaging, finished samples, and trade reports. Where a claim depends on a specific number, we either cite the source or note the typical range observed.</p>
+          <p>Technical articles are reviewed against the freeze-drying literature and against the practical experience of operators who work with the equipment and the fruit. Where the literature and operator practice disagree, we note both rather than pick one.</p>
+          <p>For more on standards, scope, and the work we will not do, see the <a href="/methodology/">Editorial Methodology</a>.</p>
+
+          <h2>What we will not do</h2>
+          <ul>
+            <li>We do not invent author identities or attach articles to fictional people.</li>
+            <li>We do not accept paid placements, sponsored articles, or affiliate compensation tied to editorial coverage.</li>
+            <li>We do not write articles to promote a specific brand, supplier, or product.</li>
+            <li>We do not present marketing language ("premium," "game-changer," "the best") as a quality standard.</li>
+            <li>We do not make health, nutrition, or shelf-life claims that would require formal validation we have not performed.</li>
+          </ul>
+
+          <h2>Editorial contact</h2>
+          <p>For story tips, corrections, and editorial feedback: <a href="mailto:${escapeHtml(site.email?.hello || "")}">${escapeHtml(site.email?.hello || "")}</a>.</p>
+          <p>For press inquiries and republication requests: <a href="mailto:${escapeHtml(site.email?.press || "")}">${escapeHtml(site.email?.press || "")}</a>.</p>
+          <p>For industry insight and supplier contributions: <a href="/exchange/">Industry Exchange</a>.</p>
+
+          <h2>Corrections</h2>
+          <p>If you spot a factual error, an outdated claim, or a missing nuance, please <a href="mailto:${escapeHtml(site.email?.hello || "")}">tell us</a>. Corrections are made promptly and the article is marked as updated when the change is material.</p>
+        </div>
+
+        <div class="exchange-cta">
+          <div>
+            <strong>Want to contribute or share category insight?</strong>
+            <div class="muted" style="font-size:14px;margin-top:4px">Suppliers, operators, and observers welcome.</div>
+          </div>
+          <a href="${mailto.join}" class="btn btn-primary">Join the Exchange ${Icons.arrow}</a>
+        </div>
+      </div>
+    </section>`;
+}
+
+function renderMethodologyBody({ mailto }) {
+  return `
+    <section class="page-head">
+      <div class="container">
+        <span class="eyebrow">Editorial · Methodology</span>
+        <h1>How We Research and Write</h1>
+        <p>The standards behind every article on Freeze-Dried-Fruit.com — what we cover, how we evaluate, and what we choose not to claim.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container-narrow">
+        <div class="prose">
+          <h2>What this site is</h2>
+          <p>Freeze-Dried-Fruit.com is an independent field guide to the freeze-dried fruit category. We cover quality, processing, sourcing, packaging, pricing, applications, and the parts of the category that usually go unwritten. Articles are written for consumers, brand founders, ingredient buyers, suppliers, and operators — readers who want a precise picture of how this category actually works.</p>
+
+          <h2>What we cover</h2>
+          <p>We write about fruit chemistry, freeze-drying process design, residual moisture and water activity, packaging barrier behavior, supplier evaluation, landed cost, ingredient labels, and consumer use cases. We avoid health and medical claims. We do not write product reviews of named brands.</p>
+
+          <h2>How articles are researched</h2>
+          <p>Each article draws on a combination of three sources: published industry research, supplier and operator conversations, and direct observation of the product category — including labels, packaging, finished samples, and trade reports. When a claim depends on a specific number, we either cite the source or note the typical range observed in the category.</p>
+          <p>Technical articles are reviewed against the freeze-drying literature and against the practical experience of operators who work with the equipment and the fruit. Where the literature and operator practice disagree, we note both.</p>
+
+          <h2>What we will not do</h2>
+          <ul>
+            <li>We do not accept paid placements or sponsored articles.</li>
+            <li>We do not run affiliate links in editorial content.</li>
+            <li>We do not write articles to promote a specific brand, supplier, or product.</li>
+            <li>We do not make health, nutrition, or shelf-life claims that would require formal validation we have not performed.</li>
+            <li>We do not present marketing language ("premium," "game-changer," "the best") as a quality standard.</li>
+          </ul>
+
+          <h2>Disclosures</h2>
+          <p>Freeze-Dried-Fruit.com is created by a team building in the fruit snack space. We may occasionally reference our own product development experience, but the site is built as a broader educational and industry resource — not as a brand channel. Suppliers, equipment owners, and operators who submit information through the Industry Exchange are not granted editorial coverage in exchange.</p>
+
+          <h2>Corrections policy</h2>
+          <p>If you spot a factual error, an outdated claim, or a missing nuance, please tell us. Corrections are made promptly and we mark the article as updated when the change is material.</p>
+
+          <h2>Update cadence</h2>
+          <p>Articles in technical, supplier, and quality categories are reviewed periodically as the category evolves — particularly around packaging standards, certifications, and pricing dynamics. Consumer-facing articles are updated when reader feedback or new evidence justifies it. The News Wire is auto-updated several times per day from public RSS sources.</p>
+
+          <h2>How to contribute</h2>
+          <p>If you operate in the freeze-dried fruit category — as a supplier, equipment owner, brand, buyer, retailer, or researcher — we welcome submissions through the <a href="/exchange/">Industry Exchange</a>. Press inquiries should go to <a href="mailto:press@freeze-dried-fruit.com">press@freeze-dried-fruit.com</a>. Story tips and corrections to <a href="mailto:hello@freeze-dried-fruit.com">hello@freeze-dried-fruit.com</a>.</p>
+        </div>
+
+        <div class="exchange-cta">
+          <div>
+            <strong>Have category insight to share?</strong>
+            <div class="muted" style="font-size:14px;margin-top:4px">Suppliers, operators, and observers welcome.</div>
+          </div>
+          <a href="${mailto.join}" class="btn btn-primary">Join the Exchange ${Icons.arrow}</a>
+        </div>
+      </div>
+    </section>`;
+}
+
+// ---------- Glossary ----------
+
+const GLOSSARY = [
+  // Process & science
+  { term: "Water activity (aw)", slug: "water-activity", category: "Process & science",
+    aliases: ["water activity"],
+    definition: "A measure of how *available* the water in a food is, reported on a 0–1 scale. Pure water sits near 1.0; freeze-dried fruit typically sits well below 0.3. Water activity predicts microbial and texture stability better than moisture content alone." },
+  { term: "Moisture content", slug: "moisture-content", category: "Process & science",
+    definition: "The percentage of a product's weight that is water. Premium freeze-dried fruit usually targets 1–4% residual moisture. A low moisture number does not guarantee crunch — water activity matters too." },
+  { term: "Sublimation", slug: "sublimation", category: "Process & science",
+    definition: "The phase transition from solid directly to vapor without passing through liquid. Freeze-drying removes water from frozen fruit by sublimation under low pressure, preserving the cellular structure." },
+  { term: "Lyophilization", slug: "lyophilization", category: "Process & science",
+    aliases: ["lyophilisation"],
+    definition: "The technical name for freeze-drying. Frozen material is placed under vacuum so that water sublimates from the solid phase, leaving a porous dry structure." },
+  { term: "Primary drying", slug: "primary-drying", category: "Process & science",
+    definition: "The first and longest phase of a freeze-drying cycle. Bulk ice is removed by sublimation under controlled vacuum and shelf temperature. Most cycle time is spent here." },
+  { term: "Secondary drying", slug: "secondary-drying", category: "Process & science",
+    definition: "The final phase of a freeze-drying cycle. Bound water — the moisture still held inside the cell structure — is removed at higher shelf temperatures to reach the residual moisture target." },
+  { term: "Eutectic point", slug: "eutectic-point", category: "Process & science",
+    definition: "The temperature below which a solution is fully solid. For freeze-drying fruit, the product must stay below its eutectic or collapse temperature during primary drying or it will lose structure." },
+  { term: "Cycle endpoint", slug: "cycle-endpoint", category: "Process & science",
+    definition: "The point at which secondary drying is complete and the product has reached its target moisture and water activity. Pulling the cycle too early leaves residual moisture; running too long wastes energy and can over-dry the fruit." },
+
+  // Raw material & format
+  { term: "IQF (Individually Quick-Frozen)", slug: "iqf", category: "Raw material & format",
+    aliases: ["IQF", "individually quick-frozen", "individually quick frozen"],
+    definition: "Fruit frozen piece by piece at low temperature before processing. IQF lets producers run year-round and standardize specs, but ice crystal formation can rupture cell walls — sometimes visible in whole-piece formats." },
+  { term: "Pre-treatment", slug: "pre-treatment", category: "Raw material & format",
+    aliases: ["pretreatment", "pre-treatments"],
+    definition: "Any step applied to fruit between intake and freezing — washing, cutting, dipping, blanching, or acidifying. Pre-treatment can prevent enzymatic browning and stabilize color for sensitive fruits like apple, banana, and pear." },
+  { term: "Brix", slug: "brix", category: "Raw material & format",
+    definition: "A measurement of dissolved solids — mostly sugars — in fruit juice, expressed in degrees. Higher Brix often correlates with stronger flavor in the finished freeze-dried product, though acidity and aroma compounds matter too." },
+  { term: "Whole piece", slug: "whole-piece", category: "Raw material & format",
+    aliases: ["whole pieces", "whole-piece"],
+    definition: "Freeze-dried fruit sold as intact pieces — whole strawberries, whole blueberries, whole mango chunks. Whole-piece formats command premium pricing and demand tighter breakage control." },
+  { term: "Crumble / fines", slug: "crumble-fines", category: "Raw material & format",
+    aliases: ["fines"],
+    definition: "Small fragments and powder produced when freeze-dried fruit breaks during processing, screening, or transport. Some breakage is normal; tolerance is defined by buyer spec." },
+  { term: "Powder", slug: "powder", category: "Raw material & format",
+    aliases: ["fruit powder", "freeze-dried powder"],
+    definition: "Freeze-dried fruit milled into a fine powder. Used for color, flavor coverage, beverage applications, and ingredient systems. Same raw fruit can yield very different powder behavior depending on grind size and pre-screening." },
+
+  // Quality & defects
+  { term: "Enzymatic browning", slug: "enzymatic-browning", category: "Quality & defects",
+    definition: "Surface darkening caused by enzymes reacting with oxygen after fruit is cut. Common in apple, banana, and pear. Can be controlled by pre-treatment and fast freezing." },
+  { term: "Pigment fade", slug: "pigment-fade", category: "Quality & defects",
+    definition: "Loss of color saturation in pigment-rich fruits — strawberry, raspberry, blueberry, cherry, dragon fruit. Often shows as washed-out, dusty, or grayish appearance rather than browning. Driven by oxygen exposure and weak packaging." },
+  { term: "Breakage", slug: "breakage", category: "Quality & defects",
+    definition: "The proportion of freeze-dried fruit that has broken from its intended piece size into fragments or powder. A controlled spec for premium products; transit damage can compound it." },
+  { term: "Rehydration", slug: "rehydration", category: "Quality & defects",
+    definition: "Unwanted moisture pickup after the product leaves the freeze dryer. Causes softening, clumping, and texture loss. The packaging system — film, seal, zipper, headspace, desiccant — is designed to prevent it." },
+
+  // Packaging
+  { term: "Barrier film", slug: "barrier-film", category: "Packaging",
+    aliases: ["barrier films", "barrier-film"],
+    definition: "The multilayer plastic structure used to make freeze-dried fruit pouches. Barrier performance is measured against water vapor and oxygen. Cannot be inferred from appearance — buyers should ask for the actual structure." },
+  { term: "WVTR (Water Vapor Transmission Rate)", slug: "wvtr", category: "Packaging",
+    aliases: ["WVTR", "water vapor transmission rate"],
+    definition: "The rate at which water vapor passes through a barrier film under defined conditions, typically reported in g/m²/day. Lower WVTR means better humidity protection. The first packaging spec to check for freeze-dried fruit." },
+  { term: "OTR (Oxygen Transmission Rate)", slug: "otr", category: "Packaging",
+    aliases: ["OTR", "oxygen transmission rate"],
+    definition: "The rate at which oxygen passes through a barrier film, typically reported in cc/m²/day. Lower OTR protects color, aroma, and oxidation-sensitive fruits. Second priority after WVTR for most freeze-dried fruit." },
+  { term: "Metallized film", slug: "metallized-film", category: "Packaging",
+    aliases: ["metallized films", "metallised film", "metallised films"],
+    definition: "A flexible film with a thin vapor-deposited aluminum layer. Offers stronger humidity and oxygen protection than clear structures at lower cost than full foil. Common for mainstream freeze-dried fruit snack pouches." },
+  { term: "Foil laminate", slug: "foil-laminate", category: "Packaging",
+    aliases: ["foil laminates", "foil pouch", "foil pouches", "foil-based"],
+    definition: "A flexible packaging structure built around an aluminum foil layer. Provides the strongest moisture and oxygen barrier in standard pouch formats. Used for export shipments, premium products, and humid distribution environments." },
+  { term: "Desiccant", slug: "desiccant", category: "Packaging",
+    aliases: ["desiccants"],
+    definition: "A small packet — usually silica gel or molecular sieve — that absorbs moisture inside a sealed pouch. Helps protect freeze-dried fruit from humidity that enters during the package's service life. Not a substitute for proper film." },
+  { term: "Oxygen absorber", slug: "oxygen-absorber", category: "Packaging",
+    aliases: ["oxygen absorbers"],
+    definition: "A packet that chemically removes residual oxygen from a sealed pouch. Protects color and aroma in oxidation-sensitive freeze-dried fruit. Different problem than a desiccant — they are not interchangeable." },
+  { term: "Headspace", slug: "headspace", category: "Packaging",
+    definition: "The empty volume inside a sealed pouch above the product. Excess headspace increases the residual oxygen load and the volume of humid air the desiccant must manage." },
+  { term: "Heat seal", slug: "heat-seal", category: "Packaging",
+    aliases: ["heat seals", "heat-seal"],
+    definition: "The thermally bonded edge of a flexible pouch. A weak or inconsistent heat seal is a common failure point that defeats an otherwise good barrier film." },
+
+  // Commercial
+  { term: "MOQ (Minimum Order Quantity)", slug: "moq", category: "Commercial",
+    aliases: ["MOQ", "MOQs", "minimum order quantity", "minimum order quantities"],
+    definition: "The smallest quantity a supplier will accept on a single order, expressed in kilograms, cases, or units. MOQs reflect the supplier's batch size, packaging changeover cost, and willingness to run small lots." },
+  { term: "Landed cost", slug: "landed-cost", category: "Commercial",
+    aliases: ["landed costs"],
+    definition: "The total cost of freeze-dried fruit delivered to the buyer's warehouse, including raw material, processing, packaging, freight, duties, brokerage, and handling. Often very different from the ex-works quote." },
+  { term: "Dry yield", slug: "dry-yield", category: "Commercial",
+    definition: "The amount of finished freeze-dried fruit produced from a unit of fresh or frozen input fruit. Varies by fruit, variety, ripeness, cut size, and format. A core input to landed cost calculations." },
+  { term: "Usable yield", slug: "usable-yield", category: "Commercial",
+    definition: "The portion of dry yield that meets the buying spec for a given application. A topping format may accept fragments that a premium whole-piece snack would reject. The number that actually matters for cost-in-use." },
+  { term: "Private label", slug: "private-label", category: "Commercial",
+    aliases: ["private-label"],
+    definition: "An arrangement where a supplier produces freeze-dried fruit packaged under the buyer's brand, rather than the supplier's own. Common in retail, foodservice, and ingredient channels." },
+
+  // Certifications
+  { term: "SQF (Safe Quality Food)", slug: "sqf", category: "Certifications",
+    aliases: ["SQF"],
+    definition: "A GFSI-recognized food safety certification scheme used across freeze-dried fruit processing. Buyers often require SQF Level 2 or higher for branded retail supply." },
+  { term: "BRCGS", slug: "brcgs", category: "Certifications",
+    definition: "Brand Reputation Compliance Global Standards — a GFSI-recognized food safety certification widely used by European retailers and global ingredient buyers. Common at freeze-dried fruit suppliers serving export markets." },
+  { term: "FSSC 22000", slug: "fssc-22000", category: "Certifications",
+    definition: "A GFSI-recognized food safety management standard built on ISO 22000. Often required by multinational brands sourcing freeze-dried fruit ingredients at scale." },
+  { term: "USDA Organic", slug: "usda-organic", category: "Certifications",
+    definition: "A US Department of Agriculture certification for fruit grown and processed under defined organic standards. Affects raw material sourcing, processing aids, and label claim eligibility for freeze-dried fruit products sold in the US." },
+];
+
+// Build a function that walks rendered article HTML and links the first
+// occurrence of each glossary term to /glossary/#slug. We deliberately avoid
+// touching headings, code blocks, and any text already inside an <a> so
+// auto-linking never breaks structure or generates nested links.
+function createGlossaryLinker(terms) {
+  // Skip text inside these tags. Headings are excluded so the article's
+  // outline stays a clean visual hierarchy. Existing <a> blocks are excluded
+  // to prevent nested links. <code>/<pre>/<script>/<style> are excluded for
+  // correctness.
+  const SKIP_TAGS = new Set([
+    "a", "h1", "h2", "h3", "h4", "h5", "h6",
+    "code", "pre", "script", "style", "title",
+  ]);
+  const VOID_TAGS = new Set([
+    "area", "base", "br", "col", "embed", "hr", "img", "input",
+    "link", "meta", "source", "track", "wbr",
+  ]);
+
+  // Sort patterns longest-first so "Water activity (aw)" can't be partially
+  // shadowed by "water activity" and "Individually Quick-Frozen" wins over
+  // "Quick-Frozen". Each pattern carries the slug + canonical term to link to.
+  const patterns = [];
+  for (const t of terms) {
+    const aliases = [t.term, ...(t.aliases || [])];
+    for (const alias of aliases) {
+      patterns.push({ alias, slug: t.slug });
+    }
+  }
+  patterns.sort((a, b) => b.alias.length - a.alias.length);
+
+  function escapeRe(s) {
+    return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  }
+
+  // For each pattern we precompile one regex. Word-boundary `\b` works for
+  // most aliases; for aliases that start or end with a non-word character
+  // (e.g. ends in ")"), we relax the boundary on that side.
+  for (const p of patterns) {
+    const startBoundary = /^[\w]/.test(p.alias) ? "\\b" : "";
+    const endBoundary = /[\w]$/.test(p.alias) ? "\\b" : "";
+    p.regex = new RegExp(`${startBoundary}(${escapeRe(p.alias)})${endBoundary}`, "i");
+  }
+
+  return function linkGlossary(html, usedSlugs) {
+    if (!html) return html;
+    const used = usedSlugs instanceof Set ? usedSlugs : new Set();
+
+    // Walk the HTML once, separating it into tokens of {kind: 'text'|'tag', value}.
+    // For text tokens, attempt term insertion only when not inside any SKIP_TAGS.
+    const out = [];
+    const stack = []; // open-tag stack of lowercase tag names
+    let i = 0;
+    while (i < html.length) {
+      const lt = html.indexOf("<", i);
+      if (lt === -1) {
+        out.push(processText(html.slice(i), stack));
+        break;
+      }
+      if (lt > i) out.push(processText(html.slice(i, lt), stack));
+      const gt = html.indexOf(">", lt);
+      if (gt === -1) {
+        out.push(html.slice(lt));
+        break;
+      }
+      const tag = html.slice(lt, gt + 1);
+      out.push(tag);
+      // Parse tag to track open/close for the skip-stack.
+      const m = /^<\s*(\/?)\s*([a-zA-Z][a-zA-Z0-9]*)/.exec(tag);
+      if (m) {
+        const isClose = m[1] === "/";
+        const name = m[2].toLowerCase();
+        const selfClosing = /\/\s*>$/.test(tag) || VOID_TAGS.has(name);
+        if (isClose) {
+          const idx = stack.lastIndexOf(name);
+          if (idx >= 0) stack.splice(idx, 1);
+        } else if (!selfClosing) {
+          stack.push(name);
+        }
+      }
+      i = gt + 1;
+    }
+    return out.join("");
+
+    function processText(text, openStack) {
+      if (!text) return text;
+      if (openStack.some(t => SKIP_TAGS.has(t))) return text;
+
+      let working = text;
+      let result = "";
+      // For each pattern not yet used in this article, try first match.
+      // We iterate longest-first so longer aliases bind before shorter ones.
+      // Because we mutate `working` after each insertion, we restart scanning
+      // from the position right after the inserted link to avoid linking the
+      // same surface twice within one text node.
+      for (const p of patterns) {
+        if (used.has(p.slug)) continue;
+        const m = p.regex.exec(working);
+        if (!m) continue;
+        const matched = m[0];
+        const before = working.slice(0, m.index);
+        const after = working.slice(m.index + matched.length);
+        // Flush text before the match to the result; reset working to the
+        // text after so subsequent patterns scan only the remainder. This
+        // keeps the first-occurrence-per-article invariant easy to reason about.
+        result += before + `<a class="glossary-link" href="/glossary/${p.slug}/" data-glossary="${p.slug}">${matched}</a>`;
+        working = after;
+        used.add(p.slug);
+      }
+      result += working;
+      return result;
+    }
+  };
+}
+
+// Standard category order used across all glossary pages (hub + per-term).
+const GLOSSARY_CATEGORY_ORDER = [
+  "Process & science",
+  "Raw material & format",
+  "Quality & defects",
+  "Packaging",
+  "Commercial",
+  "Certifications",
+];
+
+// Extract the first sentence of a definition for use as a short summary on
+// the hub. Falls back to the full definition if no sentence boundary found.
+// Strips markdown emphasis so the summary reads cleanly without rendering.
+function firstSentence(s) {
+  const clean = String(s || "").replace(/\*([^*]+)\*/g, "$1");
+  const m = /^(.{20,}?[.!?])(\s|$)/.exec(clean);
+  return m ? m[1] : clean;
+}
+
+// Sibling glossary terms in the same category, excluding self.
+function relatedGlossaryTerms(slug) {
+  const self = GLOSSARY.find(t => t.slug === slug);
+  if (!self) return [];
+  return GLOSSARY.filter(t => t.slug !== slug && t.category === self.category);
+}
+
+// Walk every article's body and FAQ HTML for `data-glossary="<slug>"` markers
+// (left there by the auto-linker) and build a reverse index from term slug to
+// the list of articles that mention it. Used to surface "articles that use
+// this term" on each per-term page.
+function buildGlossaryMentionIndex(articles) {
+  const index = Object.fromEntries(GLOSSARY.map(t => [t.slug, []]));
+  const re = /data-glossary="([^"]+)"/g;
+  for (const a of articles) {
+    const seen = new Set();
+    const corpus = [a.bodyHtml || ""].concat(
+      Array.isArray(a.faqs) ? a.faqs.map(f => f.aHtml || "") : []
+    ).join(" ");
+    let m;
+    while ((m = re.exec(corpus))) seen.add(m[1]);
+    for (const slug of seen) {
+      if (index[slug]) index[slug].push(a);
+    }
+  }
+  // Sort each mention list newest-first so the term page surfaces fresh content.
+  for (const slug of Object.keys(index)) {
+    index[slug].sort((a, b) => (b.date?.getTime() || 0) - (a.date?.getTime() || 0));
+  }
+  return index;
+}
+
+// Hub page — replaces the long single-page definition list with a directory
+// of short summaries, each linking to the canonical per-term page. Avoids
+// the SEO duplicate-content risk of having the full definition exist on
+// both the hub and the per-term page.
+function renderGlossaryBody() {
+  const byCategory = new Map();
+  for (const t of GLOSSARY) {
+    if (!byCategory.has(t.category)) byCategory.set(t.category, []);
+    byCategory.get(t.category).push(t);
+  }
+  const order = GLOSSARY_CATEGORY_ORDER;
+
+  const tocHtml = order.map(cat => `
+    <div class="glossary-toc__group">
+      <h3>${escapeHtml(cat)}</h3>
+      <ul>${byCategory.get(cat).map(t => `
+        <li><a href="/glossary/${t.slug}/">${escapeHtml(t.term)}</a></li>`).join("")}</ul>
+    </div>`).join("");
+
+  const sectionsHtml = order.map(cat => `
+    <section class="glossary-section">
+      <h2 class="glossary-section__title">${escapeHtml(cat)}</h2>
+      <dl class="glossary-list">
+        ${byCategory.get(cat).map(t => `
+          <div class="glossary-item" id="${t.slug}">
+            <dt class="glossary-item__term"><a href="/glossary/${t.slug}/" class="glossary-item__link">${escapeHtml(t.term)}</a></dt>
+            <dd class="glossary-item__def">${renderInlineMd(firstSentence(t.definition))} <a href="/glossary/${t.slug}/" class="glossary-item__more">Read full definition ${Icons.arrowSmall}</a></dd>
+          </div>`).join("")}
+      </dl>
+    </section>`).join("");
+
+  return `
+    <section class="page-head">
+      <div class="container">
+        <span class="eyebrow">Reference · ${GLOSSARY.length} terms</span>
+        <h1>Freeze-Dried Fruit Glossary</h1>
+        <p>Plain-language definitions of the technical, commercial, and packaging terms that come up across the freeze-dried fruit category — from water activity and sublimation to landed cost and barrier films. Each term has its own page with the full definition, related terms, and articles that use it.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container-narrow">
+        <nav class="glossary-toc" aria-label="Glossary contents">${tocHtml}</nav>
+        ${sectionsHtml}
+      </div>
+    </section>`;
+}
+
+function glossaryJsonLd({ site }) {
+  // Each DefinedTerm now points at its own per-term page rather than an
+  // in-page anchor on the hub. The hub remains the parent DefinedTermSet.
+  const definedTerms = GLOSSARY.map(t => ({
+    "@type": "DefinedTerm",
+    "@id": `${site.url}/glossary/${t.slug}/#term`,
+    name: t.term,
+    description: firstSentence(t.definition).replace(/\*([^*]+)\*/g, "$1"),
+    url: `${site.url}/glossary/${t.slug}/`,
+    inDefinedTermSet: `${site.url}/glossary/#glossary-set`,
+    termCode: t.slug,
+  }));
+  return [
+    {
+      "@context": "https://schema.org",
+      "@type": "DefinedTermSet",
+      "@id": `${site.url}/glossary/#glossary-set`,
+      name: "Freeze-Dried Fruit Glossary",
+      url: `${site.url}/glossary/`,
+      inLanguage: "en-US",
+      isPartOf: { "@id": `${site.url}/#website` },
+      hasDefinedTerm: definedTerms,
+    },
+    breadcrumbsNode(site, [
+      { name: "Home", path: "/" },
+      { name: "Glossary", path: "/glossary/" },
+    ]),
+  ];
+}
+
+// Per-term page body. Carries the full definition, then a grid of related
+// (same-category) terms, then up to 8 articles that mention this term, plus
+// a footer link back to the hub.
+function renderGlossaryTermBody(term, related, mentioning) {
+  const relatedHtml = related.length ? `
+    <section class="glossary-term__related" aria-labelledby="related-heading">
+      <h2 id="related-heading" class="glossary-term__h2">Related terms in ${escapeHtml(term.category)}</h2>
+      <div class="glossary-term__related-grid">
+        ${related.map(t => `
+          <a href="/glossary/${t.slug}/" class="glossary-term__related-card">
+            <span class="glossary-term__related-name">${escapeHtml(t.term)}</span>
+            <span class="glossary-term__related-summary">${escapeHtml(firstSentence(t.definition).replace(/\*([^*]+)\*/g, "$1"))}</span>
+          </a>`).join("")}
+      </div>
+    </section>` : "";
+
+  const mentionsHtml = mentioning.length ? `
+    <section class="glossary-term__mentions" aria-labelledby="mentions-heading">
+      <h2 id="mentions-heading" class="glossary-term__h2">Articles that use this term</h2>
+      <ul class="glossary-term__mentions-list">
+        ${mentioning.slice(0, 8).map(a => `
+          <li>
+            <a href="${articleUrl(a.id)}" class="glossary-term__mention">
+              <span class="glossary-term__mention-cat">${escapeHtml(a.category)}</span>
+              <span class="glossary-term__mention-title">${escapeHtml(a.title)}</span>
+              <span class="glossary-term__mention-date">${escapeHtml(a.dateLabel || "")}${a.read ? ` · ${escapeHtml(a.read)}` : ""}</span>
+            </a>
+          </li>`).join("")}
+      </ul>
+    </section>` : `
+    <section class="glossary-term__mentions glossary-term__mentions--empty">
+      <p class="muted" style="font-style:italic">No articles currently link to this term. Try searching the <a href="/search/" class="glossary-term__inline-link">archive</a>.</p>
+    </section>`;
+
+  return `
+    <section class="page-head glossary-term__head">
+      <div class="container">
+        <span class="eyebrow"><a href="/glossary/" class="eyebrow-link">Glossary</a> · ${escapeHtml(term.category)}</span>
+        <h1>${escapeHtml(term.term)}</h1>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container-narrow glossary-term">
+        <div class="glossary-term__definition">${renderInlineMd(term.definition)}</div>
+        ${relatedHtml}
+        ${mentionsHtml}
+        <div class="glossary-term__back">
+          <a href="/glossary/" class="glossary-term__back-link">${Icons.arrow ? "← " : ""}Back to all terms</a>
+        </div>
+      </div>
+    </section>`;
+}
+
+function glossaryTermJsonLd({ site, term, mentioning }) {
+  const url = `${site.url}/glossary/${term.slug}/`;
+  const nodes = [
+    {
+      "@context": "https://schema.org",
+      "@type": "DefinedTerm",
+      "@id": `${url}#term`,
+      name: term.term,
+      description: term.definition.replace(/\*([^*]+)\*/g, "$1"),
+      url,
+      termCode: term.slug,
+      inDefinedTermSet: {
+        "@id": `${site.url}/glossary/#glossary-set`,
+        "@type": "DefinedTermSet",
+        name: "Freeze-Dried Fruit Glossary",
+        url: `${site.url}/glossary/`,
+      },
+    },
+    breadcrumbsNode(site, [
+      { name: "Home", path: "/" },
+      { name: "Glossary", path: "/glossary/" },
+      { name: term.term, path: `/glossary/${term.slug}/` },
+    ]),
+  ];
+  if (mentioning && mentioning.length) {
+    nodes.push({
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      name: `Articles using "${term.term}"`,
+      url: `${url}#mentioned-by`,
+      numberOfItems: Math.min(mentioning.length, 8),
+      itemListElement: mentioning.slice(0, 8).map((a, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: absUrl(site, articleUrl(a.id)),
+        name: a.title,
+      })),
+    });
+  }
+  return nodes;
+}
+
 function renderSearchBody({ articles }) {
   const data = articles.map(a => ({
     title: a.title,
@@ -757,6 +2859,474 @@ function renderSearchBody({ articles }) {
     </script>`;
 }
 
+// ---------- 404 Not Found page ----------
+// Cloudflare Pages automatically serves /404.html for any URL that does not
+// resolve to a static file. Our 404 is built to be useful, not punitive:
+//   - Field-guide aesthetic, identical chrome to the rest of the site
+//   - Inline site search (delegates to /search/?q=…)
+//   - Five category cards so a misdirected visitor can re-enter the field guide
+//   - A small "Most-read fruit reports" strip to recover lost long-tail traffic
+//   - A mailto link for reporting persistent broken links
+//
+// The page renders with <meta name="robots" content="noindex,follow"> so it
+// never enters the search index even if Google fetches it directly. GSC's
+// Coverage report still surfaces 404 hits so we can spot patterns over time.
+function render404Body({ site, mailto, articles, categories }) {
+  // Top 6 most recent fruit-report articles — the long-tail rescue set, since
+  // these are the most-Googled "what is freeze-dried <fruit>" entry points
+  // and most likely to have been hit via an outdated link.
+  const recentReports = articles
+    .filter(a => a.category === "Fruit Reports")
+    .slice(0, 6);
+  const reportCards = recentReports.map(a => `
+    <a class="not-found__report-card" href="${articleUrl(a.id)}">
+      <span class="not-found__report-cat">${escapeHtml(a.category)}</span>
+      <span class="not-found__report-title">${escapeHtml(a.title)}</span>
+    </a>`).join("");
+
+  const categoryCards = categories.map(c => `
+    <a class="not-found__cat-card" href="${categoryUrl(c)}">
+      <span class="not-found__cat-name">${escapeHtml(c)}</span>
+      <span class="not-found__cat-cta">Browse ${Icons.arrowSmall}</span>
+    </a>`).join("");
+
+  return `
+    <section class="not-found">
+      <div class="container-narrow">
+        <div class="not-found__head">
+          <div class="not-found__eyebrow">Error 404 · Page Not Found</div>
+          <h1 class="not-found__h1">This page doesn't exist — yet.</h1>
+          <p class="not-found__intro">The link you followed may be broken, or the article may have moved. The field guide is still here. Try a search, jump into one of the five categories, or pick up a fruit report below.</p>
+        </div>
+
+        <form class="not-found__search" role="search" action="/search/" method="get">
+          <label class="not-found__search-label" for="not-found-q">Search the field guide</label>
+          <div class="not-found__search-row">
+            <input id="not-found-q" name="q" type="search" placeholder="Try moisture, mango, supplier, packaging…" autocomplete="off">
+            <button class="btn btn-primary" type="submit">Search ${Icons.arrowSmall}</button>
+          </div>
+        </form>
+
+        <div class="not-found__section">
+          <div class="not-found__section-eyebrow">By category</div>
+          <h2 class="not-found__section-h2">Where were you trying to go?</h2>
+          <div class="not-found__cat-grid">${categoryCards}</div>
+        </div>
+
+        <div class="not-found__section">
+          <div class="not-found__section-eyebrow">Most-read fruit reports</div>
+          <h2 class="not-found__section-h2">Recent fruit reports</h2>
+          <div class="not-found__report-grid">${reportCards}</div>
+          <a class="not-found__see-all" href="/articles/category/fruit-reports/">See all fruit reports ${Icons.arrowSmall}</a>
+        </div>
+
+        <div class="not-found__report-link">
+          <p>Followed a link that should work? <a href="${mailto.broken}">Tell us about it</a> and we will check the redirect.</p>
+        </div>
+      </div>
+    </section>`;
+}
+
+// ---------- Spanish home page ----------
+// A focused landing page for Spanish-speaking visitors. Not a full mirror
+// of the English home — surfaces the translated articles, links to key
+// English-only assets (compare, glossary, calculators) with brief Spanish
+// labels so the visitor isn't dropped into an English-only experience.
+function renderEsHomeBody({ articlesEs, mailto, site }) {
+  const cards = articlesEs.map(a => `
+    <a class="continue-reading__card" href="${articleUrl(a.id, "es")}">
+      <span class="continue-reading__date">${escapeHtml(a.category)}</span>
+      <span class="continue-reading__title">${escapeHtml(a.title)}</span>
+      <span class="continue-reading__cta">Leer artículo ${Icons.arrowSmall}</span>
+    </a>`).join("");
+
+  return `
+    <section class="page-head">
+      <div class="container">
+        <span class="eyebrow">Edición en Español · Freeze-Dried-Fruit.com</span>
+        <h1>Guía de campo de la fruta liofilizada</h1>
+        <p>Una guía editorial independiente sobre la fruta liofilizada — calidad, proceso, abastecimiento, empaque y aplicaciones. Escrita para consumidores curiosos, fundadores de snacks, compradores de ingredientes, proveedores y operadores.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container-narrow">
+        <div class="continue-reading" style="background:transparent;border:0;padding:0;margin:0">
+          <div class="continue-reading__eyebrow">Artículos disponibles en Español</div>
+          <h2 class="continue-reading__heading">Comienza por aquí</h2>
+          <div class="continue-reading__grid">${cards}</div>
+        </div>
+
+        <div class="not-found__section" style="margin-top:48px">
+          <div class="not-found__section-eyebrow">Más recursos</div>
+          <h2 class="not-found__section-h2">Otros recursos del sitio</h2>
+          <div class="not-found__cat-grid">
+            <a class="not-found__cat-card" href="/compare/">
+              <span class="not-found__cat-name">Comparar frutas (EN)</span>
+              <span class="not-found__cat-cta">Abrir ${Icons.arrowSmall}</span>
+            </a>
+            <a class="not-found__cat-card" href="/calculators/">
+              <span class="not-found__cat-name">Calculadoras (EN)</span>
+              <span class="not-found__cat-cta">Abrir ${Icons.arrowSmall}</span>
+            </a>
+            <a class="not-found__cat-card" href="/glossary/">
+              <span class="not-found__cat-name">Glosario (EN)</span>
+              <span class="not-found__cat-cta">Abrir ${Icons.arrowSmall}</span>
+            </a>
+            <a class="not-found__cat-card" href="/state-of-freeze-dried-fruit-2026/">
+              <span class="not-found__cat-name">Reporte anual 2026 (EN)</span>
+              <span class="not-found__cat-cta">Abrir ${Icons.arrowSmall}</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="not-found__report-link">
+          <p>La edición en español está en construcción. ¿Quieres ver un artículo traducido? <a href="${mailto.hello}">Escríbenos</a>.</p>
+        </div>
+      </div>
+    </section>`;
+}
+
+// ---------- Calculator pages (backlink-bait assets) ----------
+// Two interactive on-site tools:
+//   /calculators/fruit-equivalency/  — fresh ↔ freeze-dried mass / volume
+//   /calculators/pouch-barrier/      — barrier-film target estimator
+// Both render as fully static HTML with inline vanilla JS — no framework,
+// no external network calls. The interactive math is deterministic and
+// transparent, which is exactly what blog editors and trade-press writers
+// link to (and what AI engines reproduce verbatim).
+
+function renderCalculatorsHubBody() {
+  return `
+    <section class="page-head">
+      <div class="container">
+        <span class="eyebrow">Tools · Free calculators</span>
+        <h1>Freeze-Dried Fruit Calculators</h1>
+        <p>Free, dependency-free tools for converting fresh fruit into freeze-dried equivalents and for estimating packaging-barrier requirements. Independent and ad-free.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container-narrow">
+        <div class="calculators-hub">
+          <a href="/calculators/fruit-equivalency/" class="calculators-hub__card">
+            <div class="calculators-hub__eyebrow">Conversion</div>
+            <h2 class="calculators-hub__title">Fruit Equivalency Calculator</h2>
+            <p class="calculators-hub__desc">Convert cups or grams of fresh fruit into the equivalent weight and volume of freeze-dried fruit — or vice versa. Useful for recipe writers, ingredient buyers, and brand teams sizing pack content.</p>
+            <span class="calculators-hub__cta">Open the calculator ${Icons.arrowSmall}</span>
+          </a>
+          <a href="/calculators/pouch-barrier/" class="calculators-hub__card">
+            <div class="calculators-hub__eyebrow">Packaging</div>
+            <h2 class="calculators-hub__title">Pouch Barrier Estimator</h2>
+            <p class="calculators-hub__desc">Get a guideline MVTR and OTR target for a freeze-dried fruit pouch based on fruit fragility, climate zone, shelf-life target, and pack size. Editorial guidance — not a substitute for supplier validation.</p>
+            <span class="calculators-hub__cta">Open the calculator ${Icons.arrowSmall}</span>
+          </a>
+        </div>
+      </div>
+    </section>`;
+}
+
+function renderFruitEquivalencyCalculator() {
+  const json = JSON.stringify(FRUIT_EQUIVALENCY).replace(/</g, "\\u003c");
+  const optionsHtml = FRUIT_EQUIVALENCY
+    .map(f => `<option value="${escapeHtml(f.key)}">${escapeHtml(f.name)}</option>`)
+    .join("");
+
+  return `
+    <section class="page-head">
+      <div class="container">
+        <span class="eyebrow">Calculator · Conversion</span>
+        <h1>Fruit Equivalency Calculator</h1>
+        <p>Convert fresh fruit to freeze-dried fruit and back. Useful for recipe writers, ingredient formulators, and brand teams sizing pack content.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container-narrow">
+        <div class="calc">
+          <form class="calc__form" id="equivForm" onsubmit="return false">
+            <div class="calc__row">
+              <label class="calc__label" for="equivFruit">Fruit</label>
+              <select class="calc__input" id="equivFruit">${optionsHtml}</select>
+            </div>
+            <div class="calc__row">
+              <label class="calc__label" for="equivDirection">I have</label>
+              <select class="calc__input" id="equivDirection">
+                <option value="freshToFd">Fresh fruit → freeze-dried equivalent</option>
+                <option value="fdToFresh">Freeze-dried fruit → fresh equivalent</option>
+              </select>
+            </div>
+            <div class="calc__row calc__row--split">
+              <div>
+                <label class="calc__label" for="equivAmount">Amount</label>
+                <input class="calc__input" id="equivAmount" type="number" min="0" step="0.1" value="1">
+              </div>
+              <div>
+                <label class="calc__label" for="equivUnit">Unit</label>
+                <select class="calc__input" id="equivUnit">
+                  <option value="cup">cups</option>
+                  <option value="g">grams</option>
+                  <option value="oz">ounces</option>
+                </select>
+              </div>
+            </div>
+          </form>
+
+          <div class="calc__result" id="equivResult" aria-live="polite"></div>
+
+          <details class="calc__assumptions">
+            <summary>Assumptions</summary>
+            <ul>
+              <li>Fresh-fruit water content is the category USDA average; specific cultivars vary.</li>
+              <li>Freeze-dried product is assumed to finish at ~3% residual moisture (typical premium target).</li>
+              <li>Volume conversions assume loose-pack density; pressed or chopped product fits differently.</li>
+              <li>1 cup ≈ 236.6 mL; 1 ounce ≈ 28.35 g.</li>
+            </ul>
+          </details>
+        </div>
+
+        <div class="calc-context">
+          <h2>How freeze-dried equivalency works</h2>
+          <p>Freeze-drying removes nearly all the water from fresh fruit without applying high heat. The remaining dry-matter mass is small — usually 8–20% of the starting fresh weight, depending on the fruit's natural water content. Volume falls less than mass, because the porous structure left behind by sublimated ice keeps the pieces near their original shape.</p>
+          <p>The calculator uses three inputs per fruit: fresh-fruit water content, the typical loose-pack density of the fresh prepared fruit, and the typical loose-pack density of the finished freeze-dried product. The result is a usable estimate — not a guarantee — for converting recipe quantities or pack-content targets.</p>
+          <p>For more on what these numbers mean in practice, see <a href="/articles/water-activity-vs-moisture-content/">water activity vs. moisture content</a>, <a href="/articles/moisture-control/">moisture control</a>, and the full <a href="/articles/how-to-read-fruit-equivalent-claims-on-freeze-dried-fruit-labels/">guide to reading fruit-equivalent claims on labels</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <script type="application/json" id="equivData">${json}</script>
+    <script>
+(function () {
+  var data = JSON.parse(document.getElementById('equivData').textContent);
+  var byKey = {};
+  for (var i = 0; i < data.length; i++) byKey[data[i].key] = data[i];
+
+  var fruitEl = document.getElementById('equivFruit');
+  var dirEl = document.getElementById('equivDirection');
+  var amtEl = document.getElementById('equivAmount');
+  var unitEl = document.getElementById('equivUnit');
+  var resultEl = document.getElementById('equivResult');
+
+  function toGrams(amount, unit, freshDensity) {
+    if (unit === 'g') return amount;
+    if (unit === 'oz') return amount * 28.3495;
+    if (unit === 'cup') return amount * 236.5882 * freshDensity;
+    return amount;
+  }
+
+  function fromGrams(grams, unit, density) {
+    if (unit === 'g') return grams;
+    if (unit === 'oz') return grams / 28.3495;
+    if (unit === 'cup') return grams / (236.5882 * density);
+    return grams;
+  }
+
+  function fmt(n, digits) {
+    if (!isFinite(n)) return '—';
+    var d = (digits == null) ? (n < 10 ? 1 : 0) : digits;
+    return Number(n.toFixed(d)).toString();
+  }
+
+  function compute() {
+    var f = byKey[fruitEl.value];
+    var dir = dirEl.value;
+    var amt = parseFloat(amtEl.value);
+    var unit = unitEl.value;
+
+    if (!f || !(amt > 0)) {
+      resultEl.innerHTML = '<p class="muted" style="font-family:var(--serif);font-style:italic">Enter an amount to see the equivalent.</p>';
+      return;
+    }
+
+    var dryMatterFresh = 1 - (f.waterPct / 100);
+    var dryMatterFd = 1 - (f.moisturePctFinal / 100);
+
+    var labels;
+    if (dir === 'freshToFd') {
+      var freshGrams = toGrams(amt, unit, f.freshDensity);
+      var fdGrams = freshGrams * dryMatterFresh / dryMatterFd;
+      var freshCups = fromGrams(freshGrams, 'cup', f.freshDensity);
+      var fdCups = fromGrams(fdGrams, 'cup', f.fdDensity);
+      labels = [
+        { label: 'Fresh ' + f.name.toLowerCase() + ' input', value: fmt(freshGrams) + ' g (' + fmt(freshCups) + ' cups, ' + fmt(freshGrams / 28.3495) + ' oz)' },
+        { label: 'Freeze-dried ' + f.name.toLowerCase() + ' output', value: fmt(fdGrams) + ' g (' + fmt(fdCups) + ' cups, ' + fmt(fdGrams / 28.3495) + ' oz)' },
+        { label: 'Mass retention', value: fmt(100 * fdGrams / freshGrams) + '%' },
+        { label: 'Water removed', value: fmt(freshGrams - fdGrams) + ' g' },
+      ];
+    } else {
+      var fdGramsIn = toGrams(amt, unit, f.fdDensity);
+      var freshGramsOut = fdGramsIn * dryMatterFd / dryMatterFresh;
+      var fdCupsIn = fromGrams(fdGramsIn, 'cup', f.fdDensity);
+      var freshCupsOut = fromGrams(freshGramsOut, 'cup', f.freshDensity);
+      labels = [
+        { label: 'Freeze-dried ' + f.name.toLowerCase() + ' input', value: fmt(fdGramsIn) + ' g (' + fmt(fdCupsIn) + ' cups, ' + fmt(fdGramsIn / 28.3495) + ' oz)' },
+        { label: 'Fresh ' + f.name.toLowerCase() + ' equivalent', value: fmt(freshGramsOut) + ' g (' + fmt(freshCupsOut) + ' cups, ' + fmt(freshGramsOut / 28.3495) + ' oz)' },
+        { label: 'Mass ratio', value: '1 g freeze-dried ≈ ' + fmt(freshGramsOut / fdGramsIn) + ' g fresh' },
+        { label: 'Water content of original fresh fruit', value: f.waterPct + '%' },
+      ];
+    }
+
+    resultEl.innerHTML =
+      '<div class="calc-result__title">Result</div>' +
+      '<dl class="calc-result__list">' +
+      labels.map(function (l) {
+        return '<div class="calc-result__row"><dt>' + l.label + '</dt><dd>' + l.value + '</dd></div>';
+      }).join('') +
+      '</dl>';
+  }
+
+  ['change', 'input'].forEach(function (ev) {
+    fruitEl.addEventListener(ev, compute);
+    dirEl.addEventListener(ev, compute);
+    amtEl.addEventListener(ev, compute);
+    unitEl.addEventListener(ev, compute);
+  });
+  compute();
+})();
+    </script>`;
+}
+
+function renderPouchBarrierCalculator() {
+  const fruitJson = JSON.stringify(FRAGILITY_LEVELS).replace(/</g, "\\u003c");
+  const climateJson = JSON.stringify(CLIMATE_ZONES).replace(/</g, "\\u003c");
+  const shelfJson = JSON.stringify(SHELF_LIFE_OPTIONS).replace(/</g, "\\u003c");
+  const packJson = JSON.stringify(PACK_SIZES).replace(/</g, "\\u003c");
+  const baseJson = JSON.stringify(BASE_BARRIER_TARGETS).replace(/</g, "\\u003c");
+
+  const fragOpts = FRAGILITY_LEVELS.map(f => `<option value="${escapeHtml(f.key)}">${escapeHtml(f.label)}</option>`).join("");
+  const climOpts = CLIMATE_ZONES.map(c => `<option value="${escapeHtml(c.key)}">${escapeHtml(c.label)}</option>`).join("");
+  const shelfOpts = SHELF_LIFE_OPTIONS.map(s => `<option value="${s.months}">${escapeHtml(s.label)}</option>`).join("");
+  const packOpts = PACK_SIZES.map(p => `<option value="${escapeHtml(p.key)}">${escapeHtml(p.label)}</option>`).join("");
+
+  return `
+    <section class="page-head">
+      <div class="container">
+        <span class="eyebrow">Calculator · Packaging</span>
+        <h1>Pouch Barrier Estimator</h1>
+        <p>Get a guideline MVTR and OTR target for a freeze-dried fruit pouch based on fruit fragility, climate, shelf-life target, and pack size. Editorial guidance — not a substitute for supplier validation.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container-narrow">
+        <div class="calc">
+          <form class="calc__form" id="barrierForm" onsubmit="return false">
+            <div class="calc__row">
+              <label class="calc__label" for="barrierFrag">Fruit fragility</label>
+              <select class="calc__input" id="barrierFrag">${fragOpts}</select>
+            </div>
+            <div class="calc__row">
+              <label class="calc__label" for="barrierClim">Climate of intended distribution</label>
+              <select class="calc__input" id="barrierClim">${climOpts}</select>
+            </div>
+            <div class="calc__row">
+              <label class="calc__label" for="barrierShelf">Shelf-life target (unopened)</label>
+              <select class="calc__input" id="barrierShelf">${shelfOpts}</select>
+            </div>
+            <div class="calc__row">
+              <label class="calc__label" for="barrierPack">Pack size</label>
+              <select class="calc__input" id="barrierPack">${packOpts}</select>
+            </div>
+          </form>
+
+          <div class="calc__result" id="barrierResult" aria-live="polite"></div>
+
+          <details class="calc__assumptions">
+            <summary>Assumptions</summary>
+            <ul>
+              <li>MVTR targets are at 38 °C, 90% RH per ASTM F1249.</li>
+              <li>OTR targets are at 23 °C, 0% RH per ASTM F1927.</li>
+              <li>Film tier recommendations are editorial guidelines, not engineering specifications. Always validate with shelf-life testing under the conditions the product will actually face.</li>
+              <li>Tighter barrier targets reduce permeation but rarely fix bad seals, sloppy zipper performance, or oversized headspace. Packaging is a system.</li>
+            </ul>
+          </details>
+        </div>
+
+        <div class="calc-context">
+          <h2>How the recommendation is built</h2>
+          <p>Freeze-dried fruit fails on shelf for two main reasons: humidity pickup (which softens texture) and oxygen exposure (which fades color and aroma). The pouch's job is to delay both. The right barrier choice balances cost, recyclability, shelf appeal, and the actual quality risk for the specific product.</p>
+          <p>The estimator starts from baseline MVTR and OTR targets for medium-fragility fruit in a temperate climate, in a medium pouch, at a 12-month shelf life. It then multiplies those targets by factors derived from your inputs: more fragile fruit, a more humid climate, a longer shelf life, or a larger pack each tighten the required barrier.</p>
+          <p>For background, see the field guide on <a href="/articles/barrier-films-for-freeze-dried-fruit/">barrier films</a>, <a href="/articles/desiccants-vs-oxygen-absorbers/">desiccants vs. oxygen absorbers</a>, and <a href="/articles/nitrogen-flushing-for-freeze-dried-fruit/">when nitrogen flushing helps</a>.</p>
+        </div>
+      </div>
+    </section>
+
+    <script type="application/json" id="fragData">${fruitJson}</script>
+    <script type="application/json" id="climData">${climateJson}</script>
+    <script type="application/json" id="shelfData">${shelfJson}</script>
+    <script type="application/json" id="packData">${packJson}</script>
+    <script type="application/json" id="baseData">${baseJson}</script>
+    <script>
+(function () {
+  var FRAG = JSON.parse(document.getElementById('fragData').textContent);
+  var CLIM = JSON.parse(document.getElementById('climData').textContent);
+  var SHELF = JSON.parse(document.getElementById('shelfData').textContent);
+  var PACK = JSON.parse(document.getElementById('packData').textContent);
+  var BASE = JSON.parse(document.getElementById('baseData').textContent);
+
+  function lookup(arr, key, prop) {
+    for (var i = 0; i < arr.length; i++) {
+      if (String(arr[i][key]) === String(prop)) return arr[i];
+    }
+    return arr[0];
+  }
+
+  function tier(mvtr) {
+    if (mvtr <= 0.5)  return { name: 'Foil lamination',  desc: 'PET/Foil/PE structure with metal foil layer for highest barrier. Opaque, highest cost, best for export, humid distribution, premium positioning, or long shelf life.' };
+    if (mvtr <= 1.5)  return { name: 'Metallized lamination', desc: 'PET/metPET/PE or AlOx clear-barrier structure. Strong barrier at moderate cost. Most common premium retail pouch.' };
+    return                  { name: 'Clear lamination', desc: 'PET/PE or BOPP lamination with no specialty barrier layer. Lowest cost, retail-shelf friendly, suitable for low-fragility / short-life / dry-climate use only.' };
+  }
+
+  var fragEl  = document.getElementById('barrierFrag');
+  var climEl  = document.getElementById('barrierClim');
+  var shelfEl = document.getElementById('barrierShelf');
+  var packEl  = document.getElementById('barrierPack');
+  var out     = document.getElementById('barrierResult');
+
+  function compute() {
+    var f = lookup(FRAG, 'key', fragEl.value);
+    var c = lookup(CLIM, 'key', climEl.value);
+    var s = lookup(SHELF, 'months', shelfEl.value);
+    var p = lookup(PACK, 'key', packEl.value);
+
+    // Multiplicative load on barrier. Higher = tighter required spec
+    // (= lower allowed transmission rates).
+    var load = (f.factor || 1) * (c.hrFactor || 1) * (s.factor || 1) * (p.factor || 1);
+
+    var mvtrTarget = BASE.mvtr / load;
+    var otrTarget  = BASE.otr  / load;
+
+    var t = tier(mvtrTarget);
+
+    // Nitrogen-flush + desiccant recommendations driven by load level.
+    var nitrogen = (load >= 1.5)
+      ? 'Recommended — color and aroma protection is meaningful at this load level.'
+      : 'Optional — useful for premium positioning or color-sensitive fruit, but not required to hit the targets above.';
+    var desiccant = (load >= 1.2)
+      ? 'Recommended — a food-grade silica gel packet sized to pouch volume helps absorb residual humidity from sealing and from each opening.'
+      : 'Optional — most useful when the pouch is large or the climate sits at the humid end of temperate.';
+
+    out.innerHTML =
+      '<div class="calc-result__title">Recommendation</div>' +
+      '<dl class="calc-result__list">' +
+        '<div class="calc-result__row"><dt>Suggested film tier</dt><dd><strong>' + t.name + '</strong></dd></div>' +
+        '<div class="calc-result__row"><dt>Film tier notes</dt><dd>' + t.desc + '</dd></div>' +
+        '<div class="calc-result__row"><dt>MVTR target (38 °C / 90% RH)</dt><dd>≤ ' + mvtrTarget.toFixed(2) + ' g/m²/day</dd></div>' +
+        '<div class="calc-result__row"><dt>OTR target (23 °C / 0% RH)</dt><dd>≤ ' + otrTarget.toFixed(2) + ' cc/m²/day</dd></div>' +
+        '<div class="calc-result__row"><dt>Nitrogen flush</dt><dd>' + nitrogen + '</dd></div>' +
+        '<div class="calc-result__row"><dt>Desiccant packet</dt><dd>' + desiccant + '</dd></div>' +
+      '</dl>' +
+      '<p class="calc-result__note">Guideline only — validate with shelf-life testing under the conditions the product will actually face. Seal integrity, zipper performance, and headspace also need to be designed together.</p>';
+  }
+
+  ['change'].forEach(function (ev) {
+    fragEl.addEventListener(ev, compute);
+    climEl.addEventListener(ev, compute);
+    shelfEl.addEventListener(ev, compute);
+    packEl.addEventListener(ev, compute);
+  });
+  compute();
+})();
+    </script>`;
+}
+
 // ---------- RSS feed for the site itself ----------
 function buildRssFeed({ site, articles }) {
   const items = articles.slice(0, 20).map(a => `
@@ -779,24 +3349,180 @@ ${items}
 </channel></rss>`;
 }
 
-function buildSitemap({ site, articles }) {
-  const urls = [
-    "/",
-    "/articles/",
-    "/news/",
-    "/search/",
-    "/exchange/",
-    "/about/",
-    "/contact/",
-    "/privacy/",
-    ...articles.map(a => articleUrl(a.id)),
+// llms.txt — curated index for LLMs/AI engines, grouped by category.
+// Convention: https://llmstxt.org. Lets ChatGPT/Perplexity/Claude pull a
+// machine-readable map of the site's most useful URLs.
+function buildLlmsTxt({ site, articles, reports = [] }) {
+  const byCategory = new Map();
+  for (const a of articles) {
+    if (!byCategory.has(a.category)) byCategory.set(a.category, []);
+    byCategory.get(a.category).push(a);
+  }
+  // Category order matches site nav.
+  const order = ["Industry Insights", "Technology", "Labels & Quality", "Applications", "Fruit Reports"];
+  const ordered = [
+    ...order.filter(c => byCategory.has(c)),
+    ...[...byCategory.keys()].filter(c => !order.includes(c)),
   ];
-  // Categories
+
+  const sections = ordered.map(cat => {
+    const lines = byCategory.get(cat)
+      .map(a => `- [${a.title}](${site.url}${articleUrl(a.id)})${a.summary ? `: ${a.summary}` : ""}`)
+      .join("\n");
+    return `## ${cat}\n\n${lines}`;
+  }).join("\n\n");
+
+  return `# Freeze-Dried-Fruit.com
+
+> ${site.description}
+
+An independent, advertising-free field guide to freeze-dried fruit — covering quality, processing, sourcing, packaging, and applications. Written for curious consumers, snack founders, ingredient buyers, suppliers, and operators.
+
+${reports.length ? `## Flagship reports
+
+${reports.map(r => `- [${r.title}](${site.url}/${r.slug}/)${r.summary ? `: ${r.summary}` : ""}`).join("\n")}
+
+` : ""}## About
+
+- [About Freeze-Dried-Fruit.com](${site.url}/about/): What the site is and who it is for.
+- [${site.editorial?.byline || "Editorial Desk"}](${site.url}${site.editorial?.url || "/editorial/"}): Who writes the field guide.
+- [Editorial Methodology](${site.url}/methodology/): How we research, evaluate, and write.
+- [Glossary](${site.url}/glossary/): Plain-language definitions for technical, commercial, and packaging terms.
+- [Compare freeze-dried fruits](${site.url}/compare/): Side-by-side comparisons across Brix, fiber, aroma, color, and breakage.
+- [Industry Exchange](${site.url}/exchange/): Submission channels for suppliers, equipment, buyers, and operators.
+- [Contact](${site.url}/contact/): Editorial, press, and industry contacts.
+
+${sections}
+
+## Reference
+
+- [All articles](${site.url}/articles/)
+- [News Wire](${site.url}/news/) — auto-updated headlines across the freeze-dried fruit category.
+- [RSS feed](${site.url}/feed.xml)
+- [XML sitemap](${site.url}/sitemap.xml)
+`;
+}
+
+function buildSitemap({ site, articles, reports = [], articlesEs = [] }) {
+  const today = new Date().toISOString().slice(0, 10);
+  // Latest activity timestamp: prefer updated date when present, otherwise
+  // fall back to publish date. This keeps the homepage / index lastmod fresh
+  // whenever any article — new or revised — has moved.
+  const latestArticleDate = articles.reduce((acc, a) => {
+    const t = (a.updated || a.date)?.getTime();
+    return t && (!acc || t > acc) ? t : acc;
+  }, 0);
+  const latestArticleIso = latestArticleDate ? new Date(latestArticleDate).toISOString().slice(0, 10) : today;
+
+  const entries = [
+    { loc: "/", lastmod: latestArticleIso, changefreq: "daily", priority: "1.0" },
+    { loc: "/articles/", lastmod: latestArticleIso, changefreq: "daily", priority: "0.9" },
+    { loc: "/news/", lastmod: today, changefreq: "hourly", priority: "0.7" },
+    { loc: "/glossary/", lastmod: today, changefreq: "monthly", priority: "0.8" },
+    { loc: "/compare/", lastmod: today, changefreq: "monthly", priority: "0.7" },
+    { loc: "/calculators/", lastmod: today, changefreq: "monthly", priority: "0.7" },
+    { loc: "/calculators/fruit-equivalency/", lastmod: today, changefreq: "monthly", priority: "0.7" },
+    { loc: "/calculators/pouch-barrier/", lastmod: today, changefreq: "monthly", priority: "0.7" },
+    { loc: "/methodology/", lastmod: today, changefreq: "monthly", priority: "0.6" },
+    { loc: "/editorial/", lastmod: today, changefreq: "monthly", priority: "0.6" },
+    { loc: "/search/", lastmod: today, changefreq: "monthly", priority: "0.3" },
+    { loc: "/exchange/", lastmod: today, changefreq: "monthly", priority: "0.6" },
+    { loc: "/about/", lastmod: today, changefreq: "monthly", priority: "0.4" },
+    { loc: "/contact/", lastmod: today, changefreq: "monthly", priority: "0.4" },
+    { loc: "/privacy/", lastmod: today, changefreq: "yearly", priority: "0.2" },
+  ];
+
+  // Category pages — lastmod = newest article in that category.
   const cats = [...new Set(articles.map(a => a.category))];
-  for (const c of cats) urls.push(categoryUrl(c));
-  const items = urls.map(u => `<url><loc>${site.url}${u}</loc></url>`).join("");
+  for (const c of cats) {
+    const catLatest = articles
+      .filter(a => a.category === c)
+      .reduce((acc, a) => {
+        const t = a.date?.getTime();
+        return t && (!acc || t > acc) ? t : acc;
+      }, 0);
+    entries.push({
+      loc: categoryUrl(c),
+      lastmod: catLatest ? new Date(catLatest).toISOString().slice(0, 10) : today,
+      changefreq: "weekly",
+      priority: "0.7",
+    });
+  }
+
+  // Individual articles.
+  for (const a of articles) {
+    const mod = a.updated || a.date;
+    entries.push({
+      loc: articleUrl(a.id),
+      lastmod: mod ? mod.toISOString().slice(0, 10) : today,
+      changefreq: "monthly",
+      priority: "0.8",
+    });
+  }
+
+  // Spanish home + Spanish article translations. Listed at high priority
+  // since each Spanish article opens an entire new search-traffic surface
+  // (no English-language SEO competition for the Spanish queries).
+  if (articlesEs.length) {
+    entries.push({
+      loc: "/es/",
+      lastmod: today,
+      changefreq: "weekly",
+      priority: "0.9",
+    });
+    for (const a of articlesEs) {
+      const mod = a.updated || a.date;
+      entries.push({
+        loc: `/es/articles/${a.id}/`,
+        lastmod: mod ? mod.toISOString().slice(0, 10) : today,
+        changefreq: "monthly",
+        priority: "0.8",
+      });
+    }
+  }
+
+  // Flagship reports — high-priority since they are top-level industry
+  // assets. Reports use their `updated` field if newer than publish date.
+  for (const r of reports) {
+    const mod = r.updated || r.date;
+    entries.push({
+      loc: `/${r.slug}/`,
+      lastmod: mod ? mod.toISOString().slice(0, 10) : today,
+      changefreq: "monthly",
+      priority: "0.9",
+    });
+  }
+
+  // Pairwise comparison pages — built from fruit data, refreshed when the
+  // data file changes. They share the build date.
+  for (const pair of buildComparisonPairs()) {
+    entries.push({
+      loc: `/compare/${pair.slug}/`,
+      lastmod: today,
+      changefreq: "monthly",
+      priority: "0.6",
+    });
+  }
+
+  // Per-term glossary pages — each definition lives at its own URL and is
+  // independently citable by AI engines and indexable by Google.
+  for (const term of GLOSSARY) {
+    entries.push({
+      loc: `/glossary/${term.slug}/`,
+      lastmod: today,
+      changefreq: "monthly",
+      priority: "0.6",
+    });
+  }
+
+  const items = entries.map(e =>
+    `<url><loc>${site.url}${e.loc}</loc><lastmod>${e.lastmod}</lastmod><changefreq>${e.changefreq}</changefreq><priority>${e.priority}</priority></url>`
+  ).join("\n");
+
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${items}</urlset>`;
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${items}
+</urlset>`;
 }
 
 // ---------- Build orchestration ----------
@@ -816,88 +3542,545 @@ async function build() {
   const articles = await loadArticles(path.join(ROOT, "content", "articles"));
   console.log(`→ build: ${articles.length} articles loaded`);
 
+  // Spanish article translations live in content/articles-es/. Each file's
+  // `en_slug` field maps it back to the English source for reciprocal
+  // hreflang. Articles without a Spanish translation simply ship English-only.
+  const articlesEs = await loadArticles(path.join(ROOT, "content", "articles-es"), "es");
+  if (articlesEs.length) console.log(`→ build: ${articlesEs.length} Spanish article translation(s) loaded`);
+  const esBySource = new Map(); // en_slug -> es article
+  for (const a of articlesEs) {
+    if (a.en_slug) esBySource.set(a.en_slug, a);
+  }
+
+  // Log which analytics providers will be active in the build. Missing values
+  // mean the provider's tag is not emitted; visible in the build log so the
+  // user notices when something they expected to be on is off.
+  const an = site.analytics || {};
+  const active = [
+    an.googleSiteVerification && "GSC verification",
+    an.plausibleDomain && `Plausible (${an.plausibleDomain})`,
+    an.cloudflareToken && "Cloudflare Web Analytics",
+    an.ga4Id && `GA4 (${an.ga4Id})`,
+  ].filter(Boolean);
+  console.log(`→ build: analytics → ${active.length ? active.join(", ") : "none configured"}`);
+
+  // Load pillar pages (one per category, if present). Each pillar's prose
+  // and FAQ block runs through the same glossary linker as articles below.
+  const pillars = await loadPillars(path.join(ROOT, "content", "pillars"));
+
+  // Load flagship reports (the annual "State of Freeze-Dried Fruit" series
+  // and any future quarterly notes). Reports live at the root path (not
+  // /articles/) so they read as top-level industry assets.
+  const reports = await loadReports(path.join(ROOT, "content", "reports"));
+
+  // Pass 1: auto-link glossary terms inside each article's body and FAQs.
+  // Body and FAQ each get their own `used` set so each section gets one
+  // first-occurrence link per term — the FAQ is the section AI engines
+  // extract most often, so it deserves its own contextual links rather
+  // than being starved by an already-linked body.
+  const linker = createGlossaryLinker(GLOSSARY);
+  let linkedTermCount = 0;
+  let comparisonTableCount = 0;
+  for (const a of articles) {
+    const bodyUsed = new Set();
+    a.bodyHtml = linker(a.bodyHtml, bodyUsed);
+    linkedTermCount += bodyUsed.size;
+    if (Array.isArray(a.faqs) && a.faqs.length) {
+      const faqUsed = new Set();
+      a.faqs = a.faqs.map(f => ({ ...f, aHtml: linker(renderMarkdown(f.a), faqUsed) }));
+      linkedTermCount += faqUsed.size;
+    }
+    // Cross-fruit comparison table for fruit-report articles that match a
+    // known fruit. Injected after glossary linking so terms inside the
+    // table cells are not auto-linked (the table is reference data, not prose).
+    const fruitKey = SLUG_TO_FRUIT[a.id];
+    if (fruitKey) {
+      a.bodyHtml = injectFruitCompareTable(a.bodyHtml, fruitKey);
+      comparisonTableCount += 1;
+    }
+  }
+  // Apply the glossary linker to reports too — same single-pass body
+  // linking pattern used for articles so the prose carries first-occurrence
+  // anchor links to the glossary for every defined term it mentions.
+  for (const r of reports) {
+    const used = new Set();
+    r.bodyHtml = linker(r.bodyHtml, used);
+    linkedTermCount += used.size;
+  }
+  // Spanish articles also get glossary linking — the glossary slugs are
+  // currently English-only, which is fine: the auto-link only fires on the
+  // English term word inside the Spanish prose if it appears there. Most
+  // Spanish translations don't contain English terms inline, so the linker
+  // largely no-ops on /es/ content for now. This is intentional — the
+  // glossary itself remains English until we ship a Spanish glossary.
+  for (const a of articlesEs) {
+    const used = new Set();
+    a.bodyHtml = linker(a.bodyHtml, used);
+    linkedTermCount += used.size;
+    if (Array.isArray(a.faqs) && a.faqs.length) {
+      const faqUsed = new Set();
+      a.faqs = a.faqs.map(f => ({ ...f, aHtml: linker(renderMarkdown(f.a), faqUsed) }));
+    }
+  }
+  console.log(`→ build: linked ${linkedTermCount} glossary terms across articles`);
+  console.log(`→ build: injected ${comparisonTableCount} fruit comparison tables`);
+
   const home = pickHomeArticles(articles, homeConfig);
   if (!home.featured) throw new Error("No articles found — add a Markdown file under content/articles/");
 
+  // Articles indexed by id — used by both the meta-pillar (for /articles/)
+  // and the per-category pillars (for /articles/category/<x>/).
+  const articlesById = Object.fromEntries(articles.map(a => [a.id, a]));
+
   // Home
   const homeBody = renderHomeBody({ site, mailto, articles, home, news, homeConfig });
+  const homeAlternates = articlesEs.length ? { en: "/", es: "/es/" } : null;
   await writeFilePage("index.html", renderPage({
     site, mailto, currentPath: "/", title: null, description: null, body: homeBody, screen: "home",
+    jsonLd: homeJsonLd({ site, articles }),
+    alternates: homeAlternates,
   }));
 
-  // All articles
+  // Spanish home page — a focused landing surface for Spanish-speaking
+  // visitors. Indexed under /es/ with hreflang reciprocal back to "/".
+  if (articlesEs.length) {
+    await writeFilePage("es/index.html", renderPage({
+      site, mailto, currentPath: "/es/",
+      title: "Guía de campo de la fruta liofilizada",
+      description: "Una guía editorial independiente sobre la fruta liofilizada — calidad, proceso, abastecimiento, empaque y aplicaciones.",
+      body: renderEsHomeBody({ articlesEs, mailto, site }),
+      screen: "home-es",
+      lang: "es",
+      alternates: { en: "/", es: "/es/" },
+      jsonLd: [
+        {
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "@id": `${site.url}/es/`,
+          url: `${site.url}/es/`,
+          name: "Guía de campo de la fruta liofilizada",
+          description: "Una guía editorial independiente sobre la fruta liofilizada.",
+          inLanguage: "es",
+          isPartOf: { "@id": `${site.url}/#website` },
+        },
+        breadcrumbsNode(site, [
+          { name: "Inicio", path: "/es/" },
+        ]),
+      ],
+    }));
+  }
+
+  // All articles — meta-pillar surfacing the 5 categories first, then the
+  // suppressed-head archive list of all articles below.
+  const metaPillar = renderArticlesMetaPillar({ site, articles, articlesById });
+  const archiveBelow = renderArticlesIndex({ articles, category: null, suppressHead: true, eyebrowLabel: "Full Archive" });
   await writeFilePage("articles/index.html", renderPage({
-    site, mailto, currentPath: "/articles/", title: "All Articles",
-    description: "Long-form explainers, label analysis, and category notes from the freeze-dried fruit space.",
-    body: renderArticlesIndex({ articles, category: null }), screen: "articles",
+    site, mailto, currentPath: "/articles/", title: "The Field Guide to Freeze-Dried Fruit",
+    description: "All articles on Freeze-Dried-Fruit.com, organized across Industry Insights, Technology, Labels & Quality, Applications, and Fruit Reports.",
+    body: metaPillar.bodyHtml + archiveBelow,
+    screen: "articles",
+    jsonLd: articlesMetaPillarJsonLd({ site, articles, faqs: metaPillar.faqs }),
   }));
 
   // Articles by category — include both categories that have articles AND
   // categories referenced from the nav (so a nav link to "Fruit Reports"
   // resolves to a valid empty-state page until the first article lands).
+  // When a pillar markdown exists for the category, render the full pillar
+  // layout above the archive list.
   const articleCats = new Set(articles.map(a => a.category));
   const navCats = (site.nav || []).filter(n => n.category).map(n => n.category);
   const cats = [...new Set([...articleCats, ...navCats])];
   for (const c of cats) {
+    const inCat = articles.filter(a => a.category === c);
+    const pillar = pillars.get(c);
+
+    let bodyHtml;
+    let jsonLd;
+    let title = c;
+    let description = pillar?.description || `Articles filed under ${c}.`;
+
+    if (pillar) {
+      const { pillarHtml, faqsRendered } = renderPillar({
+        pillar, articles, articlesById, linker, mailto,
+      });
+      const archiveHtml = renderArticlesIndex({ articles, category: c, suppressHead: true });
+      bodyHtml = pillarHtml + archiveHtml;
+      title = pillar.heading || c;
+      jsonLd = pillarCategoryPageJsonLd({
+        site, articles: inCat, category: c, currentPath: categoryUrl(c),
+        name: `${pillar.heading || c} — Freeze-Dried-Fruit.com`,
+        description, pillar, faqsRendered,
+      });
+    } else {
+      bodyHtml = renderArticlesIndex({ articles, category: c });
+      jsonLd = articleListJsonLd({
+        site, articles: inCat, category: c, currentPath: categoryUrl(c),
+        name: `${c} — Freeze-Dried-Fruit.com`, description,
+      });
+    }
+
     await writeFilePage(`${categoryUrl(c).slice(1)}index.html`, renderPage({
-      site, mailto, currentPath: categoryUrl(c), title: c,
-      description: `Articles filed under ${c}.`,
-      body: renderArticlesIndex({ articles, category: c }), screen: "articles-cat",
+      site, mailto, currentPath: categoryUrl(c), title, description,
+      body: bodyHtml, screen: "articles-cat", jsonLd,
     }));
   }
 
   // Individual articles
+  // Two-track internal-link strategy per article:
+  //   1. `continueReading` — up to 3 same-category siblings, surfaced
+  //      mid-article (between Sources and Compare-with). Keeps a reader
+  //      moving deeper into the same pillar.
+  //   2. `related` — 3 articles from OTHER categories, surfaced at the
+  //      bottom. Branches the reader into adjacent pillars.
+  // Deduping `related` against `continueReading` makes sure the two blocks
+  // never repeat a card. For fruit reports, we additionally drop articles
+  // that already appear in the Compare-with strip so the page never shows
+  // the same neighbor twice.
+  const defaultOg = `${site.url.replace(/\/$/, "")}/images/og/default.png`;
   for (let i = 0; i < articles.length; i++) {
     const a = articles[i];
-    const related = articles.filter(x => x.id !== a.id).slice(0, 3);
+
+    const sameCategory = articles.filter(x => x.id !== a.id && x.category === a.category);
+    const continueReading = sameCategory.slice(0, 3);
+
+    // Compare-with strip cards (only for fruit reports) — dedupe to avoid
+    // showing the same neighbor article twice on one page.
+    const compareIds = new Set();
+    const selfFruit = SLUG_TO_FRUIT[a.id];
+    if (selfFruit) {
+      for (const pair of relevantPairsFor(selfFruit, 4)) {
+        const otherKey = pair.a === selfFruit ? pair.b : pair.a;
+        // The compare-with cards link to /compare/<pair>/, not to article
+        // pages — so the dedupe is conservative and rarely triggers, but
+        // we add it for the case where article ids happen to match the
+        // "other fruit's" canonical report slug.
+        compareIds.add(otherKey);
+      }
+    }
+
+    const continueIds = new Set(continueReading.map(x => x.id));
+    const related = articles
+      .filter(x => x.id !== a.id && x.category !== a.category)
+      .filter(x => !continueIds.has(x.id))
+      .filter(x => !compareIds.has(x.id))
+      .slice(0, 3);
+
+    // Reciprocal hreflang alternates — when a Spanish translation exists
+    // for this article, both versions advertise each other.
+    const esTranslation = esBySource.get(a.id);
+    const alternates = esTranslation
+      ? { en: articleUrl(a.id, "en"), es: articleUrl(esTranslation.id, "es") }
+      : null;
+
     await writeFilePage(`articles/${a.id}/index.html`, renderPage({
       site, mailto, currentPath: articleUrl(a.id), title: a.title, description: a.summary,
-      body: renderArticle({ article: a, related, mailto }), screen: "article",
+      body: renderArticle({ article: a, related, continueReading, mailto, site }), screen: "article",
+      jsonLd: articleJsonLd({ site, article: a }),
+      ogImage: articleImageUrl(site, a),
+      ogType: "article",
+      alternates,
     }));
   }
+
+  // Spanish article pages. They reuse the English renderArticle template
+  // (which is largely structural) but their bodyHtml, faqs, takeaways,
+  // sources, and meta are all already in Spanish from the loader. The
+  // visible chrome around the article is also Spanish because renderPage
+  // is called with lang="es".
+  //
+  // We continue using the English article's `related` / `continueReading`
+  // lists for now — Spanish articles can link out to English siblings when
+  // no Spanish translation exists, which is better than a dead-end page.
+  // Once more Spanish translations exist this list should prefer Spanish.
+  for (const aEs of articlesEs) {
+    const enSource = articles.find(a => a.id === aEs.en_slug);
+    if (!enSource) continue; // Spanish article references a non-existent English source
+
+    // For now, related = first 3 Spanish-translation siblings if available,
+    // otherwise fall back to the English source's related list. Continue
+    // Reading uses the same logic.
+    const esSiblings = articlesEs.filter(x => x.id !== aEs.id);
+    const continueReading = esSiblings.slice(0, 3);
+    const related = articles
+      .filter(x => x.id !== enSource.id && x.category !== enSource.category)
+      .slice(0, 3);
+
+    await writeFilePage(`es/articles/${aEs.id}/index.html`, renderPage({
+      site, mailto,
+      currentPath: articleUrl(aEs.id, "es"),
+      title: aEs.title, description: aEs.summary,
+      body: renderArticle({ article: aEs, related, continueReading, mailto, site }),
+      screen: "article",
+      jsonLd: articleJsonLd({ site, article: aEs }),
+      ogImage: articleImageUrl(site, aEs),
+      ogType: "article",
+      lang: "es",
+      alternates: { en: articleUrl(enSource.id, "en"), es: articleUrl(aEs.id, "es") },
+    }));
+  }
+  if (articlesEs.length) console.log(`→ build: wrote ${articlesEs.length} Spanish article page(s)`);
 
   // Static pages
   await writeFilePage("exchange/index.html", renderPage({
     site, mailto, currentPath: "/exchange/", title: "Industry Exchange",
     description: "Suppliers, equipment, buyers — connect across the freeze-dried fruit ecosystem.",
     body: renderExchangeBody({ mailto }), screen: "exchange",
+    jsonLd: simplePageJsonLd({
+      site, currentPath: "/exchange/", name: "Industry Exchange",
+      description: "Suppliers, equipment, buyers — connect across the freeze-dried fruit ecosystem.",
+    }),
   }));
   await writeFilePage("about/index.html", renderPage({
     site, mailto, currentPath: "/about/", title: "About",
     description: "An independent field guide to the freeze-dried fruit category.",
     body: renderAboutBody({ mailto }), screen: "about",
+    jsonLd: simplePageJsonLd({
+      site, currentPath: "/about/", name: "About Freeze-Dried-Fruit.com",
+      description: "An independent field guide to the freeze-dried fruit category.",
+      type: "AboutPage",
+    }),
   }));
   await writeFilePage("contact/index.html", renderPage({
     site, mailto, currentPath: "/contact/", title: "Contact",
     description: "Get in touch with the team behind Freeze-Dried-Fruit.com.",
     body: renderContactBody({ site, mailto }), screen: "contact",
+    jsonLd: simplePageJsonLd({
+      site, currentPath: "/contact/", name: "Contact — Freeze-Dried-Fruit.com",
+      description: "Get in touch with the team behind Freeze-Dried-Fruit.com.",
+      type: "ContactPage",
+    }),
   }));
   await writeFilePage("privacy/index.html", renderPage({
     site, mailto, currentPath: "/privacy/", title: "Privacy Policy",
     description: "How we handle information on Freeze-Dried-Fruit.com.",
     body: renderPrivacyBody({ site }), screen: "privacy",
+    jsonLd: simplePageJsonLd({
+      site, currentPath: "/privacy/", name: "Privacy Policy",
+      description: "How we handle information on Freeze-Dried-Fruit.com.",
+    }),
   }));
+  await writeFilePage("methodology/index.html", renderPage({
+    site, mailto, currentPath: "/methodology/", title: "Methodology",
+    description: "How Freeze-Dried-Fruit.com researches, evaluates, and writes about the freeze-dried fruit category. Editorial standards, disclosures, and corrections policy.",
+    body: renderMethodologyBody({ mailto }), screen: "methodology",
+    jsonLd: simplePageJsonLd({
+      site, currentPath: "/methodology/", name: "Editorial Methodology",
+      description: "How Freeze-Dried-Fruit.com researches, evaluates, and writes about the freeze-dried fruit category. Editorial standards, disclosures, and corrections policy.",
+      type: "AboutPage",
+    }),
+  }));
+  await writeFilePage("editorial/index.html", renderPage({
+    site, mailto, currentPath: "/editorial/", title: site.editorial?.byline || "Editorial Desk",
+    description: `${site.editorial?.byline || "Editorial Desk"} — ${site.editorial?.tagline || "Independent editorial team."}`,
+    body: renderEditorialBody({ site, mailto }), screen: "editorial",
+    jsonLd: editorialPageJsonLd({ site }),
+  }));
+  await writeFilePage("glossary/index.html", renderPage({
+    site, mailto, currentPath: "/glossary/", title: "Glossary",
+    description: `Plain-language definitions of ${GLOSSARY.length} technical, commercial, and packaging terms across the freeze-dried fruit category.`,
+    body: renderGlossaryBody(), screen: "glossary",
+    jsonLd: glossaryJsonLd({ site }),
+  }));
+
+  // Per-term glossary pages — each at /glossary/<slug>/index.html with its
+  // own DefinedTerm schema, related sibling terms, and the articles that
+  // mention it. The mention index is built from data-glossary attributes
+  // left by the auto-linker on every article body and FAQ answer.
+  const glossaryMentions = buildGlossaryMentionIndex(articles);
+  for (const term of GLOSSARY) {
+    const related = relatedGlossaryTerms(term.slug);
+    const mentioning = glossaryMentions[term.slug] || [];
+    const currentPath = `/glossary/${term.slug}/`;
+    await writeFilePage(`glossary/${term.slug}/index.html`, renderPage({
+      site, mailto, currentPath, title: term.term,
+      description: firstSentence(term.definition).replace(/\*([^*]+)\*/g, "$1"),
+      body: renderGlossaryTermBody(term, related, mentioning),
+      screen: "glossary-term",
+      jsonLd: glossaryTermJsonLd({ site, term, mentioning }),
+    }));
+  }
+  console.log(`→ build: wrote ${GLOSSARY.length} per-term glossary pages`);
+
+  // Pairwise comparison pages — fully derived from FRUIT_DATA. The hub
+  // lives at /compare/, each pair at /compare/<a>-vs-<b>/.
+  const comparisonPairs = buildComparisonPairs();
+  await writeFilePage("compare/index.html", renderPage({
+    site, mailto, currentPath: "/compare/", title: "Compare Freeze-Dried Fruits",
+    description: `Side-by-side comparisons across ${comparisonPairs.length} freeze-dried fruit pairings — Brix, fiber, aroma, color stability, breakage, and typical format.`,
+    body: renderCompareHub({ pairs: comparisonPairs }),
+    screen: "compare-hub",
+    jsonLd: compareHubJsonLd({ site, pairs: comparisonPairs }),
+  }));
+  for (const pair of comparisonPairs) {
+    const built = renderComparePage({ a: pair.a, b: pair.b, articles });
+    if (!built) continue;
+    const currentPath = `/compare/${pair.slug}/`;
+    await writeFilePage(`compare/${pair.slug}/index.html`, renderPage({
+      site, mailto, currentPath,
+      title: `Freeze-Dried ${built.A.name} vs ${built.B.name}`,
+      description: `Side-by-side comparison of freeze-dried ${built.A.name.toLowerCase()} and freeze-dried ${built.B.name.toLowerCase()} — Brix, fiber, aroma, color stability, breakage, and typical format.`,
+      body: built.bodyHtml, screen: "compare-pair",
+      jsonLd: comparePageJsonLd({ site, a: pair.a, b: pair.b, currentPath, A: built.A, B: built.B, faqs: built.faqs }),
+    }));
+  }
+  console.log(`→ build: wrote ${comparisonPairs.length} pairwise comparison pages`);
+
+  // Calculator pages — interactive backlink-bait tools. WebApplication
+  // schema tells Google these are functional, not just article-style pages.
+  const calcAppSchema = (name, description, url) => ([
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      name,
+      description,
+      url,
+      applicationCategory: "BusinessApplication",
+      operatingSystem: "Any",
+      browserRequirements: "Requires JavaScript",
+      isAccessibleForFree: true,
+      offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+      publisher: organizationNode(site),
+    },
+    breadcrumbsNode(site, [
+      { name: "Home", path: "/" },
+      { name: "Calculators", path: "/calculators/" },
+      { name, path: new URL(url).pathname },
+    ]),
+  ]);
+  await writeFilePage("calculators/index.html", renderPage({
+    site, mailto, currentPath: "/calculators/", title: "Freeze-Dried Fruit Calculators",
+    description: "Free, dependency-free tools for converting fresh fruit into freeze-dried equivalents and for estimating freeze-dried fruit packaging-barrier requirements.",
+    body: renderCalculatorsHubBody(), screen: "calculators-hub",
+    jsonLd: [
+      {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        url: absUrl(site, "/calculators/"),
+        name: "Freeze-Dried Fruit Calculators",
+        description: "Free interactive tools for the freeze-dried fruit category.",
+        inLanguage: "en-US",
+        isPartOf: { "@id": `${site.url}/#website` },
+      },
+      breadcrumbsNode(site, [
+        { name: "Home", path: "/" },
+        { name: "Calculators", path: "/calculators/" },
+      ]),
+    ],
+  }));
+  await writeFilePage("calculators/fruit-equivalency/index.html", renderPage({
+    site, mailto, currentPath: "/calculators/fruit-equivalency/",
+    title: "Fruit Equivalency Calculator — Fresh to Freeze-Dried",
+    description: "Convert cups or grams of fresh fruit into the equivalent weight and volume of freeze-dried fruit — or vice versa. Free interactive calculator.",
+    body: renderFruitEquivalencyCalculator(),
+    screen: "calculator-equivalency",
+    jsonLd: calcAppSchema(
+      "Fruit Equivalency Calculator",
+      "Convert fresh fruit to freeze-dried fruit and back. Used by recipe writers, ingredient formulators, and brand teams sizing pack content.",
+      absUrl(site, "/calculators/fruit-equivalency/")
+    ),
+  }));
+  await writeFilePage("calculators/pouch-barrier/index.html", renderPage({
+    site, mailto, currentPath: "/calculators/pouch-barrier/",
+    title: "Pouch Barrier Estimator — Freeze-Dried Fruit Packaging",
+    description: "Estimate the MVTR and OTR target for a freeze-dried fruit pouch based on fruit fragility, climate, shelf-life target, and pack size.",
+    body: renderPouchBarrierCalculator(),
+    screen: "calculator-barrier",
+    jsonLd: calcAppSchema(
+      "Pouch Barrier Estimator",
+      "Estimate freeze-dried fruit packaging barrier targets (MVTR, OTR, film tier) from fruit fragility, climate zone, shelf-life target, and pack size.",
+      absUrl(site, "/calculators/pouch-barrier/")
+    ),
+  }));
+
+  // Flagship reports — each at its own top-level URL.
+  for (const r of reports) {
+    await writeFilePage(`${r.slug}/index.html`, renderPage({
+      site, mailto, currentPath: `/${r.slug}/`,
+      title: r.title, description: r.summary || r.intro,
+      body: renderReportBody({ report: r, mailto, site }),
+      screen: "report",
+      jsonLd: reportJsonLd({ site, report: r }),
+      ogType: "article",
+    }));
+  }
+  if (reports.length) console.log(`→ build: wrote ${reports.length} flagship report page(s)`);
+
   await writeFilePage("news/index.html", renderPage({
     site, mailto, currentPath: "/news/", title: "News Wire",
     description: "Auto-updated headlines about freeze-dried fruit and freeze-drying technology.",
     body: renderNewsBody({ news }), screen: "news",
+    jsonLd: newsListJsonLd({ site, news }),
   }));
   await writeFilePage("search/index.html", renderPage({
     site, mailto, currentPath: "/search/", title: "Search",
     description: "Search Freeze-Dried-Fruit.com articles and field guide topics.",
     body: renderSearchBody({ articles }), screen: "search",
+    jsonLd: simplePageJsonLd({
+      site, currentPath: "/search/", name: "Search — Freeze-Dried-Fruit.com",
+      description: "Search Freeze-Dried-Fruit.com articles and field guide topics.",
+    }),
+  }));
+
+  // 404 helper page. Cloudflare Pages auto-serves /404.html for any URL that
+  // doesn't resolve, so writing it at the root of dist/ is enough. Tagged
+  // noindex so it never enters the search index — GSC's Coverage report
+  // still tracks 404 hits so we can spot patterns over time.
+  // Category list ordered by the site nav for visual consistency with the
+  // header menu the visitor just clicked through.
+  const navCategoryOrder = (site.nav || [])
+    .filter(n => n.category)
+    .map(n => n.category)
+    .filter(c => cats.includes(c));
+  await writeFilePage("404.html", renderPage({
+    site, mailto, currentPath: "/404.html", title: "Page Not Found",
+    description: "The page you requested could not be found. Search the field guide, browse a category, or pick up a recent fruit report.",
+    body: render404Body({ site, mailto, articles, categories: navCategoryOrder }),
+    screen: "not-found",
+    noindex: true,
   }));
 
   // Feeds
   await writeFilePage("feed.xml", buildRssFeed({ site, articles }));
-  await writeFilePage("sitemap.xml", buildSitemap({ site, articles }));
-  await writeFilePage("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${site.url}/sitemap.xml\n`);
+  await writeFilePage("sitemap.xml", buildSitemap({ site, articles, reports, articlesEs }));
+  await writeFilePage("llms.txt", buildLlmsTxt({ site, articles, reports }));
+  await writeFilePage("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${site.url}/sitemap.xml\n\n# AI engine guidance\n# A curated index for LLMs is published at /llms.txt\n`);
 
   // Static assets
   await copyTree(path.join(ROOT, "public"), DIST);
 
+  // Social-share / rich-result PNG cards (1200×630). Generated last so they
+  // are written directly into dist/ and don't pollute source. Articles with
+  // real photo covers (.jpg/.png) keep their photo for og:image; articles
+  // with SVG hero figures get a branded text card so they qualify for
+  // Google Article rich-result image and so social previews are consistent.
+  const ogDir = path.join(DIST, "images", "og");
+  await mkdir(ogDir, { recursive: true });
+  let ogCount = 0;
+  await writeFile(path.join(ogDir, "default.png"), rasterize(renderSiteOgSvg(site)));
+  ogCount++;
+  for (const a of articles) {
+    const hasPhoto = a.cover_image && !a.cover_image.toLowerCase().endsWith(".svg");
+    if (hasPhoto) continue;
+    const png = rasterize(renderArticleOgSvg({ title: a.title, category: a.category }));
+    await writeFile(path.join(ogDir, `${a.id}.png`), png);
+    ogCount++;
+  }
+  console.log(`→ build: generated ${ogCount} OG image${ogCount === 1 ? "" : "s"}`);
+
   // home + articles-index + N categories + N articles + 6 static + 3 feeds
-  console.log(`→ build: wrote ${articles.length + cats.length + 11} pages to dist/`);
+  // Accurate page count walks dist/ for *.html since the build emits many
+  // page families (articles, categories, comparisons, glossary terms, static).
+  let pageCount = 0;
+  async function countHtml(dir) {
+    const entries = await readdir(dir, { withFileTypes: true });
+    for (const e of entries) {
+      const p = path.join(dir, e.name);
+      if (e.isDirectory()) await countHtml(p);
+      else if (e.name.endsWith(".html")) pageCount += 1;
+    }
+  }
+  await countHtml(DIST);
+  console.log(`→ build: wrote ${pageCount} pages to dist/`);
 }
 
 build().catch(err => {

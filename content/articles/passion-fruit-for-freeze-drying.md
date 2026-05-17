@@ -3,6 +3,7 @@ title: "A Field Guide to Passion Fruit for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-14
 cover_image: /images/articles/passion-fruit-for-freeze-drying.jpg
 cover_alt: "Whole and halved passion fruits showing yellow pulp and seeds"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "The edible portion is pulp and seeds, so format is the central question."
   - "Freeze-dried passion fruit is often strongest as powder, flakes, or ingredient inclusion."
   - "Buyers should ask whether the product includes seeds, carrier, sugar, or other ingredients."
+faqs:
+  - q: "Why is passion fruit usually freeze-dried as powder or flakes rather than pieces?"
+    a: "Passion fruit is mostly valued for pulp aroma and acidity. It does not offer the clean slice or cube structure of apple, mango, or pineapple — the edible portion is pulp wrapped around hard seeds. That means freeze-dried passion fruit usually belongs in ingredient formats: powders, flakes, inclusions, or blends where a small amount carries strong flavor."
+  - q: "Should freeze-dried passion fruit include the seeds?"
+    a: "Depends on the application. Seeds add crunch and visual identity but are hard and can be distracting in a soft fruit snack. Premium products typically disclose whether seeds are included. Seed-free passion fruit (juice-derived or strained pulp) works better for smooth ingredient applications like coatings or drinks."
+  - q: "What's the best use for freeze-dried passion fruit?"
+    a: "Foodservice, beverage, dessert, coating, and ingredient applications — a small inclusion of passion fruit can lift an entire tropical blend or carry strong aroma into a finished product. Retail snack use is niche because the seed texture and intense acidity make it hard to position as a solo snacking fruit."
+  - q: "Why does passion fruit work better as an ingredient than a snack?"
+    a: "The aroma is powerful and the acid is concentrated. At low inclusion rates passion fruit can transform a tropical blend, a beverage, or a dessert. At normal snacking portions the same intensity becomes overwhelming, and the seeds add a texture most snack consumers don't expect."
+  - q: "What quality signals matter in freeze-dried passion fruit?"
+    a: "Strong passion fruit aroma; bright tartness without stale bitterness; clear disclosure if carriers, sugar, or seed material are used; powder or flakes that resist clumping; and a format that matches the product claim. Aroma intensity is the single best diagnostic."
+  - q: "Does freeze-dried passion fruit usually use carriers?"
+    a: "Passion fruit powder products often include carriers like maltodextrin or other anti-caking agents because the natural acidity and sugar content make pure passion fruit powder moisture-sensitive and prone to caking. The label should disclose the carrier; buyers should ask the carrier ratio when sourcing for clean-label use."
+  - q: "What should buyers ask freeze-dried passion fruit suppliers?"
+    a: "Ask whether the material is pure pulp, pulp with seeds, juice powder, puree powder, or a carrier-based ingredient; added sugar status; carrier identity and ratio; expected aroma intensity; target moisture or water activity; and the intended product positioning."
 ---
 
 Passion fruit is one of the most aromatic fruits in the category, but it does not behave like a normal snack piece. For freeze-dried fruit buyers, passion fruit is not just a flavor name. It is a practical set of decisions about raw material, cut format, texture, aroma, moisture control, breakage, and where the fruit belongs in a finished product.

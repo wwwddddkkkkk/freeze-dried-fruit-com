@@ -3,6 +3,7 @@ title: "How Many Types of Guavas Are There? A Guide to Guava Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-24
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-guavas-are-there.jpg
 cover_alt: "A guava fruit hanging on the plant"
 cover_credit: "Balu B / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "White-flesh, pink-flesh, crunchy fresh-eating, soft aromatic, processing, juice and puree types"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of guavas are there?"
+    a: "Guava includes many tropical cultivars and related species grouped by color, flavor, seediness, and use. Familiar names include white guava, pink guava, red guava, Thai guava, Mexican cream, strawberry guava, and apple guava — split into white-flesh, pink-flesh, crunchy fresh-eating, soft aromatic, and processing types."
+  - q: "What's the difference between pink and white guava?"
+    a: "Pink guava (Mexican cream, many Latin American types) is more aromatic and juice-friendly, with the strong tropical perfume most consumers associate with guava. White guava (Allahabad Safeda from India, many fresh-eating types) is milder, sometimes crisper, and often suited to fresh snacking rather than processed products. Color signals different commercial uses, not just appearance."
+  - q: "What is Thai guava?"
+    a: "Thai guava is a firm, crunchy, less aromatic guava style — sometimes eaten with seasoning rather than treated as soft tropical fruit. It surprises consumers who expect the perfumed pink guava character. Thai guava is more apple-like in texture and works well for fresh-cut snacks but is less commercial for freeze-dried processing."
+  - q: "What is strawberry guava?"
+    a: "Strawberry guava is a separate species (Psidium cattleyanum) from common guava (Psidium guajava). It is smaller, more aromatic, with a tart-sweet flavor that reads as more berry-like than typical tropical guava. It is grown as a specialty fruit and prized for aroma, though commercial supply is limited."
+  - q: "Which guava variety freeze-dries best?"
+    a: "Seed control and flesh color are central. Pink guava brings color and aroma but seed load can dominate large chunks — works well in powder. White guava is cleaner but milder. Buyers should ask flesh color, seed handling, raw material state, Brix, acidity, and whether the product is whole fruit, puree-derived, powder, or inclusion."
+  - q: "Are guava seeds a problem in freeze-dried products?"
+    a: "Guava seeds are hard, numerous, and become more obvious as the surrounding flesh becomes lighter after drying. They are acceptable (even expected) in powder and small pieces where the texture is distributed; they can feel distracting in large intact chunks. Premium products either use varieties with lower seed load or process the fruit as puree-derived pieces."
+  - q: "What should buyers ask freeze-dried guava suppliers?"
+    a: "Ask flesh color (pink, white, red), variety where available (Allahabad Safeda, Mexican cream, Thai, strawberry guava), origin, seed-control approach, raw material state (whole fruit, puree, processing stream), cut format, added sugar or carrier, and target use case (snack chunk, drink powder, blend component, or confectionery inclusion)."
 ---
 
 Guava variety is mostly about flesh color, seed load, aroma, acidity, texture, and whether the fruit is meant to be eaten crisp, soft, fresh, or processed. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

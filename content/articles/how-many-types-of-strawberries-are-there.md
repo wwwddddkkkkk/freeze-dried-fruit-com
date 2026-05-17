@@ -3,6 +3,7 @@ title: "How Many Types of Strawberries Are There? A Guide to Strawberry Varietie
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-05-11
+updated: 2026-05-14
 cover_image: /images/articles/how-many-types-of-strawberries-are-there.jpg
 cover_alt: "A ripe strawberry on a white background"
 cover_credit: "Joselodos / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "Fresh-market berries, processing berries, day-neutral berries, June-bearing berries, alpine strawberries"
   - "Variety matters because fruit bred for retail, processing, juice, drying, or local eating can behave very differently."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product job, not which variety is abstractly best."
+faqs:
+  - q: "How many types of strawberries are there?"
+    a: "Many hundreds of named strawberry cultivars exist worldwide, bred for different climates, seasons, firmness, flavor, and yield. The number depends on whether you are counting botanical groups, named cultivars, commercial varieties, regional names, or the small group that actually appears in supermarkets and ingredient supply."
+  - q: "Which strawberry varieties are best for freeze-drying?"
+    a: "Processing-oriented berries with strong color and flavor — such as Senga Sengana — often outperform large fresh-market berries in powders and slices. Fresh-market berries can work beautifully when harvested ripe, but firmness alone does not guarantee flavor. Variety affects color retention, aroma, seed texture, acidity, and breakage."
+  - q: "What's the difference between fresh-market and processing strawberries?"
+    a: "Fresh-market berries are bred to look red, stay firm, ship well, and survive a long retail chain. Processing strawberries are selected for color density, flavor concentration, and yield in pulp, puree, juice, or drying streams. The most beautiful supermarket strawberry is not always the most flavorful processed one."
+  - q: "Why don't most packaged strawberry products name the variety?"
+    a: "Naming the cultivar creates a promise that the variety stays stable across seasons — difficult when harvest windows shift, prices move, crop quality changes, or suppliers blend fruit to maintain availability. For everyday products, a broad fruit name is enough. For premium products or ingredient work, variety is part of the spec."
+  - q: "What's the difference between June-bearing and day-neutral strawberries?"
+    a: "June-bearing varieties produce one concentrated crop per year, typically in spring. Day-neutral varieties fruit across a longer window because they are less sensitive to day length, which is why they appear in extended-season supermarket supply. Alpine strawberries are a separate, more aromatic, small-fruited group."
+  - q: "Which strawberry varieties have the strongest aroma?"
+    a: "Highly aromatic types include Mara des Bois, Gariguette, and alpine strawberries. These are often beloved locally but less common in large export trade because they may be more fragile or shorter-lived than commercial cultivars bred primarily for shipping."
+  - q: "What should ingredient buyers ask about freeze-dried strawberry variety?"
+    a: "Ask for the cultivar or variety type, origin, whether the lot is single-variety or blended, the starting form (fresh, IQF, puree, juice, or processing stream), typical Brix and acidity targets, the cut format (slice, whole, dice, powder, crumble), and whether the variety can stay stable year-round."
 ---
 
 Strawberry looks like one simple berry until you compare aroma, color, firmness, sweetness, acidity, and how the fruit behaves after processing. The number can sound simple in search results, but fruit variety is rarely just a count. It is a map of regions, breeding goals, farm economics, consumer habits, processing needs, and local food culture.

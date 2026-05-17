@@ -3,6 +3,7 @@ title: "How Many Types of Dragon Fruit Are There? A Guide to Dragon Fruit Variet
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-05-03
+updated: 2026-05-14
 cover_image: /images/articles/how-many-types-of-dragon-fruit-are-there.jpg
 cover_alt: "A halved red dragon fruit showing bright magenta flesh"
 cover_credit: "Billjones94 / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "White flesh, red or magenta flesh, yellow skin, sweeter specialty cultivars, processing color types"
   - "Variety matters because fruit bred for retail, processing, juice, drying, or local eating can behave very differently."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product job, not which variety is abstractly best."
+faqs:
+  - q: "How many types of dragon fruit are there?"
+    a: "Dragon fruit is usually grouped by skin color, flesh color, species, and cultivar rather than by one familiar retail variety list. The main groups are white-fleshed, red or magenta-fleshed, yellow-skinned, purple-fleshed, and sweeter specialty cultivars — sold as pitaya or pitahaya across different regional traditions."
+  - q: "What's the difference between white, red, and yellow dragon fruit?"
+    a: "White-fleshed dragon fruit is mild, crisp, and visually clean — pretty but often gentle in flavor. Red or magenta-fleshed dragon fruit is more dramatic in color and sometimes more flavorful. Yellow dragon fruit has yellow skin and white flesh, is usually smaller, and is often sweeter and more aromatic than the more familiar red-skinned types."
+  - q: "Which dragon fruit varieties are best for freeze-drying?"
+    a: "Flesh color is the first buying decision. White gives a clean look but mild flavor. Red and purple types provide strong color and better visual payoff in powders, smoothie bowls, and snack mixes. Yellow dragon fruit may be sweeter but less common in commercial supply. Buyers should ask species or flesh color, Brix, seed load, cut size, and intended use."
+  - q: "Why does some dragon fruit taste so mild?"
+    a: "Dragon fruit is a case where visual value can outrun flavor. White-fleshed dragon fruit especially can be beautiful and refreshing but quietly sweet at best. Red-fleshed and yellow varieties are often more flavor-forward. For freeze-dried products, blending varieties or adding aromatic partners is common when working with milder fruit."
+  - q: "What is pitaya?"
+    a: "Pitaya (also spelled pitahaya) is the broader name used for dragon fruit, especially in Latin American and Spanish-speaking markets. It covers the same species sold as dragon fruit in English-speaking retail. Yellow pitaya is often a different species than the common red-skinned pitaya."
+  - q: "Is red or white dragon fruit sweeter?"
+    a: "Red-fleshed dragon fruit is often slightly sweeter and more flavor-dense than white-fleshed, though variety and ripeness matter more than color alone. The bigger eating difference is usually color saturation and a small aroma uplift — the practical sweetness gap can be smaller than the visual gap suggests."
+  - q: "What should buyers ask suppliers about dragon fruit variety?"
+    a: "Ask species (or flesh color), origin, Brix, seed load, cut size, single variety or blend, fresh / IQF / processing source, and whether the intended product is a snack piece, powder, topping, or color ingredient. For premium freeze-dried positioning, flesh color is the first spec line."
 ---
 
 Dragon fruit looks like one Instagram-famous fruit, but the category includes white, red, purple, and yellow types with very different flavor and color value. The number can sound simple in search results, but fruit variety is rarely just a count. It is a map of regions, breeding goals, farm economics, consumer habits, processing needs, and local food culture.

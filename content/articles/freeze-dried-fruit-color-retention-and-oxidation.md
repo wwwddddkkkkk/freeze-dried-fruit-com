@@ -12,6 +12,38 @@ takeaways:
   - "Buyers should review color expectations together with water activity, packaging, and storage-test conditions."
 cover_image: /images/articles/freeze-dried-fruit-color-retention-and-oxidation.svg
 cover_alt: "Technical diagram showing oxidation pathways, pigment fade, and packaging exposure risks in freeze-dried fruit"
+faqs:
+  - q: "What causes freeze-dried fruit to lose its bright color?"
+    a: "Oxidation changes freeze-dried fruit color when pigments, enzymes, and aroma compounds react with oxygen. The main risk points are fruit preparation, drying endpoint, and packaging exposure after the product leaves the chamber."
+  - q: "Which freeze-dried fruits are most prone to enzymatic browning?"
+    a: "Apple, banana, and pear are especially prone. Once the flesh is cut, enzymes can react with oxygen and darken the surface unless the fruit is handled quickly or protected through pre-treatment. The browning can start before the fruit is fully frozen."
+  - q: "Which freeze-dried fruits are most prone to pigment fade?"
+    a: "Strawberry, raspberry, blueberry, cherry, and dragon fruit can lose brightness when process exposure or packaging protection is weak. The product may not turn brown — instead it can look washed out, dusty, less saturated, or grayish at the edges."
+  - q: "Can good packaging fix color problems caused upstream?"
+    a: "No. Packaging is critical, but it cannot rescue weak upstream control. Intake ripeness, time between cutting and freezing, slice thickness, chamber loading, and endpoint moisture all shape whether the fruit enters packaging with hidden risk already built in."
+  - q: "Does color loss in freeze-dried fruit also affect aroma?"
+    a: "Yes. Oxidation rarely affects color alone. The same exposure that makes fruit look dull can also flatten top-note aroma, so consumers often perceive the two changes as a single quality problem."
+  - q: "Why does a bright sample sometimes still fade later?"
+    a: "A product can leave the dryer looking excellent and still lose visual quality later if the package system is underspecified. Residual oxygen, weak seals, or high-permeability film can slowly undermine color and aroma over time."
+  - q: "What should a buyer ask a supplier when color matters commercially?"
+    a: "Ask how the fruit is handled between cutting and freezing, whether anti-browning steps are used, what moisture and water activity range is targeted at release, how residual oxygen is managed, what storage tests are run and under what conditions, and what color variation is considered normal across lots and seasons."
+sources:
+  - title: "Anthocyanin Pigments: Beyond the Numbers"
+    url: "https://ift.onlinelibrary.wiley.com/doi/10.1111/1541-4337.12193"
+    publisher: "Institute of Food Technologists — Comprehensive Reviews in Food Science"
+    note: "Peer-reviewed analysis of anthocyanin degradation kinetics — the chemistry behind berry color fade in dried products."
+  - title: "Enzymatic Browning in Fruits and Vegetables"
+    url: "https://ift.onlinelibrary.wiley.com/doi/10.1111/j.1750-3841.2010.01633.x"
+    publisher: "Institute of Food Technologists — Journal of Food Science"
+    note: "Reference for the polyphenol oxidase (PPO) reaction that drives browning in apple, banana, and pear."
+  - title: "Ascorbic Acid as Indirect Food Additive"
+    url: "https://www.fda.gov/food/food-additives-petitions/food-additive-status-list"
+    publisher: "U.S. Food & Drug Administration"
+    note: "FDA's reference for ascorbic acid use — the most common anti-browning pre-treatment in freeze-dried fruit processing."
+  - title: "USDA Agricultural Research Service — Phytochemicals Research"
+    url: "https://www.ars.usda.gov/research/programs/programs.htm?np_code=306"
+    publisher: "USDA Agricultural Research Service"
+    note: "USDA's ongoing research program on pigment chemistry and post-harvest stability in fruit."
 ---
 
 Bright color sells freeze-dried fruit quickly, but color stability depends on what happens before drying, during drying, and after sealing. A bag can open with beautiful red strawberry slices or pale yellow banana coins and still disappoint later if oxygen exposure, fruit chemistry, or handling were not controlled well.

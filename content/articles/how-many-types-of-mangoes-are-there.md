@@ -3,6 +3,7 @@ title: "How Many Types of Mangoes Are There? A Global Guide to Mango Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-05-13
+updated: 2026-05-14
 cover_image: /images/articles/how-many-types-of-mangoes-are-there.jpg
 cover_alt: "Whole and halved ripe mangoes on a plain background"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Mango varieties are strongly regional: India, Pakistan, Thailand, the Philippines, Mexico, Florida, Australia, Brazil, Peru, and Ecuador all have different mango cultures."
   - "Some mangoes are loved for perfume and sweetness; others are grown because they ship well, crop reliably, or process efficiently."
   - "For freeze-dried mango, the useful question is not just how many mango varieties exist, but which ones have low fiber, strong aroma, good color, and stable sourcing."
+faqs:
+  - q: "How many types of mangoes are there?"
+    a: "Hundreds, and likely thousands, of named mango varieties exist around the world. India alone is often described as having more than a thousand named cultivars. In global commerce most consumers meet a much smaller group — roughly 15 to 30 varieties carry meaningful export, retail, processing, or ingredient supply weight."
+  - q: "Which mango varieties are best for freeze-drying?"
+    a: "Strong freeze-dried mango candidates usually have low fiber, strong aroma, good color, high natural sweetness, and enough acidity to avoid tasting flat. For premium snacking, watch for Ataulfo, Alphonso, Kesar, Carabao, and Nam Dok Mai. For reliable cubes and broader ingredient use, Kent and Keitt are often more practical. For powders, pulp-derived ingredients, and lower-cost blends, Tommy Atkins, Totapuri, and Palmer appear more often."
+  - q: "What's special about Alphonso mango?"
+    a: "Alphonso is an Indian premium cultivar with saffron-orange flesh, very high aroma, rich sweetness, and a short season. It is often called the king of mangoes, though that title starts arguments in the best possible way. Strong aroma and clean sweetness make it especially valuable in premium snacks, desserts, and freeze-dried products."
+  - q: "Why is Tommy Atkins so common in U.S. supermarkets?"
+    a: "Tommy Atkins ships well, looks colorful, resists handling damage, and has a long commercial history. It is not usually the best-tasting mango, but it is one of the most durable — which is why it dominates American retail despite less aromatic varieties existing in other markets."
+  - q: "What's the difference between Carabao and Ataulfo mangoes?"
+    a: "Carabao is a Philippine mango famous for sweetness, low fiber, and clean tropical flavor — often praised among the sweetest mangoes globally. Ataulfo, sometimes marketed as honey or Champagne mango, is a smaller Mexican variety, very low in fiber, with creamy honey-sweet flesh. Both are dessert-friendly, but they come from different regions and supply chains."
+  - q: "Why do most mango products just say \"mango\" instead of the variety?"
+    a: "Naming the cultivar creates a promise that buyers expect every season. Many premium mangoes have short harvest windows, prices that move sharply, and weather or disease risk that forces processors to switch origins or blend varieties to maintain availability. For premium freeze-dried mango or ingredient work, the cultivar should still be specified."
+  - q: "What should ingredient buyers ask about mango variety?"
+    a: "Which cultivar, which origin, single variety or blend, starting form (fresh, IQF, puree, or pulp stream), typical Brix range, fiber level, harvest window, whether the variety stays stable year-round, and — if it changes — how the label is handled."
 ---
 
 Ask ten people what a mango tastes like and you may hear ten different answers: honey, peach, citrus, pine, flowers, caramel, melon, orange sherbet, or the green edge of something still ripening on a kitchen counter. That is not because mango is vague. It is because "mango" is not one fruit in the practical sense. It is a whole family of cultivars, regional traditions, harvest windows, and supply chains.

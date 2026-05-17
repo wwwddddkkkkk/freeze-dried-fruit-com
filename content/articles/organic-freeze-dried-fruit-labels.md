@@ -23,6 +23,23 @@ faqs:
     a: "Only when the organic claim matters to the market or customer and the rest of the product still performs. Paying more for certification without checking texture, breakage, and packaging can create disappointment."
   - q: "What should be checked besides the organic claim?"
     a: "Check the ingredient statement, piece format, breakage tolerance, moisture or water activity logic, packaging system, and whether the delivered product still matches the premium implied by the label."
+sources:
+  - title: "Labeling Organic Products"
+    url: "https://www.ams.usda.gov/grades-standards/organic-labeling"
+    publisher: "USDA Agricultural Marketing Service — National Organic Program"
+    note: "Defines the four labeling tiers (100% Organic, Organic, Made with Organic, Specific Ingredients) and the rules behind each callout."
+  - title: "National Organic Program — Standards"
+    url: "https://www.ams.usda.gov/about-ams/programs-offices/national-organic-program"
+    publisher: "USDA Agricultural Marketing Service"
+    note: "The authoritative source for what 'organic' means under U.S. federal regulation."
+  - title: "7 CFR Part 205 — National Organic Program"
+    url: "https://www.ecfr.gov/current/title-7/subtitle-B/chapter-I/subchapter-M/part-205"
+    publisher: "Electronic Code of Federal Regulations"
+    note: "The full regulatory text — including allowed ingredients, processing aids, and labeling claims."
+  - title: "Certified Organic Operations Search"
+    url: "https://organic.ams.usda.gov/integrity/"
+    publisher: "USDA Organic Integrity Database"
+    note: "Buyer verification tool: confirm a supplier's organic certificate status before approving the SKU."
 ---
 
 Organic is a useful label signal in freeze-dried fruit, but it becomes misleading when people treat it as a shortcut for every other quality question.

@@ -3,6 +3,7 @@ title: "How Many Types of Sapodillas Are There? A Guide to Sapodilla Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-04
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-sapodillas-are-there.jpg
 cover_alt: "Sapodilla fruit hanging from a branch"
 cover_credit: "mujuonly / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "Variety differences often appear through fruit size, shape, graininess, sweetness, latex, and seed count rather than famous global cultivar names."
   - "Ripeness is the central quality issue because underripe sapodilla can be astringent and latex-heavy."
   - "Freeze-dried sapodilla works best when positioned as a caramel-like specialty fruit rather than a bright tropical fruit."
+faqs:
+  - q: "How many types of sapodillas are there?"
+    a: "Sapodilla is known by several names depending on region — sapodilla, chikoo, chico, sapota, naseberry — all referring to the same fruit (Manilkara zapota) with regional cultivar variations. Variety differences usually appear through fruit size, shape, graininess, sweetness, latex content, and seed count rather than famous global cultivar names."
+  - q: "Is sapodilla the same as chikoo or naseberry?"
+    a: "Yes — all the same fruit. *Chikoo* (also *sapota*) is the common South Asian name. *Chico* is used in the Philippines. *Naseberry* is the Jamaican and Caribbean name. *Sapodilla* is the standard English horticultural name. Buyers should align the labeling word with the target market because consumer recognition varies sharply by region."
+  - q: "Why does sapodilla ripeness matter so much?"
+    a: "Underripe sapodilla contains latex — a sticky milky substance that produces astringency and unpleasant mouth-coating texture. Fully ripe fruit loses the latex character and develops the brown-sugar sweetness that makes the fruit valuable. Freeze-drying preserves whichever state was at intake, so ripeness control is the single biggest quality lever."
+  - q: "Which sapodilla variety freeze-dries best?"
+    a: "High-sugar dessert selections work best because the brown-sugar flavor concentrates after drying. Round and oval market types affect trimming, seed removal, and slice format more than consumer storytelling. Underripe fruit produces latex problems regardless of cultivar; overripe fruit becomes messy. Maturity matters more than variety name."
+  - q: "What does freeze-dried sapodilla taste like?"
+    a: "Brown sugar, pear, malt, and caramel — almost dessert-like without trying to become dessert. The natural graininess (similar to pear's stone cells) can feel charming or distracting depending on slice thickness and drying quality. Freeze-drying preserves both the sweetness and the grain — the trick is making the grain feel intentional rather than stale."
+  - q: "Where is sapodilla grown commercially?"
+    a: "Mexico and Central America (the fruit's native home), South Asia (especially India where it is called chikoo or sapota), Southeast Asia, the Caribbean, and parts of Florida and Hawaii. Commercial scale is much smaller than mango or pineapple, which is why sapodilla remains a specialty rather than a mainstream tropical fruit."
+  - q: "What should buyers ask freeze-dried sapodilla suppliers?"
+    a: "Ask the regional name preference (sapodilla, chikoo, sapota, naseberry), ripeness standard at intake, seed-removal completeness, peel removal, cut size, variety or local type, origin, raw material state (fresh, frozen, puree), target moisture or water activity, expected grit level, and the intended product positioning."
 ---
 
 Sapodilla is one of the few fruits that can taste like brown sugar without trying to become dessert. But only when it is properly ripe.

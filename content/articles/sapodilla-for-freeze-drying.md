@@ -3,6 +3,7 @@ title: "A Field Guide to Sapodilla for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-15
 cover_image: /images/articles/sapodilla-for-freeze-drying.jpg
 cover_alt: "Sapodilla fruit hanging from a branch"
 cover_credit: "mujuonly / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "Its natural gritty texture can be charming or distracting depending on format."
   - "Seed removal and flesh preparation are important for safety and eating quality."
   - "The fruit is best positioned as a specialty tropical or dessert-like ingredient."
+faqs:
+  - q: "What does freeze-dried sapodilla taste like?"
+    a: "Brown-sugar, pear-like, and caramel — almost dessert-like. The freeze-dried version concentrates that warm tropical character into a distinctive piece that does not have an obvious freeze-dried counterpart in the mainstream fruit category. Quieter than mango or pineapple but more interesting than papaya."
+  - q: "Why does sapodilla ripeness matter so much?"
+    a: "Underripe sapodilla contains latex — a sticky milky substance that produces astringency and mouth-coating texture. Fully ripe fruit loses the latex character and develops the brown-sugar sweetness that makes the fruit valuable. Freeze-drying preserves whichever state was at intake, so ripeness control is not optional."
+  - q: "Is the gritty texture of sapodilla a defect?"
+    a: "No — it is the fruit's natural character. Sapodilla contains stone cells (sclereids) similar to pear, which produce a slight sandy texture. In good product the grit feels like a feature; in poor product (overripe, oxidized, or underripe) it becomes distracting. Format choice helps — powders and small pieces handle grit better than large slices."
+  - q: "What's the best format for freeze-dried sapodilla?"
+    a: "Slices preserve the brown-sugar, pear-like character — grit and oxidation are cautions, best suited to specialty snacks and dessert toppings. Cubes are blend-friendly but visually muted. Sapodilla powder delivers caramel fruit notes for bakery, drinks, and fillings — subtle color and caking risk. Dessert blends pair sapodilla with brighter fruits."
+  - q: "What pairings work well with freeze-dried sapodilla?"
+    a: "Brighter partners — citrus (lime, orange), pineapple, passion fruit, strawberry — give sapodilla the acidity it lacks alone. Sapodilla provides the dessert-like warmth and sweetness; the partners provide the lift. Mango pairs well too because both share tropical sweetness without competing aromas."
+  - q: "Should freeze-dried sapodilla be peeled and de-seeded?"
+    a: "Yes — both. The peel is too thick and astringent to include, and the seeds are large, hard, and inedible (they also contain saponins that should not be consumed). Premium freeze-dried sapodilla has clean seed-free flesh. Buyers should confirm seed-removal practice when sourcing."
+  - q: "What should buyers ask freeze-dried sapodilla suppliers?"
+    a: "Ask ripeness standard at intake, seed-removal completeness, peel removal, cut size, variety or local type, origin, raw material state (fresh, frozen, or puree-derived), target moisture or water activity, expected grit level, added sugar status, and the intended product positioning (specialty snack, dessert ingredient, or blend component)."
 ---
 
 Sapodilla is a quiet tropical fruit with a brown-sugar, pear, and caramel character that can become memorable when dried well. For freeze-dried fruit buyers, sapodilla is not just a flavor name. It is a set of decisions about raw material, cutting, drying behavior, sensory quality, packaging, and where the finished fruit actually belongs.

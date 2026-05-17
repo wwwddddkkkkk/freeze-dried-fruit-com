@@ -3,6 +3,7 @@ title: "A Field Guide to Grapes for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-14
 cover_image: /images/articles/grape-for-freeze-drying.jpg
 cover_alt: "A close-up cluster of grapes"
 cover_credit: "Shalini krishnan / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "Seedless table grapes are easier to market than seeded varieties, but variety still matters."
   - "High sugar helps flavor but can make finished pieces sticky if moisture control is weak."
   - "Many grape applications make more sense as pieces, powders, or inclusions than as whole fruit snacks."
+faqs:
+  - q: "Why is freeze-drying grapes harder than it looks?"
+    a: "Grape skin is built to protect the fresh fruit, which is exactly the problem in freeze-drying — it slows water vapor escape and can leave a chewy shell around a crisp interior. Whole grapes dry unevenly; halved or punctured grapes finish more cleanly. The skin is the fruit's logistics asset and the processor's drying problem at the same time."
+  - q: "What's the difference between freeze-dried grape and raisin?"
+    a: "Raisins are dried under heat or air, retaining a chewy concentrated texture with browned color. Freeze-dried grapes are dried under vacuum at low temperature, producing a crisp, light, brighter-colored piece that snaps rather than chews. Same fruit, completely different finished product."
+  - q: "Should freeze-dried grapes be whole or halved?"
+    a: "For direct snacking, halved seedless grapes are usually more practical than whole grapes — they dry more evenly and bite cleaner. Whole grapes work for novelty premium presentations but demand tighter process control. Powder is the right answer when grape is supporting color or sweetness in an ingredient blend."
+  - q: "Why do some freeze-dried grapes get sticky?"
+    a: "Grape is high in sugar. Cut surfaces expose those sugars, which can become tacky if water activity creeps up after packaging — a sign the moisture target was loose or the pouch barrier is weak. Stickiness is a packaging and process signal, not a sugar problem the fruit can solve on its own."
+  - q: "Which grape varieties freeze-dry well?"
+    a: "Seedless table grapes are the most practical commercial input — Thompson Seedless, Flame Seedless, and similar cultivars dry predictably and read clearly to consumers. Concord-type grapes deliver stronger color and the distinctive grape aroma familiar from juice and jelly, but they behave differently from supermarket grapes. Cotton Candy and other flavor-branded grapes add novelty positioning."
+  - q: "Is freeze-dried grape better as pieces or powder?"
+    a: "Pieces give a novel snack format with visible fruit identity, but grape is rarely a leading snack ingredient — it usually plays a supporting role. Powder lets grape contribute sweetness and color in blends, drinks, and confectionery without forcing it to carry the whole product alone. Match format to job."
+  - q: "What should buyers ask freeze-dried grape suppliers?"
+    a: "Ask seedless status, variety, origin, Brix, cut format (whole, halved, powder), pre-treatment or skin scoring, raw material state (fresh, IQF, or concentrate-derived), target moisture or water activity, and the intended application — snack, ingredient, or blend."
 ---
 
 Grape sounds simple because everyone knows the fruit, but freeze-dried grape is technically awkward. For freeze-dried fruit buyers, grape is not just a flavor name. It is a set of decisions about raw material, cutting, drying behavior, sensory quality, packaging, and where the finished fruit actually belongs.

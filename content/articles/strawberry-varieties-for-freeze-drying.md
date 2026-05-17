@@ -3,6 +3,7 @@ title: "A Field Guide to Strawberries for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-11
+updated: 2026-05-14
 cover_image: /images/articles/strawberry-varieties-for-freeze-drying.jpg
 cover_alt: "A ripe strawberry on a white background"
 cover_credit: "Joselodos / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "Freeze-dried strawberry can read premium when aroma is high and slices hold a clean red color."
   - "Large slices look better but break more easily; dices and powders are more forgiving for ingredient use."
   - "Buyers should ask about variety, Brix range, cut format, drying endpoint, and breakage tolerance."
+faqs:
+  - q: "Why are freeze-dried strawberries so delicate?"
+    a: "Strawberry is high in water, low in structural density, and covered with seeds. Removing the water leaves a fragile honeycomb structure that snaps cleanly but breaks easily. Whole pieces look dramatic but suffer hollow centers and breakage. Slices balance presentation and durability; dices and powder are more forgiving for ingredient use."
+  - q: "What do the seeds in freeze-dried strawberries mean for texture?"
+    a: "In good product, the seeds add a light, pleasant crunch and visual identity. In poor product — where flesh has lost aroma and sweetness — the same seeds can feel gritty because there is nothing to balance them. Seed texture is a quality diagnostic, not a defect to engineer out."
+  - q: "Should freeze-dried strawberries be whole, sliced, diced, or powder?"
+    a: "Whole berries are dramatic and premium but fragile and prone to hollow centers — best for gift packs and showpiece snacks. Slices are bright, familiar, and easy to eat — the snack-bag default. Dices are practical and consistent — built for bakery and inclusions. Powder concentrates color and flavor for drinks, coatings, and fillings."
+  - q: "What color should good freeze-dried strawberries be?"
+    a: "Bright red to deep pink without a gray or brown cast. Dull edges or brown patches usually point to oxidation, heat exposure, old raw material, or storage stress. Color is the first signal consumers see when the pouch opens — fade in color usually means fade in everything else too."
+  - q: "Why do some freeze-dried strawberries taste only sour?"
+    a: "Usually under-ripe raw material. Strawberry needs enough soluble solids at harvest to taste vivid after drying — a fruit picked early for shipping firmness rather than flavor will read as tart and one-dimensional. Variety choice matters; processing-oriented cultivars with strong color and flavor often outperform large fresh-market berries."
+  - q: "What quality signals matter in a freeze-dried strawberry bag?"
+    a: "Recognizable strawberry aroma when the bag opens; red to deep pink color without a gray cast; clean snap in slices rather than leathery bend; moderate powder at the bottom — not excessive fines; and a finish that tastes tart-sweet, not only sour. Aroma + color together are the best diagnostic."
+  - q: "What should buyers ask freeze-dried strawberry suppliers?"
+    a: "Ask variety or variety type, origin, fresh or IQF input, Brix range at processing, cut format (whole / slice / dice / powder), color target, target moisture or water activity, seed level, expected breakage rate, and the best-use application the supplier designed for."
 ---
 
 Strawberries are one of the most familiar freeze-dried fruits, but they are also one of the easiest to misread. For freeze-dried fruit buyers, strawberry is not just a flavor. It is a set of processing choices: raw material quality, cut format, moisture control, aroma retention, breakage, and how clearly the finished piece still communicates the fruit.

@@ -3,6 +3,7 @@ title: "A Field Guide to Pears for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-15
 cover_image: /images/articles/pear-varieties-for-freeze-drying.jpg
 cover_alt: "Four pears on a plain background"
 cover_credit: "Rhododendrites / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Ripeness controls aroma, sweetness, graininess, and slice integrity."
   - "Browning and texture are the main quality risks."
   - "Buyers should ask variety, ripeness target, peel status, and cut format."
+faqs:
+  - q: "Why is pear harder to freeze-dry well than apple?"
+    a: "Pear is quieter than apple in aroma and acidity, which means weak raw material can disappear entirely after drying. Apple's stronger flavor character forgives more processing variation; pear's delicacy demands tighter maturity control and careful packaging to keep what little aroma the fruit carries. Quietness is exactly why pear processing quality matters."
+  - q: "Which pear variety freeze-dries best?"
+    a: "Bartlett-style pears bring familiar aromatic character — best for snack slices and powders, though over-ripe fruit collapses. Bosc-style pears are firmer and more structured with a slight spice note — good for slices and ingredient use. Asian pears are crisp and juicy with cleaner texture but milder flavor — work for premium slices. Pear powder concentrates soft sweetness for fillings, bars, and blends."
+  - q: "Why do freeze-dried pears sometimes feel grainy?"
+    a: "Pear flesh contains stone cells (sclereids) that produce a slight sandy texture — the same character that gives fresh pears their distinctive bite. In good freeze-dried product the grain reads as part of pear identity. In poor product where flavor has faded, the grain feels distracting. Slice thickness and ripeness control affect how prominent the texture becomes."
+  - q: "What's the best ripeness for processing pears into freeze-dried product?"
+    a: "Over-ripe pear may collapse or brown during processing; under-ripe pear tastes bland and stays hard after drying. The ideal window is just-ripe — soft enough to carry aromatic compounds, firm enough to slice cleanly and hold structure through the dryer. Premium suppliers select tightly within this window."
+  - q: "Should freeze-dried pears include the peel?"
+    a: "Depends on the format and claim. Peel adds visual identity and color but changes mouthfeel and can feel papery in some slice formats. Premium snack products often peel for a cleaner snap and uniform appearance; ingredient streams may leave the peel on for yield reasons. Either choice is valid — the spec should match the product positioning."
+  - q: "What pairs well with freeze-dried pear?"
+    a: "Pear works well in gentle fruit blends, breakfast toppings, and premium snack packs but needs protection from louder fruits that may overwhelm it. Strong partners like raspberry or mango can dominate; quieter partners like apple, cinnamon, vanilla, almond, or oat let pear's delicate aroma stay readable. Pair within pear's volume range."
+  - q: "What should buyers ask freeze-dried pear suppliers?"
+    a: "Ask variety (Bartlett, Bosc, Anjou, Asian pear, etc.), origin, ripeness at cutting, peel inclusion, anti-browning steps, cut thickness, target moisture or water activity, expected breakage rate, and whether the product is plain fruit or sweetened. For premium positioning the variety should be on the spec."
 ---
 
 Pear is quieter than apple, but that quietness is exactly why processing quality matters. For freeze-dried fruit buyers, pear is not just a flavor name. It is a practical set of decisions about raw material, cut format, texture, aroma, moisture control, breakage, and where the fruit belongs in a finished product.

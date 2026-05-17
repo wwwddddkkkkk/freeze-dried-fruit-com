@@ -3,6 +3,7 @@ title: "How Many Types of Apricots Are There? A Guide to Apricot Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-16
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-apricots-are-there.jpg
 cover_alt: "Fresh apricots grouped together"
 cover_credit: "Fir0002 / CC BY-SA 3.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Fresh, dried, canning, jam, puree, sulfur-treated, unsulfured, regional heritage apricots"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of apricots are there?"
+    a: "Apricot cultivars are numerous, with important differences between fresh-market, drying, canning, and regional varieties. Familiar names include Blenheim, Moorpark, Tilton, Patterson, Royal, Perfection, Turkish apricot, and Hunza — split across fresh, dried, canning, jam, puree, sulfur-treated, unsulfured, and regional heritage groups."
+  - q: "What's special about Blenheim apricot?"
+    a: "Blenheim is a historic California cultivar prized for an intensely aromatic, tart-sweet flavor that processors and chefs have loved for decades. It is harder to ship fresh because it bruises easily, so most Blenheim ends up in jams, puree, dried fruit, and specialty products — where its flavor justifies the premium."
+  - q: "Why are dried apricots sometimes bright orange and sometimes brown?"
+    a: "Traditional bright orange dried apricots are usually treated with sulfur dioxide before drying, which preserves the vivid color. Natural, untreated dried apricots oxidize during air-drying and become darker brown — a different look but the same fruit. Freeze-dried apricot processors take varied approaches; buyers should ask whether sulfites or other anti-browning steps are used."
+  - q: "Which apricot variety is best for freeze-drying?"
+    a: "Variety affects color, acidity, and aroma. A bland fresh-market apricot may look good but taste weak after drying. A more aromatic processing apricot (Blenheim, Moorpark) may perform better in pieces or powder. Buyers should ask variety, origin, sulfite or anti-browning treatment, cut format, Brix, acidity, and whether the input is fresh, IQF, dried, or puree-derived."
+  - q: "Are Turkish apricots different from California apricots?"
+    a: "Yes. Turkey is the dominant global producer of dried apricots, especially sulfur-treated bright orange types and naturally-dried brown styles. The cultivars and processing tradition differ from California's smaller, more flavor-led Blenheim and Patterson-style production. Both have their place; the choice depends on the product positioning."
+  - q: "What's the difference between fresh-market and drying apricots?"
+    a: "Fresh-market apricots are bred for size, blush color, firmness, and shipping life — they need to survive a long retail chain. Drying apricots are selected for soluble solids, acidity, color retention through drying, and reliable processing behavior. The two categories often look like different fruit even when the species is the same."
+  - q: "What should buyers ask freeze-dried apricot suppliers?"
+    a: "Ask variety or type, origin (California, Turkey, Mediterranean, Central Asia), raw material state (fresh, frozen, dried-derived, or puree-derived), anti-browning treatment, cut format, target moisture or water activity, color target, expected breakage rate, and the intended product positioning."
 ---
 
 Apricot variety changes aroma, acidity, color, drying behavior, and whether the fruit belongs in fresh markets, dried fruit, jam, puree, or premium ingredients. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

@@ -3,6 +3,7 @@ title: "A Field Guide to Jackfruit for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-11
+updated: 2026-05-15
 cover_image: /images/articles/jackfruit-for-freeze-drying.jpg
 cover_alt: "Large jackfruit hanging from a tree"
 cover_credit: "Suyash Dwivedi / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Freeze-dried jackfruit quality depends on pod selection, fiber control, aroma, and cut size."
   - "The fruit can be polarizing because aroma is strong and texture is fibrous."
   - "Buyers should clarify ripe versus young jackfruit before discussing price or quality."
+faqs:
+  - q: "What's the difference between ripe and young jackfruit for freeze-drying?"
+    a: "Ripe jackfruit pods are sweet, aromatic, and snack-oriented — the freeze-dried version sits in fruit-snack territory. Young (green, unripe) jackfruit is fibrous, mild, and savory-leaning — used as a meat substitute in plant-based cooking, not as a sweet snack. Treat them as different products, not different ripeness stages of the same product."
+  - q: "Why is freeze-dried jackfruit polarizing?"
+    a: "The aroma is strong and the texture is fibrous in ways that polarize consumers — some find it delightfully tropical, others find the smell off-putting. Freeze-drying concentrates rather than mutes the aroma, so jackfruit usually works best when the audience already knows what to expect."
+  - q: "Should freeze-dried jackfruit be pods, shreds, chunks, or powder?"
+    a: "Ripe pods preserve the fruit identity for specialty snacks and tropical mixes — fiber is the main risk. Shreds emphasize texture for ingredient and savory concepts. Chunks need careful selection or the fiber dominates. Powder concentrates aroma for seasonings, fillings, and blends — flavor intensity becomes the question."
+  - q: "Why is fiber such a quality concern in freeze-dried jackfruit?"
+    a: "Jackfruit pods contain natural fibrous strands that are normal in fresh fruit but become more obvious after water is removed. Large pieces can feel stringy if raw material isn't carefully selected. Smaller pieces or shreds make the texture more manageable but shift the product from premium snack to ingredient format."
+  - q: "Can jackfruit work in mainstream Western retail?"
+    a: "It can, but typically as a discovery fruit rather than a familiar pantry staple. Strong aroma and fibrous texture make it less universal than strawberry or mango. Successful products usually position jackfruit explicitly — tropical mixes, exotic discovery snacks, or plant-based meat alternatives — rather than treating it as a mainstream fruit."
+  - q: "What quality signals matter in freeze-dried jackfruit?"
+    a: "Clear ripe jackfruit aroma without fermented notes; golden color in ripe pod pieces; manageable fiber that does not dominate the bite; crisp or airy texture rather than tough chew; and piece format matched to the product claim. Strong aroma is the asset, not the defect — but it should be clean and ripe, not stale."
+  - q: "What should buyers ask freeze-dried jackfruit suppliers?"
+    a: "Start with ripe vs young — that decides the rest of the conversation. Then ask cultivar where available, origin (Vietnam, Thailand, India, Bangladesh, etc.), pod selection vs mixed cuts, fiber control practice, target moisture or water activity, expected breakage rate, and the intended product positioning."
 ---
 
 Jackfruit is not one simple ingredient. Young jackfruit and ripe jackfruit behave like different products. For freeze-dried fruit buyers, jackfruit is not just a flavor. It is a set of processing choices: raw material quality, cut format, moisture control, aroma retention, breakage, and how clearly the finished piece still communicates the fruit.

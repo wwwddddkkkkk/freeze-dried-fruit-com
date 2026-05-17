@@ -3,6 +3,7 @@ title: "A Field Guide to Lychee for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-11
+updated: 2026-05-15
 cover_image: /images/articles/lychee-for-freeze-drying.jpg
 cover_alt: "Lychee fruits with peeled flesh and seed visible"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Freeze-dried lychee can feel premium, but weak raw material tastes faint quickly."
   - "Whole peeled pieces are attractive but expensive and fragile."
   - "Buyers should ask about origin, seed removal, syrup use, and whether pieces are whole or broken."
+faqs:
+  - q: "Why does freeze-dried lychee feel premium?"
+    a: "Lychee carries a floral, juicy, delicate profile that does not exist anywhere else in the freeze-dried fruit category. The seed removal, fragility of the flesh, and seasonal sourcing all push cost up — but the result is a fruit consumers immediately read as exotic and high-quality when handled well."
+  - q: "Are the seeds removed in freeze-dried lychee?"
+    a: "Yes — almost always. The single brown seed inside each lychee is firm and inedible, and it must be removed before drying. Seed removal is a labor-intensive step that meaningfully affects landed cost. Buyers should confirm seed-removal practice when sourcing, as residual seed fragments would be a significant defect."
+  - q: "What's the best format for freeze-dried lychee?"
+    a: "Whole peeled lychees feel premium and recognizable but cost more and break more easily — best for specialty snack packs. Halves or pieces are more practical for tropical blends and toppings. Powder works in drinks and dessert fillings but loses some of the floral aroma. Sweetened pieces deliver candy-like character at the cost of clean labeling."
+  - q: "Why does some freeze-dried lychee taste faint?"
+    a: "Lychee aroma is delicate to begin with, and weak raw material — old IQF stock, underripe fruit, or poor storage — produces freeze-dried lychee that opens without smell. The fruit cannot be rescued by drying; aroma is set at intake. Premium products start with seasonal, well-sourced fruit and tight packaging discipline."
+  - q: "Where is lychee grown commercially?"
+    a: "Important production happens in China (the original homeland with the deepest cultivar diversity), Southeast Asia (especially Vietnam and Thailand), India, and other warm regions including parts of Australia, Hawaii, and South Africa. Supply is seasonal — typically late spring through summer — and origin shapes both flavor and price."
+  - q: "Should freeze-dried lychee be sweetened?"
+    a: "Plain freeze-dried lychee preserves the natural floral sweetness of the fruit. Some sweetened products exist for candy-like snack applications, but they sit in a different category — closer to confection than to whole fruit. The label should disclose sweetening; premium clean-label products keep lychee plain."
+  - q: "What should buyers ask freeze-dried lychee suppliers?"
+    a: "Ask origin (China, Vietnam, Thailand, India), variety where available, seasonal harvest window, raw material state (fresh or IQF), seed removal practice, cut format (whole, halved, broken), added sweetener, target moisture or water activity, and expected breakage rate after shipping."
 ---
 
 Lychee is not loud in the same way pineapple is loud. Its value is floral, juicy, and delicate. For freeze-dried fruit buyers, lychee is not just a flavor. It is a set of processing choices: raw material quality, cut format, moisture control, aroma retention, breakage, and how clearly the finished piece still communicates the fruit.

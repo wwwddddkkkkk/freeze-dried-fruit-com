@@ -3,6 +3,7 @@ title: "A Field Guide to Mulberries for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-11
+updated: 2026-05-14
 cover_image: /images/articles/mulberry-for-freeze-drying.jpg
 cover_alt: "Dark mulberries photographed close up"
 cover_credit: "Fumikas Sagisavas / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "Dark mulberries can bring strong visual color but may stain or powder easily."
   - "The flavor is usually sweet with mild tartness, less sharp than raspberry or blackberry."
   - "Buyers should evaluate breakage, color transfer, and whether the format is whole, broken, or powder."
+faqs:
+  - q: "What's the difference between freeze-dried dark and white mulberries?"
+    a: "Dark mulberries (Morus nigra and related) are sweet with mild tartness and produce deep purple-black color — useful for premium mixes, toppings, and color-driven blends. White mulberries (Morus alba) are honeyed and lighter, with a more chewy historical reputation in dried form — they read milder and less visually dramatic but can be elegant in specialty snacks."
+  - q: "Why is freeze-dried mulberry less common than raspberry or blueberry?"
+    a: "Mulberry sourcing is less standardized than mainstream berries — supply often comes from specialty growers, regional processors, or variable ingredient streams. Combined with the fruit's fragility and color-transfer risks, that makes mulberry a discovery item more often than a category leader. It is found, but not always reliably."
+  - q: "Are freeze-dried mulberries hollow like raspberries?"
+    a: "No — mulberries are aggregate fruits but their structure is denser and softer than raspberry's hollow drupelet form. That makes mulberry more vulnerable to crushing before drying rather than hollow-center collapse during drying. Whole-piece integrity is difficult; broken pieces and powder are common."
+  - q: "What's the best format for freeze-dried mulberry?"
+    a: "Whole pieces are dramatic but fragile — best for premium mixes and toppings where the dark color carries the product. Broken pieces are practical and colorful, well-suited to granola, yogurt, and blends. Powder concentrates the color and works in smoothies, coatings, and fillings where visual impact matters more than fruit identity."
+  - q: "Why do freeze-dried mulberries sometimes stain or transfer color?"
+    a: "Dark mulberries carry strong anthocyanin pigments. Crushed pieces or powder can transfer color to adjacent ingredients in a mix — visible in granola where mulberry tinges oat clusters purple. Whole-piece formats minimize transfer; powder and broken pieces should be paired with ingredients where the color tint is acceptable."
+  - q: "What quality signals matter for freeze-dried mulberry?"
+    a: "Dark, clean color without muddy brown tones; recognizable berry aroma; limited crushed powder for whole-piece claims; crisp or light texture rather than sticky softness; and a sweet finish with enough acidity to stay interesting. Mulberry flavor is naturally softer than raspberry or blackberry; weak raw material tastes flat after drying."
+  - q: "What should buyers ask freeze-dried mulberry suppliers?"
+    a: "Ask species or color type (dark vs white), origin, whole vs broken format, harvest maturity, expected fines after shipping, target moisture or water activity, added ingredients, and the intended product positioning (discovery snack, blend component, or color ingredient)."
 ---
 
 Mulberries sit between berry familiarity and specialty-fruit discovery. For freeze-dried fruit buyers, mulberry is not just a flavor. It is a set of processing choices: raw material quality, cut format, moisture control, aroma retention, breakage, and how clearly the finished piece still communicates the fruit.

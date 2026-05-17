@@ -2,6 +2,7 @@
 title: "How Buyers Should Set Breakage Specs for Freeze-Dried Fruit"
 category: "Labels & Quality"
 date: 2026-05-12
+updated: 2026-05-14
 read: "8 min read"
 summary: "Breakage specs should match the use case, not vague premium language. Buyers need clear tolerances for whole pieces, small fragments, powder, and transit damage."
 intro: "Every freeze-dried fruit bag sheds some fragments. The real question is whether the breakage level still fits the product you are trying to sell or use."
@@ -12,6 +13,21 @@ takeaways:
   - "A useful breakage spec separates acceptable small pieces from true powder and handling damage."
 cover_image: /images/articles/freeze-dried-fruit-breakage-specs.svg
 cover_alt: "Buyer matrix showing whole pieces, small fragments, and powder bands for freeze-dried fruit breakage specifications"
+faqs:
+  - q: "How should buyers define breakage in freeze-dried fruit?"
+    a: "Separate the product into at least three categories: usable whole pieces that match the sold format, acceptable small fragments below target size but still usable, and unacceptable powder or fines. Without those definitions, supplier and buyer can both say the spec was met while picturing different outcomes."
+  - q: "What's the difference between fragments and powder?"
+    a: "Fragments are below target visual size but still usable for eating, topping, or inclusion — they should not automatically be treated as waste. Powder and fines are the lowest band: dust and tiny crumbs that visibly collect at the bottom of the bag and change the experience away from the intended format."
+  - q: "Does breakage tolerance change by use case?"
+    a: "Yes. A premium retail snack pouch built around large visible pieces needs the tightest standard. Yogurt and oatmeal topping use can accept moderate breakage. Baking, blending, and ingredient use may accept or even prefer smaller pieces — paying for an extreme whole-piece spec there may not be rational."
+  - q: "Should breakage be measured before shipping or after?"
+    a: "Both matter. A breakage percentage on paper is only useful if the sampling method is clear: is the sample pulled before shipping or after transit simulation, top of the pouch only or across the full pouch, one bag or multiple lots? The pouch that looks cleanest is often the one that has not yet experienced normal handling."
+  - q: "Why does the bottom of the bag often look different from the top?"
+    a: "Powder, fines, and small fragments settle during transport. A good-looking top layer can hide a weak bottom half. Review breakage after gently emptying the full pouch onto a tray — do not decide from the first visible layer alone."
+  - q: "When is a tighter breakage spec not worth the cost?"
+    a: "Tighter whole-piece standards usually require more sorting, lower yield, slower handling, more protective packaging, and more rejected lots. If the fruit will be blended into cereal clusters or processed into a topping system, that extra cost may not generate meaningful end-product value. The spec should protect the use case, not flatter the buyer."
+  - q: "What should buyers ask suppliers about breakage?"
+    a: "Ask what percentage is typically whole pieces versus fragments, how powder is defined, what the bottom of the pouch usually looks like, whether breakage changes by fruit type or season, whether they can send bags after normal shipping rather than fresh line samples, and what package format protects the fruit best for the channel."
 ---
 
 Every freeze-dried fruit bag sheds some fragments. The real question is whether the breakage level still fits the product you are trying to sell or use.

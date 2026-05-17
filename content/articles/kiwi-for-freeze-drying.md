@@ -3,6 +3,7 @@ title: "A Field Guide to Kiwi for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-14
 cover_image: /images/articles/kiwi-for-freeze-drying.jpg
 cover_alt: "A sliced kiwi fruit showing green flesh and black seeds"
 cover_credit: "Andre Karwath aka Aka / CC BY-SA 2.5"
@@ -15,6 +16,21 @@ takeaways:
   - "Green kiwi is usually brighter and more acidic; golden kiwi is sweeter and softer."
   - "Thin slices look beautiful but are fragile."
   - "Buyers should evaluate color retention, seed texture, and whether pieces remain crisp."
+faqs:
+  - q: "What's the difference between green and golden kiwi for freeze-drying?"
+    a: "Green kiwi brings more acidity and the iconic green flesh that consumers expect — vivid in mixes but sometimes sharp as a standalone snack. Golden kiwi is sweeter and softer, more approachable for casual snacking, but loses the visual identity that makes green kiwi recognizable on sight. The choice is a balance between flavor approachability and visual drama."
+  - q: "Why are freeze-dried kiwi slices so visually distinctive?"
+    a: "The radiating seed ring around the pale center is unmistakable — it is one of the strongest visual signatures in the fruit category. Freeze-drying preserves that pattern cleanly, which is why kiwi appears in trail mixes and snack blends where it is meant to be seen, not just tasted."
+  - q: "Should freeze-dried kiwi be peeled?"
+    a: "Yes for almost all commercial products. The fuzzy skin is unpleasant in a freeze-dried slice and would dominate the eating experience. Some specialty applications include thin peel for visual identity, but the default is peeled flesh sliced for the seed pattern to be visible."
+  - q: "Do the seeds in freeze-dried kiwi cause bitterness?"
+    a: "In good product, no — the seeds add visual identity and a light crunch. Bitterness usually points to weak raw material or over-thin slicing exposing too much seed surface relative to flesh. The fruit should taste fresh and tart, not medicinal."
+  - q: "Why do some freeze-dried kiwi slices break easily?"
+    a: "Kiwi flesh is high in water with relatively low structural density. Thin slices look beautiful but are fragile — slight thickness changes the breakage rate significantly. Premium snack packs typically use slightly thicker slices to survive shipping; thinner slices are common in ingredient applications where breakage is acceptable."
+  - q: "What quality signals matter in a freeze-dried kiwi bag?"
+    a: "Bright green or gold color matching the variety; visible seed pattern without excessive seed bitterness; crisp slice texture; clean tart aroma rather than fermented notes; and low breakage when the bag is sold as premium slices."
+  - q: "What should buyers ask freeze-dried kiwi suppliers?"
+    a: "Ask green vs golden, variety, origin, slice thickness, peel status, expected whole-slice percentage, target moisture or water activity, added sugar status, and the intended product positioning (snack slices, mixed-fruit ingredient, or powder)."
 ---
 
 Kiwi is a visual fruit first: green flesh, black seeds, and a clean acid bite. For freeze-dried fruit buyers, kiwi is not just a flavor name. It is a practical set of decisions about raw material, cut format, texture, aroma, moisture control, breakage, and where the fruit belongs in a finished product.

@@ -3,6 +3,7 @@ title: "How Many Types of Lychees Are There? A Guide to Lychee Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-14
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-lychees-are-there.jpg
 cover_alt: "Lychee fruits with peeled flesh and seed visible"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Fresh premium, export, canned, small-seed, large-fruit, high-aroma and processing lychees"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of lychees are there?"
+    a: "Lychee has many cultivars, especially in China and tropical/subtropical growing regions. Familiar names include Brewster, Mauritius, Hak Ip, Fei Zi Xiao, No Mai Tsze, Sweetheart, and Emperor — split across fresh premium, export, canned, small-seed, large-fruit, high-aroma, and processing types."
+  - q: "What is No Mai Tsze lychee?"
+    a: "No Mai Tsze (also written Nuo Mi Ci) is a premium Chinese lychee cultivar prized for small seed size, sweet floral flesh, and a generous flesh-to-seed ratio. It is one of the most expensive lychees in Asian markets — typically sold at premium pricing during the short summer season."
+  - q: "What's the difference between Brewster and Mauritius lychee?"
+    a: "Both are commercial fresh-market cultivars common in U.S. and global supply. Brewster (named after the Florida grower who introduced it from China) and Mauritius are similar enough that they often substitute commercially. They sit in the reliable fresh-market category — less aromatic than premium Chinese cultivars but more available, more durable, and more standardized."
+  - q: "Which lychee variety freeze-dries best?"
+    a: "Floral aroma is the main value — weak lychee tastes like mild sugar water after drying. Strong premium cultivars (No Mai Tsze, Fei Zi Xiao) can become elegant and memorable. Reliable export cultivars (Brewster, Mauritius) are more available but less aromatic. Buyers should ask cultivar or type, fresh / IQF / canned input, added sugar, seed removal, piece format, and whether the product is whole flesh, halved, powder, or dessert inclusion."
+  - q: "Why is freeze-dried lychee usually more expensive than freeze-dried mango?"
+    a: "Lychee requires labor-intensive peel removal and seed removal before drying — neither step exists for mango. Combined with strict seasonality, fragile flesh, and lower yields per fruit, freeze-dried lychee sits in premium pricing territory by structural necessity. Mango has more standardized commercial supply at higher yields."
+  - q: "Is canned lychee a good source for freeze-drying?"
+    a: "Canned lychee is a different starting material — sweetened, softer, often with reduced original aroma. Freeze-drying canned fruit produces a sweeter, less authentic finished product than working with fresh or IQF lychee. The label should disclose source so buyers can compare. Premium freeze-dried lychee usually starts from fresh or IQF input, not canned."
+  - q: "What should buyers ask freeze-dried lychee suppliers?"
+    a: "Ask cultivar (No Mai Tsze, Brewster, Mauritius, Fei Zi Xiao, etc.), origin (China, Florida, Australia, Mauritius, India), raw material state (fresh, IQF, canned, syrup-packed), seed removal, added sugar, cut format (whole, halved, broken, powder), target moisture or water activity, and the intended product positioning."
 ---
 
 Lychee variety changes seed size, floral aroma, sweetness, flesh texture, peel color, and whether the fruit feels premium or ordinary. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

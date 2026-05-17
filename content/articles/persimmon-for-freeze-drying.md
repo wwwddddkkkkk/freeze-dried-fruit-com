@@ -3,6 +3,7 @@ title: "A Field Guide to Persimmons for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-15
 cover_image: /images/articles/persimmon-for-freeze-drying.jpg
 cover_alt: "A ripe Fuyu persimmon on a plain background"
 cover_credit: "Joe Ravi / CC BY-SA 3.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Astringency control is the central quality risk."
   - "Ripe persimmon offers high sweetness and a soft, autumnal flavor profile."
   - "Slices and chips usually communicate persimmon better than anonymous cubes."
+faqs:
+  - q: "What's the difference between Fuyu and Hachiya persimmon for freeze-drying?"
+    a: "Fuyu types can be eaten and processed firm — they slice cleanly, hold shape, and produce premium snack pieces and toppings. Hachiya types must reach full soft ripeness to lose their astringency; below that ripeness they are mouth-puckering. Hachiya tends to be processed as puree or soft slices for specialty products and powders."
+  - q: "Why is astringency such a quality risk for freeze-dried persimmon?"
+    a: "Persimmon contains tannins that read as astringency — a chalky, mouth-drying sensation. Fuyu varieties are non-astringent (or low-astringent) at firm ripeness; Hachiya and similar varieties are heavily astringent until fully soft. Freeze-drying preserves whatever astringency was in the raw fruit, so picking the right variety at the right ripeness is essential."
+  - q: "Which persimmon variety is better for freeze-drying — Fuyu or Hachiya?"
+    a: "For predictable freeze-dried slices and chips, Fuyu is usually the safer choice — easier to handle firm, lower astringency risk. Hachiya can deliver a richer, honey-like flavor but only when fully soft-ripe. Each suits different formats: Fuyu for snacks and toppings, Hachiya for puree-derived products and powders."
+  - q: "What's the best format for freeze-dried persimmon?"
+    a: "Fuyu slices are sweet, firm, easy to handle — best for premium snacks and toppings. Hachiya puree or slices deliver rich honeyed intensity for specialty products. Persimmon powder concentrates warm color and sweetness for bakery, drinks, and coatings. Mixed autumn blends with apple, pear, or cranberry give persimmon a seasonal context."
+  - q: "What does freeze-dried persimmon taste like?"
+    a: "Honeyed, gently sweet, with light spice notes — almost autumnal. Good Fuyu freeze-dries into clean approachable slices; well-handled Hachiya produces something richer and more dessert-like. The flavor is quieter than mango or strawberry but more distinctive than apple — works best when the product design lets persimmon feel seasonal rather than generic."
+  - q: "What quality signals matter in freeze-dried persimmon?"
+    a: "Orange color with no gray cast; no mouth-drying astringency; clean sweetness with light spice or honey notes; slice structure that does not collapse; and low browning at cut edges. Astringency is the single biggest defect to watch for — taste a small piece before approving any sample."
+  - q: "What should buyers ask freeze-dried persimmon suppliers?"
+    a: "Ask the type (Fuyu, Hachiya, or hybrid), ripeness standard at processing, de-astringency treatment if any (carbon dioxide or alcohol exposure are standard methods), cut format, raw material state (firm fruit, soft fruit, or puree-derived), target moisture or water activity, and expected breakage rate."
 ---
 
 Persimmon can freeze-dry into something honeyed and elegant, but the variety and ripeness must be right. For freeze-dried fruit buyers, persimmon is not just a flavor name. It is a set of decisions about raw material, cutting, drying behavior, sensory quality, packaging, and where the finished fruit actually belongs.

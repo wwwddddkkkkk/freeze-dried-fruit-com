@@ -3,6 +3,7 @@ title: "A Field Guide to Oranges for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-15
 cover_image: /images/articles/orange-for-freeze-drying.jpg
 cover_alt: "Whole, halved, and segmented oranges"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Peeled segments, juice cells, and powders behave very differently."
   - "Acidity helps orange stand up in blends, dairy, and chocolate."
   - "Buyers should ask exactly which citrus fraction is being dried."
+faqs:
+  - q: "What's the best format for freeze-dried orange — segments, juice cells, or powder?"
+    a: "Each format does a different job. Peeled segments are recognizable and snackable but membrane toughness can be a problem. Juice-cell pieces deliver bursting citrus identity at premium cost and high fragility. Orange powder concentrates color and acid for beverages and coatings — caking is the main risk. Match format to the use case rather than picking one universally."
+  - q: "Why does freeze-dried orange sometimes taste bitter?"
+    a: "An orange contains juice vesicles, membranes, pith, peel oil, and seeds — each behaves differently. Freeze-drying can amplify bitterness when peel, pith, or tough membranes are mishandled. The question is not simply *orange*, but which part of the orange is being processed and whether bitter fractions were properly excluded."
+  - q: "Should freeze-dried orange include the peel?"
+    a: "It depends on the application. Peel-containing products carry strong aroma but real bitterness — appropriate for bakery, flavor systems, garnish, and adult-positioned products. Peeled segments suit straightforward snacking and yogurt toppings. Pure powder is usually peel-free for cleaner flavor."
+  - q: "What's the difference between freeze-dried orange and orange powder?"
+    a: "Freeze-dried orange pieces preserve fruit identity — visible segments, juice-cell texture, snackable bite. Orange powder concentrates acid and color into a free-flowing ingredient for drinks, coatings, and bakery, with caking as the main caution and peel inclusion typically excluded."
+  - q: "Which orange variety works best for freeze-drying?"
+    a: "Navel, Valencia, and mandarin-type fruit each behave differently. Navel-style segments are familiar but can have tough membranes. Valencia juice-orange streams suit juice-derived ingredients. Mandarin-style segments often offer a more delicate bite than standard orange. Buyers should ask which variety or stream is being processed."
+  - q: "Can freeze-dried orange be paired with chocolate?"
+    a: "Yes — orange and dark chocolate is a classic pairing, and the acidity holds up well after freeze-drying. Powder works in coatings and inclusions; segment pieces work in chocolate clusters and bark. Bitterness control matters more in chocolate applications because the fat carrier amplifies any harsh peel notes."
+  - q: "What should buyers ask freeze-dried orange suppliers?"
+    a: "Ask the variety (navel, Valencia, mandarin), origin, raw material state, citrus fraction (peeled segments, juice cells, peel inclusion, juice-derived), cut format, target moisture or water activity, added sugar or carrier, anti-caking strategy for powder, and the intended product positioning."
 ---
 
 Orange brings instant recognition to a freeze-dried fruit product, but citrus structure makes format decisions unusually important. For freeze-dried fruit buyers, orange is not just a flavor name. It is a set of decisions about raw material, cutting, drying behavior, sensory quality, packaging, and where the finished fruit actually belongs.

@@ -23,6 +23,29 @@ faqs:
     a: "E-commerce usually needs more protection against crush damage and longer handling chains, while retail shelf packs often put more pressure on visual appearance, front-label clarity, and zipper usability."
   - q: "What should brands settle before packaging artwork starts?"
     a: "The product identity should already be fixed: plain fruit versus sweetened fruit, visible piece expectation, net weight logic, ingredient wording, key claims, and whether the package format can actually protect the texture promised on the front."
+howto:
+  name: "How to launch a private-label freeze-dried fruit product"
+  description: "A six-step pre-production framework for brands launching a private-label freeze-dried fruit SKU — covering product format, quality spec, packaging, claims, channel fit, and final approval."
+  totalTime: "P30D"
+  steps:
+    - name: "Define the actual product, not the mood board"
+      text: "Decide fruit identity, cut format, plain-versus-sweetened positioning, and visible piece expectation before any artwork starts. A 'premium freeze-dried strawberry' brief without these specifics will produce different products at three different suppliers."
+      url: "#start-with-the-actual-product-not-the-mood-board"
+    - name: "Lock down the full specification beyond the sample"
+      text: "Settle target moisture and water activity, breakage tolerance, particle-size distribution, microbiological limits, and shelf-life targets in writing. A good sample is necessary but not a launchable spec."
+      url: "#a-supplier-sample-is-not-the-full-specification"
+    - name: "Treat packaging as part of the product"
+      text: "Pouch film, seal integrity, headspace, zipper performance, and desiccant strategy all decide how the product performs from the dryer to the shopper's pantry. Pick packaging that matches the texture promise on the front."
+      url: "#packaging-is-part-of-the-product"
+    - name: "Discipline the ingredient and claim language"
+      text: "Plain fruit and sweetened fruit need different ingredient lines, different serving-size logic, and different front-of-pack claims. Vague wording becomes a legal and trust problem at retail."
+      url: "#claims-and-ingredient-language-need-discipline"
+    - name: "Match the spec to the channel"
+      text: "E-commerce, retail shelf, club, and foodservice each impose different fragility, pack-size, and complaint-risk assumptions. The same SKU rarely works unchanged across more than one channel."
+      url: "#channel-changes-the-spec"
+    - name: "Approve the whole package before artwork is locked"
+      text: "Sign off on product identity, spec, packaging, claim language, and a real-world handling test before the printer goes. Brand teams that approve artwork first usually rebuild the spec the hard way."
+      url: "#what-brands-should-approve-before-artwork"
 ---
 
 A private-label freeze-dried fruit launch looks simple until the first production run reveals that the brand, the factory, and the retailer were picturing different products.

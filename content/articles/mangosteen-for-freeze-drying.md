@@ -3,6 +3,7 @@ title: "A Field Guide to Mangosteen for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-11
+updated: 2026-05-15
 cover_image: /images/articles/mangosteen-for-freeze-drying.jpg
 cover_alt: "Opened mangosteen fruit showing white segments and purple rind"
 cover_credit: "Basile Morin / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "The flavor is subtle, sweet-acid, and easy to lose if processing or storage is poor."
   - "Freeze-dried mangosteen is more premium discovery fruit than everyday commodity snack."
   - "Buyers should ask about edible yield, seed presence, origin, and whether pieces are whole segments or fragments."
+faqs:
+  - q: "Why is freeze-dried mangosteen so expensive?"
+    a: "Most of the fruit is rind, not edible flesh — so the yield from raw fruit to finished product is much lower than for fruits like mango or pineapple. Combined with seasonal sourcing, regional supply concentration in Southeast Asia, and labor-intensive processing, freeze-dried mangosteen sits in premium pricing territory by structural necessity."
+  - q: "What does freeze-dried mangosteen actually taste like?"
+    a: "Sweet, floral, lightly acidic — but quietly so. Mangosteen is not loud the way pineapple or mango is loud. The flavor is delicate and complex, often described as a balance of lychee-like sweetness with citrus brightness. Freeze-drying can preserve the elegant profile, but poor raw material or long storage leaves the finished fruit tasting faint."
+  - q: "What's the best format for freeze-dried mangosteen?"
+    a: "Whole segments feel premium and recognizable but are fragile and expensive — luxury snack pack territory. Broken segments are more practical for tropical blends though they read less premium. Powder is subtle and specialty — drinks and dessert concepts. Mixed fruit inclusion gives mangosteen a discovery-fruit role in tropical blends."
+  - q: "Are there seeds in freeze-dried mangosteen segments?"
+    a: "Some segments contain seeds, others don't — it varies within a single fruit. Premium freeze-dried mangosteen products typically minimize seed intrusion in snack formats, but small seeds occasionally appear. Buyers should ask the seed-tolerance spec since it affects both eating experience and pricing."
+  - q: "Where does freeze-dried mangosteen come from?"
+    a: "Production is concentrated in Southeast Asia — Thailand, Indonesia, Malaysia, Philippines, Vietnam — which is mangosteen's native range. Smaller volumes come from India, parts of Latin America, and tropical Australia. Season is short and origin-specific, which limits the year-round supply that more globally distributed fruits enjoy."
+  - q: "Can freeze-dried mangosteen work in mass-market products?"
+    a: "Rarely, due to cost and supply constraints. The right use case is usually a premium tropical mix, a limited-edition snack, or a discovery-focused product where rarity is part of the positioning. Trying to scale mangosteen as a commodity ingredient typically fails on either price or supply consistency."
+  - q: "What should buyers ask freeze-dried mangosteen suppliers?"
+    a: "Ask origin, harvest window, edible yield, seed-presence tolerance, segment integrity (whole vs broken), raw material state, cut format, target moisture or water activity, expected breakage rate, and whether the supplier can support the volume and seasonal cadence the buyer needs."
 ---
 
 Mangosteen has a luxury reputation, but that reputation collides with a difficult processing reality. For freeze-dried fruit buyers, mangosteen is not just a flavor. It is a set of processing choices: raw material quality, cut format, moisture control, aroma retention, breakage, and how clearly the finished piece still communicates the fruit.

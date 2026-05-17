@@ -3,6 +3,7 @@ title: "How Many Types of Plums Are There? A Guide to Plum Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-06
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-plums-are-there.jpg
 cover_alt: "A plum on a white background"
 cover_credit: "Martin Sauter / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "Variety changes skin tartness, flesh color, soluble solids, aroma, pit behavior, and whether the fruit is better fresh, dried, cooked, or processed."
   - "Freeze-dried plum is very different from prune-style dried plum and should be positioned accordingly."
   - "For buyers, skin toughness, acidity, color bleed, and slice format are the biggest practical questions."
+faqs:
+  - q: "How many types of plums are there?"
+    a: "Plums include Japanese-type fresh-market plums, European plums, prune plums, mirabelles, greengages, damsons, and hybrids such as pluots. There is no single clean number — variety counts depend on whether you count cultivars, species, regional names, or commercial grades."
+  - q: "What's the difference between Japanese and European plums?"
+    a: "Japanese-type plums are common in fresh retail — round, juicy, colorful, sweet-tart. European plums are often oval and suited to drying or cooking. The two groups behave differently in flavor and processing; prune plums (European type) have a different commercial identity from fresh snacking plums."
+  - q: "Are prunes the same as plums?"
+    a: "Botanically yes — a prune is a plum, specifically a European-type plum that has been air-dried with heat. But the eating experience is completely different: prunes are chewy, caramelized, dark mahogany; freeze-dried plum is crisp, brighter, and reads closer to fresh fruit. Treat them as different products even though the fruit is the same."
+  - q: "What are mirabelle and greengage plums?"
+    a: "Mirabelle and greengage are smaller heritage-style plums known for perfume, sweetness, and culinary value. Mirabelles are small and yellow-gold, prized in French cooking. Greengages are green-skinned even when ripe, with intensely honeyed flavor. Both feel premium but are less common in large-scale supply."
+  - q: "What is a pluot?"
+    a: "A pluot is a modern hybrid of plum and apricot, bred to combine the structure of a plum with the aroma of an apricot. Different pluot varieties carry different ratios of each parent. They can offer high sugar and dramatic flavor, though naming and supply consistency vary by grower and season."
+  - q: "Which plum variety is best for freeze-drying?"
+    a: "Freeze-dried plum can be excellent when acidity is controlled. Skin brings color and tartness but can become leathery or sharp. Red and purple flesh creates a beautiful ingredient; pale-flesh plums look less dramatic. Slices often make more sense than large chunks. Buyers should ask Japanese vs European type, flesh color, skin-on or peeled, slice thickness, and target acidity."
+  - q: "What should buyers ask freeze-dried plum suppliers?"
+    a: "Ask what the fruit really is (Japanese, European, prune-type, hybrid), where it comes from, whether the lot is single-origin or blended, slice format, skin-on or skin-off, target moisture or water activity, expected breakage rate, and the intended product positioning. Variety only helps if it survives into the finished product."
 ---
 
 Plum is a deceptively broad word. It can mean a juicy supermarket plum, a prune plum, a tiny mirabelle, a green-gold gage, a tart damson, or a modern plum-apricot hybrid.

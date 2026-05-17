@@ -3,6 +3,7 @@ title: "A Field Guide to Blueberries for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-11
+updated: 2026-05-14
 cover_image: /images/articles/blueberry-varieties-for-freeze-drying.jpg
 cover_alt: "Fresh blueberries in a clear plastic pack"
 cover_credit: "Evan-Amos / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "Wild blueberries often bring stronger flavor and smaller size, while cultivated blueberries give larger, more familiar pieces."
   - "Finished quality depends on skin cracking, drying endpoint, color, and whether pieces stay crisp after packaging."
   - "Buyers should compare whole berries, halves, powders, and ingredient formats separately."
+faqs:
+  - q: "Why is freeze-drying blueberries technically harder than it looks?"
+    a: "The blueberry skin is the problem. A waxy outer surface protects the fresh fruit but slows water vapor escaping during drying. Processors often manage this with cracking, piercing, pre-treatment, or cut format so vapor can leave the interior cleanly. Skip those steps and the berry looks dry outside while staying uneven inside."
+  - q: "Are wild blueberries or cultivated blueberries better for freeze-drying?"
+    a: "Both work, but they deliver different products. Wild lowbush blueberries are smaller and more flavor-dense, with stronger color per piece — favored for cereals, bakery, and premium blends. Cultivated highbush blueberries are larger and more familiar visually but milder in flavor — friendlier for snack bags and yogurt toppings."
+  - q: "Why do some freeze-dried blueberries feel chewy or tough?"
+    a: "Either the skin didn't break enough during processing or the interior wasn't fully dried before packaging. Whole intact berries especially can finish on the outside while still carrying interior moisture. Halved or scored berries usually dry more evenly and feel crisper."
+  - q: "Should freeze-dried blueberries be whole or halved?"
+    a: "Depends on the use case. Whole pieces look premium but dry more slowly, break less predictably, and command a higher spec. Halved berries dry more evenly and read cleaner in cereal, bakery, and ingredient applications. Powder is the right answer when even color and flavor distribution matter more than visible fruit."
+  - q: "What does quality look like in a finished freeze-dried blueberry bag?"
+    a: "Deep blue-purple color rather than dull black; crisp bite without a soft center; clear blueberry aroma — not just generic sweetness; low clumping and limited sticky pieces; and reasonable whole-piece integrity for the stated format. Color is what consumers see first; aroma is what tells them whether the fruit is alive."
+  - q: "What's the best format for freeze-dried blueberries in cereals or granola?"
+    a: "Smaller wild blueberries or halved cultivated blueberries usually outperform whole large berries in cereal applications — they distribute more evenly, hydrate faster against milk, and add color without dominating the bowl visually."
+  - q: "What should buyers ask suppliers about freeze-dried blueberry?"
+    a: "Ask wild vs cultivated, variety type, origin, raw material state (fresh / IQF), whether berries are whole or treated before drying, cut format, target moisture or water activity, added ingredients, and expected breakage rate after shipping."
 ---
 
 Blueberries look simple in a bag, but the skin changes everything in freeze-drying. For freeze-dried fruit buyers, blueberry is not just a flavor. It is a set of processing choices: raw material quality, cut format, moisture control, aroma retention, breakage, and how clearly the finished piece still communicates the fruit.

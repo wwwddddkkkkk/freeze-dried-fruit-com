@@ -3,6 +3,7 @@ title: "How Many Types of Lemons Are There? A Guide to Lemon Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-27
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-lemons-are-there.jpg
 cover_alt: "A whole and split lemon"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "True lemons, Meyer-type lemons, high-juice commercial lemons, peel-aroma culinary lemons"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of lemons are there?"
+    a: "Lemons have fewer common retail names than apples, but commercial and culinary varieties differ meaningfully. Familiar names include Eureka, Lisbon, Meyer, Femminello, Verna, Ponderosa, and Yen Ben — split into true lemons, Meyer-type lemons, high-juice commercial lemons, and peel-aroma culinary lemons."
+  - q: "What's the difference between Eureka and Lisbon lemons?"
+    a: "Both are true lemons and the two dominant California commercial varieties. Eureka has fewer thorns and yields nearly year-round; Lisbon is more cold-hardy with a slightly more concentrated juice profile. The eating experience is similar — most consumers cannot tell them apart at retail, but growers and processors track them separately for harvest and yield reasons."
+  - q: "What makes Meyer lemon different?"
+    a: "Meyer lemon is not a true lemon — it is a hybrid (lemon × mandarin or orange) with thinner skin, more aromatic peel, lower acidity, and a softer, less sharp flavor. It is prized in cooking and culinary applications where the goal is fragrance and roundness rather than sharp acid bite."
+  - q: "Which lemon variety is best for freeze-drying?"
+    a: "The biggest decisions are format and bitterness control. Slices need attractive peel and controlled pith. Powder needs acid strength and flow. Zest-containing products need aroma without harshness. Buyers should ask variety (Eureka, Lisbon, Meyer, etc.), peel inclusion, seed removal, juice / pulp / whole-fruit fraction, and anti-caking strategy."
+  - q: "What is a Ponderosa lemon?"
+    a: "Ponderosa is a large novelty lemon — sometimes weighing close to a kilogram per fruit. It is a hybrid (lemon × citron) with thick skin and a milder acid profile. Popular as an ornamental or specialty fruit; rare in commercial juice or freeze-dried supply."
+  - q: "Are Italian lemons different from California lemons?"
+    a: "Yes. Italian Femminello and Verna cultivars come from the Mediterranean citrus tradition — often with more intense peel oil and aromatic complexity than California Eureka or Lisbon. They are prized in liqueurs (limoncello), candied peel, and pastry applications more than for raw juice."
+  - q: "What should buyers ask freeze-dried lemon suppliers?"
+    a: "Ask variety (Eureka, Lisbon, Meyer, Femminello, etc.), origin, peel and pith inclusion, juice / pulp / whole-fruit fraction, seed removal, added carriers, anti-caking strategy for powder, and target use case (tea, beverage, seasoning, or bakery)."
 ---
 
 Lemon variety matters most when you care about peel aroma, acidity, juice yield, bitterness, and whether the fruit behaves like a sharp lemon or a softer culinary citrus. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

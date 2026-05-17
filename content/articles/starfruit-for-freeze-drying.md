@@ -3,6 +3,7 @@ title: "A Field Guide to Starfruit for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-15
 cover_image: /images/articles/starfruit-for-freeze-drying.jpg
 cover_alt: "A sliced carambola starfruit"
 cover_credit: "SMasters / CC BY-SA 3.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Flavor can be mild, so ripeness and acid balance matter."
   - "Thin slices dry better and preserve the visual story."
   - "It is often best as a garnish or blend accent rather than a volume snack."
+faqs:
+  - q: "What's special about freeze-dried starfruit?"
+    a: "The star-shaped cross-section is the fruit's signature commercial asset — instantly recognizable on a dessert, in a cocktail glass, or on a snack board. Freeze-drying preserves the geometry beautifully when thin slices are used. The visual is usually the headline value; flavor is a secondary consideration."
+  - q: "Why does freeze-dried starfruit taste mild?"
+    a: "Starfruit (carambola) has crisp watery flesh with relatively low sugar (Brix 5–11°) compared to most snack fruits, plus delicate aroma. Freeze-drying preserves rather than amplifies that mildness. Ripeness matters — sweet types deliver a gentle tropical sweetness, tart types add more acid bite but less crowd-pleasing flavor."
+  - q: "What's the best format for freeze-dried starfruit?"
+    a: "Cross-section slices preserve the distinctive star shape — best for desserts, cocktails, and premium packs. Dices are practical but lose the iconic identity. Powder concentrates light acid and color for seasonings and drinks. Tropical blend accents use starfruit for visual lift in gift packs and snack boards."
+  - q: "Why are thin slices better than thick slices for freeze-dried starfruit?"
+    a: "Thinner slices dry more evenly, preserve the star shape with crisper edges, and produce a lighter snap. Thicker slices can retain center moisture and risk leathery texture. Premium starfruit products typically settle in a narrow thickness range optimized for the visual and the bite."
+  - q: "Is there an oxalate concern with freeze-dried starfruit?"
+    a: "Starfruit contains oxalates that can be a health concern for people with kidney disease — and some markets require advisory labeling. Premium brands disclose this honestly rather than burying it. Healthy consumers eating starfruit as part of a varied diet face no concern, but the product should not be marketed as a high-volume snack."
+  - q: "Should freeze-dried starfruit be sweetened?"
+    a: "Not usually. Starfruit's value is visual and refreshing rather than candied. Adding sugar masks the natural tart-sweet character and undermines the elegant positioning that justifies the fruit's specialty pricing. Clean-label products keep starfruit plain."
+  - q: "What should buyers ask freeze-dried starfruit suppliers?"
+    a: "Ask ripeness standard, slice thickness, browning control practice, slice integrity (broken-tip tolerance), sweet vs tart variety, origin, target moisture or water activity, oxalate disclosure plan if relevant for the market, added sugar status, and the intended product positioning (garnish, dessert, cocktail kit, or tropical blend accent)."
 ---
 
 Starfruit is often chosen with the eyes first. In freeze-dried form, that visual advantage is real, but flavor still has to earn its place. For freeze-dried fruit buyers, starfruit is not just a flavor name. It is a set of decisions about raw material, cutting, drying behavior, sensory quality, packaging, and where the finished fruit actually belongs.

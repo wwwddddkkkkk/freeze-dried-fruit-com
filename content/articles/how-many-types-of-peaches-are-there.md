@@ -3,6 +3,7 @@ title: "How Many Types of Peaches Are There? A Guide to Peach Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-05-07
+updated: 2026-05-14
 cover_image: /images/articles/how-many-types-of-peaches-are-there.jpg
 cover_alt: "Ripe red peaches photographed in sunlight"
 cover_credit: "Jack Dykinga, USDA / Public domain"
@@ -15,6 +16,21 @@ takeaways:
   - "Yellow vs white, clingstone vs freestone, fresh-market vs processing, peach vs nectarine"
   - "Variety matters because fruit bred for retail, processing, juice, drying, or local eating can behave very differently."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product job, not which variety is abstractly best."
+faqs:
+  - q: "How many types of peaches are there?"
+    a: "Many hundreds of peach cultivars exist, usually grouped by flesh color, stone type, season, and use. Familiar names include Elberta, Redhaven, O'Henry, Elegant Lady, Georgia Belle, donut peach, and clingstone processing peaches. The practical answer is far smaller than the total count if you only look at supermarket supply."
+  - q: "What's the difference between clingstone and freestone peaches?"
+    a: "In clingstone peaches the flesh adheres to the pit, which makes them firmer and well-suited to canning, purees, and ingredient streams. In freestone peaches the pit separates easily, which makes them friendlier for fresh eating and slicing. The same trees rarely produce both."
+  - q: "What's the difference between yellow and white peaches?"
+    a: "Yellow peaches carry more acidity and the familiar tangy-aromatic peach flavor. White peaches have lower acidity and a more floral, delicate profile — they can taste elegant, but they may also feel flat if the raw material is weak."
+  - q: "Is a nectarine the same as a peach?"
+    a: "Nectarines are closely related to peaches and belong to the same species — the main visible difference is skin (smooth on nectarines, fuzzy on peaches). Most cultivar work treats them as parallel families. For freeze-drying, similar process logic applies."
+  - q: "Which peach varieties are best for freeze-drying?"
+    a: "Aroma is the hardest peach quality to preserve. Yellow peaches usually give the classic peach flavor and acidity. White peaches can be elegant but risk tasting soft. Clingstone processing peaches offer consistency; premium fresh-market peaches can bring better aroma when handled carefully. Buyers should ask flesh color, stone type, peel status, cut size, Brix, and whether the fruit is fresh, IQF, or canned-derived."
+  - q: "What's a donut peach?"
+    a: "A donut peach (also called Saturn or flat peach) is a peach cultivar with a flat, donut-like shape. It is usually sweet with low acidity, and it is sold as a premium specialty fruit in fresh retail. The shape is genetic, not a defect."
+  - q: "Why does freeze-dried peach lose aroma so easily?"
+    a: "Peach aroma comes from delicate volatile compounds that can flatten under oxygen exposure or weak packaging. A freeze-dried peach that looks great at release can still taste muted after weeks if the pouch barrier and oxygen control are not designed for it."
 ---
 
 Peach variety is not only about names. It is about flesh color, stone attachment, acidity, aroma, texture, harvest window, and whether the fruit is meant to be eaten fresh or processed. The number can sound simple in search results, but fruit variety is rarely just a count. It is a map of regions, breeding goals, farm economics, consumer habits, processing needs, and local food culture.

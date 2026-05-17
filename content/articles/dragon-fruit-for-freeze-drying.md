@@ -3,6 +3,7 @@ title: "A Field Guide to Dragon Fruit for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-11
+updated: 2026-05-14
 cover_image: /images/articles/dragon-fruit-for-freeze-drying.jpg
 cover_alt: "A halved red dragon fruit showing bright magenta flesh"
 cover_credit: "Billjones94 / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "The flavor is usually mild, so application value often comes from color, crunch, and novelty."
   - "Seeds add texture and visual identity but can feel distracting if the flesh is bland."
   - "Buyers should separate snack appeal from topping, powder, and bowl-use appeal."
+faqs:
+  - q: "Which dragon fruit type works best for freeze-drying?"
+    a: "Flesh color is the first decision. Red and magenta-fleshed dragon fruit deliver dramatic visual impact in powders, smoothie bowls, and snack mixes — they earn the premium most products are positioned for. White-fleshed dragon fruit looks clean but is visually mild. Yellow dragon fruit is often sweeter and more aromatic but less commercially common."
+  - q: "Why is freeze-dried dragon fruit valued for color more than flavor?"
+    a: "Dragon fruit flavor is naturally subtle compared to mango, pineapple, or strawberry. Its real value in finished products is visual — vivid pink-magenta pieces or powders that signal premium novelty in bowls, mixes, and coatings. Trying to position it on flavor alone usually disappoints; positioning it on color usually works."
+  - q: "Do the seeds in freeze-dried dragon fruit affect texture?"
+    a: "The tiny dragon fruit seeds add a light crunch and visual identity that consumers recognize. In good product, they read as a feature. In poor product — where the flesh has lost aroma and structure — the same seeds can feel gritty or distracting. Seed pattern is part of how dragon fruit communicates the fruit."
+  - q: "Why does freeze-dried dragon fruit sometimes taste so mild?"
+    a: "It often is mild — that is the fruit, not a process failure. White-fleshed types especially can be quietly sweet at best. Red-fleshed and yellow varieties carry slightly more flavor density. For freeze-dried products, blending with aromatic partners or relying on color positioning is common when working with milder lots."
+  - q: "What's the difference between freeze-dried dragon fruit pieces and powder?"
+    a: "Pieces give visible identity, seed-speckled texture, and snack-ready bite. Powder concentrates color into a coating, drink, or smoothie-bowl ingredient where visual impact is the main job. Same fruit, very different commercial use."
+  - q: "What quality signals matter in freeze-dried dragon fruit?"
+    a: "Bright color matching the flesh type (magenta for red, clean white for white); light crisp texture, not damp or leathery; visible seed pattern without excessive grit; clean mild aroma without stale notes; and low color bleed or clumping in the package."
+  - q: "What should buyers ask suppliers about freeze-dried dragon fruit?"
+    a: "Ask species or flesh color (red, white, yellow), origin, raw material state, cut format (slices, dices, powder), Brix, seed load, target moisture or water activity, color stability during storage, and the intended product positioning — snack, topping, or color ingredient."
 ---
 
 Dragon fruit is often bought with the eyes first. In freeze-dried form, color may matter as much as flavor. For freeze-dried fruit buyers, dragon fruit is not just a flavor. It is a set of processing choices: raw material quality, cut format, moisture control, aroma retention, breakage, and how clearly the finished piece still communicates the fruit.

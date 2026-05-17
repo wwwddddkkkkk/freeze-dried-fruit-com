@@ -3,6 +3,7 @@ title: "A Field Guide to Cherries for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-14
 cover_image: /images/articles/cherry-for-freeze-drying.jpg
 cover_alt: "Sour cherries on a white background"
 cover_credit: "Nicubunu / CC BY-SA 3.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Pitting, halve size, and skin behavior shape texture as much as the drying cycle."
   - "Good cherry should have recognizable aroma and acid balance, not only red color and sweetness."
   - "Buyers should separate snack-grade pieces, topping pieces, inclusions, and powder as different products."
+faqs:
+  - q: "Which cherries freeze-dry best — sweet or tart?"
+    a: "Neither is universally better; they make different products. Sweet cherry pieces feel dessert-like and premium but can taste flat if acidity is low. Tart cherries (Montmorency, Morello) bring bright acid and concentrated color — excellent in granola, bakery, and yogurt inclusions but often too sharp for casual snacking alone."
+  - q: "What's the difference between freeze-dried sweet and tart cherries?"
+    a: "Sweet cherries (Bing, Lapins, Rainier) carry sugar and dark color and read like dessert. Sour cherries carry acidity and aroma and read like an ingredient. Freeze-drying concentrates both profiles, so the sweet-vs-tart choice is really a use-case choice — snacks vs inclusions."
+  - q: "Why do freeze-dried cherries sometimes contain pit fragments?"
+    a: "Cherries are pitted mechanically and no commercial pitter is perfect — a small percentage of pits or pit fragments is normal across the industry. Premium suppliers define a maximum-allowable pit fragment tolerance in writing. Buyers should ask the spec rather than assume zero."
+  - q: "Should freeze-dried cherries be whole or halved?"
+    a: "Whole pitted cherries look dramatic and premium but dry slowly and break more in transit. Halves dry more evenly, blend cleanly into mixes and bakery, and are the practical default for most commercial applications. Powder makes sense when even color and acid distribution matter more than visible fruit."
+  - q: "Why do some freeze-dried cherries taste flat?"
+    a: "Usually a raw material issue — sweet cherries picked too early lack the acid balance that makes cherry flavor feel alive, and freeze-drying does not invent aroma. Check the raw material variety and ripeness target, not just the drying cycle."
+  - q: "What quality signals matter in a freeze-dried cherry bag?"
+    a: "Deep red to burgundy color without brown edges; clear cherry aroma before chewing; pitting that does not leave hard fragments; crisp bite without collapse into leather; and an acid-sugar balance that fits the stated use. A premium claim should be supported by aroma, not just color."
+  - q: "What should buyers ask freeze-dried cherry suppliers?"
+    a: "Ask sweet or tart type, variety, origin, pitting method, whole or half format, target moisture or water activity, added sweeteners or sulfites, expected pit-fragment tolerance, breakage rate, and the best-use application the supplier designed for."
 ---
 
 Cherry is one of the most emotionally powerful fruit flavors in freeze-dried form, but it is also one of the easiest to misread. For freeze-dried fruit buyers, cherry is not just a flavor name. It is a set of decisions about raw material, cutting, drying behavior, sensory quality, packaging, and where the finished fruit actually belongs.

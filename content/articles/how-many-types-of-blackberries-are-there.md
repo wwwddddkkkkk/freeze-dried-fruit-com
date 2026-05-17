@@ -3,6 +3,7 @@ title: "How Many Types of Blackberries Are There? A Guide to Blackberry Varietie
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-19
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-blackberries-are-there.jpg
 cover_alt: "Fresh blackberries photographed close up"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Wild, cultivated, trailing, erect, thornless, fresh-market, processing, hybrid berries"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of blackberries are there?"
+    a: "Blackberries include many species, hybrids, and cultivars, often grouped by cane habit and processing use. Familiar names include Marionberry, boysenberry, loganberry, Triple Crown, Chester, Natchez, and Ouachita — split into wild, cultivated, trailing, erect, thornless, fresh-market, processing, and hybrid berries."
+  - q: "What's the difference between Marionberry and a regular blackberry?"
+    a: "Marionberry is a specific trailing blackberry cultivar developed in Oregon, prized for deep flavor and dark color in processing. It tends to taste more intense and less mild than mainstream fresh-market blackberries like Chester or Natchez. Marionberry dominates Pacific Northwest jam, pie, and ingredient streams; eastern U.S. retail sees more Chester-style erect cultivars."
+  - q: "What is a boysenberry?"
+    a: "Boysenberry is a hybrid in the blackberry family — a cross involving raspberry, blackberry, and loganberry parents. The result is a larger, darker, more aromatic berry with hints of all three parent fruits. It is grown commercially in New Zealand and Oregon, mostly for jam, juice, and processing rather than mass fresh-market sale."
+  - q: "Which blackberry varieties freeze-dry best?"
+    a: "Flavor-dense processing berries (Marionberry, boysenberry, loganberry) often outperform large fresh-market berries in freeze-dried form because intensity matters more than visual size after drying. Buyers should ask cultivar or type, whole-piece percentage, seediness, Brix, acidity, and whether the product is whole, broken, crumble, or powder."
+  - q: "What's the difference between trailing and erect blackberries?"
+    a: "Trailing blackberries (Marionberry, boysenberry) grow on long flexible canes that need support — they tend to be more flavorful but harder to harvest mechanically. Erect blackberries (Chester, Natchez, Ouachita) grow on stiffer self-supporting canes, are easier for commercial harvest, and dominate fresh-market retail despite milder flavor than trailing types."
+  - q: "Are wild blackberries different from cultivated ones?"
+    a: "Yes — wild blackberries are typically smaller, seedier, more variable in flavor, and more aromatic than cultivated cultivars. They are foraged or grown at small scale rather than mass-produced. For freeze-drying, wild blackberry input can deliver striking flavor density when handled well, but supply is less standardized than commercial fruit."
+  - q: "What should buyers ask freeze-dried blackberry suppliers?"
+    a: "Ask cultivar (Marionberry, Chester, boysenberry, etc.), wild vs cultivated, origin, raw material state (fresh, IQF, ingredient-grade), cut format (whole, halves, crumble, powder), seediness tolerance, Brix and acidity, target moisture or water activity, and the intended use case (snack pack, ingredient, or color/aroma blend component)."
 ---
 
 Blackberry variety is tangled in the best way: wild berries, cultivated berries, thornless canes, trailing types, hybrids, and regional names all overlap. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

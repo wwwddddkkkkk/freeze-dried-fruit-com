@@ -3,6 +3,7 @@ title: "How Many Types of Pomegranates Are There? A Guide to Pomegranate Varieti
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-26
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-pomegranates-are-there.jpg
 cover_alt: "An opened pomegranate showing red arils"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Hard-seeded, soft-seeded, sweet, tart, juice-oriented, fresh-market varieties"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of pomegranates are there?"
+    a: "Many pomegranate cultivars exist across the Middle East, Mediterranean, India, Central Asia, and the Americas. Familiar names include Wonderful, Angel Red, Haku Botan, Parfianka, Mollar de Elche, Bhagwa, and Kandhari — split into hard-seeded, soft-seeded, sweet, tart, juice-oriented, and fresh-market types."
+  - q: "What's the difference between hard-seeded and soft-seeded pomegranates?"
+    a: "Hard-seeded varieties (Wonderful is the most common commercial type) have firm seeds that consumers either eat through or spit out. Soft-seeded varieties (Mollar de Elche and similar Mediterranean cultivars) have notably softer seeds, making fresh eating easier — though they ship less reliably and are less common in U.S. retail."
+  - q: "What is Wonderful pomegranate?"
+    a: "Wonderful is the dominant commercial pomegranate cultivar in California and a major share of the U.S. fresh and processed market. It is hard-seeded with deep ruby arils, balanced sweet-tart flavor, and reliable color and juice yield. It became the genetic anchor for much of the modern global pomegranate trade."
+  - q: "Which pomegranate variety is best for freeze-drying?"
+    a: "Seed texture is the central issue in freeze-dried pomegranate. A beautiful aril can still feel too hard if the seed dominates. Tart varieties like Wonderful are useful in toppings and powders; sweeter soft-seeded types may work better in premium snacks. Buyers should ask cultivar, aril color, seed hardness, whole-aril percentage, added sugar, and product format (aril, powder, juice-derived, or inclusion)."
+  - q: "Where are pomegranates grown commercially?"
+    a: "California dominates U.S. supply with Wonderful and Angel Red. Spain produces soft-seeded Mediterranean cultivars including Mollar de Elche. India grows Bhagwa and other commercial varieties for fresh and aril markets. Central Asia and the Middle East have deep regional cultivar diversity — sweet, tart, pale, red, soft, and hard-seeded types."
+  - q: "Why does seed hardness matter so much?"
+    a: "The aril is the entire edible product — juice sac wrapped around a seed. Freeze-drying removes water from the juicy portion but leaves the seed intact, so seed hardness directly shapes the eating experience. A premium soft-seeded pomegranate produces a less obtrusive bite; a hard-seeded variety reads as more *crunchy seedy* even after careful processing."
+  - q: "What should buyers ask freeze-dried pomegranate suppliers?"
+    a: "Ask cultivar (Wonderful, Mollar, Bhagwa, etc.), origin, seed hardness, aril color grade, whole-aril percentage in the finished spec, raw material state (fresh arils, frozen, or juice-derived), added sugar or carrier ingredients, and breakage tolerance after shipping."
 ---
 
 Pomegranate variety is mostly about aril color, acidity, seed hardness, sweetness, juice yield, and whether the fruit is meant for fresh eating or processing. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

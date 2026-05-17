@@ -3,6 +3,7 @@ title: "A Field Guide to Cranberries for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-14
 cover_image: /images/articles/cranberry-for-freeze-drying.jpg
 cover_alt: "Cranberries floating during harvest"
 cover_credit: "Keith Weller, USDA-ARS / Public domain"
@@ -15,6 +16,21 @@ takeaways:
   - "The skin and dense structure can make whole berries technically challenging."
   - "Freeze-dried cranberry is often strongest as an ingredient, accent fruit, or powder."
   - "Buyers should confirm whether sugar, juice concentrate, or oil is added."
+faqs:
+  - q: "Is freeze-dried cranberry naturally tart and unsweetened?"
+    a: "Yes — cranberry is naturally tart, and freeze-drying concentrates that tartness further. Plain freeze-dried cranberry is rarely a casual snack. Many retail products are sweetened, infused with juice, or oil-treated to make the fruit more snackable; clean-label products keep the cranberry plain and rely on blending to balance the acid."
+  - q: "What's the difference between freeze-dried cranberry and traditional dried cranberry (Craisins)?"
+    a: "Traditional dried cranberries are infused with sugar syrup before air-drying, producing a chewy, sweetened, raisin-like product. Freeze-dried cranberry is dried under vacuum without infusion — the result is crisp, lighter, and much more tart unless the supplier specifically sweetens it. They are different products even when shelves call them both \"dried cranberry.\""
+  - q: "Why are whole freeze-dried cranberries technically challenging?"
+    a: "Cranberry skin is firm and slows moisture movement out of the berry during drying. Whole berries can finish unevenly — outside dry, inside still holding water. Sliced, scored, or piece formats dry more cleanly. Whole berries do exist in premium specialty blends, but they require tighter process control."
+  - q: "Should freeze-dried cranberry be plain, sweetened, or juice-infused?"
+    a: "Depends on the use case. Plain cranberry suits clean-label products and ingredient blends where acidity is welcome. Sweetened cranberry is more snackable in retail mixes. Juice-infused cranberry sits between the two — sweeter than plain but with cranberry-on-cranberry rather than added sugar on the label."
+  - q: "What use cases fit freeze-dried cranberry best?"
+    a: "Granola, trail mixes, bakery inclusions, holiday-themed snack blends, drink mixes, and yogurt toppings. Cranberry is rarely a standalone solo snack — it works as an accent that brightens sweeter fruits and breaks up dense baked products."
+  - q: "What quality signals matter in freeze-dried cranberry?"
+    a: "Clean red color without brown cast; tart cranberry aroma, not stale or fermented; texture that is crisp or cleanly dry, not hard-leathery; sweetening disclosed when used; and acidity matched to the intended application."
+  - q: "What should buyers ask freeze-dried cranberry suppliers?"
+    a: "Ask whether the input is plain, sweetened, juice-infused, or oil-treated; variety or growing region; whole, sliced, or piece format; expected breakage rate; target moisture or water activity; and whether any anti-caking or release agent is used."
 ---
 
 Cranberry is a powerful fruit in freeze-dried form, but it is rarely a neutral snack. For freeze-dried fruit buyers, cranberry is not just a flavor name. It is a practical set of decisions about raw material, cut format, texture, aroma, moisture control, breakage, and where the fruit belongs in a finished product.

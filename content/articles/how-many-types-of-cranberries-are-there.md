@@ -3,6 +3,7 @@ title: "How Many Types of Cranberries Are There? A Guide to Cranberry Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-17
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-cranberries-are-there.jpg
 cover_alt: "Cranberries floating during harvest"
 cover_credit: "Keith Weller, USDA-ARS / Public domain"
@@ -15,6 +16,21 @@ takeaways:
   - "Fresh-market, juice, sauce, sweetened dried, frozen, and ingredient cranberries"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of cranberries are there?"
+    a: "Cranberry cultivars are fewer in consumer awareness but important in commercial growing and processing. Familiar names include Stevens, Ben Lear, Early Black, Howes, Pilgrim, Crimson Queen, and Mullica Queen — split across fresh-market, juice, sauce, sweetened dried, frozen, and ingredient streams."
+  - q: "Why don't shoppers see cranberry varieties named on packages?"
+    a: "Cranberry is rarely sold by variety to consumers because the fruit is usually transformed into juice, sauce, sweetened dried cranberries, frozen cranberries, powders, or inclusions. Growers and processors care deeply about cultivar — color, acidity, size, yield, and harvest timing — but the consumer label tends to stop at *cranberry*."
+  - q: "What is Stevens cranberry?"
+    a: "Stevens is the dominant modern commercial cranberry variety, developed at a USDA breeding program decades ago. It became widespread because of high yield, strong color, and reliable processing behavior. Much of the cranberry juice, sauce, and sweetened dried cranberry market traces back to Stevens fruit."
+  - q: "Where are cranberries grown commercially?"
+    a: "U.S. production is concentrated in Wisconsin, Massachusetts, New Jersey, Oregon, and Washington. Canadian growing regions include Quebec and British Columbia. Most cranberries are harvested by flooding the bog, which is why the iconic image of cranberry harvest shows berries floating on water."
+  - q: "Which cranberry variety is best for freeze-drying?"
+    a: "Acidity and sugar strategy matter more than cultivar name. Plain cranberry can be very tart, while sweetened formats behave differently because added sugar changes texture and stickiness. Buyers should ask cultivar or grade when relevant, sweetened or unsweetened status, whole or sliced format, color target, moisture target, and intended use."
+  - q: "What's the difference between freeze-dried and sweetened dried cranberries (Craisins)?"
+    a: "Traditional sweetened dried cranberries are infused with sugar syrup before air-drying — chewy, sweet, raisin-like. Freeze-dried cranberry is dried under vacuum without sugar infusion, producing a crisp, much tarter piece unless the supplier specifically sweetens it. They are different products even when both labels say *dried cranberry*."
+  - q: "What should buyers ask freeze-dried cranberry suppliers?"
+    a: "Ask whether the input is plain or sweetened, cultivar (Stevens vs heritage like Howes), origin (Wisconsin, Massachusetts, etc.), cut format, target moisture or water activity, added sugar or juice infusion, expected breakage rate, and the intended product positioning."
 ---
 
 Cranberry variety is mostly invisible to consumers, but processors care about color, acidity, size, yield, harvest timing, and how the fruit behaves in juice or dried formats. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

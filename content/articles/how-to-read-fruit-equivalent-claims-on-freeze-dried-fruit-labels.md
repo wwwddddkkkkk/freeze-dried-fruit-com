@@ -23,6 +23,23 @@ faqs:
     a: "Yes. The ingredient line tells you whether the product is plain fruit or whether sugar, oils, flavor systems, or other additions changed the product you are comparing."
   - q: "Are fruit-equivalent claims regulated the same way everywhere?"
     a: "No. Labeling expectations differ by market, retailer, and jurisdiction. Brands should review the exact wording with the rules that apply where the product is sold."
+sources:
+  - title: "Guidance for Industry: A Food Labeling Guide"
+    url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-food-labeling-guide"
+    publisher: "U.S. Food & Drug Administration"
+    note: "FDA's comprehensive labeling reference — including what may and may not be claimed about ingredient content."
+  - title: "21 CFR 101.13 — Nutrient Content Claims, General Principles"
+    url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.13"
+    publisher: "Electronic Code of Federal Regulations"
+    note: "The regulatory basis for what kinds of quantitative comparison claims (including fruit-equivalent statements) are allowed."
+  - title: "MyPlate — What Counts as a Cup of Fruit?"
+    url: "https://www.myplate.gov/eat-healthy/fruits"
+    publisher: "USDA Center for Nutrition Policy & Promotion"
+    note: "The federal reference for serving-size equivalents — useful when reading 'made from X cups of fruit' style claims."
+  - title: "21 CFR 101.12 — Reference Amounts Customarily Consumed (RACC)"
+    url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.12"
+    publisher: "Electronic Code of Federal Regulations"
+    note: "Defines the federal reference serving sizes that anchor U.S. nutrition label calculations for dried fruit products."
 ---
 
 Fruit-equivalent language sounds simple, yet it often compresses several different facts into one line that shoppers and buyers can easily overread.

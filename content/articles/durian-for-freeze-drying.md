@@ -3,6 +3,7 @@ title: "A Field Guide to Durian for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-15
 cover_image: /images/articles/durian-for-freeze-drying.jpg
 cover_alt: "Durian fruit stacked on a table"
 cover_credit: "Heru Irawan / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "Cultivar identity matters because flavor intensity and price vary widely."
   - "Freeze-dried durian can be premium, but odor control and packaging are central."
   - "Powder, chunks, and whole pulp pieces should be treated as different products."
+faqs:
+  - q: "Why is freeze-dried durian different from other fruits?"
+    a: "Durian is richer and more sulfur-aromatic than typical freeze-dried fruit. It contains more fat-like creaminess and higher solids, so the finished texture can feel dense, melting, or slightly crumbly rather than simply crisp. The aroma compounds are valuable but difficult — packaging must protect the product while also containing smell."
+  - q: "Which durian cultivar is best for freeze-drying?"
+    a: "Cultivar identity matters because flavor intensity and price vary widely. Musang King (Mao Shan Wang) commands premium pricing with intense flavor; Monthong (Golden Pillow) is sweeter, milder, and easier to source at scale; D24 sits in between. Cultivar-specific packs justify the premium only when sourcing documentation supports the claim."
+  - q: "Why does freeze-dried durian require special packaging?"
+    a: "Durian aroma compounds are powerful and persistent. Without strong barrier packaging, the smell migrates through cardboard cases and into surrounding products in storage and transit. Premium foil-laminate pouches and barrier secondary packaging are essential — both to protect the product from oxidation and to contain odor for retailers and consumers."
+  - q: "What's the best format for freeze-dried durian?"
+    a: "Pulp pieces deliver the creamy, intense, premium experience that matches the fruit — odor, cost, and oxidation are the cautions. Durian powder works as a powerful flavor ingredient for bakery, fillings, and drinks — carrier choice and aroma control matter. Mixed tropical blends rarely work because durian overwhelms milder fruits."
+  - q: "Is freeze-dried durian an acquired taste?"
+    a: "Yes. Durian is genuinely polarizing — some consumers experience it as creamy custard-tropical perfume, others find the aroma off-putting. Freeze-drying concentrates rather than mutes the character, so durian products work best when sold to audiences who already know they want durian, not as general tropical-fruit snacks."
+  - q: "Where is durian for freeze-drying sourced?"
+    a: "Production is concentrated in Southeast Asia — Thailand (largest exporter), Malaysia (Musang King and other premium cultivars), Indonesia, Philippines, and Vietnam. Export rules, seasonality, and labor cost all shape supply. Premium cultivar claims should come with documentation given how often inferior fruit is sold under famous cultivar names."
+  - q: "What should buyers ask freeze-dried durian suppliers?"
+    a: "Ask cultivar (Musang King, Monthong, D24, or unspecified) and documentation of that claim, origin, raw material state (pulp, frozen pulp, or processed), seed removal, packaging barrier specification and odor-containment plan, target moisture or water activity, and the intended product positioning."
 ---
 
 Durian is not a neutral fruit. In freeze-dried form, that is both the opportunity and the problem. For freeze-dried fruit buyers, durian is not just a flavor name. It is a set of decisions about raw material, cutting, drying behavior, sensory quality, packaging, and where the finished fruit actually belongs.

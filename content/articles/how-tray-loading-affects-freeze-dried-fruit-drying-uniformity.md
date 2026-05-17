@@ -23,6 +23,19 @@ faqs:
     a: "Sometimes a longer cycle masks the problem, but it is a costly fix. Extending time can protect the wettest zones while overdrying easier areas, which hurts efficiency and may weaken delicate fruit structure."
   - q: "What should buyers ask suppliers about drying uniformity?"
     a: "Ask whether cut size is standardized, whether tray fill depth is controlled, how endpoint is verified across multiple tray positions, and what visible defect pattern the supplier sees when a run dries unevenly."
+sources:
+  - title: "Heat and Mass Transfer During Freeze-Drying"
+    url: "https://ift.onlinelibrary.wiley.com/doi/10.1111/j.1750-3841.2007.00554.x"
+    publisher: "Institute of Food Technologists — Journal of Food Science"
+    note: "Peer-reviewed reference for how tray load thickness changes the sublimation front and finishing time."
+  - title: "Scale-Up of Lyophilization Cycles"
+    url: "https://www.pda.org/scientific-and-regulatory-affairs/scientific-resources"
+    publisher: "Parenteral Drug Association"
+    note: "Industry reference for how shelf temperature, chamber pressure, and load geometry interact at production scale."
+  - title: "Vacuum Drying Equipment — Process Control"
+    url: "https://www.ars.usda.gov/research/publications/"
+    publisher: "USDA Agricultural Research Service"
+    note: "USDA-published research on dryer load configuration and uniformity in fruit processing."
 ---
 
 Many drying problems blamed on the machine actually begin with how the fruit was spread across the tray.

@@ -3,6 +3,7 @@ title: "How Many Types of Passion Fruit Are There? A Guide to Passion Fruit Vari
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-20
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-passion-fruit-are-there.jpg
 cover_alt: "Whole and halved passion fruits showing yellow pulp and seeds"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Fresh eating, juice processing, high-acid yellow types, sweeter granadilla types"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of passion fruit are there?"
+    a: "Passion fruit includes several commercial and regional types, grouped by peel color, acidity, pulp yield, and species. Familiar names include purple passion fruit, yellow passion fruit, sweet granadilla, giant granadilla, and banana passion fruit — split between fresh-eating types, juice processing varieties, high-acid yellow types, and sweeter granadilla types."
+  - q: "What's the difference between purple and yellow passion fruit?"
+    a: "Purple passion fruit is the type most familiar in fresh markets — smaller, tart-aromatic, with deep purple skin that wrinkles when ripe. Yellow passion fruit is larger, more acidic, with smooth yellow skin; it dominates juice processing in South America and Africa because of higher acid and pulp yield. Both are *Passiflora edulis* but the cultivars are distinct."
+  - q: "What is granadilla?"
+    a: "Granadilla is a sweet passion fruit relative — smoother in flavor, less acidic, with a softer eating experience than common purple or yellow passion fruit. Sweet granadilla is the most familiar type for fresh eating. Giant granadilla is a much larger fruit with thick mild flesh and is used differently in cuisine."
+  - q: "Which passion fruit variety is best for freeze-drying?"
+    a: "Format matters more than cultivar because pulp and seeds do not behave like a normal fruit slice. Powder, puree-derived pieces, and inclusions are usually more practical than intact pieces. Buyers should ask type (purple vs yellow vs granadilla), pulp percentage, seed handling, acidity, added carrier, and whether the product is powder, pulp piece, juice-derived, or blend component."
+  - q: "What is banana passion fruit?"
+    a: "Banana passion fruit is a related Passiflora species with elongated banana-shaped fruit. Native to South American Andes regions. It is more aromatic and sweeter than standard passion fruit but less commercially common — typically found in specialty and regional markets rather than mainstream retail."
+  - q: "Why is passion fruit usually sold as juice or pulp rather than whole?"
+    a: "Passion fruit is valued less for bulk flesh and more for aroma. The pulp around the seeds is the edible portion, and the seed-to-pulp ratio is high. That makes the fruit better suited to juice, puree, powder, and ingredient applications where a small amount carries large aromatic impact, rather than as a standalone snacking fruit."
+  - q: "What should buyers ask freeze-dried passion fruit suppliers?"
+    a: "Ask type (purple, yellow, granadilla, banana), pulp / juice / puree / powder source, seed inclusion, acidity, added carrier and ratio, expected aroma intensity, target moisture or water activity, and the intended product positioning."
 ---
 
 Passion fruit variety is about aroma, acidity, pulp yield, seed texture, peel color, and whether the fruit is eaten fresh or processed into juice and puree. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

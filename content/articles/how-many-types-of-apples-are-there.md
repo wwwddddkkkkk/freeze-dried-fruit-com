@@ -3,6 +3,7 @@ title: "How Many Types of Apples Are There? A Guide to Apple Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-05-12
+updated: 2026-05-14
 cover_image: /images/articles/how-many-types-of-apples-are-there.jpg
 cover_alt: "Golden Delicious apples photographed together"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Fresh-eating apples, baking apples, cider apples, processing apples, heritage apples"
   - "Variety matters because fruit bred for retail, processing, juice, drying, or local eating can behave very differently."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product job, not which variety is abstractly best."
+faqs:
+  - q: "How many types of apples are there?"
+    a: "Thousands of named apple varieties exist worldwide, though only a smaller group dominates retail and processing. The most familiar in retail are Gala, Fuji, Honeycrisp, Granny Smith, Golden Delicious, Red Delicious, Pink Lady, and Envy — but heritage and cider apples expand the count dramatically."
+  - q: "What's the difference between fresh-eating and cider apples?"
+    a: "Fresh-market apples need appearance, crunch, and shelf stability. Baking apples need acid and structure. Cider apples can be nearly unpleasant to eat fresh but valuable in fermentation because of tannin. A bittersweet or bittersharp cider apple and a Honeycrisp are barely the same product category."
+  - q: "Which apple varieties are best for freeze-drying?"
+    a: "Variety affects browning, sweetness, acidity, texture, and slice behavior. Granny Smith brings acid and a clean snap. Fuji and Gala bring sweetness. Golden Delicious offers familiar apple flavor and workable texture. Premium buyers should ask variety, peel status, anti-browning treatment, slice thickness, and whether the input is fresh, IQF, or processing-grade."
+  - q: "Are Honeycrisp and Fuji good for freeze-drying?"
+    a: "Both can work well — they bring familiar sweetness and recognizable apple character. The trade-off is that premium fresh-market apples cost more, so they often appear in higher-end freeze-dried snack pouches rather than ingredient-grade blends."
+  - q: "Why does Granny Smith behave differently in freeze-drying?"
+    a: "Granny Smith carries more acid and a denser, less sweet flesh than most fresh-market apples. That makes it useful when buyers want a clean tart bite and crisp snap rather than a sweet-leaning apple piece. Blending with sweeter varieties is common."
+  - q: "Why are some freeze-dried apples brown around the edges?"
+    a: "Apple is one of the fruits most prone to enzymatic browning — cut surfaces can darken before the fruit is fully frozen. Pre-treatment and fast handling between cutting and freezing control it. Lightly browned edges are not always a quality failure, but widespread browning usually points to weak intake handling."
+  - q: "Why don't most freeze-dried apple products name the cultivar?"
+    a: "Naming the variety creates a promise to maintain that variety across seasons. Apple supply can shift with harvest, storage, and pricing pressure, so processors often blend varieties to keep production stable. For premium positioning, the variety should still be specified."
 ---
 
 There are thousands of named apple varieties, but the apples most people meet are only a small commercial slice of the category. The number can sound simple in search results, but fruit variety is rarely just a count. It is a map of regions, breeding goals, farm economics, consumer habits, processing needs, and local food culture.

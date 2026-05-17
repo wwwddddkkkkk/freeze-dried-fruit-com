@@ -3,6 +3,7 @@ title: "How Many Types of Persimmons Are There? A Guide to Persimmon Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-25
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-persimmons-are-there.jpg
 cover_alt: "A ripe Fuyu persimmon on a plain background"
 cover_credit: "Joe Ravi / CC BY-SA 3.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Astringent, non-astringent, firm-eating, soft-eating, dried-persimmon types"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of persimmons are there?"
+    a: "Persimmons include many Asian and regional cultivars, usually grouped by astringency, shape, and use. Familiar names include Fuyu, Hachiya, Jiro, Rojo Brillante, Sharon fruit, Saijo, and Chocolate persimmon — split into astringent, non-astringent, firm-eating, soft-eating, and dried-persimmon types."
+  - q: "What's the difference between astringent and non-astringent persimmon?"
+    a: "Non-astringent persimmons (Fuyu, Jiro, Sharon fruit) can be eaten firm without unpleasant mouth-puckering tannins. Astringent persimmons (Hachiya, Saijo) must reach full soft ripeness or carry intense, chalky astringency that ruins the eating experience. The split is the single most important persimmon decision a buyer or eater makes."
+  - q: "What's the difference between Fuyu and Hachiya?"
+    a: "Fuyu is non-astringent — squat tomato-like shape, eaten firm, easy to slice, suitable for snacks and toppings. Hachiya is astringent — acorn-like shape, must be eaten fully soft (almost custard-like) or it is unpleasant. Hachiya at full ripeness can be incredibly rich; Fuyu at firm ripeness is approachable and predictable."
+  - q: "What is Rojo Brillante persimmon?"
+    a: "Rojo Brillante is a Spanish commercial persimmon variety that is naturally astringent but is sold firm after a de-astringency treatment (typically carbon dioxide exposure that removes the tannins without softening the fruit). It dominates European persimmon export markets and is increasingly available in North America under various marketing names."
+  - q: "What is Sharon fruit?"
+    a: "Sharon fruit is the trade name for Israeli-grown persimmons (mostly Triumph cultivar) that have been treated to remove astringency. The name comes from the Sharon Plain growing region. The treatment lets the fruit be sold firm without the tannin problem — basically the Israeli equivalent of Spain's Rojo Brillante commercialization."
+  - q: "Which persimmon variety is best for freeze-drying?"
+    a: "Astringency control is everything. Non-astringent types (Fuyu, Jiro, Sharon fruit, Rojo Brillante after treatment) are easier for slices and chips. Fully ripe astringent types (Hachiya, Saijo) can produce rich, honeyed flavor but need careful handling. Buyers should ask variety, astringency class, de-astringency treatment, ripeness at cutting, slice thickness, and whether the product is raw, treated, or puree-derived."
+  - q: "What should buyers ask freeze-dried persimmon suppliers?"
+    a: "Ask variety (Fuyu, Hachiya, Jiro, Rojo Brillante, Sharon, Saijo, etc.), astringency class, de-astringency treatment if any, ripeness standard at processing, origin, cut format, raw material state (firm, soft, puree), target moisture or water activity, expected breakage rate, and intended product positioning (snack, dessert ingredient, autumn blend)."
 ---
 
 Persimmon variety begins with one essential question: is the fruit astringent or non-astringent? The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

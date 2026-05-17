@@ -3,6 +3,7 @@ title: "How Many Types of Melons Are There? A Guide to Melon Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-30
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-melons-are-there.jpg
 cover_alt: "A cantaloupe melon and cross section"
 cover_credit: "Karen and Brad Emerson / CC BY 2.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Net-melons, smooth-skinned melons, orange-flesh, green-flesh, white-flesh, aromatic dessert melons"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of melons are there?"
+    a: "Melons include many commercial groups and regional types rather than one simple variety list. Familiar names include cantaloupe, honeydew, muskmelon, Hami melon, Galia, Canary melon, Korean melon, and Charentais — split into net-melons, smooth-skinned melons, orange-flesh, green-flesh, white-flesh, and aromatic dessert types."
+  - q: "What's the difference between cantaloupe and muskmelon?"
+    a: "In American usage, *cantaloupe* and *muskmelon* often refer to the same orange-flesh net-skinned dessert melon (botanically the true cantaloupes are European varieties, but the U.S. retail name absorbed both). True European cantaloupe (Charentais and similar) is smaller, more aromatic, and rarely seen in mass U.S. retail. The naming overlap is common but worth knowing for international sourcing."
+  - q: "What is a Hami melon?"
+    a: "Hami melon is a Central Asian / Chinese dessert melon — crisp, oblong, with golden-tan ridged skin and pale orange or yellow-green flesh. It is prized for crisp texture and clean sweetness, popular in East Asian gift fruit markets. It sits between honeydew (smoothness) and cantaloupe (aroma) but with a distinctively crisp bite."
+  - q: "What is Galia melon?"
+    a: "Galia is an Israeli hybrid melon — net-skinned like cantaloupe but with pale green flesh similar to honeydew, plus a strong perfumed aroma that combines characteristics of both parents. It is popular in European fresh markets as a premium summer melon. The aroma intensity is the distinguishing feature."
+  - q: "What is Charentais melon?"
+    a: "Charentais is a small, intensely aromatic French cantaloupe variety — pale green ribbed skin, deep orange flesh, dessert-like sweetness with notable perfume. It is prized in European fresh markets and chef-driven menus. Its small size and aroma intensity make it premium but less commercial than larger ship-friendly U.S. cantaloupes."
+  - q: "Which melon variety freeze-dries best?"
+    a: "Aroma and Brix matter because water removal leaves little room for weak raw material. Aromatic types (Charentais, Galia, ripe cantaloupe) deliver more flavor density per piece. Honeydew brings clean sweetness without aroma intensity. Hami-style melons bring crisp identity. Mixed melon blends often need citrus or berry support to feel complete. Buyers should ask melon type, Brix, cut specification, rind exclusion, and intended use."
+  - q: "What should buyers ask freeze-dried melon suppliers?"
+    a: "Ask melon type (cantaloupe, honeydew, Hami, Galia, Charentais, etc.), variety where available, origin, Brix at intake, ripeness standard, cut specification, rind and seed cavity exclusion, target moisture or water activity, packaging plan (melons are moisture-sensitive), and the intended product positioning."
 ---
 
 Melon is a wide family of fruits: some are fragrant and orange, some are pale and honey-sweet, some are crisp, and some are grown almost entirely for local seasonal markets. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

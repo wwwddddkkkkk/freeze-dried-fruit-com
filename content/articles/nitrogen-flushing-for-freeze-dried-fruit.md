@@ -23,6 +23,19 @@ faqs:
     a: "It is most worth asking about when color, aroma retention, long distribution time, or premium visual appearance matter. It is less meaningful if the pack barrier and sealing system are weak."
   - q: "What should buyers ask suppliers about nitrogen flushing?"
     a: "Ask what residual oxygen target they aim for, how they verify it, whether the flush is consistent across production, and what film and seal system the pouch uses. Without that context, the claim is incomplete."
+sources:
+  - title: "Nitrogen GRAS Affirmation — 21 CFR 184.1540"
+    url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1540"
+    publisher: "Electronic Code of Federal Regulations"
+    note: "Confirms nitrogen as Generally Recognized as Safe for food contact and modified-atmosphere packaging."
+  - title: "Modified Atmosphere Packaging — FDA Inspection Guide"
+    url: "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-references/reduced-oxygen-packaging-rop"
+    publisher: "U.S. Food & Drug Administration"
+    note: "FDA's reference for reduced-oxygen packaging — including the food-safety controls that should accompany MAP claims."
+  - title: "Modified Atmosphere Packaging of Fresh Produce"
+    url: "https://www.ift.org/news-and-publications/food-technology-magazine"
+    publisher: "Institute of Food Technologists — Food Technology Magazine"
+    note: "Background reading on residual-oxygen targets and how MAP interacts with film barrier properties."
 ---
 
 Nitrogen flushing sounds advanced, but in freeze-dried fruit it is only useful when it supports the real packaging risks instead of distracting from them.

@@ -3,6 +3,7 @@ title: "How Many Types of Bananas Are There? A Guide to Banana Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-05-10
+updated: 2026-05-14
 cover_image: /images/articles/how-many-types-of-bananas-are-there.jpg
 cover_alt: "A bunch of bananas growing on a plant"
 cover_credit: "DEEPAN RAJA .M / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Dessert bananas, cooking bananas, plantains, regional landraces, export bananas"
   - "Variety matters because fruit bred for retail, processing, juice, drying, or local eating can behave very differently."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product job, not which variety is abstractly best."
+faqs:
+  - q: "How many types of bananas are there?"
+    a: "More than a thousand banana and plantain types are grown across the tropics, though Cavendish dominates export retail. Common names include Cavendish, Lady Finger, red banana, apple banana, plantain, Gros Michel, Saba, and burro banana — split broadly into dessert bananas, cooking bananas, plantains, regional landraces, and export bananas."
+  - q: "Why are most supermarket bananas Cavendish?"
+    a: "Cavendish is not the only banana — it is the banana that fits the export machine. It ripens predictably, looks familiar, and survives long supply chains. Local banana cultures use many different fruits for cooking, frying, steaming, and dessert, but Cavendish became the global retail default because of shipping behavior, not taste."
+  - q: "What happened to Gros Michel banana?"
+    a: "Gros Michel was the dominant export banana before mid-20th-century Panama disease pressure shifted commercial planting to disease-resistant Cavendish. It is still grown in some regions, often described as more aromatic — and is the historical reference behind \"banana flavor\" in candy and ice cream."
+  - q: "Which banana varieties are best for freeze-drying?"
+    a: "Cavendish is the practical default because it is available and familiar. Smaller dessert bananas like Lady Finger or apple banana may offer stronger flavor and aroma. Plantains and cooking bananas behave differently because starch and moisture structure change the finished bite — they belong in a different product category than dessert-banana snacks."
+  - q: "What's the difference between dessert and cooking bananas?"
+    a: "Dessert bananas (Cavendish, Lady Finger, apple banana, red banana) are eaten ripe and sweet. Cooking bananas and plantains (Saba, plantains, East African highland bananas) are starchier and typically cooked even when ripe. They are not interchangeable for either fresh consumption or freeze-drying."
+  - q: "Why do freeze-dried bananas brown easily?"
+    a: "Banana is prone to enzymatic browning once the flesh is cut, similar to apple. Browning control depends on speed between cutting and freezing, pre-treatment, and slice thickness. Visible darkening in finished pieces is usually a process-control signal, not a fruit-quality limit."
+  - q: "What's special about Lady Finger and apple bananas?"
+    a: "Both are smaller dessert-banana types prized for aroma and concentrated flavor. Lady Finger bananas are slender and sweet. Apple bananas are creamy with a tart, slightly apple-like note. They cost more and ship less reliably than Cavendish, which is why they appear less often in mass retail."
 ---
 
 Most supermarket bananas are Cavendish, but the banana world is far larger than the yellow fruit most shoppers know. The number can sound simple in search results, but fruit variety is rarely just a count. It is a map of regions, breeding goals, farm economics, consumer habits, processing needs, and local food culture.

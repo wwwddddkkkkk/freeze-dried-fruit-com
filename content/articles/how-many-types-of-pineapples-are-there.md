@@ -3,6 +3,7 @@ title: "How Many Types of Pineapples Are There? A Guide to Pineapple Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-05-09
+updated: 2026-05-14
 cover_image: /images/articles/how-many-types-of-pineapples-are-there.jpg
 cover_alt: "A whole pineapple fruit photographed close up"
 cover_credit: "Grace789 / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Fresh export pineapples, processing pineapples, high-acid types, low-acid sweet types, specialty local types"
   - "Variety matters because fruit bred for retail, processing, juice, drying, or local eating can behave very differently."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product job, not which variety is abstractly best."
+faqs:
+  - q: "How many types of pineapples are there?"
+    a: "Pineapple is usually discussed by commercial group and cultivar rather than by endless retail names. The most important groups are MD2, Smooth Cayenne, Queen, Red Spanish, Sugarloaf, Pernambuco, and Victoria, plus regional specialty types. Most global retail concentrates around far fewer than a dozen cultivars."
+  - q: "What's the difference between MD2 and Smooth Cayenne pineapple?"
+    a: "MD2 dominates many fresh export markets because of sweetness, golden color, lower acidity, and consistency — it was bred to deliver the retail promise buyers wanted. Smooth Cayenne shaped the processing world because it works well in canning and industrial systems. Both are pineapple, but they are optimized for different jobs."
+  - q: "Which pineapple varieties are best for freeze-drying?"
+    a: "Sweeter MD2-style fruit can be more approachable in freeze-dried form. High-acid pineapple can be exciting in small pieces but too sharp as a solo snack. Buyers should ask cultivar or commercial group, Brix, acid balance, cut size, core inclusion, and whether the fruit is fresh, IQF, or processing stream."
+  - q: "Why are some pineapples much sweeter than others?"
+    a: "Variety shapes the acid-to-sugar balance more than ripeness alone. Low-acid cultivars like Sugarloaf taste milder and sweeter, while high-acid types deliver a sharper, brighter bite. Two fully-ripe pineapples from different cultivars can feel like different products."
+  - q: "What's a Sugarloaf pineapple?"
+    a: "Sugarloaf is a low-acid, pale-fleshed pineapple type often associated with tropical regional markets. It is prized for sweetness without acidity bite, which makes it distinctive but less common in fresh export channels."
+  - q: "Why does freeze-dried pineapple sometimes taste too sharp?"
+    a: "Freeze-drying concentrates the fruit, including its acids. A high-acid pineapple variety that tastes balanced fresh can become aggressively sharp once water is removed. Blending with a sweeter variety or matching the cut size to the application often helps."
+  - q: "What should buyers ask suppliers about pineapple variety?"
+    a: "Ask which cultivar or commercial group, the origin, single variety or blend, fresh / IQF / processing source, typical Brix and acid balance, cut format, whether the core is included, and whether the variety stays stable year-round."
 ---
 
 Pineapple variety is often hidden behind one word, but different pineapples can vary sharply in acidity, sweetness, fiber, color, and processing behavior. The number can sound simple in search results, but fruit variety is rarely just a count. It is a map of regions, breeding goals, farm economics, consumer habits, processing needs, and local food culture.

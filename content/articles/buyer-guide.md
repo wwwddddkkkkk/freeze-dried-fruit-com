@@ -2,6 +2,7 @@
 title: "The Buyer's Guide to Freeze-Dried Fruit Quality"
 category: "Labels & Quality"
 date: 2026-05-06
+updated: 2026-05-13
 read: "14 min read"
 hero: "quality"
 summary: "A practical field guide for comparing freeze-dried fruit by ingredients, real fruit content, format, texture, moisture control, packaging, and true value per ounce."
@@ -12,6 +13,40 @@ takeaways:
   - "Ingredient labels matter — some products include added sugar, starch, syrups, or flavoring."
   - "Texture, piece size, moisture level, packaging, and breakage all affect the eating experience."
   - "A better metric is **true fruit value per ounce**."
+faqs:
+  - q: "Is all freeze-dried fruit just plain fruit?"
+    a: "No. Some freeze-dried fruit products contain only the named fruit, but others include added sugar, syrups, maltodextrin, starches, citric acid, natural flavor, or oils. Always read the ingredient list — a short list that names only the fruit is the strongest signal of a plain product."
+  - q: "Does a lower price per ounce mean better value?"
+    a: "Not necessarily. Bag weight is not the same as fruit content. A heavier bag can include added sugar, fillers, or higher moisture, while a lighter bag may be closer to 100% fruit. The more useful metric is *true fruit value per ounce* — what you pay for the actual fruit after accounting for ingredients, breakage, format, and packaging quality."
+  - q: "What does the texture of high-quality freeze-dried fruit feel like?"
+    a: "Properly freeze-dried fruit is light, crisp, aromatic, and dissolves cleanly in the mouth. Sticky, chewy, or rubbery pieces usually indicate excess residual moisture or process issues. Powdery, broken, or fine-only bags often signal rough handling, over-thin slicing, or shipping damage."
+  - q: "Why does freeze-dried fruit go soft after opening the bag?"
+    a: "Freeze-dried fruit is hygroscopic — it pulls moisture from the air. Once the pouch is opened, ambient humidity rapidly migrates into the pieces unless the bag is resealed tightly or transferred to an airtight container with a desiccant. Soft pieces inside a freshly opened bag usually point to packaging or barrier-film failure rather than user storage."
+  - q: "Is fresh fruit better than frozen fruit for freeze-drying?"
+    a: "Neither is automatically better. What matters is whether the raw material, pre-treatment, and freeze-drying parameters are matched to the fruit and the final format. Well-handled IQF fruit can outperform poorly-handled fresh fruit, and vice versa."
+  - q: "What ingredients on a freeze-dried fruit label should I watch for?"
+    a: "Sugar, cane sugar, syrups, fruit juice concentrate, maltodextrin, modified starches, citric acid, natural flavor, and added oils. None of these are inherently bad, but they change what the product is. A sweetened freeze-dried crisp and a 100% fruit product should not be compared as if they are the same item."
+  - q: "What questions should a buyer ask a freeze-dried fruit supplier?"
+    a: "Ask for the ingredient statement, fruit variety and origin, format (whole, slice, dice, powder), target moisture content and water activity, breakage and fines spec, packaging barrier type, MOQ, lead time, and applicable certifications (SQF, BRCGS, USDA Organic, FSSC 22000)."
+  - q: "How should freeze-dried fruit be stored after opening?"
+    a: "Reseal the original pouch as tightly as possible, or transfer to an airtight jar or zip-seal bag. For longer storage, add a food-safe desiccant packet and keep the container away from heat, light, and humidity. Refrigeration is not required and can actually increase moisture pickup when the container is opened in a warm room."
+sources:
+  - title: "Guidance for Industry: A Food Labeling Guide"
+    url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-food-labeling-guide"
+    publisher: "U.S. Food & Drug Administration"
+    note: "FDA's foundational labeling reference — useful when interpreting ingredient lines and serving sizes on freeze-dried fruit packs."
+  - title: "Labeling Organic Products"
+    url: "https://www.ams.usda.gov/grades-standards/organic-labeling"
+    publisher: "USDA Agricultural Marketing Service — National Organic Program"
+    note: "The federal definition for what 'organic' may and may not signal on a finished fruit pack."
+  - title: "Global Food Safety Initiative — Recognized Programs"
+    url: "https://mygfsi.com/how-to-implement/recognition/"
+    publisher: "Global Food Safety Initiative"
+    note: "Defines SQF, BRCGS, FSSC 22000 — the certifications most large freeze-dried fruit buyers require their suppliers to hold."
+  - title: "Water Activity (aw) in Foods"
+    url: "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/water-activity-aw-foods"
+    publisher: "U.S. Food & Drug Administration — Inspection Technical Guide"
+    note: "FDA's reference for how residual water activity relates to shelf stability — the engineering reason crunch holds."
 ---
 
 Freeze-dried fruit looks simple from the outside: fruit goes in, crunchy fruit comes out. But anyone who has compared a few bags knows the category varies dramatically.

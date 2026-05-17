@@ -12,6 +12,21 @@ takeaways:
   - "The best quote is the one that matches the application without hiding cost in waste, repacking, or complaint risk."
 cover_image: /images/articles/freeze-dried-fruit-landed-cost-drivers.svg
 cover_alt: "Technical cost grid showing raw fruit, yield, packaging, freight, duties, and breakage as drivers of freeze-dried fruit landed cost"
+faqs:
+  - q: "What actually drives freeze-dried fruit landed cost?"
+    a: "Landed cost is driven by six major buckets: raw fruit value, dry yield, usable yield after breakage and screening, packaging format, freight and import costs, and the buying spec itself. If a quote looks unusually low, one of those buckets is usually being carried somewhere else in the system."
+  - q: "What is the difference between dry yield and usable yield?"
+    a: "Dry yield is how much product comes out of the freeze dryer. Usable yield is how much of that product still matches the application you are paying for. A topping format may accept fragments that a premium whole-piece pouch would reject."
+  - q: "Why does the cheapest freeze-dried fruit quote often disappoint later?"
+    a: "The lowest ex-works price can hide cost in lower usable yield, broader particle-size spread, more breakage during transit, weaker packaging, and inconsistent lot behavior. Those costs appear later as write-offs, rework, margin loss, or quality arguments — not on the quote sheet."
+  - q: "Do tighter specifications always make freeze-dried fruit more expensive?"
+    a: "Tighter requirements on piece size, breakage tolerance, color, aroma, moisture, water activity, and foreign-material controls usually raise the quote. That does not automatically mean the supplier is overpriced — it may mean the quote reflects real selection, screening, and packaging discipline."
+  - q: "How does packaging affect freeze-dried fruit landed cost?"
+    a: "Pouch structure, barrier level, resealable format, bulk liner design, fill weights, case density, desiccant inclusion, and private-label complexity all shift cost. A cheaper bulk bag may not help if the buyer later has to repack, relabel, or absorb higher quality risk after opening."
+  - q: "Why is freight different for freeze-dried fruit than for other dried goods?"
+    a: "Freeze-dried fruit is light but bulky. A case is not especially heavy, yet it takes up space and can be fragile. Freight efficiency depends on how well the format uses carton and pallet volume, not just total weight."
+  - q: "How should buyers compare quotes from different suppliers?"
+    a: "Build the worksheet on common units. Record format yield assumptions, usable yield after breakage and screening, packaging and freight, duties and handling, then convert the result into cost per usable kilogram or per sellable serving. That forces the quote back into business reality."
 ---
 
 Two freeze-dried fruit quotes can look close on paper and still land at very different real costs once yield, spec tolerance, and logistics are counted. That is one reason first-time buyers sometimes approve the cheapest offer and then wonder why the product still feels expensive by the time it reaches the warehouse, line, or finished consumer pouch.

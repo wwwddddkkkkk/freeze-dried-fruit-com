@@ -3,6 +3,7 @@ title: "How Many Types of Cherries Are There? A Guide to Cherry Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-05-02
+updated: 2026-05-14
 cover_image: /images/articles/how-many-types-of-cherries-are-there.jpg
 cover_alt: "Sour cherries on a white background"
 cover_credit: "Nicubunu / CC BY-SA 3.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Sweet cherries, sour cherries, fresh-market cherries, processing cherries, ornamental cherries"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of cherries are there?"
+    a: "There are hundreds of named cherry cultivars when sweet, sour, ornamental, and regional types are included. Familiar names include Bing, Rainier, Lapins, Chelan, Sweetheart, Montmorency, Morello, and Balaton — split broadly into sweet cherries, sour cherries, fresh-market cherries, and processing cherries."
+  - q: "What's the difference between sweet and sour cherries?"
+    a: "Sweet cherries are built around fresh eating, size, color, firmness, and shipping life — typical retail fruit. Sour cherries are built around acidity, color, processing, baking, and ingredient intensity. They are almost different product languages: a beautiful sweet cherry is rarely the best cherry for filling or powder."
+  - q: "Which cherry varieties are best for freeze-drying?"
+    a: "The sweet-versus-sour split is the first specification. Sweet cherry pieces can feel premium and dessert-like, but they may taste flat if acidity is low. Tart cherries bring color and brightness but may need a blend partner. Buyers should ask sweet or tart type, pitting method, whole or half format, added sugar, and expected pit-fragment tolerance."
+  - q: "What is a Bing cherry?"
+    a: "Bing is the most familiar dark sweet cherry in U.S. fresh retail — large, firm, deep red, and sweet. It is grown heavily in the Pacific Northwest and forms a baseline against which other sweet cherries are often compared."
+  - q: "Why is Rainier cherry considered premium?"
+    a: "Rainier is a blush-fleshed sweet cherry — yellow with a red shoulder — that delivers a delicate, almost honey-like sweetness. It bruises easily and ships less reliably than Bing, which is part of why it commands a premium in fresh fruit retail."
+  - q: "What is Montmorency cherry used for?"
+    a: "Montmorency is the dominant sour cherry variety in U.S. processing, especially in Michigan. It is the cherry behind most commercial cherry pie filling, dried tart cherries, and tart-cherry juice. Its acid-forward profile and deep color make it valuable for ingredient streams that sweet cherries cannot match."
+  - q: "Why might freeze-dried cherries contain pit fragments?"
+    a: "Cherries are pitted mechanically and no commercial pitter is perfect — a small percentage of pits or pit fragments is normal. Premium suppliers define a maximum-allowable pit fragment tolerance in writing. Buyers should ask the spec rather than assume zero."
 ---
 
 Cherry sounds like one fruit, but the category splits quickly into sweet cherries, sour cherries, fresh-market fruit, baking cherries, and processing streams. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

@@ -33,5 +33,13 @@ export function buildMailto(email) {
     notes: `mailto:${hello}?subject=${enc("Join Freeze-Dried-Fruit Notes")}`,
     press: `mailto:${press}`,
     hello: `mailto:${hello}`,
+    // Pre-filled report for broken links — wired into the 404 page. The
+    // visitor's browser fills in the referring URL automatically when they
+    // click it; we just give the inbox a consistent subject line so these
+    // notes are easy to triage.
+    broken: m(hello, "Broken Link on Freeze-Dried-Fruit.com", [
+      "The link I followed:", "Where I came from (page or search):",
+      "What I was looking for:", "Anything else:",
+    ]),
   };
 }

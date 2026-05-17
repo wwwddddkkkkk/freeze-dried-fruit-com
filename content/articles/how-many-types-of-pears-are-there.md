@@ -3,6 +3,7 @@ title: "How Many Types of Pears Are There? A Guide to Pear Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-05-06
+updated: 2026-05-14
 cover_image: /images/articles/how-many-types-of-pears-are-there.jpg
 cover_alt: "Four pears on a plain background"
 cover_credit: "Rhododendrites / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "European pears, Asian pears, fresh-market pears, processing pears, heritage pears"
   - "Variety matters because fruit bred for retail, processing, juice, drying, or local eating can behave very differently."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product job, not which variety is abstractly best."
+faqs:
+  - q: "How many types of pears are there?"
+    a: "There are thousands of pear cultivars when European, Asian, heritage, and regional pears are counted. Familiar names include Bartlett, Anjou, Bosc, Comice, Seckel, Forelle, Concorde, Asian pear, and Ya pear — split broadly into European, Asian, fresh-market, processing, and heritage groups."
+  - q: "What's the difference between European and Asian pears?"
+    a: "European pears (Bartlett, Anjou, Bosc, Comice) ripen into a softer, buttery texture and develop classic pear aroma off the tree. Asian pears (Ya pear, Hosui, Nijisseiki, Shingo-type) stay crisp like an apple, are juicier, and have a cleaner, less aromatic profile."
+  - q: "Which pear varieties are best for freeze-drying?"
+    a: "Variety affects browning, graininess, aroma, and bite. Bartlett brings recognizable pear aroma. Bosc offers structure. Asian pears can produce a cleaner crisp texture. Buyers should ask variety, ripeness at cutting, peel status, anti-browning treatment, cut thickness, and whether the product is for snack pieces, powder, or inclusion."
+  - q: "What's the difference between Bartlett, Bosc, and Anjou?"
+    a: "Bartlett is aromatic and softens into a buttery texture — the most familiar processing pear. Bosc is firmer, with a spicy-honey note and structured flesh that holds shape well in cooking and slicing. Anjou is mild, reliable, and versatile — softens gently and works across many uses."
+  - q: "Why do some freeze-dried pears taste grainy?"
+    a: "Pear flesh contains stone cells (sclereids) that can read as graininess, especially in Bosc and overripe Bartlett. Slice thickness, ripeness window, and variety choice all affect how prominent the texture feels in freeze-dried pieces."
+  - q: "Why is Comice pear considered premium?"
+    a: "Comice ripens into a particularly aromatic, buttery, juicy fruit — often described as floral and dessert-like. It is fragile compared with Bosc or Anjou, ships less reliably, and commands a premium for its eating quality in fresh fruit gifting and high-end products."
+  - q: "What should buyers ask suppliers about pear variety?"
+    a: "Ask which cultivar or type, the origin, single variety or blend, ripeness at processing, peel status, cut format, anti-browning approach, and whether the input is fresh, IQF, or processing-grade. For premium products the variety should be part of the spec."
 ---
 
 Pear variety changes the whole eating experience: buttery, crisp, grainy, floral, honeyed, aromatic, or built more for processing than fresh snacking. The number can sound simple in search results, but fruit variety is rarely just a count. It is a map of regions, breeding goals, farm economics, consumer habits, processing needs, and local food culture.

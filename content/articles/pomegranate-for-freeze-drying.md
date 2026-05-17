@@ -3,6 +3,7 @@ title: "A Field Guide to Pomegranate for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-14
 cover_image: /images/articles/pomegranate-for-freeze-drying.jpg
 cover_alt: "An opened pomegranate showing red arils"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Seed texture is unavoidable and must fit the intended use."
   - "Color and tartness are major value drivers."
   - "Powder and broken arils can be more practical than perfect whole arils for many applications."
+faqs:
+  - q: "What are arils in freeze-dried pomegranate?"
+    a: "Arils are the individual seed-bearing jewels inside a pomegranate — juice sacs that surround small seeds. Freeze-dried pomegranate is almost always sold as arils (whole, broken, or powdered), not as whole-fruit flesh. The aril is the entire edible product."
+  - q: "Why do the seeds in freeze-dried pomegranate feel hard?"
+    a: "Freeze-drying removes water from the juice sac that surrounds each seed but leaves the seed itself intact. That means the finished aril is vivid and tart, but the bite includes a hard inner seed. This is the fruit's natural structure — whether it reads as feature or flaw depends on the application."
+  - q: "Should freeze-dried pomegranate be whole arils, broken, or powder?"
+    a: "Whole arils look jewel-like and premium — best for yogurt bowl toppings, dessert boards, and snack accents. Broken arils offer the same color and acid at lower cost — well-suited to granola, chocolate inclusions, and cereal. Pomegranate powder concentrates color and tartness for drinks, coatings, and fillings."
+  - q: "What's the best use case for freeze-dried pomegranate?"
+    a: "Accent use — yogurt bowls, premium granola, chocolate, dessert toppings, and drink powders. A small amount of pomegranate makes a blend feel much more expensive. Large solo servings are less practical because the hard seed texture becomes tiring."
+  - q: "What quality signals matter in freeze-dried pomegranate?"
+    a: "Deep ruby color without brown dullness; clear tart fruit aroma; seed texture that does not feel stale or woody; low sticky clumping; and powder level that matches the format. If the bag promises arils, buyers should see recognizable pieces rather than mostly dust."
+  - q: "Are freeze-dried pomegranate arils real arils or reconstituted?"
+    a: "Most commercial freeze-dried pomegranate is genuine arils dried under vacuum. Some powder products are juice-derived (concentrated pomegranate juice spray-dried with a carrier), which is a different ingredient entirely. The label should distinguish between aril-based and juice-derived products."
+  - q: "What should buyers ask freeze-dried pomegranate suppliers?"
+    a: "Ask whether the input is fresh arils, frozen arils, juice-derived material, or powder stream; aril color grade; seed hardness; origin; added sugar or carrier ingredients; expected whole-aril percentage; and breakage tolerance after shipping."
 ---
 
 Pomegranate is visually powerful, tart, and premium-coded, but freeze-dried pomegranate depends on how the arils are handled. For freeze-dried fruit buyers, pomegranate is not just a flavor name. It is a set of decisions about raw material, cutting, drying behavior, sensory quality, packaging, and where the finished fruit actually belongs.

@@ -23,6 +23,19 @@ faqs:
     a: "Sometimes indirectly. Very collapsed pieces, inconsistent crunch, unusual breakage, or dense centers can all point to upstream freezing and structure issues, though they are not proof on their own."
   - q: "What should buyers ask suppliers about pre-freezing?"
     a: "Ask whether the fruit is frozen in-house or sourced frozen, how piece thickness is controlled, whether freezing is batch or continuous, and how the supplier connects freezing conditions to the final texture target."
+sources:
+  - title: "Ice Crystal Formation in Freezing of Foods"
+    url: "https://ift.onlinelibrary.wiley.com/doi/10.1111/j.1750-3841.2010.01931.x"
+    publisher: "Institute of Food Technologists — Journal of Food Science"
+    note: "Peer-reviewed reference on freezing rate, ice nucleation, and resulting crystal morphology in plant tissue."
+  - title: "Recommendations for the Processing & Handling of Frozen Foods"
+    url: "https://iifiir.org/en/fridoc/recommendations-for-the-processing-and-handling-of-frozen-foods-fifth-30015"
+    publisher: "International Institute of Refrigeration"
+    note: "Reference handbook on freezing curves and how they affect downstream product structure."
+  - title: "Frozen Food Manual — USDA Guide"
+    url: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety"
+    publisher: "USDA Food Safety & Inspection Service"
+    note: "USDA reference on safe freezing practices for raw fruit before processing."
 ---
 
 Freeze-drying does not start when the chamber warms up. Texture is already being shaped when the fruit is first frozen.

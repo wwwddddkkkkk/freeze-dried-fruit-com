@@ -3,6 +3,7 @@ title: "How Many Types of Durians Are There? A Guide to Durian Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-23
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-durians-are-there.jpg
 cover_alt: "Durian fruit stacked on a table"
 cover_credit: "Heru Irawan / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "Sweet, bitter-sweet, creamy, fibrous, export-friendly, fresh premium, frozen pulp, processing types"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of durians are there?"
+    a: "Many named durian cultivars exist across Southeast Asia, with Malaysia, Thailand, Indonesia, and the Philippines using different naming systems. Familiar names include Musang King, Monthong, D24, Black Thorn, Red Prawn, Chanee, Kanyao, and XO — split into sweet, bitter-sweet, creamy, fibrous, export-friendly, premium, and processing types."
+  - q: "What's the difference between Musang King and Monthong?"
+    a: "Musang King is a premium Malaysian cultivar with intense bitter-sweet complexity, bright yellow flesh, and luxury market positioning. Monthong (Golden Pillow) is the dominant Thai export cultivar — milder, sweeter, larger, with longer shelf life, designed for global shipping. Musang King commands much higher pricing; Monthong dominates commodity supply."
+  - q: "What is D24 durian?"
+    a: "D24 is a classic Malaysian cultivar with balanced sweet-bitter flavor and creamy texture — historically the standard against which Musang King was later measured. It sits between Monthong's mass-market mildness and Musang King's premium intensity, with a devoted following in Singapore and Malaysia."
+  - q: "Which durian cultivar is best for freeze-drying?"
+    a: "Cultivar identity matters more for freeze-dried durian than for almost any other fruit because aroma, fat-like creaminess, bitterness, and sweetness all concentrate after drying. Buyers should ask cultivar, origin, pulp grade, seed removal, frozen or fresh input, packaging barrier, odor control, and whether the product is chunks, powder, pulp pieces, or formulated filling."
+  - q: "What is Black Thorn durian?"
+    a: "Black Thorn is a high-end Malaysian cultivar that gained prestige in the 2010s — orange-tinted flesh, intense bitter-sweet flavor, custard texture. It rivals Musang King at the top of the premium market. Both Musang King and Black Thorn require documented cultivar sourcing because inferior fruit is often sold under premium cultivar names."
+  - q: "Where are durians grown commercially?"
+    a: "Thailand is the largest exporter (Monthong dominates). Malaysia produces premium Musang King, D24, Black Thorn, Red Prawn, and XO. Indonesia, Philippines, and Vietnam grow regional cultivars. China is now planting durian commercially. Export rules vary — fresh durian export is restricted from some origins, which is why frozen pulp and freeze-dried product dominate international markets."
+  - q: "What should buyers ask freeze-dried durian suppliers?"
+    a: "Ask cultivar (Musang King, Monthong, D24, Black Thorn, etc.) with documentation, origin, raw material state (fresh pulp, frozen pulp, processed), seed removal, packaging barrier and odor-containment plan, target moisture or water activity, and the intended product positioning."
 ---
 
 Durian variety is not a minor detail. It can change aroma, bitterness, sweetness, color, texture, price, and whether the fruit is treated as everyday food or luxury fruit. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

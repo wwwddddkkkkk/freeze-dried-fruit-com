@@ -3,6 +3,7 @@ title: "A Field Guide to Lemons for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-14
 cover_image: /images/articles/lemon-for-freeze-drying.jpg
 cover_alt: "A whole and split lemon"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Acidity and peel aroma can lift blends, dairy, tea, confectionery, and bakery products."
   - "Bitterness control is the central quality issue."
   - "Powder, slices, and zest-containing pieces should be judged as separate formats."
+faqs:
+  - q: "Is freeze-dried lemon a snack or an ingredient?"
+    a: "Lemon is almost always an ingredient fruit, not a standalone sweet snack. Its job is to sharpen, brighten, and make sweeter fruits taste more structured. Slices appear in tea kits and cocktail garnishes; powder appears in seasonings, drink mixes, and bakery. Plain lemon as a casual snacking fruit rarely works."
+  - q: "Why is bitterness control so important for freeze-dried lemon?"
+    a: "Lemon peel and pith carry naringin-style bitter compounds. Freeze-drying can preserve clean citrus aroma, but pith and peel oil may become bitter or medicinal if the format includes too much. The best lemon products are designed around use case — slices for tea, powder for formulation, zest for aroma — with bitterness controlled at the cut, not after drying."
+  - q: "Should freeze-dried lemon include the peel?"
+    a: "It depends on the format. Slices typically include peel for visual identity in tea and cocktail applications. Lemon powder often excludes peel to keep flavor cleaner. Lemon zest is sold as a separate ingredient where aromatic peel oils are the point. Each format requires a different peel and pith strategy."
+  - q: "What's the difference between freeze-dried lemon slices and powder?"
+    a: "Slices preserve visual identity for tea, cocktails, garnish kits, and decorative use — peel is usually included. Powder concentrates lemon acid and color for use in seasonings, coatings, drinks, and bakery — peel typically excluded for cleaner flavor. They serve completely different applications."
+  - q: "What use cases fit freeze-dried lemon best?"
+    a: "Tea kits, drink mixes, functional ingredient blends, yogurt toppings, bakery, and confectionery. Lemon is rarely best as a solo snack. Pair it with sweeter freeze-dried fruits when used in mixes to balance the acidity rather than dominate."
+  - q: "Why doesn't freeze-dried lemon work well in straight fruit snack mixes?"
+    a: "Lemon is too acidic and too aromatic to be a peer with strawberry, mango, or pineapple in a snack mix — it dominates rather than complements. Mixes that include lemon typically position it as a flavor accent at low inclusion rates, not as one of the main fruits."
+  - q: "What should buyers ask freeze-dried lemon suppliers?"
+    a: "Ask whether the input includes peel, pith, juice, pulp, or whole slices; variety (Meyer, Eureka, Lisbon, etc.); origin; seed removal; added carriers; anti-caking strategy for powder; and target use case (tea, beverage, seasoning, or bakery). Powder without a carrier can be powerful but moisture-sensitive."
 ---
 
 Lemon is rarely a casual snack fruit, but it is one of the most useful freeze-dried ingredients. For freeze-dried fruit buyers, lemon is not just a flavor name. It is a set of decisions about raw material, cutting, drying behavior, sensory quality, packaging, and where the finished fruit actually belongs.

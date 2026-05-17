@@ -2,6 +2,7 @@
 title: "Water Activity vs Moisture Content in Freeze-Dried Fruit"
 category: "Technology"
 date: 2026-05-10
+updated: 2026-05-13
 read: "6 min read"
 summary: "Moisture content tells you how much water remains. Water activity tells you how available that water is. Buyers need both to judge freeze-dried fruit quality."
 intro: "Freeze-dried fruit quality is often described with one word: dry. In practice, buyers need a more precise vocabulary."
@@ -12,6 +13,38 @@ takeaways:
   - "Serious suppliers should be able to explain their target ranges and testing method."
 cover_image: /images/articles/water-activity-vs-moisture-content.svg
 cover_alt: "Technical diagram comparing moisture content and water activity in freeze-dried fruit"
+faqs:
+  - q: "What's the difference between moisture content and water activity?"
+    a: "Moisture content measures how much water is in the product. Water activity measures how *available* that water is. Moisture content helps describe the drying result; water activity helps describe how the fruit may behave during storage."
+  - q: "Why can two freeze-dried fruit samples with the same moisture behave differently?"
+    a: "Several factors can change behavior at the same moisture reading: fruit variety and structure, sugar and acid composition, piece thickness, drying cycle and endpoint, packaging barrier, desiccant strategy, and storage humidity before testing. Water activity helps explain whether the remaining water is more or less available."
+  - q: "Which matters more — moisture content or water activity?"
+    a: "Neither is enough on its own. Moisture content describes the drying result. Water activity is more connected to storage behavior. Serious freeze-dried fruit quality conversations include both numbers."
+  - q: "What does water activity (aw) actually mean?"
+    a: "Water activity is reported on a scale from 0 to 1. Pure water sits near 1, and very dry foods sit much lower. The number indicates how available the water inside the food structure is — not how much water there is."
+  - q: "Is the lowest possible moisture always best?"
+    a: "No. Extremely dry products can become fragile, dusty, or costly to produce. The goal is a controlled range that matches the fruit, format, packaging, and intended use — not the lowest number for its own sake."
+  - q: "How does water activity relate to freeze-dried fruit crunch?"
+    a: "Crunch is a visible sign of process control. When freeze-dried fruit loses crunch, the issue is often moisture pickup or water availability changing after production. The right question is not *is it dry*, but *what moisture and water activity range protects the texture we are buying?*"
+  - q: "What should buyers ask a supplier about moisture and water activity?"
+    a: "Ask for the target moisture range, the target water activity range, the test method or instrument, when samples are tested after production, how packaging is validated, and whether shelf-life testing includes texture checks."
+sources:
+  - title: "Water Activity (aw) in Foods"
+    url: "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/water-activity-aw-foods"
+    publisher: "U.S. Food & Drug Administration — Inspection Technical Guide"
+    note: "FDA's primary reference for how water activity controls microbial and chemical stability in finished foods."
+  - title: "Bad Bug Book — Approximate Water Activity Values of Selected Foods"
+    url: "https://www.fda.gov/food/foodborne-pathogens/bad-bug-book-second-edition"
+    publisher: "U.S. Food & Drug Administration"
+    note: "Aw thresholds for pathogen growth — the basis for why shelf-stable dried fruit targets aw below 0.6."
+  - title: "Compliance Guidelines for Shelf-Stable Dried Meat & Poultry Products"
+    url: "https://www.fsis.usda.gov/guidelines/2014-0007"
+    publisher: "USDA Food Safety & Inspection Service"
+    note: "Although focused on meat, the moisture/aw control framework is the reference USDA cites for shelf-stable dried foods broadly."
+  - title: "AOAC Official Method 925.45 — Moisture in Sugars"
+    url: "https://www.aoac.org/official-methods-of-analysis/"
+    publisher: "AOAC International"
+    note: "The lab method most freeze-dried fruit suppliers reference when reporting finished moisture content."
 ---
 
 Freeze-dried fruit quality is often described with one word: dry. In practice, buyers need a more precise vocabulary. A product can feel dry, test low in moisture, and still perform poorly if the remaining water is available enough to soften texture, support quality loss, or react with sensitive ingredients.

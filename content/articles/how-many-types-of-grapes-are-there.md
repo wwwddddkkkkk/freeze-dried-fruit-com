@@ -3,6 +3,7 @@ title: "How Many Types of Grapes Are There? A Guide to Grape Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-05-05
+updated: 2026-05-14
 cover_image: /images/articles/how-many-types-of-grapes-are-there.jpg
 cover_alt: "A close-up cluster of grapes"
 cover_credit: "Shalini krishnan / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "Table grapes, wine grapes, raisin grapes, juice grapes, processing grapes"
   - "Variety matters because fruit bred for retail, processing, juice, drying, or local eating can behave very differently."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product job, not which variety is abstractly best."
+faqs:
+  - q: "How many types of grapes are there?"
+    a: "Thousands of grape varieties exist, especially when wine grapes and regional cultivars are included. Familiar names include Thompson Seedless, Flame Seedless, Cotton Candy, Concord, Muscat, Cabernet Sauvignon, and Chardonnay — split into table grapes, wine grapes, raisin grapes, juice grapes, and processing grapes."
+  - q: "What's the difference between table grapes and wine grapes?"
+    a: "Table grapes are bred for crunch, visual appeal, sweetness, and shipping — usually seedless, with thinner skin. Wine grapes are smaller, seedy, and often more intense, with skin and tannins selected for fermentation. Calling them both *grapes* is accurate but not very useful for product development."
+  - q: "Which grape varieties are best for freeze-drying?"
+    a: "Skin behavior matters because grape skin can slow drying and create chew. Seedless table grapes are easier to position but may not be flavor-dense. Concord-type grapes bring stronger aroma and color but behave differently from supermarket grapes. Buyers should ask seedless status, variety, Brix, skin behavior, cut format, and whether the product is whole, halved, powder, or inclusion."
+  - q: "Why are Concord grapes different from supermarket grapes?"
+    a: "Concord is an American grape type (Vitis labrusca lineage) with a distinctive deep purple color and the bold, foxy aroma that defines U.S. grape juice and jelly. Supermarket table grapes are typically European-lineage (Vitis vinifera) cultivars selected for crunch and milder flavor — they sit in a completely different flavor language."
+  - q: "What's a Cotton Candy grape?"
+    a: "Cotton Candy is a flavor-branded seedless table grape selected through conventional breeding to produce a notably sweet, vanilla-spun-sugar aroma. It is one of several flavor-led novelty grape varieties — others include Moon Drops and Gum Drop types."
+  - q: "What is Thompson Seedless used for?"
+    a: "Thompson Seedless is one of the most widely planted grape varieties globally. It is the dominant raisin grape because it dries well, and it also serves as a major fresh table grape and a foundation cultivar for many seedless table-grape breeding programs."
+  - q: "Why do freeze-dried grapes sometimes feel chewy?"
+    a: "Grape skin slows water removal during drying. If pieces are dried whole, the interior can finish while the skin still holds moisture or contracts unevenly, producing a chewier bite. Halving or scoring grapes before freezing usually improves the finished texture."
 ---
 
 There are thousands of grape varieties, but the grapes used for fresh snacking, raisins, wine, juice, and ingredients are often completely different fruits in practical terms. The number can sound simple in search results, but fruit variety is rarely just a count. It is a map of regions, breeding goals, farm economics, consumer habits, processing needs, and local food culture.

@@ -3,6 +3,7 @@ title: "How Many Types of Mangosteens Are There? A Guide to Mangosteen Varieties
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-12
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-mangosteens-are-there.jpg
 cover_alt: "Opened mangosteen fruit showing white segments and purple rind"
 cover_credit: "Basile Morin / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Mangosteen variety names are less visible than mango or apple names because export supply is usually sold by origin, grade, and season rather than cultivar."
   - "For freeze-dried mangosteen, edible yield, seed size, segment integrity, and aroma retention matter more than variety romance."
   - "The category is best understood as a premium tropical discovery fruit, not a standardized commodity."
+faqs:
+  - q: "How many types of mangosteens are there?"
+    a: "Purple mangosteen (Garcinia mangostana) is the dominant commercial fruit. Behind it sits a wider Garcinia family including yellow mangosteen, button mangosteen, achachairu, and other related species — locally important but rarely seen in global retail trade. There is no clean cultivar count because export supply is sold mostly by origin and grade rather than named variety."
+  - q: "What's the difference between purple mangosteen and yellow mangosteen?"
+    a: "Purple mangosteen is the familiar dessert fruit — white-segmented flesh, sweet acidity, delicate floral tropical finish. Yellow mangosteen (a related Garcinia species) is more acidic, less dessert-like, and culturally important in some regions for preserves and culinary uses. Despite the shared name, they read as different fruits in eating experience."
+  - q: "Why don't mangosteen packages name cultivars?"
+    a: "Mangosteen cultivar naming is far less developed than for mango or apple because the supply chain is already difficult — seasonality, rind waste, origin variation, and labor all matter. For buyers, more useful questions are origin, edible-yield percentage, seed tolerance, segment size, and whether the product is whole segments, partial segments, pieces, or powder."
+  - q: "Which mangosteen variety is best for freeze-drying?"
+    a: "Variety matters less than handling discipline. The best freeze-dried mangosteen lots keep the white segment identity intact, preserve the delicate aroma, and minimize seed intrusion in snack formats. Poor lots become broken, seed-heavy, or quietly sweet without much personality. Origin and processing care matter more than cultivar branding."
+  - q: "What is achachairu?"
+    a: "Achachairu (Garcinia humilis) is a Bolivian Garcinia relative — smaller than mangosteen, with a similar floral-acidic flavor profile. It is grown commercially in small volumes in Bolivia and Australia, primarily for fresh markets, and is part of the expanding *specialty Garcinia* category but not a substitute for classic mangosteen in freeze-dried products."
+  - q: "Where is mangosteen grown commercially?"
+    a: "Southeast Asia dominates: Thailand, Indonesia, Malaysia, Philippines, and Vietnam are the major producing countries (mangosteen's native range). Smaller volumes come from India, parts of Latin America, tropical Australia, and Hawaii. Season is short and origin-specific."
+  - q: "What should buyers ask freeze-dried mangosteen suppliers?"
+    a: "Ask origin, harvest window, edible yield, seed-presence tolerance, segment integrity (whole vs broken), raw material state, cut format, target moisture or water activity, expected breakage rate, and whether the supplier can support the volume and seasonal cadence the buyer's product launch needs."
 ---
 
 Mangosteen looks like a single luxury fruit, but behind the purple shell is a wider story of Garcinia species, local selections, and difficult commercial sourcing.

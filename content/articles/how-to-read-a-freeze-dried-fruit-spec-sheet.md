@@ -23,6 +23,28 @@ faqs:
     a: "Vague wording such as premium quality, minimal breakage, or standard moisture without definitions or numeric ranges usually means the buyer still has room for disagreement later."
   - q: "Does the packaging line on a spec sheet matter?"
     a: "Yes. Freeze-dried fruit is sensitive to humidity and crush damage, so the pouch or bulk format is part of the product performance, not just a shipping detail."
+howto:
+  name: "How to read a freeze-dried fruit spec sheet"
+  description: "A six-section reading order that helps buyers extract real product behavior from a freeze-dried fruit specification sheet before signing a quote."
+  steps:
+    - name: "Verify product identity is precise, not generic"
+      text: "Confirm the fruit, variety where stated, form (whole, slice, dice, powder), and any blend or inclusion. 'Freeze-dried strawberry' and 'freeze-dried Albion strawberry slice' are very different buying decisions."
+      url: "#1-product-identity-should-be-precise"
+    - name: "Read the ingredient line, not just the product name"
+      text: "Plain fruit and a sweetened or fortified fruit are not the same product. Check for added sugar, syrups, maltodextrin, starches, citric acid, and natural flavor before comparing prices."
+      url: "#2-ingredients-explain-what-product-you-are-really-comparing"
+    - name: "Put moisture and water activity numbers in context"
+      text: "Ask for the target range, the test method, when samples are tested after production, and how packaging is validated. A single moisture percentage without context is incomplete."
+      url: "#3-moisture-numbers-need-context"
+    - name: "Read size distribution and breakage tolerance together"
+      text: "Size distribution and broken-piece percentage define what the bag will actually look like. A tight 8–14 mm distribution with under 5% fines is a very different product from a 4–18 mm spread with 20% fines."
+      url: "#4-size-and-breakage-define-what-the-bag-will-look-like"
+    - name: "Decode the raw-material and origin notes"
+      text: "Is the input fresh or IQF? Is the origin fixed, seasonal, or blended? Are varieties named? These lines change cost, consistency, and label language — they should not be vague."
+      url: "#5-raw-material-and-origin-notes-change-the-meaning-of-the-quote"
+    - name: "Treat packaging as part of the spec, not a shipping detail"
+      text: "Pouch structure, barrier film, seal type, headspace, and desiccant strategy all shape how the product performs from factory to opened pack. Packaging belongs in the quality conversation."
+      url: "#6-packaging-belongs-in-the-quality-conversation"
 ---
 
 A spec sheet is where freeze-dried fruit stops being a vague sample and becomes a product with measurable expectations.

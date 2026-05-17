@@ -3,6 +3,7 @@ title: "How Many Types of Grapefruit Are There? A Guide to Grapefruit Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-28
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-grapefruit-are-there.jpg
 cover_alt: "Whole, halved, and segmented grapefruits"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "White grapefruit, pink grapefruit, red grapefruit, low-acid hybrids, pomelo relatives"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of grapefruit are there?"
+    a: "Grapefruit varieties are fewer than apples or mangoes, but color and bitterness create meaningful differences. Familiar names include Duncan, Marsh, Ruby Red, Star Ruby, Rio Red, Flame, Oro Blanco, and Melogold — split into white, pink, red, low-acid hybrids, and pomelo relatives."
+  - q: "What's the difference between Ruby Red, Star Ruby, and Rio Red grapefruit?"
+    a: "All three are red-fleshed grapefruit cultivars but with different color intensity. Ruby Red was the original commercial red grapefruit (the Texas grapefruit industry was built on it). Star Ruby and Rio Red are deeper-pigmented sports developed later — they deliver more dramatic visual color and somewhat softer bitterness than original Ruby Red."
+  - q: "Are white grapefruit and red grapefruit really different fruits?"
+    a: "They are different cultivars of the same species (Citrus paradisi). White grapefruit (Duncan, Marsh) tend to be sharper and more bitter. Red and pink grapefruit (Ruby Red, Star Ruby, Rio Red) are visually softer and read sweeter even when acidity stays similar. Red grapefruit became commercially dominant partly because color makes the bitterness feel less aggressive."
+  - q: "What is Oro Blanco?"
+    a: "Oro Blanco is a low-acid pomelo-grapefruit hybrid developed in California. It carries the size of a grapefruit with milder, sweeter, less bitter flavor — closer to a sweet pomelo than to classic grapefruit. Melogold is a similar low-acid hybrid. Both work well for consumers who want grapefruit's size without the sharp edge."
+  - q: "Which grapefruit variety is best for freeze-drying?"
+    a: "Variety affects color, bitterness, and use case. White grapefruit may be too sharp for casual snacking but useful in powders or adult blends. Red grapefruit (Star Ruby, Rio Red) carries the strongest visual appeal. Oro Blanco-style fruit is gentler but reads less classically *grapefruit*. Buyers should ask flesh color, segment format, peel or pith inclusion, and intended use."
+  - q: "Where is grapefruit grown commercially?"
+    a: "Florida and Texas dominate U.S. grapefruit production — Ruby Red, Rio Red, Star Ruby for Texas; white and red types for Florida. Major export production also comes from the Mediterranean (Spain, Israel, Turkey) and South Africa. California and Arizona produce specialty citrus including Oro Blanco and Melogold."
+  - q: "What should buyers ask freeze-dried grapefruit suppliers?"
+    a: "Ask variety (white, pink, ruby, red, Oro Blanco), origin, raw material state, cut format (segments, powder, peel/zest), membrane and pith handling, added sugar or carrier, expected bitterness level, target moisture or water activity, and the intended product positioning (snack, adult drink mix, culinary garnish)."
 ---
 
 Grapefruit varieties are usually grouped by flesh color and bitterness: white, pink, red, ruby, and sweeter pomelo-like relatives. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

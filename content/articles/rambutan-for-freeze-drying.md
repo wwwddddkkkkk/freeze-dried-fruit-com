@@ -3,6 +3,7 @@ title: "A Field Guide to Rambutan for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-15
 cover_image: /images/articles/rambutan-for-freeze-drying.jpg
 cover_alt: "Rambutan fruits for sale"
 cover_credit: "Bigul Malayi / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "The flesh can taste lychee-like but often milder and more grape-like."
   - "Seed membrane adhesion can create texture defects."
   - "It is best positioned as a specialty tropical fruit, not a commodity ingredient."
+faqs:
+  - q: "What does freeze-dried rambutan taste like?"
+    a: "Light, floral, grape-like — milder than lychee and warmer than longan. The flesh is translucent and juicy when fresh, and freeze-drying preserves a gentle sweetness with subtle tropical character. The distinctive hairy red peel is removed before processing, so the eating experience focuses entirely on the white interior flesh."
+  - q: "What's the difference between rambutan and lychee?"
+    a: "Both are related Sapindaceae fruits with translucent flesh wrapped around a hard seed. Rambutan has the dramatic hairy red peel (the name means *hairy* in Malay); lychee has a rougher pink-red peel. Flavor-wise rambutan is usually milder and more grape-like, while lychee is more floral and aromatic. Processing logic is similar."
+  - q: "Why is the seed membrane in rambutan a quality concern?"
+    a: "In some varieties the seed clings to the flesh, leaving a thin papery membrane attached when the seed is removed. Freeze-drying makes this membrane more obvious as a texture defect. Premium rambutan products use varieties where seed-flesh separation is clean, or invest in tighter post-pitting inspection."
+  - q: "What's wrong with freeze-dried rambutan made from syrup-packed fruit?"
+    a: "Canned or syrup-packed rambutan is a different starting material — sweetened, softer, often with reduced original aroma. Freeze-drying that material produces a sweeter, less authentic finished product than working with fresh or IQF rambutan. The label should disclose the input source so buyers can compare like with like."
+  - q: "What's the best format for freeze-dried rambutan?"
+    a: "Whole peeled rambutan is the recognizable specialty form for premium tropical packs — seed membrane risk and cost are the trade-offs. Halves dry better and allow visual inspection but lose some of the dramatic identity. Rambutan powder delivers a mild sweet tropical note for drinks and fillings. Rambutan-lychee blends create familiar comparison but identity blurs."
+  - q: "Is freeze-dried rambutan a mass-market ingredient?"
+    a: "No. The flavor is gentle, the processing cost is high (peel + seed removal), and consumer recognition is limited outside Southeast Asia. Rambutan works as a specialty tropical addition, gift assortment component, or discovery snack — not as a commodity ingredient for low-cost mass-market mixes."
+  - q: "What should buyers ask freeze-dried rambutan suppliers?"
+    a: "Ask raw material state (fresh, IQF, or syrup-packed), origin (Thailand, Vietnam, Indonesia, Malaysia), seed-membrane control practice, added sugar status, cut format (whole, halved, pieces), target moisture or water activity, expected breakage rate, and the intended product positioning."
 ---
 
 Rambutan has the visual drama of its hairy red peel, but freeze-dried buyers mostly care about the peeled flesh inside. For freeze-dried fruit buyers, rambutan is not just a flavor name. It is a set of decisions about raw material, cutting, drying behavior, sensory quality, packaging, and where the finished fruit actually belongs.

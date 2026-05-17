@@ -3,6 +3,7 @@ title: "A Field Guide to Longan for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-15
 cover_image: /images/articles/longan-for-freeze-drying.jpg
 cover_alt: "A cluster of longan fruit on the branch"
 cover_credit: "Raju Alam / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "The fruit has a delicate floral sweetness that can disappear if raw quality is weak."
   - "Freeze-dried longan is different from traditional dried longan and should be positioned that way."
   - "It works well in tea, dessert, and premium Asian-market snack contexts."
+faqs:
+  - q: "What's the difference between longan and lychee in freeze-dried form?"
+    a: "Both have translucent flesh wrapped around a hard seed, and both require peel and seed removal. Lychee tends to be more floral and aromatic; longan is warmer, softer, and more tea-like — sometimes described as honeyed. They share processing logic but offer different finished flavor profiles."
+  - q: "What does freeze-dried longan taste like?"
+    a: "Floral, gently sweet, with a tea-like warmth. Quieter than lychee, more honeyed than rambutan. Good freeze-dried longan preserves a recognizable longan character; weak raw material produces something that tastes generically sweet but loses the distinctive aroma that justifies the fruit's premium positioning."
+  - q: "What's the best format for freeze-dried longan?"
+    a: "Whole peeled longan feels premium and recognizable for specialty snacks and tea kits — seed removal cost and fragility are the trade-offs. Halved longan dries more easily and suits dessert toppings and blends. Longan powder concentrates the warm sweet note for drinks and fillings. Longan-lychee blends create an elegant tropical profile but the two aromas can compete."
+  - q: "What's the difference between freeze-dried longan and traditional dried longan?"
+    a: "Traditional dried longan (often called dragon eye in English) is sun-dried or heat-dried, producing chewy, dark, intensely sweet pieces with caramelized notes — used in Chinese soups, teas, and traditional medicine. Freeze-dried longan is dried under vacuum at low temperature, producing crisp lighter pieces that read closer to fresh fruit."
+  - q: "Why does freeze-dried longan require seed removal?"
+    a: "Each longan contains a single firm, inedible seed. Including the seed makes the product impossible to eat conveniently. Seed removal is labor-intensive (especially because the flesh is delicate), which is why freeze-dried longan tends to sit at premium price points relative to fruits like banana where minimal preparation is required."
+  - q: "Where is freeze-dried longan sourced commercially?"
+    a: "Production is tied to Asian growing regions — China (especially Fujian and Guangdong provinces), Thailand, Vietnam, and Taiwan. Season is short, and Western supply chains for fresh or IQF longan are smaller than for mango or pineapple. Premium products typically specify origin and harvest window."
+  - q: "What should buyers ask freeze-dried longan suppliers?"
+    a: "Ask origin (China, Thailand, Vietnam, etc.), variety, raw material state (fresh, IQF, or reworked from traditional dried), seed-removal completeness, size grade, peel residue tolerance, target moisture or water activity, and the intended product positioning (snack pack, tea blend, dessert ingredient, or premium gift assortment)."
 ---
 
 Longan sits in the same mental neighborhood as lychee, but its flavor is warmer, softer, and more tea-like. For freeze-dried fruit buyers, longan is not just a flavor name. It is a set of decisions about raw material, cutting, drying behavior, sensory quality, packaging, and where the finished fruit actually belongs.

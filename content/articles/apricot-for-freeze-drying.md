@@ -3,6 +3,7 @@ title: "A Field Guide to Apricots for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-14
 cover_image: /images/articles/apricot-for-freeze-drying.jpg
 cover_alt: "Fresh apricots grouped together"
 cover_credit: "Fir0002 / CC BY-SA 3.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Soft flesh and browning make handling and pre-treatment important."
   - "Freeze-dried apricot can work as both snack fruit and ingredient accent."
   - "Buyers should ask about variety, sulfite or anti-browning treatment, cut format, and color target."
+faqs:
+  - q: "Why is color protection so important for freeze-dried apricot?"
+    a: "Apricot can brown or darken quickly if raw material and processing are not controlled. Color is one of the strongest visual signals buyers and consumers use to judge apricot quality — a bright orange piece reads as fresh, a dull brown piece reads as old. Pre-treatment, intake speed, and oxygen exposure all influence the result."
+  - q: "Does freeze-dried apricot use sulfur dioxide like traditional dried apricot?"
+    a: "Traditional dried apricots often rely on sulfur dioxide treatment for bright orange color. Freeze-dried apricot processors take different approaches — some use sulfites, some use ascorbic-acid-based anti-browning, some rely on intake speed and packaging alone. Buyers should ask whether any treatment is used and how it fits the label strategy."
+  - q: "What's the difference between freeze-dried and traditional dried apricot?"
+    a: "Traditional dried apricot is air-dried with heat, producing a chewy, concentrated, slightly caramelized product. Freeze-dried apricot is dried under vacuum at low temperature, producing a light, crisp piece that reads closer to fresh fruit. Same fruit, very different finished products."
+  - q: "What's the best format for freeze-dried apricot?"
+    a: "Halves look premium and recognizable but are fragile and uneven. Slices are bright and tart-sweet, the most common snack format. Dices are practical for bakery and cereal inclusions. Powder concentrates the strong fruit-acid note for fillings, coatings, and beverages."
+  - q: "Why does apricot sit between peach and traditional dried fruit?"
+    a: "Apricot carries useful acidity and a distinctive stone-fruit aroma — it can taste more grown-up than peach because the flavor leans tart and aromatic. Consumers know dried apricot as a traditional product, so freeze-dried apricot benefits from positioning that distinguishes the crisp, fresh-like result from familiar chewy dried apricot."
+  - q: "What quality signals matter in freeze-dried apricot?"
+    a: "Orange to golden color appropriate to the variety; tart-sweet apricot aroma; crisp or light texture without sticky centers; clean cut edges for slices or dices; and no hidden sweetening or treatment that conflicts with the label."
+  - q: "What should buyers ask freeze-dried apricot suppliers?"
+    a: "Ask variety or type, origin, fresh vs frozen raw material, anti-browning treatment (sulfites or otherwise), cut format, target moisture or water activity, color target, expected breakage rate, and the best-use application the supplier designed for."
 ---
 
 Apricot sits between peach familiarity and dried-fruit tradition, which makes freeze-dried apricot especially interesting. For freeze-dried fruit buyers, apricot is not just a flavor name. It is a practical set of decisions about raw material, cut format, texture, aroma, moisture control, breakage, and where the fruit belongs in a finished product.

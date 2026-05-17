@@ -3,6 +3,7 @@ title: "How Many Types of Blueberries Are There? A Guide to Blueberry Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-05-08
+updated: 2026-05-14
 cover_image: /images/articles/how-many-types-of-blueberries-are-there.jpg
 cover_alt: "Fresh blueberries in a clear plastic pack"
 cover_credit: "Evan-Amos / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "Fresh-market berries, processing berries, wild berries, cultivated berries"
   - "Variety matters because fruit bred for retail, processing, juice, drying, or local eating can behave very differently."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product job, not which variety is abstractly best."
+faqs:
+  - q: "How many types of blueberries are there?"
+    a: "Blueberries are usually grouped by type first, then cultivar — highbush, lowbush, rabbiteye, and hybrids — with named cultivars including Duke, Bluecrop, Elliott, Legacy, Draper, Aurora, Biloxi, and Jewel. The practical number depends on whether you count botanical groups, named cultivars, or the small group that actually appears in retail and ingredient supply."
+  - q: "What's the difference between highbush, lowbush, and rabbiteye blueberries?"
+    a: "Highbush blueberries are the cultivated berries most familiar in supermarkets. Lowbush blueberries are smaller, mostly wild, and especially associated with Maine and eastern Canada — flavor-dense and high in pigment. Rabbiteye blueberries are warm-climate types grown across the U.S. South."
+  - q: "Are wild blueberries different from cultivated blueberries?"
+    a: "Yes. Wild lowbush berries are smaller but can carry stronger color and flavor intensity per piece. Large cultivated highbush berries look more premium in fresh retail, but ingredient buyers often value the smaller wild berries for color, anthocyanin intensity, and flavor concentration in powders and dried formats."
+  - q: "Which blueberry varieties are best for freeze-drying?"
+    a: "Variety matters because skin and size affect drying. Whole large berries can dry slowly and sometimes become tough. Smaller berries may provide stronger flavor and color but produce more powder and piece variation. Processing-focused small berries often outperform large fresh-market berries in freeze-dried powders and inclusion uses."
+  - q: "Why do some freeze-dried blueberries feel tough?"
+    a: "The skin slows drying. Large whole berries especially can finish on the outside while still carrying interior moisture, producing a chewier bite. Smaller berries or properly scored / halved blueberries usually dry more evenly."
+  - q: "Why don't most blueberry packages name the variety?"
+    a: "Naming the cultivar creates a promise that buyers expect to remain stable across seasons. Harvest windows shift, prices move, crop quality changes, and suppliers blend lots to maintain availability. For premium products and ingredient work, however, variety should be part of the spec."
+  - q: "What should buyers ask suppliers about blueberry variety?"
+    a: "Ask whether the berries are wild or cultivated, highbush or lowbush, whole or treated, fresh or IQF, single-variety or blended, typical Brix or acidity, and whether the product is built for snacking, cereal, powder, or bakery inclusion."
 ---
 
 Blueberries may look uniform in a clamshell, but the category includes wild lowbush berries, cultivated highbush berries, rabbiteye types, and many named cultivars. The number can sound simple in search results, but fruit variety is rarely just a count. It is a map of regions, breeding goals, farm economics, consumer habits, processing needs, and local food culture.

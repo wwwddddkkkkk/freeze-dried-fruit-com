@@ -3,6 +3,7 @@ title: "A Field Guide to Bananas for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-11
+updated: 2026-05-14
 cover_image: /images/articles/banana-varieties-for-freeze-drying.jpg
 cover_alt: "A bunch of bananas growing on a plant"
 cover_credit: "DEEPAN RAJA .M / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Slices are the dominant format because they dry predictably and read clearly to consumers."
   - "Under-ripe banana can taste starchy; over-ripe banana can brown and collapse."
   - "Buyers should ask about ripeness target, anti-browning steps, slice thickness, and breakage."
+faqs:
+  - q: "Why does ripeness matter so much for freeze-dried banana?"
+    a: "Banana changes dramatically as starch converts to sugar — freeze-drying simply preserves whatever stage the fruit was at when frozen. Under-ripe banana can taste chalky or starchy. Ripe banana becomes crisp, sweet, and recognizable. Very ripe banana brings strong aroma but may brown, stick, or collapse before drying."
+  - q: "What ripeness stage works best for freeze-dried banana slices?"
+    a: "Slightly past fully yellow but before brown spotting is usually the sweet spot — enough sugar conversion for clean banana flavor without the structural collapse that comes with very-ripe fruit. Suppliers selecting bananas for premium freeze-dried snacks usually have a tight ripeness window."
+  - q: "Why are some freeze-dried banana pieces gray, brown, or sticky?"
+    a: "Banana is prone to enzymatic browning once cut. Visible darkening usually points to slow handling between slicing and freezing, or weak anti-browning pre-treatment. Stickiness usually means residual moisture is high — either the drying endpoint was loose or the packaging let humidity back in."
+  - q: "Are Cavendish or specialty bananas better for freeze-drying?"
+    a: "Cavendish is the practical default — available year-round, predictable, and familiar. Smaller dessert bananas like Lady Finger or apple banana can deliver more aroma and flavor density but cost more and ship less reliably. Plantains and cooking bananas are a different category entirely — starchy, not sweet."
+  - q: "What's the difference between freeze-dried banana slices and powder?"
+    a: "Slices deliver visible identity, crunch, and a snack-ready bite. Powder concentrates banana sweetness and aroma for blends, bars, fillings, and drinks. The same raw fruit can become very different finished products depending on cut format and milling."
+  - q: "Can plantains be freeze-dried like bananas?"
+    a: "Yes, but they are a different product. Plantains are starchier and lower in sugar than dessert bananas, so freeze-dried plantain feels firmer and more cracker-like rather than candy-sweet. It belongs in savory or ingredient applications, not in dessert-banana snack mixes."
+  - q: "What should buyers ask suppliers about freeze-dried banana?"
+    a: "Ask the fruit type or variety, ripeness target at processing, anti-browning approach, slice thickness, target moisture or water activity, expected breakage rate, and whether added sugar or oil is used. The label should match the bag."
 ---
 
 Banana is familiar, affordable, and easy to sell, but freeze-dried banana quality depends heavily on ripeness. For freeze-dried fruit buyers, banana is not just a flavor. It is a set of processing choices: raw material quality, cut format, moisture control, aroma retention, breakage, and how clearly the finished piece still communicates the fruit.

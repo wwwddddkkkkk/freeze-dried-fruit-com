@@ -3,6 +3,7 @@ title: "How Many Types of Raspberries Are There? A Guide to Raspberry Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-18
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-raspberries-are-there.jpg
 cover_alt: "A halved raspberry showing its hollow structure and drupelets"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Red, black, golden, purple, summer-bearing, everbearing, fresh-market, processing"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of raspberries are there?"
+    a: "Raspberries include many cultivars grouped by color, harvest season, cane habit, firmness, and market use. Familiar names include Heritage, Willamette, Meeker, Tulameen, Caroline, and Polka — split broadly into red, black, golden, and purple raspberries, plus summer-bearing and everbearing harvest patterns."
+  - q: "What's the difference between summer-bearing and everbearing raspberries?"
+    a: "Summer-bearing raspberries produce one concentrated crop per year on canes that grew the previous season. Everbearing (sometimes called fall-bearing) varieties fruit twice — once in early summer on overwintered canes and again in fall on new canes — which extends the supply window for fresh-market and ingredient buyers."
+  - q: "Are black raspberries the same as blackberries?"
+    a: "No — they look similar but are different species. Black raspberries have a hollow center when picked (the receptacle stays on the plant), while blackberries keep their solid core. Flavor is also different: black raspberries are notably more aromatic and seedy than common blackberries."
+  - q: "Which raspberry varieties are best for freeze-drying?"
+    a: "Processing-oriented berries with high aroma and color intensity often outperform large fresh-market berries in freeze-dried form — Meeker and Willamette are classic processing names. Whole raspberries look premium but break easily; broken pieces and powder are common commercial formats. Buyers should ask color type, cultivar, whole-piece target, breakage tolerance, and seed texture."
+  - q: "What's special about golden raspberries?"
+    a: "Golden raspberries are a yellow-fruited form of the same species as red raspberries. They taste sweeter and less acidic because the visual cue for tartness (red color) is missing — which makes them feel approachable but also less dramatic in mixed-berry products."
+  - q: "Why is raspberry so fragile compared to blueberry or strawberry?"
+    a: "Raspberry is built from many small drupelets around a hollow center, so the fruit cannot rely on a continuous skin for structure. That fragility limits fresh-retail shipping range, makes IQF (individually quick-frozen) input the commercial norm for processing, and shows up later as breakage and powder in freeze-dried product."
+  - q: "What should buyers ask about freeze-dried raspberry variety?"
+    a: "Ask color type (red, black, golden, purple), cultivar where available, origin, single-variety or blended, fresh / IQF / puree / juice / pulp source, whole-piece target and breakage tolerance, seed texture, and the intended use case (snack, topping, crumble, or powder)."
 ---
 
 Raspberry variety is not only red versus not red. It also changes aroma, acidity, seed texture, fragility, color, and whether the berry is grown for fresh eating or processing. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

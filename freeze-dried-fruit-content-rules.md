@@ -68,6 +68,7 @@ Each article needs frontmatter:
 title: "Article Title"
 category: "Technology"
 date: 2026-05-10
+updated: 2026-05-14   # optional — only when the article has materially changed
 read: "5 min read"
 summary: "Short card/meta summary."
 intro: "One-line intro shown above the cover image."
@@ -81,6 +82,14 @@ cover_alt: "Descriptive alt text"
 ```
 
 Use `draft: true` only when the article should not publish.
+
+`updated:` is optional. Set it only when the article body, FAQs, takeaways, or
+factual claims have meaningfully changed after first publication. When set and
+strictly later than `date:`, the article shows an "Updated [date]" badge on the
+byline, the Article schema's `dateModified` flows from `updated`, and the
+sitemap's `lastmod` for that URL uses the newer date. Do not bump `updated:`
+for cosmetic or site-wide changes (typo fixes, glossary auto-linking, header
+tweaks).
 
 ## Cover Strategy
 

@@ -3,6 +3,7 @@ title: "How Many Types of Starfruit Are There? A Guide to Starfruit Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-07
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-starfruit-are-there.jpg
 cover_alt: "A sliced carambola starfruit"
 cover_credit: "SMasters / CC BY-SA 3.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Shape gives starfruit a strong visual advantage, but flavor varies widely from watery-mild to bright and aromatic."
   - "Ripeness, oxalic acidity, slice thickness, and browning control are important quality points."
   - "Freeze-dried starfruit is often strongest as a garnish, blend accent, or visual ingredient rather than a bulk snack base."
+faqs:
+  - q: "How many types of starfruit are there?"
+    a: "Starfruit varieties are often grouped as sweet or tart carambola types rather than by consumer-facing cultivar names. The main commercial layers are sweet carambola, tart carambola, large yellow fruit (the premium visual), and greener acidic fruit (more processing-oriented). Cultivar names exist in growing regions but rarely reach Western retail."
+  - q: "Is starfruit and carambola the same thing?"
+    a: "Yes — same fruit (Averrhoa carambola). *Carambola* is the standard horticultural name; *starfruit* is the consumer-friendly English name derived from the star-shaped cross-section. Tropical Asian markets often use *carambola* or local names. Either word is correct, but most product labels in English-speaking retail use *starfruit*."
+  - q: "What's the difference between sweet and tart carambola?"
+    a: "Sweet carambola types are lower in sharp acidity, better for fresh eating, more approachable for snack formats — though they can still be mild, so aroma matters. Tart carambola types are brighter and more acidic, useful in culinary contexts but potentially too sharp for straight snacking unless balanced with other fruits or sweeteners."
+  - q: "Which starfruit variety freeze-dries best?"
+    a: "Sweet carambola types are the safer choice for snack and garnish use. Slice quality matters more than cultivar — thin cross-sections preserve the star shape with crisp edges, while thick uneven cuts become awkward. Buyers should ask sweet or tart type, ripeness, thickness, color range, and whether browning control is used."
+  - q: "Why is freeze-dried starfruit often used as garnish rather than as a main snack?"
+    a: "The fruit's value is visual — the star-shaped cross-section is unmistakable. Flavor is naturally mild even in sweet varieties. A beautiful star that tastes like almost nothing reads as decoration rather than as a snack base. Garnish, cocktail kits, dessert toppings, and tropical blend accents all work well; trying to position starfruit as a volume snack rarely does."
+  - q: "Is there a health concern with starfruit?"
+    a: "Starfruit contains oxalates that can be a health concern for people with kidney disease — some markets require advisory labeling. Healthy consumers eating starfruit as part of a varied diet face no concern. Premium brands disclose this honestly rather than burying it, particularly in functional or wellness-positioned products."
+  - q: "What should buyers ask freeze-dried starfruit suppliers?"
+    a: "Ask sweet or tart variety, ripeness standard, slice thickness, browning control, slice integrity (broken-tip tolerance), origin, target moisture or water activity, oxalate disclosure plan if relevant for the market, added sugar status, and the intended product positioning (garnish, dessert, cocktail kit, tropical blend accent)."
 ---
 
 Starfruit is one of the few fruits whose shape does half the marketing work. But a star-shaped slice can still be bland if the variety, ripeness, and acid balance are wrong.

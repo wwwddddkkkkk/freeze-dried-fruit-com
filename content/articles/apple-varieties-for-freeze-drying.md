@@ -3,6 +3,7 @@ title: "A Field Guide to Apples for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-14
 cover_image: /images/articles/apple-varieties-for-freeze-drying.jpg
 cover_alt: "Golden Delicious apples photographed together"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Slices, dices, and powders serve very different markets."
   - "Anti-browning treatment and cut thickness are central quality decisions."
   - "Buyers should ask variety, cut, peel inclusion, and added ingredients."
+faqs:
+  - q: "Which apple varieties freeze-dry best?"
+    a: "Different varieties hit different jobs. Sweet apples like Fuji and Gala are mild and approachable but can taste flat. Tart varieties like Granny Smith stay bright and clean with a sharper finish. Aromatic apples (Cox's Orange Pippin, McIntosh, heritage cultivars) feel premium when supply allows. The best choice is matched to the application, not picked in the abstract."
+  - q: "Why does freeze-dried apple sometimes brown?"
+    a: "Apple is one of the fruits most prone to enzymatic browning — cut surfaces can darken before the fruit is fully frozen. Speed between cutting and freezing, anti-browning pre-treatments, and ripeness control all influence the result. Light edge browning is not always a defect; widespread browning usually points to weak intake handling."
+  - q: "Should freeze-dried apples be peeled?"
+    a: "Peel adds visual identity and color, but it also changes mouthfeel and can feel papery in some formats. Some products peel for a cleaner snap and uniform appearance; others leave the peel on for a more rustic look. The right choice depends on the format and the buyer's claim."
+  - q: "What's the difference between freeze-dried apple slices and apple powder?"
+    a: "Slices give visible fruit identity and snap — useful for snacks and toppings. Powder concentrates apple flavor and color into a free-flowing ingredient — useful in bars, fillings, drinks, and bakery, but with browning and caking risk. Same fruit, different jobs."
+  - q: "How does slice thickness affect freeze-dried apple texture?"
+    a: "Thinner slices dry faster, snap more cleanly, and feel more delicate — but they break more easily. Thicker slices feel substantial but need a longer drying cycle and are more likely to keep a leathery center if the process is rushed. Slice thickness is a process spec, not a casual choice."
+  - q: "Is sweet or tart apple better for freeze-dried snacks?"
+    a: "Tart apples often hold flavor more clearly after freeze-drying because acidity stays vivid where sweetness alone can read flat. Sweet apples are friendlier in kids' snacks and cereal pairings. Many premium products blend the two to balance the finish."
+  - q: "What should a buyer ask a freeze-dried apple supplier?"
+    a: "Ask for the variety or variety group, origin, peel status, anti-browning treatment (sulfites or otherwise), cut format and thickness, target moisture or water activity, expected breakage rate, and whether the product is fresh, IQF, or processing-grade input."
 ---
 
 Apple is one of the most practical fruits for freeze-drying because it is familiar, available, and format-friendly. For freeze-dried fruit buyers, apple is not just a flavor name. It is a practical set of decisions about raw material, cut format, texture, aroma, moisture control, breakage, and where the fruit belongs in a finished product.

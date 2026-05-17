@@ -3,6 +3,7 @@ title: "How Many Types of Jackfruit Are There? A Guide to Jackfruit Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-13
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-jackfruit-are-there.jpg
 cover_alt: "Large jackfruit hanging from a tree"
 cover_credit: "Suyash Dwivedi / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Ripe sweet fruit, young green culinary fruit, firm bulbs, soft bulbs, fresh, canned, frozen, dried and ingredient jackfruit"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of jackfruit are there?"
+    a: "Jackfruit types are often described by texture, ripeness, bulb color, local cultivar, and culinary use rather than a single global variety list. Familiar groupings include firm vs soft jackfruit, honey or sweet ripe jackfruit, crunchy bulbs, young green jackfruit, plus regional Artocarpus heterophyllus cultivars in South Asia and Southeast Asia."
+  - q: "What's the difference between ripe and young green jackfruit?"
+    a: "They are the same fruit at different maturity stages but function as completely different ingredients. Ripe jackfruit is sweet, aromatic, snack-oriented — the dessert fruit. Young green jackfruit is neutral, fibrous, savory-leaning — used as a meat substitute in plant-based cooking. For freeze-drying purposes, they belong to separate product universes."
+  - q: "What's the difference between firm and soft jackfruit?"
+    a: "Both are ripe sweet jackfruit, but different cultivars produce different bulb textures. Firm jackfruit bulbs hold structure and bite, suiting freeze-dried snack formats and tropical mixes. Soft jackfruit bulbs are more custardy and aromatic but harder to cut and dry cleanly — they work better as puree-derived ingredients."
+  - q: "Where is jackfruit grown commercially?"
+    a: "South Asia (India, Bangladesh, Sri Lanka) has the deepest jackfruit cultivar diversity. Southeast Asia (Thailand, Malaysia, Indonesia, Vietnam) drives much of the regional fresh and dried supply. Western culinary markets increasingly source young green jackfruit as a plant-based meat alternative. Snack and dried-fruit markets focus on ripe yellow bulbs."
+  - q: "Which jackfruit type freeze-dries best?"
+    a: "Firm ripe bulbs usually make the clearest snack format — they preserve identity and survive handling. Soft ripe bulbs can taste aromatic but may be harder to cut and dry cleanly. Young green jackfruit belongs to a different product universe entirely. Buyers should ask ripe or young, firm or soft, bulb color, latex control, seed removal, and source state."
+  - q: "Are there named jackfruit cultivars?"
+    a: "Yes, especially in India (where some states have well-defined regional cultivars like Rudrakshi, Sindoor, and many others), Sri Lanka, and Southeast Asia. But cultivar naming is less standardized than in apple or mango, and supply chains typically describe jackfruit by texture (firm vs soft), bulb color, and ripeness more often than by formal cultivar name."
+  - q: "What should buyers ask freeze-dried jackfruit suppliers?"
+    a: "Start with ripe vs young — that decides the rest. Then ask firm or soft, bulb color, cultivar where available, origin, fresh / IQF / canned / syrup-packed source, latex and seed removal, cut format, target moisture or water activity, and the intended product positioning (snack, savory ingredient, or tropical blend)."
 ---
 
 Jackfruit variety is less standardized than many fruits, but buyers still need to understand the split between ripe sweet jackfruit, firm bulbs, soft bulbs, and young green jackfruit. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

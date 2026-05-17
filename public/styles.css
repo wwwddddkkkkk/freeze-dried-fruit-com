@@ -121,6 +121,19 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   gap: 8px;
 }
 .site-header__top-right a:hover { color: var(--mint-deep); }
+.lang-switch {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  padding: 4px 0;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.15s ease;
+}
+.lang-switch:hover {
+  border-bottom-color: var(--mint-deep);
+}
 
 .site-menu {
   padding: 16px 0;
@@ -995,6 +1008,66 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   margin-bottom: 24px;
 }
 .article-head__meta .accent { color: var(--mint-deep); }
+
+/* Inline "UPDATED" badge inside the meta strip. Inherits the strip's
+   uppercase + letter-spacing so it flows with the rest of the masthead,
+   and gains a small mint dot prefix so the freshness cue is unmistakable
+   without disrupting the editorial line. */
+.meta-updated {
+  color: var(--mint-deep);
+  position: relative;
+  padding-left: 14px;
+}
+.meta-updated::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--mint);
+  box-shadow: 0 0 0 3px rgba(60, 207, 161, 0.18);
+}
+
+/* Sub-line below the meta strip: small serif italic note carrying the
+   original publication date. Sits visually adjacent to the meta line
+   so the eye reads it as supplementary context, not a second headline. */
+.article-head__original {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  color: var(--muted);
+  margin: -16px 0 28px;
+}
+.article-head__original time { color: inherit; }
+
+/* Editorial byline link. Inherits surrounding type (italic in the article
+   masthead, regular weight in the home hero byline). Subtle on the page,
+   turns mint-deep on hover to invite the click through to /editorial/. */
+.byline-link {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid var(--line);
+  transition: color 0.15s ease, border-bottom-color 0.15s ease;
+}
+.byline-link:hover {
+  color: var(--mint-deep);
+  border-bottom-color: var(--mint-deep);
+}
+.article-head__original .byline-link {
+  color: inherit;
+  border-bottom-color: rgba(10, 37, 64, 0.18);
+}
+.article-head__original .byline-link:hover {
+  color: var(--mint-deep);
+  border-bottom-color: var(--mint-deep);
+}
+
 .article-head h1 {
   font-family: var(--titles);
   font-weight: 700;
@@ -1093,6 +1166,1940 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   left: 0; top: 12px;
   width: 12px; height: 1px;
   background: var(--mint);
+}
+
+.faq {
+  margin: 56px 0 16px;
+  border-top: 1px solid var(--line);
+  padding-top: 32px;
+}
+.faq > h2 {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 24px;
+}
+.faq__item { margin: 0 0 28px; }
+.faq__item:last-child { margin-bottom: 0; }
+.faq__q {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 10px;
+}
+.faq__a p { margin: 0 0 12px; }
+.faq__a p:last-child { margin-bottom: 0; }
+.faq__a ul, .faq__a ol { margin: 0 0 12px 22px; }
+
+.glossary-toc {
+  background: var(--bg-tint);
+  border-left: 4px solid var(--mint);
+  padding: 24px 28px;
+  margin: 0 0 48px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+.glossary-toc__group h3 {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 10px;
+}
+.glossary-toc__group ul {
+  list-style: none;
+  margin: 0; padding: 0;
+  display: flex; flex-direction: column; gap: 6px;
+}
+.glossary-toc__group a {
+  font-family: var(--serif);
+  font-size: 15px;
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.glossary-toc__group a:hover { border-bottom-color: var(--mint); }
+
+.glossary-section {
+  margin: 0 0 48px;
+}
+.glossary-section__title {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+.glossary-list { margin: 0; padding: 0; }
+.glossary-item {
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+  scroll-margin-top: 96px;
+}
+.glossary-item:last-child { border-bottom: none; }
+.glossary-item__term {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 6px;
+}
+.glossary-item__def {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink-soft, var(--ink));
+}
+.glossary-item:target .glossary-item__term { color: var(--mint-deep); }
+
+/* Hub-list term link + "read full definition" arrow */
+.glossary-item__link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.15s ease, color 0.15s ease;
+}
+.glossary-item__link:hover {
+  color: var(--mint-deep);
+  border-bottom-color: var(--mint);
+}
+.glossary-item__more {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  text-decoration: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  opacity: 0.85;
+  transition: opacity 0.15s ease;
+}
+.glossary-item__more:hover { opacity: 1; }
+
+/* ---------- Per-term glossary page ---------- */
+/* Each of the 36 glossary terms lives at /glossary/<slug>/. The page is a
+   standalone reference document: full definition, related siblings,
+   articles that mention the term, and a back-link to the hub. Styling
+   matches the per-category pillar pattern. */
+.glossary-term__head .eyebrow-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.15s ease;
+}
+.glossary-term__head .eyebrow-link:hover { border-bottom-color: var(--mint); }
+
+.glossary-term {
+  padding: 8px 0 48px;
+}
+.glossary-term__definition {
+  font-family: var(--sans);
+  font-size: 19px;
+  line-height: 1.75;
+  color: var(--ink-2);
+  margin: 0 0 56px;
+  max-width: 64ch;
+}
+.glossary-term__definition em {
+  color: var(--ink);
+  font-style: italic;
+}
+.glossary-term__definition strong { color: var(--ink); font-weight: 600; }
+
+.glossary-term__h2 {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 20px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+
+.glossary-term__related { margin: 0 0 56px; }
+.glossary-term__related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 14px;
+}
+.glossary-term__related-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  background: #fff;
+  text-decoration: none;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.glossary-term__related-card:hover {
+  border-color: var(--mint);
+  transform: translateY(-1px);
+}
+.glossary-term__related-name {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.glossary-term__related-summary {
+  font-family: var(--serif);
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.glossary-term__mentions { margin: 0 0 48px; }
+.glossary-term__mentions--empty .muted a { color: var(--mint-deep); }
+.glossary-term__mentions-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.glossary-term__mention {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "cat date"
+    "title title";
+  align-items: baseline;
+  gap: 4px 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+  text-decoration: none;
+  transition: padding-left 0.15s ease;
+}
+.glossary-term__mentions-list li:last-child .glossary-term__mention { border-bottom: none; }
+.glossary-term__mention:hover { padding-left: 8px; }
+.glossary-term__mention-cat {
+  grid-area: cat;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+}
+.glossary-term__mention-date {
+  grid-area: date;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.glossary-term__mention-title {
+  grid-area: title;
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.glossary-term__mention:hover .glossary-term__mention-title { color: var(--mint-deep); }
+
+.glossary-term__back {
+  padding-top: 32px;
+  border-top: 1px solid var(--line);
+}
+.glossary-term__back-link {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.15s ease;
+}
+.glossary-term__back-link:hover { border-bottom-color: var(--mint-deep); }
+.glossary-term__inline-link { color: var(--mint-deep); }
+
+/* ---------- Pillar pages (category hubs) ---------- */
+.pillar {
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+
+/* "On this page" navigation: mint accent eyebrow + numbered list, matches the
+   takeaways block visually so it reads as a peer affordance, not a sidebar. */
+.pillar-toc {
+  background: var(--bg-tint);
+  border-left: 4px solid var(--mint);
+  padding: 24px 32px;
+  margin: 24px 0 56px;
+}
+.pillar-toc__label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 14px;
+}
+.pillar-toc__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: pillar-toc-counter;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 10px 32px;
+}
+.pillar-toc__list li {
+  counter-increment: pillar-toc-counter;
+  position: relative;
+  padding-left: 36px;
+  font-family: var(--titles);
+  font-size: 17px;
+  line-height: 1.4;
+}
+.pillar-toc__list li::before {
+  content: counter(pillar-toc-counter, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-family: var(--mono, "JetBrains Mono", "Menlo", monospace);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  color: var(--mint-deep);
+}
+.pillar-toc__list a {
+  color: var(--ink);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.15s ease, color 0.15s ease;
+}
+.pillar-toc__list a:hover {
+  border-bottom-color: var(--mint);
+  color: var(--mint-deep);
+}
+
+/* Pillar prose: mirrors .article-body so the editorial typography is
+   consistent across long-form content. */
+.pillar-body {
+  font-family: var(--sans);
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--ink-2);
+}
+.pillar-body h2 {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  margin: 56px 0 16px;
+  color: var(--ink);
+  scroll-margin-top: 96px;
+}
+.pillar-body h3 {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 22px;
+  margin: 32px 0 8px;
+  color: var(--ink);
+}
+.pillar-body p { margin: 0 0 20px; }
+.pillar-body p > b, .pillar-body strong { color: var(--ink); }
+.pillar-body ul, .pillar-body ol { margin: 0 0 20px 1.4em; padding: 0; }
+.pillar-body li { margin-bottom: 6px; }
+.pillar-body blockquote {
+  margin: 32px 0;
+  padding: 0 0 0 24px;
+  border-left: 3px solid var(--mint);
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--ink);
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+/* Inline related-article grid (rendered from `:::related` blocks).
+   Light borders, no shadow, mint hover treatment — matches the
+   restrained field-guide visual language. */
+.pillar-related {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  margin: 16px 0 40px;
+}
+.pillar-card {
+  border: 1px solid var(--line);
+  padding: 22px 24px;
+  background: #fff;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+  text-decoration: none;
+}
+.pillar-card:hover {
+  border-color: var(--mint);
+  transform: translateY(-1px);
+}
+.pillar-card__cat {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 10px;
+}
+.pillar-card__title {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 8px;
+}
+.pillar-card__sum {
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--muted);
+  margin: 0 0 14px;
+  /* clamp to 3 lines so cards stay aligned in the grid */
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.pillar-card__cta {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Category-level FAQ sits inside the narrow column; the .faq base style
+   already handles the visual treatment — this is mostly spacing. */
+.pillar-faq {
+  margin-top: 64px;
+}
+
+/* The full archive band that follows the pillar — a thin separator with
+   an eyebrow label so readers know they have moved from editorial to index. */
+.archive-head {
+  border-top: 1px solid var(--line);
+  padding: 48px 0 16px;
+  margin-top: 24px;
+}
+.archive-head .eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+}
+
+/* ---------- Cross-fruit comparison table ---------- */
+/* Lives inside the article body just before the conclusion. Renders as a
+   restrained reference card — light borders, mono numerics, mint accents
+   on the self row — so it reads as a field-guide artifact, not a visual
+   intrusion into the prose. */
+.fruit-compare {
+  margin: 56px 0 32px;
+  padding: 28px 32px;
+  background: var(--bg-tint);
+  border-left: 4px solid var(--mint);
+}
+.fruit-compare__eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 10px;
+}
+.fruit-compare__title {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 12px;
+}
+.fruit-compare__intro {
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--ink-2);
+  margin: 0 0 22px;
+  max-width: 60ch;
+}
+.fruit-compare__intro strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+.fruit-compare__scroll {
+  overflow-x: auto;
+  margin: 0 -32px;        /* bleed the scroll edges to the section padding */
+  padding: 0 32px;
+}
+.fruit-compare__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  line-height: 1.45;
+  background: #fff;
+  border: 1px solid var(--line);
+}
+.fruit-compare__table thead th {
+  text-align: left;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 14px 14px;
+  background: #fff;
+  border-bottom: 1px solid var(--line);
+  white-space: nowrap;
+}
+.fruit-compare__table tbody td,
+.fruit-compare__table tbody th {
+  padding: 14px 14px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+  color: var(--ink-2);
+  font-weight: 400;
+  text-align: left;
+}
+.fruit-compare__table tbody tr:last-child td,
+.fruit-compare__table tbody tr:last-child th {
+  border-bottom: none;
+}
+.fruit-compare__name {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.fruit-compare__badge {
+  display: inline-block;
+  margin-left: 10px;
+  padding: 2px 8px;
+  border-radius: 2px;
+  background: var(--mint);
+  color: #0A2540;
+  font-family: var(--mono, "JetBrains Mono", "Menlo", monospace);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.fruit-compare__num {
+  font-family: var(--mono, "JetBrains Mono", "Menlo", monospace);
+  font-size: 13px;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.fruit-compare__format {
+  font-size: 13px;
+  color: var(--muted);
+  min-width: 200px;
+}
+.fruit-compare__table tr.is-self {
+  background: linear-gradient(90deg, rgba(60, 207, 161, 0.10), rgba(60, 207, 161, 0.02));
+}
+.fruit-compare__table tr.is-self .fruit-compare__name {
+  color: var(--mint-deep);
+}
+.fruit-compare__table tr.is-self td,
+.fruit-compare__table tr.is-self th {
+  color: var(--ink);
+}
+.fruit-compare__caption {
+  font-size: 12px;
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--muted);
+  margin: 20px 0 0;
+  letter-spacing: 0;
+}
+
+@media (max-width: 720px) {
+  .fruit-compare {
+    padding: 24px 20px;
+  }
+  .fruit-compare__scroll {
+    margin: 0 -20px;
+    padding: 0 20px;
+  }
+  .fruit-compare__title {
+    font-size: 22px;
+  }
+}
+
+/* ---------- Pairwise comparison page ---------- */
+.compare-page {
+  padding-top: 8px;
+  padding-bottom: 48px;
+}
+.compare-page__table {
+  margin-top: 24px;
+}
+.compare-page__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: 40px 0;
+}
+.compare-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  padding: 28px 28px 24px;
+  display: flex;
+  flex-direction: column;
+}
+.compare-card__eyebrow {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 12px;
+}
+.compare-card__name {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin: 0 0 14px;
+}
+.compare-card__one-line {
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ink-2);
+  margin: 0 0 20px;
+  font-style: italic;
+}
+.compare-card__attrs {
+  margin: 0 0 20px;
+  padding: 16px 0 0;
+  border-top: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 24px;
+}
+.compare-card__attrs div {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.compare-card__attrs dt {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.compare-card__attrs dd {
+  margin: 0;
+  font-size: 14px;
+  color: var(--ink);
+  font-weight: 500;
+}
+.compare-card__attrs dd.is-mono {
+  font-family: var(--mono, "JetBrains Mono", "Menlo", monospace);
+  font-size: 13px;
+}
+.compare-card__origins {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 0;
+  margin-bottom: 14px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.compare-card__origins-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.compare-card__origins-value {
+  font-family: var(--serif);
+  font-size: 14px;
+  font-style: italic;
+  color: var(--ink);
+  line-height: 1.5;
+}
+
+.compare-card__link {
+  margin-top: auto;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding-top: 8px;
+}
+.compare-card__link:hover { color: var(--ink); }
+
+.compare-page__diffs {
+  margin: 48px 0 0;
+}
+.compare-page__diffs h2,
+.compare-page__choice h2,
+.compare-page__faq h2 {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+.compare-page__diffs ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.compare-page__diffs li {
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink-2);
+  padding-left: 22px;
+  position: relative;
+}
+.compare-page__diffs li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 10px;
+  height: 1px;
+  background: var(--mint);
+}
+.compare-page__diffs strong { color: var(--ink); font-weight: 600; }
+
+.compare-page__choice {
+  margin: 48px 0 0;
+}
+.compare-page__choice-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+.compare-page__choice-card {
+  background: var(--bg-tint);
+  border-left: 4px solid var(--mint);
+  padding: 24px 28px;
+}
+.compare-page__choice-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 14px;
+}
+.compare-page__choice-card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.compare-page__choice-card li {
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--ink);
+  padding-left: 18px;
+  position: relative;
+}
+.compare-page__choice-card li::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: var(--mint-deep);
+  font-weight: 700;
+}
+
+.compare-page__faq {
+  margin: 56px 0 0;
+}
+
+.compare-page__more {
+  margin: 64px 0 0;
+  padding-top: 32px;
+  border-top: 1px solid var(--line);
+}
+.compare-page__more-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 18px;
+}
+.compare-page__more-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.compare-page__more-link {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 22px 24px;
+  border: 1px solid var(--line);
+  background: #fff;
+  text-decoration: none;
+  transition: border-color 0.15s ease;
+}
+.compare-page__more-link:hover { border-color: var(--mint); }
+.compare-page__more-eyebrow {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+}
+.compare-page__more-title {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+
+@media (max-width: 720px) {
+  .compare-page__cards,
+  .compare-page__choice-grid,
+  .compare-page__more-links {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- /articles/ meta-pillar ---------- */
+/* Reuses .pillar-toc, .pillar-related, .pillar-card from the per-category
+   pillar pattern. Only the per-section header and the "See all" link need
+   bespoke styling because the meta-pillar surfaces 5 sections in sequence
+   rather than one long-form pillar body. */
+.meta-pillar {
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+.meta-pillar__sections {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin-bottom: 64px;
+}
+.meta-pillar__section {
+  scroll-margin-top: 96px;
+}
+.meta-pillar__section-head {
+  margin-bottom: 24px;
+}
+.meta-pillar__section-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 10px;
+}
+.meta-pillar__section-title {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin: 0 0 12px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+.meta-pillar__section-lead {
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--ink-2);
+  margin: 0 0 24px;
+  max-width: 64ch;
+}
+.meta-pillar__see-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  text-decoration: none;
+  padding: 4px 0;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.15s ease;
+}
+.meta-pillar__see-all:hover {
+  border-bottom-color: var(--mint-deep);
+}
+.meta-pillar__faq {
+  margin-top: 64px;
+}
+
+/* ---------- "Compare with..." strip on fruit reports ---------- */
+/* Lives at the bottom of fruit-report articles, after the FAQ. Surfaces the
+   top 3–4 pairwise comparison pages for this fruit's natural siblings. Uses
+   the same restrained card pattern as `.pillar-related` so it reads as a
+   field-guide artifact rather than a marketing block. */
+.compare-with {
+  margin: 64px 0 16px;
+  padding-top: 32px;
+  border-top: 1px solid var(--line);
+}
+.compare-with__eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 10px;
+}
+.compare-with__heading {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 22px;
+}
+.compare-with__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 0 0 24px;
+}
+.compare-with__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  background: #fff;
+  text-decoration: none;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+  min-height: 96px;
+}
+.compare-with__card:hover {
+  border-color: var(--mint);
+  transform: translateY(-1px);
+}
+.compare-with__pair {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px;
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.compare-with__vs {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--mint-deep);
+}
+.compare-with__self,
+.compare-with__other { color: var(--ink); }
+.compare-with__cta {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.compare-with__all {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  text-decoration: none;
+  padding: 4px 0;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.15s ease;
+}
+.compare-with__all:hover {
+  border-bottom-color: var(--mint-deep);
+}
+
+/* ---------- Calculators (backlink-bait interactive tools) ---------- */
+/* Two on-site tools at /calculators/fruit-equivalency/ and
+   /calculators/pouch-barrier/. The hub at /calculators/ surfaces both.
+   Visual language: same restrained card pattern as the rest of the site,
+   slightly heavier form elements so the tool feels deliberate. */
+.calculators-hub {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+}
+.calculators-hub__card {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 28px 28px 24px;
+  border: 1px solid var(--line);
+  background: #fff;
+  text-decoration: none;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.calculators-hub__card:hover {
+  border-color: var(--mint);
+  transform: translateY(-1px);
+}
+.calculators-hub__eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+}
+.calculators-hub__title {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin: 0;
+}
+.calculators-hub__desc {
+  font-family: var(--serif);
+  font-size: 15.5px;
+  line-height: 1.55;
+  color: var(--ink);
+  margin: 0;
+  flex: 1;
+}
+.calculators-hub__cta {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.calc {
+  margin: 0 0 40px;
+  padding: 28px;
+  background: var(--bg-tint);
+  border: 1px solid var(--line);
+}
+.calc__form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 0 24px;
+}
+.calc__row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.calc__row--split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.calc__row--split > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.calc__label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+}
+.calc__input {
+  font-family: var(--serif);
+  font-size: 16px;
+  padding: 12px 14px;
+  border: 1px solid var(--line-2);
+  background: #fff;
+  color: var(--ink);
+  border-radius: var(--radius);
+  transition: border-color 0.15s ease;
+}
+.calc__input:focus {
+  outline: none;
+  border-color: var(--mint-deep);
+}
+.calc__result {
+  margin: 0;
+  padding: 22px 24px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--mint-deep);
+}
+.calc-result__title {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 14px;
+}
+.calc-result__list {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.calc-result__row {
+  display: grid;
+  grid-template-columns: minmax(160px, 38%) 1fr;
+  gap: 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px dashed var(--line);
+}
+.calc-result__row:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+.calc-result__row dt {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--muted);
+  margin: 0;
+}
+.calc-result__row dd {
+  font-family: var(--serif);
+  font-size: 16px;
+  color: var(--ink);
+  margin: 0;
+  line-height: 1.5;
+}
+.calc-result__note {
+  margin: 14px 0 0;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.calc__assumptions {
+  margin: 22px 0 0;
+  padding: 0;
+  font-family: var(--serif);
+  font-size: 14px;
+  color: var(--muted);
+}
+.calc__assumptions summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--mint-deep);
+  padding: 6px 0;
+}
+.calc__assumptions ul {
+  margin: 8px 0 0;
+  padding-left: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.calc-context {
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--ink);
+}
+.calc-context h2 {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin: 0 0 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+.calc-context p {
+  margin: 0 0 14px;
+}
+.calc-context a {
+  color: var(--ink);
+  border-bottom: 1px solid var(--mint);
+  text-decoration: none;
+  transition: border-bottom-color 0.15s ease;
+}
+.calc-context a:hover {
+  color: var(--mint-deep);
+  border-bottom-color: var(--mint-deep);
+}
+
+/* ---------- Flagship annual report template ---------- */
+/* Used by long-form industry reports (e.g. /state-of-freeze-dried-fruit-2026/).
+   Distinct from the article template: a covered hero with edition banner,
+   numbered TOC, generous prose width, and a heavier reference apparatus at
+   the bottom. The visual language matches the rest of the field guide —
+   mint-deep eyebrows, Larken titles, restrained borders — but every block
+   is larger and more deliberate. This is the "stop, sit down, read" format. */
+.report {
+  padding-bottom: 80px;
+}
+.report-cover {
+  padding: 56px 0 40px;
+  border-bottom: 1px solid var(--line);
+  background: var(--bg-soft);
+  margin-bottom: 0;
+}
+.report-cover__edition {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 18px;
+}
+.report-cover__title {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: clamp(36px, 5.2vw, 56px);
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+  margin: 0 0 18px;
+}
+.report-cover__subtitle {
+  font-family: var(--serif);
+  font-size: 19px;
+  line-height: 1.5;
+  color: var(--ink);
+  margin: 0 0 24px;
+  max-width: 62ch;
+}
+.report-cover__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0;
+}
+.report-cover__meta a {
+  color: var(--muted);
+}
+.report-cover__meta a:hover {
+  color: var(--mint-deep);
+}
+.report-cover__updated {
+  margin: 14px 0 0;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 13.5px;
+  color: var(--muted);
+}
+.report-intro {
+  padding: 48px 0 16px;
+}
+.report-intro__lede {
+  font-family: var(--serif);
+  font-size: 20px;
+  line-height: 1.55;
+  color: var(--ink);
+  margin: 0;
+  max-width: 62ch;
+}
+.report-body {
+  padding-top: 16px;
+}
+.report-toc {
+  margin: 0 0 40px;
+  padding: 24px 28px;
+  background: var(--bg-tint);
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--mint-deep);
+}
+.report-toc__eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 14px;
+}
+.report-toc__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.report-toc__item {
+  margin: 0;
+}
+.report-toc__link {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  text-decoration: none;
+  color: var(--ink);
+  padding: 4px 0;
+  transition: color 0.15s ease;
+}
+.report-toc__link:hover {
+  color: var(--mint-deep);
+}
+.report-toc__num {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--mint-deep);
+  font-weight: 700;
+  min-width: 28px;
+}
+.report-toc__title {
+  font-family: var(--serif);
+  font-size: 16px;
+  line-height: 1.4;
+}
+.report-takeaways {
+  margin: 0 0 40px;
+  padding: 24px 28px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--mint);
+}
+.report-takeaways__title {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.005em;
+  color: var(--ink);
+  margin: 0 0 14px;
+}
+.report-takeaways ul {
+  margin: 0;
+  padding-left: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.report-takeaways li {
+  font-family: var(--serif);
+  font-size: 15.5px;
+  line-height: 1.5;
+  color: var(--ink);
+}
+.report-prose {
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.7;
+}
+.report-prose h2 {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  margin: 56px 0 18px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--line);
+  scroll-margin-top: 80px;
+}
+.report-prose h3 {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 32px 0 14px;
+}
+.report-prose p {
+  margin: 0 0 18px;
+}
+.report-prose a {
+  color: var(--ink);
+  border-bottom: 1px solid var(--mint);
+  text-decoration: none;
+  transition: border-bottom-color 0.15s ease;
+}
+.report-prose a:hover {
+  color: var(--mint-deep);
+  border-bottom-color: var(--mint-deep);
+}
+.report-prose ul,
+.report-prose ol {
+  margin: 0 0 22px;
+  padding-left: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.report-prose strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+.report-prose hr {
+  margin: 40px 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
+/* ---------- "Continue reading in [Category]" strip ---------- */
+/* The pillar-aware next-stop strip. Lives between the article's Sources
+   block and the Compare-with strip (on fruit reports). Distinguished from
+   the compare-with cards by including the publication date inline — the
+   visual reads as "an editorial reading path" rather than "a comparison
+   index." Uses bg-tint to subtly separate from the surrounding white. */
+.continue-reading {
+  margin: 56px 0 16px;
+  padding: 28px 24px 32px;
+  background: var(--bg-tint);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.continue-reading__eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 10px;
+}
+.continue-reading__heading {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 20px;
+}
+.continue-reading__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 0 0 22px;
+}
+.continue-reading__card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  background: #fff;
+  text-decoration: none;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+  min-height: 112px;
+}
+.continue-reading__card:hover {
+  border-color: var(--mint);
+  transform: translateY(-1px);
+}
+.continue-reading__date {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.continue-reading__title {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  flex: 1;
+}
+.continue-reading__cta {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.continue-reading__all {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  text-decoration: none;
+  padding: 4px 0;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.15s ease;
+}
+.continue-reading__all:hover {
+  border-bottom-color: var(--mint-deep);
+}
+
+/* ---------- Primary sources & further reading ---------- */
+/* Outbound citations to authoritative publishers (FDA, USDA, IFT, ASTM, ISO).
+   Lives below the FAQ on technical articles. Visually quieter than the
+   compare-with strip — this is a reference apparatus, not a navigation block.
+   Numbered list (academic convention), mint-deep eyebrow + heading scale that
+   matches the rest of the field-guide chrome. */
+.sources {
+  margin: 56px 0 16px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+.sources__eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 10px;
+}
+.sources__heading {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 20px;
+}
+.sources__list {
+  list-style: decimal;
+  list-style-position: outside;
+  padding-left: 24px;
+  margin: 0 0 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  color: var(--ink);
+}
+.sources__item {
+  font-family: var(--serif);
+  font-size: 15px;
+  line-height: 1.55;
+  padding-left: 4px;
+}
+.sources__item::marker {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--mint-deep);
+}
+.sources__link {
+  text-decoration: none;
+  color: inherit;
+  display: inline;
+  border-bottom: 1px solid var(--mint);
+  transition: border-bottom-color 0.15s ease, color 0.15s ease;
+}
+.sources__link:hover {
+  color: var(--mint-deep);
+  border-bottom-color: var(--mint-deep);
+}
+.sources__title {
+  font-family: var(--serif);
+  font-weight: 600;
+  color: var(--ink);
+}
+.sources__link:hover .sources__title {
+  color: var(--mint-deep);
+}
+.sources__publisher {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--muted);
+  margin-left: 6px;
+}
+.sources__note {
+  display: block;
+  margin-top: 4px;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.sources__disclosure {
+  margin: 14px 0 0;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+/* ---------- 404 / Not Found page ---------- */
+/* Field-guide-aesthetic 404. Mint-deep eyebrow, serif lede, restrained card
+   grid that re-uses the same border-and-hover language as the rest of the
+   site. The visitor should feel like they landed in a quiet directory, not
+   on an error screen. */
+.not-found {
+  padding: 56px 0 88px;
+}
+.not-found__head {
+  text-align: left;
+  margin: 0 0 36px;
+  padding-bottom: 28px;
+  border-bottom: 1px solid var(--line);
+}
+.not-found__eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 14px;
+}
+.not-found__h1 {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: clamp(34px, 4.8vw, 48px);
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin: 0 0 16px;
+}
+.not-found__intro {
+  font-family: var(--serif);
+  font-size: 18px;
+  line-height: 1.55;
+  color: var(--ink);
+  margin: 0;
+  max-width: 60ch;
+}
+
+/* Inline site search — visually a sibling of the masthead search panel, but
+   posts to /search/ so the visitor lands in the full search experience. */
+.not-found__search {
+  margin: 0 0 56px;
+  padding: 24px;
+  background: var(--bg-tint);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.not-found__search-label {
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 10px;
+}
+.not-found__search-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 10px;
+}
+.not-found__search-row input {
+  font-family: var(--serif);
+  font-size: 16px;
+  padding: 12px 14px;
+  border: 1px solid var(--line-2);
+  background: #fff;
+  color: var(--ink);
+  border-radius: var(--radius);
+  transition: border-color 0.15s ease;
+}
+.not-found__search-row input:focus {
+  outline: none;
+  border-color: var(--mint-deep);
+}
+
+/* Section dividers (categories + recent reports). Lighter than the masthead
+   divider, more like the field-guide section breaks throughout the site. */
+.not-found__section {
+  margin: 0 0 48px;
+}
+.not-found__section-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  margin: 0 0 10px;
+}
+.not-found__section-h2 {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 20px;
+}
+
+/* Category cards — five categories, same border-and-hover language as the
+   compare-with strip cards on fruit reports. */
+.not-found__cat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 12px;
+}
+.not-found__cat-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  background: #fff;
+  text-decoration: none;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+  min-height: 64px;
+}
+.not-found__cat-card:hover {
+  border-color: var(--mint);
+  transform: translateY(-1px);
+}
+.not-found__cat-name {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.not-found__cat-cta {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Recent fruit-report cards — slightly taller than category cards so the
+   long titles wrap cleanly. */
+.not-found__report-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+  margin: 0 0 18px;
+}
+.not-found__report-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  background: #fff;
+  text-decoration: none;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+  min-height: 96px;
+}
+.not-found__report-card:hover {
+  border-color: var(--mint);
+  transform: translateY(-1px);
+}
+.not-found__report-cat {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+}
+.not-found__report-title {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.not-found__see-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mint-deep);
+  text-decoration: none;
+  padding: 4px 0;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color 0.15s ease;
+}
+.not-found__see-all:hover {
+  border-bottom-color: var(--mint-deep);
+}
+
+/* Broken-link reporter — sits at the bottom in a quiet, italic serif line.
+   Not a CTA; just an invitation if something is genuinely wrong. */
+.not-found__report-link {
+  margin: 40px 0 0;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 14.5px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+.not-found__report-link a {
+  color: var(--mint-deep);
+  text-decoration: none;
+  border-bottom: 1px solid var(--mint);
+  transition: border-bottom-color 0.15s ease;
+}
+.not-found__report-link a:hover {
+  border-bottom-color: var(--mint-deep);
+}
+
+@media (max-width: 640px) {
+  .not-found__search-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- Compare hub ---------- */
+.compare-hub {
+  padding: 16px 0 48px;
+}
+.compare-hub__section {
+  margin: 0 0 48px;
+}
+.compare-hub__h2 {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  margin: 0 0 18px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+.compare-hub__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 8px 24px;
+}
+.compare-hub__item {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+  text-decoration: none;
+  transition: padding-left 0.15s ease;
+}
+.compare-hub__item:hover {
+  padding-left: 8px;
+}
+.compare-hub__pair {
+  font-family: var(--titles);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--ink);
+}
+.compare-hub__vs {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--mint-deep);
+  margin: 0 4px;
+}
+.compare-hub__item:hover .compare-hub__pair {
+  color: var(--mint-deep);
+}
+
+.glossary-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted var(--mint);
+  transition: border-bottom-color 0.15s ease, color 0.15s ease;
+}
+.glossary-link:hover {
+  color: var(--mint-deep);
+  border-bottom-color: var(--mint-deep);
+  border-bottom-style: solid;
 }
 
 .pullquote {

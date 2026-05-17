@@ -3,6 +3,7 @@ title: "How Many Types of Longans Are There? A Guide to Longan Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-10
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-longans-are-there.jpg
 cover_alt: "A cluster of longan fruit on the branch"
 cover_credit: "Raju Alam / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "Fresh longan, dried longan, canned longan, and freeze-dried longan are different eating experiences and should not be treated as one format."
   - "Key differences include fruit size, flesh thickness, seed size, sweetness, floral aroma, and harvest timing."
   - "For freeze-dried longan, peeled flesh quality and seed removal matter more than dramatic visual variety."
+faqs:
+  - q: "How many types of longans are there?"
+    a: "Longan varieties are usually discussed through origin and cultivar names in producing regions — China, Thailand, Vietnam, and Taiwan — rather than through broad Western retail labels. The practical commercial layers are fresh longan, dried longan, canned longan, and freeze-dried longan, each with its own cultivar selections and quality grades."
+  - q: "Why are longan varieties so much less famous than apple or grape varieties?"
+    a: "Longan variety stays hidden under the peel. Unlike apples or mangoes where color and shape advertise difference, longan is sold in clusters of small brown spheres that look identical from the outside. The practical differences appear when peeled — flesh thickness, translucency, seed size, aroma — which is why cultivar branding rarely reaches consumers."
+  - q: "What's the difference between fresh longan and dried longan?"
+    a: "Fresh longan tastes floral, tea-like, gently sweet — eaten as a delicate seasonal fruit. Dried longan (often called dragon eye in English) is sun-dried or heat-dried, producing chewy dark intensely sweet pieces with caramelized notes used in Chinese soups, teas, and traditional medicine. Freeze-dried longan is a third product — closer to fresh than to traditional dried."
+  - q: "Which longan variety freeze-dries best?"
+    a: "The best raw material has thick flesh, clean sweetness, and floral aroma that survives drying. Thin flesh around a large seed gives poor yield; overripe or weak fruit becomes sweet but anonymous. Whole peeled pieces look premium but cost more; halves and fragments are more realistic for many applications. Origin and ripeness matter more than chasing famous cultivar names."
+  - q: "Where is longan grown commercially?"
+    a: "China (especially Fujian, Guangdong, and Guangxi provinces) has the deepest cultivar diversity. Thailand has strong export infrastructure and recognizable seasonal supply. Vietnam, Taiwan, and parts of India and Australia also produce commercial longan. Season is short — typically late summer — and origin shapes both flavor and price."
+  - q: "Is dried longan a substitute for freeze-dried longan?"
+    a: "No — they are different products. Traditional dried longan has a dark warm honeyed character with chewy texture, suited to traditional soups and teas. Freeze-dried longan is lighter, crisper, and reads closer to fresh fruit, suited to modern snack mixes and dessert toppings. Brands selling one should not position it as the other."
+  - q: "What should buyers ask freeze-dried longan suppliers?"
+    a: "Ask origin (China, Thailand, Vietnam, Taiwan), cultivar where available, raw material state (fresh, IQF, reworked from traditional dried), peeled yield, seed-removal completeness, sulfur or additive status, Brix range, size grade, target moisture or water activity, and whether the flavor target is fresh-light or dried-longan-warm."
 ---
 
 Longan is often introduced as lychee’s quieter cousin, but that undersells it. Its variety story is warmer, more tea-like, and deeply connected to Asian fruit markets.

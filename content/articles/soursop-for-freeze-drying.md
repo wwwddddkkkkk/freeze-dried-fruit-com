@@ -3,6 +3,7 @@ title: "A Field Guide to Soursop for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-15
 cover_image: /images/articles/soursop-for-freeze-drying.jpg
 cover_alt: "Soursop fruit displayed at a market"
 cover_credit: "Moses Cursor Ssebunya / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "Seed removal, fiber, and ripeness decide whether the result feels premium or messy."
   - "The fruit is often stronger as pieces, puree-derived formats, or powder than as large intact chunks."
   - "Its tart-creamy profile can make tropical blends feel more layered."
+faqs:
+  - q: "What does freeze-dried soursop taste like?"
+    a: "Creamy tropical — often described as a combination of pineapple, strawberry, citrus, and custard at once. The freeze-dried version concentrates that complex flavor and preserves the tart-creamy character that makes soursop unusual among tropical fruits. There is no obvious substitute in the freeze-dried fruit category."
+  - q: "Is soursop the same as graviola or guanábana?"
+    a: "Yes — soursop, graviola, and guanábana all refer to *Annona muricata*. Different markets use different names for the same fruit. Latin American supply chains often use guanábana; English-language wellness products often use graviola. The freeze-dried product is the same regardless of which name appears on the label."
+  - q: "Why is fiber a quality concern in freeze-dried soursop?"
+    a: "Soursop pulp contains natural fibrous strands wrapped around large black seeds. If the raw preparation leaves too much fiber intact, freeze-drying makes it more obvious as a stringy texture. Premium products use processing methods that control fiber while preserving the creamy character — puree-derived pieces handle this best."
+  - q: "What's the best format for freeze-dried soursop?"
+    a: "Pulp pieces deliver creamy, tart, aromatic character for premium tropical blends — seed fragments and fiber are the risks. Puree-derived pieces give consistent flavor and shape with less whole-fruit identity. Soursop powder concentrates the strong tropical-acid note for drinks, fillings, and coatings. Blend formats use soursop to add complexity to milder tropical fruits."
+  - q: "Are the seeds in soursop safe to eat?"
+    a: "No — soursop seeds contain compounds (annonacin and related alkaloids) that should not be consumed. Premium freeze-dried soursop has complete seed removal, since even small seed fragments are a concern. Buyers should confirm seed-removal practice in writing, not assume it from a verbal commitment."
+  - q: "What fruits pair well with freeze-dried soursop?"
+    a: "Mango, pineapple, coconut, and citrus all complement soursop's creamy-tart profile. The fruit is strong enough that small inclusion rates can transform a tropical blend, so it works as a flavor accent rather than a volume ingredient. Pairing soursop with other equally complex fruits usually creates competition rather than harmony."
+  - q: "What should buyers ask freeze-dried soursop suppliers?"
+    a: "Ask raw material state (fresh pulp, frozen pulp, puree, or cut fruit), seed-removal completeness (in writing), fiber control practice, origin, added sugar or carrier, target moisture or water activity, expected breakage rate, and the intended product positioning (tropical blend, dairy-style application, dessert inclusion, or premium snack)."
 ---
 
 Soursop has a creamy tropical flavor that can feel like pineapple, strawberry, citrus, and custard at once, which makes it unusually interesting for freeze-dried product development. For freeze-dried fruit buyers, soursop is not just a flavor name. It is a set of decisions about raw material, cutting, drying behavior, sensory quality, packaging, and where the finished fruit actually belongs.

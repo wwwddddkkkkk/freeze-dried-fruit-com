@@ -2,6 +2,7 @@
 title: "Desiccants vs Oxygen Absorbers for Freeze-Dried Fruit"
 category: "Technology"
 date: 2026-05-10
+updated: 2026-05-14
 read: "6 min read"
 summary: "Desiccants manage moisture. Oxygen absorbers manage oxygen. Freeze-dried fruit buyers should know which problem each packet is meant to solve."
 intro: "The small packet inside a pouch is easy to ignore, but it can reveal a lot about how a brand or supplier thinks about product stability."
@@ -12,6 +13,36 @@ takeaways:
   - "The right choice depends on fruit type, packaging film, headspace, format, and distribution conditions."
 cover_image: /images/articles/desiccants-vs-oxygen-absorbers.svg
 cover_alt: "Packaging diagram showing how desiccants and oxygen absorbers protect freeze-dried fruit differently"
+faqs:
+  - q: "What's the difference between a desiccant and an oxygen absorber?"
+    a: "Desiccants control moisture. Oxygen absorbers reduce oxygen. They are not interchangeable — a desiccant will not remove oxygen meaningfully, and an oxygen absorber will not keep a humid pouch dry. Using the wrong packet creates a false sense of protection."
+  - q: "Does freeze-dried fruit need both packets?"
+    a: "Not always. The right answer depends on the failure mode. For plain freeze-dried fruit, moisture is usually the bigger problem, so a desiccant is more directly tied to preserving crunch. Oxygen absorbers matter more when color, aroma, or oxidation-sensitive blend ingredients are at risk."
+  - q: "When does an oxygen absorber make sense for freeze-dried fruit?"
+    a: "When color retention is a major quality marker, aroma loss is a known problem, the product includes fat-containing ingredients like nuts or chocolate, the package has meaningful headspace, or the product is positioned for longer unopened storage. They need correct packaging integrity to work — they should be matched to headspace and seal, not dropped into a pouch without validation."
+  - q: "Can a desiccant rescue a poorly sealed pouch?"
+    a: "No. Desiccants are a support tool, not a fix. If the film has weak moisture barrier performance, the seal is inconsistent, or the product leaves the dryer with too much residual moisture, a desiccant can only do so much. The packaging film, seal, zipper, headspace, and storage conditions matter more."
+  - q: "Why are these packets often treated as if they're the same?"
+    a: "Because they look alike and sit in the same place inside a pouch. The actual problems they solve are different. If a brand's main problem is soft fruit after two weeks, an oxygen absorber alone will not solve that texture issue. If the problem is dull color or stale aroma while texture stays crisp, oxygen exposure deserves more attention."
+  - q: "What should buyers ask suppliers about the packets in the pouch?"
+    a: "Ask whether the packet is a desiccant, oxygen absorber, or both; what specific problem it is intended to solve; the film's water vapor and oxygen transmission rates; whether the product has been tested with and without the packet; how texture changes after opening; and whether the packet is food-safe and correctly sized for the pack."
+sources:
+  - title: "Silica Gel as Indirect Food Additive — 21 CFR 172.480"
+    url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/subpart-I/section-172.480"
+    publisher: "Electronic Code of Federal Regulations"
+    note: "FDA's permitted use of silica gel — the most common food-grade desiccant inside dried-fruit pouches."
+  - title: "Food Contact Substance Notifications — Inventory"
+    url: "https://www.fda.gov/food/food-ingredients-packaging/inventory-effective-food-contact-substance-fcs-notifications"
+    publisher: "U.S. Food & Drug Administration"
+    note: "Verify that the iron-based chemistry inside oxygen absorbers and the carrier material are legally cleared for food contact."
+  - title: "Reduced Oxygen Packaging — Inspection Reference"
+    url: "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-references/reduced-oxygen-packaging-rop"
+    publisher: "U.S. Food & Drug Administration"
+    note: "Regulatory context for oxygen-absorber use in finished food packaging."
+  - title: "Active Packaging Technologies"
+    url: "https://ift.onlinelibrary.wiley.com/doi/10.1111/j.1750-3841.2005.tb09052.x"
+    publisher: "Institute of Food Technologists — Journal of Food Science"
+    note: "Peer-reviewed overview of desiccants, oxygen scavengers, and how they interact with package barrier choice."
 ---
 
 The small packet inside a pouch is easy to ignore, but it can reveal a lot about how a brand or supplier thinks about product stability. In freeze-dried fruit, two packets are commonly discussed: **desiccants** and **oxygen absorbers**.

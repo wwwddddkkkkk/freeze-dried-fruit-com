@@ -3,6 +3,7 @@ title: "A Field Guide to Pineapple for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-11
+updated: 2026-05-14
 cover_image: /images/articles/pineapple-varieties-for-freeze-drying.jpg
 cover_alt: "A whole pineapple fruit photographed close up"
 cover_credit: "Grace789 / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Too much acid can make the finished fruit sharp; too much fiber can make it tough."
   - "Chunks and tidbits are usually more practical than large rings for commercial freeze-dried snacks."
   - "Buyers should evaluate aroma, chew, edge hardness, and powder separately."
+faqs:
+  - q: "Which pineapple cut works best for freeze-drying?"
+    a: "Chunks and tidbits are usually more practical than large rings for commercial freeze-dried snacks. Chunks give a juicy-tropical snackable impression but can dry unevenly if too thick. Tidbits are consistent and easy to blend. Rings look nostalgic but are fragile and bulky. Powder excels in drinks, sauces, and coatings."
+  - q: "Why can freeze-dried pineapple taste too sharp?"
+    a: "Pineapple carries strong acidity, and freeze-drying concentrates the acid-sugar balance along with the rest of the fruit. A high-acid pineapple variety that tastes balanced fresh can read aggressively sharp once water is removed. Under-ripe fruit makes this worse. Blending with sweeter varieties or matching cut size to the application usually helps."
+  - q: "Should freeze-dried pineapple include the core?"
+    a: "Core pieces are firmer and more fibrous than flesh. That can be acceptable for ingredient use, but it is generally less desirable in premium snacking where consumers expect a clean tropical bite. The spec should match the claim — a premium snack pouch should disclose if core is included."
+  - q: "Why are pineapple rings less common in freeze-dried form?"
+    a: "Rings are dramatic visually but inefficient: they take up more package space, drag uneven moisture across the larger flat surface, and break easily during shipping. Most commercial freeze-dried pineapple settles in chunks or tidbits because those formats survive handling better and present consistently to consumers."
+  - q: "What quality signals matter in a freeze-dried pineapple bag?"
+    a: "Golden color without excessive browning; tropical aroma that is obvious when opened; crisp bite with limited tough fiber; balanced sweet-acid finish; and piece size that matches the stated use case. The finish should be crisp, not glassy-hard."
+  - q: "What's the difference between freeze-dried pineapple and dehydrated pineapple?"
+    a: "Dehydrated pineapple uses heat or air to remove water, producing a chewy, browned, candied-style piece. Freeze-dried pineapple uses vacuum at low temperature, producing a light, crisp piece that retains more original color and a brighter tropical aroma. Same fruit, very different finished product."
+  - q: "What should buyers ask freeze-dried pineapple suppliers?"
+    a: "Ask the cultivar or commercial group (MD2, Smooth Cayenne, etc.), origin, raw material state (fresh or frozen), cut size, whether the core is included, maturity at processing, target moisture or water activity, added sugar status, and expected breakage rate after shipping."
 ---
 
 Pineapple is one of the easiest fruits to love in freeze-dried form, but it is not always easy to process well. For freeze-dried fruit buyers, pineapple is not just a flavor. It is a set of processing choices: raw material quality, cut format, moisture control, aroma retention, breakage, and how clearly the finished piece still communicates the fruit.

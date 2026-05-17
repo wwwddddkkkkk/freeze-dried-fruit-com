@@ -3,6 +3,7 @@ title: "A Field Guide to Mango Varieties for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-09
+updated: 2026-05-14
 cover_image: /images/articles/mango-varieties.jpg
 cover_alt: "Whole and halved ripe mangoes on a plain background"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -16,6 +17,23 @@ takeaways:
   - "Higher-fiber workhorses (Tommy Atkins) are common because they ship well, not because they taste best."
   - "Mango is heavily seasonal and origin-locked — supply realities often dictate which variety actually ends up in the bag."
   - "When sourcing, ask the variety, the country, and the harvest window — not just \"mango.\""
+faqs:
+  - q: "Which mango variety freeze-dries best?"
+    a: "For premium snacking, low-fiber high-Brix cultivars dominate: **Ataulfo**, **Alphonso**, **Kesar**, **Carabao**, and **Nam Dok Mai**. For reliable cubes and broader ingredient use, **Kent** and **Keitt** are workhorses. For powders and lower-cost blends, **Tommy Atkins**, **Totapuri**, and **Palmer** appear most often. Variety sets the ceiling — drying cannot rescue a fibrous, low-Brix input."
+  - q: "Why is Tommy Atkins so common in freeze-dried mango if it's not the best-tasting?"
+    a: "Tommy Atkins was bred for disease resistance and shelf life, not flavor. The skin is thick, color is reliably red-and-green, and the fruit ships and stores extraordinarily well — exactly what export and processing supply chains reward. In freeze-dried form it is functional but mild, with noticeable fiber. It works as a budget input or in blends, rarely as a premium standalone."
+  - q: "What's the difference between Ataulfo and Tommy Atkins freeze-dried?"
+    a: "Ataulfo (sometimes sold as honey or Champagne mango) has very low fiber, very high Brix, and a rich honey-like aroma. Freeze-dried Ataulfo is deep yellow, intensely sweet, with melting texture — the closest thing to a dessert in the category. Tommy Atkins has higher fiber, moderate Brix, and a pale color with restrained aroma. They are the two ends of the freeze-dried mango spectrum."
+  - q: "Why is freeze-dried Alphonso mango so expensive?"
+    a: "Alphonso is grown almost exclusively in Maharashtra, India, and has a brutally short season — typically April through June. Its saffron-orange flesh, very high Brix, and heady aroma (peach, citrus, resin notes) make it a gold-standard premium mango. Genuine single-origin Alphonso is several times the price of commodity mango, and some lower-cost \"Alphonso\" products lean on the halo while blending in cheaper cultivars."
+  - q: "What does Brix mean for freeze-dried mango?"
+    a: "Brix is a rough measure of soluble solids — mostly sugar. Mango at harvest typically falls between 10 and 22° Brix. Higher Brix at harvest generally produces more intensely flavored freeze-dried fruit. The same cultivar picked under-ripe and ripened in transit will register lower Brix and taste less concentrated after drying."
+  - q: "Why does the same freeze-dried mango product taste different across the year?"
+    a: "Mango is seasonal and origin-locked. Year-round supply almost always means blending cultivars and origins to bridge gaps — Alphonso in spring, Keitt in late summer, Tommy Atkins or Palmer for off-season fill. A product that tastes vivid in May may taste flatter in November if the cultivar mix has shifted. Premium suppliers disclose the blend; commodity suppliers usually do not."
+  - q: "How can I tell what mango variety is in a freeze-dried product?"
+    a: "Color and aroma give it away. Pale yellow or beige usually means Tommy Atkins, Palmer, or a blend. Deep saffron-orange usually means Alphonso, Kesar, or Carabao. Fiber tells you the most — sticky strings between teeth almost always mean Tommy Atkins or its relatives; clean melting texture almost always means a low-fiber cultivar."
+  - q: "What should buyers ask freeze-dried mango suppliers?"
+    a: "Ask which cultivar (not just \"mango\"), country and growing region, harvest window, single-cultivar or blend (and the ratio), typical Brix at intake, fiber spec, cut format, and whether the variety mix changes across the year. \"Mango\" on a label is a category, not a specification."
 ---
 
 Tommy Atkins, Kent, Ataulfo, Alphonso, Kesar, Carabao — written on a label, they all read as "mango." Inside the bag, they do not behave the same. Different cultivars carry different sugar levels, different fiber loads, different aroma profiles, and different skin and stone ratios. Every one of those traits shows up in freeze-dried form.

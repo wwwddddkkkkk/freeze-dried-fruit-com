@@ -3,6 +3,7 @@ title: "How Many Types of Figs Are There? A Guide to Fig Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-15
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-figs-are-there.jpg
 cover_alt: "A ripe fig fruit photographed close up"
 cover_credit: "Paritosh chaudhary / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Fresh figs, dried figs, common figs, Smyrna-type figs, dark figs, green figs, honey figs"
   - "Variety names matter because fresh-market, processing, culinary, and regional fruits are often selected for different jobs."
   - "For freeze-dried fruit buyers, the useful question is which variety fits the product use case, not which variety is abstractly best."
+faqs:
+  - q: "How many types of figs are there?"
+    a: "Many fig cultivars exist, often grouped by skin color, pollination type, fresh use, and drying quality. Familiar names include Black Mission, Brown Turkey, Kadota, Calimyrna, Adriatic, Smyrna, Celeste, and Tiger fig — split into fresh, dried, common, Smyrna-type, dark, green, and honey figs."
+  - q: "What's the difference between fresh and dried figs?"
+    a: "Fresh figs are delicate, seasonal, and perishable — eaten ripe with skin intact, often as a premium dessert fruit. Dried figs are shelf-stable, chewy, and deeply tied to bakery and snack traditions — they keep for months and travel anywhere. Variety and pollination type both shape which use a fig is best suited for."
+  - q: "What is a Smyrna-type fig?"
+    a: "Smyrna-type figs (Calimyrna in California production) require a specific pollination process involving the tiny fig wasp and caprifigs. The result is a fig with developed seeds and a distinctive nutty-honeyed character. Smyrna-type figs dominate traditional dried-fig production around the Mediterranean. Common figs (Black Mission, Brown Turkey, Kadota) develop without pollination."
+  - q: "Which fig variety freeze-dries best?"
+    a: "Raw material state matters more than cultivar — fresh or frozen fig creates a different product from crisped dried fig. Among cultivars, Black Mission gives dark jammy intensity, Kadota and Adriatic give green honeyed character, Calimyrna brings dried-fruit classic depth. Buyers should ask variety, fresh vs dried input, cut format, added sugar, moisture target, and intended use."
+  - q: "What's a Brown Turkey fig?"
+    a: "Brown Turkey is a common fig cultivar popular in backyard orchards and home gardens — brown-purple skin, pink flesh, mild sweetness. It is less commercially dominant than Black Mission or Calimyrna but widely planted because it adapts to many climates and produces two crops per season in warmer regions."
+  - q: "Are honey figs a real variety?"
+    a: "*Honey fig* is more of a descriptive category than a single cultivar — usually referring to lighter-colored figs (Kadota, Adriatic, and similar green or golden types) prized for delicate honeyed sweetness. Different growers may use the marketing term for slightly different cultivars, so the term is more useful in retail than in technical sourcing."
+  - q: "What should buyers ask freeze-dried fig suppliers?"
+    a: "Ask variety where available (Black Mission, Brown Turkey, Calimyrna, Adriatic, Kadota, etc.), origin, raw material state (fresh, frozen, or dried-derived), cut format, skin inclusion, added sugar or syrup status, target moisture or water activity, expected breakage rate, and the intended product positioning."
 ---
 
 Fig variety is about color, jamminess, seed crunch, skin thickness, sweetness, drying tradition, and whether the fruit is eaten fresh or dried. The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.

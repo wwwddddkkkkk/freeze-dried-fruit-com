@@ -10,6 +10,19 @@
     "industry": "industry@freeze-dried-fruit.com",
     "press": "press@freeze-dried-fruit.com"
   },
+  "editorial": {
+    "byline": "Freeze-Dried Fruit Editorial Desk",
+    "shortByline": "Editorial Desk",
+    "url": "/editorial/",
+    "tagline": "Independent editorial team covering the freeze-dried fruit category."
+  },
+  "analytics": {
+    "googleSiteVerification": "",
+    "plausibleDomain": "",
+    "plausibleSrc": "https://plausible.io/js/script.js",
+    "ga4Id": "",
+    "cloudflareToken": ""
+  },
   "nav": [
     { "label": "Insights", "category": "Industry Insights" },
     { "label": "Technology", "category": "Technology" },

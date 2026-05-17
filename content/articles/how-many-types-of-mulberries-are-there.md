@@ -3,6 +3,7 @@ title: "How Many Types of Mulberries Are There? A Guide to Mulberry Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-11
+updated: 2026-05-15
 cover_image: /images/articles/how-many-types-of-mulberries-are-there.jpg
 cover_alt: "Dark mulberries photographed close up"
 cover_credit: "Fumikas Sagisavas / CC0"
@@ -15,6 +16,21 @@ takeaways:
   - "Fresh mulberries are fragile, which is why processed forms can reveal fruit that many consumers rarely see fresh."
   - "Color changes everything: dark mulberries read rich and berry-like, while white mulberries can feel honeyed, mild, and chewy."
   - "Freeze-dried mulberries need careful handling because breakage, staining, and seed texture are common quality points."
+faqs:
+  - q: "How many types of mulberries are there?"
+    a: "Mulberries are usually grouped by color and species: **black mulberry**, **white mulberry**, **red mulberry**, and longer-fruited types like **Pakistan** and **Himalayan mulberry** are the names buyers hear most often. Variety counts depend on whether you count species, regional selections, or named cultivars."
+  - q: "What's the difference between black, white, and red mulberries?"
+    a: "Black mulberries are the most intense in flavor, with dark juice, winey sweetness, and strong staining power. White mulberries are usually milder and honey-sweet, especially in dried form. Red mulberries are associated with North America, with fruit ranging from red to dark purple when ripe — flavor sits between sweet and tart."
+  - q: "What are Pakistan and Himalayan mulberries?"
+    a: "Pakistan and Himalayan mulberries are long-fruited types that can look almost like stretched berries from a different category. They can be dramatic in appearance and very sweet when ripe, prized for specialty positioning. They are harder to standardize commercially than the more common black, white, and red mulberries."
+  - q: "Why don't most stores sell fresh mulberries?"
+    a: "Mulberries are extremely fragile fresh. The fruit doesn't survive long-distance shipping the way grapes or blueberries do, and shelf life is short even in good conditions. That's why most mulberries reach consumers as dried, frozen, or freeze-dried product rather than fresh."
+  - q: "Which mulberry variety is best for freeze-drying?"
+    a: "Color and softness drive the choice. Dark fruit (black mulberry) creates beautiful contrast in cereal, chocolate, and yogurt applications, but color transfer and staining can be issues. Lighter fruit (white mulberry) feels more delicate and honeyed. Whole-fruit formats are attractive but must be packed with breakage in mind."
+  - q: "Do freeze-dried mulberries stain other ingredients in a blend?"
+    a: "Dark mulberries carry strong anthocyanin pigments that can transfer color to adjacent ingredients in a mix — visible in granola where mulberry tinges oat clusters purple. Whole-piece formats minimize transfer; powder and broken pieces should be paired with ingredients where the color tint is welcome rather than a defect."
+  - q: "What should buyers ask freeze-dried mulberry suppliers?"
+    a: "Ask what the fruit really is (black, white, red, Pakistan, Himalayan), where it comes from, single-origin or blended, ripeness at processing, whole or broken format, target moisture or water activity, added ingredients, and expected breakage and powder percentage after shipping."
 ---
 
 Mulberries are familiar in some regions and almost invisible in others. Their variety story is really a story about color, softness, staining, and how quickly ripe fruit disappears after harvest.

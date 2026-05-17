@@ -3,6 +3,7 @@ title: "A Field Guide to Grapefruit for Freeze-Drying"
 category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-12
+updated: 2026-05-15
 cover_image: /images/articles/grapefruit-for-freeze-drying.jpg
 cover_alt: "Whole, halved, and segmented grapefruits"
 cover_credit: "Ivar Leidus / CC BY-SA 4.0"
@@ -15,6 +16,21 @@ takeaways:
   - "Red and pink varieties usually have stronger visual appeal than white grapefruit."
   - "Membrane control and bitterness management decide whether the product tastes elegant or harsh."
   - "Grapefruit works especially well in powders, drinks, yogurt, and premium blends."
+faqs:
+  - q: "Why is freeze-dried grapefruit usually more bitter than freeze-dried orange?"
+    a: "Grapefruit naturally contains more bitter compounds (naringin and related flavonoids) than orange, plus higher acidity. Freeze-drying concentrates those bitter compounds along with the rest of the fruit, so the finished piece reads more bitter than the fresh fruit. In adult-positioned products this complexity can be an asset; in mass-market sweet-snack contexts it's usually a problem."
+  - q: "Should freeze-dried grapefruit be pink, red, or white?"
+    a: "Pink and red grapefruit varieties (Star Ruby, Ruby Red, Rio Star) carry stronger visual color and slightly less bitterness than classic white grapefruit, making them more commercial for snack and topping use. White grapefruit is sharper and more bitter — appropriate for functional drinks and culinary use where the harder edge is the point."
+  - q: "What's the best format for freeze-dried grapefruit?"
+    a: "Pink/red segments suit premium citrus blends — bright, adult, visually strong. White grapefruit segments fit functional drinks and culinary use. Grapefruit powder concentrates acid-bitter balance for beverages and coatings — caking and oxidation are the cautions. Grapefruit peel and zest are highly aromatic but bitter — flavor systems and garnish only."
+  - q: "Why does freeze-dried grapefruit work in adult-positioned products?"
+    a: "The bitter-acid edge that limits grapefruit in mass-market sweet snacks gives it sophistication in adult contexts — drink mixes, cocktail kits, gin pairings, dark chocolate inclusions, ginger-tea blends, breakfast yogurt for grown-ups. Bitter is a feature when the audience welcomes complexity rather than expecting candy."
+  - q: "Why is membrane control so important for freeze-dried grapefruit?"
+    a: "Citrus segment membranes carry concentrated bitterness from the pith and peel oils. When freeze-drying preserves the membrane intact, the bitter signal becomes more dominant. Premium products either remove membranes carefully (hand peeled segments) or steer toward formats where membrane impact is controlled (powders, juice-derived ingredients)."
+  - q: "What pairings work well with freeze-dried grapefruit?"
+    a: "Grapefruit pairs well with strawberry (acid + acid + sweet), pineapple (tropical with shared acidity), ginger (warm and sharp), mint (clean and fresh), and dark chocolate (bitter + bitter creates depth). It is less likely to work in standard mixed-berry or tropical-fruit snack mixes where mass-market sweetness dominates."
+  - q: "What should buyers ask freeze-dried grapefruit suppliers?"
+    a: "Ask variety (white, pink, red, ruby), origin, raw material state, cut format (segments, powder, peel/zest), membrane and pith handling, added sugar or carrier, expected bitterness level, target moisture or water activity, and the intended product positioning."
 ---
 
 Grapefruit is not the easiest citrus to sell, which is exactly why it can feel sophisticated when handled well. For freeze-dried fruit buyers, grapefruit is not just a flavor name. It is a set of decisions about raw material, cutting, drying behavior, sensory quality, packaging, and where the finished fruit actually belongs.

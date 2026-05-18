@@ -614,6 +614,54 @@ export const FRUIT_DATA = {
     costTier: "Mid",
     keyOrigins: "China, Italy, U.S. (California), Chile, India",
   },
+
+  // Andean specialty fruit — high-value premium category with concentrated
+  // origin geography (Peru / Chile / Colombia / Ecuador). Sold primarily as
+  // freeze-dried powder or whole pieces into supplement, ingredient, and
+  // premium snack formulations. Strategic for the Spanish-speaking buyer
+  // audience since most cultivation is in Spanish-speaking countries.
+  lucuma: {
+    name: "Lucuma",
+    brix: "20–25°",
+    fiber: "High",
+    aroma: "Distinctive (maple-caramel)",
+    colorStability: "Strong",
+    breakage: "Low",
+    format: "Powder · dice · slice",
+    oneLine: "Andean superfruit with very low water content and a maple-caramel flavor profile. Mostly sold as freeze-dried powder for premium ingredient use.",
+    bestUse: "Ingredient powder, smoothie bases, premium dessert applications, dairy-free ice cream",
+    seasonality: "Year-round availability (Peruvian Andes harvest cycles)",
+    costTier: "Premium",
+    keyOrigins: "Peru (Andes), Chile, Ecuador",
+  },
+  maqui: {
+    name: "Maqui",
+    brix: "12–18°",
+    fiber: "Medium",
+    aroma: "Mild",
+    colorStability: "Very strong",
+    breakage: "Medium",
+    format: "Whole · powder",
+    oneLine: "Chilean Patagonian berry with extreme anthocyanin density. Tiny dark-purple fruit prized for natural color, antioxidant marketing, and supplement formulation.",
+    bestUse: "Premium powder ingredient, supplement formulations, natural color blends, smoothie packs",
+    seasonality: "January–March harvest (Chilean Patagonia)",
+    costTier: "Premium",
+    keyOrigins: "Chile (Patagonia), Argentina",
+  },
+  aguaymanto: {
+    name: "Aguaymanto (Goldenberry)",
+    brix: "13–18°",
+    fiber: "Medium",
+    aroma: "Strong (citrus-tropical)",
+    colorStability: "Strong",
+    breakage: "Low",
+    format: "Whole · halves",
+    oneLine: "Husk-wrapped Andean berry with bright citrus-tropical aroma. Holds shape and color well in freeze-drying, distinctive on shelf as a premium snack piece.",
+    bestUse: "Premium snack pieces, granola inclusions, restaurant garnish, gourmet trail mix",
+    seasonality: "Year-round (Peruvian Andes, Colombian highlands)",
+    costTier: "Premium",
+    keyOrigins: "Peru, Colombia, Ecuador, South Africa",
+  },
 };
 
 // Cross-fruit clusters used to pick which siblings to display in any one
@@ -628,6 +676,7 @@ export const CLUSTERS = [
   { id: "citrus", label: "Citrus", fruits: ["orange", "lemon", "grapefruit"] },
   { id: "melon", label: "Melons", fruits: ["watermelon", "cantaloupe", "honeydew"] },
   { id: "structural", label: "Visually distinctive fruit", fruits: ["dragon-fruit", "pomegranate", "kiwi", "fig", "persimmon", "grape"] },
+  { id: "andean", label: "Andean specialty fruit", fruits: ["lucuma", "maqui", "aguaymanto"] },
 ];
 
 // Article slug → fruit key. Covers both the "Field Guide to X for Freeze-Drying"
@@ -731,6 +780,11 @@ export const SLUG_TO_FRUIT = {
   "how-many-types-of-persimmons-are-there": "persimmon",
   "grape-for-freeze-drying": "grape",
   "how-many-types-of-grapes-are-there": "grape",
+
+  // Andean specialty
+  "lucuma-for-freeze-drying": "lucuma",
+  "maqui-for-freeze-drying": "maqui",
+  "aguaymanto-for-freeze-drying": "aguaymanto",
 };
 
 // Locate the cluster that contains a given fruit key.

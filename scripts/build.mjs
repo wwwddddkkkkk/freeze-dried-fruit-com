@@ -15,6 +15,13 @@ import { loadPillars, extractTocFromHtml, ensureH2Anchors } from "./lib/pillars.
 import { loadReports } from "./lib/reports.mjs";
 import { t as iT, categoryLabel as iCategoryLabel } from "./lib/i18n.mjs";
 import {
+  GLOSSARY_EN,
+  GLOSSARY_ES,
+  GLOSSARY_CATEGORY_ORDER_EN,
+  GLOSSARY_CATEGORY_ORDER_ES,
+  GLOSSARY_LABELS,
+} from "./lib/glossary-data.mjs";
+import {
   FRUIT_EQUIVALENCY,
   CLIMATE_ZONES,
   SHELF_LIFE_OPTIONS,
@@ -1288,7 +1295,7 @@ function renderCompareHub({ pairs }) {
     byCluster.get(clusterId).items.push(p);
   }
   // Render clusters in a stable, intuitive order
-  const order = ["berries", "stone", "pome", "tropical", "asian-tropical", "citrus", "melon", "structural", "cross-cluster"];
+  const order = ["berries", "stone", "pome", "tropical", "asian-tropical", "andean", "citrus", "melon", "structural", "cross-cluster"];
   const clusters = order
     .filter(id => byCluster.has(id))
     .map(id => ({ id, ...byCluster.get(id) }));
@@ -2326,116 +2333,18 @@ function renderMethodologyBody({ mailto }) {
 
 // ---------- Glossary ----------
 
-const GLOSSARY = [
-  // Process & science
-  { term: "Water activity (aw)", slug: "water-activity", category: "Process & science",
-    aliases: ["water activity"],
-    definition: "A measure of how *available* the water in a food is, reported on a 0–1 scale. Pure water sits near 1.0; freeze-dried fruit typically sits well below 0.3. Water activity predicts microbial and texture stability better than moisture content alone." },
-  { term: "Moisture content", slug: "moisture-content", category: "Process & science",
-    definition: "The percentage of a product's weight that is water. Premium freeze-dried fruit usually targets 1–4% residual moisture. A low moisture number does not guarantee crunch — water activity matters too." },
-  { term: "Sublimation", slug: "sublimation", category: "Process & science",
-    definition: "The phase transition from solid directly to vapor without passing through liquid. Freeze-drying removes water from frozen fruit by sublimation under low pressure, preserving the cellular structure." },
-  { term: "Lyophilization", slug: "lyophilization", category: "Process & science",
-    aliases: ["lyophilisation"],
-    definition: "The technical name for freeze-drying. Frozen material is placed under vacuum so that water sublimates from the solid phase, leaving a porous dry structure." },
-  { term: "Primary drying", slug: "primary-drying", category: "Process & science",
-    definition: "The first and longest phase of a freeze-drying cycle. Bulk ice is removed by sublimation under controlled vacuum and shelf temperature. Most cycle time is spent here." },
-  { term: "Secondary drying", slug: "secondary-drying", category: "Process & science",
-    definition: "The final phase of a freeze-drying cycle. Bound water — the moisture still held inside the cell structure — is removed at higher shelf temperatures to reach the residual moisture target." },
-  { term: "Eutectic point", slug: "eutectic-point", category: "Process & science",
-    definition: "The temperature below which a solution is fully solid. For freeze-drying fruit, the product must stay below its eutectic or collapse temperature during primary drying or it will lose structure." },
-  { term: "Cycle endpoint", slug: "cycle-endpoint", category: "Process & science",
-    definition: "The point at which secondary drying is complete and the product has reached its target moisture and water activity. Pulling the cycle too early leaves residual moisture; running too long wastes energy and can over-dry the fruit." },
-
-  // Raw material & format
-  { term: "IQF (Individually Quick-Frozen)", slug: "iqf", category: "Raw material & format",
-    aliases: ["IQF", "individually quick-frozen", "individually quick frozen"],
-    definition: "Fruit frozen piece by piece at low temperature before processing. IQF lets producers run year-round and standardize specs, but ice crystal formation can rupture cell walls — sometimes visible in whole-piece formats." },
-  { term: "Pre-treatment", slug: "pre-treatment", category: "Raw material & format",
-    aliases: ["pretreatment", "pre-treatments"],
-    definition: "Any step applied to fruit between intake and freezing — washing, cutting, dipping, blanching, or acidifying. Pre-treatment can prevent enzymatic browning and stabilize color for sensitive fruits like apple, banana, and pear." },
-  { term: "Brix", slug: "brix", category: "Raw material & format",
-    definition: "A measurement of dissolved solids — mostly sugars — in fruit juice, expressed in degrees. Higher Brix often correlates with stronger flavor in the finished freeze-dried product, though acidity and aroma compounds matter too." },
-  { term: "Whole piece", slug: "whole-piece", category: "Raw material & format",
-    aliases: ["whole pieces", "whole-piece"],
-    definition: "Freeze-dried fruit sold as intact pieces — whole strawberries, whole blueberries, whole mango chunks. Whole-piece formats command premium pricing and demand tighter breakage control." },
-  { term: "Crumble / fines", slug: "crumble-fines", category: "Raw material & format",
-    aliases: ["fines"],
-    definition: "Small fragments and powder produced when freeze-dried fruit breaks during processing, screening, or transport. Some breakage is normal; tolerance is defined by buyer spec." },
-  { term: "Powder", slug: "powder", category: "Raw material & format",
-    aliases: ["fruit powder", "freeze-dried powder"],
-    definition: "Freeze-dried fruit milled into a fine powder. Used for color, flavor coverage, beverage applications, and ingredient systems. Same raw fruit can yield very different powder behavior depending on grind size and pre-screening." },
-
-  // Quality & defects
-  { term: "Enzymatic browning", slug: "enzymatic-browning", category: "Quality & defects",
-    definition: "Surface darkening caused by enzymes reacting with oxygen after fruit is cut. Common in apple, banana, and pear. Can be controlled by pre-treatment and fast freezing." },
-  { term: "Pigment fade", slug: "pigment-fade", category: "Quality & defects",
-    definition: "Loss of color saturation in pigment-rich fruits — strawberry, raspberry, blueberry, cherry, dragon fruit. Often shows as washed-out, dusty, or grayish appearance rather than browning. Driven by oxygen exposure and weak packaging." },
-  { term: "Breakage", slug: "breakage", category: "Quality & defects",
-    definition: "The proportion of freeze-dried fruit that has broken from its intended piece size into fragments or powder. A controlled spec for premium products; transit damage can compound it." },
-  { term: "Rehydration", slug: "rehydration", category: "Quality & defects",
-    definition: "Unwanted moisture pickup after the product leaves the freeze dryer. Causes softening, clumping, and texture loss. The packaging system — film, seal, zipper, headspace, desiccant — is designed to prevent it." },
-
-  // Packaging
-  { term: "Barrier film", slug: "barrier-film", category: "Packaging",
-    aliases: ["barrier films", "barrier-film"],
-    definition: "The multilayer plastic structure used to make freeze-dried fruit pouches. Barrier performance is measured against water vapor and oxygen. Cannot be inferred from appearance — buyers should ask for the actual structure." },
-  { term: "WVTR (Water Vapor Transmission Rate)", slug: "wvtr", category: "Packaging",
-    aliases: ["WVTR", "water vapor transmission rate"],
-    definition: "The rate at which water vapor passes through a barrier film under defined conditions, typically reported in g/m²/day. Lower WVTR means better humidity protection. The first packaging spec to check for freeze-dried fruit." },
-  { term: "OTR (Oxygen Transmission Rate)", slug: "otr", category: "Packaging",
-    aliases: ["OTR", "oxygen transmission rate"],
-    definition: "The rate at which oxygen passes through a barrier film, typically reported in cc/m²/day. Lower OTR protects color, aroma, and oxidation-sensitive fruits. Second priority after WVTR for most freeze-dried fruit." },
-  { term: "Metallized film", slug: "metallized-film", category: "Packaging",
-    aliases: ["metallized films", "metallised film", "metallised films"],
-    definition: "A flexible film with a thin vapor-deposited aluminum layer. Offers stronger humidity and oxygen protection than clear structures at lower cost than full foil. Common for mainstream freeze-dried fruit snack pouches." },
-  { term: "Foil laminate", slug: "foil-laminate", category: "Packaging",
-    aliases: ["foil laminates", "foil pouch", "foil pouches", "foil-based"],
-    definition: "A flexible packaging structure built around an aluminum foil layer. Provides the strongest moisture and oxygen barrier in standard pouch formats. Used for export shipments, premium products, and humid distribution environments." },
-  { term: "Desiccant", slug: "desiccant", category: "Packaging",
-    aliases: ["desiccants"],
-    definition: "A small packet — usually silica gel or molecular sieve — that absorbs moisture inside a sealed pouch. Helps protect freeze-dried fruit from humidity that enters during the package's service life. Not a substitute for proper film." },
-  { term: "Oxygen absorber", slug: "oxygen-absorber", category: "Packaging",
-    aliases: ["oxygen absorbers"],
-    definition: "A packet that chemically removes residual oxygen from a sealed pouch. Protects color and aroma in oxidation-sensitive freeze-dried fruit. Different problem than a desiccant — they are not interchangeable." },
-  { term: "Headspace", slug: "headspace", category: "Packaging",
-    definition: "The empty volume inside a sealed pouch above the product. Excess headspace increases the residual oxygen load and the volume of humid air the desiccant must manage." },
-  { term: "Heat seal", slug: "heat-seal", category: "Packaging",
-    aliases: ["heat seals", "heat-seal"],
-    definition: "The thermally bonded edge of a flexible pouch. A weak or inconsistent heat seal is a common failure point that defeats an otherwise good barrier film." },
-
-  // Commercial
-  { term: "MOQ (Minimum Order Quantity)", slug: "moq", category: "Commercial",
-    aliases: ["MOQ", "MOQs", "minimum order quantity", "minimum order quantities"],
-    definition: "The smallest quantity a supplier will accept on a single order, expressed in kilograms, cases, or units. MOQs reflect the supplier's batch size, packaging changeover cost, and willingness to run small lots." },
-  { term: "Landed cost", slug: "landed-cost", category: "Commercial",
-    aliases: ["landed costs"],
-    definition: "The total cost of freeze-dried fruit delivered to the buyer's warehouse, including raw material, processing, packaging, freight, duties, brokerage, and handling. Often very different from the ex-works quote." },
-  { term: "Dry yield", slug: "dry-yield", category: "Commercial",
-    definition: "The amount of finished freeze-dried fruit produced from a unit of fresh or frozen input fruit. Varies by fruit, variety, ripeness, cut size, and format. A core input to landed cost calculations." },
-  { term: "Usable yield", slug: "usable-yield", category: "Commercial",
-    definition: "The portion of dry yield that meets the buying spec for a given application. A topping format may accept fragments that a premium whole-piece snack would reject. The number that actually matters for cost-in-use." },
-  { term: "Private label", slug: "private-label", category: "Commercial",
-    aliases: ["private-label"],
-    definition: "An arrangement where a supplier produces freeze-dried fruit packaged under the buyer's brand, rather than the supplier's own. Common in retail, foodservice, and ingredient channels." },
-
-  // Certifications
-  { term: "SQF (Safe Quality Food)", slug: "sqf", category: "Certifications",
-    aliases: ["SQF"],
-    definition: "A GFSI-recognized food safety certification scheme used across freeze-dried fruit processing. Buyers often require SQF Level 2 or higher for branded retail supply." },
-  { term: "BRCGS", slug: "brcgs", category: "Certifications",
-    definition: "Brand Reputation Compliance Global Standards — a GFSI-recognized food safety certification widely used by European retailers and global ingredient buyers. Common at freeze-dried fruit suppliers serving export markets." },
-  { term: "FSSC 22000", slug: "fssc-22000", category: "Certifications",
-    definition: "A GFSI-recognized food safety management standard built on ISO 22000. Often required by multinational brands sourcing freeze-dried fruit ingredients at scale." },
-  { term: "USDA Organic", slug: "usda-organic", category: "Certifications",
-    definition: "A US Department of Agriculture certification for fruit grown and processed under defined organic standards. Affects raw material sourcing, processing aids, and label claim eligibility for freeze-dried fruit products sold in the US." },
-];
+// English glossary data — moved to scripts/lib/glossary-data.mjs together
+// with the Spanish translation. We keep an alias of GLOSSARY for the legacy
+// code path that builds the English /glossary/ pages.
+const GLOSSARY = GLOSSARY_EN;
+// Suppress unused-block declarations below; the original inline GLOSSARY
+// array has been replaced with the imported value.
 
 // Build a function that walks rendered article HTML and links the first
 // occurrence of each glossary term to /glossary/#slug. We deliberately avoid
 // touching headings, code blocks, and any text already inside an <a> so
 // auto-linking never breaks structure or generates nested links.
-function createGlossaryLinker(terms) {
+function createGlossaryLinker(terms, urlPrefix = "") {
   // Skip text inside these tags. Headings are excluded so the article's
   // outline stays a clean visual hierarchy. Existing <a> blocks are excluded
   // to prevent nested links. <code>/<pre>/<script>/<style> are excluded for
@@ -2535,7 +2444,7 @@ function createGlossaryLinker(terms) {
         // Flush text before the match to the result; reset working to the
         // text after so subsequent patterns scan only the remainder. This
         // keeps the first-occurrence-per-article invariant easy to reason about.
-        result += before + `<a class="glossary-link" href="/glossary/${p.slug}/" data-glossary="${p.slug}">${matched}</a>`;
+        result += before + `<a class="glossary-link" href="${urlPrefix}/glossary/${p.slug}/" data-glossary="${p.slug}">${matched}</a>`;
         working = after;
         used.add(p.slug);
       }
@@ -2546,14 +2455,9 @@ function createGlossaryLinker(terms) {
 }
 
 // Standard category order used across all glossary pages (hub + per-term).
-const GLOSSARY_CATEGORY_ORDER = [
-  "Process & science",
-  "Raw material & format",
-  "Quality & defects",
-  "Packaging",
-  "Commercial",
-  "Certifications",
-];
+// English category ordering — moved to scripts/lib/glossary-data.mjs
+// (alongside the Spanish ordering). Aliased here for the legacy code path.
+const GLOSSARY_CATEGORY_ORDER = GLOSSARY_CATEGORY_ORDER_EN;
 
 // Extract the first sentence of a definition for use as a short summary on
 // the hub. Falls back to the full definition if no sentence boundary found.
@@ -2564,19 +2468,28 @@ function firstSentence(s) {
   return m ? m[1] : clean;
 }
 
+// All glossary functions below take an explicit `glossary` array and `lang`
+// (with category order + UI labels derived from lang) so we can run the
+// same render pipeline twice — once for English (/glossary/), once for
+// Spanish (/es/glossary/). Both locales share the same slug for every term,
+// so data-glossary="<slug>" markers from either language's auto-linker
+// flow into the same mention index.
+
 // Sibling glossary terms in the same category, excluding self.
-function relatedGlossaryTerms(slug) {
-  const self = GLOSSARY.find(t => t.slug === slug);
+function relatedGlossaryTerms(slug, glossary = GLOSSARY) {
+  const self = glossary.find(t => t.slug === slug);
   if (!self) return [];
-  return GLOSSARY.filter(t => t.slug !== slug && t.category === self.category);
+  return glossary.filter(t => t.slug !== slug && t.category === self.category);
 }
 
 // Walk every article's body and FAQ HTML for `data-glossary="<slug>"` markers
 // (left there by the auto-linker) and build a reverse index from term slug to
 // the list of articles that mention it. Used to surface "articles that use
-// this term" on each per-term page.
-function buildGlossaryMentionIndex(articles) {
-  const index = Object.fromEntries(GLOSSARY.map(t => [t.slug, []]));
+// this term" on each per-term page. Slugs are locale-invariant so a single
+// pass over the article set produces an index usable in both /glossary/
+// and /es/glossary/ — but we pass a `glossary` to initialize the index keys.
+function buildGlossaryMentionIndex(articles, glossary = GLOSSARY) {
+  const index = Object.fromEntries(glossary.map(t => [t.slug, []]));
   const re = /data-glossary="([^"]+)"/g;
   for (const a of articles) {
     const seen = new Set();
@@ -2589,40 +2502,39 @@ function buildGlossaryMentionIndex(articles) {
       if (index[slug]) index[slug].push(a);
     }
   }
-  // Sort each mention list newest-first so the term page surfaces fresh content.
   for (const slug of Object.keys(index)) {
     index[slug].sort((a, b) => (b.date?.getTime() || 0) - (a.date?.getTime() || 0));
   }
   return index;
 }
 
-// Hub page — replaces the long single-page definition list with a directory
-// of short summaries, each linking to the canonical per-term page. Avoids
-// the SEO duplicate-content risk of having the full definition exist on
-// both the hub and the per-term page.
-function renderGlossaryBody() {
+// Hub page renderer — accepts the glossary, category order, and label set
+// for the target locale. Same structural template for both languages; only
+// the strings and URL prefix differ.
+function renderGlossaryBody(glossary = GLOSSARY, categoryOrder = GLOSSARY_CATEGORY_ORDER, lang = "en") {
+  const labels = GLOSSARY_LABELS[lang] || GLOSSARY_LABELS.en;
+  const urlPrefix = lang === "en" ? "" : `/${lang}`;
   const byCategory = new Map();
-  for (const t of GLOSSARY) {
+  for (const t of glossary) {
     if (!byCategory.has(t.category)) byCategory.set(t.category, []);
     byCategory.get(t.category).push(t);
   }
-  const order = GLOSSARY_CATEGORY_ORDER;
 
-  const tocHtml = order.map(cat => `
+  const tocHtml = categoryOrder.map(cat => `
     <div class="glossary-toc__group">
       <h3>${escapeHtml(cat)}</h3>
-      <ul>${byCategory.get(cat).map(t => `
-        <li><a href="/glossary/${t.slug}/">${escapeHtml(t.term)}</a></li>`).join("")}</ul>
+      <ul>${(byCategory.get(cat) || []).map(t => `
+        <li><a href="${urlPrefix}/glossary/${t.slug}/">${escapeHtml(t.term)}</a></li>`).join("")}</ul>
     </div>`).join("");
 
-  const sectionsHtml = order.map(cat => `
+  const sectionsHtml = categoryOrder.map(cat => `
     <section class="glossary-section">
       <h2 class="glossary-section__title">${escapeHtml(cat)}</h2>
       <dl class="glossary-list">
-        ${byCategory.get(cat).map(t => `
+        ${(byCategory.get(cat) || []).map(t => `
           <div class="glossary-item" id="${t.slug}">
-            <dt class="glossary-item__term"><a href="/glossary/${t.slug}/" class="glossary-item__link">${escapeHtml(t.term)}</a></dt>
-            <dd class="glossary-item__def">${renderInlineMd(firstSentence(t.definition))} <a href="/glossary/${t.slug}/" class="glossary-item__more">Read full definition ${Icons.arrowSmall}</a></dd>
+            <dt class="glossary-item__term"><a href="${urlPrefix}/glossary/${t.slug}/" class="glossary-item__link">${escapeHtml(t.term)}</a></dt>
+            <dd class="glossary-item__def">${renderInlineMd(firstSentence(t.definition))} <a href="${urlPrefix}/glossary/${t.slug}/" class="glossary-item__more">${escapeHtml(labels.readFullDefinition)} ${Icons.arrowSmall}</a></dd>
           </div>`).join("")}
       </dl>
     </section>`).join("");
@@ -2630,59 +2542,63 @@ function renderGlossaryBody() {
   return `
     <section class="page-head">
       <div class="container">
-        <span class="eyebrow">Reference · ${GLOSSARY.length} terms</span>
-        <h1>Freeze-Dried Fruit Glossary</h1>
-        <p>Plain-language definitions of the technical, commercial, and packaging terms that come up across the freeze-dried fruit category — from water activity and sublimation to landed cost and barrier films. Each term has its own page with the full definition, related terms, and articles that use it.</p>
+        <span class="eyebrow">${escapeHtml(labels.eyebrowPrefix)} · ${glossary.length} ${escapeHtml(labels.termsSuffix)}</span>
+        <h1>${escapeHtml(labels.pageTitle)}</h1>
+        <p>${escapeHtml(labels.pageIntro)}</p>
       </div>
     </section>
     <section class="section">
       <div class="container-narrow">
-        <nav class="glossary-toc" aria-label="Glossary contents">${tocHtml}</nav>
+        <nav class="glossary-toc" aria-label="${escapeHtml(labels.contentsLabel)}">${tocHtml}</nav>
         ${sectionsHtml}
       </div>
     </section>`;
 }
 
-function glossaryJsonLd({ site }) {
-  // Each DefinedTerm now points at its own per-term page rather than an
-  // in-page anchor on the hub. The hub remains the parent DefinedTermSet.
-  const definedTerms = GLOSSARY.map(t => ({
+function glossaryJsonLd({ site, glossary = GLOSSARY, lang = "en" }) {
+  const labels = GLOSSARY_LABELS[lang] || GLOSSARY_LABELS.en;
+  const urlPrefix = lang === "en" ? "" : `/${lang}`;
+  const hubUrl = `${site.url}${urlPrefix}/glossary/`;
+  const definedTerms = glossary.map(t => ({
     "@type": "DefinedTerm",
-    "@id": `${site.url}/glossary/${t.slug}/#term`,
+    "@id": `${site.url}${urlPrefix}/glossary/${t.slug}/#term`,
     name: t.term,
     description: firstSentence(t.definition).replace(/\*([^*]+)\*/g, "$1"),
-    url: `${site.url}/glossary/${t.slug}/`,
-    inDefinedTermSet: `${site.url}/glossary/#glossary-set`,
+    url: `${site.url}${urlPrefix}/glossary/${t.slug}/`,
+    inDefinedTermSet: `${hubUrl}#glossary-set`,
     termCode: t.slug,
+    inLanguage: lang === "en" ? "en-US" : "es",
   }));
   return [
     {
       "@context": "https://schema.org",
       "@type": "DefinedTermSet",
-      "@id": `${site.url}/glossary/#glossary-set`,
-      name: "Freeze-Dried Fruit Glossary",
-      url: `${site.url}/glossary/`,
-      inLanguage: "en-US",
+      "@id": `${hubUrl}#glossary-set`,
+      name: labels.pageTitle,
+      url: hubUrl,
+      inLanguage: lang === "en" ? "en-US" : "es",
       isPartOf: { "@id": `${site.url}/#website` },
       hasDefinedTerm: definedTerms,
     },
     breadcrumbsNode(site, [
-      { name: "Home", path: "/" },
-      { name: "Glossary", path: "/glossary/" },
+      { name: labels.breadcrumbHome, path: urlPrefix ? `${urlPrefix}/` : "/" },
+      { name: labels.breadcrumbGlossary, path: `${urlPrefix}/glossary/` },
     ]),
   ];
 }
 
-// Per-term page body. Carries the full definition, then a grid of related
-// (same-category) terms, then up to 8 articles that mention this term, plus
-// a footer link back to the hub.
-function renderGlossaryTermBody(term, related, mentioning) {
+// Per-term page body. Accepts locale-aware glossary + labels and emits
+// article links with the right locale prefix.
+function renderGlossaryTermBody(term, related, mentioning, lang = "en") {
+  const labels = GLOSSARY_LABELS[lang] || GLOSSARY_LABELS.en;
+  const urlPrefix = lang === "en" ? "" : `/${lang}`;
+
   const relatedHtml = related.length ? `
     <section class="glossary-term__related" aria-labelledby="related-heading">
-      <h2 id="related-heading" class="glossary-term__h2">Related terms in ${escapeHtml(term.category)}</h2>
+      <h2 id="related-heading" class="glossary-term__h2">${escapeHtml(labels.relatedTermsInPrefix)} ${escapeHtml(term.category)}</h2>
       <div class="glossary-term__related-grid">
         ${related.map(t => `
-          <a href="/glossary/${t.slug}/" class="glossary-term__related-card">
+          <a href="${urlPrefix}/glossary/${t.slug}/" class="glossary-term__related-card">
             <span class="glossary-term__related-name">${escapeHtml(t.term)}</span>
             <span class="glossary-term__related-summary">${escapeHtml(firstSentence(t.definition).replace(/\*([^*]+)\*/g, "$1"))}</span>
           </a>`).join("")}
@@ -2691,11 +2607,11 @@ function renderGlossaryTermBody(term, related, mentioning) {
 
   const mentionsHtml = mentioning.length ? `
     <section class="glossary-term__mentions" aria-labelledby="mentions-heading">
-      <h2 id="mentions-heading" class="glossary-term__h2">Articles that use this term</h2>
+      <h2 id="mentions-heading" class="glossary-term__h2">${escapeHtml(labels.mentionsHeading)}</h2>
       <ul class="glossary-term__mentions-list">
         ${mentioning.slice(0, 8).map(a => `
           <li>
-            <a href="${articleUrl(a.id)}" class="glossary-term__mention">
+            <a href="${articleUrl(a.id, lang)}" class="glossary-term__mention">
               <span class="glossary-term__mention-cat">${escapeHtml(a.category)}</span>
               <span class="glossary-term__mention-title">${escapeHtml(a.title)}</span>
               <span class="glossary-term__mention-date">${escapeHtml(a.dateLabel || "")}${a.read ? ` · ${escapeHtml(a.read)}` : ""}</span>
@@ -2704,13 +2620,13 @@ function renderGlossaryTermBody(term, related, mentioning) {
       </ul>
     </section>` : `
     <section class="glossary-term__mentions glossary-term__mentions--empty">
-      <p class="muted" style="font-style:italic">No articles currently link to this term. Try searching the <a href="/search/" class="glossary-term__inline-link">archive</a>.</p>
+      <p class="muted" style="font-style:italic">${escapeHtml(labels.emptyMentions)} <a href="/search/" class="glossary-term__inline-link">${escapeHtml(labels.emptyMentionsLink)}</a>.</p>
     </section>`;
 
   return `
     <section class="page-head glossary-term__head">
       <div class="container">
-        <span class="eyebrow"><a href="/glossary/" class="eyebrow-link">Glossary</a> · ${escapeHtml(term.category)}</span>
+        <span class="eyebrow"><a href="${urlPrefix}/glossary/" class="eyebrow-link">${escapeHtml(labels.glossaryEyebrow)}</a> · ${escapeHtml(term.category)}</span>
         <h1>${escapeHtml(term.term)}</h1>
       </div>
     </section>
@@ -2720,14 +2636,17 @@ function renderGlossaryTermBody(term, related, mentioning) {
         ${relatedHtml}
         ${mentionsHtml}
         <div class="glossary-term__back">
-          <a href="/glossary/" class="glossary-term__back-link">${Icons.arrow ? "← " : ""}Back to all terms</a>
+          <a href="${urlPrefix}/glossary/" class="glossary-term__back-link">${Icons.arrow ? "← " : ""}${escapeHtml(labels.backToAll)}</a>
         </div>
       </div>
     </section>`;
 }
 
-function glossaryTermJsonLd({ site, term, mentioning }) {
-  const url = `${site.url}/glossary/${term.slug}/`;
+function glossaryTermJsonLd({ site, term, mentioning, lang = "en" }) {
+  const labels = GLOSSARY_LABELS[lang] || GLOSSARY_LABELS.en;
+  const urlPrefix = lang === "en" ? "" : `/${lang}`;
+  const hubUrl = `${site.url}${urlPrefix}/glossary/`;
+  const url = `${hubUrl}${term.slug}/`;
   const nodes = [
     {
       "@context": "https://schema.org",
@@ -2737,17 +2656,18 @@ function glossaryTermJsonLd({ site, term, mentioning }) {
       description: term.definition.replace(/\*([^*]+)\*/g, "$1"),
       url,
       termCode: term.slug,
+      inLanguage: lang === "en" ? "en-US" : "es",
       inDefinedTermSet: {
-        "@id": `${site.url}/glossary/#glossary-set`,
+        "@id": `${hubUrl}#glossary-set`,
         "@type": "DefinedTermSet",
-        name: "Freeze-Dried Fruit Glossary",
-        url: `${site.url}/glossary/`,
+        name: labels.pageTitle,
+        url: hubUrl,
       },
     },
     breadcrumbsNode(site, [
-      { name: "Home", path: "/" },
-      { name: "Glossary", path: "/glossary/" },
-      { name: term.term, path: `/glossary/${term.slug}/` },
+      { name: labels.breadcrumbHome, path: urlPrefix ? `${urlPrefix}/` : "/" },
+      { name: labels.breadcrumbGlossary, path: `${urlPrefix}/glossary/` },
+      { name: term.term, path: `${urlPrefix}/glossary/${term.slug}/` },
     ]),
   ];
   if (mentioning && mentioning.length) {
@@ -2760,7 +2680,7 @@ function glossaryTermJsonLd({ site, term, mentioning }) {
       itemListElement: mentioning.slice(0, 8).map((a, i) => ({
         "@type": "ListItem",
         position: i + 1,
-        url: absUrl(site, articleUrl(a.id)),
+        url: absUrl(site, articleUrl(a.id, lang)),
         name: a.title,
       })),
     });
@@ -2969,8 +2889,8 @@ function renderEsHomeBody({ articlesEs, mailto, site }) {
               <span class="not-found__cat-name">Calculadoras (EN)</span>
               <span class="not-found__cat-cta">Abrir ${Icons.arrowSmall}</span>
             </a>
-            <a class="not-found__cat-card" href="/glossary/">
-              <span class="not-found__cat-name">Glosario (EN)</span>
+            <a class="not-found__cat-card" href="/es/glossary/">
+              <span class="not-found__cat-name">Glosario en Español</span>
               <span class="not-found__cat-cta">Abrir ${Icons.arrowSmall}</span>
             </a>
             <a class="not-found__cat-card" href="/state-of-freeze-dried-fruit-2026/">
@@ -3460,9 +3380,10 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [] }) {
     });
   }
 
-  // Spanish home + Spanish article translations. Listed at high priority
-  // since each Spanish article opens an entire new search-traffic surface
-  // (no English-language SEO competition for the Spanish queries).
+  // Spanish home + Spanish article translations + Spanish glossary. Listed
+  // at high priority since each Spanish page opens an entire new
+  // search-traffic surface (no English-language SEO competition for the
+  // Spanish queries).
   if (articlesEs.length) {
     entries.push({
       loc: "/es/",
@@ -3477,6 +3398,22 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [] }) {
         lastmod: mod ? mod.toISOString().slice(0, 10) : today,
         changefreq: "monthly",
         priority: "0.8",
+      });
+    }
+    // Spanish glossary hub and per-term pages.
+    entries.push({
+      loc: "/es/glossary/",
+      lastmod: today,
+      changefreq: "monthly",
+      priority: "0.8",
+    });
+    // Spanish glossary slugs match the English slugs.
+    for (const t of GLOSSARY_ES) {
+      entries.push({
+        loc: `/es/glossary/${t.slug}/`,
+        lastmod: today,
+        changefreq: "monthly",
+        priority: "0.6",
       });
     }
   }
@@ -3607,19 +3544,21 @@ async function build() {
     r.bodyHtml = linker(r.bodyHtml, used);
     linkedTermCount += used.size;
   }
-  // Spanish articles also get glossary linking — the glossary slugs are
-  // currently English-only, which is fine: the auto-link only fires on the
-  // English term word inside the Spanish prose if it appears there. Most
-  // Spanish translations don't contain English terms inline, so the linker
-  // largely no-ops on /es/ content for now. This is intentional — the
-  // glossary itself remains English until we ship a Spanish glossary.
+  // Spanish articles get their own glossary linker — uses GLOSSARY_ES so the
+  // surface forms matched against Spanish prose are the Spanish term forms
+  // (e.g. "actividad de agua", "humedad residual", "película barrera"). The
+  // linker is configured with the "/es" URL prefix so emitted anchors point
+  // at /es/glossary/<slug>/ instead of /glossary/<slug>/. Both linkers emit
+  // data-glossary="<slug>" markers with the SAME slug, so the mention index
+  // is shared across both locales.
+  const linkerEs = createGlossaryLinker(GLOSSARY_ES, "/es");
   for (const a of articlesEs) {
     const used = new Set();
-    a.bodyHtml = linker(a.bodyHtml, used);
+    a.bodyHtml = linkerEs(a.bodyHtml, used);
     linkedTermCount += used.size;
     if (Array.isArray(a.faqs) && a.faqs.length) {
       const faqUsed = new Set();
-      a.faqs = a.faqs.map(f => ({ ...f, aHtml: linker(renderMarkdown(f.a), faqUsed) }));
+      a.faqs = a.faqs.map(f => ({ ...f, aHtml: linkerEs(renderMarkdown(f.a), faqUsed) }));
     }
   }
   console.log(`→ build: linked ${linkedTermCount} glossary terms across articles`);
@@ -3805,6 +3744,15 @@ async function build() {
       .filter(x => x.id !== enSource.id && x.category !== enSource.category)
       .slice(0, 3);
 
+    // Spanish OG card lives at /images/og/es/<slug>.png with the Spanish
+    // title baked in. For Spanish articles with real photo covers we still
+    // prefer the photo (articleImageUrl handles that), but the SVG-hero
+    // fallback now uses the Spanish-titled card.
+    const hasPhoto = aEs.cover_image && !aEs.cover_image.toLowerCase().endsWith(".svg");
+    const ogImage = hasPhoto
+      ? articleImageUrl(site, aEs)
+      : `${site.url.replace(/\/$/, "")}/images/og/es/${aEs.id}.png`;
+
     await writeFilePage(`es/articles/${aEs.id}/index.html`, renderPage({
       site, mailto,
       currentPath: articleUrl(aEs.id, "es"),
@@ -3812,7 +3760,7 @@ async function build() {
       body: renderArticle({ article: aEs, related, continueReading, mailto, site }),
       screen: "article",
       jsonLd: articleJsonLd({ site, article: aEs }),
-      ogImage: articleImageUrl(site, aEs),
+      ogImage,
       ogType: "article",
       lang: "es",
       alternates: { en: articleUrl(enSource.id, "en"), es: articleUrl(aEs.id, "es") },
@@ -3875,31 +3823,75 @@ async function build() {
     body: renderEditorialBody({ site, mailto }), screen: "editorial",
     jsonLd: editorialPageJsonLd({ site }),
   }));
+  // English glossary hub. Reciprocal hreflang points at the Spanish hub
+  // since both glossaries share slugs (and therefore the same conceptual
+  // term set).
+  const glossaryAlternates = articlesEs.length ? { en: "/glossary/", es: "/es/glossary/" } : null;
   await writeFilePage("glossary/index.html", renderPage({
     site, mailto, currentPath: "/glossary/", title: "Glossary",
-    description: `Plain-language definitions of ${GLOSSARY.length} technical, commercial, and packaging terms across the freeze-dried fruit category.`,
-    body: renderGlossaryBody(), screen: "glossary",
-    jsonLd: glossaryJsonLd({ site }),
+    description: `Plain-language definitions of ${GLOSSARY_EN.length} technical, commercial, and packaging terms across the freeze-dried fruit category.`,
+    body: renderGlossaryBody(GLOSSARY_EN, GLOSSARY_CATEGORY_ORDER_EN, "en"),
+    screen: "glossary",
+    jsonLd: glossaryJsonLd({ site, glossary: GLOSSARY_EN, lang: "en" }),
+    alternates: glossaryAlternates,
   }));
 
-  // Per-term glossary pages — each at /glossary/<slug>/index.html with its
-  // own DefinedTerm schema, related sibling terms, and the articles that
-  // mention it. The mention index is built from data-glossary attributes
-  // left by the auto-linker on every article body and FAQ answer.
-  const glossaryMentions = buildGlossaryMentionIndex(articles);
-  for (const term of GLOSSARY) {
-    const related = relatedGlossaryTerms(term.slug);
-    const mentioning = glossaryMentions[term.slug] || [];
+  // Per-term English glossary pages. Mention index walks every article
+  // (English + Spanish) for data-glossary="<slug>" markers, so a Spanish
+  // article that mentions "actividad de agua" boosts the same slug's
+  // mention list that an English article's "water activity" mention does.
+  const glossaryMentionsEn = buildGlossaryMentionIndex(articles, GLOSSARY_EN);
+  const glossaryMentionsCombined = buildGlossaryMentionIndex([...articles, ...articlesEs], GLOSSARY_EN);
+  for (const term of GLOSSARY_EN) {
+    const related = relatedGlossaryTerms(term.slug, GLOSSARY_EN);
+    const mentioning = glossaryMentionsEn[term.slug] || [];
     const currentPath = `/glossary/${term.slug}/`;
+    const altPathEs = articlesEs.length ? `/es/glossary/${term.slug}/` : null;
     await writeFilePage(`glossary/${term.slug}/index.html`, renderPage({
       site, mailto, currentPath, title: term.term,
       description: firstSentence(term.definition).replace(/\*([^*]+)\*/g, "$1"),
-      body: renderGlossaryTermBody(term, related, mentioning),
+      body: renderGlossaryTermBody(term, related, mentioning, "en"),
       screen: "glossary-term",
-      jsonLd: glossaryTermJsonLd({ site, term, mentioning }),
+      jsonLd: glossaryTermJsonLd({ site, term, mentioning, lang: "en" }),
+      alternates: altPathEs ? { en: currentPath, es: altPathEs } : null,
     }));
   }
-  console.log(`→ build: wrote ${GLOSSARY.length} per-term glossary pages`);
+  console.log(`→ build: wrote ${GLOSSARY_EN.length} per-term glossary pages`);
+
+  // Spanish glossary hub + per-term pages. Same slugs as English so
+  // hreflang reciprocal is trivial. Uses Spanish chrome (renderPage
+  // lang="es") and Spanish display strings from GLOSSARY_ES + labels.
+  if (articlesEs.length) {
+    await writeFilePage("es/glossary/index.html", renderPage({
+      site, mailto, currentPath: "/es/glossary/",
+      title: GLOSSARY_LABELS.es.pageTitle,
+      description: `Definiciones en lenguaje sencillo de ${GLOSSARY_ES.length} términos técnicos, comerciales y de empaque en la categoría de fruta liofilizada.`,
+      body: renderGlossaryBody(GLOSSARY_ES, GLOSSARY_CATEGORY_ORDER_ES, "es"),
+      screen: "glossary",
+      jsonLd: glossaryJsonLd({ site, glossary: GLOSSARY_ES, lang: "es" }),
+      lang: "es",
+      alternates: { en: "/glossary/", es: "/es/glossary/" },
+    }));
+
+    // Mention index for Spanish per-term pages — only walks the Spanish
+    // article corpus so the surfaced mentions are in the reader's language.
+    const glossaryMentionsEs = buildGlossaryMentionIndex(articlesEs, GLOSSARY_ES);
+    for (const term of GLOSSARY_ES) {
+      const related = relatedGlossaryTerms(term.slug, GLOSSARY_ES);
+      const mentioning = glossaryMentionsEs[term.slug] || [];
+      const currentPath = `/es/glossary/${term.slug}/`;
+      await writeFilePage(`es/glossary/${term.slug}/index.html`, renderPage({
+        site, mailto, currentPath, title: term.term,
+        description: firstSentence(term.definition).replace(/\*([^*]+)\*/g, "$1"),
+        body: renderGlossaryTermBody(term, related, mentioning, "es"),
+        screen: "glossary-term",
+        jsonLd: glossaryTermJsonLd({ site, term, mentioning, lang: "es" }),
+        lang: "es",
+        alternates: { en: `/glossary/${term.slug}/`, es: currentPath },
+      }));
+    }
+    console.log(`→ build: wrote ${GLOSSARY_ES.length} per-term Spanish glossary pages`);
+  }
 
   // Pairwise comparison pages — fully derived from FRUIT_DATA. The hub
   // lives at /compare/, each pair at /compare/<a>-vs-<b>/.
@@ -3966,6 +3958,7 @@ async function build() {
         { name: "Calculators", path: "/calculators/" },
       ]),
     ],
+    ogImage: `${site.url.replace(/\/$/, "")}/images/og/calculators.png`,
   }));
   await writeFilePage("calculators/fruit-equivalency/index.html", renderPage({
     site, mailto, currentPath: "/calculators/fruit-equivalency/",
@@ -3978,6 +3971,7 @@ async function build() {
       "Convert fresh fruit to freeze-dried fruit and back. Used by recipe writers, ingredient formulators, and brand teams sizing pack content.",
       absUrl(site, "/calculators/fruit-equivalency/")
     ),
+    ogImage: `${site.url.replace(/\/$/, "")}/images/og/calculators-fruit-equivalency.png`,
   }));
   await writeFilePage("calculators/pouch-barrier/index.html", renderPage({
     site, mailto, currentPath: "/calculators/pouch-barrier/",
@@ -3990,6 +3984,7 @@ async function build() {
       "Estimate freeze-dried fruit packaging barrier targets (MVTR, OTR, film tier) from fruit fragility, climate zone, shelf-life target, and pack size.",
       absUrl(site, "/calculators/pouch-barrier/")
     ),
+    ogImage: `${site.url.replace(/\/$/, "")}/images/og/calculators-pouch-barrier.png`,
   }));
 
   // Flagship reports — each at its own top-level URL.
@@ -4001,6 +3996,7 @@ async function build() {
       screen: "report",
       jsonLd: reportJsonLd({ site, report: r }),
       ogType: "article",
+      ogImage: `${site.url.replace(/\/$/, "")}/images/og/${r.slug}.png`,
     }));
   }
   if (reports.length) console.log(`→ build: wrote ${reports.length} flagship report page(s)`);
@@ -4065,6 +4061,48 @@ async function build() {
     await writeFile(path.join(ogDir, `${a.id}.png`), png);
     ogCount++;
   }
+
+  // OG cards for Spanish article translations — same template, Spanish title
+  // and category. Lives at /images/og/es/<slug>.png so it doesn't collide
+  // with the English card of the same slug. articleImageUrl already routes
+  // English articles to /images/og/<slug>.png; Spanish articles use the
+  // same fallback path via articleJsonLd, so we generate at the matching
+  // path the renderer expects (using en_slug for the matching English file
+  // since both languages share the slug).
+  const esOgDir = path.join(ogDir, "es");
+  await mkdir(esOgDir, { recursive: true });
+  for (const a of articlesEs) {
+    const hasPhoto = a.cover_image && !a.cover_image.toLowerCase().endsWith(".svg");
+    if (hasPhoto) continue;
+    const png = rasterize(renderArticleOgSvg({ title: a.title, category: a.category }));
+    await writeFile(path.join(esOgDir, `${a.id}.png`), png);
+    ogCount++;
+  }
+
+  // OG cards for flagship reports — uses the article OG template with a
+  // distinctive eyebrow ("ANNUAL REPORT 2026" instead of a regular category).
+  for (const r of reports) {
+    const png = rasterize(renderArticleOgSvg({
+      title: r.title,
+      category: r.edition || "ANNUAL REPORT",
+    }));
+    await writeFile(path.join(ogDir, `${r.slug}.png`), png);
+    ogCount++;
+  }
+
+  // OG cards for the calculator pages. Each gets its own card so social
+  // shares of any calculator surface its name and intent at a glance.
+  const calcCards = [
+    { slug: "calculators", title: "Freeze-Dried Fruit Calculators", eyebrow: "FREE TOOLS" },
+    { slug: "calculators-fruit-equivalency", title: "Fruit Equivalency Calculator — Fresh to Freeze-Dried", eyebrow: "CALCULATOR · CONVERSION" },
+    { slug: "calculators-pouch-barrier", title: "Pouch Barrier Estimator for Freeze-Dried Fruit Packaging", eyebrow: "CALCULATOR · PACKAGING" },
+  ];
+  for (const c of calcCards) {
+    const png = rasterize(renderArticleOgSvg({ title: c.title, category: c.eyebrow }));
+    await writeFile(path.join(ogDir, `${c.slug}.png`), png);
+    ogCount++;
+  }
+
   console.log(`→ build: generated ${ogCount} OG image${ogCount === 1 ? "" : "s"}`);
 
   // home + articles-index + N categories + N articles + 6 static + 3 feeds

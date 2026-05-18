@@ -14,11 +14,12 @@ import { readImageDimensions } from "./image-dims.mjs";
 
 const PUBLIC_DIR = fileURLToPath(new URL("../../public", import.meta.url));
 
-export async function loadReports(dir) {
+export async function loadReports(dir, lang = "en") {
   let files;
   try {
     files = (await readdir(dir)).filter(f => f.endsWith(".md") && !f.startsWith("_"));
   } catch {
+    // Directory may not exist (e.g. for a locale with no reports yet).
     return [];
   }
   const reports = [];
@@ -37,6 +38,12 @@ export async function loadReports(dir) {
 
     reports.push({
       id,
+      // Locale of the report (defaults to the loader's lang). Drives URL
+      // prefix and reciprocal hreflang. Spanish reports declare en_slug
+      // pointing back at the matching English report so we can emit the
+      // link rel="alternate" set.
+      lang,
+      en_slug: data.en_slug || (lang === "en" ? (data.slug || id) : null),
       slug: data.slug || id,
       title: data.title || id,
       subtitle: data.subtitle || "",

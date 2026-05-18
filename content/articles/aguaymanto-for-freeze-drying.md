@@ -4,6 +4,10 @@ category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-17
 read: "8 min read"
+cover_image: /images/articles/aguaymanto-for-freeze-drying.jpg
+cover_alt: "Ripe orange aguaymanto (goldenberry / Cape gooseberry) fruits arranged together showing the characteristic bright orange color"
+cover_credit: "Manojkumar Subramani / CC BY-SA 4.0 via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Cape_gooseberry.jpg"
 summary: "A field guide to aguaymanto — also known as goldenberry, Cape gooseberry, and Physalis peruviana — for freeze-drying. Covers the fruit's bright citrus-tropical flavor, shape retention, and premium snack positioning."
 intro: "Aguaymanto sits at the unusual intersection of being a premium specialty fruit and a perfect freeze-drying candidate — small enough to ship as whole pieces, structured enough to hold shape, and aromatic enough to carry a snack pack on its own."
 takeaways:

@@ -4,6 +4,10 @@ category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-17
 read: "7 min read"
+cover_image: /images/articles/maqui-for-freeze-drying.jpg
+cover_alt: "Maqui tree branches loaded with clusters of small dark purple berries native to Chilean Patagonia"
+cover_credit: "Morrana / CC BY-SA 4.0 via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Maqui_chileno.jpg"
 summary: "A field guide to maqui berry for freeze-drying, covering its extreme anthocyanin density, Patagonian wild-harvest origin, premium powder positioning, and supplement-formulation use."
 intro: "Maqui is one of the most pigment-dense fruits in the freeze-dried category — tiny, dark-purple, and almost entirely sourced from a single region at the southern end of South America."
 takeaways:

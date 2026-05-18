@@ -4,6 +4,10 @@ category: "Fruit Reports"
 report_series: "Guía de fruta liofilizada"
 date: 2026-05-17
 read: "8 min de lectura"
+cover_image: /images/articles/aguaymanto-for-freeze-drying.jpg
+cover_alt: "Aguaymantos (uchuvas / goldenberries) maduros de color naranja brillante mostrando el color característico de la fruta"
+cover_credit: "Manojkumar Subramani / CC BY-SA 4.0 vía Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Cape_gooseberry.jpg"
 summary: "Guía de campo del aguaymanto — también conocido como uchuva, goldenberry o Physalis peruviana — para liofilización. Cubre el sabor brillante cítrico-tropical de la fruta, su retención de forma y posicionamiento premium en snack."
 intro: "El aguaymanto se sitúa en la inusual intersección de ser una fruta especial premium y un candidato perfecto para liofilización — lo suficientemente pequeño para enviarse como piezas enteras, lo suficientemente estructurado para mantener la forma, y lo suficientemente aromático para llevar un paquete de snack por sí solo."
 takeaways:

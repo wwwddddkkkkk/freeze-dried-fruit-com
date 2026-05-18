@@ -2852,13 +2852,24 @@ function render404Body({ site, mailto, articles, categories }) {
 // of the English home — surfaces the translated articles, links to key
 // English-only assets (compare, glossary, calculators) with brief Spanish
 // labels so the visitor isn't dropped into an English-only experience.
-function renderEsHomeBody({ articlesEs, mailto, site }) {
+function renderEsHomeBody({ articlesEs, reportsEs = [], mailto, site }) {
   const cards = articlesEs.map(a => `
     <a class="continue-reading__card" href="${articleUrl(a.id, "es")}">
       <span class="continue-reading__date">${escapeHtml(a.category)}</span>
       <span class="continue-reading__title">${escapeHtml(a.title)}</span>
       <span class="continue-reading__cta">Leer artículo ${Icons.arrowSmall}</span>
     </a>`).join("");
+
+  // Flagship report featured tile if any Spanish reports exist. Promoted
+  // above the article grid because reports are the single highest-value
+  // asset on the site.
+  const reportFeaturedHtml = reportsEs.length ? `
+    <div class="continue-reading" style="background:var(--bg-tint);border-left:3px solid var(--mint-deep);margin:0 0 48px">
+      <div class="continue-reading__eyebrow">${escapeHtml(reportsEs[0].edition || "Reporte anual")}</div>
+      <h2 class="continue-reading__heading">${escapeHtml(reportsEs[0].title)}</h2>
+      <p style="font-family:var(--serif);font-size:16px;line-height:1.5;color:var(--ink);margin:0 0 18px;max-width:62ch">${escapeHtml(reportsEs[0].summary || reportsEs[0].intro || "")}</p>
+      <a class="continue-reading__all" href="/es/${escapeHtml(reportsEs[0].slug)}/">Leer el reporte completo ${Icons.arrowSmall}</a>
+    </div>` : "";
 
   return `
     <section class="page-head">
@@ -2871,6 +2882,8 @@ function renderEsHomeBody({ articlesEs, mailto, site }) {
 
     <section class="section">
       <div class="container-narrow">
+        ${reportFeaturedHtml}
+
         <div class="continue-reading" style="background:transparent;border:0;padding:0;margin:0">
           <div class="continue-reading__eyebrow">Artículos disponibles en Español</div>
           <h2 class="continue-reading__heading">Comienza por aquí</h2>
@@ -2891,10 +2904,6 @@ function renderEsHomeBody({ articlesEs, mailto, site }) {
             </a>
             <a class="not-found__cat-card" href="/es/glossary/">
               <span class="not-found__cat-name">Glosario en Español</span>
-              <span class="not-found__cat-cta">Abrir ${Icons.arrowSmall}</span>
-            </a>
-            <a class="not-found__cat-card" href="/state-of-freeze-dried-fruit-2026/">
-              <span class="not-found__cat-name">Reporte anual 2026 (EN)</span>
               <span class="not-found__cat-cta">Abrir ${Icons.arrowSmall}</span>
             </a>
           </div>
@@ -3323,7 +3332,7 @@ ${sections}
 `;
 }
 
-function buildSitemap({ site, articles, reports = [], articlesEs = [] }) {
+function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs = [] }) {
   const today = new Date().toISOString().slice(0, 10);
   // Latest activity timestamp: prefer updated date when present, otherwise
   // fall back to publish date. This keeps the homepage / index lastmod fresh
@@ -3429,6 +3438,17 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [] }) {
       priority: "0.9",
     });
   }
+  // Spanish report translations — same priority as English since they open
+  // a new search-traffic surface.
+  for (const r of reportsEs) {
+    const mod = r.updated || r.date;
+    entries.push({
+      loc: `/es/${r.slug}/`,
+      lastmod: mod ? mod.toISOString().slice(0, 10) : today,
+      changefreq: "monthly",
+      priority: "0.9",
+    });
+  }
 
   // Pairwise comparison pages — built from fruit data, refreshed when the
   // data file changes. They share the build date.
@@ -3509,6 +3529,13 @@ async function build() {
   // and any future quarterly notes). Reports live at the root path (not
   // /articles/) so they read as top-level industry assets.
   const reports = await loadReports(path.join(ROOT, "content", "reports"));
+  // Spanish flagship reports — each declares en_slug for reciprocal hreflang.
+  const reportsEs = await loadReports(path.join(ROOT, "content", "reports-es"), "es");
+  if (reportsEs.length) console.log(`→ build: ${reportsEs.length} Spanish report translation(s) loaded`);
+  const reportEsBySource = new Map();
+  for (const r of reportsEs) {
+    if (r.en_slug) reportEsBySource.set(r.en_slug, r);
+  }
 
   // Pass 1: auto-link glossary terms inside each article's body and FAQs.
   // Body and FAQ each get their own `used` set so each section gets one
@@ -3561,6 +3588,12 @@ async function build() {
       a.faqs = a.faqs.map(f => ({ ...f, aHtml: linkerEs(renderMarkdown(f.a), faqUsed) }));
     }
   }
+  // Spanish reports get the Spanish glossary linker too.
+  for (const r of reportsEs) {
+    const used = new Set();
+    r.bodyHtml = linkerEs(r.bodyHtml, used);
+    linkedTermCount += used.size;
+  }
   console.log(`→ build: linked ${linkedTermCount} glossary terms across articles`);
   console.log(`→ build: injected ${comparisonTableCount} fruit comparison tables`);
 
@@ -3587,7 +3620,7 @@ async function build() {
       site, mailto, currentPath: "/es/",
       title: "Guía de campo de la fruta liofilizada",
       description: "Una guía editorial independiente sobre la fruta liofilizada — calidad, proceso, abastecimiento, empaque y aplicaciones.",
-      body: renderEsHomeBody({ articlesEs, mailto, site }),
+      body: renderEsHomeBody({ articlesEs, reportsEs, mailto, site }),
       screen: "home-es",
       lang: "es",
       alternates: { en: "/", es: "/es/" },
@@ -3989,6 +4022,9 @@ async function build() {
 
   // Flagship reports — each at its own top-level URL.
   for (const r of reports) {
+    // If a Spanish translation exists, both versions advertise each other.
+    const esTr = reportEsBySource.get(r.slug);
+    const alternates = esTr ? { en: `/${r.slug}/`, es: `/es/${esTr.slug}/` } : null;
     await writeFilePage(`${r.slug}/index.html`, renderPage({
       site, mailto, currentPath: `/${r.slug}/`,
       title: r.title, description: r.summary || r.intro,
@@ -3997,9 +4033,30 @@ async function build() {
       jsonLd: reportJsonLd({ site, report: r }),
       ogType: "article",
       ogImage: `${site.url.replace(/\/$/, "")}/images/og/${r.slug}.png`,
+      alternates,
     }));
   }
   if (reports.length) console.log(`→ build: wrote ${reports.length} flagship report page(s)`);
+
+  // Spanish report translations — live at /es/<slug>/, share the same template
+  // as English reports (renderReportBody is structural). Locale-aware chrome
+  // comes from renderPage lang="es" automatically.
+  for (const r of reportsEs) {
+    const enSource = reports.find(x => x.slug === r.en_slug);
+    if (!enSource) continue; // Spanish report references a non-existent English source
+    await writeFilePage(`es/${r.slug}/index.html`, renderPage({
+      site, mailto, currentPath: `/es/${r.slug}/`,
+      title: r.title, description: r.summary || r.intro,
+      body: renderReportBody({ report: r, mailto, site }),
+      screen: "report",
+      jsonLd: reportJsonLd({ site, report: r }),
+      ogType: "article",
+      ogImage: `${site.url.replace(/\/$/, "")}/images/og/es/${r.slug}.png`,
+      lang: "es",
+      alternates: { en: `/${enSource.slug}/`, es: `/es/${r.slug}/` },
+    }));
+  }
+  if (reportsEs.length) console.log(`→ build: wrote ${reportsEs.length} Spanish report page(s)`);
 
   await writeFilePage("news/index.html", renderPage({
     site, mailto, currentPath: "/news/", title: "News Wire",
@@ -4037,7 +4094,7 @@ async function build() {
 
   // Feeds
   await writeFilePage("feed.xml", buildRssFeed({ site, articles }));
-  await writeFilePage("sitemap.xml", buildSitemap({ site, articles, reports, articlesEs }));
+  await writeFilePage("sitemap.xml", buildSitemap({ site, articles, reports, articlesEs, reportsEs }));
   await writeFilePage("llms.txt", buildLlmsTxt({ site, articles, reports }));
   await writeFilePage("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${site.url}/sitemap.xml\n\n# AI engine guidance\n# A curated index for LLMs is published at /llms.txt\n`);
 
@@ -4087,6 +4144,15 @@ async function build() {
       category: r.edition || "ANNUAL REPORT",
     }));
     await writeFile(path.join(ogDir, `${r.slug}.png`), png);
+    ogCount++;
+  }
+  // Spanish report OG cards — Spanish title baked in, at /images/og/es/<slug>.png.
+  for (const r of reportsEs) {
+    const png = rasterize(renderArticleOgSvg({
+      title: r.title,
+      category: r.edition || "REPORTE ANUAL",
+    }));
+    await writeFile(path.join(esOgDir, `${r.slug}.png`), png);
     ogCount++;
   }
 

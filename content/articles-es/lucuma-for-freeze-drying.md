@@ -4,6 +4,10 @@ category: "Fruit Reports"
 report_series: "Guía de fruta liofilizada"
 date: 2026-05-17
 read: "8 min de lectura"
+cover_image: /images/articles/lucuma-for-freeze-drying.jpg
+cover_alt: "Fruta entera de lúcuma con una pieza cortada mostrando la densa carne amarillo-anaranjada y la gran semilla central"
+cover_credit: "Dtarazona / Dominio Público vía Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Lucuma_1.JPG"
 summary: "Guía de campo del lúcuma para liofilización, cubriendo el bajo contenido de agua de la fruta, su sabor de caramelo-arce, posicionamiento premium en polvo y cadena de suministro andina."
 intro: "El lúcuma es una de las frutas más distintivas en la categoría liofilizada — y una de las menos comprendidas fuera de su mercado andino de origen."
 takeaways:

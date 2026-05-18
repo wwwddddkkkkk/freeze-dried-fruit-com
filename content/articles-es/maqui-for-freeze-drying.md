@@ -4,6 +4,10 @@ category: "Fruit Reports"
 report_series: "Guía de fruta liofilizada"
 date: 2026-05-17
 read: "7 min de lectura"
+cover_image: /images/articles/maqui-for-freeze-drying.jpg
+cover_alt: "Ramas del árbol de maqui cargadas con racimos de pequeñas bayas moradas oscuras nativas de la Patagonia chilena"
+cover_credit: "Morrana / CC BY-SA 4.0 vía Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Maqui_chileno.jpg"
 summary: "Guía de campo de la baya de maqui para liofilización, cubriendo su extrema densidad de antocianinas, origen patagónico de recolección silvestre, posicionamiento premium en polvo y uso en formulación de suplementos."
 intro: "El maqui es una de las frutas más densas en pigmento en la categoría liofilizada — pequeño, morado oscuro y casi enteramente abastecido de una sola región en el extremo sur de Sudamérica."
 takeaways:

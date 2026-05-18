@@ -4,6 +4,10 @@ category: "Fruit Reports"
 report_series: "Freeze-Dried Guide"
 date: 2026-05-17
 read: "8 min read"
+cover_image: /images/articles/lucuma-for-freeze-drying.jpg
+cover_alt: "Whole lucuma fruit with one piece cut open showing the dense yellow-orange flesh and large central seed"
+cover_credit: "Dtarazona / Public Domain via Wikimedia Commons"
+cover_credit_url: "https://commons.wikimedia.org/wiki/File:Lucuma_1.JPG"
 summary: "A field guide to lucuma for freeze-drying, covering the fruit's low water content, maple-caramel flavor, premium powder positioning, and Andean supply chain."
 intro: "Lucuma is one of the most distinctive fruits in the freeze-dried category — and one of the least understood outside its Andean home market."
 takeaways:

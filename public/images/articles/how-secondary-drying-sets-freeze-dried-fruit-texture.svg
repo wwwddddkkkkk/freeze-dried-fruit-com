@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How secondary drying sets the final bite of freeze-dried fruit</title>
+  <desc id="desc">A technical cycle diagram showing primary drying, secondary drying, residual moisture, and the texture outcomes of under-drying or over-drying freeze-dried fruit.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">The last moisture often sets the final bite</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Secondary drying is where visible dryness turns into a usable texture endpoint.</text>
+
+  <g transform="translate(112 214)">
+    <rect width="700" height="272" rx="26" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <text x="28" y="40" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">Residual moisture falls across the cycle</text>
+    <line x1="46" y1="220" x2="646" y2="220" stroke="#bdb4a1" stroke-width="2"/>
+    <line x1="46" y1="68" x2="46" y2="220" stroke="#bdb4a1" stroke-width="2"/>
+
+    <path d="M58 88 C116 92, 172 104, 228 132 S338 168, 394 174 S514 176, 584 152 S628 118, 638 108" fill="none" stroke="#5d79c8" stroke-width="6" stroke-linecap="round"/>
+    <line x1="262" y1="64" x2="262" y2="224" stroke="#d8d2c3" stroke-dasharray="6 8"/>
+    <line x1="486" y1="64" x2="486" y2="224" stroke="#d8d2c3" stroke-dasharray="6 8"/>
+
+    <text x="64" y="252" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="14">load and freeze</text>
+    <text x="286" y="252" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="14">primary drying</text>
+    <text x="514" y="252" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="14">secondary drying</text>
+
+    <rect x="74" y="88" width="124" height="28" rx="14" fill="#dce7f3"/>
+    <text x="92" y="107" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="14">free ice leaving fast</text>
+    <rect x="506" y="114" width="126" height="28" rx="14" fill="#cadccf"/>
+    <text x="524" y="133" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">bound moisture falling</text>
+  </g>
+
+  <g transform="translate(848 214)">
+    <rect width="240" height="272" rx="26" fill="#fffdf8" stroke="#d8d2c3"/>
+    <text x="24" y="40" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">Texture zones</text>
+    <rect x="24" y="78" width="192" height="40" rx="20" fill="#e7c0b5"/>
+    <text x="44" y="103" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="15">too light: softer center</text>
+    <rect x="24" y="132" width="192" height="40" rx="20" fill="#cadccf"/>
+    <text x="44" y="157" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15">target: clean crisp break</text>
+    <rect x="24" y="186" width="192" height="40" rx="20" fill="#ead8b7"/>
+    <text x="44" y="211" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="15">too hard: brittle edges</text>
+    <text x="24" y="248" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="14">The goal is not maximum dryness.</text>
+    <text x="24" y="268" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="14">It is the right endpoint for the job.</text>
+  </g>
+
+  <g transform="translate(112 520)">
+    <rect width="976" height="48" rx="24" fill="#1f332d"/>
+    <text x="28" y="30" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Buyer note: ask how the supplier verifies endpoint across thick and thin pieces, not only what the nominal cycle time is.</text>
+  </g>
+</svg>

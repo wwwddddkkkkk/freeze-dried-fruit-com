@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Annual contracts vs spot buying in freeze-dried fruit</title>
+  <desc id="desc">A commercial planning matrix comparing annual contract commitments and spot buying flexibility for freeze-dried fruit programs.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Buy the base differently from the swing</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Contracts protect continuity; spot buys protect optionality. Mature programs often need both.</text>
+
+  <g transform="translate(112 214)">
+    <rect width="452" height="300" rx="26" fill="#edf6f1" stroke="#c6d8ce"/>
+    <text x="26" y="42" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Annual contract lane</text>
+    <rect x="26" y="76" width="132" height="34" rx="17" fill="#cadccf"/>
+    <text x="48" y="98" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15">forecastable demand</text>
+    <rect x="170" y="76" width="126" height="34" rx="17" fill="#cadccf"/>
+    <text x="193" y="98" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15">custom packaging</text>
+    <rect x="308" y="76" width="116" height="34" rx="17" fill="#cadccf"/>
+    <text x="334" y="98" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15">core allocation</text>
+
+    <text x="26" y="152" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">Best when the spec is hard to replace and a stockout is expensive.</text>
+    <text x="26" y="188" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">Tradeoff: lower flexibility if assortment or demand shifts midyear.</text>
+
+    <rect x="26" y="226" width="396" height="40" rx="20" fill="#1f332d"/>
+    <text x="50" y="251" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Best use: protect the volume you can defend with a real forecast.</text>
+  </g>
+
+  <g transform="translate(636 214)">
+    <rect width="452" height="300" rx="26" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <text x="26" y="42" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Spot buying lane</text>
+    <rect x="26" y="76" width="108" height="34" rx="17" fill="#ead8b7"/>
+    <text x="54" y="98" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="15">pilot launches</text>
+    <rect x="146" y="76" width="128" height="34" rx="17" fill="#ead8b7"/>
+    <text x="166" y="98" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="15">promotions / fills</text>
+    <rect x="286" y="76" width="138" height="34" rx="17" fill="#ead8b7"/>
+    <text x="308" y="98" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="15">higher optionality</text>
+
+    <text x="26" y="152" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">Best when demand is uncertain or the brief is still moving.</text>
+    <text x="26" y="188" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">Tradeoff: weaker leverage if supply tightens or lead times stretch.</text>
+
+    <rect x="26" y="226" width="396" height="40" rx="20" fill="#7a3f35"/>
+    <text x="52" y="251" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Best use: cover tests, upside demand, or short tactical windows.</text>
+  </g>
+
+  <g transform="translate(112 536)">
+    <rect width="976" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Hybrid model: contract the base volume, then leave the promotional or uncertain layer flexible.</text>
+  </g>
+</svg>

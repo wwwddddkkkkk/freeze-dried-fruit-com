@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Best freeze-dried fruit for pancakes and waffles</title>
+  <desc id="desc">A breakfast topping guide showing where different freeze-dried fruits work best on pancakes and waffles with syrup, cream, and crumble zones.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">Choose the fruit by the stack style</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Breakfast toppings soften fast, so format and timing matter as much as flavor.</text>
+
+  <g transform="translate(126 220)">
+    <text x="152" y="0" text-anchor="middle" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Pancake stack</text>
+    <ellipse cx="152" cy="168" rx="116" ry="38" fill="#d8b57b"/>
+    <ellipse cx="152" cy="132" rx="116" ry="38" fill="#e1be84"/>
+    <ellipse cx="152" cy="96" rx="116" ry="38" fill="#e8c88d"/>
+    <path d="M112 78 C134 94, 170 92, 194 74" fill="none" stroke="#c8834e" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="118" cy="70" r="12" fill="#d86158"/>
+    <circle cx="180" cy="64" r="10" fill="#4b6f95"/>
+    <circle cx="204" cy="82" r="9" fill="#b34a65"/>
+    <text x="26" y="246" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">Best for visible pieces: strawberry, blueberry</text>
+    <text x="26" y="272" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">Add after syrup if you want more contrast</text>
+  </g>
+
+  <g transform="translate(642 220)">
+    <text x="152" y="0" text-anchor="middle" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Waffle grid</text>
+    <rect x="42" y="42" width="220" height="180" rx="28" fill="#e2bf86"/>
+    <g stroke="#c89b5d" stroke-width="10">
+      <line x1="98" y1="42" x2="98" y2="222"/>
+      <line x1="152" y1="42" x2="152" y2="222"/>
+      <line x1="206" y1="42" x2="206" y2="222"/>
+      <line x1="42" y1="96" x2="262" y2="96"/>
+      <line x1="42" y1="150" x2="262" y2="150"/>
+    </g>
+    <rect x="74" y="70" width="28" height="18" rx="8" fill="#efd69b"/>
+    <rect x="126" y="124" width="30" height="18" rx="8" fill="#de7d56"/>
+    <circle cx="206" cy="184" r="10" fill="#4b6f95"/>
+    <circle cx="156" cy="78" r="9" fill="#b34a65"/>
+    <text x="8" y="246" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">Best for crumble or powder: blueberry, raspberry, banana</text>
+    <text x="8" y="272" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">Waffle pockets hold softer fruit and syrup blends well</text>
+  </g>
+
+  <g transform="translate(402 246)">
+    <rect width="396" height="232" rx="26" fill="#fffdf8" stroke="#d8d2c3"/>
+    <text x="24" y="38" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Quick pairing guide</text>
+    <text x="24" y="76" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15">Strawberry</text>
+    <text x="132" y="76" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">classic maple breakfast stacks</text>
+    <text x="24" y="110" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="15">Blueberry</text>
+    <text x="132" y="110" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">even coverage across the plate</text>
+    <text x="24" y="144" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="15">Banana / mango</text>
+    <text x="132" y="144" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">sweeter, rounder brunch profiles</text>
+    <text x="24" y="178" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="15">Raspberry</text>
+    <text x="132" y="178" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">tart contrast and strong color</text>
+  </g>
+
+  <g transform="translate(112 536)">
+    <rect width="976" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">No matching local breakfast photo was available, so this applications article uses a custom SVG cover.</text>
+  </g>
+</svg>

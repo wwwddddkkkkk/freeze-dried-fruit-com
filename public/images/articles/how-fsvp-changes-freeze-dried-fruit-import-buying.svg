@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How FSVP changes freeze-dried fruit import buying</title>
+  <desc id="desc">A sourcing workflow diagram showing importer review, supplier approval, verification activity, and corrective action under FSVP.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">The cheapest quote still has to clear the importer file</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">FSVP turns supplier choice into a documentation and verification decision, not only a price decision.</text>
+
+  <g transform="translate(112 222)">
+    <rect width="206" height="248" rx="24" fill="#edf6f1" stroke="#c6d8ce"/>
+    <text x="24" y="38" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">1. Supplier file</text>
+    <text x="24" y="82" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="15">food + format</text>
+    <text x="24" y="110" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="15">origin + plant</text>
+    <text x="24" y="138" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="15">records access</text>
+    <text x="24" y="166" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="15">responsiveness</text>
+    <rect x="24" y="194" width="146" height="30" rx="15" fill="#cadccf"/>
+    <text x="42" y="214" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">not just a quote</text>
+  </g>
+
+  <g transform="translate(372 222)">
+    <rect width="206" height="248" rx="24" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <text x="24" y="38" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">2. Risk review</text>
+    <text x="24" y="82" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">hazard analysis</text>
+    <text x="24" y="110" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">supplier performance</text>
+    <text x="24" y="138" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">storage and transport</text>
+    <text x="24" y="166" fill="#495852" font-family="Inter, Arial, sans-serif" font-size="15">labeling exposure</text>
+    <rect x="24" y="194" width="158" height="30" rx="15" fill="#ead8b7"/>
+    <text x="42" y="214" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="14">per food, per supplier</text>
+  </g>
+
+  <g transform="translate(632 222)">
+    <rect width="206" height="248" rx="24" fill="#eef2f8" stroke="#cfd8e8"/>
+    <text x="24" y="38" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">3. Verification</text>
+    <text x="24" y="82" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="15">record review</text>
+    <text x="24" y="110" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="15">testing</text>
+    <text x="24" y="138" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="15">audit when needed</text>
+    <text x="24" y="166" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="15">written procedures</text>
+    <rect x="24" y="194" width="126" height="30" rx="15" fill="#dce7f3"/>
+    <text x="42" y="214" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="14">approval path</text>
+  </g>
+
+  <g transform="translate(892 222)">
+    <rect width="196" height="248" rx="24" fill="#fff4f0" stroke="#e3c8be"/>
+    <text x="24" y="38" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">4. If it breaks</text>
+    <text x="24" y="82" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="15">corrective action</text>
+    <text x="24" y="110" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="15">reevaluation</text>
+    <text x="24" y="138" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="15">supplier pause</text>
+    <text x="24" y="166" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="15">document the fix</text>
+    <rect x="24" y="194" width="138" height="30" rx="15" fill="#e7c0b5"/>
+    <text x="42" y="214" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="14">price is not enough</text>
+  </g>
+
+  <g stroke="#9da8a2" stroke-width="3" stroke-linecap="round">
+    <path d="M318 346h36"/>
+    <path d="M578 346h36"/>
+    <path d="M838 346h34"/>
+  </g>
+
+  <g transform="translate(112 520)">
+    <rect width="976" height="48" rx="24" fill="#1f332d"/>
+    <text x="28" y="29" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Editorial inference: rules that are per food, per supplier, and record-heavy naturally reward suppliers who are easier to verify, not only cheaper to quote.</text>
+  </g>
+</svg>

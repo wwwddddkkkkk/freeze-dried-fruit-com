@@ -98,7 +98,7 @@ function isActive(currentPath, item) {
   return currentPath === url || currentPath.startsWith(url);
 }
 
-function renderHeader({ site, mailto, currentPath, lang = "en", i18n }) {
+function renderHeader({ site, mailto, currentPath, lang = "en", i18n, alternates }) {
   const T = i18n;
   const prefix = lang === "en" ? "" : `/${lang}`;
   const homePath = `${prefix}/`;
@@ -111,12 +111,24 @@ function renderHeader({ site, mailto, currentPath, lang = "en", i18n }) {
     return `<a href="${url}" class="${cls}">${escapeHtml(label)}</a>`;
   }).join("");
 
-  // Language switcher in the top utility strip. Always points the visitor
-  // at the matching Spanish translation if one exists for the current page,
-  // otherwise falls back to the Spanish home.
+  // Language switcher in the top utility strip — smart, per-page.
+  //   - If the current page has an alternates map (set by renderPage when
+  //     a translation exists), point at the matching alternate. The visitor
+  //     reading the EN apple-varieties report clicks "Lee en Español" and
+  //     lands directly on /es/articles/apple-varieties-for-freeze-drying/,
+  //     not on a generic Spanish home.
+  //   - Otherwise fall back to the locale home (/es/ from EN, / from ES).
+  //     This keeps the switcher useful on pages that don't yet have a
+  //     translation — visitor lands somewhere coherent.
+  let switcherTarget;
+  if (lang === "en") {
+    switcherTarget = (alternates && alternates.es) ? alternates.es : "/es/";
+  } else {
+    switcherTarget = (alternates && alternates.en) ? alternates.en : "/";
+  }
   const languageSwitcher = lang === "en"
-    ? `<a href="/es/" class="lang-switch" hreflang="es">${escapeHtml(T.t("availableInSpanish"))}</a>`
-    : `<a href="/" class="lang-switch" hreflang="en">${escapeHtml(T.t("availableInEnglish"))}</a>`;
+    ? `<a href="${escapeHtml(switcherTarget)}" class="lang-switch" hreflang="es">${escapeHtml(T.t("availableInSpanish"))}</a>`
+    : `<a href="${escapeHtml(switcherTarget)}" class="lang-switch" hreflang="en">${escapeHtml(T.t("availableInEnglish"))}</a>`;
 
   return `
   <header class="site-header">
@@ -374,7 +386,7 @@ ${renderAnalytics(site.analytics)}
 ${renderJsonLd(jsonLd)}
 </head>
 <body>
-${renderHeader({ site, mailto, currentPath, lang, i18n: T })}
+${renderHeader({ site, mailto, currentPath, lang, i18n: T, alternates })}
 <main data-screen-label="${screen || ""}">${body}</main>
 ${renderFooter({ site, mailto, lang, i18n: T })}
 ${headerScript()}

@@ -2860,16 +2860,37 @@ function renderEsHomeBody({ articlesEs, reportsEs = [], mailto, site }) {
       <span class="continue-reading__cta">Leer artículo ${Icons.arrowSmall}</span>
     </a>`).join("");
 
-  // Flagship report featured tile if any Spanish reports exist. Promoted
-  // above the article grid because reports are the single highest-value
-  // asset on the site.
-  const reportFeaturedHtml = reportsEs.length ? `
-    <div class="continue-reading" style="background:var(--bg-tint);border-left:3px solid var(--mint-deep);margin:0 0 48px">
-      <div class="continue-reading__eyebrow">${escapeHtml(reportsEs[0].edition || "Reporte anual")}</div>
-      <h2 class="continue-reading__heading">${escapeHtml(reportsEs[0].title)}</h2>
-      <p style="font-family:var(--serif);font-size:16px;line-height:1.5;color:var(--ink);margin:0 0 18px;max-width:62ch">${escapeHtml(reportsEs[0].summary || reportsEs[0].intro || "")}</p>
-      <a class="continue-reading__all" href="/es/${escapeHtml(reportsEs[0].slug)}/">Leer el reporte completo ${Icons.arrowSmall}</a>
+  // Featured-reports section. Annual report leads (mint-deep tile), then a
+  // grid of all other reports (quarterly supply notes) underneath. Sort by
+  // date descending so the most recent quarterly note shows first.
+  const annualReport = reportsEs.find(r => /state-of/i.test(r.slug) || /annual|anual/i.test(r.edition || "")) || reportsEs[0];
+  const quarterlyReports = reportsEs
+    .filter(r => r !== annualReport)
+    .sort((a, b) => (b.date?.getTime() || 0) - (a.date?.getTime() || 0));
+
+  const annualFeaturedHtml = annualReport ? `
+    <div class="continue-reading" style="background:var(--bg-tint);border-left:3px solid var(--mint-deep);margin:0 0 32px">
+      <div class="continue-reading__eyebrow">${escapeHtml(annualReport.edition || "Reporte anual")}</div>
+      <h2 class="continue-reading__heading">${escapeHtml(annualReport.title)}</h2>
+      <p style="font-family:var(--serif);font-size:16px;line-height:1.5;color:var(--ink);margin:0 0 18px;max-width:62ch">${escapeHtml(annualReport.summary || annualReport.intro || "")}</p>
+      <a class="continue-reading__all" href="/es/${escapeHtml(annualReport.slug)}/">Leer el reporte completo ${Icons.arrowSmall}</a>
     </div>` : "";
+
+  const quarterlyGridHtml = quarterlyReports.length ? `
+    <div class="continue-reading" style="background:transparent;border:0;padding:0;margin:0 0 48px">
+      <div class="continue-reading__eyebrow">Notas trimestrales de suministro</div>
+      <h2 class="continue-reading__heading">Reportes trimestrales</h2>
+      <div class="continue-reading__grid">
+        ${quarterlyReports.map(r => `
+          <a class="continue-reading__card" href="/es/${escapeHtml(r.slug)}/">
+            <span class="continue-reading__date">${escapeHtml(r.edition || "")}</span>
+            <span class="continue-reading__title">${escapeHtml(r.title)}</span>
+            <span class="continue-reading__cta">Leer la nota ${Icons.arrowSmall}</span>
+          </a>`).join("")}
+      </div>
+    </div>` : "";
+
+  const reportFeaturedHtml = annualFeaturedHtml + quarterlyGridHtml;
 
   return `
     <section class="page-head">

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Domestic vs imported freeze-dried fruit</title>
+  <desc id="desc">A buyer decision matrix comparing domestic and imported freeze-dried fruit across paperwork, lead time, quality response, and supply flexibility.</desc>
+  <rect width="1200" height="680" fill="#f5f1e8"/>
+  <rect x="76" y="72" width="1048" height="536" rx="34" fill="#fffdf8" stroke="#d8d0bf" stroke-width="2"/>
+  <text x="116" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Origin changes the sourcing system more than the fruit itself</text>
+  <text x="116" y="166" fill="#69736d" font-family="Inter, Arial, sans-serif" font-size="17">Domestic and imported programs can both work well. The tradeoff shows up in paperwork, timing, and accountability.</text>
+
+  <g transform="translate(116 214)">
+    <rect width="970" height="306" rx="26" fill="#f7f3ea" stroke="#d8d0bf"/>
+    <line x1="312" y1="0" x2="312" y2="306" stroke="#d8d0bf"/>
+    <line x1="642" y1="0" x2="642" y2="306" stroke="#d8d0bf"/>
+    <line x1="0" y1="76" x2="970" y2="76" stroke="#d8d0bf"/>
+    <line x1="0" y1="152" x2="970" y2="152" stroke="#d8d0bf"/>
+    <line x1="0" y1="228" x2="970" y2="228" stroke="#d8d0bf"/>
+
+    <text x="26" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Decision lane</text>
+    <text x="338" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Domestic supply</text>
+    <text x="668" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Imported supply</text>
+
+    <text x="26" y="120" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">paperwork</text>
+    <text x="338" y="120" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">shorter chain, fewer import layers</text>
+    <text x="668" y="120" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">prior notice, registration, FSVP file</text>
+
+    <text x="26" y="196" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">lead time</text>
+    <text x="338" y="196" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">often easier reorders and faster follow-up</text>
+    <text x="668" y="196" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">more transit and border timing exposure</text>
+
+    <text x="26" y="272" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">supply upside</text>
+    <text x="338" y="272" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">closer collaboration, smaller runs</text>
+    <text x="668" y="272" fill="#4a5953" font-family="Inter, Arial, sans-serif" font-size="15">origin access, scale, cultivar breadth</text>
+  </g>
+
+  <g transform="translate(224 540)">
+    <rect width="752" height="34" rx="17" fill="#1f332d"/>
+    <text x="24" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Buyer rule: compare spec control, response time, and importer discipline before treating origin as the quality shortcut.</text>
+  </g>
+</svg>

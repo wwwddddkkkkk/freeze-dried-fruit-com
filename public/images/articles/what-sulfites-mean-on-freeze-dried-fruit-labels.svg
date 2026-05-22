@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">What sulfites mean on freeze-dried fruit labels</title>
+  <desc id="desc">Annotated label diagram showing sulfite declaration, preservative function wording, and buyer questions for freeze-dried fruit products.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="70" y="70" width="1060" height="540" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+
+  <text x="112" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Read sulfites as a treatment signal, not a vague warning</text>
+  <text x="112" y="162" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">The useful questions are what was added, why it was added, and how the label declares it.</text>
+
+  <g transform="translate(126 212)">
+    <rect width="388" height="314" rx="26" fill="#f9f7f1" stroke="#d8d2c3"/>
+    <text x="30" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">Freeze-Dried Apricot Slices</text>
+    <text x="30" y="86" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Ingredients:</text>
+    <text x="30" y="112" fill="#3e4c45" font-family="Inter, Arial, sans-serif" font-size="16">Apricots, sulfur dioxide</text>
+    <text x="30" y="152" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Function example:</text>
+    <text x="30" y="178" fill="#3e4c45" font-family="Inter, Arial, sans-serif" font-size="16">Sulfur dioxide (to protect color)</text>
+    <rect x="30" y="216" width="326" height="58" rx="16" fill="#edf6f1" stroke="#c6d8ce"/>
+    <text x="48" y="242" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">What this usually tells you:</text>
+    <text x="48" y="264" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="14">A disclosed anti-browning or preservative choice</text>
+  </g>
+
+  <g transform="translate(560 212)">
+    <rect width="528" height="314" rx="26" fill="#edf6f1" stroke="#c6d8ce"/>
+    <text x="28" y="40" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">The three useful reads</text>
+
+    <rect x="28" y="62" width="470" height="54" rx="16" fill="#cadccf"/>
+    <text x="48" y="85" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">1. Sensitive-consumer read</text>
+    <text x="48" y="106" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="14">The declaration matters because sulfite-sensitive consumers may need to avoid it.</text>
+
+    <rect x="28" y="132" width="470" height="54" rx="16" fill="#cadccf"/>
+    <text x="48" y="155" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">2. Process read</text>
+    <text x="48" y="176" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="14">It often points to anti-browning, color retention, or preservation strategy.</text>
+
+    <rect x="28" y="202" width="470" height="54" rx="16" fill="#cadccf"/>
+    <text x="48" y="225" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">3. Marketing read</text>
+    <text x="48" y="246" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="14">Check whether the front-of-pack simplicity claim still matches the ingredient line.</text>
+
+    <rect x="28" y="272" width="470" height="24" rx="12" fill="#7a3f35"/>
+    <text x="44" y="289" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">A sulfite declaration is specific disclosure. It is not automatically a quality verdict.</text>
+  </g>
+</svg>

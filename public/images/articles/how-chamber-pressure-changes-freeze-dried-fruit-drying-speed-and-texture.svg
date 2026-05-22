@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How chamber pressure changes freeze-dried fruit drying speed and texture</title>
+  <desc id="desc">Technical chart showing the tradeoff between chamber pressure, sublimation speed, collapse risk, and final texture in freeze-dried fruit.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="70" y="70" width="1060" height="540" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+
+  <text x="110" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Pressure only works when temperature stays in control</text>
+  <text x="110" y="162" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Freeze-dried fruit quality sits between slow cycles and structural collapse.</text>
+
+  <g transform="translate(112 214)">
+    <rect width="610" height="292" rx="26" fill="#f4f0e5" stroke="#d8d2c3"/>
+    <line x1="78" y1="28" x2="78" y2="248" stroke="#7b867f" stroke-width="2"/>
+    <line x1="78" y1="248" x2="562" y2="248" stroke="#7b867f" stroke-width="2"/>
+    <text x="4" y="42" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="14">Risk</text>
+    <text x="442" y="280" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="14">Lower chamber pressure →</text>
+
+    <polyline points="100,210 176,176 254,148 332,126 410,112 488,94 548,72" fill="none" stroke="#1f332d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="100,82 176,98 254,118 332,142 410,172 488,200 548,222" fill="none" stroke="#b45f42" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <text x="358" y="88" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Sublimation drive</text>
+    <text x="392" y="228" fill="#b45f42" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Structural risk if heat outruns control</text>
+
+    <rect x="218" y="132" width="154" height="54" rx="14" fill="#edf6f1" stroke="#c6d8ce"/>
+    <text x="236" y="154" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Validated operating window</text>
+    <text x="236" y="176" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="13">Product temp stays below collapse risk</text>
+  </g>
+
+  <g transform="translate(754 214)">
+    <rect width="334" height="292" rx="26" fill="#edf6f1" stroke="#c6d8ce"/>
+    <text x="26" y="40" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">What buyers should ask</text>
+
+    <rect x="26" y="66" width="282" height="44" rx="14" fill="#cadccf"/>
+    <text x="42" y="93" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">How is pressure paired with shelf temperature?</text>
+
+    <rect x="26" y="122" width="282" height="44" rx="14" fill="#cadccf"/>
+    <text x="42" y="149" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">How is product temperature protected?</text>
+
+    <rect x="26" y="178" width="282" height="44" rx="14" fill="#cadccf"/>
+    <text x="42" y="205" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">Does the setting change by fruit and cut?</text>
+
+    <rect x="26" y="234" width="282" height="34" rx="17" fill="#1f332d"/>
+    <text x="47" y="256" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">A vacuum number alone is not process proof.</text>
+  </g>
+
+  <g transform="translate(112 534)">
+    <rect width="976" height="36" rx="18" fill="#7a3f35"/>
+    <text x="26" y="24" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Commercial read: efficient drying comes from a validated pressure-temperature window, not from chasing the lowest possible pressure.</text>
+  </g>
+</svg>

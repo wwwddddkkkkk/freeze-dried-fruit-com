@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Best freeze-dried fruit for salads and grain bowls</title>
+  <desc id="desc">Illustrated bowl matrix comparing freeze-dried strawberry, blueberry, apple, cranberry, and mango for leafy salads and grain bowls.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="70" y="70" width="1060" height="540" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+
+  <text x="112" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Bowl fruit should support the bowl, not hijack it</text>
+  <text x="112" y="162" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">The key variables are fruit role, dressing contact, and whether the bowl is leafy or grain-heavy.</text>
+
+  <g transform="translate(112 214)">
+    <rect width="430" height="292" rx="26" fill="#edf6f1" stroke="#c6d8ce"/>
+    <circle cx="214" cy="150" r="104" fill="#fffdf8" stroke="#d8d2c3" stroke-width="12"/>
+    <path d="M132 150a82 82 0 0 1 164 0" fill="#d9ead7"/>
+    <path d="M148 170a66 66 0 0 1 132 0" fill="#d4c29c"/>
+    <circle cx="186" cy="126" r="16" fill="#d35754"/>
+    <circle cx="226" cy="112" r="14" fill="#5676c9"/>
+    <circle cx="258" cy="138" r="13" fill="#f0d89d"/>
+    <circle cx="200" cy="174" r="12" fill="#a23a45"/>
+    <circle cx="242" cy="176" r="14" fill="#efb65b"/>
+
+    <text x="28" y="40" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Best all-around bowl fruits</text>
+    <text x="28" y="244" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Strawberry</text>
+    <text x="126" y="244" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Blueberry</text>
+    <text x="228" y="244" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Apple</text>
+    <text x="304" y="244" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Cranberry</text>
+    <text x="28" y="268" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="14">Late addition preserves crunch.</text>
+    <text x="28" y="288" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="14">Tart fruits work best as accents.</text>
+  </g>
+
+  <g transform="translate(584 214)">
+    <rect width="504" height="292" rx="26" fill="#f9f7f1" stroke="#d8d2c3"/>
+    <text x="28" y="42" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Match the fruit to the bowl</text>
+
+    <rect x="28" y="66" width="448" height="82" rx="18" fill="#fffdf8" stroke="#d8d2c3"/>
+    <text x="50" y="92" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Leafy salads</text>
+    <text x="50" y="116" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="14">Best fit: strawberry, blueberry, apple</text>
+    <text x="50" y="136" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="14">Reason: clearer fruit signal without turning the bowl sweet.</text>
+
+    <rect x="28" y="162" width="448" height="82" rx="18" fill="#fffdf8" stroke="#d8d2c3"/>
+    <text x="50" y="188" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Grain bowls</text>
+    <text x="50" y="212" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="14">Best fit: mango, apple, blueberry, cranberry accent</text>
+    <text x="50" y="232" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="14">Reason: heavier grains and savory components can carry more sweetness.</text>
+
+    <rect x="28" y="256" width="448" height="24" rx="12" fill="#1f332d"/>
+    <text x="50" y="273" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">Timing rule: dress first, fruit last.</text>
+  </g>
+</svg>

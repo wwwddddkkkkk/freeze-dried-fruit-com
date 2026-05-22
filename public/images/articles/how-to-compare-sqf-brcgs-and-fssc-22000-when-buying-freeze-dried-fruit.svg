@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How to compare SQF, BRCGS, and FSSC 22000 for freeze-dried fruit suppliers</title>
+  <desc id="desc">Buyer matrix comparing SQF, BRCGS, and FSSC 22000 across GFSI recognition, scope fit, customer acceptance, and operational follow-through.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="70" y="70" width="1060" height="540" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+
+  <text x="112" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Compare the scope before you compare the logo</text>
+  <text x="112" y="162" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">All three can be credible. The buying work starts after certification exists.</text>
+
+  <g transform="translate(112 214)">
+    <rect width="976" height="292" rx="26" fill="#f9f7f1" stroke="#d8d2c3"/>
+    <line x1="204" y1="28" x2="204" y2="264" stroke="#d8d2c3"/>
+    <line x1="454" y1="28" x2="454" y2="264" stroke="#d8d2c3"/>
+    <line x1="704" y1="28" x2="704" y2="264" stroke="#d8d2c3"/>
+    <line x1="28" y1="82" x2="948" y2="82" stroke="#d8d2c3"/>
+    <line x1="28" y1="144" x2="948" y2="144" stroke="#d8d2c3"/>
+    <line x1="28" y1="206" x2="948" y2="206" stroke="#d8d2c3"/>
+
+    <text x="42" y="58" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Buyer filter</text>
+    <text x="252" y="58" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">SQF</text>
+    <text x="500" y="58" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">BRCGS</text>
+    <text x="742" y="58" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">FSSC 22000</text>
+
+    <text x="42" y="118" fill="#55635b" font-family="Inter, Arial, sans-serif" font-size="15">Start point</text>
+    <text x="252" y="118" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">GFSI-recognized programme</text>
+    <text x="500" y="118" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">GFSI-recognized programme</text>
+    <text x="742" y="118" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">GFSI-recognized programme</text>
+
+    <text x="42" y="180" fill="#55635b" font-family="Inter, Arial, sans-serif" font-size="15">What to verify</text>
+    <text x="252" y="170" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">Food-manufacturing code</text>
+    <text x="252" y="190" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">fruit / plant scope fit</text>
+    <text x="500" y="170" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">site scope + retailer</text>
+    <text x="500" y="190" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">customer acceptance</text>
+    <text x="742" y="170" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">ISO-style system +</text>
+    <text x="742" y="190" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">added requirements</text>
+
+    <text x="42" y="242" fill="#55635b" font-family="Inter, Arial, sans-serif" font-size="15">What settles it</text>
+    <text x="252" y="232" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">Correct site, scope, audit</text>
+    <text x="252" y="252" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">and product alignment</text>
+    <text x="500" y="232" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">Correct site, scope, audit</text>
+    <text x="500" y="252" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">and product alignment</text>
+    <text x="742" y="232" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">Correct site, scope, audit</text>
+    <text x="742" y="252" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="14">and product alignment</text>
+  </g>
+
+  <g transform="translate(112 534)">
+    <rect width="976" height="36" rx="18" fill="#1f332d"/>
+    <text x="24" y="24" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">The certificate opens the door. Scope, audit reality, and customer fit decide whether the supplier stays in the room.</text>
+  </g>
+</svg>

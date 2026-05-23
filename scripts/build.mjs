@@ -305,6 +305,10 @@ function absUrl(site, p) {
   return `${origin}${p.startsWith("/") ? "" : "/"}${p}`;
 }
 
+function schemaLanguage(lang = "en") {
+  return lang === "es" ? "es" : "en-US";
+}
+
 function organizationNode(site) {
   const node = {
     "@type": "Organization",
@@ -431,11 +435,13 @@ function articleImageUrl(site, article) {
   if (article.cover_image && !article.cover_image.toLowerCase().endsWith(".svg")) {
     return absUrl(site, article.cover_image);
   }
-  return `${site.url.replace(/\/$/, "")}/images/og/${article.id}.png`;
+  const ogPrefix = article.lang === "es" ? "/images/og/es" : "/images/og";
+  return `${site.url.replace(/\/$/, "")}${ogPrefix}/${article.id}.png`;
 }
 
 function articleJsonLd({ site, article }) {
-  const url = absUrl(site, articleUrl(article.id));
+  const lang = article.lang || "en";
+  const url = absUrl(site, articleUrl(article.id, lang));
   const imageUrl = articleImageUrl(site, article);
   const usingGeneratedCard = !article.cover_image || article.cover_image.toLowerCase().endsWith(".svg");
   const published = article.date ? article.date.toISOString() : undefined;
@@ -447,8 +453,8 @@ function articleJsonLd({ site, article }) {
     description: article.summary || article.intro || "",
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     url,
-    inLanguage: "en-US",
-    articleSection: article.category,
+    inLanguage: schemaLanguage(lang),
+    articleSection: lang === "es" ? iCategoryLabel("es", article.category) : article.category,
     isAccessibleForFree: true,
     // ImageObject with explicit dimensions. The generated OG card is always
     // 1200×630 (the spec Google asks for). Real photo covers ship the
@@ -502,10 +508,10 @@ function articleJsonLd({ site, article }) {
   }
 
   const trail = [
-    { name: "Home", path: "/" },
-    { name: "Articles", path: "/articles/" },
-    { name: article.category, path: categoryUrl(article.category) },
-    { name: article.title, path: articleUrl(article.id) },
+    { name: lang === "es" ? "Inicio" : "Home", path: lang === "es" ? "/es/" : "/" },
+    { name: lang === "es" ? "Artículos" : "Articles", path: lang === "es" ? "/es/articles/" : "/articles/" },
+    { name: (lang === "es" ? iCategoryLabel("es", article.category) : article.category), path: categoryUrl(article.category, lang) },
+    { name: article.title, path: articleUrl(article.id, lang) },
   ];
 
   const nodes = [articleNode, breadcrumbsNode(site, trail)];
@@ -514,6 +520,7 @@ function articleJsonLd({ site, article }) {
     nodes.push({
       "@context": "https://schema.org",
       "@type": "FAQPage",
+      inLanguage: schemaLanguage(lang),
       mainEntity: article.faqs.map(f => ({
         "@type": "Question",
         name: f.q,
@@ -537,6 +544,7 @@ function articleJsonLd({ site, article }) {
     const node = {
       "@context": "https://schema.org",
       "@type": "HowTo",
+      inLanguage: schemaLanguage(lang),
       name: ht.name,
       step: ht.steps.map((s, i) => {
         const step = { "@type": "HowToStep", position: i + 1, name: s.name };
@@ -556,10 +564,13 @@ function articleJsonLd({ site, article }) {
   return nodes;
 }
 
-function articleListJsonLd({ site, articles, category, currentPath, name, description }) {
+function articleListJsonLd({ site, articles, category, currentPath, name, description, lang = "en" }) {
   const url = absUrl(site, currentPath);
-  const trail = [{ name: "Home", path: "/" }, { name: "Articles", path: "/articles/" }];
-  if (category) trail.push({ name: category, path: currentPath });
+  const trail = [
+    { name: lang === "es" ? "Inicio" : "Home", path: lang === "es" ? "/es/" : "/" },
+    { name: lang === "es" ? "Artículos" : "Articles", path: lang === "es" ? "/es/articles/" : "/articles/" },
+  ];
+  if (category) trail.push({ name: lang === "es" ? iCategoryLabel("es", category) : category, path: currentPath });
 
   return [
     {
@@ -568,7 +579,7 @@ function articleListJsonLd({ site, articles, category, currentPath, name, descri
       url,
       name,
       description,
-      inLanguage: "en-US",
+      inLanguage: schemaLanguage(lang),
       isPartOf: { "@id": `${site.url}/#website` },
       mainEntity: {
         "@type": "ItemList",
@@ -576,7 +587,7 @@ function articleListJsonLd({ site, articles, category, currentPath, name, descri
         itemListElement: articles.slice(0, 50).map((a, i) => ({
           "@type": "ListItem",
           position: i + 1,
-          url: absUrl(site, articleUrl(a.id)),
+          url: absUrl(site, articleUrl(a.id, lang)),
           name: a.title,
         })),
       },
@@ -1693,15 +1704,21 @@ function articlesMetaPillarJsonLd({ site, articles, faqs }) {
   ];
 }
 
-function renderArticlesIndex({ articles, category, suppressHead = false, eyebrowLabel = null }) {
+function renderArticlesIndex({ articles, category, suppressHead = false, eyebrowLabel = null, lang = "en" }) {
   const filtered = category ? articles.filter(a => a.category === category) : articles;
-  const headTitle = category || "All Articles";
+  const categoryName = category ? (lang === "es" ? iCategoryLabel("es", category) : category) : null;
+  const headTitle = categoryName || (lang === "es" ? "Artículos" : "All Articles");
   const headSub = category
-    ? `Articles filed under ${category}.`
-    : "Long-form explainers, label analysis, and category notes from the freeze-dried fruit space.";
+    ? (lang === "es" ? `Artículos disponibles en español dentro de ${categoryName}.` : `Articles filed under ${category}.`)
+    : (lang === "es"
+      ? "Artículos traducidos y guías disponibles en español sobre calidad, proceso, abastecimiento, empaque y aplicaciones de la fruta liofilizada."
+      : "Long-form explainers, label analysis, and category notes from the freeze-dried fruit space.");
   const eyebrow = suppressHead
-    ? (eyebrowLabel || (category ? `Full Archive · ${category}` : "Full Archive"))
-    : (category ? "Section" : "The Archive");
+    ? (eyebrowLabel || (category ? `${lang === "es" ? "Archivo" : "Full Archive"} · ${categoryName}` : (lang === "es" ? "Archivo" : "Full Archive")))
+    : (category ? (lang === "es" ? "Sección" : "Section") : (lang === "es" ? "Archivo" : "The Archive"));
+  const articleNoun = lang === "es"
+    ? (filtered.length === 1 ? "artículo" : "artículos")
+    : (filtered.length === 1 ? "article" : "articles");
   const isFruitReports = category === "Fruit Reports";
   const fruitReportSeries = ["Freeze-Dried Guide", "Fruit Variety Guide"];
   const seriesCounts = isFruitReports
@@ -1714,10 +1731,10 @@ function renderArticlesIndex({ articles, category, suppressHead = false, eyebrow
 
   const rows = filtered.map(a => `
     <article class="list__row"${isFruitReports ? ` data-report-series="${escapeHtml(a.report_series || "Freeze-Dried Guide")}"` : ""}>
-      <a href="${articleUrl(a.id)}" style="display:contents;color:inherit">
+      <a href="${articleUrl(a.id, lang)}" style="display:contents;color:inherit">
         <div class="list__img">${renderCover(a)}</div>
         <div>
-          <div class="list__cat">${escapeHtml(a.category)}${isFruitReports && a.report_series ? ` · ${escapeHtml(a.report_series)}` : ""}</div>
+          <div class="list__cat">${escapeHtml(lang === "es" ? iCategoryLabel("es", a.category) : a.category)}${isFruitReports && a.report_series ? ` · ${escapeHtml(a.report_series)}` : ""}</div>
           <h3 class="list__title">${escapeHtml(a.title)}</h3>
           <p class="list__sum">${escapeHtml(a.summary)}</p>
         </div>
@@ -1728,7 +1745,12 @@ function renderArticlesIndex({ articles, category, suppressHead = false, eyebrow
       </a>
     </article>`).join("");
 
-  const empty = `
+  const empty = lang === "es"
+    ? `<div style="padding:80px 0;text-align:center;color:var(--muted)">
+        <p>Todavía no hay artículos en español en esta sección.</p>
+        <p>La edición en español está creciendo — <a href="/contact/" style="color:var(--mint-deep)">escríbenos</a> para sugerir una traducción.</p>
+      </div>`
+    : `
     <div style="padding:80px 0;text-align:center;color:var(--muted)">
       <p>No articles published in this section yet.</p>
       <p>We're working on it — <a href="/contact/" style="color:var(--mint-deep)">get in touch</a> for updates.</p>
@@ -1776,12 +1798,12 @@ function renderArticlesIndex({ articles, category, suppressHead = false, eyebrow
   const headHtml = suppressHead
     ? `<section class="archive-head">
          <div class="container">
-           <span class="eyebrow">${eyebrow} · ${filtered.length} ${filtered.length === 1 ? "article" : "articles"}</span>
+           <span class="eyebrow">${eyebrow} · ${filtered.length} ${articleNoun}</span>
          </div>
        </section>`
     : `<section class="page-head">
          <div class="container">
-           <span class="eyebrow">${eyebrow} · ${filtered.length} ${filtered.length === 1 ? "article" : "articles"}</span>
+           <span class="eyebrow">${eyebrow} · ${filtered.length} ${articleNoun}</span>
            <h1>${escapeHtml(headTitle)}</h1>
            <p>${escapeHtml(headSub)}</p>
          </div>
@@ -1871,8 +1893,11 @@ function renderReportBody({ report, mailto, site }) {
 }
 
 function reportJsonLd({ site, report }) {
-  const url = absUrl(site, `/${report.slug}/`);
+  const lang = report.lang || "en";
+  const pathForLang = lang === "es" ? `/es/${report.slug}/` : `/${report.slug}/`;
+  const url = absUrl(site, pathForLang);
   const published = report.date ? report.date.toISOString() : undefined;
+  const ogPrefix = lang === "es" ? "/images/og/es" : "/images/og";
   const reportNode = {
     "@context": "https://schema.org",
     "@type": "Report",
@@ -1880,9 +1905,9 @@ function reportJsonLd({ site, report }) {
     description: report.summary || report.intro || "",
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     url,
-    inLanguage: "en-US",
+    inLanguage: schemaLanguage(lang),
     isAccessibleForFree: true,
-    image: `${site.url.replace(/\/$/, "")}/images/og/${report.slug}.png`,
+    image: `${site.url.replace(/\/$/, "")}${ogPrefix}/${report.slug}.png`,
     author: editorialNode(site),
     publisher: organizationNode(site),
     reportNumber: report.edition || "",
@@ -1913,8 +1938,8 @@ function reportJsonLd({ site, report }) {
     });
   }
   const trail = [
-    { name: "Home", path: "/" },
-    { name: report.title, path: `/${report.slug}/` },
+    { name: lang === "es" ? "Inicio" : "Home", path: lang === "es" ? "/es/" : "/" },
+    { name: report.title, path: pathForLang },
   ];
   return [reportNode, breadcrumbsNode(site, trail)];
 }
@@ -3415,12 +3440,41 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs
   // search-traffic surface (no English-language SEO competition for the
   // Spanish queries).
   if (articlesEs.length) {
+    const latestEsDate = articlesEs.reduce((acc, a) => {
+      const t = (a.updated || a.date)?.getTime();
+      return t && (!acc || t > acc) ? t : acc;
+    }, 0);
+    const latestEsIso = latestEsDate ? new Date(latestEsDate).toISOString().slice(0, 10) : today;
     entries.push({
       loc: "/es/",
-      lastmod: today,
+      lastmod: latestEsIso,
       changefreq: "weekly",
       priority: "0.9",
     });
+    entries.push({
+      loc: "/es/articles/",
+      lastmod: latestEsIso,
+      changefreq: "weekly",
+      priority: "0.8",
+    });
+    const catsEs = [...new Set([
+      ...articlesEs.map(a => a.category),
+      ...(site.nav || []).filter(n => n.category).map(n => n.category),
+    ])];
+    for (const c of catsEs) {
+      const catLatest = articlesEs
+        .filter(a => a.category === c)
+        .reduce((acc, a) => {
+          const t = (a.updated || a.date)?.getTime();
+          return t && (!acc || t > acc) ? t : acc;
+        }, 0);
+      entries.push({
+        loc: categoryUrl(c, "es"),
+        lastmod: catLatest ? new Date(catLatest).toISOString().slice(0, 10) : latestEsIso,
+        changefreq: "weekly",
+        priority: "0.6",
+      });
+    }
     for (const a of articlesEs) {
       const mod = a.updated || a.date;
       entries.push({
@@ -3673,6 +3727,7 @@ async function build() {
     body: metaPillar.bodyHtml + archiveBelow,
     screen: "articles",
     jsonLd: articlesMetaPillarJsonLd({ site, articles, faqs: metaPillar.faqs }),
+    alternates: articlesEs.length ? { en: "/articles/", es: "/es/articles/" } : null,
   }));
 
   // Articles by category — include both categories that have articles AND
@@ -3715,7 +3770,55 @@ async function build() {
     await writeFilePage(`${categoryUrl(c).slice(1)}index.html`, renderPage({
       site, mailto, currentPath: categoryUrl(c), title, description,
       body: bodyHtml, screen: "articles-cat", jsonLd,
+      alternates: articlesEs.length ? { en: categoryUrl(c), es: categoryUrl(c, "es") } : null,
     }));
+  }
+
+  // Spanish article index and category archives. The Spanish header links to
+  // /es/articles/ and /es/articles/category/<section>/, so these pages keep
+  // the localized nav crawlable instead of sending Spanish readers to 404s.
+  if (articlesEs.length) {
+    const esArticlesDescription = "Artículos disponibles en español sobre calidad, proceso, abastecimiento, empaque y aplicaciones de la fruta liofilizada.";
+    await writeFilePage("es/articles/index.html", renderPage({
+      site, mailto,
+      currentPath: "/es/articles/",
+      title: "Artículos en español",
+      description: esArticlesDescription,
+      body: renderArticlesIndex({ articles: articlesEs, category: null, lang: "es" }),
+      screen: "articles",
+      lang: "es",
+      alternates: { en: "/articles/", es: "/es/articles/" },
+      jsonLd: articleListJsonLd({
+        site, articles: articlesEs, category: null, currentPath: "/es/articles/",
+        name: "Artículos en español — Freeze-Dried-Fruit.com",
+        description: esArticlesDescription,
+        lang: "es",
+      }),
+    }));
+
+    const esCats = [...new Set([...articlesEs.map(a => a.category), ...navCats])];
+    for (const c of esCats) {
+      const currentPath = categoryUrl(c, "es");
+      const inCat = articlesEs.filter(a => a.category === c);
+      const categoryName = iCategoryLabel("es", c);
+      const description = `Artículos en español dentro de ${categoryName} en Freeze-Dried-Fruit.com.`;
+      await writeFilePage(`${currentPath.slice(1)}index.html`, renderPage({
+        site, mailto,
+        currentPath,
+        title: `${categoryName} en español`,
+        description,
+        body: renderArticlesIndex({ articles: articlesEs, category: c, lang: "es" }),
+        screen: "articles-cat",
+        lang: "es",
+        alternates: { en: categoryUrl(c), es: currentPath },
+        jsonLd: articleListJsonLd({
+          site, articles: inCat, category: c, currentPath,
+          name: `${categoryName} en español — Freeze-Dried-Fruit.com`,
+          description,
+          lang: "es",
+        }),
+      }));
+    }
   }
 
   // Individual articles

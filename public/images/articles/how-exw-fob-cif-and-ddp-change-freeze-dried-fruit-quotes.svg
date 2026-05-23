@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Incoterms matrix for freeze-dried fruit quotes</title>
+  <desc id="desc">A commercial comparison chart showing EXW, FOB, CIF, and DDP across freight control, risk transfer, and landed-cost visibility.</desc>
+  <rect width="1600" height="900" fill="#f4f0e6"/>
+  <rect x="60" y="60" width="1480" height="780" rx="28" fill="#fffaf2" stroke="#ccbda2" stroke-width="2"/>
+  <text x="110" y="134" fill="#3a3023" font-family="Georgia, 'Times New Roman', serif" font-size="34">Quote Structure Matters</text>
+  <text x="110" y="174" fill="#786855" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">How EXW, FOB, CIF, and DDP reallocate work around a freeze-dried fruit shipment</text>
+
+  <rect x="110" y="240" width="1380" height="470" rx="24" fill="#fcf6ea" stroke="#d3c4a6"/>
+
+  <text x="168" y="288" fill="#6a5a46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="2">TERM</text>
+  <text x="450" y="288" fill="#6a5a46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="2">BUYER TAKES ON</text>
+  <text x="870" y="288" fill="#6a5a46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="2">SELLER STILL COVERS</text>
+  <text x="1224" y="288" fill="#6a5a46" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="2">FIT</text>
+
+  <path d="M150 320h1300" stroke="#d3c4a6" stroke-width="2"/>
+  <path d="M370 230v440" stroke="#d3c4a6" stroke-width="2"/>
+  <path d="M820 230v440" stroke="#d3c4a6" stroke-width="2"/>
+  <path d="M1180 230v440" stroke="#d3c4a6" stroke-width="2"/>
+  <path d="M150 408h1300" stroke="#e5dac5" stroke-width="2"/>
+  <path d="M150 496h1300" stroke="#e5dac5" stroke-width="2"/>
+  <path d="M150 584h1300" stroke="#e5dac5" stroke-width="2"/>
+
+  <text x="170" y="376" fill="#2f261b" font-family="Georgia, 'Times New Roman', serif" font-size="30">EXW</text>
+  <text x="170" y="464" fill="#2f261b" font-family="Georgia, 'Times New Roman', serif" font-size="30">FOB</text>
+  <text x="170" y="552" fill="#2f261b" font-family="Georgia, 'Times New Roman', serif" font-size="30">CIF</text>
+  <text x="170" y="640" fill="#2f261b" font-family="Georgia, 'Times New Roman', serif" font-size="30">DDP</text>
+
+  <text x="408" y="360" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Origin pickup, forwarder coordination,</text>
+  <text x="408" y="386" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">freight booking, later customs work</text>
+  <text x="408" y="448" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Ocean leg control, insurance choice,</text>
+  <text x="408" y="474" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">destination-side execution</text>
+  <text x="408" y="536" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Arrival-side handling, customs clarity,</text>
+  <text x="408" y="562" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">claim follow-through if problems hit</text>
+  <text x="408" y="624" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Less daily freight work, but buyer still</text>
+  <text x="408" y="650" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">needs visibility on import structure</text>
+
+  <text x="850" y="360" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Product ready at seller's site</text>
+  <text x="850" y="448" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Goods delivered onto vessel at named port</text>
+  <text x="850" y="536" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Main carriage + insurance to destination port</text>
+  <text x="850" y="624" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Broadest delivery bundle on paper</text>
+
+  <text x="1210" y="360" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Experienced importer</text>
+  <text x="1210" y="448" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Buyer wants freight control</text>
+  <text x="1210" y="536" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Bundled port delivery</text>
+  <text x="1210" y="624" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Turnkey repeat program</text>
+
+  <rect x="110" y="742" width="1380" height="84" rx="18" fill="#efe4cf" stroke="#d3c4a6"/>
+  <text x="148" y="792" fill="#3a3023" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Same fruit, different quote: normalize the Incoterm, named place, insurance, and customs assumptions before comparing price.</text>
+</svg>

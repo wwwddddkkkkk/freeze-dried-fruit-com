@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Packaging-room humidity diagram for freeze-dried fruit</title>
+  <desc id="desc">A technical illustration showing freeze-dried fruit moving from dryer to filler to sealed pouch, with ambient humidity, dwell time, and moisture pickup callouts.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="134" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="34">Packaging-Room Humidity</text>
+  <text x="108" y="174" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">How ambient air can change freeze-dried fruit before the pouch is sealed</text>
+
+  <rect x="108" y="242" width="404" height="206" rx="22" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="138" y="286" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.8">STEP 1</text>
+  <text x="138" y="324" fill="#31281c" font-family="Georgia, 'Times New Roman', serif" font-size="28">Dryer Endpoint</text>
+  <rect x="148" y="352" width="148" height="54" rx="12" fill="#d8c28f"/>
+  <rect x="314" y="352" width="148" height="54" rx="12" fill="#d8c28f"/>
+  <rect x="148" y="418" width="314" height="10" rx="5" fill="#8f7a58"/>
+  <circle cx="178" cy="390" r="10" fill="#d66f49"/>
+  <circle cx="210" cy="376" r="11" fill="#d66f49"/>
+  <circle cx="246" cy="392" r="10" fill="#d66f49"/>
+  <circle cx="344" cy="386" r="10" fill="#d66f49"/>
+  <circle cx="378" cy="374" r="11" fill="#d66f49"/>
+  <circle cx="414" cy="392" r="10" fill="#d66f49"/>
+
+  <rect x="598" y="242" width="404" height="206" rx="22" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="628" y="286" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.8">STEP 2</text>
+  <text x="628" y="324" fill="#31281c" font-family="Georgia, 'Times New Roman', serif" font-size="28">Open Filling Zone</text>
+  <rect x="644" y="360" width="312" height="56" rx="14" fill="#efe3c7" stroke="#bfa678"/>
+  <circle cx="700" cy="388" r="12" fill="#d66f49"/>
+  <circle cx="734" cy="376" r="12" fill="#d66f49"/>
+  <circle cx="770" cy="392" r="12" fill="#d66f49"/>
+  <circle cx="806" cy="378" r="12" fill="#d66f49"/>
+  <circle cx="842" cy="392" r="12" fill="#d66f49"/>
+  <path d="M676 332c16-32 16-32 32 0" fill="none" stroke="#6ea2a4" stroke-width="4" stroke-linecap="round"/>
+  <path d="M758 326c16-26 16-26 32 0" fill="none" stroke="#6ea2a4" stroke-width="4" stroke-linecap="round"/>
+  <path d="M838 330c16-30 16-30 32 0" fill="none" stroke="#6ea2a4" stroke-width="4" stroke-linecap="round"/>
+  <text x="650" y="438" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">Ambient humidity + dwell time = moisture pickup risk</text>
+
+  <rect x="1088" y="242" width="404" height="206" rx="22" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="1118" y="286" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.8">STEP 3</text>
+  <text x="1118" y="324" fill="#31281c" font-family="Georgia, 'Times New Roman', serif" font-size="28">Sealed Pouch</text>
+  <path d="M1178 358h222l22 30v140l-22 30h-222l-22-30v-140z" fill="#f2c76f" stroke="#9a7d38" stroke-width="3"/>
+  <path d="M1204 390h170" stroke="#9a7d38" stroke-width="3" stroke-linecap="round"/>
+  <path d="M1230 428h120" stroke="#9a7d38" stroke-width="3" stroke-linecap="round"/>
+  <text x="1120" y="438" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">Barrier film protects what was actually sealed inside</text>
+
+  <path d="M512 344h62" fill="none" stroke="#8b7654" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1002 344h62" fill="none" stroke="#8b7654" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="566,344 548,334 548,354" fill="#8b7654"/>
+  <polygon points="1056,344 1038,334 1038,354" fill="#8b7654"/>
+
+  <rect x="108" y="532" width="1384" height="234" rx="24" fill="#f8efe0" stroke="#ccb88f"/>
+  <text x="138" y="580" fill="#31281c" font-family="Georgia, 'Times New Roman', serif" font-size="28">Control Points</text>
+
+  <rect x="140" y="612" width="286" height="112" rx="18" fill="#fffaf0" stroke="#d5c5a4"/>
+  <text x="166" y="650" fill="#3f3526" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Room Conditions</text>
+  <text x="166" y="684" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">Dehumidified air, no condensate,</text>
+  <text x="166" y="708" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">stable handling environment</text>
+
+  <rect x="454" y="612" width="286" height="112" rx="18" fill="#fffaf0" stroke="#d5c5a4"/>
+  <text x="480" y="650" fill="#3f3526" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Exposure Window</text>
+  <text x="480" y="684" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">Short open-product dwell time</text>
+  <text x="480" y="708" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">between dryer, filler, and seal</text>
+
+  <rect x="768" y="612" width="286" height="112" rx="18" fill="#fffaf0" stroke="#d5c5a4"/>
+  <text x="794" y="650" fill="#3f3526" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Line Discipline</text>
+  <text x="794" y="684" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">Covered bins, pause rules,</text>
+  <text x="794" y="708" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">fast sealing after fill</text>
+
+  <rect x="1082" y="612" width="378" height="112" rx="18" fill="#fffaf0" stroke="#d5c5a4"/>
+  <text x="1108" y="650" fill="#3f3526" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Verification</text>
+  <text x="1108" y="684" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">Moisture or aw rechecks when needed,</text>
+  <text x="1108" y="708" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">plus finished-pack texture review</text>
+</svg>

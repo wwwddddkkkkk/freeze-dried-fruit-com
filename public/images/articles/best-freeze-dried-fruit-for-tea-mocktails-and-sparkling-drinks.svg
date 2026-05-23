@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Freeze-dried fruit drink applications chart</title>
+  <desc id="desc">A drink-use chart comparing citrus slices, berry crumble, and fruit powder for tea, mocktails, and sparkling drinks.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf2" stroke="#ccbda1" stroke-width="2"/>
+  <text x="110" y="136" fill="#3d3326" font-family="Georgia, 'Times New Roman', serif" font-size="34">Drink-Friendly Formats</text>
+  <text x="110" y="176" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Choosing freeze-dried fruit for tea, mocktails, and sparkling drinks</text>
+
+  <rect x="120" y="236" width="432" height="470" rx="28" fill="#fcf6ea" stroke="#d3c4a6"/>
+  <text x="160" y="290" fill="#3d3326" font-family="Georgia, 'Times New Roman', serif" font-size="28">Citrus Slices</text>
+  <circle cx="216" cy="392" r="70" fill="#f3bf5b" stroke="#c88c2d" stroke-width="4"/>
+  <circle cx="216" cy="392" r="48" fill="#fff2c8"/>
+  <path d="M216 322v140M146 392h140M170 346l92 92M170 438l92-92" stroke="#c88c2d" stroke-width="4"/>
+  <text x="160" y="520" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Best for visible garnish, aroma,</text>
+  <text x="160" y="548" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">and quick acid lift in tea or soda.</text>
+  <rect x="160" y="596" width="190" height="42" rx="12" fill="#efe3ca"/>
+  <text x="182" y="623" fill="#3d3326" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Tea: strong</text>
+  <rect x="160" y="648" width="190" height="42" rx="12" fill="#efe3ca"/>
+  <text x="182" y="675" fill="#3d3326" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Sparkling: strong</text>
+
+  <rect x="584" y="236" width="432" height="470" rx="28" fill="#fcf6ea" stroke="#d3c4a6"/>
+  <text x="624" y="290" fill="#3d3326" font-family="Georgia, 'Times New Roman', serif" font-size="28">Berry Crumble</text>
+  <circle cx="692" cy="388" r="16" fill="#cb5d58"/>
+  <circle cx="732" cy="366" r="18" fill="#cb5d58"/>
+  <circle cx="774" cy="392" r="17" fill="#cb5d58"/>
+  <circle cx="810" cy="372" r="16" fill="#cb5d58"/>
+  <circle cx="850" cy="398" r="18" fill="#cb5d58"/>
+  <circle cx="718" cy="416" r="12" fill="#cb5d58"/>
+  <circle cx="756" cy="436" r="13" fill="#cb5d58"/>
+  <circle cx="800" cy="428" r="11" fill="#cb5d58"/>
+  <text x="624" y="520" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Best for color release and light berry</text>
+  <text x="624" y="548" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">flavor without oversized floating pieces.</text>
+  <rect x="624" y="596" width="190" height="42" rx="12" fill="#efe3ca"/>
+  <text x="646" y="623" fill="#3d3326" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Tea: strong</text>
+  <rect x="624" y="648" width="190" height="42" rx="12" fill="#efe3ca"/>
+  <text x="646" y="675" fill="#3d3326" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Mocktails: strong</text>
+
+  <rect x="1048" y="236" width="432" height="470" rx="28" fill="#fcf6ea" stroke="#d3c4a6"/>
+  <text x="1088" y="290" fill="#3d3326" font-family="Georgia, 'Times New Roman', serif" font-size="28">Fruit Powder</text>
+  <path d="M1138 430c40-62 86-92 140-92 56 0 104 30 146 92" fill="#e07a6a" opacity="0.28"/>
+  <path d="M1162 430c34-42 72-62 116-62 44 0 82 20 124 62" fill="#e07a6a" opacity="0.46"/>
+  <path d="M1188 430c28-24 58-36 90-36 34 0 64 12 92 36" fill="#e07a6a" opacity="0.72"/>
+  <text x="1088" y="520" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Best for even color, fruit rims, and</text>
+  <text x="1088" y="548" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">fast flavor in mocktails or soda.</text>
+  <rect x="1088" y="596" width="190" height="42" rx="12" fill="#efe3ca"/>
+  <text x="1110" y="623" fill="#3d3326" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Mocktails: strong</text>
+  <rect x="1088" y="648" width="190" height="42" rx="12" fill="#efe3ca"/>
+  <text x="1110" y="675" fill="#3d3326" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Sparkling: strong</text>
+
+  <rect x="120" y="744" width="1360" height="70" rx="18" fill="#efe4d0" stroke="#d3c4a6"/>
+  <text x="158" y="788" fill="#3d3326" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Choose by job: garnish, aroma, acid lift, or color. The prettiest dry piece is not always the best drink format.</text>
+</svg>

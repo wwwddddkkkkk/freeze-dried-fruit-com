@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What ascorbic acid means on a freeze-dried fruit label</title>
+  <desc id="desc">An annotated label diagram showing ascorbic acid on a freeze-dried fruit ingredient line with callouts for antioxidant and nutrient roles.</desc>
+  <rect width="1600" height="900" fill="#f4f1e8"/>
+  <rect x="72" y="72" width="1456" height="756" rx="28" fill="#fffaf1" stroke="#cabda2" stroke-width="2"/>
+  <text x="116" y="138" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="34">Reading "Ascorbic Acid"</text>
+  <text x="116" y="176" fill="#7b6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">A label clue about antioxidant support, anti-browning intent, or nutrient positioning</text>
+
+  <rect x="132" y="246" width="560" height="472" rx="30" fill="#de5471" stroke="#8d3144" stroke-width="3"/>
+  <rect x="178" y="286" width="468" height="88" rx="18" fill="#fff7df"/>
+  <text x="204" y="340" fill="#8d3144" font-family="'Helvetica Neue', Arial, sans-serif" font-size="36" font-weight="700">Freeze-Dried Strawberry Slices</text>
+  <rect x="178" y="406" width="468" height="232" rx="18" fill="#fffaf0" stroke="#dbc9a3"/>
+  <text x="206" y="454" fill="#5c4c3a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24">Ingredients:</text>
+  <text x="206" y="504" fill="#2f261b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="30">Strawberry, Ascorbic Acid</text>
+  <text x="206" y="560" fill="#7b6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Simple front panel, but not a pure</text>
+  <text x="206" y="594" fill="#7b6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">fruit-only ingredient line anymore.</text>
+
+  <circle cx="598" cy="504" r="18" fill="#d66f49"/>
+  <path d="M616 504h168" stroke="#d66f49" stroke-width="4" stroke-linecap="round"/>
+  <path d="M784 504l26 -20v40z" fill="#d66f49"/>
+
+  <rect x="826" y="262" width="570" height="146" rx="22" fill="#fcf6ea" stroke="#d5c7a8"/>
+  <text x="860" y="316" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="28">What It Often Signals</text>
+  <text x="860" y="358" fill="#7b6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="21">Antioxidant role, browning support, or added vitamin C intent</text>
+
+  <rect x="826" y="446" width="254" height="234" rx="22" fill="#fffaf0" stroke="#d5c7a8"/>
+  <text x="856" y="496" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="26">Read It As</text>
+  <text x="856" y="540" fill="#7b6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Added ingredient</text>
+  <text x="856" y="574" fill="#7b6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Declared by common name</text>
+  <text x="856" y="608" fill="#7b6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Not a sweetener</text>
+  <text x="856" y="642" fill="#7b6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Not automatically negative</text>
+
+  <rect x="1110" y="446" width="286" height="234" rx="22" fill="#edf4ef" stroke="#c6d8ce"/>
+  <text x="1140" y="496" fill="#23433a" font-family="Georgia, 'Times New Roman', serif" font-size="26">Ask Next</text>
+  <text x="1140" y="540" fill="#4e665c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Why was it added?</text>
+  <text x="1140" y="574" fill="#4e665c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Color support or vitamin story?</text>
+  <text x="1140" y="608" fill="#4e665c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Does the bag still claim</text>
+  <text x="1140" y="642" fill="#4e665c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">plain fruit simplicity?</text>
+
+  <rect x="826" y="716" width="570" height="78" rx="18" fill="#efe5d2" stroke="#d5c7a8"/>
+  <text x="858" y="764" fill="#3f3526" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Ascorbic acid usually means a deliberate formulation choice, not background noise.</text>
+</svg>

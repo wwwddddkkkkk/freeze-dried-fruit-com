@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Why freeze-dried fruit turns sticky before it looks wet</title>
+  <desc id="desc">A restrained technical diagram mapping freeze-dried fruit from crisp glassy texture to sticky rubbery texture as moisture and temperature rise.</desc>
+  <rect width="1600" height="900" fill="#f3efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf2" stroke="#cabda3" stroke-width="2"/>
+  <text x="112" y="136" fill="#3d3327" font-family="Georgia, 'Times New Roman', serif" font-size="34">Texture Fails Before Moisture Looks Obvious</text>
+  <text x="112" y="176" fill="#7a6b58" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">A simple state map for sticky failure in freeze-dried fruit</text>
+
+  <rect x="118" y="230" width="920" height="520" rx="24" fill="#fcf6ea" stroke="#d2c3a6"/>
+  <path d="M210 678H948" stroke="#c6b79a" stroke-width="2"/>
+  <path d="M210 678V286" stroke="#c6b79a" stroke-width="2"/>
+  <text x="494" y="728" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Moisture pickup / water activity</text>
+  <g transform="translate(126 500) rotate(-90)">
+    <text x="0" y="0" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Temperature / handling stress</text>
+  </g>
+
+  <path d="M230 620C360 560 470 520 590 468C700 420 804 364 930 302" fill="none" stroke="#d06d56" stroke-width="5" stroke-dasharray="14 10"/>
+  <path d="M210 678L930 302L948 302V678Z" fill="#f3d2c6" opacity="0.75"/>
+  <path d="M210 678L210 286L930 302Z" fill="#dce8df" opacity="0.82"/>
+
+  <text x="286" y="386" fill="#24443a" font-family="Georgia, 'Times New Roman', serif" font-size="30">Crisp / glassy zone</text>
+  <text x="286" y="422" fill="#4f665d" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Snap, low tack, open porous bite</text>
+
+  <text x="624" y="566" fill="#7b3e31" font-family="Georgia, 'Times New Roman', serif" font-size="30">Sticky / rubbery zone</text>
+  <text x="624" y="602" fill="#8e5c50" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Bend, tack, clump, flatten</text>
+
+  <circle cx="430" cy="450" r="20" fill="#24443a"/>
+  <text x="460" y="458" fill="#4f665d" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Freshly packed premium texture</text>
+
+  <circle cx="760" cy="520" r="20" fill="#d06d56"/>
+  <text x="790" y="528" fill="#8e5c50" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Early sticky complaint range</text>
+
+  <circle cx="860" cy="372" r="18" fill="#d9a04a"/>
+  <text x="892" y="380" fill="#8a6a30" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Humidity spike during packing</text>
+
+  <rect x="1080" y="232" width="342" height="230" rx="24" fill="#edf4ef" stroke="#c9d8ce"/>
+  <text x="1116" y="286" fill="#24443a" font-family="Georgia, 'Times New Roman', serif" font-size="28">Why it happens early</text>
+  <text x="1116" y="332" fill="#4f665d" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Small moisture gains can soften</text>
+  <text x="1116" y="360" fill="#4f665d" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">sugar-rich dry solids before</text>
+  <text x="1116" y="388" fill="#4f665d" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">surface wetness becomes visible.</text>
+
+  <rect x="1080" y="494" width="342" height="256" rx="24" fill="#fffaf1" stroke="#d2c3a6"/>
+  <text x="1116" y="548" fill="#3d3327" font-family="Georgia, 'Times New Roman', serif" font-size="28">Controls that matter</text>
+  <text x="1116" y="594" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Validated endpoint</text>
+  <text x="1116" y="624" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Equilibration check</text>
+  <text x="1116" y="654" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Packing-room humidity control</text>
+  <text x="1116" y="684" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Barrier film + seal discipline</text>
+  <text x="1116" y="714" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Open-pack handling</text>
+  <rect x="118" y="776" width="1304" height="38" rx="19" fill="#1f332d"/>
+  <text x="146" y="801" fill="#fffdf8" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700">Freeze-dried fruit usually loses premium texture before it shows obvious dampness to the eye.</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Freeze-dried fruit for cheesecake and no-bake desserts</title>
+  <desc id="desc">A chilled-dessert application chart comparing berry powder, crumble, and garnish pieces for cheesecake, pudding, and no-bake desserts.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf2" stroke="#ccbda1" stroke-width="2"/>
+  <text x="110" y="136" fill="#3d3326" font-family="Georgia, 'Times New Roman', serif" font-size="34">Best Formats for Chilled Desserts</text>
+  <text x="110" y="176" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Choosing freeze-dried fruit for cheesecake, pudding, and no-bake builds</text>
+
+  <rect x="120" y="236" width="432" height="470" rx="28" fill="#fcf6ea" stroke="#d3c4a6"/>
+  <text x="160" y="290" fill="#3d3326" font-family="Georgia, 'Times New Roman', serif" font-size="28">Berry Powder</text>
+  <path d="M178 430c42-72 92-106 156-106 64 0 118 34 168 106" fill="#c75168" opacity="0.28"/>
+  <path d="M202 430c36-46 78-70 132-70 54 0 98 24 144 70" fill="#c75168" opacity="0.5"/>
+  <path d="M228 430c28-24 60-36 102-36 40 0 72 12 108 36" fill="#c75168" opacity="0.76"/>
+  <text x="160" y="520" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Best for coloring fillings, pudding,</text>
+  <text x="160" y="548" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">mousse, whipped topping, and crusts.</text>
+  <rect x="160" y="596" width="210" height="42" rx="12" fill="#efe3ca"/>
+  <text x="184" y="623" fill="#3d3326" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Pudding: strongest</text>
+  <rect x="160" y="648" width="210" height="42" rx="12" fill="#efe3ca"/>
+  <text x="184" y="675" fill="#3d3326" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Cheesecake swirl: strong</text>
+
+  <rect x="584" y="236" width="432" height="470" rx="28" fill="#fcf6ea" stroke="#d3c4a6"/>
+  <text x="624" y="290" fill="#3d3326" font-family="Georgia, 'Times New Roman', serif" font-size="28">Berry Crumble</text>
+  <circle cx="692" cy="388" r="16" fill="#cb5d58"/>
+  <circle cx="732" cy="366" r="18" fill="#cb5d58"/>
+  <circle cx="774" cy="392" r="17" fill="#cb5d58"/>
+  <circle cx="810" cy="372" r="16" fill="#cb5d58"/>
+  <circle cx="850" cy="398" r="18" fill="#cb5d58"/>
+  <circle cx="718" cy="416" r="12" fill="#cb5d58"/>
+  <circle cx="756" cy="436" r="13" fill="#cb5d58"/>
+  <circle cx="800" cy="428" r="11" fill="#cb5d58"/>
+  <text x="624" y="520" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Best for crunchy finishing layers,</text>
+  <text x="624" y="548" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">dessert jars, and spoon-friendly topping.</text>
+  <rect x="624" y="596" width="210" height="42" rx="12" fill="#efe3ca"/>
+  <text x="648" y="623" fill="#3d3326" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Cheesecake top: strongest</text>
+  <rect x="624" y="648" width="210" height="42" rx="12" fill="#efe3ca"/>
+  <text x="648" y="675" fill="#3d3326" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Jar desserts: strong</text>
+
+  <rect x="1048" y="236" width="432" height="470" rx="28" fill="#fcf6ea" stroke="#d3c4a6"/>
+  <text x="1088" y="290" fill="#3d3326" font-family="Georgia, 'Times New Roman', serif" font-size="28">Visible Accents</text>
+  <circle cx="1180" cy="390" r="56" fill="#fff0c4" stroke="#cf9340" stroke-width="4"/>
+  <path d="M1180 334v112M1124 390h112M1140 350l80 80M1140 430l80-80" stroke="#cf9340" stroke-width="4"/>
+  <circle cx="1298" cy="392" r="20" fill="#c75168"/>
+  <circle cx="1334" cy="370" r="18" fill="#c75168"/>
+  <circle cx="1368" cy="402" r="16" fill="#c75168"/>
+  <text x="1088" y="520" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Best for garnish identity, tart lift,</text>
+  <text x="1088" y="548" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">and last-minute visual contrast.</text>
+  <rect x="1088" y="596" width="210" height="42" rx="12" fill="#efe3ca"/>
+  <text x="1112" y="623" fill="#3d3326" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Final garnish: strongest</text>
+  <rect x="1088" y="648" width="210" height="42" rx="12" fill="#efe3ca"/>
+  <text x="1112" y="675" fill="#3d3326" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Mix-in use: limited</text>
+
+  <rect x="120" y="744" width="1360" height="70" rx="18" fill="#efe4d0" stroke="#d3c4a6"/>
+  <text x="158" y="788" fill="#3d3326" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Cold desserts work best when freeze-dried fruit either blends in fully or stands clearly on top. The awkward middle usually disappoints.</text>
+</svg>

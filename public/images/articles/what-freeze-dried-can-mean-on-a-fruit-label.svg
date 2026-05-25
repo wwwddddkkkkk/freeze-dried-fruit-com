@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What freeze-dried can mean on a fruit label</title>
+  <desc id="desc">Annotated freeze-dried fruit pouch diagram showing statement of identity, processing descriptor, and ingredient-list checks.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf2" stroke="#ccbda1" stroke-width="2"/>
+  <text x="112" y="136" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="34">Read "Freeze-Dried" as Part of the Identity</text>
+  <text x="112" y="176" fill="#786956" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Useful process descriptor, but not the whole product story</text>
+
+  <g transform="translate(138 236)">
+    <rect width="488" height="462" rx="28" fill="#fcf6ea" stroke="#d3c4a6"/>
+    <rect x="52" y="58" width="384" height="300" rx="24" fill="#fffaf2" stroke="#d3c4a6"/>
+    <text x="82" y="114" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="30">Freeze-Dried Strawberry Slices</text>
+    <text x="82" y="164" fill="#7a3c31" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700">Statement of identity</text>
+    <text x="82" y="214" fill="#3c3226" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Ingredients: strawberries</text>
+    <text x="82" y="256" fill="#7a3c31" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="700">Ingredient line check</text>
+    <text x="82" y="304" fill="#3c3226" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Short line, fruit first</text>
+
+    <path d="M392 122h128" stroke="#b55449" stroke-width="4" stroke-linecap="round"/>
+    <path d="M392 216h128" stroke="#1f6b57" stroke-width="4" stroke-linecap="round"/>
+    <path d="M392 306h128" stroke="#c88430" stroke-width="4" stroke-linecap="round"/>
+
+    <rect x="52" y="388" width="384" height="44" rx="14" fill="#efe4d0"/>
+    <text x="76" y="416" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">The phrase identifies the drying method, not every formulation detail.</text>
+  </g>
+
+  <g transform="translate(706 236)">
+    <rect width="754" height="462" rx="28" fill="#f8efe0" stroke="#d3c4a6"/>
+    <text x="34" y="58" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="30">Three useful reads</text>
+
+    <rect x="34" y="94" width="686" height="90" rx="20" fill="#fffaf2" stroke="#d9c4a0"/>
+    <text x="60" y="132" fill="#7a3c31" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700">1. Process read</text>
+    <text x="60" y="164" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">"Freeze-dried" tells you how the product was preserved and helps distinguish it from chewy conventional dried fruit.</text>
+
+    <rect x="34" y="204" width="686" height="90" rx="20" fill="#fffaf2" stroke="#d9c4a0"/>
+    <text x="60" y="242" fill="#7a3c31" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700">2. Identity read</text>
+    <text x="60" y="274" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Read the whole name of the food. "Freeze-dried fruit" and "freeze-dried fruit snack" may not be the same commercial product.</text>
+
+    <rect x="34" y="314" width="686" height="108" rx="20" fill="#fffaf2" stroke="#d9c4a0"/>
+    <text x="60" y="352" fill="#7a3c31" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700">3. Ingredient read</text>
+    <text x="60" y="384" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">The ingredient line decides whether the pouch is plain fruit or a more formulated product with sugars, acids, flavors, or other additions.</text>
+
+    <rect x="34" y="438" width="686" height="24" rx="12" fill="#1f332d"/>
+    <text x="54" y="455" fill="#fffdf8" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="700">"Freeze-dried" is a helpful process descriptor. It is not a shortcut for 100% fruit.</text>
+  </g>
+</svg>

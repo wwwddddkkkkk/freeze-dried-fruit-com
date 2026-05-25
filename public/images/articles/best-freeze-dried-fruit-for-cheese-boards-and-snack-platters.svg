@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Freeze-dried fruit for cheese boards and snack platters</title>
+  <desc id="desc">A board-planning matrix comparing freeze-dried berries, figs, apples, and citrus accents by pairing role and board style.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf2" stroke="#ccbda1" stroke-width="2"/>
+  <text x="112" y="136" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="34">Best Board Roles for Freeze-Dried Fruit</text>
+  <text x="112" y="176" fill="#786956" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Choose fruit by contrast job: tart lift, mellow sweetness, or bright finishing accent</text>
+
+  <rect x="112" y="236" width="948" height="488" rx="26" fill="#fcf6ea" stroke="#d3c4a6"/>
+
+  <text x="184" y="296" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.6">FRUIT</text>
+  <text x="468" y="296" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.6">BEST ROLE</text>
+  <text x="760" y="296" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.6">BOARD FIT</text>
+
+  <line x1="170" y1="322" x2="1008" y2="322" stroke="#ccbda1" stroke-width="2"/>
+  <line x1="420" y1="274" x2="420" y2="676" stroke="#e0d3bb" stroke-width="2"/>
+  <line x1="708" y1="274" x2="708" y2="676" stroke="#e0d3bb" stroke-width="2"/>
+
+  <circle cx="210" cy="390" r="26" fill="#c75168"/>
+  <circle cx="256" cy="374" r="22" fill="#c75168"/>
+  <circle cx="290" cy="404" r="18" fill="#c75168"/>
+  <text x="336" y="396" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="28">Berries</text>
+  <text x="456" y="382" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Tart lift, color, crisp accent</text>
+  <text x="456" y="410" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">best near creamy cheeses</text>
+  <text x="748" y="396" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Brie, fresh goat cheese, soft spreads</text>
+
+  <circle cx="224" cy="504" r="44" fill="#d0b07b" stroke="#8f6d3e" stroke-width="4"/>
+  <circle cx="224" cy="504" r="16" fill="#fffaf2"/>
+  <text x="336" y="510" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="28">Fig</text>
+  <text x="456" y="496" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Mellow sweetness, savory bridge</text>
+  <text x="456" y="524" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">best near aged cheese and nuts</text>
+  <text x="748" y="510" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Cheddar-style, manchego-style, nut-heavy boards</text>
+
+  <circle cx="224" cy="618" r="40" fill="#f0d7a2" stroke="#c89b45" stroke-width="4"/>
+  <path d="M224 578v80M184 618h80" stroke="#c89b45" stroke-width="3"/>
+  <text x="336" y="624" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="28">Apple + Citrus</text>
+  <text x="456" y="610" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Orchard sweetness or bright finish</text>
+  <text x="456" y="638" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">use citrus sparingly</text>
+  <text x="748" y="624" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Autumn boards, chocolate accents, lighter platters</text>
+
+  <rect x="1098" y="236" width="392" height="488" rx="26" fill="#f8efe0" stroke="#d3c4a6"/>
+  <text x="1132" y="290" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="30">Placement Rule</text>
+
+  <rect x="1132" y="334" width="324" height="104" rx="20" fill="#fffaf2" stroke="#d9c4a0"/>
+  <text x="1158" y="372" fill="#7a3c31" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700">Keep fruit in zones</text>
+  <text x="1158" y="404" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">One berry lane, one fig zone, one</text>
+  <text x="1158" y="428" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">small citrus accent reads cleaner.</text>
+
+  <rect x="1132" y="458" width="324" height="104" rx="20" fill="#fffaf2" stroke="#d9c4a0"/>
+  <text x="1158" y="496" fill="#7a3c31" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700">Add late for crunch</text>
+  <text x="1158" y="528" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">Humidity and wet accompaniments</text>
+  <text x="1158" y="552" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">soften the fruit over time.</text>
+
+  <rect x="1132" y="582" width="324" height="104" rx="20" fill="#fffaf2" stroke="#d9c4a0"/>
+  <text x="1158" y="620" fill="#7a3c31" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700">Avoid mixed-fruit clutter</text>
+  <text x="1158" y="652" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">Boards improve when each fruit has</text>
+  <text x="1158" y="676" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">one clear job.</text>
+
+  <rect x="112" y="752" width="1378" height="60" rx="18" fill="#1f332d"/>
+  <text x="150" y="790" fill="#fffdf8" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700">The board usually looks best when freeze-dried fruit supports the cheese rather than competing with it.</text>
+</svg>

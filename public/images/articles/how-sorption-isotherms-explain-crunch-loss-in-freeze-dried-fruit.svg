@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Sorption isotherm and crunch loss in freeze-dried fruit</title>
+  <desc id="desc">Technical chart showing how freeze-dried fruit moisture pickup changes across humidity zones, with crisp zone, transition zone, and packaging control callouts.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf2" stroke="#ccbda1" stroke-width="2"/>
+  <text x="112" y="136" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="34">Sorption Isotherm: Where Crunch Starts to Slip</text>
+  <text x="112" y="176" fill="#786956" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">How surrounding humidity pushes freeze-dried fruit from crisp reserve into fast moisture pickup</text>
+
+  <rect x="110" y="236" width="932" height="488" rx="26" fill="#fcf6ea" stroke="#d3c4a6"/>
+  <line x1="184" y1="666" x2="960" y2="666" stroke="#8b7654" stroke-width="4" stroke-linecap="round"/>
+  <line x1="184" y1="666" x2="184" y2="296" stroke="#8b7654" stroke-width="4" stroke-linecap="round"/>
+  <text x="488" y="712" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Surrounding relative humidity</text>
+  <text x="116" y="506" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" transform="rotate(-90 116 506)">Equilibrium moisture in product</text>
+
+  <rect x="214" y="316" width="214" height="320" rx="18" fill="#edf4ef"/>
+  <rect x="428" y="316" width="248" height="320" rx="18" fill="#f7ead8"/>
+  <rect x="676" y="316" width="248" height="320" rx="18" fill="#f6d9cf"/>
+  <text x="242" y="352" fill="#23433a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.6">LOW RH</text>
+  <text x="456" y="352" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.6">TRANSITION</text>
+  <text x="710" y="352" fill="#8b564b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.6">HIGH RH</text>
+
+  <path d="M218 608
+           C 292 600, 356 584, 420 560
+           S 566 492, 640 454
+           S 786 390, 904 332"
+        fill="none" stroke="#b55449" stroke-width="8" stroke-linecap="round"/>
+
+  <circle cx="330" cy="586" r="12" fill="#1f6b57"/>
+  <circle cx="560" cy="506" r="12" fill="#c88430"/>
+  <circle cx="822" cy="386" r="12" fill="#b55449"/>
+
+  <rect x="246" y="388" width="134" height="92" rx="16" fill="#fffaf2" stroke="#c6d8ce"/>
+  <text x="268" y="422" fill="#23433a" font-family="Georgia, 'Times New Roman', serif" font-size="24">Crisp zone</text>
+  <text x="268" y="450" fill="#4e665c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Wide texture margin</text>
+  <text x="268" y="472" fill="#4e665c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">if pack stays sealed</text>
+
+  <rect x="500" y="402" width="164" height="114" rx="16" fill="#fffaf2" stroke="#d9c4a0"/>
+  <text x="524" y="436" fill="#7a5d31" font-family="Georgia, 'Times New Roman', serif" font-size="24">Texture drift</text>
+  <text x="524" y="464" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Small humidity gains</text>
+  <text x="524" y="486" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">start flattening the bite</text>
+
+  <rect x="736" y="436" width="158" height="112" rx="16" fill="#fff7f4" stroke="#d7a89c"/>
+  <text x="760" y="470" fill="#8b3f35" font-family="Georgia, 'Times New Roman', serif" font-size="24">Pickup zone</text>
+  <text x="760" y="498" fill="#8d5a50" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Open air or weak barrier</text>
+  <text x="760" y="520" fill="#8d5a50" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">moves fruit fast</text>
+
+  <line x1="330" y1="586" x2="330" y2="666" stroke="#1f6b57" stroke-width="3" stroke-dasharray="8 8"/>
+  <line x1="560" y1="506" x2="560" y2="666" stroke="#c88430" stroke-width="3" stroke-dasharray="8 8"/>
+  <line x1="822" y1="386" x2="822" y2="666" stroke="#b55449" stroke-width="3" stroke-dasharray="8 8"/>
+
+  <text x="238" y="690" fill="#4e665c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">sealed pouch</text>
+  <text x="520" y="690" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">repeat opening</text>
+  <text x="782" y="690" fill="#8d5a50" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">humid exposure</text>
+
+  <rect x="1082" y="236" width="408" height="488" rx="26" fill="#f8efe0" stroke="#d3c4a6"/>
+  <text x="1118" y="288" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="30">What the curve helps you decide</text>
+
+  <rect x="1118" y="332" width="336" height="88" rx="18" fill="#fffaf2" stroke="#d9c4a0"/>
+  <text x="1144" y="366" fill="#3c3226" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Packaging barrier</text>
+  <text x="1144" y="394" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">How hard the pouch must work to keep</text>
+  <text x="1144" y="418" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">the product inside the crisp zone</text>
+
+  <rect x="1118" y="440" width="336" height="88" rx="18" fill="#fffaf2" stroke="#d9c4a0"/>
+  <text x="1144" y="474" fill="#3c3226" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Line exposure limits</text>
+  <text x="1144" y="502" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">How long open product can wait before</text>
+  <text x="1144" y="526" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">sealing without losing texture margin</text>
+
+  <rect x="1118" y="548" width="336" height="112" rx="18" fill="#fffaf2" stroke="#d9c4a0"/>
+  <text x="1144" y="582" fill="#3c3226" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Channel fit</text>
+  <text x="1144" y="610" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">Whether the SKU belongs in humid retail,</text>
+  <text x="1144" y="634" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">ingredient bulk, or a stricter resealable pack</text>
+
+  <rect x="110" y="752" width="1380" height="60" rx="18" fill="#1f332d"/>
+  <text x="146" y="790" fill="#fffdf8" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="700">The important threshold is often texture disappointment before safety failure. Sorption curves make that threshold easier to plan around.</text>
+</svg>

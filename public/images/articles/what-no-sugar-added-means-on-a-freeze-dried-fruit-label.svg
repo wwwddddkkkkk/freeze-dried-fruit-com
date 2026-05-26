@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What No Sugar Added Means on a Freeze-Dried Fruit Label</title>
+  <desc id="desc">An annotated freeze-dried fruit package label with callouts for the no sugar added claim, ingredient line, total sugars, and added sugars.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f1e6"/>
+      <stop offset="100%" stop-color="#ece4d5"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#60747c}
+      .title{font:700 54px 'Source Serif 4',Georgia,serif}
+      .label{font:600 28px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .body{font:500 26px 'Source Sans 3',Arial,sans-serif}
+      .small{font:500 22px 'Source Sans 3',Arial,sans-serif}
+      .mono{font:600 22px 'JetBrains Mono',monospace}
+      .line{fill:none;stroke:#17313b;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="118" class="label ink">Labels &amp; Quality</text>
+  <text x="96" y="188" class="title ink">A narrow claim, not a full nutrition verdict</text>
+  <text x="96" y="230" class="small muted">Read the front panel, but confirm it with the ingredient line and Nutrition Facts.</text>
+
+  <rect x="130" y="286" width="570" height="472" rx="26" class="panel"/>
+  <rect x="812" y="286" width="662" height="472" rx="26" class="panel"/>
+
+  <text x="170" y="344" class="label ink">Front Of Pack</text>
+  <rect x="176" y="382" width="478" height="140" rx="22" fill="#f1e0bf" stroke="#17313b" stroke-width="2.5"/>
+  <text x="214" y="434" class="label ink">No Sugar Added</text>
+  <text x="214" y="474" class="body ink">Freeze-dried strawberries</text>
+
+  <rect x="176" y="564" width="478" height="148" rx="22" fill="#fff" stroke="#17313b" stroke-width="2.5"/>
+  <text x="206" y="608" class="small ink">Ingredient line</text>
+  <text x="206" y="646" class="body ink">Strawberries.</text>
+  <text x="206" y="688" class="small muted">If sweeteners appear here, the claim deserves scrutiny.</text>
+
+  <path d="M698 420h112" class="line"/>
+  <path d="M786 394l30 26-30 26" class="line"/>
+  <text x="720" y="382" class="small muted">Defined claim</text>
+
+  <path d="M700 640h110" class="line"/>
+  <path d="M786 614l30 26-30 26" class="line"/>
+  <text x="720" y="602" class="small muted">Back-panel check</text>
+
+  <text x="852" y="344" class="label ink">Nutrition Facts Read</text>
+  <rect x="852" y="378" width="252" height="314" rx="18" fill="#fff" stroke="#17313b" stroke-width="2.5"/>
+  <text x="880" y="422" class="label ink">Nutrition Facts</text>
+  <line x1="880" y1="440" x2="1076" y2="440" class="line"/>
+  <text x="880" y="486" class="body ink">Total Sugars</text>
+  <text x="1028" y="486" class="body ink">17g</text>
+  <line x1="880" y1="504" x2="1076" y2="504" class="line"/>
+  <text x="880" y="548" class="body ink">Incl. Added Sugars</text>
+  <text x="1028" y="548" class="body ink">0g</text>
+  <line x1="880" y1="566" x2="1076" y2="566" class="line"/>
+  <text x="880" y="612" class="small muted">Natural fruit sugars can still</text>
+  <text x="880" y="642" class="small muted">be high after water is removed.</text>
+
+  <text x="1142" y="418" class="body ink">What it means:</text>
+  <text x="1142" y="456" class="small ink">No sugars added in a way that</text>
+  <text x="1142" y="486" class="small ink">breaks FDA's claim conditions.</text>
+
+  <text x="1142" y="552" class="body ink">What it does not mean:</text>
+  <text x="1142" y="590" class="small ink">Not sugar-free.</text>
+  <text x="1142" y="620" class="small ink">Not automatically low-calorie.</text>
+  <text x="1142" y="650" class="small ink">Not a stand-in for full label review.</text>
+
+  <text x="1142" y="714" class="mono muted">front claim + ingredient line + Added Sugars</text>
+</svg>

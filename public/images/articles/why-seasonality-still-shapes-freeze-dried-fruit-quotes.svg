@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Why Seasonality Still Shapes Freeze-Dried Fruit Quotes</title>
+  <desc id="desc">A seasonal planning chart showing harvest windows, stored inventory carry, and quote pressure over the year.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6f0e3"/>
+      <stop offset="100%" stop-color="#ece4d2"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#61747c}
+      .title{font:700 54px 'Source Serif 4',Georgia,serif}
+      .label{font:600 28px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .body{font:500 25px 'Source Sans 3',Arial,sans-serif}
+      .small{font:500 22px 'Source Sans 3',Arial,sans-serif}
+      .mono{font:600 22px 'JetBrains Mono',monospace}
+      .line{fill:none;stroke:#17313b;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="118" class="label ink">Industry Insights</text>
+  <text x="96" y="188" class="title ink">The shelf is year-round. The crop is not.</text>
+  <text x="96" y="230" class="small muted">Harvest timing still reaches stored inventory, yield, and replacement cost.</text>
+
+  <rect x="96" y="278" width="928" height="500" rx="26" class="panel"/>
+  <rect x="1074" y="278" width="430" height="500" rx="26" class="panel"/>
+
+  <text x="136" y="334" class="label ink">Quote Pressure Calendar</text>
+
+  <g class="small ink">
+    <text x="152" y="724">Jan</text>
+    <text x="226" y="724">Feb</text>
+    <text x="300" y="724">Mar</text>
+    <text x="374" y="724">Apr</text>
+    <text x="448" y="724">May</text>
+    <text x="522" y="724">Jun</text>
+    <text x="596" y="724">Jul</text>
+    <text x="670" y="724">Aug</text>
+    <text x="744" y="724">Sep</text>
+    <text x="818" y="724">Oct</text>
+    <text x="892" y="724">Nov</text>
+    <text x="966" y="724">Dec</text>
+  </g>
+
+  <text x="136" y="392" class="body ink">Fresh harvest window</text>
+  <text x="136" y="506" class="body ink">Cold storage / IQF carry</text>
+  <text x="136" y="620" class="body ink">Quote pressure</text>
+
+  <rect x="390" y="360" width="214" height="42" rx="21" fill="#cf5d3d" stroke="#17313b" stroke-width="2.5"/>
+  <text x="628" y="390" class="small muted">Strawberry</text>
+  <rect x="640" y="360" width="284" height="42" rx="21" fill="#e59c4a" stroke="#17313b" stroke-width="2.5"/>
+  <text x="942" y="390" class="small muted">Apple</text>
+
+  <rect x="278" y="470" width="420" height="42" rx="21" fill="#f3c469" stroke="#17313b" stroke-width="2.5"/>
+  <rect x="720" y="470" width="246" height="42" rx="21" fill="#efd38b" stroke="#17313b" stroke-width="2.5"/>
+  <text x="988" y="500" class="small muted">Frozen or stored inventory extends supply, but adds carry cost.</text>
+
+  <polyline points="278,640 352,622 426,586 500,556 574,566 648,604 722,628 796,650 870,620 944,588"
+    fill="none" stroke="#17313b" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="278" cy="640" r="8" fill="#17313b"/>
+  <circle cx="352" cy="622" r="8" fill="#17313b"/>
+  <circle cx="426" cy="586" r="8" fill="#17313b"/>
+  <circle cx="500" cy="556" r="8" fill="#17313b"/>
+  <circle cx="574" cy="566" r="8" fill="#17313b"/>
+  <circle cx="648" cy="604" r="8" fill="#17313b"/>
+  <circle cx="722" cy="628" r="8" fill="#17313b"/>
+  <circle cx="796" cy="650" r="8" fill="#17313b"/>
+  <circle cx="870" cy="620" r="8" fill="#17313b"/>
+  <circle cx="944" cy="588" r="8" fill="#17313b"/>
+  <text x="958" y="592" class="small muted">crop change + replacement cost</text>
+
+  <text x="1114" y="334" class="label ink">Buyer Questions</text>
+  <text x="1114" y="396" class="body ink">1. Which crop or inventory</text>
+  <text x="1114" y="430" class="body ink">window backs this quote?</text>
+  <text x="1114" y="490" class="body ink">2. Is price tied to stored</text>
+  <text x="1114" y="524" class="body ink">stock or replacement fruit?</text>
+  <text x="1114" y="584" class="body ink">3. Does origin or grade mix</text>
+  <text x="1114" y="618" class="body ink">change later in the year?</text>
+  <text x="1114" y="690" class="mono muted">year-round availability != flat economics</text>
+</svg>

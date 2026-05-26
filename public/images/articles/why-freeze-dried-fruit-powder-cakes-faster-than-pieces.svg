@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Why Freeze-Dried Fruit Powder Cakes Faster Than Pieces</title>
+  <desc id="desc">A technical comparison of whole pieces and powder, showing humidity affecting powder particles and creating clumps faster.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#efe7d7"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d97a43"/>
+      <stop offset="100%" stop-color="#cf5d3d"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#58707a}
+      .small{font:500 24px 'Source Sans 3',Arial,sans-serif}
+      .label{font:600 28px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .title{font:700 54px 'Source Serif 4',Georgia,serif}
+      .body{font:500 26px 'Source Sans 3',Arial,sans-serif}
+      .mono{font:600 24px 'JetBrains Mono',monospace}
+      .line{stroke:#17313b;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .dash{stroke:#58707a;stroke-width:2.5;stroke-dasharray:8 10;fill:none}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="118" class="label ink">Technology</text>
+  <text x="96" y="188" class="title ink">Powder loses flow faster than pieces</text>
+  <text x="96" y="230" class="small muted">More exposed surface. Faster humidity pickup. Earlier clumping.</text>
+
+  <rect x="96" y="282" width="616" height="472" rx="26" class="panel"/>
+  <rect x="792" y="282" width="712" height="472" rx="26" class="panel"/>
+
+  <text x="136" y="334" class="label ink">Whole Pieces</text>
+  <text x="832" y="334" class="label ink">Powder</text>
+
+  <path d="M180 460c44-64 100-72 132-34 38 46 22 118-34 146-62 32-140 6-150-58-6-24 2-46 18-54 8-6 18-6 34 0z" fill="#ef8e54" stroke="#17313b" stroke-width="3"/>
+  <path d="M374 446c36-52 82-58 112-28 34 34 30 92-10 126-48 42-124 38-154-8-18-28-18-64 8-82 12-8 24-10 44-8z" fill="#f1ba55" stroke="#17313b" stroke-width="3"/>
+  <path d="M540 470c28-38 62-46 92-20 34 30 32 82 2 116-40 48-108 56-144 18-24-26-24-70 8-92 12-8 24-14 42-22z" fill="#db6c4b" stroke="#17313b" stroke-width="3"/>
+
+  <text x="136" y="636" class="body ink">Intact geometry slows visible failure.</text>
+  <text x="136" y="676" class="body ink">Fewer contact points for humid air.</text>
+  <text x="136" y="716" class="mono muted">texture drift = slower</text>
+
+  <circle cx="920" cy="430" r="18" fill="#ef8e54" stroke="#17313b" stroke-width="2.5"/>
+  <circle cx="970" cy="414" r="14" fill="#f1ba55" stroke="#17313b" stroke-width="2.5"/>
+  <circle cx="1016" cy="448" r="20" fill="#db6c4b" stroke="#17313b" stroke-width="2.5"/>
+  <circle cx="1062" cy="420" r="12" fill="#e39f4d" stroke="#17313b" stroke-width="2.5"/>
+  <circle cx="1112" cy="454" r="16" fill="#ef8e54" stroke="#17313b" stroke-width="2.5"/>
+  <circle cx="1152" cy="430" r="10" fill="#f1ba55" stroke="#17313b" stroke-width="2.5"/>
+  <circle cx="1200" cy="452" r="18" fill="#db6c4b" stroke="#17313b" stroke-width="2.5"/>
+  <circle cx="1246" cy="422" r="14" fill="#e39f4d" stroke="#17313b" stroke-width="2.5"/>
+  <circle cx="1298" cy="446" r="18" fill="#ef8e54" stroke="#17313b" stroke-width="2.5"/>
+
+  <path d="M940 590c44-14 120-12 170 12 46 22 104 20 150 2 18-8 36-18 58-18 44 0 72 52 50 92-18 34-56 44-96 44h-228c-58 0-116-12-154-44-40-36-30-76 12-88 12-4 24-4 38 0z" fill="url(#accent)" opacity=".92" stroke="#17313b" stroke-width="3"/>
+  <path d="M944 560c20-42 22-76 0-104" class="dash"/>
+  <path d="M1060 550c12-40 8-72-8-96" class="dash"/>
+  <path d="M1186 548c6-36-6-68-24-90" class="dash"/>
+  <path d="M1312 548c-2-34-18-62-34-84" class="dash"/>
+
+  <path d="M748 430h94" class="line"/>
+  <path d="M818 404l32 26-32 26" class="line"/>
+  <text x="738" y="392" class="small muted">humidity exposure</text>
+
+  <text x="832" y="636" class="body ink">Many small particles adsorb moisture fast.</text>
+  <text x="832" y="676" class="body ink">Flow shifts before the bag looks obviously wet.</text>
+  <text x="832" y="716" class="mono muted">caking risk = higher</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Best Freeze-Dried Fruit for Cottage Cheese Bowls and High-Protein Snacks</title>
+  <desc id="desc">An illustrated cottage cheese bowl comparing strawberry, blueberry, apple, and mango for crunch, sweetness, and color.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f1e6"/>
+      <stop offset="100%" stop-color="#ece2cf"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#61747c}
+      .title{font:700 54px 'Source Serif 4',Georgia,serif}
+      .label{font:600 28px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .body{font:500 26px 'Source Sans 3',Arial,sans-serif}
+      .small{font:500 22px 'Source Sans 3',Arial,sans-serif}
+      .mono{font:600 22px 'JetBrains Mono',monospace}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="118" class="label ink">Applications</text>
+  <text x="96" y="188" class="title ink">Fruit that works with cottage cheese, not against it</text>
+  <text x="96" y="230" class="small muted">Choose for crunch hold, spoonability, and dairy contrast.</text>
+
+  <rect x="96" y="286" width="646" height="472" rx="26" class="panel"/>
+  <rect x="790" y="286" width="714" height="472" rx="26" class="panel"/>
+
+  <text x="136" y="344" class="label ink">Best Bowl Picks</text>
+
+  <circle cx="414" cy="548" r="166" fill="#fff" stroke="#17313b" stroke-width="5"/>
+  <circle cx="414" cy="548" r="128" fill="#f1ece2"/>
+  <path d="M308 520c28-36 72-48 102-28 26 18 40 62 14 92-18 20-48 26-78 20-44-10-70-48-38-84z" fill="#db664a" stroke="#17313b" stroke-width="3"/>
+  <circle cx="466" cy="492" r="28" fill="#41578f" stroke="#17313b" stroke-width="3"/>
+  <circle cx="516" cy="534" r="24" fill="#41578f" stroke="#17313b" stroke-width="3"/>
+  <path d="M426 588l52-40 46 36-52 34z" fill="#f0c46b" stroke="#17313b" stroke-width="3"/>
+  <path d="M322 610l46-28 36 20-42 32z" fill="#efc98f" stroke="#17313b" stroke-width="3"/>
+
+  <text x="224" y="696" class="body ink">Strawberry</text>
+  <text x="394" y="696" class="body ink">Blueberry</text>
+  <text x="558" y="696" class="body ink">Apple</text>
+  <text x="136" y="736" class="mono muted">add late for crunch, smaller pieces for easier spooning</text>
+
+  <text x="830" y="344" class="label ink">Quick Ranking</text>
+  <text x="830" y="408" class="body ink">Strawberry</text>
+  <rect x="1004" y="386" width="240" height="18" rx="9" fill="#db664a"/>
+  <text x="1268" y="408" class="small muted">best all-around</text>
+
+  <text x="830" y="478" class="body ink">Blueberry</text>
+  <rect x="1004" y="456" width="204" height="18" rx="9" fill="#41578f"/>
+  <text x="1232" y="478" class="small muted">clean, easy bowl</text>
+
+  <text x="830" y="548" class="body ink">Apple</text>
+  <rect x="1004" y="526" width="220" height="18" rx="9" fill="#efc98f"/>
+  <text x="1248" y="548" class="small muted">holds crunch longest</text>
+
+  <text x="830" y="618" class="body ink">Mango</text>
+  <rect x="1004" y="596" width="188" height="18" rx="9" fill="#f0c46b"/>
+  <text x="1216" y="618" class="small muted">sweetest option</text>
+
+  <text x="830" y="694" class="body ink">Rule:</text>
+  <text x="912" y="694" class="small ink">Immediate eating = choose flavor.</text>
+  <text x="912" y="728" class="small ink">Packed snack = choose structure.</text>
+</svg>

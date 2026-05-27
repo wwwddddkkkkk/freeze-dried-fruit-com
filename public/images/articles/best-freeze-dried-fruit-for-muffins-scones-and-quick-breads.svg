@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Best freeze-dried fruit for muffins, scones, and quick breads</title>
+  <desc id="desc">Baking matrix comparing visible pieces, flavor spread, and handling fit for freeze-dried fruit in muffins, scones, and quick breads.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="72" y="72" width="1056" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="110" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">Bake for the finished crumb, not the sample cup</text>
+  <text x="110" y="164" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">The best fruit format depends on whether the bake needs visible pieces, even flavor, or a cleaner, sturdier mix.</text>
+
+  <g transform="translate(110 214)">
+    <rect width="272" height="286" rx="28" fill="#eef4fb" stroke="#c9d5e6"/>
+    <text x="24" y="40" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700">Muffins</text>
+    <text x="24" y="68" fill="#466b8f" font-family="Inter, Arial, sans-serif" font-size="14">cross-section visibility matters</text>
+    <rect x="24" y="102" width="220" height="40" rx="20" fill="#7ca1c8"/>
+    <text x="42" y="128" fill="#f8fbff" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">blueberry pieces</text>
+    <rect x="24" y="154" width="220" height="40" rx="20" fill="#9ab8d7"/>
+    <text x="42" y="180" fill="#274764" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">strawberry pieces</text>
+    <rect x="24" y="206" width="220" height="40" rx="20" fill="#dce7f3"/>
+    <text x="42" y="232" fill="#274764" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">apple for spice profiles</text>
+  </g>
+
+  <g transform="translate(462 214)">
+    <rect width="272" height="286" rx="28" fill="#edf6f1" stroke="#c6d8ce"/>
+    <text x="24" y="40" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700">Scones</text>
+    <text x="24" y="68" fill="#466056" font-family="Inter, Arial, sans-serif" font-size="14">smaller, tougher formats usually win</text>
+    <rect x="24" y="102" width="220" height="40" rx="20" fill="#87b49a"/>
+    <text x="42" y="128" fill="#f7fbf8" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">cranberry or apple</text>
+    <rect x="24" y="154" width="220" height="40" rx="20" fill="#a8c8b5"/>
+    <text x="42" y="180" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">controlled berry crumble</text>
+    <rect x="24" y="206" width="220" height="40" rx="20" fill="#cadccf"/>
+    <text x="42" y="232" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">avoid oversized showpieces</text>
+  </g>
+
+  <g transform="translate(814 214)">
+    <rect width="274" height="286" rx="28" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <text x="24" y="40" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700">Quick breads</text>
+    <text x="24" y="68" fill="#5e6259" font-family="Inter, Arial, sans-serif" font-size="14">blend visible pieces with flavor spread</text>
+    <rect x="24" y="102" width="224" height="40" rx="20" fill="#e9c27d"/>
+    <text x="42" y="128" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">small pieces on top</text>
+    <rect x="24" y="154" width="224" height="40" rx="20" fill="#ead8b7"/>
+    <text x="42" y="180" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">powder in the batter</text>
+    <rect x="24" y="206" width="224" height="40" rx="20" fill="#f1e7d0"/>
+    <text x="42" y="232" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">use both when needed</text>
+  </g>
+
+  <g transform="translate(110 536)">
+    <rect width="978" height="42" rx="21" fill="#1f332d"/>
+    <text x="28" y="27" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Practical rule: start with the smallest format that still gives the visual you need. Move up only if the baked result clearly rewards it.</text>
+  </g>
+</svg>

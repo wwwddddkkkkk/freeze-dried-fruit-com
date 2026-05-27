@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">What country of origin means on a freeze-dried fruit label</title>
+  <desc id="desc">Annotated freeze-dried fruit pouch showing product-of, packed-in, and distributed-by origin callouts.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="72" y="72" width="1056" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="110" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">One country line can answer three different questions</text>
+  <text x="110" y="164" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Origin, packing location, and distributor identity often sit on the same pouch but mean different things.</text>
+
+  <g transform="translate(116 212)">
+    <rect x="228" y="0" width="320" height="356" rx="34" fill="#f7f3ea" stroke="#d8d2c3" stroke-width="2"/>
+    <rect x="262" y="36" width="252" height="56" rx="16" fill="#1f332d"/>
+    <text x="286" y="71" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="23" font-weight="700">Freeze-Dried Fruit</text>
+    <rect x="264" y="120" width="248" height="58" rx="16" fill="#fffdf8" stroke="#d8d2c3"/>
+    <text x="284" y="145" fill="#6f5d38" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">PRODUCT OF CHILE</text>
+    <text x="284" y="168" fill="#6f5d38" font-family="Inter, Arial, sans-serif" font-size="12">origin statement</text>
+    <rect x="264" y="198" width="248" height="58" rx="16" fill="#fffdf8" stroke="#d8d2c3"/>
+    <text x="284" y="223" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">PACKED IN THE USA</text>
+    <text x="284" y="246" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="12">packing step</text>
+    <rect x="264" y="276" width="248" height="58" rx="16" fill="#fffdf8" stroke="#d8d2c3"/>
+    <text x="284" y="301" fill="#476787" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">DISTRIBUTED BY ABC FOODS</text>
+    <text x="284" y="324" fill="#476787" font-family="Inter, Arial, sans-serif" font-size="12">commercial contact line</text>
+  </g>
+
+  <g transform="translate(84 256)">
+    <path d="M196 32h112" fill="none" stroke="#c08d3d" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="196" cy="32" r="6" fill="#c08d3d"/>
+    <rect y="0" width="184" height="72" rx="22" fill="#fff4dc" stroke="#e2c990"/>
+    <text x="18" y="28" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Origin line</text>
+    <text x="18" y="49" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="13">What country is the imported article</text>
+    <text x="18" y="66" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="13">being presented as coming from?</text>
+  </g>
+
+  <g transform="translate(86 386)">
+    <path d="M190 36h118" fill="none" stroke="#6f8f81" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="190" cy="36" r="6" fill="#6f8f81"/>
+    <rect y="0" width="178" height="72" rx="22" fill="#edf6f1" stroke="#c6d8ce"/>
+    <text x="18" y="28" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Packing line</text>
+    <text x="18" y="49" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="13">Where was the bag filled or</text>
+    <text x="18" y="66" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="13">finished for sale?</text>
+  </g>
+
+  <g transform="translate(742 286)">
+    <path d="M0 40h-104" fill="none" stroke="#7ca1c8" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="0" cy="40" r="6" fill="#7ca1c8"/>
+    <rect x="18" y="0" width="334" height="94" rx="24" fill="#eef4fb" stroke="#c9d5e6"/>
+    <text x="38" y="30" fill="#274764" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Distributor line</text>
+    <text x="38" y="52" fill="#274764" font-family="Inter, Arial, sans-serif" font-size="13">Who is standing behind the pack commercially?</text>
+    <text x="38" y="72" fill="#274764" font-family="Inter, Arial, sans-serif" font-size="13">Useful, but not the same as fruit origin.</text>
+  </g>
+
+  <g transform="translate(110 540)">
+    <rect width="978" height="40" rx="20" fill="#1f332d"/>
+    <text x="28" y="26" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Reading rule: treat origin wording as the first clue, then confirm the approved-origin policy, repacking step, and any lot-to-lot switching behind the label.</text>
+  </g>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How condenser capacity shapes freeze-dried fruit cycle speed</title>
+  <desc id="desc">Technical diagram showing tray vapor load crossing to a freeze-dryer condenser, with throughput and pressure stability callouts.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="72" y="72" width="1056" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="110" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">The cycle only moves as fast as the cold side can catch the vapor</text>
+  <text x="110" y="164" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Shelf heat can accelerate sublimation, but condenser-side capture still sets the practical ceiling.</text>
+
+  <g transform="translate(110 214)">
+    <rect width="402" height="284" rx="26" fill="#eef4fb" stroke="#c9d5e6"/>
+    <text x="24" y="38" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Drying chamber</text>
+    <text x="24" y="66" fill="#4c5f73" font-family="Inter, Arial, sans-serif" font-size="14">piece size + tray loading set the vapor burden</text>
+
+    <rect x="30" y="104" width="150" height="84" rx="18" fill="#ffffff" stroke="#cfd8e8"/>
+    <rect x="54" y="124" width="102" height="14" rx="7" fill="#e9c27d"/>
+    <rect x="54" y="146" width="102" height="14" rx="7" fill="#e9c27d"/>
+    <text x="54" y="176" fill="#7a6741" font-family="Inter, Arial, sans-serif" font-size="13">fruit trays</text>
+
+    <rect x="218" y="104" width="150" height="84" rx="18" fill="#ffffff" stroke="#cfd8e8"/>
+    <path d="M252 166c22-34 22-34 44 0s22 34 44 0" fill="none" stroke="#6a8fb6" stroke-width="4" stroke-linecap="round"/>
+    <path d="M252 142c22-34 22-34 44 0s22 34 44 0" fill="none" stroke="#9db8d6" stroke-width="4" stroke-linecap="round"/>
+    <text x="242" y="176" fill="#476787" font-family="Inter, Arial, sans-serif" font-size="13">water vapor</text>
+
+    <g transform="translate(30 214)">
+      <rect width="338" height="42" rx="21" fill="#dce7f3"/>
+      <rect width="226" height="42" rx="21" fill="#7ca1c8"/>
+      <text x="18" y="27" fill="#274764" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">vapor load rises with thicker, wetter, fuller runs</text>
+    </g>
+  </g>
+
+  <g transform="translate(556 214)">
+    <rect width="258" height="284" rx="26" fill="#edf6f1" stroke="#c6d8ce"/>
+    <text x="24" y="38" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Transfer path</text>
+    <text x="24" y="66" fill="#466056" font-family="Inter, Arial, sans-serif" font-size="14">pressure stability depends on smooth vapor flow</text>
+
+    <path d="M34 152h186" fill="none" stroke="#6f8f81" stroke-width="8" stroke-linecap="round" stroke-dasharray="10 14"/>
+    <circle cx="72" cy="152" r="16" fill="#cadccf"/>
+    <circle cx="146" cy="152" r="16" fill="#cadccf"/>
+    <circle cx="220" cy="152" r="16" fill="#cadccf"/>
+    <text x="34" y="198" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="14">More vapor than the path can comfortably move</text>
+    <text x="34" y="222" fill="#355248" font-family="Inter, Arial, sans-serif" font-size="14">usually shows up first as messy control.</text>
+
+    <rect x="34" y="240" width="170" height="24" rx="12" fill="#cadccf"/>
+    <text x="48" y="256" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="13">pressure starts to wobble</text>
+  </g>
+
+  <g transform="translate(848 214)">
+    <rect width="240" height="284" rx="26" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <text x="24" y="38" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Condenser side</text>
+    <text x="24" y="66" fill="#5e6259" font-family="Inter, Arial, sans-serif" font-size="14">cold capture, ice build, and turnaround</text>
+
+    <rect x="34" y="104" width="172" height="110" rx="22" fill="#ffffff" stroke="#d8d2c3"/>
+    <path d="M72 126c18 0 18 22 36 22s18-22 36-22 18 22 36 22" fill="none" stroke="#8fb6d8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M72 158c18 0 18 22 36 22s18-22 36-22 18 22 36 22" fill="none" stroke="#d7e8f6" stroke-width="6" stroke-linecap="round"/>
+    <text x="72" y="194" fill="#53708b" font-family="Inter, Arial, sans-serif" font-size="13">ice captured on cold coils</text>
+
+    <g transform="translate(34 236)">
+      <rect width="172" height="22" rx="11" fill="#ead8b7"/>
+      <rect width="120" height="22" rx="11" fill="#be9656"/>
+    </g>
+    <text x="34" y="276" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="13">Once this side is full or slow, extra heat stops helping.</text>
+  </g>
+
+  <g stroke="#97a29c" stroke-width="3" stroke-linecap="round">
+    <path d="M514 356h28"/>
+    <path d="M816 356h20"/>
+  </g>
+
+  <g transform="translate(110 534)">
+    <rect width="978" height="44" rx="22" fill="#1f332d"/>
+    <text x="28" y="28" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Practical reading: when pressure control gets sloppy before cycle time gets meaningfully shorter, the bottleneck may have moved from the shelves to the condenser side.</text>
+  </g>
+</svg>

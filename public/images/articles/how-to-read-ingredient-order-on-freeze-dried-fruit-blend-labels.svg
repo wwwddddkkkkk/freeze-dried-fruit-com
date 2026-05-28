@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to read ingredient order on freeze-dried fruit blend labels</title>
+  <desc id="desc">Annotated freeze-dried fruit blend label with ingredient order callouts and a composition-first reading guide.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f5efe3"/>
+      <stop offset="100%" stop-color="#e8decc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="70" y="72" width="1460" height="756" rx="30" fill="#fcfaf6" stroke="#1f3936" stroke-width="2.5"/>
+  <text x="112" y="144" fill="#1f3936" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="196" fill="#132927" font-family="'DM Serif Display', Georgia, serif" font-size="52">How to Read Ingredient Order on Blend Labels</text>
+  <text x="112" y="236" fill="#526360" font-family="'Source Serif 4', Georgia, serif" font-size="24">The front panel sells the mix. The ingredient line explains what actually leads it.</text>
+
+  <rect x="112" y="294" width="560" height="456" rx="24" fill="#f3ece0" stroke="#264441" stroke-width="2"/>
+  <text x="146" y="342" fill="#264441" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">SAMPLE FRONT LABEL</text>
+  <rect x="146" y="372" width="492" height="300" rx="22" fill="#fffdf9" stroke="#cabb9f"/>
+  <text x="186" y="438" fill="#c15d49" font-family="'DM Serif Display', Georgia, serif" font-size="58">Tropical Berry Blend</text>
+  <text x="186" y="490" fill="#516360" font-family="'Source Sans 3', Arial, sans-serif" font-size="28">Freeze-dried fruit snack</text>
+  <circle cx="238" cy="585" r="38" fill="#d0565d"/>
+  <circle cx="318" cy="565" r="34" fill="#f0b44a"/>
+  <circle cx="395" cy="590" r="32" fill="#71489e"/>
+  <circle cx="468" cy="570" r="36" fill="#ef845d"/>
+  <text x="186" y="640" fill="#516360" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">Front emphasis is not the same thing as ingredient order.</text>
+
+  <rect x="726" y="294" width="692" height="456" rx="24" fill="#16312e"/>
+  <text x="764" y="344" fill="#f6efe4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="5">INGREDIENT LINE READ</text>
+  <text x="764" y="400" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="38">Check the first three first</text>
+  <rect x="764" y="432" width="600" height="72" rx="16" fill="#fcfaf6"/>
+  <text x="792" y="478" fill="#17312e" font-family="'Source Sans 3', Arial, sans-serif" font-size="28">Apple, mango, strawberry, cane sugar, citric acid</text>
+
+  <line x1="836" y1="512" x2="836" y2="620" stroke="#e0b05f" stroke-width="3"/>
+  <line x1="984" y1="512" x2="984" y2="620" stroke="#e0b05f" stroke-width="3"/>
+  <line x1="1142" y1="512" x2="1142" y2="620" stroke="#e0b05f" stroke-width="3"/>
+
+  <rect x="780" y="620" width="176" height="78" rx="18" fill="#88b8aa"/>
+  <text x="812" y="653" fill="#14302d" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">Lead bulk</text>
+  <text x="808" y="683" fill="#14302d" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">ingredient</text>
+
+  <rect x="976" y="620" width="196" height="78" rx="18" fill="#c9d6d1"/>
+  <text x="1008" y="653" fill="#14302d" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">Flavor-signaling</text>
+  <text x="1031" y="683" fill="#14302d" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">fruit</text>
+
+  <rect x="1192" y="620" width="184" height="78" rx="18" fill="#e0b05f"/>
+  <text x="1224" y="653" fill="#14302d" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">Formula shifts</text>
+  <text x="1243" y="683" fill="#14302d" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">here</text>
+
+  <text x="764" y="554" fill="#e3ddd1" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">A fruit collage can imply balance even when one fruit or a sweetener is carrying more of the weight.</text>
+</svg>

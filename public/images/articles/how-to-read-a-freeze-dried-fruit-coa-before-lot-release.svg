@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to read a freeze-dried fruit COA before lot release</title>
+  <desc id="desc">Technical buyer worksheet showing a certificate of analysis, specification ranges, and release decision boxes for freeze-dried fruit.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f5efe4"/>
+      <stop offset="100%" stop-color="#e7dcc6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="72" y="70" width="1456" height="760" rx="30" fill="#fcfaf6" stroke="#203836" stroke-width="2.5"/>
+  <text x="112" y="146" fill="#203836" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="198" fill="#122826" font-family="'DM Serif Display', Georgia, serif" font-size="52">How to Read a Freeze-Dried Fruit COA</text>
+  <text x="112" y="238" fill="#516360" font-family="'Source Serif 4', Georgia, serif" font-size="24">Release the lot only when identity, spec, method, and scope all line up.</text>
+
+  <rect x="108" y="288" width="664" height="454" rx="24" fill="#f3ece0" stroke="#294643" stroke-width="2"/>
+  <text x="140" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="4">CERTIFICATE OF ANALYSIS</text>
+  <line x1="140" y1="354" x2="736" y2="354" stroke="#294643" stroke-width="2"/>
+  <text x="144" y="394" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">Product</text>
+  <text x="402" y="394" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">Freeze-dried strawberry slices</text>
+  <text x="144" y="432" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">Lot</text>
+  <text x="402" y="432" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">FD-2805-17A</text>
+  <text x="144" y="470" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">Pack</text>
+  <text x="402" y="470" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">Retail pouch, 30 g</text>
+
+  <text x="144" y="528" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="23" letter-spacing="3">RESULTS VS SPEC</text>
+  <rect x="142" y="546" width="596" height="140" rx="18" fill="#fcfaf6" stroke="#c7bda8"/>
+  <text x="164" y="584" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Moisture</text>
+  <text x="366" y="584" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Spec</text>
+  <text x="520" y="584" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Result</text>
+  <text x="164" y="620" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">Moisture</text>
+  <text x="366" y="620" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">max 2.0%</text>
+  <text x="520" y="620" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">1.7%</text>
+  <text x="164" y="654" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">Water activity</text>
+  <text x="366" y="654" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">max 0.30</text>
+  <text x="520" y="654" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">0.24</text>
+
+  <rect x="142" y="706" width="596" height="22" rx="11" fill="#88b8aa"/>
+  <text x="144" y="780" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">Numbers matter only if they match the right lot and the agreed method.</text>
+
+  <rect x="824" y="288" width="666" height="454" rx="24" fill="#17312f"/>
+  <text x="860" y="338" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">RELEASE WORKFLOW</text>
+  <text x="860" y="390" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="36">Five Checks</text>
+
+  <circle cx="890" cy="442" r="18" fill="#e0b05f"/><text x="883" y="449" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">1</text>
+  <text x="926" y="450" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">Lot identity matches shipment</text>
+  <circle cx="890" cy="500" r="18" fill="#e0b05f"/><text x="883" y="507" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">2</text>
+  <text x="926" y="508" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">Results match written spec</text>
+  <circle cx="890" cy="558" r="18" fill="#e0b05f"/><text x="883" y="565" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">3</text>
+  <text x="926" y="566" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">Method and sample logic clear</text>
+  <circle cx="890" cy="616" r="18" fill="#e0b05f"/><text x="883" y="623" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">4</text>
+  <text x="926" y="624" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">Incoming checks cover the gaps</text>
+  <circle cx="890" cy="674" r="18" fill="#e0b05f"/><text x="883" y="681" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">5</text>
+  <text x="926" y="682" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">Document release, hold, or clarify</text>
+
+  <rect x="1130" y="380" width="278" height="278" rx="22" fill="#fcfaf6"/>
+  <text x="1170" y="430" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">DISPOSITION</text>
+  <rect x="1172" y="468" width="194" height="44" rx="12" fill="#88b8aa"/>
+  <text x="1244" y="497" fill="#15302d" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">RELEASE</text>
+  <rect x="1172" y="532" width="194" height="44" rx="12" fill="#e0b05f"/>
+  <text x="1258" y="561" fill="#15302d" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">HOLD</text>
+  <rect x="1172" y="596" width="194" height="44" rx="12" fill="#c77b62"/>
+  <text x="1224" y="625" fill="#ffffff" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">CLARIFY</text>
+</svg>

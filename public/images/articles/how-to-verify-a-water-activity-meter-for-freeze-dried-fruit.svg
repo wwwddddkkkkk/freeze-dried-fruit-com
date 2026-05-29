@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to verify a water activity meter for freeze-dried fruit</title>
+  <desc id="desc">Technical verification layout showing a water activity meter, low-aw reference standards, a bracket check, and a logging panel for freeze-dried fruit quality control.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="54">Verify the Meter Before You Trust the Number</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Freeze-dried fruit decisions happen in a narrow low-aw zone, so the check has to live there too.</text>
+
+  <rect x="106" y="286" width="688" height="456" rx="24" fill="#f3ece0" stroke="#294643" stroke-width="2"/>
+  <text x="144" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">LOW-AW BRACKET CHECK</text>
+
+  <rect x="146" y="374" width="610" height="122" rx="20" fill="#fcfaf6" stroke="#c7bda8"/>
+  <line x1="230" y1="436" x2="668" y2="436" stroke="#345953" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="276" cy="436" r="18" fill="#88b8aa"/>
+  <circle cx="446" cy="436" r="18" fill="#e0b05f"/>
+  <circle cx="620" cy="436" r="18" fill="#c77b62"/>
+  <text x="242" y="408" fill="#2a4742" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">low standard</text>
+  <text x="400" y="408" fill="#7d622e" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">product zone</text>
+  <text x="578" y="408" fill="#8d4c3b" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">upper check</text>
+  <text x="254" y="470" fill="#2a4742" font-family="'JetBrains Mono', monospace" font-size="18">0.20</text>
+  <text x="422" y="470" fill="#7d622e" font-family="'JetBrains Mono', monospace" font-size="18">0.28</text>
+  <text x="596" y="470" fill="#8d4c3b" font-family="'JetBrains Mono', monospace" font-size="18">0.35</text>
+
+  <rect x="146" y="530" width="286" height="170" rx="18" fill="#17312f"/>
+  <rect x="470" y="530" width="286" height="170" rx="18" fill="#fcfaf6" stroke="#c7bda8"/>
+  <text x="180" y="572" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">METER STATUS</text>
+  <rect x="180" y="598" width="214" height="38" rx="12" fill="#88b8aa"/>
+  <text x="246" y="623" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">PASS</text>
+  <text x="180" y="666" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Use product readings only after</text>
+  <text x="180" y="692" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">the bracket check is clean.</text>
+
+  <text x="504" y="572" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">CHECKLIST</text>
+  <text x="504" y="614" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">1. Known standards</text>
+  <text x="504" y="644" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">2. Stable temperature</text>
+  <text x="504" y="674" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">3. Clean chamber</text>
+
+  <rect x="838" y="286" width="654" height="456" rx="24" fill="#17312f"/>
+  <text x="874" y="336" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">VERIFICATION LOG</text>
+  <text x="874" y="386" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="34">What gets recorded</text>
+
+  <rect x="876" y="428" width="578" height="236" rx="20" fill="#fcfaf6"/>
+  <line x1="908" y1="486" x2="1422" y2="486" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="908" y1="544" x2="1422" y2="544" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="908" y1="602" x2="1422" y2="602" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="914" y="466" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">standard</text>
+  <text x="1128" y="466" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">reading</text>
+  <text x="1290" y="466" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">action</text>
+
+  <text x="914" y="522" fill="#102725" font-family="'JetBrains Mono', monospace" font-size="20">0.20 salt std</text>
+  <text x="1128" y="522" fill="#102725" font-family="'JetBrains Mono', monospace" font-size="20">0.21</text>
+  <text x="1290" y="522" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">accept</text>
+
+  <text x="914" y="580" fill="#102725" font-family="'JetBrains Mono', monospace" font-size="20">0.35 salt std</text>
+  <text x="1128" y="580" fill="#102725" font-family="'JetBrains Mono', monospace" font-size="20">0.35</text>
+  <text x="1290" y="580" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">accept</text>
+
+  <text x="914" y="638" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">chamber clean?</text>
+  <text x="1128" y="638" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">yes</text>
+  <text x="1290" y="638" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">release testing</text>
+
+  <text x="914" y="696" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">sample exposure</text>
+  <text x="1128" y="696" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">limited</text>
+  <text x="1290" y="696" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">documented</text>
+
+  <rect x="106" y="768" width="1386" height="44" rx="16" fill="#203836"/>
+  <text x="146" y="797" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Useful rule: a low-aw product deserves a low-aw verification routine, not a generic one-point check.</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to use FDA warning letters and import alerts when screening freeze-dried fruit suppliers</title>
+  <desc id="desc">Buyer screening diagram comparing warning letters, import alerts, product scope, corrective action, and approval disposition for freeze-dried fruit suppliers.</desc>
+  <rect width="1600" height="900" fill="#f5efe4"/>
+  <rect x="68" y="68" width="1464" height="764" rx="30" fill="#fcfaf6" stroke="#d1c4ad" stroke-width="2"/>
+  <text x="112" y="138" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="192" fill="#122826" font-family="'DM Serif Display', Georgia, serif" font-size="52">Read the FDA Record Like a Buyer, Not a Spectator</text>
+  <text x="112" y="232" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Warning letters and import alerts are signals with different weight, timing, and commercial effect.</text>
+
+  <rect x="108" y="286" width="654" height="458" rx="24" fill="#f3ece0" stroke="#294643" stroke-width="2"/>
+  <text x="144" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">PUBLIC RECORD SCREEN</text>
+
+  <rect x="144" y="372" width="582" height="308" rx="18" fill="#fcfaf6" stroke="#c7bda8"/>
+  <line x1="144" y1="448" x2="726" y2="448" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="144" y1="524" x2="726" y2="524" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="144" y1="600" x2="726" y2="600" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="336" y1="372" x2="336" y2="680" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="532" y1="372" x2="532" y2="680" stroke="#d4c7b1" stroke-width="2"/>
+
+  <text x="170" y="418" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">record type</text>
+  <text x="366" y="418" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">main question</text>
+  <text x="560" y="418" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">buyer response</text>
+
+  <text x="170" y="492" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">warning letter</text>
+  <text x="366" y="492" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">what violation was cited?</text>
+  <text x="560" y="492" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">read scope and status</text>
+
+  <text x="170" y="568" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">import alert</text>
+  <text x="366" y="568" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">can entries face DWPE?</text>
+  <text x="560" y="568" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">check route risk now</text>
+
+  <text x="170" y="644" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">FSMA file</text>
+  <text x="366" y="644" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">is the review documented?</text>
+  <text x="560" y="644" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">approve, hold, or limit</text>
+
+  <rect x="144" y="696" width="582" height="24" rx="12" fill="#88b8aa"/>
+  <text x="146" y="778" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">The record matters only when it maps to the actual site and product you are buying.</text>
+
+  <rect x="808" y="286" width="684" height="458" rx="24" fill="#17312f"/>
+  <text x="846" y="334" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">DECISION MATRIX</text>
+
+  <rect x="848" y="380" width="604" height="302" rx="22" fill="#fcfaf6"/>
+  <text x="884" y="426" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">1. Exact facility name and address</text>
+  <text x="884" y="470" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">2. Product and process in scope</text>
+  <text x="884" y="514" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">3. Action date and current status</text>
+  <text x="884" y="558" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">4. Supplier explanation and evidence</text>
+  <text x="884" y="602" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">5. Documented approval outcome</text>
+
+  <rect x="1060" y="392" width="330" height="82" rx="18" fill="#f5efe4" stroke="#d1c4ad"/>
+  <text x="1088" y="426" fill="#5b5143" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Do not treat every record like</text>
+  <text x="1088" y="452" fill="#5b5143" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">a permanent ban or a non-event.</text>
+
+  <rect x="884" y="700" width="180" height="34" rx="14" fill="#88b8aa"/>
+  <text x="934" y="723" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">approved</text>
+  <rect x="1082" y="700" width="180" height="34" rx="14" fill="#e0b05f"/>
+  <text x="1120" y="723" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">conditional</text>
+  <rect x="1280" y="700" width="180" height="34" rx="14" fill="#c77b62"/>
+  <text x="1340" y="723" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">not approved</text>
+
+  <rect x="108" y="768" width="1384" height="44" rx="16" fill="#203836"/>
+  <text x="146" y="797" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Best practice: use FDA records as documented inputs to supplier approval, not as shortcuts that replace product and site due diligence.</text>
+</svg>

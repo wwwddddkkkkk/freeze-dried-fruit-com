@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to qualify a backup freeze-dried fruit supplier without spec drift</title>
+  <desc id="desc">Industry sourcing matrix comparing a primary and backup freeze-dried fruit supplier across specification, packaging, lot checks, and switch rules.</desc>
+  <rect width="1600" height="900" fill="#f5efe4"/>
+  <rect x="68" y="68" width="1464" height="764" rx="30" fill="#fcfaf6" stroke="#d1c4ad" stroke-width="2"/>
+  <text x="112" y="138" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="192" fill="#122826" font-family="'DM Serif Display', Georgia, serif" font-size="50">A Backup Supplier Is Only Useful if the SKU Still Means the Same Thing</text>
+  <text x="112" y="232" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Qualify the alternate source against the same product, package, and release logic.</text>
+
+  <rect x="108" y="286" width="704" height="458" rx="24" fill="#f3ece0" stroke="#294643" stroke-width="2"/>
+  <text x="144" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">EQUIVALENCE SCORECARD</text>
+
+  <rect x="144" y="374" width="632" height="320" rx="18" fill="#fcfaf6" stroke="#c7bda8"/>
+  <line x1="144" y1="446" x2="776" y2="446" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="144" y1="518" x2="776" y2="518" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="144" y1="590" x2="776" y2="590" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="372" y1="374" x2="372" y2="694" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="574" y1="374" x2="574" y2="694" stroke="#d4c7b1" stroke-width="2"/>
+
+  <text x="168" y="420" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">control point</text>
+  <text x="410" y="420" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">primary</text>
+  <text x="622" y="420" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">backup</text>
+
+  <text x="168" y="488" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">product spec</text>
+  <text x="410" y="488" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">approved</text>
+  <text x="622" y="488" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">must match</text>
+
+  <text x="168" y="560" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">packaging</text>
+  <text x="410" y="560" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">known</text>
+  <text x="622" y="560" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">validate too</text>
+
+  <text x="168" y="632" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">lot repeatability</text>
+  <text x="410" y="632" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">baseline</text>
+  <text x="622" y="632" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">2+ lots</text>
+
+  <rect x="144" y="710" width="632" height="18" rx="9" fill="#88b8aa"/>
+
+  <rect x="850" y="286" width="642" height="458" rx="24" fill="#17312f"/>
+  <text x="888" y="334" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">SWITCH RULES</text>
+
+  <circle cx="910" cy="416" r="18" fill="#e0b05f"/><text x="903" y="423" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">1</text>
+  <text x="946" y="424" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">Same written SKU definition</text>
+  <circle cx="910" cy="484" r="18" fill="#e0b05f"/><text x="903" y="491" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">2</text>
+  <text x="946" y="492" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">Retained-sample side-by-side check</text>
+  <circle cx="910" cy="552" r="18" fill="#e0b05f"/><text x="903" y="559" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">3</text>
+  <text x="946" y="560" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">Packaging equivalence confirmed</text>
+  <circle cx="910" cy="620" r="18" fill="#e0b05f"/><text x="903" y="627" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">4</text>
+  <text x="946" y="628" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">Written approval and activation rule</text>
+
+  <rect x="1188" y="384" width="240" height="260" rx="22" fill="#fcfaf6"/>
+  <text x="1240" y="426" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" letter-spacing="3">OUTCOME</text>
+  <rect x="1222" y="468" width="172" height="42" rx="12" fill="#88b8aa"/>
+  <text x="1264" y="496" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">USABLE</text>
+  <rect x="1222" y="530" width="172" height="42" rx="12" fill="#e0b05f"/>
+  <text x="1250" y="558" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">CONDITIONAL</text>
+  <rect x="1222" y="592" width="172" height="42" rx="12" fill="#c77b62"/>
+  <text x="1264" y="620" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">DRIFT</text>
+
+  <rect x="108" y="768" width="1384" height="44" rx="16" fill="#203836"/>
+  <text x="146" y="797" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">A second source protects supply only when it preserves the commercial definition of the product.</text>
+</svg>

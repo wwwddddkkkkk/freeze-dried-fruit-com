@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <rect width="1600" height="900" fill="#F6F3EC"/>
+  <rect x="70" y="70" width="1460" height="760" rx="28" fill="#FFFDFC" stroke="#CFC7BA" stroke-width="4"/>
+  <text x="120" y="150" fill="#1D2A2F" font-family="Georgia, 'Times New Roman', serif" font-size="52">Shelf Temperature vs Product Temperature</text>
+  <text x="120" y="192" fill="#5E6A6E" font-family="Arial, Helvetica, sans-serif" font-size="24">Freeze-dried fruit runs colder than the shelf while sublimation is still removing ice.</text>
+
+  <rect x="120" y="250" width="1160" height="430" rx="22" fill="#FBF8F2" stroke="#D8D0C2" stroke-width="3"/>
+  <line x1="210" y1="620" x2="1180" y2="620" stroke="#6B7074" stroke-width="3"/>
+  <line x1="210" y1="310" x2="210" y2="620" stroke="#6B7074" stroke-width="3"/>
+
+  <text x="164" y="332" fill="#6B7074" font-family="Arial, Helvetica, sans-serif" font-size="20">warm</text>
+  <text x="166" y="622" fill="#6B7074" font-family="Arial, Helvetica, sans-serif" font-size="20">cold</text>
+
+  <line x1="530" y1="250" x2="530" y2="680" stroke="#D8D0C2" stroke-width="2"/>
+  <line x1="850" y1="250" x2="850" y2="680" stroke="#D8D0C2" stroke-width="2"/>
+  <text x="280" y="660" fill="#6B7074" font-family="Arial, Helvetica, sans-serif" font-size="22">Freezing</text>
+  <text x="616" y="660" fill="#6B7074" font-family="Arial, Helvetica, sans-serif" font-size="22">Primary drying</text>
+  <text x="934" y="660" fill="#6B7074" font-family="Arial, Helvetica, sans-serif" font-size="22">Secondary drying</text>
+
+  <path d="M210 535 C280 540 350 555 420 565 C480 570 500 520 530 480 C560 420 600 390 660 372 C735 350 795 350 850 352 C935 352 1010 352 1090 338 C1135 330 1160 318 1180 300"
+        stroke="#C86B2A" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M210 548 C280 555 350 570 420 582 C480 590 510 545 538 510 C570 468 620 445 675 430 C735 413 800 410 850 410 C910 412 970 420 1030 438 C1080 452 1135 468 1180 485"
+        stroke="#226D68" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="830" cy="410" r="10" fill="#226D68"/>
+  <line x1="830" y1="410" x2="1000" y2="255" stroke="#226D68" stroke-width="3"/>
+  <rect x="998" y="215" width="306" height="78" rx="16" fill="#FFFDFC" stroke="#226D68" stroke-width="3"/>
+  <text x="1026" y="246" fill="#1D2A2F" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Product stays colder</text>
+  <text x="1026" y="275" fill="#5E6A6E" font-family="Arial, Helvetica, sans-serif" font-size="21">Sublimation keeps pulling heat away.</text>
+
+  <rect x="1308" y="278" width="150" height="116" rx="16" fill="#FFF3E8" stroke="#C86B2A" stroke-width="3"/>
+  <line x1="1336" y1="324" x2="1408" y2="324" stroke="#C86B2A" stroke-width="8" stroke-linecap="round"/>
+  <text x="1336" y="360" fill="#5E6A6E" font-family="Arial, Helvetica, sans-serif" font-size="22">Shelf</text>
+
+  <rect x="1308" y="420" width="150" height="116" rx="16" fill="#E8F6F4" stroke="#226D68" stroke-width="3"/>
+  <line x1="1336" y1="466" x2="1408" y2="466" stroke="#226D68" stroke-width="8" stroke-linecap="round"/>
+  <text x="1336" y="502" fill="#5E6A6E" font-family="Arial, Helvetica, sans-serif" font-size="22">Fruit</text>
+
+  <rect x="120" y="718" width="430" height="74" rx="18" fill="#FFF3E8" stroke="#E1B78F" stroke-width="2"/>
+  <text x="150" y="762" fill="#7A4D20" font-family="Arial, Helvetica, sans-serif" font-size="24">Shelf = machine setting, not the fruit itself.</text>
+
+  <rect x="580" y="718" width="446" height="74" rx="18" fill="#E8F6F4" stroke="#8CBFBA" stroke-width="2"/>
+  <text x="612" y="762" fill="#1F5954" font-family="Arial, Helvetica, sans-serif" font-size="24">Fruit warms sharply as primary drying ends.</text>
+
+  <rect x="1056" y="718" width="378" height="74" rx="18" fill="#F5EFE4" stroke="#CFC7BA" stroke-width="2"/>
+  <text x="1088" y="762" fill="#5E6A6E" font-family="Arial, Helvetica, sans-serif" font-size="24">Batch geometry changes the gap.</text>
+</svg>

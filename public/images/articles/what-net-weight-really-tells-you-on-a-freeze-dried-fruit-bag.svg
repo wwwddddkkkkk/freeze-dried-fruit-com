@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <rect width="1600" height="900" fill="#F6F2EA"/>
+  <rect x="72" y="72" width="1456" height="756" rx="28" fill="#FFFDFC" stroke="#CEC5B7" stroke-width="4"/>
+  <text x="118" y="148" fill="#1D2A2F" font-family="Georgia, 'Times New Roman', serif" font-size="50">What Net Weight Really Tells You</text>
+  <text x="118" y="190" fill="#606B6F" font-family="Arial, Helvetica, sans-serif" font-size="24">Quantity is not the same thing as visual fullness, serving count, or piece quality.</text>
+
+  <rect x="118" y="244" width="520" height="486" rx="26" fill="#FBF8F2" stroke="#D7CFC1" stroke-width="3"/>
+  <path d="M260 320 L500 320 L548 670 L212 670 Z" fill="#FFF3E8" stroke="#D39A63" stroke-width="4"/>
+  <path d="M312 320 L448 320 L486 640 L274 640 Z" fill="#E25A47" fill-opacity="0.16"/>
+  <circle cx="336" cy="410" r="22" fill="#D94841"/>
+  <circle cx="398" cy="460" r="18" fill="#B3302B"/>
+  <circle cx="444" cy="520" r="16" fill="#D94841"/>
+  <circle cx="352" cy="558" r="19" fill="#C83B35"/>
+  <circle cx="430" cy="592" r="14" fill="#A52A26"/>
+  <path d="M274 640 L486 640" stroke="#D39A63" stroke-width="3" stroke-dasharray="10 10"/>
+  <text x="300" y="700" fill="#7D5A31" font-family="Arial, Helvetica, sans-serif" font-size="24">Visual fill line is not the legal quantity line.</text>
+
+  <line x1="560" y1="382" x2="720" y2="320" stroke="#D39A63" stroke-width="3"/>
+  <rect x="724" y="286" width="340" height="88" rx="16" fill="#FFFDFC" stroke="#D39A63" stroke-width="3"/>
+  <text x="752" y="322" fill="#1D2A2F" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Net weight</text>
+  <text x="752" y="352" fill="#5E6A6E" font-family="Arial, Helvetica, sans-serif" font-size="22">Amount of food, excluding package.</text>
+
+  <line x1="486" y1="620" x2="726" y2="520" stroke="#226D68" stroke-width="3"/>
+  <rect x="730" y="478" width="356" height="94" rx="16" fill="#FFFDFC" stroke="#226D68" stroke-width="3"/>
+  <text x="758" y="514" fill="#1D2A2F" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Headspace</text>
+  <text x="758" y="544" fill="#5E6A6E" font-family="Arial, Helvetica, sans-serif" font-size="22">May protect fragile fruit from crushing.</text>
+
+  <rect x="1108" y="274" width="308" height="124" rx="18" fill="#E8F6F4" stroke="#84B7B1" stroke-width="3"/>
+  <text x="1138" y="320" fill="#1F5954" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Compare next:</text>
+  <text x="1138" y="356" fill="#1F5954" font-family="Arial, Helvetica, sans-serif" font-size="22">Serving count</text>
+  <text x="1138" y="384" fill="#1F5954" font-family="Arial, Helvetica, sans-serif" font-size="22">Ingredients</text>
+
+  <rect x="1108" y="424" width="308" height="124" rx="18" fill="#FFF3E8" stroke="#E0B78F" stroke-width="3"/>
+  <text x="1138" y="470" fill="#8A5727" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Then inspect:</text>
+  <text x="1138" y="506" fill="#8A5727" font-family="Arial, Helvetica, sans-serif" font-size="22">Whole pieces vs fines</text>
+  <text x="1138" y="534" fill="#8A5727" font-family="Arial, Helvetica, sans-serif" font-size="22">Fruit format and use case</text>
+
+  <rect x="692" y="640" width="724" height="118" rx="20" fill="#F3EFE7" stroke="#CEC5B7" stroke-width="3"/>
+  <text x="724" y="690" fill="#1D2A2F" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Net weight anchors quantity.</text>
+  <text x="724" y="724" fill="#5E6A6E" font-family="Arial, Helvetica, sans-serif" font-size="24">It does not, by itself, tell you whether the bag is premium, powder-heavy, or worth the price.</text>
+</svg>

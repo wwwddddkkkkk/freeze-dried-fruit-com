@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <rect width="1600" height="900" fill="#F6F3EC"/>
+  <rect x="72" y="72" width="1456" height="756" rx="30" fill="#FFFDFC" stroke="#CEC5B7" stroke-width="4"/>
+  <text x="118" y="148" fill="#1D2A2F" font-family="Georgia, 'Times New Roman', serif" font-size="48">Best Freeze-Dried Fruit for Chia Pudding</text>
+  <text x="118" y="188" fill="#5F6C70" font-family="Arial, Helvetica, sans-serif" font-size="24">Choose for meal-prep durability, spoonability, and when the topping is added.</text>
+
+  <rect x="118" y="246" width="1364" height="448" rx="26" fill="#FBF8F2" stroke="#D8D0C2" stroke-width="3"/>
+
+  <g>
+    <rect x="170" y="322" width="220" height="258" rx="24" fill="#EEF4F2" stroke="#8EBAB4" stroke-width="3"/>
+    <rect x="210" y="356" width="140" height="178" rx="20" fill="#FFFFFF" stroke="#BBC7C3" stroke-width="3"/>
+    <rect x="214" y="420" width="132" height="110" rx="18" fill="#EEE8D8"/>
+    <circle cx="252" cy="392" r="14" fill="#D94841"/>
+    <circle cx="292" cy="376" r="12" fill="#C73A34"/>
+    <circle cx="322" cy="404" r="11" fill="#D94841"/>
+    <text x="210" y="610" fill="#1F5954" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Strawberry</text>
+    <text x="210" y="642" fill="#5F6C70" font-family="Arial, Helvetica, sans-serif" font-size="21">Best all-around</text>
+  </g>
+
+  <g>
+    <rect x="444" y="322" width="220" height="258" rx="24" fill="#EEF1F7" stroke="#A9B5D8" stroke-width="3"/>
+    <rect x="484" y="356" width="140" height="178" rx="20" fill="#FFFFFF" stroke="#BBC7C3" stroke-width="3"/>
+    <rect x="488" y="420" width="132" height="110" rx="18" fill="#EEE8D8"/>
+    <circle cx="528" cy="386" r="13" fill="#334E9B"/>
+    <circle cx="568" cy="372" r="11" fill="#3E5DB5"/>
+    <circle cx="594" cy="402" r="10" fill="#2C468C"/>
+    <text x="502" y="610" fill="#344C91" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Blueberry</text>
+    <text x="484" y="642" fill="#5F6C70" font-family="Arial, Helvetica, sans-serif" font-size="21">Clean spoonable topping</text>
+  </g>
+
+  <g>
+    <rect x="718" y="322" width="220" height="258" rx="24" fill="#F7F1E8" stroke="#D2BB90" stroke-width="3"/>
+    <rect x="758" y="356" width="140" height="178" rx="20" fill="#FFFFFF" stroke="#BBC7C3" stroke-width="3"/>
+    <rect x="762" y="420" width="132" height="110" rx="18" fill="#EEE8D8"/>
+    <rect x="790" y="382" width="24" height="20" rx="6" fill="#D8A35A"/>
+    <rect x="826" y="394" width="28" height="18" rx="6" fill="#C88D47"/>
+    <rect x="846" y="370" width="24" height="18" rx="6" fill="#D8A35A"/>
+    <text x="790" y="610" fill="#8A5F2D" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Apple</text>
+    <text x="768" y="642" fill="#5F6C70" font-family="Arial, Helvetica, sans-serif" font-size="21">Best for meal prep</text>
+  </g>
+
+  <g>
+    <rect x="992" y="322" width="220" height="258" rx="24" fill="#FFF1E3" stroke="#E1B27B" stroke-width="3"/>
+    <rect x="1032" y="356" width="140" height="178" rx="20" fill="#FFFFFF" stroke="#BBC7C3" stroke-width="3"/>
+    <rect x="1036" y="420" width="132" height="110" rx="18" fill="#EEE8D8"/>
+    <rect x="1072" y="380" width="34" height="16" rx="6" fill="#F0A340"/>
+    <rect x="1110" y="394" width="30" height="16" rx="6" fill="#E79228"/>
+    <rect x="1088" y="408" width="34" height="16" rx="6" fill="#F0A340"/>
+    <text x="1068" y="610" fill="#B76B18" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Mango</text>
+    <text x="1042" y="642" fill="#5F6C70" font-family="Arial, Helvetica, sans-serif" font-size="21">Sweeter dessert-style</text>
+  </g>
+
+  <rect x="1268" y="320" width="170" height="260" rx="22" fill="#F3EFE7" stroke="#CEC5B7" stroke-width="3"/>
+  <text x="1300" y="370" fill="#1D2A2F" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">Timing</text>
+  <text x="1300" y="418" fill="#5F6C70" font-family="Arial, Helvetica, sans-serif" font-size="22">Add late</text>
+  <text x="1300" y="448" fill="#5F6C70" font-family="Arial, Helvetica, sans-serif" font-size="22">for crunch.</text>
+  <line x1="1300" y1="484" x2="1406" y2="484" stroke="#CEC5B7" stroke-width="2"/>
+  <text x="1300" y="528" fill="#5F6C70" font-family="Arial, Helvetica, sans-serif" font-size="22">Use powder</text>
+  <text x="1300" y="558" fill="#5F6C70" font-family="Arial, Helvetica, sans-serif" font-size="22">for overnight</text>
+  <text x="1300" y="588" fill="#5F6C70" font-family="Arial, Helvetica, sans-serif" font-size="22">fruit flavor.</text>
+
+  <rect x="118" y="730" width="1364" height="64" rx="20" fill="#E8F6F4" stroke="#8EBAB4" stroke-width="2"/>
+  <text x="154" y="772" fill="#1F5954" font-family="Arial, Helvetica, sans-serif" font-size="25">Best meal-prep move: keep crunchy fruit separate, or choose sturdier pieces like apple when the cup has to wait.</text>
+</svg>

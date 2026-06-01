@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Best freeze-dried fruit for popcorn and savory snack mixes</title>
+  <desc id="desc">Snack mix application board comparing tart berries, apple bits, and tropical accents with popcorn, pretzels, and roasted nuts.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f5efe4"/>
+      <stop offset="100%" stop-color="#efe2ca"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="72" y="70" width="1456" height="760" rx="30" fill="#fcfaf6" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="116" y="146" fill="#25443f" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">APPLICATIONS</text>
+  <text x="116" y="198" fill="#17302c" font-family="'DM Serif Display', Georgia, serif" font-size="50">Savory Mixes Need Contrast, Not Random Sweetness.</text>
+  <text x="116" y="238" fill="#60736e" font-family="'Source Serif 4', Georgia, serif" font-size="24">Tart berries, apple bits, and light tropical accents usually beat large candy-like fruit chunks in popcorn and pretzel blends.</text>
+
+  <rect x="108" y="286" width="540" height="462" rx="24" fill="#17312f"/>
+  <text x="144" y="336" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">BASE MIX</text>
+
+  <rect x="150" y="390" width="458" height="314" rx="26" fill="#fcfaf6"/>
+  <circle cx="250" cy="496" r="36" fill="#f3d88f"/>
+  <circle cx="312" cy="458" r="26" fill="#f2d18b"/>
+  <circle cx="368" cy="514" r="30" fill="#f5df9e"/>
+  <circle cx="446" cy="472" r="28" fill="#f0c76c"/>
+  <rect x="228" y="586" width="54" height="20" rx="8" fill="#b07a49" transform="rotate(-16 255 596)"/>
+  <rect x="320" y="608" width="66" height="22" rx="8" fill="#a76b3c" transform="rotate(10 353 619)"/>
+  <rect x="428" y="590" width="62" height="22" rx="8" fill="#af7440" transform="rotate(-8 459 601)"/>
+  <circle cx="538" cy="576" r="18" fill="#8c6037"/>
+  <circle cx="514" cy="620" r="18" fill="#7c5635"/>
+  <circle cx="468" cy="642" r="18" fill="#8b6038"/>
+  <text x="194" y="678" fill="#485d58" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">popcorn + pretzels + nuts</text>
+
+  <rect x="694" y="286" width="798" height="462" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="730" y="336" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">FRUIT FIT</text>
+
+  <rect x="730" y="382" width="224" height="150" rx="20" fill="#fcfaf6"/>
+  <circle cx="786" cy="446" r="20" fill="#d75a59"/>
+  <circle cx="842" cy="434" r="16" fill="#c74244"/>
+  <circle cx="888" cy="454" r="18" fill="#e0847d"/>
+  <text x="754" y="504" fill="#2c4944" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">berries</text>
+  <text x="754" y="530" fill="#5a6e69" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">best for tart lift</text>
+
+  <rect x="998" y="382" width="224" height="150" rx="20" fill="#fcfaf6"/>
+  <rect x="1052" y="430" width="34" height="28" rx="8" fill="#d9b06f" transform="rotate(-10 1069 444)"/>
+  <rect x="1102" y="426" width="34" height="28" rx="8" fill="#ebc88e" transform="rotate(12 1119 440)"/>
+  <rect x="1152" y="438" width="34" height="28" rx="8" fill="#d7a969" transform="rotate(-4 1169 452)"/>
+  <text x="1022" y="504" fill="#2c4944" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">apple bits</text>
+  <text x="1022" y="530" fill="#5a6e69" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">quiet sweet-tart bridge</text>
+
+  <rect x="1266" y="382" width="188" height="150" rx="20" fill="#fcfaf6"/>
+  <rect x="1316" y="430" width="34" height="24" rx="8" fill="#f0ca62" transform="rotate(-14 1333 442)"/>
+  <rect x="1364" y="446" width="34" height="24" rx="8" fill="#efb84b" transform="rotate(8 1381 458)"/>
+  <text x="1292" y="504" fill="#2c4944" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">tropical accents</text>
+  <text x="1292" y="530" fill="#5a6e69" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">use sparingly</text>
+
+  <rect x="730" y="580" width="724" height="118" rx="20" fill="#17312f"/>
+  <text x="766" y="622" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">MIX RULES</text>
+  <text x="766" y="662" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">small pieces · dry base · add fruit late · let contrast do the work</text>
+
+  <rect x="108" y="776" width="1384" height="42" rx="15" fill="#203836"/>
+  <text x="144" y="804" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Useful rule: if the fruit turns the mix into dessert, the proportion or the fruit choice is wrong.</text>
+</svg>

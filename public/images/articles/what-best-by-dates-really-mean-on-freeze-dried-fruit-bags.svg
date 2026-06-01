@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What best by dates really mean on freeze-dried fruit bags</title>
+  <desc id="desc">Packaging label diagram showing a freeze-dried fruit best-by date, lot code, unopened quality window, and package-condition checks.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="68" y="68" width="1464" height="764" rx="30" fill="#fcfaf6" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="114" y="142" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="114" y="196" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="50">The Date Line Matters. The Pouch Condition Still Matters More.</text>
+  <text x="114" y="238" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Best-by is mostly a quality window for unopened freeze-dried fruit, not the whole freshness story by itself.</text>
+
+  <rect x="108" y="286" width="684" height="462" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="144" y="336" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">PACK READ</text>
+
+  <path d="M248 388 L656 388 Q694 388 712 426 L712 632 Q694 680 656 680 L262 680 Q222 680 206 632 L206 426 Q222 388 248 388 Z" fill="#fffdf8" stroke="#203836" stroke-width="4"/>
+  <rect x="250" y="432" width="250" height="118" rx="18" fill="#17312f"/>
+  <text x="286" y="474" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">BEST BY</text>
+  <text x="278" y="524" fill="#ffffff" font-family="'JetBrains Mono', monospace" font-size="34">2027-01-18</text>
+
+  <rect x="524" y="432" width="148" height="118" rx="18" fill="#fcfaf6" stroke="#d2c5b2"/>
+  <text x="546" y="474" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">lot code</text>
+  <text x="544" y="520" fill="#102725" font-family="'JetBrains Mono', monospace" font-size="24">FD0618A</text>
+
+  <rect x="250" y="578" width="422" height="70" rx="18" fill="#88b8aa"/>
+  <text x="282" y="622" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">useful for unopened quality window</text>
+
+  <rect x="842" y="286" width="650" height="462" rx="24" fill="#17312f"/>
+  <text x="878" y="336" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">WHAT TO CHECK NEXT</text>
+  <text x="878" y="390" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="36">Quality signals around the date</text>
+
+  <rect x="878" y="430" width="576" height="234" rx="20" fill="#fcfaf6"/>
+  <line x1="912" y1="488" x2="1418" y2="488" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="912" y1="546" x2="1418" y2="546" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="912" y1="604" x2="1418" y2="604" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="920" y="468" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">signal</text>
+  <text x="1172" y="468" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">why it matters</text>
+
+  <text x="920" y="524" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">seal and zipper intact</text>
+  <text x="1172" y="524" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">holds the quality window together</text>
+
+  <text x="920" y="582" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">lot code retained</text>
+  <text x="1172" y="582" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">traceability beats guesswork</text>
+
+  <text x="920" y="640" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">cool dry storage</text>
+  <text x="1172" y="640" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">protects crunch and aroma</text>
+
+  <rect x="878" y="686" width="576" height="36" rx="14" fill="#e0b05f"/>
+  <text x="908" y="710" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Best-by tells you the target window. The lot code tells you which run you actually have.</text>
+</svg>

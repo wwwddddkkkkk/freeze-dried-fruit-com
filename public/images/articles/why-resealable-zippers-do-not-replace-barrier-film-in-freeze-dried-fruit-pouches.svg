@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Why resealable zippers do not replace barrier film in freeze-dried fruit pouches</title>
+  <desc id="desc">Technical freeze-dried fruit pouch diagram showing barrier layers, zipper track, primary heat seal, and humidity entry paths after opening.</desc>
+  <rect width="1600" height="900" fill="#f3eee5"/>
+  <rect x="70" y="68" width="1460" height="764" rx="30" fill="#fcfaf6" stroke="#d2c5b2" stroke-width="2"/>
+  <text x="116" y="142" fill="#23413c" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="116" y="196" fill="#122a27" font-family="'DM Serif Display', Georgia, serif" font-size="50">A Zipper Helps After Open. The Film Still Protects the Fruit.</text>
+  <text x="116" y="238" fill="#5c706b" font-family="'Source Serif 4', Georgia, serif" font-size="24">Freeze-dried fruit keeps its crunch only when barrier web, seals, and reclose behavior all work together.</text>
+
+  <rect x="108" y="284" width="714" height="472" rx="26" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="146" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">POUCH CROSS-SECTION</text>
+
+  <path d="M248 402 L670 402 Q710 402 726 438 L726 648 Q710 688 670 688 L260 688 Q222 688 208 648 L208 438 Q222 402 248 402 Z" fill="#fffdf8" stroke="#203836" stroke-width="4"/>
+  <path d="M248 402 L670 402 Q710 402 726 438 L726 474 L208 474 L208 438 Q222 402 248 402 Z" fill="#8ab6aa"/>
+  <rect x="232" y="430" width="472" height="14" rx="7" fill="#e2b05e"/>
+  <rect x="232" y="448" width="472" height="10" rx="5" fill="#bf7a60"/>
+  <text x="244" y="426" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">outer web</text>
+  <text x="462" y="426" fill="#6f521c" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">barrier layer</text>
+  <text x="590" y="426" fill="#8f4e3f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">sealant</text>
+
+  <rect x="290" y="492" width="354" height="146" rx="24" fill="#f9f3e8" stroke="#d7cab6"/>
+  <circle cx="340" cy="546" r="26" fill="#d25d5a"/>
+  <circle cx="400" cy="528" r="22" fill="#e07f78"/>
+  <circle cx="454" cy="554" r="24" fill="#cc4d4b"/>
+  <circle cx="520" cy="532" r="20" fill="#e3a39b"/>
+  <circle cx="572" cy="556" r="18" fill="#c24345"/>
+  <text x="320" y="612" fill="#455a56" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">freeze-dried fruit</text>
+
+  <rect x="720" y="396" width="44" height="300" rx="18" fill="#17312f"/>
+  <text x="662" y="560" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">primary</text>
+  <text x="670" y="586" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">seal</text>
+
+  <rect x="812" y="284" width="678" height="472" rx="26" fill="#17312f"/>
+  <text x="850" y="334" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">WHAT THE ZIPPER DOES NOT FIX</text>
+  <text x="850" y="390" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="36">Separate control points</text>
+
+  <rect x="850" y="430" width="280" height="122" rx="20" fill="#fcfaf6"/>
+  <text x="884" y="468" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">BEFORE FIRST OPEN</text>
+  <text x="884" y="504" fill="#435855" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">film barrier</text>
+  <text x="884" y="532" fill="#435855" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">heat seals</text>
+
+  <rect x="1170" y="430" width="280" height="122" rx="20" fill="#fcfaf6"/>
+  <text x="1202" y="468" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">AFTER FIRST OPEN</text>
+  <text x="1202" y="504" fill="#435855" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">zipper reclose</text>
+  <text x="1202" y="532" fill="#435855" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">headspace use</text>
+
+  <rect x="850" y="586" width="600" height="118" rx="20" fill="#fcfaf6"/>
+  <text x="884" y="626" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">COMMON FAILURE PATH</text>
+  <path d="M900 662 C968 612 1038 612 1108 662" fill="none" stroke="#88b8aa" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1090 654 L1108 662 L1090 672" fill="none" stroke="#88b8aa" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1158 662 C1222 612 1296 612 1362 662" fill="none" stroke="#e0b05f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1344 654 L1362 662 L1344 672" fill="none" stroke="#e0b05f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="886" y="692" fill="#475b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">good shelf test</text>
+  <text x="1092" y="692" fill="#475b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">weak reclose</text>
+  <text x="1284" y="692" fill="#475b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">soft fruit</text>
+
+  <path d="M252 364 C300 324 362 324 404 360" fill="none" stroke="#8ab6aa" stroke-width="8" stroke-linecap="round"/>
+  <path d="M378 348 L404 360 L382 374" fill="none" stroke="#8ab6aa" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="210" y="340" fill="#45625d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">humidity path after opening</text>
+
+  <rect x="108" y="776" width="1382" height="42" rx="15" fill="#203836"/>
+  <text x="144" y="804" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Useful rule: the zipper is a post-open tool, not a substitute for real barrier packaging.</text>
+</svg>

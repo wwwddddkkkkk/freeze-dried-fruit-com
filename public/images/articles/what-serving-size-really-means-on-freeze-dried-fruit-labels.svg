@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What serving size really means on freeze-dried fruit labels</title>
+  <desc id="desc">Annotated Nutrition Facts style diagram showing serving size, servings per container, and how to compare freeze-dried fruit labels correctly.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf6" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="52">Serving Size Explains the Panel. It Does Not Tell You What to Eat.</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Freeze-dried fruit looks airy, so the label needs a standardized unit even when the bowl impression feels misleading.</text>
+
+  <rect x="108" y="286" width="590" height="474" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="146" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">PANEL READ</text>
+
+  <rect x="158" y="376" width="490" height="330" rx="18" fill="#fcfaf6" stroke="#17312f" stroke-width="4"/>
+  <text x="190" y="424" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="44" font-weight="700">Nutrition Facts</text>
+  <line x1="186" y1="442" x2="620" y2="442" stroke="#102725" stroke-width="14"/>
+  <text x="190" y="482" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">3 servings per container</text>
+  <line x1="186" y1="496" x2="620" y2="496" stroke="#102725" stroke-width="2"/>
+  <text x="190" y="538" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="32" font-weight="700">Serving size</text>
+  <text x="506" y="538" fill="#102725" font-family="'JetBrains Mono', monospace" font-size="30">1 oz (28g)</text>
+  <line x1="186" y1="554" x2="620" y2="554" stroke="#102725" stroke-width="10"/>
+  <text x="190" y="602" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Compare products only on the same basis.</text>
+  <rect x="190" y="626" width="396" height="46" rx="16" fill="#88b8aa"/>
+  <text x="236" y="655" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">standardized unit, not a recommendation</text>
+
+  <rect x="744" y="286" width="748" height="474" rx="24" fill="#17312f"/>
+  <text x="780" y="334" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">HOW TO READ IT</text>
+  <text x="780" y="386" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="34">Three questions that matter more than first impression</text>
+
+  <rect x="782" y="430" width="672" height="250" rx="20" fill="#fcfaf6"/>
+  <line x1="814" y1="498" x2="1422" y2="498" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="814" y1="566" x2="1422" y2="566" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="814" y1="634" x2="1422" y2="634" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="826" y="474" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">question</text>
+  <text x="1178" y="474" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">why it matters</text>
+  <text x="826" y="542" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">What is one labeled serving?</text>
+  <text x="1178" y="542" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">sets the panel math</text>
+  <text x="826" y="610" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">How many servings are in the bag?</text>
+  <text x="1178" y="610" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">reveals total intake</text>
+  <text x="826" y="678" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Is it plain fruit or a snack blend?</text>
+  <text x="1178" y="678" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">puts sugars and calories in context</text>
+
+  <rect x="782" y="700" width="672" height="36" rx="14" fill="#e0b05f"/>
+  <text x="818" y="724" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Serving size helps you compare. Servings per container tells you what the pouch can really become.</text>
+</svg>

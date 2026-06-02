@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Why port holds and customs exams distort freeze-dried fruit lead times</title>
+  <desc id="desc">Commercial process diagram showing freeze-dried fruit moving from factory completion through prior notice, port arrival, hold risk, cargo exam, and warehouse release.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="52">The Shipment Is Not Available Just Because the Factory Is Done</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Real replenishment time keeps running through prior notice, screening, holds, exams, and release.</text>
+
+  <rect x="106" y="286" width="1388" height="192" rx="24" fill="#f2ecdf" stroke="#294643" stroke-width="2"/>
+  <text x="142" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">THE FULL CLOCK</text>
+
+  <line x1="176" y1="398" x2="1416" y2="398" stroke="#17312f" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="236" cy="398" r="28" fill="#88b8aa"/>
+  <circle cx="468" cy="398" r="28" fill="#88b8aa"/>
+  <circle cx="700" cy="398" r="28" fill="#e0b05f"/>
+  <circle cx="932" cy="398" r="28" fill="#c77b62"/>
+  <circle cx="1164" cy="398" r="28" fill="#e0b05f"/>
+  <circle cx="1360" cy="398" r="28" fill="#88b8aa"/>
+  <text x="182" y="452" fill="#2f4f49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">factory ready</text>
+  <text x="390" y="452" fill="#2f4f49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">booking + docs</text>
+  <text x="634" y="452" fill="#7d622e" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">prior notice</text>
+  <text x="862" y="452" fill="#8d4c3b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">port review / hold risk</text>
+  <text x="1102" y="452" fill="#7d622e" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">possible exam</text>
+  <text x="1292" y="452" fill="#2f4f49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">warehouse release</text>
+
+  <rect x="108" y="526" width="650" height="236" rx="24" fill="#17312f"/>
+  <text x="144" y="574" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">WHY THE QUOTE MISLEADS</text>
+  <text x="144" y="628" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="34">Supplier lead time often stops too early</text>
+  <text x="144" y="676" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Quoted: production complete</text>
+  <text x="144" y="708" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Needed: usable inventory in your warehouse</text>
+  <rect x="144" y="724" width="572" height="22" rx="11" fill="#e0b05f"/>
+  <text x="222" y="741" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" font-weight="700">The risk sits in the gap between those two definitions.</text>
+
+  <rect x="792" y="526" width="700" height="236" rx="24" fill="#fcfaf6" stroke="#c7bda8"/>
+  <text x="830" y="574" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">WHAT ADDS VARIABILITY</text>
+  <line x1="830" y1="620" x2="1456" y2="620" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="830" y1="670" x2="1456" y2="670" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="830" y1="720" x2="1456" y2="720" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="842" y="608" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">control point</text>
+  <text x="1160" y="608" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">commercial effect</text>
+  <text x="842" y="654" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">prior-notice timing and accuracy</text>
+  <text x="1160" y="654" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">avoids self-inflicted delay</text>
+  <text x="842" y="704" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">screening / hold activity</text>
+  <text x="1160" y="704" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">adds schedule uncertainty</text>
+  <text x="842" y="754" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">cargo exam + CES handling</text>
+  <text x="1160" y="754" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">time plus extra cost</text>
+
+  <rect x="106" y="782" width="1388" height="30" rx="14" fill="#203836"/>
+  <text x="138" y="803" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" font-weight="700">Useful rule: separate the production clock from the port clock, or your reorder point will almost always be too late.</text>
+</svg>

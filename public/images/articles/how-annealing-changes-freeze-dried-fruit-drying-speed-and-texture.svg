@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How annealing changes freeze-dried fruit drying speed and texture</title>
+  <desc id="desc">Technical editorial diagram showing an annealing hold in the frozen stage, a pore-size comparison, and the tradeoff between faster primary drying and finished fruit texture.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="52">Annealing Changes the Frozen Map Before Drying Even Starts</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">A controlled hold can open the vapor path and still change the bite the customer feels later.</text>
+
+  <rect x="104" y="286" width="716" height="458" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="142" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">FROZEN-STAGE PROFILE</text>
+
+  <line x1="170" y1="662" x2="760" y2="662" stroke="#4f625f" stroke-width="2"/>
+  <line x1="170" y1="388" x2="170" y2="662" stroke="#4f625f" stroke-width="2"/>
+  <text x="172" y="694" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">time</text>
+  <text x="120" y="396" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">temp</text>
+
+  <path d="M208 424 L330 558 L476 558 L476 504 L624 504 L624 624 L724 624" fill="none" stroke="#17312f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="476" y1="468" x2="476" y2="592" stroke="#e0b05f" stroke-width="3" stroke-dasharray="10 10"/>
+  <text x="230" y="408" fill="#2f4f49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">deep freeze</text>
+  <text x="488" y="480" fill="#9a6b16" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">anneal hold</text>
+  <text x="632" y="650" fill="#2f4f49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">vacuum + primary drying</text>
+
+  <rect x="214" y="448" width="138" height="86" rx="18" fill="#fcfaf6" stroke="#c7bda8"/>
+  <circle cx="250" cy="486" r="10" fill="#88b8aa"/>
+  <circle cx="282" cy="500" r="9" fill="#88b8aa"/>
+  <circle cx="316" cy="480" r="8" fill="#88b8aa"/>
+  <circle cx="334" cy="506" r="7" fill="#88b8aa"/>
+  <text x="230" y="522" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">tight crystal field</text>
+
+  <rect x="508" y="456" width="176" height="108" rx="18" fill="#17312f"/>
+  <circle cx="556" cy="506" r="15" fill="#e0b05f"/>
+  <circle cx="604" cy="506" r="18" fill="#e0b05f"/>
+  <circle cx="654" cy="506" r="13" fill="#e0b05f"/>
+  <text x="528" y="542" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">crystals grow more uniform</text>
+
+  <rect x="860" y="286" width="632" height="458" rx="24" fill="#17312f"/>
+  <text x="896" y="334" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">PORE AND TEXTURE TRADEOFF</text>
+  <text x="896" y="388" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="34">What the hold can change later</text>
+
+  <rect x="900" y="430" width="262" height="248" rx="20" fill="#fcfaf6"/>
+  <rect x="1190" y="430" width="262" height="248" rx="20" fill="#fcfaf6"/>
+  <text x="968" y="462" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">smaller-pore path</text>
+  <text x="1250" y="462" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">larger-pore path</text>
+
+  <circle cx="962" cy="520" r="18" fill="#88b8aa"/>
+  <circle cx="1008" cy="540" r="16" fill="#88b8aa"/>
+  <circle cx="1048" cy="514" r="14" fill="#88b8aa"/>
+  <circle cx="1088" cy="542" r="15" fill="#88b8aa"/>
+  <line x1="944" y1="588" x2="1122" y2="588" stroke="#294643" stroke-width="6" stroke-dasharray="6 12"/>
+  <text x="934" y="628" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">more resistance</text>
+  <text x="934" y="654" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">slower primary drying</text>
+
+  <circle cx="1250" cy="518" r="28" fill="#e0b05f"/>
+  <circle cx="1324" cy="534" r="26" fill="#e0b05f"/>
+  <circle cx="1388" cy="512" r="22" fill="#e0b05f"/>
+  <line x1="1224" y1="588" x2="1416" y2="588" stroke="#17312f" stroke-width="6" stroke-dasharray="12 10"/>
+  <text x="1224" y="628" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">easier vapor path</text>
+  <text x="1224" y="654" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">different bite and fragility</text>
+
+  <rect x="104" y="770" width="1388" height="42" rx="16" fill="#203836"/>
+  <text x="142" y="798" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Useful rule: annealing is not only a time-saver. It is a structure choice that the customer eventually eats.</text>
+</svg>

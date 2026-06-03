@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What USDA freeze-dried fruit specs actually tell you</title>
+  <desc id="desc">An annotated USDA-style freeze-dried fruit specification sheet showing style, color, texture, size tolerance, and analytical requirement callouts.</desc>
+  <rect width="1600" height="900" fill="#f4f1e8"/>
+  <rect x="72" y="72" width="1456" height="756" rx="28" fill="#fffaf1" stroke="#cabda2" stroke-width="2"/>
+  <text x="116" y="138" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="34">Reading a USDA-Style Freeze-Dried Fruit Spec</text>
+  <text x="116" y="176" fill="#7b6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">What the document clarifies and what buyers still need to define themselves</text>
+
+  <rect x="126" y="236" width="650" height="500" rx="28" fill="#fcf6ea" stroke="#d5c7a8"/>
+  <text x="166" y="286" fill="#3f3526" font-family="'Helvetica Neue', Arial, sans-serif" font-size="24" letter-spacing="4">SPEC SHEET</text>
+  <line x1="166" y1="302" x2="736" y2="302" stroke="#c9b78f" stroke-width="2"/>
+
+  <text x="170" y="354" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Style</text>
+  <text x="356" y="354" fill="#2f261b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Sliced strawberries</text>
+  <text x="170" y="402" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Color</text>
+  <text x="356" y="402" fill="#2f261b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Red exterior, pink interior</text>
+  <text x="170" y="450" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Texture</text>
+  <text x="356" y="450" fill="#2f261b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Firm and crunchy</text>
+  <text x="170" y="498" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Tolerance</text>
+  <text x="356" y="498" fill="#2f261b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Defined size / sieve language</text>
+  <text x="170" y="546" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Defects</text>
+  <text x="356" y="546" fill="#2f261b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Foreign material excluded</text>
+  <text x="170" y="594" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Analytics</text>
+  <text x="356" y="594" fill="#2f261b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">Moisture-related release checks</text>
+
+  <rect x="166" y="634" width="572" height="62" rx="16" fill="#efe5d2"/>
+  <text x="192" y="673" fill="#5c5040" font-family="'Helvetica Neue', Arial, sans-serif" font-size="21">Useful because it translates “good quality” into inspectable product language.</text>
+
+  <rect x="850" y="248" width="560" height="160" rx="22" fill="#edf4ef" stroke="#c6d8ce"/>
+  <text x="884" y="300" fill="#23433a" font-family="Georgia, 'Times New Roman', serif" font-size="30">What It Helps With</text>
+  <text x="884" y="344" fill="#4e665c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="21">shared supplier language</text>
+  <text x="884" y="376" fill="#4e665c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="21">cleaner sampling and disputes</text>
+
+  <rect x="850" y="446" width="560" height="210" rx="22" fill="#fffaf0" stroke="#d5c7a8"/>
+  <text x="884" y="498" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="30">What It Does Not Replace</text>
+  <text x="884" y="542" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="21">channel-specific breakage bands</text>
+  <text x="884" y="574" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="21">water activity and pack-structure targets</text>
+  <text x="884" y="606" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="21">the buyer's own premium standard</text>
+
+  <rect x="850" y="696" width="560" height="70" rx="18" fill="#17312f"/>
+  <text x="884" y="740" fill="#fffdf8" font-family="'Helvetica Neue', Arial, sans-serif" font-size="21" font-weight="700">A USDA-style spec is a clarity tool, not a substitute for defining the actual commercial job.</text>
+</svg>

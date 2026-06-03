@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How pressure-rise tests help confirm freeze-dried fruit endpoint</title>
+  <desc id="desc">Technical chart showing chamber isolation, active sublimation pressure rise, near-endpoint pressure response, and final release checks for freeze-dried fruit.</desc>
+  <rect width="1600" height="900" fill="#f4efe5"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf6" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="110" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="110" y="194" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="52">Pressure Rise Reads the Batch, Not Just the Clock</text>
+  <text x="110" y="236" fill="#5e706c" font-family="'Source Serif 4', Georgia, serif" font-size="24">A brief chamber-isolation check helps show whether sublimation is still active or the load is truly nearing endpoint.</text>
+
+  <rect x="108" y="286" width="738" height="454" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="146" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">PRESSURE RESPONSE</text>
+
+  <line x1="160" y1="664" x2="786" y2="664" stroke="#738884" stroke-width="2"/>
+  <line x1="160" y1="396" x2="160" y2="664" stroke="#738884" stroke-width="2"/>
+  <text x="168" y="386" fill="#5e706c" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">pressure</text>
+  <text x="706" y="696" fill="#5e706c" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">time</text>
+
+  <rect x="274" y="396" width="92" height="268" rx="18" fill="#e6d7b8" opacity="0.9"/>
+  <text x="238" y="726" fill="#4e625d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">brief isolation</text>
+
+  <path d="M178 612 C240 612, 256 610, 274 610 C306 610, 322 566, 344 480 C360 418, 382 410, 438 410 C502 410, 550 454, 604 502 C640 534, 688 550, 774 556" fill="none" stroke="#c76e58" stroke-width="8" stroke-linecap="round"/>
+  <path d="M178 624 C248 624, 264 622, 274 622 C304 622, 320 610, 338 590 C368 556, 414 540, 482 536 C568 532, 658 534, 774 538" fill="none" stroke="#7aa89b" stroke-width="8" stroke-linecap="round"/>
+
+  <circle cx="438" cy="410" r="10" fill="#c76e58"/>
+  <text x="462" y="418" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">active sublimation</text>
+  <text x="462" y="446" fill="#5e706c" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">steeper rise = more vapor still leaving fruit</text>
+
+  <circle cx="508" cy="536" r="10" fill="#7aa89b"/>
+  <text x="532" y="544" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">near endpoint</text>
+  <text x="532" y="572" fill="#5e706c" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">flatter rise = drying load is calming down</text>
+
+  <rect x="884" y="286" width="608" height="454" rx="24" fill="#17312f"/>
+  <text x="922" y="334" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">HOW TO READ IT</text>
+  <text x="922" y="386" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="36">One signal inside a larger endpoint system</text>
+
+  <rect x="926" y="430" width="256" height="216" rx="22" fill="#fcfaf6"/>
+  <text x="956" y="476" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">USEFUL FOR</text>
+  <text x="956" y="518" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">active vs slowing sublimation</text>
+  <text x="956" y="552" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">recipe drift checks</text>
+  <text x="956" y="586" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">fruit-specific endpoint support</text>
+
+  <rect x="1210" y="430" width="238" height="216" rx="22" fill="#efe5d2"/>
+  <text x="1240" y="476" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">NOT ENOUGH BY ITSELF</text>
+  <text x="1240" y="518" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">final moisture</text>
+  <text x="1240" y="552" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">water activity</text>
+  <text x="1240" y="586" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">format-specific release</text>
+
+  <rect x="926" y="674" width="522" height="54" rx="16" fill="#e0b05f"/>
+  <text x="956" y="709" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" font-weight="700">Best use: confirm the batch is behaving like it is truly nearing endpoint before unload.</text>
+</svg>

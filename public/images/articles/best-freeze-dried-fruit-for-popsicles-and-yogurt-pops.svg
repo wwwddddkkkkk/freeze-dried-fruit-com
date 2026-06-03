@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Best freeze-dried fruit for popsicles and yogurt pops</title>
+  <desc id="desc">Application diagram comparing freeze-dried fruit powder and small fruit crumble for blended popsicles and layered yogurt pops.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">APPLICATIONS</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="52">Frozen Pops Work Best When the Fruit Job Is Clear</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Powder flavors the whole pop. Fine crumble gives visible fruit without turning the bite awkward.</text>
+
+  <rect x="108" y="286" width="660" height="454" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="146" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">FORMAT CHOICES</text>
+
+  <rect x="152" y="390" width="258" height="280" rx="22" fill="#fcfaf6"/>
+  <text x="208" y="434" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="30">Powder</text>
+  <rect x="220" y="470" width="126" height="126" rx="63" fill="#d7746a"/>
+  <circle cx="283" cy="533" r="44" fill="#cb6258" opacity="0.55"/>
+  <text x="188" y="626" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">smooth base flavor</text>
+  <text x="188" y="654" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">even color spread</text>
+
+  <rect x="462" y="390" width="258" height="280" rx="22" fill="#17312f"/>
+  <text x="520" y="434" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="30">Fine Crumble</text>
+  <circle cx="590" cy="526" r="16" fill="#d7746a"/>
+  <circle cx="624" cy="500" r="14" fill="#7b4f8e"/>
+  <circle cx="562" cy="488" r="12" fill="#e0b05f"/>
+  <circle cx="608" cy="548" r="13" fill="#d7746a"/>
+  <circle cx="552" cy="546" r="11" fill="#7b4f8e"/>
+  <circle cx="634" cy="540" r="10" fill="#e0b05f"/>
+  <text x="500" y="626" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">visible fruit accents</text>
+  <text x="500" y="654" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">smaller, friendlier bite</text>
+
+  <text x="146" y="716" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Skip large snack pieces. Frozen bars reward smaller, more deliberate fruit formats.</text>
+
+  <rect x="816" y="286" width="676" height="454" rx="24" fill="#fffaf1" stroke="#cabda2" stroke-width="2"/>
+  <text x="854" y="334" fill="#3f3526" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">BEST MATCHES</text>
+
+  <rect x="854" y="388" width="284" height="132" rx="20" fill="#edf4ef" stroke="#c6d8ce"/>
+  <text x="886" y="434" fill="#23433a" font-family="'DM Serif Display', Georgia, serif" font-size="28">Water-Based Pops</text>
+  <text x="886" y="472" fill="#4e665c" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">strawberry</text>
+  <text x="886" y="500" fill="#4e665c" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">mango · blueberry</text>
+
+  <rect x="1172" y="388" width="284" height="132" rx="20" fill="#efe5d2" stroke="#d5c7a8"/>
+  <text x="1204" y="434" fill="#3f3526" font-family="'DM Serif Display', Georgia, serif" font-size="28">Yogurt Pops</text>
+  <text x="1204" y="472" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">strawberry</text>
+  <text x="1204" y="500" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">raspberry · mango</text>
+
+  <rect x="854" y="560" width="602" height="126" rx="20" fill="#fcf6ea" stroke="#d5c7a8"/>
+  <text x="886" y="606" fill="#3f3526" font-family="'DM Serif Display', Georgia, serif" font-size="28">Simple Rule</text>
+  <text x="886" y="644" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Blend powder into the base for flavor coverage.</text>
+  <text x="886" y="672" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Fold fine fruit in near the end if visible accents matter.</text>
+
+  <rect x="854" y="706" width="602" height="52" rx="16" fill="#203836"/>
+  <text x="888" y="740" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" font-weight="700">Frozen treats get better when the fruit either blends cleanly or stays intentionally small.</text>
+</svg>

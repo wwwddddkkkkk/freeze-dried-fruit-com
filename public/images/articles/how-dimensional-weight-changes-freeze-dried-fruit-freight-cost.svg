@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How dimensional weight changes freeze-dried fruit freight cost</title>
+  <desc id="desc">A freight-cost diagram comparing actual weight and dimensional weight for low-density freeze-dried fruit shipping cartons.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="110" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="110" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="52">Low-Mass Fruit Can Still Ship Like a Heavy Box</text>
+  <text x="110" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Freeze-dried fruit often pays for cube before it pays for scale weight.</text>
+
+  <rect x="108" y="286" width="668" height="454" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="146" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">ACTUAL VS BILLABLE</text>
+
+  <rect x="154" y="390" width="260" height="278" rx="22" fill="#fcfaf6" stroke="#c8bca7"/>
+  <text x="204" y="434" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="30">Actual Weight</text>
+  <text x="204" y="478" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Light product</text>
+  <text x="204" y="514" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">ex: 8 lb case</text>
+  <rect x="204" y="554" width="160" height="40" rx="12" fill="#7aa89b"/>
+  <text x="262" y="581" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">8 lb</text>
+  <text x="204" y="632" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">What the scale says</text>
+
+  <rect x="470" y="390" width="260" height="278" rx="22" fill="#17312f"/>
+  <text x="520" y="434" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="30">Dim Weight</text>
+  <text x="520" y="478" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Large carton</text>
+  <text x="520" y="514" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">ex: bills at 14 lb</text>
+  <rect x="520" y="554" width="160" height="40" rx="12" fill="#e0b05f"/>
+  <text x="574" y="581" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">14 lb</text>
+  <text x="520" y="632" fill="#d6d9d2" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">What the carrier charges</text>
+
+  <line x1="414" y1="528" x2="470" y2="528" stroke="#bda77b" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="466,510 496,528 466,546" fill="#bda77b"/>
+
+  <text x="146" y="716" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Oversized low-density cartons turn shipping air into billable weight.</text>
+
+  <rect x="822" y="286" width="670" height="454" rx="24" fill="#fffaf1" stroke="#cabda2" stroke-width="2"/>
+  <text x="860" y="334" fill="#3f3526" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">WHAT MOVES THE COST</text>
+
+  <rect x="860" y="386" width="274" height="126" rx="20" fill="#edf4ef" stroke="#c6d8ce"/>
+  <text x="892" y="430" fill="#23433a" font-family="'DM Serif Display', Georgia, serif" font-size="28">Case Cube</text>
+  <text x="892" y="468" fill="#4e665c" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">carton dimensions</text>
+  <text x="892" y="496" fill="#4e665c" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">pouch nesting efficiency</text>
+
+  <rect x="1180" y="386" width="274" height="126" rx="20" fill="#efe5d2" stroke="#d5c7a8"/>
+  <text x="1212" y="430" fill="#3f3526" font-family="'DM Serif Display', Georgia, serif" font-size="28">Protection</text>
+  <text x="1212" y="468" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">void space</text>
+  <text x="1212" y="496" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">crush-risk control</text>
+
+  <rect x="860" y="548" width="274" height="126" rx="20" fill="#efe5d2" stroke="#d5c7a8"/>
+  <text x="892" y="592" fill="#3f3526" font-family="'DM Serif Display', Georgia, serif" font-size="28">Pack Count</text>
+  <text x="892" y="630" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">units per case</text>
+  <text x="892" y="658" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">delivered unit density</text>
+
+  <rect x="1180" y="548" width="274" height="126" rx="20" fill="#edf4ef" stroke="#c6d8ce"/>
+  <text x="1212" y="592" fill="#23433a" font-family="'DM Serif Display', Georgia, serif" font-size="28">Mode</text>
+  <text x="1212" y="630" fill="#4e665c" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">parcel vs LTL</text>
+  <text x="1212" y="658" fill="#4e665c" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">mixed-case vs bulk</text>
+
+  <rect x="860" y="708" width="594" height="52" rx="16" fill="#203836"/>
+  <text x="892" y="742" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" font-weight="700">The better question is not only “What does the case cost?” but “How much protected fruit does this cube deliver?”</text>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Why Approval Samples Drift from Production Lots in Freeze-Dried Fruit</title>
+  <desc id="desc">Commercial comparison layout showing approval sample, pilot lot, and production lot checks for specification, breakage, moisture, packaging, and documentation.</desc>
+  <rect width="1600" height="900" fill="#f5efe4"/>
+  <rect x="68" y="68" width="1464" height="764" rx="30" fill="#fcfaf6" stroke="#d1c4ad" stroke-width="2"/>
+
+  <text x="112" y="138" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="192" fill="#122826" font-family="'DM Serif Display', Georgia, serif" font-size="50">The Sample Is Not the Same Thing as the Program</text>
+  <text x="112" y="232" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Commercial drift starts when one attractive bag stands in for lot, pack, and document control.</text>
+
+  <rect x="108" y="286" width="878" height="458" rx="24" fill="#f3ece0" stroke="#294643" stroke-width="2"/>
+  <text x="144" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">COMPARISON FRAME</text>
+
+  <rect x="144" y="374" width="806" height="320" rx="18" fill="#fcfaf6" stroke="#c7bda8"/>
+  <line x1="144" y1="446" x2="950" y2="446" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="144" y1="518" x2="950" y2="518" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="144" y1="590" x2="950" y2="590" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="354" y1="374" x2="354" y2="694" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="560" y1="374" x2="560" y2="694" stroke="#d4c7b1" stroke-width="2"/>
+  <line x1="766" y1="374" x2="766" y2="694" stroke="#d4c7b1" stroke-width="2"/>
+
+  <text x="168" y="420" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">control point</text>
+  <text x="402" y="420" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">approval sample</text>
+  <text x="620" y="420" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">pilot lot</text>
+  <text x="824" y="420" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">production lot</text>
+
+  <text x="168" y="488" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">format + color</text>
+  <text x="394" y="488" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">looks right</text>
+  <text x="610" y="488" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">check repeatability</text>
+  <text x="814" y="488" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">accept by spec</text>
+
+  <text x="168" y="560" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">breakage + aw</text>
+  <text x="394" y="560" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">snapshot</text>
+  <text x="610" y="560" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">set tolerance</text>
+  <text x="814" y="560" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">release data</text>
+
+  <text x="168" y="632" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">pack + docs</text>
+  <text x="394" y="632" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">often partial</text>
+  <text x="610" y="632" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">validate real pack</text>
+  <text x="814" y="632" fill="#122826" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">must match</text>
+
+  <rect x="144" y="710" width="806" height="18" rx="9" fill="#88b8aa"/>
+
+  <rect x="1030" y="286" width="462" height="458" rx="24" fill="#17312f"/>
+  <text x="1068" y="336" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">WHERE DRIFT STARTS</text>
+
+  <circle cx="1092" cy="420" r="18" fill="#e0b05f"/><text x="1085" y="427" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">1</text>
+  <text x="1128" y="428" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">sample approved without a written SKU</text>
+
+  <circle cx="1092" cy="492" r="18" fill="#e0b05f"/><text x="1085" y="499" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">2</text>
+  <text x="1128" y="500" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">only one lot ever reviewed</text>
+
+  <circle cx="1092" cy="564" r="18" fill="#e0b05f"/><text x="1085" y="571" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">3</text>
+  <text x="1128" y="572" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">packaging treated as an afterthought</text>
+
+  <circle cx="1092" cy="636" r="18" fill="#e0b05f"/><text x="1085" y="643" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">4</text>
+  <text x="1128" y="644" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">documents reviewed after the PO</text>
+
+  <rect x="1080" y="686" width="350" height="24" rx="12" fill="#88b8aa"/>
+
+  <rect x="108" y="768" width="1384" height="44" rx="16" fill="#203836"/>
+  <text x="146" y="797" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Useful rule: approve the commercial meaning of the SKU, not just the beauty of the first bag.</text>
+</svg>

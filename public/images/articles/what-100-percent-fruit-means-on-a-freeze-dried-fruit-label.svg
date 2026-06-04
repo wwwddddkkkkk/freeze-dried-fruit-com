@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What 100% fruit means on a freeze-dried fruit label</title>
+  <desc id="desc">Annotated freeze-dried fruit pouch showing the relationship between a 100 percent fruit claim, statement of identity, ingredient list, and added-ingredient warnings.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="52">The Claim Only Works If the Ingredient Line Agrees</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Read the identity, then the formula, then the panel.</text>
+
+  <g transform="translate(122 286)">
+    <rect width="520" height="456" rx="28" fill="#fffdf8" stroke="#c7bda8" stroke-width="2"/>
+    <path d="M108 44h256l48 48v250c0 34-28 62-62 62H148c-34 0-62-28-62-62V106c0-34 28-62 62-62z" fill="#f7f1e6" stroke="#d4c7b1" stroke-width="2"/>
+    <text x="134" y="140" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">100% FRUIT</text>
+    <text x="134" y="184" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="34">Freeze-Dried Strawberries</text>
+    <rect x="134" y="222" width="210" height="38" rx="12" fill="#88b8aa"/>
+    <text x="184" y="247" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">plain product</text>
+    <text x="134" y="302" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Ingredients: strawberries</text>
+    <text x="134" y="338" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">No sweeteners, flavors, or oils</text>
+  </g>
+
+  <rect x="706" y="286" width="730" height="456" rx="24" fill="#17312f"/>
+  <text x="744" y="336" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">READ ORDER</text>
+
+  <rect x="744" y="384" width="654" height="252" rx="20" fill="#fcfaf6"/>
+  <text x="776" y="436" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">1. Statement of identity</text>
+  <text x="776" y="474" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">What the product says it is</text>
+
+  <text x="776" y="530" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">2. Ingredient list</text>
+  <text x="776" y="568" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Should confirm fruit only, in plain language</text>
+
+  <text x="776" y="624" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">3. Nutrition Facts</text>
+  <text x="776" y="662" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Check for added-sugar or formula signals</text>
+
+  <rect x="744" y="676" width="654" height="34" rx="17" fill="#c77b62"/>
+  <text x="776" y="699" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" font-weight="700">Slow down if you see juice concentrate, syrup, flavor, oil, or carrier ingredients.</text>
+
+  <rect x="104" y="768" width="1388" height="44" rx="16" fill="#203836"/>
+  <text x="146" y="797" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Useful rule: “100% fruit” should simplify the ingredient line, not make you work harder to decode it.</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Best Freeze-Dried Fruit for Toast, Bagels, and Ricotta Boards</title>
+  <desc id="desc">Illustrated breakfast-style board comparing freeze-dried strawberry, blueberry, apple, and raspberry for toast, bagels, and ricotta boards.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f1e6"/>
+      <stop offset="100%" stop-color="#ece2cf"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#61747c}
+      .title{font:700 54px 'Source Serif 4',Georgia,serif}
+      .label{font:600 28px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .body{font:500 26px 'Source Sans 3',Arial,sans-serif}
+      .small{font:500 22px 'Source Sans 3',Arial,sans-serif}
+      .mono{font:600 22px 'JetBrains Mono',monospace}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="118" class="label ink">Applications</text>
+  <text x="96" y="188" class="title ink">Fruit that works on spreads, not just in bowls</text>
+  <text x="96" y="230" class="small muted">Choose for bite control, crunch hold, and contrast over ricotta or cream cheese.</text>
+
+  <rect x="96" y="286" width="690" height="472" rx="26" class="panel"/>
+  <rect x="820" y="286" width="684" height="472" rx="26" class="panel"/>
+
+  <text x="136" y="344" class="label ink">Serving Board</text>
+
+  <rect x="158" y="412" width="212" height="142" rx="24" fill="#d7a96e" stroke="#17313b" stroke-width="3"/>
+  <rect x="190" y="438" width="148" height="86" rx="18" fill="#fff8ee"/>
+  <path d="M222 470c20-16 48-22 74-10 18 8 30 28 22 46-10 20-36 28-64 26-34-4-56-22-54-44 2-8 10-14 22-18z" fill="#db664a" stroke="#17313b" stroke-width="3"/>
+  <circle cx="310" cy="474" r="16" fill="#41578f" stroke="#17313b" stroke-width="3"/>
+  <path d="M244 518l30-18 26 16-28 20z" fill="#efc98f" stroke="#17313b" stroke-width="3"/>
+
+  <circle cx="520" cy="482" r="90" fill="#d0a071" stroke="#17313b" stroke-width="3"/>
+  <circle cx="520" cy="482" r="42" fill="#f7efe4"/>
+  <path d="M450 482c0-34 30-62 70-62s70 28 70 62-30 62-70 62-70-28-70-62z" fill="none" stroke="#fff8ee" stroke-width="24"/>
+  <circle cx="470" cy="448" r="14" fill="#41578f" stroke="#17313b" stroke-width="3"/>
+  <circle cx="566" cy="452" r="14" fill="#db664a" stroke="#17313b" stroke-width="3"/>
+  <circle cx="518" cy="530" r="14" fill="#c24355" stroke="#17313b" stroke-width="3"/>
+
+  <rect x="192" y="618" width="390" height="72" rx="18" fill="#fff8ee" stroke="#17313b" stroke-width="2"/>
+  <text x="222" y="660" class="body ink">Strawberry · Blueberry · Apple · Raspberry</text>
+
+  <text x="858" y="344" class="label ink">Quick Read</text>
+
+  <text x="858" y="408" class="body ink">Strawberry</text>
+  <rect x="1048" y="386" width="214" height="18" rx="9" fill="#db664a"/>
+  <text x="1286" y="408" class="small muted">best all-around</text>
+
+  <text x="858" y="478" class="body ink">Blueberry</text>
+  <rect x="1048" y="456" width="192" height="18" rx="9" fill="#41578f"/>
+  <text x="1264" y="478" class="small muted">tidy on spreads</text>
+
+  <text x="858" y="548" class="body ink">Apple</text>
+  <rect x="1048" y="526" width="228" height="18" rx="9" fill="#efc98f"/>
+  <text x="1300" y="548" class="small muted">holds crunch best</text>
+
+  <text x="858" y="618" class="body ink">Raspberry</text>
+  <rect x="1048" y="596" width="170" height="18" rx="9" fill="#c24355"/>
+  <text x="1242" y="618" class="small muted">use as tart accent</text>
+
+  <text x="858" y="694" class="body ink">Rule:</text>
+  <text x="938" y="694" class="small ink">Use smaller pieces and add them last.</text>
+  <text x="938" y="728" class="small ink">Soft spread underneath always wins with time.</text>
+</svg>

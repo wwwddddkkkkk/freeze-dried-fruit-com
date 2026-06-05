@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to read Percent Daily Value on freeze-dried fruit labels</title>
+  <desc id="desc">Annotated Nutrition Facts panel showing Percent Daily Value, serving size, fiber, potassium, and added sugars for freeze-dried fruit.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="66" y="56" width="1468" height="788" rx="30" fill="#fcfaf6" stroke="#d0c4b5" stroke-width="2"/>
+
+  <text x="114" y="126" fill="#5b4d2d" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="114" y="188" fill="#2b261c" font-family="'DM Serif Display', Georgia, serif" font-size="52">%DV is a reading tool, not the whole answer.</text>
+  <text x="114" y="228" fill="#6f6a60" font-family="'Source Serif 4', Georgia, serif" font-size="24">Serving size and ingredient context still decide what the numbers mean.</text>
+
+  <rect x="110" y="286" width="574" height="482" rx="26" fill="#fffdf9" stroke="#2f312d" stroke-width="3"/>
+  <text x="148" y="340" fill="#111111" font-family="'Source Sans 3', Arial, sans-serif" font-size="44" font-weight="700">Nutrition Facts</text>
+  <line x1="148" y1="360" x2="646" y2="360" stroke="#111111" stroke-width="8"/>
+  <text x="148" y="402" fill="#111111" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" font-weight="700">Serving size 1 oz (28g)</text>
+  <text x="148" y="436" fill="#444444" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">About 2 servings per container</text>
+  <line x1="148" y1="456" x2="646" y2="456" stroke="#111111" stroke-width="2"/>
+
+  <text x="148" y="504" fill="#111111" font-family="'Source Sans 3', Arial, sans-serif" font-size="28">Dietary Fiber 5g</text>
+  <text x="592" y="504" fill="#111111" font-family="'Source Sans 3', Arial, sans-serif" font-size="28" text-anchor="end">18%</text>
+  <line x1="148" y1="522" x2="646" y2="522" stroke="#c6beb0" stroke-width="2"/>
+
+  <text x="148" y="566" fill="#111111" font-family="'Source Sans 3', Arial, sans-serif" font-size="28">Potassium 310mg</text>
+  <text x="592" y="566" fill="#111111" font-family="'Source Sans 3', Arial, sans-serif" font-size="28" text-anchor="end">6%</text>
+  <line x1="148" y1="584" x2="646" y2="584" stroke="#c6beb0" stroke-width="2"/>
+
+  <text x="148" y="628" fill="#111111" font-family="'Source Sans 3', Arial, sans-serif" font-size="28">Total Sugars 17g</text>
+  <text x="528" y="628" fill="#777777" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">no %DV</text>
+  <line x1="148" y1="646" x2="646" y2="646" stroke="#c6beb0" stroke-width="2"/>
+
+  <text x="184" y="690" fill="#111111" font-family="'Source Sans 3', Arial, sans-serif" font-size="28">Includes 0g Added Sugars</text>
+  <text x="592" y="690" fill="#111111" font-family="'Source Sans 3', Arial, sans-serif" font-size="28" text-anchor="end">0%</text>
+
+  <rect x="746" y="286" width="716" height="482" rx="26" fill="#17312f"/>
+  <text x="788" y="340" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">HOW TO READ IT</text>
+
+  <rect x="788" y="382" width="298" height="116" rx="18" fill="#fcfaf6"/>
+  <text x="820" y="420" fill="#23413c" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">1. Serving size first</text>
+  <text x="820" y="452" fill="#62716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">small-looking fruit can still be concentrated</text>
+
+  <rect x="1118" y="382" width="298" height="116" rx="18" fill="#fcfaf6"/>
+  <text x="1150" y="420" fill="#23413c" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">2. Choose the right line</text>
+  <text x="1150" y="452" fill="#62716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">fiber, potassium, sodium, Added Sugars</text>
+
+  <rect x="788" y="536" width="628" height="154" rx="18" fill="#fcfaf6"/>
+  <text x="820" y="576" fill="#23413c" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">QUICK FDA SHORTCUT</text>
+  <text x="820" y="620" fill="#62716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">5% DV or less = low</text>
+  <text x="820" y="652" fill="#62716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">20% DV or more = high</text>
+  <text x="1090" y="636" fill="#9b7844" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">good tool, but only after context</text>
+
+  <rect x="110" y="784" width="1350" height="38" rx="14" fill="#2c2d28"/>
+  <text x="144" y="809" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="700">Useful rule: %DV helps compare nutrients. It does not replace serving size or ingredient reading.</text>
+</svg>

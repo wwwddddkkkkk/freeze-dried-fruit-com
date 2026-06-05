@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How tariff classification changes freeze-dried fruit import costs</title>
+  <desc id="desc">Commercial matrix showing freeze-dried fruit tariff classification paths, chapter analysis, and landed-cost consequences.</desc>
+  <rect width="1600" height="900" fill="#f5efe4"/>
+  <rect x="60" y="58" width="1480" height="784" rx="30" fill="#fcfaf7" stroke="#d2c6b6" stroke-width="2"/>
+
+  <text x="110" y="126" fill="#233a45" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="110" y="188" fill="#162d34" font-family="'DM Serif Display', Georgia, serif" font-size="52">The import cost starts with what customs thinks the product is.</text>
+  <text x="110" y="228" fill="#62737a" font-family="'Source Serif 4', Georgia, serif" font-size="24">Classification logic can change the path before the shipment ever reaches the warehouse.</text>
+
+  <rect x="108" y="286" width="540" height="460" rx="26" fill="#fffdf8" stroke="#23424a" stroke-width="2"/>
+  <rect x="690" y="286" width="802" height="460" rx="26" fill="#17313b"/>
+
+  <text x="146" y="334" fill="#23424a" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">FACT PATTERN</text>
+  <rect x="146" y="372" width="464" height="86" rx="18" fill="#eef2ef" stroke="#c6d3cd"/>
+  <text x="176" y="408" fill="#23424a" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">plain fruit?</text>
+  <text x="176" y="436" fill="#65756f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">or sweetened, blended, or further prepared?</text>
+
+  <rect x="146" y="482" width="464" height="86" rx="18" fill="#eef2ef" stroke="#c6d3cd"/>
+  <text x="176" y="518" fill="#23424a" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">origin facts?</text>
+  <text x="176" y="546" fill="#65756f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">growing country, processing steps, repack, blend</text>
+
+  <rect x="146" y="592" width="464" height="116" rx="18" fill="#eef2ef" stroke="#c6d3cd"/>
+  <text x="176" y="628" fill="#23424a" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">entry discipline</text>
+  <text x="176" y="656" fill="#65756f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">broker instructions</text>
+  <text x="176" y="684" fill="#65756f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">ruling history</text>
+
+  <text x="728" y="334" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">CLASSIFICATION DECISION PATH</text>
+  <rect x="728" y="372" width="330" height="132" rx="20" fill="#fcfaf6"/>
+  <text x="760" y="412" fill="#23424a" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Chapter 8 style analysis</text>
+  <text x="760" y="446" fill="#65756f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">plain dried-fruit logic</text>
+  <text x="760" y="474" fill="#65756f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">facts still must fit</text>
+
+  <rect x="1102" y="372" width="330" height="132" rx="20" fill="#fcfaf6"/>
+  <text x="1134" y="412" fill="#23424a" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Chapter 20 style analysis</text>
+  <text x="1134" y="446" fill="#65756f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">prepared or preserved logic</text>
+  <text x="1134" y="474" fill="#65756f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">added prep can matter</text>
+
+  <path d="M1066 438 L1086 438" stroke="#d7b36f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1078 426 L1092 438 L1078 450" fill="none" stroke="#d7b36f" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="728" y="552" width="704" height="154" rx="20" fill="#fcfaf6"/>
+  <text x="760" y="592" fill="#23424a" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">WHY BUYERS FEEL IT</text>
+  <text x="760" y="634" fill="#65756f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">duty assumptions shift</text>
+  <text x="760" y="664" fill="#65756f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">quote comparisons stop matching</text>
+  <text x="1092" y="634" fill="#65756f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">broker instructions change</text>
+  <text x="1092" y="664" fill="#65756f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">post-entry risk grows</text>
+
+  <rect x="108" y="778" width="1384" height="40" rx="14" fill="#203842"/>
+  <text x="144" y="804" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="700">Useful rule: if the product definition is fuzzy, the landed-cost model is probably fuzzy too.</text>
+</svg>

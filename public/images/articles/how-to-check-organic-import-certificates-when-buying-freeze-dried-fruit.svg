@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to check organic import certificates when buying freeze-dried fruit</title>
+  <desc id="desc">Industry workflow diagram showing an imported freeze-dried fruit shipment matched to a USDA organic import certificate and release checks.</desc>
+  <rect width="1600" height="900" fill="#f5efe4"/>
+  <rect x="72" y="70" width="1456" height="760" rx="30" fill="#fcfaf6" stroke="#203836" stroke-width="2.5"/>
+  <text x="112" y="146" fill="#203836" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="198" fill="#122826" font-family="'DM Serif Display', Georgia, serif" font-size="52">Imported Organic Fruit Needs Shipment-Level Proof, Not Just a Seal</text>
+  <text x="112" y="238" fill="#516360" font-family="'Source Serif 4', Georgia, serif" font-size="24">Treat the NOP Import Certificate as a release document for imported freeze-dried fruit.</text>
+
+  <rect x="108" y="292" width="628" height="430" rx="24" fill="#f3ece0" stroke="#294643" stroke-width="2"/>
+  <text x="142" y="338" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">SHIPMENT CHECK</text>
+  <rect x="142" y="376" width="560" height="300" rx="20" fill="#fcfaf6" stroke="#c7bda8"/>
+  <text x="174" y="426" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Product</text>
+  <text x="394" y="426" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">Organic freeze-dried mango dices</text>
+  <text x="174" y="470" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Importer</text>
+  <text x="394" y="470" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">Buyer of record matches file</text>
+  <text x="174" y="514" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Shipment link</text>
+  <text x="394" y="514" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">Certificate tied to this load</text>
+  <text x="174" y="558" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Disposition</text>
+  <text x="394" y="558" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">Release only when matched</text>
+  <rect x="174" y="602" width="488" height="40" rx="14" fill="#88b8aa"/>
+  <text x="194" y="629" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Request the document before inventory is treated as cleared organic stock.</text>
+
+  <rect x="804" y="292" width="688" height="430" rx="24" fill="#17312f"/>
+  <text x="840" y="338" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">CERTIFICATE REVIEW</text>
+  <text x="840" y="390" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="34">Five release checks</text>
+
+  <circle cx="874" cy="448" r="18" fill="#e0b05f"/><text x="867" y="455" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">1</text>
+  <text x="910" y="456" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">Request the NOP Import Certificate early</text>
+  <circle cx="874" cy="506" r="18" fill="#e0b05f"/><text x="867" y="513" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">2</text>
+  <text x="910" y="514" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">Match product and importer identity</text>
+  <circle cx="874" cy="564" r="18" fill="#e0b05f"/><text x="867" y="571" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">3</text>
+  <text x="910" y="572" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">Confirm certifier and organic scope</text>
+  <circle cx="874" cy="622" r="18" fill="#e0b05f"/><text x="867" y="629" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">4</text>
+  <text x="910" y="630" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">Check shipment-level consistency</text>
+  <circle cx="874" cy="680" r="18" fill="#e0b05f"/><text x="867" y="687" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">5</text>
+  <text x="910" y="688" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">Hold any mismatch until clarified</text>
+
+  <rect x="1180" y="422" width="264" height="236" rx="22" fill="#fcfaf6"/>
+  <text x="1218" y="470" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">RESULT</text>
+  <rect x="1218" y="504" width="188" height="42" rx="12" fill="#88b8aa"/>
+  <text x="1288" y="532" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">RELEASE</text>
+  <rect x="1218" y="564" width="188" height="42" rx="12" fill="#e0b05f"/>
+  <text x="1298" y="592" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">HOLD</text>
+  <text x="1222" y="636" fill="#516360" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Paperwork should follow the shipment,</text>
+  <text x="1222" y="660" fill="#516360" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">not merely exist somewhere upstream.</text>
+</svg>

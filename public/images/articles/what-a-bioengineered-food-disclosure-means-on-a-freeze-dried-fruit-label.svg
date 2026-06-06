@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What a bioengineered food disclosure means on a freeze-dried fruit label</title>
+  <desc id="desc">Annotated label diagram showing a USDA bioengineered disclosure, fruit identity, and ingredient-list context on a freeze-dried fruit package.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="52">A Bioengineered Disclosure Is a Label Signal, Not a Quality Warning</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">The useful read combines the disclosure line, the fruit identity, and the ingredient list.</text>
+
+  <rect x="104" y="286" width="650" height="456" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="142" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">PACKAGE PANEL</text>
+  <rect x="182" y="372" width="494" height="300" rx="28" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="250" y="436" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="42">Freeze-Dried Fruit Blend</text>
+  <rect x="244" y="474" width="372" height="54" rx="18" fill="#17312f"/>
+  <text x="292" y="509" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="26">bioengineered food</text>
+  <text x="246" y="578" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Ingredients:</text>
+  <text x="246" y="612" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">fruit blend, added ingredients if any,</text>
+  <text x="246" y="642" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="23">and the actual product identity still matter.</text>
+  <line x1="618" y1="500" x2="726" y2="452" stroke="#c77b62" stroke-width="3"/>
+  <line x1="514" y1="592" x2="726" y2="592" stroke="#88b8aa" stroke-width="3"/>
+
+  <rect x="828" y="286" width="664" height="456" rx="24" fill="#17312f"/>
+  <text x="864" y="334" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">HOW TO READ IT</text>
+  <circle cx="900" cy="408" r="18" fill="#e0b05f"/><text x="893" y="415" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">1</text>
+  <text x="936" y="416" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">It is a USDA disclosure outcome</text>
+  <circle cx="900" cy="472" r="18" fill="#e0b05f"/><text x="893" y="479" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">2</text>
+  <text x="936" y="480" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">It is not a safety or freshness warning</text>
+  <circle cx="900" cy="536" r="18" fill="#e0b05f"/><text x="893" y="543" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">3</text>
+  <text x="936" y="544" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">Fruit identity decides the real context</text>
+  <circle cx="900" cy="600" r="18" fill="#e0b05f"/><text x="893" y="607" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">4</text>
+  <text x="936" y="608" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="25">Ingredient list still does essential work</text>
+  <rect x="1018" y="390" width="402" height="246" rx="22" fill="#fcfaf6"/>
+  <text x="1054" y="438" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">USEFUL RULE</text>
+  <text x="1054" y="488" fill="#102725" font-family="'DM Serif Display', Georgia, serif" font-size="30">Read the bag in sequence:</text>
+  <text x="1054" y="536" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">fruit identity</text>
+  <text x="1200" y="536" fill="#88b8aa" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">→</text>
+  <text x="1240" y="536" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">ingredient list</text>
+  <text x="1054" y="578" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">disclosure line</text>
+  <text x="1200" y="578" fill="#88b8aa" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">→</text>
+  <text x="1240" y="578" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">product meaning</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Why WVTR and OTR test conditions matter when comparing freeze-dried fruit pouches</title>
+  <desc id="desc">Technical packaging diagram comparing freeze-dried fruit pouch barrier readings under different test conditions for water vapor and oxygen transmission.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="50">Barrier Numbers Only Work When the Test Conditions Travel With Them</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">For freeze-dried fruit pouches, the smaller number is not automatically the stronger answer.</text>
+
+  <rect x="104" y="290" width="658" height="430" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="142" y="338" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">SUPPLIER A</text>
+  <text x="142" y="382" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="34">Low number, thin context</text>
+  <rect x="142" y="420" width="582" height="246" rx="20" fill="#fcfaf6" stroke="#c7bda8"/>
+  <text x="174" y="468" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">WVTR</text>
+  <text x="328" y="468" fill="#102725" font-family="'JetBrains Mono', monospace" font-size="24">0.08 g/m²/day</text>
+  <text x="174" y="514" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">OTR</text>
+  <text x="328" y="514" fill="#102725" font-family="'JetBrains Mono', monospace" font-size="24">0.6 cc/m²/day</text>
+  <text x="174" y="572" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Method / conditions</text>
+  <text x="328" y="572" fill="#8d5c18" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">not stated clearly</text>
+  <text x="174" y="626" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Looks impressive, but the comparison is incomplete until method,</text>
+  <text x="174" y="652" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">temperature, humidity, and units match the competing spec.</text>
+
+  <rect x="838" y="290" width="658" height="430" rx="24" fill="#17312f"/>
+  <text x="876" y="338" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">SUPPLIER B</text>
+  <text x="876" y="382" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="34">Slightly higher number, full context</text>
+  <rect x="876" y="420" width="582" height="246" rx="20" fill="#fcfaf6"/>
+  <text x="908" y="468" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">WVTR</text>
+  <text x="1080" y="468" fill="#102725" font-family="'JetBrains Mono', monospace" font-size="24">0.11 g/m²/day</text>
+  <text x="908" y="514" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">OTR</text>
+  <text x="1080" y="514" fill="#102725" font-family="'JetBrains Mono', monospace" font-size="24">0.8 cc/m²/day</text>
+  <text x="908" y="560" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Method</text>
+  <text x="1080" y="560" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">ASTM F1249 / F1927</text>
+  <text x="908" y="600" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Conditions</text>
+  <text x="1080" y="600" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">temperature and RH stated</text>
+  <text x="908" y="644" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">The barrier read becomes commercially usable once the lab frame</text>
+  <text x="908" y="670" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">is visible and the pouch structure can be compared fairly.</text>
+
+  <rect x="104" y="752" width="1392" height="48" rx="18" fill="#203836"/>
+  <text x="142" y="783" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Useful rule: compare barrier numbers only after method, temperature, humidity, and package context line up.</text>
+</svg>

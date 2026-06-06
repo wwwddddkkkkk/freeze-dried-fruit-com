@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Best freeze-dried fruit for backpacking breakfasts and camp snacks</title>
+  <desc id="desc">Application matrix comparing freeze-dried fruit choices for backpacking oatmeal, trail snacking, and camp desserts.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">APPLICATIONS</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="52">Backpacking Fruit Has to Survive Miles, Mugs, and Morning Damp Air</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">The best camp fruit depends on whether the job is oatmeal flavor, direct snacking, or a sweeter trail reward.</text>
+
+  <rect x="104" y="290" width="1392" height="434" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="142" y="338" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">TRAIL USE MATRIX</text>
+
+  <rect x="142" y="384" width="300" height="292" rx="20" fill="#ffffff" stroke="#c7bda8"/>
+  <text x="180" y="432" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="34">Apple</text>
+  <text x="180" y="478" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Best all-around choice</text>
+  <text x="180" y="526" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">oatmeal</text>
+  <text x="294" y="526" fill="#88b8aa" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">●●●</text>
+  <text x="180" y="564" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">snacking</text>
+  <text x="294" y="564" fill="#88b8aa" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">●●●</text>
+  <text x="180" y="602" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">dessert lift</text>
+  <text x="294" y="602" fill="#e0b05f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">●●</text>
+
+  <rect x="468" y="384" width="300" height="292" rx="20" fill="#ffffff" stroke="#c7bda8"/>
+  <text x="506" y="432" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="34">Blueberry</text>
+  <text x="506" y="478" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Compact breakfast fruit</text>
+  <text x="506" y="526" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">oatmeal</text>
+  <text x="620" y="526" fill="#88b8aa" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">●●●</text>
+  <text x="506" y="564" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">snacking</text>
+  <text x="620" y="564" fill="#88b8aa" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">●●</text>
+  <text x="506" y="602" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">dessert lift</text>
+  <text x="620" y="602" fill="#e0b05f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">●●</text>
+
+  <rect x="794" y="384" width="300" height="292" rx="20" fill="#ffffff" stroke="#c7bda8"/>
+  <text x="832" y="432" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="34">Strawberry</text>
+  <text x="832" y="478" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Fast flavor, fragile looks</text>
+  <text x="832" y="526" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">oatmeal</text>
+  <text x="946" y="526" fill="#88b8aa" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">●●●</text>
+  <text x="832" y="564" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">snacking</text>
+  <text x="946" y="564" fill="#c77b62" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">●</text>
+  <text x="832" y="602" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">dessert lift</text>
+  <text x="946" y="602" fill="#e0b05f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">●●●</text>
+
+  <rect x="1120" y="384" width="300" height="292" rx="20" fill="#ffffff" stroke="#c7bda8"/>
+  <text x="1158" y="432" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="34">Mango</text>
+  <text x="1158" y="478" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Trail reward snack</text>
+  <text x="1158" y="526" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">oatmeal</text>
+  <text x="1272" y="526" fill="#e0b05f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">●●</text>
+  <text x="1158" y="564" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">snacking</text>
+  <text x="1272" y="564" fill="#88b8aa" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">●●●</text>
+  <text x="1158" y="602" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">dessert lift</text>
+  <text x="1272" y="602" fill="#e0b05f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">●●●</text>
+
+  <rect x="104" y="752" width="1392" height="48" rx="18" fill="#203836"/>
+  <text x="142" y="783" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Portion the fruit by day: less crushing, less humidity pickup, and better trail morale.</text>
+</svg>

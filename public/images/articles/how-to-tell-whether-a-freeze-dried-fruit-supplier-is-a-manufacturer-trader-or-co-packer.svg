@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to tell whether a freeze-dried fruit supplier is a manufacturer, trader, or co-packer</title>
+  <desc id="desc">Supplier-role matrix comparing manufacturer, trader, and co-packer across facility control, lot-code ownership, import role, and complaint handling.</desc>
+  <rect width="1600" height="900" fill="#f5efe4"/>
+  <rect x="72" y="70" width="1456" height="760" rx="30" fill="#fcfaf6" stroke="#203836" stroke-width="2.5"/>
+  <text x="112" y="146" fill="#203836" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="198" fill="#122826" font-family="'DM Serif Display', Georgia, serif" font-size="52">Map the Role Before You Approve the Supplier</text>
+  <text x="112" y="238" fill="#516360" font-family="'Source Serif 4', Georgia, serif" font-size="24">The same company can sell the fruit, pack the pouch, or simply intermediate the deal. Buyers should know which job it is actually doing.</text>
+
+  <rect x="108" y="292" width="1384" height="432" rx="24" fill="#f3ece0" stroke="#294643" stroke-width="2"/>
+  <text x="144" y="338" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">ROLE MATRIX</text>
+
+  <rect x="144" y="374" width="286" height="308" rx="20" fill="#17312f"/>
+  <text x="180" y="424" fill="#f7f0e4" font-family="'DM Serif Display', Georgia, serif" font-size="34">Manufacturer</text>
+  <text x="180" y="472" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">controls the drying site</text>
+  <text x="180" y="510" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">strongest process answers</text>
+  <text x="180" y="548" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">usually close to lot release</text>
+  <rect x="180" y="590" width="202" height="42" rx="12" fill="#88b8aa"/>
+  <text x="206" y="618" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">ask about cycle control</text>
+
+  <rect x="458" y="374" width="286" height="308" rx="20" fill="#efe5d2"/>
+  <text x="494" y="424" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="34">Trader</text>
+  <text x="494" y="472" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">aggregates supply options</text>
+  <text x="494" y="510" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">strong on logistics and docs</text>
+  <text x="494" y="548" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">may not touch the product</text>
+  <rect x="494" y="590" width="194" height="42" rx="12" fill="#e0b05f"/>
+  <text x="520" y="618" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">ask who actually makes it</text>
+
+  <rect x="772" y="374" width="286" height="308" rx="20" fill="#fcfaf6" stroke="#d4c7b1"/>
+  <text x="808" y="424" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="34">Co-Packer</text>
+  <text x="808" y="472" fill="#516360" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">controls the finished pack</text>
+  <text x="808" y="510" fill="#516360" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">artwork, fill, and assembly</text>
+  <text x="808" y="548" fill="#516360" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">may not dry the fruit itself</text>
+  <rect x="808" y="590" width="188" height="42" rx="12" fill="#dce9e4"/>
+  <text x="834" y="618" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">ask who owns the lot code</text>
+
+  <rect x="1090" y="374" width="362" height="308" rx="20" fill="#17312f"/>
+  <text x="1126" y="424" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">BUYER CHECKS</text>
+  <circle cx="1148" cy="478" r="16" fill="#e0b05f"/><text x="1142" y="484" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">1</text>
+  <text x="1178" y="486" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Who freeze-dries the fruit?</text>
+  <circle cx="1148" cy="528" r="16" fill="#e0b05f"/><text x="1142" y="534" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">2</text>
+  <text x="1178" y="536" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Who fills the final pack?</text>
+  <circle cx="1148" cy="578" r="16" fill="#e0b05f"/><text x="1142" y="584" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">3</text>
+  <text x="1178" y="586" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Who assigns the lot code?</text>
+  <circle cx="1148" cy="628" r="16" fill="#e0b05f"/><text x="1142" y="634" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">4</text>
+  <text x="1178" y="636" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Who owns import / complaint risk?</text>
+
+  <rect x="108" y="748" width="1384" height="52" rx="16" fill="#88b8aa"/>
+  <text x="140" y="782" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" font-weight="700">Best file format: list the manufacturing site, packing site, lot-code source, and escalation owner for the exact SKU.</text>
+</svg>

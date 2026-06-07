@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Why collapse temperature limits freeze-dried fruit cycle speed</title>
+  <desc id="desc">Technical chart showing product temperature during freeze-drying held below collapse temperature, with a safe operating margin and a structural-risk zone above it.</desc>
+  <rect width="1600" height="900" fill="#f4efe5"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf6" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="110" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="110" y="194" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="52">The Fastest Cycle Still Has a Structural Ceiling</text>
+  <text x="110" y="236" fill="#5e706c" font-family="'Source Serif 4', Georgia, serif" font-size="24">Collapse temperature is the line that separates useful heat from the risk of weaker porosity and softer finished fruit.</text>
+
+  <rect x="108" y="286" width="760" height="456" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="144" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">PRIMARY DRYING WINDOW</text>
+
+  <line x1="162" y1="666" x2="810" y2="666" stroke="#738884" stroke-width="2"/>
+  <line x1="162" y1="394" x2="162" y2="666" stroke="#738884" stroke-width="2"/>
+  <text x="170" y="384" fill="#5e706c" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">temperature</text>
+  <text x="738" y="698" fill="#5e706c" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">time</text>
+
+  <rect x="182" y="442" width="608" height="150" rx="18" fill="#dce9e4"/>
+  <rect x="182" y="378" width="608" height="52" rx="14" fill="#e3b36c"/>
+  <rect x="182" y="318" width="608" height="48" rx="14" fill="#d56f61"/>
+
+  <text x="208" y="351" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">collapse-risk zone</text>
+  <text x="208" y="412" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">critical limit: collapse temperature</text>
+  <text x="208" y="476" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">safe product-temperature margin</text>
+
+  <path d="M184 612 C250 612, 302 606, 348 594 C404 578, 446 560, 488 532 C540 498, 592 474, 640 462 C688 450, 734 450, 790 456" fill="none" stroke="#234c46" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="640" cy="462" r="12" fill="#234c46"/>
+  <line x1="640" y1="462" x2="706" y2="398" stroke="#234c46" stroke-width="3"/>
+  <text x="720" y="392" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">aggressive but still safe</text>
+  <text x="720" y="420" fill="#5e706c" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">product stays below collapse-risk line</text>
+
+  <path d="M184 624 C276 624, 338 620, 396 606 C472 588, 534 556, 594 510 C658 462, 716 404, 790 336" fill="none" stroke="#d56f61" stroke-width="7" stroke-linecap="round" stroke-dasharray="16 16"/>
+  <text x="554" y="318" fill="#8e4136" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">too much heat can outrun structure</text>
+
+  <rect x="904" y="286" width="588" height="456" rx="24" fill="#17312f"/>
+  <text x="940" y="334" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">WHAT THE LIMIT PROTECTS</text>
+  <text x="940" y="388" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="36">Texture depends on staying below it</text>
+
+  <rect x="940" y="432" width="250" height="210" rx="22" fill="#fcfaf6"/>
+  <text x="972" y="476" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">WHEN MARGIN HOLDS</text>
+  <text x="972" y="520" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">open pore structure</text>
+  <text x="972" y="554" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">cleaner vapor escape</text>
+  <text x="972" y="588" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">crisper final bite</text>
+
+  <rect x="1216" y="432" width="236" height="210" rx="22" fill="#efe5d2"/>
+  <text x="1246" y="476" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">WHEN IT IS CROSSED</text>
+  <text x="1246" y="520" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">denser structure</text>
+  <text x="1246" y="554" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">weaker porosity</text>
+  <text x="1246" y="588" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">softer texture risk</text>
+
+  <rect x="940" y="674" width="512" height="52" rx="16" fill="#88b8aa"/>
+  <text x="970" y="708" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" font-weight="700">Real control target: product temperature by fruit, cut, and loading pattern.</text>
+</svg>

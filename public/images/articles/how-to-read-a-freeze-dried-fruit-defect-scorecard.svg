@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to read a freeze-dried fruit defect scorecard</title>
+  <desc id="desc">Quality scorecard showing defect bands for package condition, color drift, soft pieces, breakage, fines, and foreign material in freeze-dried fruit review.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="52">A Good Lot Review Needs Categories, Not Vibes</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Separate commercial drift from true escalation defects before the lot is approved.</text>
+
+  <rect x="104" y="286" width="648" height="456" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="142" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">DEFECT SCORECARD</text>
+
+  <rect x="146" y="376" width="564" height="56" rx="16" fill="#dce9e4"/>
+  <text x="176" y="412" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">package condition</text>
+  <rect x="146" y="446" width="564" height="56" rx="16" fill="#dce9e4"/>
+  <text x="176" y="482" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">color drift / dark pieces</text>
+  <rect x="146" y="516" width="564" height="56" rx="16" fill="#e3b36c"/>
+  <text x="176" y="552" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">soft pieces / weak crunch</text>
+  <rect x="146" y="586" width="564" height="56" rx="16" fill="#e3b36c"/>
+  <text x="176" y="622" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">breakage / fines</text>
+  <rect x="146" y="656" width="564" height="56" rx="16" fill="#d56f61"/>
+  <text x="176" y="692" fill="#fcfaf6" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">foreign material / hygiene escalation</text>
+
+  <rect x="778" y="286" width="714" height="456" rx="24" fill="#17312f"/>
+  <text x="814" y="334" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">HOW TO READ THE BANDS</text>
+
+  <rect x="816" y="388" width="198" height="70" rx="18" fill="#dce9e4"/>
+  <text x="848" y="432" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" font-weight="700">ACCEPT</text>
+  <text x="1040" y="432" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">commercially on target</text>
+
+  <rect x="816" y="482" width="198" height="70" rx="18" fill="#e3b36c"/>
+  <text x="848" y="526" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" font-weight="700">HOLD / REVIEW</text>
+  <text x="1040" y="526" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">fit depends on use case and severity</text>
+
+  <rect x="816" y="576" width="198" height="70" rx="18" fill="#d56f61"/>
+  <text x="848" y="620" fill="#fcfaf6" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" font-weight="700">REJECT</text>
+  <text x="1040" y="620" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">escalation or clear mismatch to promise</text>
+
+  <rect x="816" y="670" width="628" height="42" rx="14" fill="#fcfaf6"/>
+  <text x="842" y="698" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Key rule: score appearance, texture, breakage, and contamination separately.</text>
+</svg>

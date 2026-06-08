@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to design shelf-life testing for freeze-dried fruit</title>
+  <desc id="desc">Technical shelf-life testing layout showing real-time and accelerated storage tracks with checkpoints for water activity, texture, color, and package integrity.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="50">Shelf Life Should Be a Failure-Mode Study</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Real-time storage sets the claim. Accelerated storage helps compare options faster.</text>
+
+  <rect x="104" y="286" width="676" height="470" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="142" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">REAL-TIME TRACK</text>
+  <line x1="168" y1="454" x2="724" y2="454" stroke="#294643" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="206" cy="454" r="20" fill="#17312f"/>
+  <circle cx="366" cy="454" r="20" fill="#88b8aa"/>
+  <circle cx="526" cy="454" r="20" fill="#88b8aa"/>
+  <circle cx="686" cy="454" r="20" fill="#d56f61"/>
+  <text x="182" y="404" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Day 0</text>
+  <text x="330" y="404" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Pull 1</text>
+  <text x="490" y="404" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Pull 2</text>
+  <text x="646" y="404" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Failure point</text>
+
+  <rect x="150" y="520" width="174" height="178" rx="20" fill="#fcfaf6"/>
+  <text x="178" y="566" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="28">aw</text>
+  <text x="178" y="602" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">water activity</text>
+  <text x="178" y="634" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">must stay in</text>
+  <text x="178" y="664" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">the accepted band</text>
+
+  <rect x="356" y="520" width="174" height="178" rx="20" fill="#fcfaf6"/>
+  <text x="384" y="566" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="28">Crunch</text>
+  <text x="384" y="602" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">sensory review</text>
+  <text x="384" y="634" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">whole-piece or</text>
+  <text x="384" y="664" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">powder behavior</text>
+
+  <rect x="562" y="520" width="174" height="178" rx="20" fill="#fcfaf6"/>
+  <text x="590" y="566" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="28">Pack</text>
+  <text x="590" y="602" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">seal, zipper, and</text>
+  <text x="590" y="634" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">humidity defense</text>
+  <text x="590" y="664" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">must still hold</text>
+
+  <rect x="822" y="286" width="670" height="470" rx="24" fill="#17312f"/>
+  <text x="860" y="334" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">ACCELERATED SCREEN</text>
+  <rect x="860" y="388" width="596" height="118" rx="22" fill="#274542"/>
+  <text x="896" y="438" fill="#f7f0e4" font-family="'DM Serif Display', Georgia, serif" font-size="34">Use for comparison, not wishful dating</text>
+  <text x="896" y="478" fill="#d7e4df" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Useful for pouch options, desiccant load, particle size, or storage stress.</text>
+
+  <rect x="860" y="540" width="280" height="162" rx="22" fill="#fcfaf6"/>
+  <text x="896" y="586" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="3">MEASURE</text>
+  <text x="896" y="624" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">moisture + aw</text>
+  <text x="896" y="652" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">color + aroma</text>
+  <text x="896" y="680" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">flow or crunch</text>
+
+  <rect x="1176" y="540" width="280" height="162" rx="22" fill="#efe4d0"/>
+  <text x="1212" y="586" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="3">DECIDE</text>
+  <text x="1212" y="624" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">which pack wins</text>
+  <text x="1212" y="652" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">which risk appears first</text>
+  <text x="1212" y="680" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">what real-time must prove</text>
+
+  <rect x="104" y="778" width="1388" height="36" rx="14" fill="#dce9e4"/>
+  <text x="132" y="802" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Key rule: track the complaint trigger you are trying to prevent, not only a single lab number.</text>
+</svg>

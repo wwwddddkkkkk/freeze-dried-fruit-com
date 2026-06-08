@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to read particle-size and sieve specs on freeze-dried fruit powders</title>
+  <desc id="desc">Powder-spec visual with sieve stack, particle-size bands, and application matches for freeze-dried fruit powder.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="50">A Powder Spec Should Tell You How the Fruit Will Behave</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Mesh, microns, percent through, and method each answer a different question.</text>
+
+  <rect x="104" y="286" width="576" height="470" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="142" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">SIEVE LOGIC</text>
+
+  <rect x="182" y="390" width="328" height="64" rx="20" fill="#fcfaf6" stroke="#d4c7b1"/>
+  <rect x="202" y="472" width="288" height="58" rx="18" fill="#efe4d0" stroke="#d4c7b1"/>
+  <rect x="222" y="548" width="248" height="54" rx="16" fill="#e0b05f"/>
+  <rect x="242" y="620" width="208" height="48" rx="14" fill="#d56f61"/>
+  <text x="540" y="430" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">coarse holdback</text>
+  <text x="540" y="508" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">main distribution</text>
+  <text x="540" y="582" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">fine fraction</text>
+  <text x="540" y="650" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">dust / fines</text>
+
+  <text x="182" y="712" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Read the line as: what passes, what stays, and which failure the limit is trying to prevent.</text>
+
+  <rect x="720" y="286" width="772" height="470" rx="24" fill="#17312f"/>
+  <text x="758" y="334" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">MATCH TO APPLICATION</text>
+
+  <rect x="760" y="382" width="214" height="138" rx="22" fill="#fcfaf6"/>
+  <text x="792" y="428" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="28">Drink mix</text>
+  <text x="792" y="466" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">finer, smoother,</text>
+  <text x="792" y="494" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">fast hydration</text>
+
+  <rect x="998" y="382" width="214" height="138" rx="22" fill="#fcfaf6"/>
+  <text x="1034" y="428" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="28">Glaze</text>
+  <text x="1034" y="466" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">clean color spread,</text>
+  <text x="1034" y="494" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">low grit risk</text>
+
+  <rect x="1236" y="382" width="214" height="138" rx="22" fill="#fcfaf6"/>
+  <text x="1268" y="428" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="28">Topping</text>
+  <text x="1268" y="466" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">controlled particle</text>
+  <text x="1268" y="494" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">identity matters</text>
+
+  <rect x="760" y="554" width="690" height="148" rx="22" fill="#274542"/>
+  <text x="796" y="600" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="3">ASK BEFORE APPROVAL</text>
+  <text x="796" y="636" fill="#d7e4df" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Which method? Which cut point? How much fine material is normal? Does the result fit the real job?</text>
+  <text x="796" y="672" fill="#d7e4df" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">A single "fine powder" label is not enough for a serious buying decision.</text>
+
+  <rect x="104" y="778" width="1388" height="36" rx="14" fill="#dce9e4"/>
+  <text x="132" y="802" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Method changes meaning: sieve, laser, and visual descriptions do not produce interchangeable numbers by default.</text>
+</svg>

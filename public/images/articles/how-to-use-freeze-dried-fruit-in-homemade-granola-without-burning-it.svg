@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to use freeze-dried fruit in homemade granola without burning it</title>
+  <desc id="desc">Granola workflow diagram showing sheet-pan baking, cooling, and post-bake mixing of freeze-dried fruit pieces and powder.</desc>
+  <rect width="1600" height="900" fill="#f7f2e8"/>
+  <rect x="76" y="72" width="1448" height="756" rx="30" fill="#fffdf8" stroke="#d8d0bf" stroke-width="2"/>
+  <text x="118" y="136" fill="#1f332d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">APPLICATIONS</text>
+  <text x="118" y="190" fill="#1f332d" font-family="'DM Serif Display', Georgia, serif" font-size="50">Bake the Base First. Add the Fruit Later.</text>
+  <text x="118" y="232" fill="#69736d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Freeze-dried fruit usually performs best in granola as a finishing ingredient, not a full-bake ingredient.</text>
+
+  <rect x="120" y="292" width="1360" height="450" rx="28" fill="#f6f1e7" stroke="#d6c9b6"/>
+
+  <rect x="160" y="346" width="336" height="280" rx="24" fill="#efe1c7"/>
+  <text x="192" y="392" fill="#1f332d" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">1. BAKE</text>
+  <rect x="214" y="430" width="228" height="118" rx="18" fill="#c88d54"/>
+  <rect x="236" y="454" width="184" height="70" rx="10" fill="#e7c99d"/>
+  <circle cx="270" cy="490" r="8" fill="#a66b3c"/>
+  <circle cx="308" cy="500" r="9" fill="#a66b3c"/>
+  <circle cx="348" cy="486" r="8" fill="#a66b3c"/>
+  <circle cx="388" cy="502" r="9" fill="#a66b3c"/>
+  <text x="192" y="586" fill="#5f5b55" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">oats, nuts, seeds, binder</text>
+
+  <rect x="632" y="346" width="336" height="280" rx="24" fill="#edf4ef"/>
+  <text x="664" y="392" fill="#1f332d" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">2. COOL</text>
+  <circle cx="800" cy="480" r="76" fill="#fffdf8" stroke="#c9d9d0" stroke-width="2"/>
+  <path d="M768 462 C780 438, 820 438, 832 462" fill="none" stroke="#88b8aa" stroke-width="8" stroke-linecap="round"/>
+  <path d="M768 496 C780 472, 820 472, 832 496" fill="none" stroke="#88b8aa" stroke-width="8" stroke-linecap="round"/>
+  <text x="680" y="586" fill="#5f5b55" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">do not trap residual heat</text>
+
+  <rect x="1104" y="346" width="336" height="280" rx="24" fill="#f3ece0"/>
+  <text x="1136" y="392" fill="#1f332d" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">3. MIX IN FRUIT</text>
+  <ellipse cx="1272" cy="488" rx="116" ry="60" fill="#e6d8c5"/>
+  <ellipse cx="1272" cy="478" rx="116" ry="60" fill="#fffdf8" stroke="#d6c9b6" stroke-width="2"/>
+  <circle cx="1222" cy="454" r="18" fill="#cf6f5d"/>
+  <circle cx="1260" cy="496" r="14" fill="#7b8db6"/>
+  <circle cx="1298" cy="454" r="16" fill="#e1a55c"/>
+  <circle cx="1336" cy="494" r="15" fill="#c45f7f"/>
+  <text x="1142" y="586" fill="#5f5b55" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">pieces, crumble, or powder</text>
+
+  <path d="M498 486 H620" stroke="#c59d89" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="620,486 598,474 598,498" fill="#c59d89"/>
+  <path d="M970 486 H1092" stroke="#c59d89" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="1092,486 1070,474 1070,498" fill="#c59d89"/>
+
+  <rect x="212" y="676" width="1176" height="44" rx="18" fill="#1f332d"/>
+  <text x="240" y="705" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Practical rule: use powder for all-over flavor, and use visible fruit pieces only after the tray is baked and cooled.</text>
+</svg>

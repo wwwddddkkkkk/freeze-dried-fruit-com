@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How Pirani and capacitance manometer readings help track freeze-dried fruit drying</title>
+  <desc id="desc">Comparative pressure chart showing Pirani and capacitance manometer traces separating during vapor-heavy primary drying and converging near endpoint.</desc>
+  <rect width="1600" height="900" fill="#f4efe5"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf6" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="110" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="110" y="194" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="50">Two Gauges, One Better Read on Drying Progress</text>
+  <text x="110" y="236" fill="#5e706c" font-family="'Source Serif 4', Georgia, serif" font-size="24">Comparative pressure works because Pirani reacts to vapor load while the capacitance manometer reads true chamber pressure.</text>
+
+  <rect x="108" y="286" width="778" height="454" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="146" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">COMPARATIVE PRESSURE</text>
+
+  <line x1="164" y1="662" x2="830" y2="662" stroke="#738884" stroke-width="2"/>
+  <line x1="164" y1="390" x2="164" y2="662" stroke="#738884" stroke-width="2"/>
+  <text x="176" y="382" fill="#5e706c" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">apparent / true pressure</text>
+  <text x="744" y="694" fill="#5e706c" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">cycle time</text>
+
+  <rect x="250" y="406" width="252" height="232" rx="22" fill="#efe1c7"/>
+  <text x="282" y="446" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" letter-spacing="3">PRIMARY DRYING</text>
+  <text x="282" y="484" fill="#4e625d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">water vapor high</text>
+  <text x="282" y="516" fill="#4e625d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Pirani offset wider</text>
+  <text x="282" y="548" fill="#4e625d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">batch still actively drying</text>
+
+  <rect x="548" y="406" width="248" height="232" rx="22" fill="#dce9e3"/>
+  <text x="580" y="446" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" letter-spacing="3">NEAR ENDPOINT</text>
+  <text x="580" y="484" fill="#4e625d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">vapor burden easing</text>
+  <text x="580" y="516" fill="#4e625d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">signals converge</text>
+  <text x="580" y="548" fill="#4e625d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">final checks still required</text>
+
+  <path d="M182 454 C250 430, 298 422, 340 436 C392 452, 432 496, 474 530 C520 568, 570 590, 632 606 C688 620, 750 622, 816 624" fill="none" stroke="#c76e58" stroke-width="8" stroke-linecap="round"/>
+  <path d="M182 520 C246 516, 302 512, 346 522 C406 536, 448 560, 490 586 C548 620, 610 626, 678 628 C734 629, 774 628, 816 626" fill="none" stroke="#6f9c90" stroke-width="8" stroke-linecap="round"/>
+
+  <circle cx="434" cy="500" r="10" fill="#c76e58"/>
+  <text x="456" y="506" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Pirani</text>
+  <text x="456" y="534" fill="#5e706c" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">composition-sensitive signal</text>
+
+  <circle cx="504" cy="586" r="10" fill="#6f9c90"/>
+  <text x="526" y="592" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">capacitance manometer</text>
+  <text x="526" y="620" fill="#5e706c" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">true chamber pressure</text>
+
+  <rect x="920" y="286" width="572" height="454" rx="24" fill="#17312f"/>
+  <text x="958" y="334" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">HOW TO USE THE SIGNAL</text>
+  <text x="958" y="384" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="36">Read the gap, not one number alone</text>
+
+  <rect x="958" y="430" width="226" height="204" rx="22" fill="#fcfaf6"/>
+  <text x="988" y="474" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" letter-spacing="3">GOOD FOR</text>
+  <text x="988" y="512" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">primary-drying progress</text>
+  <text x="988" y="544" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">cycle-to-cycle drift</text>
+  <text x="988" y="576" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">fruit-specific endpoint support</text>
+
+  <rect x="1212" y="430" width="226" height="204" rx="22" fill="#efe5d2"/>
+  <text x="1242" y="474" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" letter-spacing="3">NOT ENOUGH BY ITSELF</text>
+  <text x="1242" y="512" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">final moisture</text>
+  <text x="1242" y="544" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">water activity</text>
+  <text x="1242" y="576" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">release-by-format review</text>
+
+  <rect x="958" y="668" width="480" height="56" rx="16" fill="#e0b05f"/>
+  <text x="986" y="704" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" font-weight="700">Best practice: control pressure from the capacitance manometer and interpret the Pirani offset as a process cue.</text>
+</svg>

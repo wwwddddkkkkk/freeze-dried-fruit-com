@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to compare plain freeze-dried fruit and sweetened fruit crisps fairly</title>
+  <desc id="desc">Side-by-side comparison board showing plain freeze-dried fruit and sweetened fruit crisp label callouts for identity, ingredient order, serving size, and added sugars.</desc>
+  <rect width="1600" height="900" fill="#f4f1e8"/>
+  <rect x="72" y="72" width="1456" height="756" rx="28" fill="#fffaf1" stroke="#cabda2" stroke-width="2"/>
+  <text x="116" y="138" fill="#3f3526" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="116" y="192" fill="#2f261b" font-family="'DM Serif Display', Georgia, serif" font-size="50">Similar Shelf Position, Different Label Logic</text>
+  <text x="116" y="232" fill="#7b6a56" font-family="'Source Serif 4', Georgia, serif" font-size="24">The fair comparison starts with identity, ingredients, serving size, and added sugars before price-per-ounce.</text>
+
+  <rect x="130" y="292" width="560" height="456" rx="28" fill="#fcf6ea" stroke="#d5c7a8"/>
+  <text x="166" y="340" fill="#3f3526" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">PLAIN FREEZE-DRIED FRUIT</text>
+  <rect x="166" y="376" width="488" height="72" rx="16" fill="#edf4ef"/>
+  <text x="194" y="420" fill="#23433a" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">statement of identity: freeze-dried strawberries</text>
+  <rect x="166" y="466" width="488" height="188" rx="20" fill="#fffdf8" stroke="#d8d0bf"/>
+  <text x="196" y="510" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">INGREDIENTS</text>
+  <text x="196" y="548" fill="#2f261b" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">strawberries</text>
+  <text x="196" y="602" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Added Sugars</text>
+  <text x="420" y="602" fill="#2f261b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">0 g</text>
+  <text x="196" y="636" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Serving focus</text>
+  <text x="420" y="636" fill="#2f261b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">fruit itself</text>
+
+  <rect x="910" y="292" width="560" height="456" rx="28" fill="#fcf6ea" stroke="#d5c7a8"/>
+  <text x="946" y="340" fill="#3f3526" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">SWEETENED FRUIT CRISP</text>
+  <rect x="946" y="376" width="488" height="72" rx="16" fill="#efe5d2"/>
+  <text x="974" y="420" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">statement of identity: sweetened strawberry crisps</text>
+  <rect x="946" y="466" width="488" height="188" rx="20" fill="#fffdf8" stroke="#d8d0bf"/>
+  <text x="976" y="510" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">INGREDIENTS</text>
+  <text x="976" y="548" fill="#2f261b" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">strawberries, sugar, flavor</text>
+  <text x="976" y="602" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Added Sugars</text>
+  <text x="1200" y="602" fill="#2f261b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">7 g</text>
+  <text x="976" y="636" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Serving focus</text>
+  <text x="1200" y="636" fill="#2f261b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">sweet snack texture</text>
+
+  <rect x="704" y="326" width="192" height="386" rx="22" fill="#17312f"/>
+  <text x="738" y="388" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="34">Compare</text>
+  <text x="738" y="440" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">identity first</text>
+  <text x="738" y="476" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">ingredients second</text>
+  <text x="738" y="512" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Added Sugars third</text>
+  <text x="738" y="548" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">serving size fourth</text>
+  <text x="738" y="584" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">price after that</text>
+
+  <rect x="336" y="688" width="928" height="54" rx="16" fill="#e0b05f"/>
+  <text x="366" y="723" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" font-weight="700">A sweetened crisp is not automatically worse. It is simply a different product and should be judged against the job it is trying to do.</text>
+</svg>

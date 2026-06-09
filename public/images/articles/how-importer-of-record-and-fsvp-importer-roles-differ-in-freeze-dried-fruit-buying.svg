@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How importer of record and FSVP importer roles differ in freeze-dried fruit buying</title>
+  <desc id="desc">Responsibility matrix comparing importer of record, FSVP importer, broker or filer, and supplier tasks for imported freeze-dried fruit.</desc>
+  <rect width="1600" height="900" fill="#f5efe4"/>
+  <rect x="72" y="70" width="1456" height="760" rx="30" fill="#fcfaf6" stroke="#203836" stroke-width="2.5"/>
+  <text x="112" y="146" fill="#203836" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="198" fill="#122826" font-family="'DM Serif Display', Georgia, serif" font-size="50">Who Owns Entry, and Who Owns Food-Safety Verification?</text>
+  <text x="112" y="238" fill="#516360" font-family="'Source Serif 4', Georgia, serif" font-size="24">Imported freeze-dried fruit programs get cleaner when customs and FSVP roles are named separately instead of called “the importer.”</text>
+
+  <rect x="108" y="286" width="850" height="466" rx="24" fill="#f3ece0" stroke="#294643" stroke-width="2"/>
+  <text x="142" y="334" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">ROLE MATRIX</text>
+
+  <rect x="142" y="366" width="782" height="68" rx="16" fill="#17312f"/>
+  <text x="176" y="410" fill="#ffffff" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Task</text>
+  <text x="442" y="410" fill="#ffffff" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Importer of record</text>
+  <text x="662" y="410" fill="#ffffff" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">FSVP importer</text>
+
+  <rect x="142" y="448" width="782" height="70" rx="12" fill="#fcfaf6" stroke="#d3c8b4"/>
+  <text x="176" y="492" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Entry / customs-side execution</text>
+  <text x="528" y="492" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">primary role</text>
+  <text x="742" y="492" fill="#5b6b68" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">not the main job</text>
+
+  <rect x="142" y="532" width="782" height="70" rx="12" fill="#fcfaf6" stroke="#d3c8b4"/>
+  <text x="176" y="576" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Supplier verification / FSVP records</text>
+  <text x="528" y="576" fill="#5b6b68" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">may support</text>
+  <text x="742" y="576" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">primary role</text>
+
+  <rect x="142" y="616" width="782" height="70" rx="12" fill="#fcfaf6" stroke="#d3c8b4"/>
+  <text x="176" y="660" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Provide FSVP ID through entry chain</text>
+  <text x="528" y="660" fill="#5b6b68" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">often via filer</text>
+  <text x="742" y="660" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">must ensure it happens</text>
+
+  <rect x="1000" y="286" width="492" height="466" rx="24" fill="#17312f"/>
+  <text x="1038" y="334" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">COMMON FAILURE POINTS</text>
+
+  <circle cx="1062" cy="402" r="16" fill="#e0b05f"/>
+  <text x="1056" y="409" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">1</text>
+  <text x="1094" y="410" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">buyer assumes the broker covers FSVP</text>
+
+  <circle cx="1062" cy="470" r="16" fill="#e0b05f"/>
+  <text x="1056" y="477" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">2</text>
+  <text x="1094" y="478" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">FSVP party never confirmed in writing</text>
+
+  <circle cx="1062" cy="538" r="16" fill="#e0b05f"/>
+  <text x="1056" y="545" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">3</text>
+  <text x="1094" y="546" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">records exist, but no one can retrieve them fast</text>
+
+  <circle cx="1062" cy="606" r="16" fill="#e0b05f"/>
+  <text x="1056" y="613" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">4</text>
+  <text x="1094" y="614" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">entry data and supplier file live with different teams</text>
+
+  <rect x="1038" y="668" width="408" height="54" rx="16" fill="#88b8aa"/>
+  <text x="1064" y="703" fill="#15302d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Best habit: name the customs role and the FSVP role separately before the first PO ships.</text>
+</svg>

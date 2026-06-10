@@ -29,7 +29,7 @@ import {
   FRAGILITY_LEVELS,
   BASE_BARRIER_TARGETS,
 } from "./lib/calculators-data.mjs";
-import { FRUIT_DATA, SLUG_TO_FRUIT, clusterForFruit, buildComparisonPairs, CLUSTERS } from "./lib/fruit-data.mjs";
+import { FRUIT_DATA, SLUG_TO_FRUIT, clusterForFruit, buildComparisonPairs, comparePathFor, CLUSTERS } from "./lib/fruit-data.mjs";
 import { renderHero } from "./lib/illustrations.mjs";
 import { Icons } from "./lib/icons.mjs";
 import { buildMailto } from "./lib/mailto.mjs";
@@ -644,7 +644,7 @@ function newsListJsonLd({ site, news }) {
 
 // ---------- Pages ----------
 
-function renderHomeBody({ site, mailto, articles, home, news, homeConfig }) {
+function renderHomeBody({ site, mailto, articles, home, news, homeConfig, reports }) {
   const featured = home.featured;
   const sidebar = home.sidebar;
   const guide = home.guide;
@@ -718,8 +718,135 @@ function renderHomeBody({ site, mailto, articles, home, news, homeConfig }) {
 
   ${homeConfig.show_news_section ? newsWireSection(news) : ""}
 
+  ${renderBrowseFieldGuide({ articles, reports })}
+
   ${exchangeBand({ mailto })}
   ${newsletterBand({ mailto })}`;
+}
+
+// ---------- Browse the field guide ----------
+//
+// Link-dense sitemap-style section appended near the bottom of the homepage.
+// Purpose is purely SEO/indexing: the homepage is the most-crawled URL on the
+// site, so fanning it out to ~70 internal URLs (organized by category, plus
+// every major hub) gives Google a strong, hub-style discovery surface and
+// pushes PageRank into pages that were stuck in "Discovered — not indexed".
+// Editorial above-the-fold layout is untouched.
+function renderBrowseFieldGuide({ articles, reports }) {
+  const PER_CAT = 8;
+  // Articles are passed in newest-first order from loadArticles, so slice(0, N)
+  // surfaces the most recent N per category — which also tends to be what
+  // Google's freshness signals reward.
+  const byCat = (cat) => articles.filter(a => a.category === cat).slice(0, PER_CAT);
+
+  const CATEGORY_BLOCKS = [
+    { name: "Industry Insights", path: "/articles/category/industry-insights/" },
+    { name: "Technology",        path: "/articles/category/technology/" },
+    { name: "Labels & Quality",  path: "/articles/category/labels-and-quality/" },
+    { name: "Applications",      path: "/articles/category/applications/" },
+    { name: "Fruit Reports",     path: "/articles/category/fruit-reports/" },
+  ];
+
+  const catColumns = CATEGORY_BLOCKS.map(c => {
+    const items = byCat(c.name);
+    if (!items.length) return "";
+    const lis = items.map(a =>
+      `<li><a href="${articleUrl(a.id)}">${escapeHtml(a.title)}</a></li>`
+    ).join("");
+    return `
+      <div class="browse-col">
+        <h3 class="browse-col__title"><a href="${c.path}">${escapeHtml(c.name)}</a></h3>
+        <ul class="browse-col__list">${lis}</ul>
+        <a class="browse-col__all" href="${c.path}">All ${escapeHtml(c.name)} →</a>
+      </div>`;
+  }).join("");
+
+  // Featured comparison pairs — a curated subset of the 121 /compare/ pages,
+  // chosen for highest-impression queries (mangosteen vs lychee, cherry vs
+  // cranberry, etc.) so we hub-link the pages Google sees most often.
+  const featuredCompares = [
+    { slug: "cherry-vs-cranberry",        label: "Cherry vs Cranberry" },
+    { slug: "blueberry-vs-strawberry",    label: "Blueberry vs Strawberry" },
+    { slug: "jackfruit-vs-lychee",        label: "Jackfruit vs Lychee" },
+    { slug: "lychee-vs-mangosteen",       label: "Lychee vs Mangosteen" },
+    { slug: "mangosteen-vs-rambutan",     label: "Mangosteen vs Rambutan" },
+    { slug: "apricot-vs-plum",            label: "Apricot vs Plum" },
+    { slug: "cranberry-vs-strawberry",    label: "Cranberry vs Strawberry" },
+    { slug: "guava-vs-passion-fruit",     label: "Guava vs Passion Fruit" },
+  ];
+  const compareLis = featuredCompares.map(p =>
+    `<li><a href="/compare/${p.slug}/">${escapeHtml(p.label)}</a></li>`
+  ).join("");
+
+  // Essential glossary terms — the ones with the strongest standalone search
+  // intent. Surfaced here so Google sees them linked from the most-crawled URL.
+  const essentialGlossary = [
+    { slug: "water-activity",     label: "Water activity (aw)" },
+    { slug: "moisture-content",   label: "Moisture content" },
+    { slug: "lyophilization",     label: "Lyophilization" },
+    { slug: "sublimation",        label: "Sublimation" },
+    { slug: "brix",               label: "Brix" },
+    { slug: "eutectic-point",     label: "Eutectic point" },
+    { slug: "barrier-film",       label: "Barrier film" },
+    { slug: "rehydration",        label: "Rehydration" },
+  ];
+  const glossaryLis = essentialGlossary.map(g =>
+    `<li><a href="/glossary/${g.slug}/">${escapeHtml(g.label)}</a></li>`
+  ).join("");
+
+  // Flagship reports — these are top-level industry assets that already rank
+  // well; promoting them on the homepage reinforces topical authority signals.
+  const reportLis = (reports || []).map(r =>
+    `<li><a href="/${r.slug}/">${escapeHtml(r.title)}</a></li>`
+  ).join("");
+
+  return `
+  <section class="section browse-fieldguide" aria-labelledby="browse-fieldguide-heading">
+    <div class="container">
+      <div class="fi-head">
+        <div class="fi-head__icon">${Icons.article}</div>
+        <h2 class="fi-head__title" id="browse-fieldguide-heading">Browse the entire field guide</h2>
+      </div>
+      <div class="fi-rule"></div>
+      <p class="browse-intro">Every section, every comparison, every glossary term — organized for fast access. Looking for something specific? Try <a href="/articles/">all articles</a>, <a href="/compare/">all comparisons</a>, or <a href="/glossary/">the glossary</a>.</p>
+
+      <div class="browse-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px;margin-top:24px">
+        ${catColumns}
+
+        <div class="browse-col">
+          <h3 class="browse-col__title"><a href="/compare/">Compare freeze-dried fruits</a></h3>
+          <ul class="browse-col__list">${compareLis}</ul>
+          <a class="browse-col__all" href="/compare/">All 120+ comparisons →</a>
+        </div>
+
+        <div class="browse-col">
+          <h3 class="browse-col__title"><a href="/glossary/">Glossary</a></h3>
+          <ul class="browse-col__list">${glossaryLis}</ul>
+          <a class="browse-col__all" href="/glossary/">All glossary terms →</a>
+        </div>
+
+        <div class="browse-col">
+          <h3 class="browse-col__title">Flagship reports</h3>
+          <ul class="browse-col__list">${reportLis}</ul>
+          <a class="browse-col__all" href="/state-of-freeze-dried-fruit-2026/">Read the 2026 industry overview →</a>
+        </div>
+
+        <div class="browse-col">
+          <h3 class="browse-col__title">More tools &amp; hubs</h3>
+          <ul class="browse-col__list">
+            <li><a href="/news/">News Wire</a></li>
+            <li><a href="/calculators/">Calculators</a></li>
+            <li><a href="/calculators/fruit-equivalency/">Fruit equivalency calculator</a></li>
+            <li><a href="/calculators/pouch-barrier/">Pouch barrier calculator</a></li>
+            <li><a href="/exchange/">Industry Exchange</a></li>
+            <li><a href="/editorial/">Editorial Desk</a></li>
+            <li><a href="/methodology/">Methodology</a></li>
+            <li><a href="/about/">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>`;
 }
 
 // ---------- Cross-fruit comparison table ----------
@@ -1183,6 +1310,39 @@ function renderComparePage({ a, b, articles }) {
       </div>
     </section>` : "";
 
+  // Sibling-comparison strip. Compare pages historically had zero outbound
+  // /compare/* links, leaving the 120 pages stranded in a hub-and-spoke from
+  // /compare/ only. Cross-linking them spreads PageRank across the template
+  // and gives Google obvious crawl paths between related pairs — important
+  // because most compare pages sit in "Discovered — not indexed".
+  const currentSlug = comparePathFor(a, b);
+  const siblingLimit = 6;
+  const seen = new Set([currentSlug]);
+  const siblingPairs = [];
+  for (const p of [...relevantPairsFor(a, 12), ...relevantPairsFor(b, 12)]) {
+    if (seen.has(p.slug)) continue;
+    seen.add(p.slug);
+    siblingPairs.push(p);
+    if (siblingPairs.length >= siblingLimit) break;
+  }
+  const siblingsHtml = siblingPairs.length ? `
+    <section class="compare-page__siblings" aria-labelledby="compare-siblings-heading">
+      <h2 id="compare-siblings-heading" class="compare-page__siblings-heading">Other comparisons with ${escapeHtml(A.name)} or ${escapeHtml(B.name)}</h2>
+      <div class="compare-with__grid">
+        ${siblingPairs.map(p => {
+          const X = FRUIT_DATA[p.a];
+          const Y = FRUIT_DATA[p.b];
+          if (!X || !Y) return "";
+          return `
+          <a href="/compare/${p.slug}/" class="compare-with__card">
+            <span class="compare-with__pair"><span class="compare-with__self">${escapeHtml(X.name)}</span><span class="compare-with__vs">vs</span><span class="compare-with__other">${escapeHtml(Y.name)}</span></span>
+            <span class="compare-with__cta">See comparison ${Icons.arrowSmall}</span>
+          </a>`;
+        }).join("")}
+      </div>
+      <a href="/compare/" class="compare-with__all">See all freeze-dried fruit comparisons ${Icons.arrowSmall}</a>
+    </section>` : "";
+
   // Page head + body composed in the same masthead language as other field-guide pages.
   const bodyHtml = `
     <section class="page-head compare-page__head">
@@ -1202,6 +1362,7 @@ function renderComparePage({ a, b, articles }) {
       ${choiceHtml}
       ${faqHtml}
       ${readMoreHtml}
+      ${siblingsHtml}
     </div>`;
 
   return { bodyHtml, faqs, A, B };
@@ -3400,7 +3561,7 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs
     { loc: "/calculators/pouch-barrier/", lastmod: today, changefreq: "monthly", priority: "0.7" },
     { loc: "/methodology/", lastmod: today, changefreq: "monthly", priority: "0.6" },
     { loc: "/editorial/", lastmod: today, changefreq: "monthly", priority: "0.6" },
-    { loc: "/search/", lastmod: today, changefreq: "monthly", priority: "0.3" },
+    // /search/ intentionally omitted — it's noindex'd, see the writeFilePage call.
     { loc: "/exchange/", lastmod: today, changefreq: "monthly", priority: "0.6" },
     { loc: "/about/", lastmod: today, changefreq: "monthly", priority: "0.4" },
     { loc: "/contact/", lastmod: today, changefreq: "monthly", priority: "0.4" },
@@ -3435,10 +3596,14 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs
     });
   }
 
-  // Spanish home + Spanish article translations + Spanish glossary. Listed
-  // at high priority since each Spanish page opens an entire new
-  // search-traffic surface (no English-language SEO competition for the
-  // Spanish queries).
+  // Spanish home + Spanish article translations + Spanish glossary.
+  //
+  // Priority lowered (May 2026) while English indexing is still being worked
+  // through. With ~50% of submitted URLs sitting in "Discovered — not
+  // indexed", we want Google to spend crawl budget on English first; Spanish
+  // can be re-promoted once English coverage is solid and we have dedicated
+  // Spanish backlinks. Pages remain in the sitemap so they stay discoverable
+  // and hreflang stays intact — only the priority hint changes.
   if (articlesEs.length) {
     const latestEsDate = articlesEs.reduce((acc, a) => {
       const t = (a.updated || a.date)?.getTime();
@@ -3449,13 +3614,13 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs
       loc: "/es/",
       lastmod: latestEsIso,
       changefreq: "weekly",
-      priority: "0.9",
+      priority: "0.4",
     });
     entries.push({
       loc: "/es/articles/",
       lastmod: latestEsIso,
       changefreq: "weekly",
-      priority: "0.8",
+      priority: "0.4",
     });
     const catsEs = [...new Set([
       ...articlesEs.map(a => a.category),
@@ -3472,7 +3637,7 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs
         loc: categoryUrl(c, "es"),
         lastmod: catLatest ? new Date(catLatest).toISOString().slice(0, 10) : latestEsIso,
         changefreq: "weekly",
-        priority: "0.6",
+        priority: "0.3",
       });
     }
     for (const a of articlesEs) {
@@ -3481,7 +3646,7 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs
         loc: `/es/articles/${a.id}/`,
         lastmod: mod ? mod.toISOString().slice(0, 10) : today,
         changefreq: "monthly",
-        priority: "0.8",
+        priority: "0.3",
       });
     }
     // Spanish glossary hub and per-term pages.
@@ -3489,7 +3654,7 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs
       loc: "/es/glossary/",
       lastmod: today,
       changefreq: "monthly",
-      priority: "0.8",
+      priority: "0.3",
     });
     // Spanish glossary slugs match the English slugs.
     for (const t of GLOSSARY_ES) {
@@ -3497,7 +3662,7 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs
         loc: `/es/glossary/${t.slug}/`,
         lastmod: today,
         changefreq: "monthly",
-        priority: "0.6",
+        priority: "0.3",
       });
     }
   }
@@ -3513,15 +3678,15 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs
       priority: "0.9",
     });
   }
-  // Spanish report translations — same priority as English since they open
-  // a new search-traffic surface.
+  // Spanish report translations — deprioritized in lockstep with the rest of
+  // /es/ (see comment on the Spanish home block above).
   for (const r of reportsEs) {
     const mod = r.updated || r.date;
     entries.push({
       loc: `/es/${r.slug}/`,
       lastmod: mod ? mod.toISOString().slice(0, 10) : today,
       changefreq: "monthly",
-      priority: "0.9",
+      priority: "0.4",
     });
   }
 
@@ -3680,7 +3845,7 @@ async function build() {
   const articlesById = Object.fromEntries(articles.map(a => [a.id, a]));
 
   // Home
-  const homeBody = renderHomeBody({ site, mailto, articles, home, news, homeConfig });
+  const homeBody = renderHomeBody({ site, mailto, articles, home, news, homeConfig, reports });
   const homeAlternates = articlesEs.length ? { en: "/", es: "/es/" } : null;
   await writeFilePage("index.html", renderPage({
     site, mailto, currentPath: "/", title: null, description: null, body: homeBody, screen: "home",
@@ -4188,10 +4353,16 @@ async function build() {
     body: renderNewsBody({ news }), screen: "news",
     jsonLd: newsListJsonLd({ site, news }),
   }));
+  // Internal search results UI. Tagged noindex,follow because Google's own
+  // guidelines explicitly flag site-search pages as low-value targets that
+  // tend to land in "Crawled — currently not indexed". We keep `follow` so
+  // the outbound article links still pass authority. The /search/ entry is
+  // also dropped out of the sitemap below for the same reason.
   await writeFilePage("search/index.html", renderPage({
     site, mailto, currentPath: "/search/", title: "Search",
     description: "Search Freeze-Dried-Fruit.com articles and field guide topics.",
     body: renderSearchBody({ articles }), screen: "search",
+    noindex: true,
     jsonLd: simplePageJsonLd({
       site, currentPath: "/search/", name: "Search — Freeze-Dried-Fruit.com",
       description: "Search Freeze-Dried-Fruit.com articles and field guide topics.",

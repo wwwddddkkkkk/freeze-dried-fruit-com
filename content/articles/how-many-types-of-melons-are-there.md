@@ -9,7 +9,7 @@ cover_alt: "A cantaloupe melon and cross section"
 cover_credit: "Karen and Brad Emerson / CC BY 2.0"
 cover_credit_url: "https://commons.wikimedia.org/wiki/File:Cantaloupe_(4966163698).jpg"
 read: "10 min read"
-summary: "A guide to melon varieties, from cantaloupe and honeydew to muskmelon, Hami melon, Galia, Canary melon, Korean melon, and specialty dessert melons."
+summary: "8 melon varieties compared — cantaloupe, honeydew, muskmelon, Hami, Galia, Canary, Korean melon, and specialty dessert melons — plus which freeze-dry well and which don't."
 intro: "Melon is a wide family of fruits: some are fragrant and orange, some are pale and honey-sweet, some are crisp, and some are grown almost entirely for local seasonal markets."
 takeaways:
   - "Melons include many commercial groups and regional types rather than one simple variety list"

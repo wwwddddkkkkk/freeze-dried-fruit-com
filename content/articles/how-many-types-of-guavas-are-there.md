@@ -9,7 +9,7 @@ cover_alt: "A guava fruit hanging on the plant"
 cover_credit: "Balu B / CC0"
 cover_credit_url: "https://wordpress.org/photos/photo/88665a0bf1/"
 read: "10 min read"
-summary: "A guide to guava varieties, including white guava, pink guava, red guava, Thai guava, strawberry guava, and processing guavas."
+summary: "6+ guava varieties explained — white, pink, red, Thai, strawberry, and processing types — plus how flesh color and seed load change the freeze-dried result."
 intro: "Guava variety is mostly about flesh color, seed load, aroma, acidity, texture, and whether the fruit is meant to be eaten crisp, soft, fresh, or processed."
 takeaways:
   - "Guava includes many tropical cultivars and related species grouped by color, flavor, seediness, and use"

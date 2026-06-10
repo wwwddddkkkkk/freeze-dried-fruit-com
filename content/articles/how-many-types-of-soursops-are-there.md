@@ -9,7 +9,7 @@ cover_alt: "Soursop fruit displayed at a market"
 cover_credit: "Moses Cursor Ssebunya / CC0"
 cover_credit_url: "https://wordpress.org/photos/photo/2236882243/"
 read: "10 min read"
-summary: "A guide to soursop types and related annona fruits, including guanabana, cherimoya, sugar apple, atemoya, and processing differences."
+summary: "5 soursop types and Annona relatives compared — guanábana, graviola, cherimoya, sugar apple, atemoya — plus how variety changes freeze-dried texture, aroma, and seed safety."
 intro: "Soursop is often described by comparison because it refuses to sit neatly in one flavor box: pineapple, strawberry, citrus, banana, custard, and something green all show up at once."
 takeaways:
   - "Soursop is part of the wider Annona fruit world, alongside cherimoya, sugar apple, atemoya, custard apple, and related fruits."

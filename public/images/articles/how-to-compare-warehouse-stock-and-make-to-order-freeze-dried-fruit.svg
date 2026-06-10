@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to compare warehouse stock and make-to-order freeze-dried fruit</title>
+  <desc id="desc">Buyer decision matrix comparing warehouse stock and make-to-order freeze-dried fruit by speed, lot age, packaging fit, and documentation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f4ede1"/>
+      <stop offset="100%" stop-color="#e8dac1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="72" y="70" width="1456" height="760" rx="30" fill="#fcfaf6" stroke="#203836" stroke-width="2.5"/>
+  <text x="112" y="146" fill="#203836" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="198" fill="#152d2a" font-family="'DM Serif Display', Georgia, serif" font-size="50">Speed and Fresh Alignment Are Not the Same Purchase</text>
+  <text x="112" y="238" fill="#5b6d69" font-family="'Source Serif 4', Georgia, serif" font-size="24">Warehouse stock solves time pressure. Make-to-order solves lot timing, packaging fit, and approval precision.</text>
+
+  <rect x="108" y="286" width="1384" height="454" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="146" y="336" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">BUYER DECISION GRID</text>
+
+  <rect x="144" y="382" width="410" height="304" rx="24" fill="#17312f"/>
+  <text x="176" y="430" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="4">WAREHOUSE STOCK</text>
+  <rect x="180" y="468" width="338" height="170" rx="22" fill="#fcfaf6"/>
+  <text x="208" y="512" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Best for:</text>
+  <text x="208" y="548" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">fast replenishment</text>
+  <text x="208" y="580" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">smaller launch friction</text>
+  <text x="208" y="612" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">simple standard pack needs</text>
+
+  <rect x="596" y="382" width="410" height="304" rx="24" fill="#e8c06a"/>
+  <text x="628" y="430" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="4">BUYER CHECKS</text>
+  <rect x="632" y="468" width="338" height="170" rx="22" fill="#fff9ed"/>
+  <text x="660" y="512" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">lot code</text>
+  <text x="660" y="544" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">production timing</text>
+  <text x="660" y="576" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">pack format match</text>
+  <text x="660" y="608" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">storage and paper trail</text>
+
+  <rect x="1048" y="382" width="410" height="304" rx="24" fill="#17312f"/>
+  <text x="1080" y="430" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="4">MAKE-TO-ORDER</text>
+  <rect x="1084" y="468" width="338" height="170" rx="22" fill="#fcfaf6"/>
+  <text x="1112" y="512" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Best for:</text>
+  <text x="1112" y="548" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">fresh lot timing</text>
+  <text x="1112" y="580" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">custom private-label packs</text>
+  <text x="1112" y="612" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">clean sample-to-run alignment</text>
+
+  <line x1="554" y1="534" x2="596" y2="534" stroke="#294643" stroke-width="4" stroke-dasharray="10 10"/>
+  <line x1="1006" y1="534" x2="1048" y2="534" stroke="#294643" stroke-width="4" stroke-dasharray="10 10"/>
+
+  <rect x="144" y="714" width="1314" height="58" rx="16" fill="#203836"/>
+  <text x="178" y="751" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" font-weight="700">Decision rule: choose warehouse stock when speed is the real bottleneck, and choose make-to-order when exact lot timing or pack precision is the real risk.</text>
+</svg>

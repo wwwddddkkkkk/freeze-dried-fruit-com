@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Best freeze-dried fruit for whipped cream, mousse, and dessert dips</title>
+  <desc id="desc">Dessert application board comparing freeze-dried fruit powders and pieces for whipped cream, mousse, and dessert dips.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f7efe5"/>
+      <stop offset="100%" stop-color="#eedcc7"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="72" y="70" width="1456" height="760" rx="30" fill="#fcfaf6" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="116" y="146" fill="#25443f" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">APPLICATIONS</text>
+  <text x="116" y="198" fill="#17302c" font-family="'DM Serif Display', Georgia, serif" font-size="50">Soft Desserts Usually Want Powder First and Pieces Second.</text>
+  <text x="116" y="238" fill="#60736e" font-family="'Source Serif 4', Georgia, serif" font-size="24">In whipped cream, mousse, and dessert dips, freeze-dried fruit works best when it flavors the base without crushing the air.</text>
+
+  <rect x="108" y="286" width="540" height="462" rx="24" fill="#17312f"/>
+  <text x="144" y="336" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">FORMAT CHOICE</text>
+
+  <rect x="150" y="388" width="458" height="140" rx="22" fill="#fcfaf6"/>
+  <circle cx="224" cy="458" r="22" fill="#e17d7a"/>
+  <circle cx="268" cy="444" r="14" fill="#cc4e53"/>
+  <circle cx="302" cy="470" r="16" fill="#d45c8c"/>
+  <text x="346" y="446" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">powder / fine crumble</text>
+  <text x="346" y="478" fill="#5b6d69" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">best for flavoring the soft base</text>
+
+  <rect x="150" y="548" width="458" height="140" rx="22" fill="#efe1c7"/>
+  <rect x="218" y="606" width="34" height="24" rx="8" fill="#efb85b" transform="rotate(-14 235 618)"/>
+  <rect x="270" y="598" width="34" height="24" rx="8" fill="#d96f67" transform="rotate(10 287 610)"/>
+  <rect x="320" y="612" width="34" height="24" rx="8" fill="#7b92c8" transform="rotate(-6 337 624)"/>
+  <text x="380" y="606" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">pieces / garnish</text>
+  <text x="380" y="638" fill="#5b6d69" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">best for topping and last-minute contrast</text>
+
+  <rect x="694" y="286" width="798" height="462" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="730" y="336" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">BEST FRUIT MATCHES</text>
+
+  <rect x="730" y="382" width="168" height="150" rx="20" fill="#fcfaf6"/>
+  <circle cx="784" cy="446" r="22" fill="#e17d7a"/>
+  <circle cx="840" cy="434" r="16" fill="#d65d61"/>
+  <text x="754" y="504" fill="#2c4944" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">strawberry</text>
+  <text x="754" y="530" fill="#5a6e69" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">all-around</text>
+
+  <rect x="924" y="382" width="168" height="150" rx="20" fill="#fcfaf6"/>
+  <circle cx="978" cy="446" r="20" fill="#cc4e53"/>
+  <circle cx="1028" cy="434" r="14" fill="#d45984"/>
+  <text x="948" y="504" fill="#2c4944" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">raspberry</text>
+  <text x="948" y="530" fill="#5a6e69" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">tart edge</text>
+
+  <rect x="1118" y="382" width="168" height="150" rx="20" fill="#fcfaf6"/>
+  <rect x="1170" y="434" width="34" height="24" rx="8" fill="#f0ca62" transform="rotate(-14 1187 446)"/>
+  <rect x="1218" y="446" width="34" height="24" rx="8" fill="#efb84b" transform="rotate(8 1235 458)"/>
+  <text x="1142" y="504" fill="#2c4944" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">mango</text>
+  <text x="1142" y="530" fill="#5a6e69" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">soft sweetness</text>
+
+  <rect x="1312" y="382" width="136" height="150" rx="20" fill="#fcfaf6"/>
+  <circle cx="1358" cy="446" r="20" fill="#768dc7"/>
+  <circle cx="1402" cy="432" r="14" fill="#5f77b6"/>
+  <text x="1334" y="504" fill="#2c4944" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">blueberry</text>
+  <text x="1334" y="530" fill="#5a6e69" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">quieter note</text>
+
+  <rect x="730" y="580" width="718" height="118" rx="20" fill="#17312f"/>
+  <text x="766" y="622" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">DESSERT RULE</text>
+  <text x="766" y="662" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Flavor the base with powder, then add visible fruit at the top if the dessert still needs contrast.</text>
+
+  <rect x="108" y="776" width="1384" height="42" rx="15" fill="#203836"/>
+  <text x="144" y="804" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">No suitable unused local application photo was available, so this article uses a custom SVG field-guide cover.</text>
+</svg>

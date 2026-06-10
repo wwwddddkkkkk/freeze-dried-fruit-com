@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What gluten-free means on freeze-dried fruit labels</title>
+  <desc id="desc">Annotated freeze-dried fruit pouch showing a gluten-free front claim, ingredient list, allergen line, and checks for added ingredients.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f5efe4"/>
+      <stop offset="100%" stop-color="#e8dcc5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="72" y="70" width="1456" height="760" rx="30" fill="#fcfaf6" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="146" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="198" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="50">The Claim Answers One Question. The Bag Still Answers Others.</text>
+  <text x="112" y="238" fill="#60736e" font-family="'Source Serif 4', Georgia, serif" font-size="24">A gluten-free claim can help, but ingredient simplicity, added sugar, and product format still need their own read.</text>
+
+  <rect x="108" y="286" width="618" height="454" rx="24" fill="#17312f"/>
+  <text x="144" y="336" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">FRONT AND BACK PANEL</text>
+
+  <rect x="244" y="382" width="348" height="290" rx="34" fill="#f7f3ea" stroke="#d8d2c3" stroke-width="2"/>
+  <rect x="286" y="426" width="264" height="64" rx="18" fill="#24433d"/>
+  <text x="314" y="468" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="28" font-weight="700">GLUTEN-FREE</text>
+  <rect x="286" y="518" width="264" height="48" rx="14" fill="#fffdf8" stroke="#d8d2c3"/>
+  <text x="306" y="549" fill="#5d6c67" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">ingredient list still matters</text>
+  <rect x="286" y="586" width="264" height="48" rx="14" fill="#fffdf8" stroke="#d8d2c3"/>
+  <text x="306" y="617" fill="#5d6c67" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">contains / allergen line matters</text>
+
+  <rect x="782" y="286" width="710" height="454" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="820" y="336" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">HOW TO READ IT</text>
+
+  <rect x="824" y="388" width="198" height="126" rx="20" fill="#fcfaf6"/>
+  <text x="850" y="430" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="3">CLAIM</text>
+  <text x="850" y="466" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">gluten question</text>
+  <text x="850" y="494" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">regulated front signal</text>
+
+  <rect x="1058" y="388" width="198" height="126" rx="20" fill="#fcfaf6"/>
+  <text x="1084" y="430" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="3">INGREDIENTS</text>
+  <text x="1084" y="466" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">fruit-only or not</text>
+  <text x="1084" y="494" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">sugar, starch, flavor</text>
+
+  <rect x="1292" y="388" width="156" height="126" rx="20" fill="#fcfaf6"/>
+  <text x="1318" y="430" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="3">FORMAT</text>
+  <text x="1318" y="466" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">plain fruit</text>
+  <text x="1318" y="494" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">blend or coating</text>
+
+  <rect x="824" y="554" width="624" height="126" rx="22" fill="#17312f"/>
+  <text x="854" y="596" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">PRACTICAL RULE</text>
+  <text x="854" y="636" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Use the claim to screen for gluten. Use the ingredient list to decide what the product really is.</text>
+</svg>

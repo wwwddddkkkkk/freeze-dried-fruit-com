@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How thermocouple placement changes freeze-dried fruit endpoint confidence</title>
+  <desc id="desc">Technical tray map showing thermocouple positions across a freeze-dried fruit load, with different confidence levels for center, edge, thick-piece, and thin-piece measurements.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="66" y="66" width="1468" height="768" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="140" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="48">Where the Probe Sits Changes What the Batch Appears to Be Doing</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">A neat temperature line can still be flattering the tray if the sensor is watching an easy piece.</text>
+
+  <rect x="112" y="292" width="820" height="436" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="150" y="338" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">TRAY MAP</text>
+  <rect x="150" y="376" width="744" height="314" rx="20" fill="#fffdf8" stroke="#d4c7b1"/>
+
+  <rect x="174" y="402" width="164" height="262" rx="18" fill="#efe5d2"/>
+  <text x="198" y="434" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">edge zone</text>
+  <circle cx="228" cy="498" r="20" fill="#e0b05f"/>
+  <path d="M228 518v48" stroke="#17312f" stroke-width="3"/>
+  <text x="190" y="592" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="28">thin slice</text>
+  <text x="190" y="622" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">warms early</text>
+
+  <rect x="362" y="402" width="164" height="262" rx="18" fill="#dce9e4"/>
+  <text x="390" y="434" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">center zone</text>
+  <circle cx="444" cy="520" r="28" fill="#88b8aa"/>
+  <path d="M444 548v50" stroke="#17312f" stroke-width="3"/>
+  <text x="406" y="622" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="28">thick piece</text>
+  <text x="384" y="650" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">better risk signal</text>
+
+  <rect x="550" y="402" width="164" height="262" rx="18" fill="#efe5d2"/>
+  <text x="572" y="434" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">mixed load</text>
+  <circle cx="608" cy="492" r="16" fill="#e0b05f"/>
+  <circle cx="648" cy="528" r="28" fill="#cb5d58"/>
+  <path d="M648 556v38" stroke="#17312f" stroke-width="3"/>
+  <text x="578" y="622" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="28">drift risk</text>
+  <text x="576" y="650" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">piece mismatch</text>
+
+  <rect x="738" y="402" width="132" height="262" rx="18" fill="#17312f"/>
+  <text x="760" y="434" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">readout</text>
+  <text x="764" y="492" fill="#f7f0e4" font-family="'JetBrains Mono', monospace" font-size="22">easy</text>
+  <text x="764" y="528" fill="#f7f0e4" font-family="'JetBrains Mono', monospace" font-size="22">piece:</text>
+  <text x="764" y="564" fill="#e0b05f" font-family="'JetBrains Mono', monospace" font-size="24">done?</text>
+  <text x="764" y="622" fill="#88b8aa" font-family="'JetBrains Mono', monospace" font-size="22">batch:</text>
+  <text x="764" y="652" fill="#88b8aa" font-family="'JetBrains Mono', monospace" font-size="24">maybe not</text>
+
+  <rect x="978" y="292" width="444" height="436" rx="24" fill="#17312f"/>
+  <text x="1014" y="338" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">CONFIDENCE CHECKS</text>
+  <circle cx="1038" cy="402" r="16" fill="#88b8aa"/>
+  <text x="1068" y="410" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">probe a representative thick piece</text>
+  <circle cx="1038" cy="460" r="16" fill="#88b8aa"/>
+  <text x="1068" y="468" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">avoid flattering edge positions</text>
+  <circle cx="1038" cy="518" r="16" fill="#88b8aa"/>
+  <text x="1068" y="526" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">keep insertion depth consistent</text>
+  <circle cx="1038" cy="576" r="16" fill="#88b8aa"/>
+  <text x="1068" y="584" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">compare with pressure behavior</text>
+  <circle cx="1038" cy="634" r="16" fill="#88b8aa"/>
+  <text x="1068" y="642" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">confirm with release checks</text>
+
+  <rect x="112" y="754" width="1310" height="48" rx="18" fill="#203836"/>
+  <text x="146" y="785" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Endpoint confidence improves when the sensor watches the tray's hardest honest story, not its easiest one.</text>
+</svg>

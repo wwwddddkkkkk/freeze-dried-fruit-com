@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How prior notice mistakes delay freeze-dried fruit shipments</title>
+  <desc id="desc">Import workflow diagram showing freeze-dried fruit prior-notice filing steps and common error points such as product identity, facility data, timing, and quantity mismatches.</desc>
+  <rect width="1600" height="900" fill="#f5efe4"/>
+  <rect x="72" y="70" width="1456" height="760" rx="30" fill="#fcfaf6" stroke="#203836" stroke-width="2.5"/>
+  <text x="112" y="146" fill="#203836" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="198" fill="#122826" font-family="'DM Serif Display', Georgia, serif" font-size="50">A Small Filing Error Can Stretch a Much Bigger Shipment Clock</text>
+  <text x="112" y="238" fill="#516360" font-family="'Source Serif 4', Georgia, serif" font-size="24">Prior notice works best when it is built from the real load, not guessed at after the container is already moving.</text>
+
+  <rect x="108" y="292" width="1384" height="208" rx="24" fill="#f3ece0" stroke="#294643" stroke-width="2"/>
+  <text x="144" y="338" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">SHIPMENT FLOW</text>
+  <rect x="152" y="382" width="214" height="76" rx="18" fill="#17312f"/>
+  <text x="188" y="428" fill="#f7f0e4" font-family="'DM Serif Display', Georgia, serif" font-size="30">Invoice</text>
+  <rect x="418" y="382" width="214" height="76" rx="18" fill="#efe5d2"/>
+  <text x="456" y="428" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="30">Packing List</text>
+  <rect x="684" y="382" width="214" height="76" rx="18" fill="#dce9e4"/>
+  <text x="710" y="428" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="30">Prior Notice</text>
+  <rect x="950" y="382" width="214" height="76" rx="18" fill="#efe5d2"/>
+  <text x="982" y="428" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="30">Entry Review</text>
+  <rect x="1216" y="382" width="214" height="76" rx="18" fill="#17312f"/>
+  <text x="1248" y="428" fill="#f7f0e4" font-family="'DM Serif Display', Georgia, serif" font-size="30">Release</text>
+  <path d="M366 420h52M632 420h52M898 420h52M1164 420h52" stroke="#294643" stroke-width="4" stroke-linecap="round"/>
+
+  <rect x="108" y="540" width="674" height="210" rx="24" fill="#fffaf2" stroke="#d4c7b1"/>
+  <text x="144" y="586" fill="#3d3326" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">COMMON ERROR FLAGS</text>
+  <circle cx="156" cy="632" r="14" fill="#cb5d58"/>
+  <text x="184" y="640" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">product description does not match the load</text>
+  <circle cx="156" cy="678" r="14" fill="#cb5d58"/>
+  <text x="184" y="686" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">facility chain is incomplete or wrong</text>
+  <circle cx="494" cy="632" r="14" fill="#cb5d58"/>
+  <text x="522" y="640" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">timing window is missed or rushed</text>
+  <circle cx="494" cy="678" r="14" fill="#cb5d58"/>
+  <text x="522" y="686" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">quantity or ETA changed after filing</text>
+
+  <rect x="818" y="540" width="674" height="210" rx="24" fill="#17312f"/>
+  <text x="854" y="586" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">BUYER CONTROLS</text>
+  <circle cx="872" cy="632" r="14" fill="#88b8aa"/>
+  <text x="900" y="640" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">lock the product identity before filing</text>
+  <circle cx="872" cy="678" r="14" fill="#88b8aa"/>
+  <text x="900" y="686" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">map who made, packed, and shipped it</text>
+  <circle cx="1198" cy="632" r="14" fill="#88b8aa"/>
+  <text x="1226" y="640" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">match timing to transport mode</text>
+  <circle cx="1198" cy="678" r="14" fill="#88b8aa"/>
+  <text x="1226" y="686" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">update the file when the load shifts</text>
+
+  <rect x="108" y="770" width="1384" height="34" rx="12" fill="#88b8aa"/>
+  <text x="144" y="793" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Best habit: treat prior notice as part of shipment readiness, not last-minute broker cleanup.</text>
+</svg>

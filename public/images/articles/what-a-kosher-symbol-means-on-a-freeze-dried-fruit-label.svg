@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What a kosher symbol means on a freeze-dried fruit label</title>
+  <desc id="desc">Annotated freeze-dried fruit label showing a kosher certification symbol, certifier callouts, and notes about pareve and dairy-style status markers.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="50">A kosher mark is a certification signal, not a quality shortcut</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Read the certifier and status marker first, then keep reading the rest of the bag.</text>
+
+  <rect x="124" y="292" width="620" height="468" rx="28" fill="#fffdf8" stroke="#d8d2c3"/>
+  <text x="164" y="344" fill="#1f332d" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">EXAMPLE FRONT/BACK LABEL READ</text>
+  <rect x="170" y="386" width="528" height="298" rx="22" fill="#f1ebdf" stroke="#d8d2c3"/>
+  <text x="206" y="438" fill="#3c3226" font-family="'Source Sans 3', Arial, sans-serif" font-size="34" font-weight="700">Freeze-Dried Strawberry</text>
+  <rect x="206" y="474" width="112" height="112" rx="18" fill="#ffffff" stroke="#294643" stroke-width="3"/>
+  <text x="238" y="548" fill="#294643" font-family="'DM Serif Display', Georgia, serif" font-size="58">OU</text>
+  <text x="344" y="520" fill="#4b5a54" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">1. certifier mark</text>
+  <text x="344" y="552" fill="#4b5a54" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">which agency is certifying this?</text>
+  <text x="206" y="636" fill="#4b5a54" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Ingredients: strawberries</text>
+  <text x="206" y="666" fill="#4b5a54" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Allergen info still needs its own read</text>
+
+  <rect x="820" y="292" width="660" height="468" rx="28" fill="#17312f"/>
+  <text x="860" y="344" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">WHAT THE MARK CAN AND CANNOT TELL YOU</text>
+
+  <rect x="860" y="390" width="266" height="88" rx="20" fill="#dce9e4"/>
+  <text x="892" y="426" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">It can tell you</text>
+  <text x="892" y="458" fill="#355248" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">a certifier approved this status</text>
+
+  <rect x="1180" y="390" width="260" height="88" rx="20" fill="#f6d9cf"/>
+  <text x="1212" y="426" fill="#7a4035" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">It cannot tell you</text>
+  <text x="1212" y="458" fill="#8d5a50" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">healthy, allergen-free, or premium</text>
+
+  <rect x="860" y="522" width="580" height="176" rx="22" fill="#fffdf8"/>
+  <text x="896" y="566" fill="#1f332d" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">Useful reading order</text>
+  <text x="896" y="604" fill="#4b5a54" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">1. Identify the certifier symbol.</text>
+  <text x="896" y="636" fill="#4b5a54" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">2. Note any added status letters or qualifiers.</text>
+  <text x="896" y="668" fill="#4b5a54" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">3. Still read ingredients, allergens, and product identity.</text>
+
+  <rect x="124" y="778" width="1356" height="36" rx="18" fill="#172f2b"/>
+  <text x="154" y="802" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" font-weight="700">The exact symbol matters more than the vague idea of "kosher" alone.</text>
+</svg>

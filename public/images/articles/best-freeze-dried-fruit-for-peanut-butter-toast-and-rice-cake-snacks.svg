@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Best freeze-dried fruit for peanut butter toast and rice cake snacks</title>
+  <desc id="desc">Snack pairing guide comparing freeze-dried fruit options for peanut-butter toast and rice cakes with piece, crumble, and powder uses.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="31" font-weight="700">Rich nut butter needs fruit that can still be heard</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Toast softens the topping fast. Rice cakes preserve more crunch. Format matters as much as the fruit.</text>
+
+  <g transform="translate(126 220)">
+    <text x="156" y="0" text-anchor="middle" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Peanut-butter toast</text>
+    <rect x="36" y="56" width="240" height="154" rx="22" fill="#ddbe89"/>
+    <rect x="54" y="74" width="204" height="118" rx="18" fill="#c69a60"/>
+    <path d="M82 108c24-18 58-18 82 0s58 18 82 0" fill="none" stroke="#d86158" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="112" cy="98" r="10" fill="#4b6f95"/>
+    <circle cx="184" cy="92" r="9" fill="#b34a65"/>
+    <text x="26" y="250" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">Best with powder or fine crumble if the toast is warm</text>
+    <text x="26" y="276" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">Top just before eating for more contrast</text>
+  </g>
+
+  <g transform="translate(662 220)">
+    <text x="156" y="0" text-anchor="middle" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Peanut-butter rice cakes</text>
+    <circle cx="156" cy="132" r="108" fill="#e8dfcf"/>
+    <circle cx="156" cy="132" r="84" fill="#c69a60"/>
+    <circle cx="110" cy="108" r="12" fill="#d86158"/>
+    <circle cx="198" cy="94" r="10" fill="#4b6f95"/>
+    <circle cx="224" cy="142" r="9" fill="#b34a65"/>
+    <rect x="118" y="156" width="70" height="16" rx="8" fill="#efd69b"/>
+    <text x="16" y="250" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">Cooler, drier surface keeps visible pieces readable longer</text>
+    <text x="16" y="276" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">Best for strawberry, blueberry, apple, or mixed berry crumble</text>
+  </g>
+
+  <g transform="translate(392 244)">
+    <rect width="420" height="236" rx="26" fill="#fffdf8" stroke="#d8d2c3"/>
+    <text x="24" y="38" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Quick pairing guide</text>
+    <text x="24" y="76" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="15">Strawberry / raspberry</text>
+    <text x="184" y="76" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">best for contrast and brightness</text>
+    <text x="24" y="110" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="15">Blueberry</text>
+    <text x="184" y="110" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">rounder berry note, easy full-bite coverage</text>
+    <text x="24" y="144" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="15">Apple</text>
+    <text x="184" y="144" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">gentle everyday crunch without dessert drift</text>
+    <text x="24" y="178" fill="#b07c43" font-family="Inter, Arial, sans-serif" font-size="15">Banana / mango</text>
+    <text x="184" y="178" fill="#4b5a54" font-family="Inter, Arial, sans-serif" font-size="15">use lightly when sweetness matters more than acid</text>
+  </g>
+
+  <g transform="translate(112 536)">
+    <rect width="976" height="34" rx="17" fill="#1f332d"/>
+    <text x="28" y="23" fill="#fffdf8" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Local application-photo folders were empty on this run, so this article uses a custom SVG cover instead of a reused stock-style image.</text>
+  </g>
+</svg>

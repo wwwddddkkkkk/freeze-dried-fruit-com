@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Why food defense readiness matters when approving freeze-dried fruit suppliers</title>
+  <desc id="desc">Supplier approval diagram showing food-defense controls around receiving, open product, packaging access, and escalation for freeze-dried fruit.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fffaf2" stroke="#ccbda1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="50">Food defense asks who can reach the product when nobody expects trouble</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">A strong supplier can name the vulnerable steps, the access limits, and the escalation path.</text>
+
+  <rect x="118" y="292" width="1364" height="440" rx="28" fill="#fcf6ea" stroke="#d3c4a6"/>
+
+  <rect x="156" y="354" width="260" height="158" rx="22" fill="#eef4fb" stroke="#c8d5e5"/>
+  <text x="190" y="402" fill="#274764" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" font-weight="700">Receiving + staging</text>
+  <text x="190" y="438" fill="#4c6780" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">who can access ingredients,</text>
+  <text x="190" y="468" fill="#4c6780" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">bulk fruit, and label stock?</text>
+
+  <rect x="486" y="354" width="260" height="158" rx="22" fill="#edf4ef" stroke="#c6d8ce"/>
+  <text x="520" y="402" fill="#23433a" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" font-weight="700">Open product step</text>
+  <text x="520" y="438" fill="#4e665c" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">trays, bins, or blend points</text>
+  <text x="520" y="468" fill="#4e665c" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">need defined oversight</text>
+
+  <rect x="816" y="354" width="260" height="158" rx="22" fill="#fffaf1" stroke="#d3c4a6"/>
+  <text x="850" y="402" fill="#3c3226" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" font-weight="700">Packout + labels</text>
+  <text x="850" y="438" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">private-label runs and</text>
+  <text x="850" y="468" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">finished-goods control matter</text>
+
+  <rect x="1146" y="354" width="260" height="158" rx="22" fill="#f6d9cf" stroke="#d7a89c"/>
+  <text x="1180" y="402" fill="#7a3c31" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" font-weight="700">Escalation</text>
+  <text x="1180" y="438" fill="#8d5a50" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">who acts when something</text>
+  <text x="1180" y="468" fill="#8d5a50" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">looks suspicious or wrong?</text>
+
+  <path d="M416 432h52" stroke="#c3b392" stroke-width="4" stroke-linecap="round"/>
+  <path d="M746 432h52" stroke="#c3b392" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1076 432h52" stroke="#c3b392" stroke-width="4" stroke-linecap="round"/>
+  <path d="M454 432l14 -10v20z" fill="#c3b392"/>
+  <path d="M784 432l14 -10v20z" fill="#c3b392"/>
+  <path d="M1114 432l14 -10v20z" fill="#c3b392"/>
+
+  <rect x="204" y="566" width="1192" height="108" rx="22" fill="#efe4d0" stroke="#d3c4a6"/>
+  <text x="246" y="610" fill="#3c3226" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" font-weight="700">Buyer read</text>
+  <text x="246" y="642" fill="#6c5d49" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Weak answer: "We are careful."</text>
+  <text x="520" y="642" fill="#23433a" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">Strong answer: "These are the vulnerable steps, these are the controls, and this is who owns escalation."</text>
+
+  <rect x="118" y="756" width="1364" height="58" rx="18" fill="#172f2b"/>
+  <text x="152" y="793" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Food defense is not general cleanliness. It is deliberate control over where intentional harm could enter and how the site would stop it.</text>
+</svg>

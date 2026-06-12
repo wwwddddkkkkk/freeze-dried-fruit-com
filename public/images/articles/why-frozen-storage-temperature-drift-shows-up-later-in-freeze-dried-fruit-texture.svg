@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Why frozen storage temperature drift shows up later in freeze-dried fruit texture</title>
+  <desc id="desc">Technical diagram comparing stable frozen storage and temperature drift, showing ice crystal change and later freeze-dried texture outcomes.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="142" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="112" y="198" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="50">The freezer can quietly rewrite the texture before drying starts</text>
+  <text x="112" y="238" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Stable frozen holding preserves the pore blueprint. Drift encourages crystal change and wider texture spread.</text>
+
+  <rect x="104" y="290" width="648" height="430" rx="24" fill="#eef4fb" stroke="#c8d5e5"/>
+  <text x="142" y="336" fill="#274764" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">STABLE FROZEN HOLD</text>
+  <rect x="146" y="380" width="240" height="178" rx="22" fill="#ffffff" stroke="#c8d5e5"/>
+  <circle cx="194" cy="430" r="18" fill="#cfe2f5"/>
+  <circle cx="246" cy="426" r="14" fill="#b9d2ee"/>
+  <circle cx="298" cy="434" r="17" fill="#cfe2f5"/>
+  <circle cx="340" cy="430" r="12" fill="#b9d2ee"/>
+  <text x="172" y="490" fill="#496989" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">ice pattern stays close</text>
+  <text x="172" y="516" fill="#496989" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">to the original freeze</text>
+
+  <rect x="452" y="380" width="258" height="178" rx="22" fill="#ffffff" stroke="#c8d5e5"/>
+  <rect x="492" y="416" width="178" height="92" rx="18" fill="#dce9e4" stroke="#bfd2c8"/>
+  <path d="M516 454h130" stroke="#6d8f82" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 10"/>
+  <path d="M516 476h130" stroke="#6d8f82" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 10"/>
+  <text x="494" y="536" fill="#355248" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">more even pore network later</text>
+
+  <rect x="146" y="594" width="564" height="84" rx="18" fill="#dce9e4"/>
+  <text x="176" y="630" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Likely outcome</text>
+  <text x="176" y="662" fill="#355248" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">cleaner crunch, lower fines, narrower piece-to-piece variation</text>
+
+  <rect x="848" y="290" width="648" height="430" rx="24" fill="#fbf1eb" stroke="#dcc3b7"/>
+  <text x="886" y="336" fill="#7a4035" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="4">TEMPERATURE DRIFT</text>
+  <rect x="890" y="380" width="240" height="178" rx="22" fill="#ffffff" stroke="#dcc3b7"/>
+  <circle cx="948" cy="430" r="28" fill="#f0d0c6"/>
+  <circle cx="1028" cy="426" r="18" fill="#e9b8aa"/>
+  <circle cx="1084" cy="438" r="24" fill="#f0d0c6"/>
+  <text x="916" y="490" fill="#8d5a50" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">crystals grow or shift</text>
+  <text x="916" y="516" fill="#8d5a50" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">during unstable holding</text>
+
+  <rect x="1196" y="380" width="258" height="178" rx="22" fill="#ffffff" stroke="#dcc3b7"/>
+  <rect x="1236" y="416" width="178" height="92" rx="18" fill="#f6d9cf" stroke="#d9aca0"/>
+  <path d="M1260 450h48" stroke="#b86b60" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1322 450h28" stroke="#b86b60" stroke-width="6" stroke-linecap="round"/>
+  <path d="M1260 478h84" stroke="#b86b60" stroke-width="6" stroke-linecap="round"/>
+  <text x="1238" y="536" fill="#8d5a50" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">less even structure later</text>
+
+  <rect x="890" y="594" width="564" height="84" rx="18" fill="#f6d9cf"/>
+  <text x="920" y="630" fill="#7a4035" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Likely outcome</text>
+  <text x="920" y="662" fill="#8d5a50" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">flatter bite, more fines, more lot-to-lot and piece-to-piece spread</text>
+
+  <rect x="104" y="756" width="1392" height="54" rx="18" fill="#172f2b"/>
+  <text x="138" y="790" fill="#fcfaf6" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">The drying cycle preserves the frozen architecture it receives; freezer drift can become a texture problem later, even when moisture release looks acceptable.</text>
+</svg>

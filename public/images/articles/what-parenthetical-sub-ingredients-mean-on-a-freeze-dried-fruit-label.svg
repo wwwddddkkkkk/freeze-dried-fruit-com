@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What parenthetical sub-ingredients mean on a freeze-dried fruit label</title>
+  <desc id="desc">An annotated food label showing a compound ingredient followed by parenthetical components and callouts for sweeteners, flavors, and carriers.</desc>
+  <rect width="1600" height="900" fill="#f3efe6"/>
+  <rect x="56" y="56" width="1488" height="788" rx="28" fill="#fbf8f2" stroke="#1d2732" stroke-width="2"/>
+  <text x="92" y="126" fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="3">LABELS &amp; QUALITY</text>
+  <text x="92" y="178" fill="#1d2732" font-family="'Source Serif 4', Georgia, serif" font-size="54">Reading Parenthetical Sub-Ingredients</text>
+  <text x="92" y="216" fill="#526170" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">The ingredient name is the headline. The parentheses explain what is actually inside it.</text>
+
+  <rect x="108" y="284" width="690" height="466" rx="26" fill="#fffdfa" stroke="#1d2732" stroke-width="2"/>
+  <text x="148" y="344" fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="2">INGREDIENTS</text>
+  <rect x="146" y="378" width="614" height="284" rx="18" fill="#f6f1e7" stroke="#d8cdbc" stroke-width="2"/>
+  <text x="172" y="436" fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="26">Cereal, fruit preparation</text>
+  <text x="172" y="478" fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="26">(strawberries, sugar, apple juice concentrate),</text>
+  <text x="172" y="520" fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="26">yogurt coating (sugar, palm kernel oil, whey,</text>
+  <text x="172" y="562" fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="26">yogurt powder, natural flavor), citric acid</text>
+  <rect x="410" y="390" width="296" height="104" rx="14" fill="none" stroke="#ba6a42" stroke-width="4"/>
+  <rect x="398" y="504" width="338" height="74" rx="14" fill="none" stroke="#5f7d65" stroke-width="4"/>
+  <text x="148" y="622" fill="#526170" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">One ingredient can open into a more specific formula.</text>
+
+  <path d="M770 440 h100" stroke="#ba6a42" stroke-width="3" stroke-dasharray="8 8"/>
+  <path d="M870 440 l-20 -10 v20 z" fill="#ba6a42"/>
+  <rect x="896" y="380" width="520" height="132" rx="20" fill="#fff1ea" stroke="#ba6a42" stroke-width="2"/>
+  <text x="928" y="424" fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">Parenthetical list for a compound ingredient</text>
+  <text x="928" y="458" fill="#526170" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Shows what is inside the named fruit preparation.</text>
+  <text x="928" y="490" fill="#526170" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">This is often where sweeteners become visible.</text>
+
+  <path d="M736 540 h132" stroke="#5f7d65" stroke-width="3" stroke-dasharray="8 8"/>
+  <path d="M868 540 l-20 -10 v20 z" fill="#5f7d65"/>
+  <rect x="896" y="540" width="520" height="154" rx="20" fill="#edf5ee" stroke="#5f7d65" stroke-width="2"/>
+  <text x="928" y="586" fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">Second parenthetical list, different job</text>
+  <text x="928" y="620" fill="#526170" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Coatings often reveal fats, dairy solids,</text>
+  <text x="928" y="650" fill="#526170" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">flavors, or carriers that the headline name hides.</text>
+  <text x="928" y="680" fill="#526170" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Read the ingredient name first, then the parentheses.</text>
+</svg>

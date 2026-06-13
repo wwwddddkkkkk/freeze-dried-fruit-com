@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">When document review is not enough in freeze-dried fruit supplier approval</title>
+  <desc id="desc">A supplier approval matrix comparing document review, remote evidence, and onsite audit checks across hazards, execution, and lot release.</desc>
+  <rect width="1600" height="900" fill="#f3efe6"/>
+  <rect x="56" y="56" width="1488" height="788" rx="28" fill="#fbf8f2" stroke="#1d2732" stroke-width="2"/>
+  <text x="92" y="126" fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="3">INDUSTRY INSIGHTS</text>
+  <text x="92" y="178" fill="#1d2732" font-family="'Source Serif 4', Georgia, serif" font-size="52">Document Review vs Onsite Verification</text>
+  <text x="92" y="216" fill="#526170" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">The approval packet is a filter. The floor check tests whether the system actually behaves as described.</text>
+
+  <rect x="96" y="272" width="1412" height="492" rx="26" fill="#fffdfa" stroke="#1d2732" stroke-width="2"/>
+  <line x1="492" y1="312" x2="492" y2="728" stroke="#d8cdbc" stroke-width="2"/>
+  <line x1="904" y1="312" x2="904" y2="728" stroke="#d8cdbc" stroke-width="2"/>
+  <line x1="1288" y1="312" x2="1288" y2="728" stroke="#d8cdbc" stroke-width="2"/>
+  <line x1="132" y1="380" x2="1472" y2="380" stroke="#d8cdbc" stroke-width="2"/>
+  <line x1="132" y1="474" x2="1472" y2="474" stroke="#d8cdbc" stroke-width="2"/>
+  <line x1="132" y1="568" x2="1472" y2="568" stroke="#d8cdbc" stroke-width="2"/>
+  <line x1="132" y1="662" x2="1472" y2="662" stroke="#d8cdbc" stroke-width="2"/>
+
+  <text x="162" y="344" fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="2">CHECK</text>
+  <text x="548" y="344" fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="2">DOCUMENT REVIEW</text>
+  <text x="958" y="344" fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="2">REMOTE / FOLLOW-UP</text>
+  <text x="1324" y="344" fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="2">ONSITE AUDIT</text>
+
+  <g fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">
+    <text x="162" y="436">Hazard ownership</text>
+    <text x="162" y="530">Lot release discipline</text>
+    <text x="162" y="624">Segregation / sanitation</text>
+    <text x="162" y="718">Pack-out execution</text>
+  </g>
+  <g fill="#526170" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">
+    <text x="548" y="420">specs, certificates, COAs,</text>
+    <text x="548" y="446">food safety summaries</text>
+    <text x="548" y="514">records and templates</text>
+    <text x="548" y="540">can indicate process design</text>
+    <text x="548" y="608">SOPs and questionnaires</text>
+    <text x="548" y="634">show intended controls</text>
+    <text x="548" y="702">packaging specs and photos</text>
+    <text x="548" y="728">show the claimed setup</text>
+
+    <text x="958" y="420">clarifies missing evidence,</text>
+    <text x="958" y="446">explains trend data</text>
+    <text x="958" y="514">record review may narrow</text>
+    <text x="958" y="540">where the weak point sits</text>
+    <text x="958" y="608">video and traceability review</text>
+    <text x="958" y="634">help, but remain indirect</text>
+    <text x="958" y="702">useful for follow-up, not a</text>
+    <text x="958" y="728">full substitute for observation</text>
+
+    <text x="1324" y="420">checks the real control point</text>
+    <text x="1324" y="446">when supplier owns the hazard</text>
+    <text x="1324" y="514">tests whether release behavior</text>
+    <text x="1324" y="540">matches the written file</text>
+    <text x="1324" y="608">observes line clearance, zoning,</text>
+    <text x="1324" y="634">and operating discipline</text>
+    <text x="1324" y="702">confirms pack-out, hold time,</text>
+    <text x="1324" y="728">and handling reality</text>
+  </g>
+
+  <rect x="96" y="790" width="1412" height="28" rx="14" fill="#1d2732"/>
+  <circle cx="266" cy="804" r="8" fill="#d7b058"/>
+  <circle cx="800" cy="804" r="8" fill="#d7b058"/>
+  <circle cx="1206" cy="804" r="8" fill="#d7b058"/>
+  <text x="290" y="811" fill="#fbf8f2" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Start with documents</text>
+  <text x="826" y="811" fill="#fbf8f2" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Escalate by hazard and supplier role</text>
+  <text x="1230" y="811" fill="#fbf8f2" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Audit where the real control lives</text>
+</svg>

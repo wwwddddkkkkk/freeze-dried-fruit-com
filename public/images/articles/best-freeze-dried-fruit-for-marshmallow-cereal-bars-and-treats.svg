@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Best freeze-dried fruit for marshmallow cereal bars and treats</title>
+  <desc id="desc">An application chart comparing strawberry, blueberry, raspberry crumble, and fruit powder for marshmallow cereal bars by visibility, tartness, and cut-face performance.</desc>
+  <rect width="1600" height="900" fill="#f3efe6"/>
+  <rect x="56" y="56" width="1488" height="788" rx="28" fill="#fbf8f2" stroke="#1d2732" stroke-width="2"/>
+  <text x="92" y="126" fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="3">APPLICATIONS</text>
+  <text x="92" y="178" fill="#1d2732" font-family="'Source Serif 4', Georgia, serif" font-size="52">Fruit Formats for Marshmallow Treats</text>
+  <text x="92" y="216" fill="#526170" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Sticky mix, pressed slab, clean slicing: the best format is usually smaller than the prettiest fruit in the bag.</text>
+
+  <rect x="98" y="276" width="548" height="462" rx="26" fill="#fffdfa" stroke="#1d2732" stroke-width="2"/>
+  <text x="132" y="326" fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="2">TREAT SLAB</text>
+  <rect x="144" y="364" width="458" height="282" rx="22" fill="#f1e0b9" stroke="#1d2732" stroke-width="2"/>
+  <rect x="168" y="388" width="410" height="234" rx="18" fill="#f6e9c7" stroke="#d8cdbc" stroke-width="1.5"/>
+  <g fill="#d96f78">
+    <circle cx="226" cy="430" r="10"/>
+    <circle cx="336" cy="470" r="8"/>
+    <circle cx="410" cy="432" r="9"/>
+  </g>
+  <g fill="#6c8aa8">
+    <circle cx="282" cy="526" r="9"/>
+    <circle cx="470" cy="504" r="8"/>
+    <circle cx="548" cy="438" r="7"/>
+  </g>
+  <g fill="#b54f63">
+    <circle cx="208" cy="566" r="5"/>
+    <circle cx="228" cy="584" r="4"/>
+    <circle cx="248" cy="570" r="4"/>
+    <circle cx="502" cy="572" r="5"/>
+    <circle cx="520" cy="588" r="4"/>
+    <circle cx="540" cy="574" r="4"/>
+  </g>
+  <path d="M168 388 q120 84 246 64 t164 58" fill="none" stroke="#ffffff" stroke-opacity="0.8" stroke-width="16" stroke-linecap="round"/>
+  <line x1="148" y1="682" x2="598" y2="682" stroke="#d8cdbc" stroke-width="2"/>
+  <text x="154" y="716" fill="#526170" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Best pattern: powder or small pieces inside, lighter finish on top.</text>
+
+  <rect x="702" y="276" width="806" height="462" rx="26" fill="#fffdfa" stroke="#1d2732" stroke-width="2"/>
+  <text x="736" y="326" fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="2">FORMAT GUIDE</text>
+  <line x1="736" y1="352" x2="1472" y2="352" stroke="#d8cdbc" stroke-width="2"/>
+  <line x1="1010" y1="352" x2="1010" y2="700" stroke="#d8cdbc" stroke-width="2"/>
+  <line x1="1224" y1="352" x2="1224" y2="700" stroke="#d8cdbc" stroke-width="2"/>
+  <line x1="1384" y1="352" x2="1384" y2="700" stroke="#d8cdbc" stroke-width="2"/>
+  <line x1="736" y1="432" x2="1472" y2="432" stroke="#d8cdbc" stroke-width="2"/>
+  <line x1="736" y1="512" x2="1472" y2="512" stroke="#d8cdbc" stroke-width="2"/>
+  <line x1="736" y1="592" x2="1472" y2="592" stroke="#d8cdbc" stroke-width="2"/>
+  <line x1="736" y1="672" x2="1472" y2="672" stroke="#d8cdbc" stroke-width="2"/>
+  <g fill="#1d2732" font-family="'Source Sans 3', Arial, sans-serif">
+    <text x="760" y="404" font-size="24">FORMAT</text>
+    <text x="1044" y="404" font-size="24">BEST FOR</text>
+    <text x="1254" y="404" font-size="24">WATCH-OUT</text>
+    <text x="1408" y="404" font-size="24">CUT</text>
+
+    <text x="760" y="484" font-size="22">Strawberry pieces</text>
+    <text x="1044" y="484" font-size="20">all-around color and fruit identity</text>
+    <text x="1254" y="484" font-size="20">avoid giant slices</text>
+    <text x="1416" y="484" font-size="20">A</text>
+
+    <text x="760" y="564" font-size="22">Blueberry</text>
+    <text x="1044" y="564" font-size="20">neat bite distribution</text>
+    <text x="1254" y="564" font-size="20">less dramatic color</text>
+    <text x="1416" y="564" font-size="20">A</text>
+
+    <text x="760" y="644" font-size="22">Raspberry crumble</text>
+    <text x="1044" y="644" font-size="20">tart lift in sweet bars</text>
+    <text x="1254" y="644" font-size="20">can read dusty if overused</text>
+    <text x="1416" y="644" font-size="20">B</text>
+
+    <text x="760" y="724" font-size="22">Fruit powder</text>
+    <text x="1044" y="724" font-size="20">all-over flavor and tint</text>
+    <text x="1254" y="724" font-size="20">not visually fruit-forward alone</text>
+    <text x="1416" y="724" font-size="20">A</text>
+  </g>
+</svg>

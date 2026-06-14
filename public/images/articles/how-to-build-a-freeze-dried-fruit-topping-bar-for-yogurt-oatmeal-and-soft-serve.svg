@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to build a freeze-dried fruit topping bar for yogurt, oatmeal, and soft-serve</title>
+  <desc id="desc">Serving layout showing separate bowls for freeze-dried fruit pieces, crumble, powder, and support mix-ins on a topping bar.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="56" y="56" width="1488" height="788" rx="28" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="136" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">APPLICATIONS</text>
+  <text x="112" y="192" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="48">A topping bar works better when each bowl has a job</text>
+  <text x="112" y="234" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Separate crunch pieces, tart crumble, and fruit powder so texture stays intentional.</text>
+
+  <g transform="translate(138 302)">
+    <rect width="1324" height="462" rx="26" fill="#eef4ef" stroke="#24433d" stroke-width="2"/>
+
+    <g transform="translate(64 64)">
+      <circle cx="118" cy="118" r="98" fill="#fffdf8" stroke="#c8d1c8" stroke-width="2"/>
+      <circle cx="118" cy="118" r="56" fill="#cf5a54"/>
+      <rect x="64" y="222" width="108" height="34" rx="14" fill="#17312f"/>
+      <text x="118" y="244" fill="#fffdf8" text-anchor="middle" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">crunch pieces</text>
+    </g>
+
+    <g transform="translate(366 64)">
+      <circle cx="118" cy="118" r="98" fill="#fffdf8" stroke="#c8d1c8" stroke-width="2"/>
+      <circle cx="118" cy="118" r="56" fill="#8d436d"/>
+      <circle cx="92" cy="102" r="8" fill="#f6dbe8"/>
+      <circle cx="132" cy="136" r="8" fill="#f6dbe8"/>
+      <circle cx="148" cy="98" r="8" fill="#f6dbe8"/>
+      <rect x="68" y="222" width="100" height="34" rx="14" fill="#17312f"/>
+      <text x="118" y="244" fill="#fffdf8" text-anchor="middle" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">tart crumble</text>
+    </g>
+
+    <g transform="translate(668 64)">
+      <circle cx="118" cy="118" r="98" fill="#fffdf8" stroke="#c8d1c8" stroke-width="2"/>
+      <circle cx="118" cy="118" r="56" fill="#e7a764"/>
+      <line x1="76" y1="90" x2="160" y2="146" stroke="#fff5dc" stroke-width="4"/>
+      <line x1="76" y1="110" x2="160" y2="166" stroke="#fff5dc" stroke-width="4"/>
+      <rect x="78" y="222" width="80" height="34" rx="14" fill="#17312f"/>
+      <text x="118" y="244" fill="#fffdf8" text-anchor="middle" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">powder</text>
+    </g>
+
+    <g transform="translate(970 64)">
+      <circle cx="118" cy="118" r="98" fill="#fffdf8" stroke="#c8d1c8" stroke-width="2"/>
+      <circle cx="88" cy="108" r="18" fill="#8c6c45"/>
+      <circle cx="122" cy="136" r="18" fill="#c3a170"/>
+      <circle cx="150" cy="98" r="18" fill="#ead8b7"/>
+      <rect x="64" y="222" width="108" height="34" rx="14" fill="#17312f"/>
+      <text x="118" y="244" fill="#fffdf8" text-anchor="middle" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">mix-in support</text>
+    </g>
+
+    <text x="82" y="378" fill="#435650" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">Use small bowls, dry spoons, and last-minute refill timing to protect crunch.</text>
+    <text x="82" y="418" fill="#435650" font-family="'Source Sans 3', Arial, sans-serif" font-size="24">Oatmeal prefers crumble and powder. Soft-serve rewards larger visible pieces. Yogurt can take both.</text>
+  </g>
+</svg>

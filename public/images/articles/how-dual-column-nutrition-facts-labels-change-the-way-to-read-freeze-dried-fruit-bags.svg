@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How dual-column Nutrition Facts labels change the way to read freeze-dried fruit bags</title>
+  <desc id="desc">Annotated label diagram comparing per-serving and per-package readings on a dual-column Nutrition Facts panel for freeze-dried fruit.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="56" y="56" width="1488" height="788" rx="28" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="136" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="192" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="48">One bag can read two ways</text>
+  <text x="112" y="234" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Dual columns make the per-serving view and the full-package view visible at the same time.</text>
+
+  <g transform="translate(148 292)">
+    <rect width="640" height="438" rx="24" fill="#fffdf8" stroke="#1f332d" stroke-width="3"/>
+    <text x="30" y="54" fill="#1f332d" font-family="'Source Sans 3', Arial, sans-serif" font-size="34" font-weight="700">Nutrition Facts</text>
+    <line x1="30" y1="76" x2="610" y2="76" stroke="#1f332d" stroke-width="8"/>
+    <text x="32" y="112" fill="#435650" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">about 2 servings per container</text>
+    <line x1="30" y1="130" x2="610" y2="130" stroke="#1f332d" stroke-width="2"/>
+    <text x="32" y="170" fill="#1f332d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Serving size</text>
+    <text x="320" y="170" fill="#1f332d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">1 cup</text>
+    <line x1="30" y1="188" x2="610" y2="188" stroke="#1f332d" stroke-width="6"/>
+    <text x="32" y="226" fill="#1f332d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" font-weight="700">Amount per serving</text>
+    <line x1="282" y1="210" x2="282" y2="376" stroke="#b7b2a4" stroke-width="2"/>
+    <text x="332" y="248" fill="#435650" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Per serving</text>
+    <text x="474" y="248" fill="#435650" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Per package</text>
+    <text x="32" y="292" fill="#1f332d" font-family="'Source Sans 3', Arial, sans-serif" font-size="34" font-weight="700">Calories</text>
+    <text x="352" y="292" fill="#1f332d" font-family="'JetBrains Mono', monospace" font-size="34">90</text>
+    <text x="494" y="292" fill="#1f332d" font-family="'JetBrains Mono', monospace" font-size="34">180</text>
+    <line x1="30" y1="314" x2="610" y2="314" stroke="#1f332d" stroke-width="2"/>
+    <text x="32" y="354" fill="#435650" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Total Sugars</text>
+    <text x="352" y="354" fill="#1f332d" font-family="'JetBrains Mono', monospace" font-size="24">18g</text>
+    <text x="494" y="354" fill="#1f332d" font-family="'JetBrains Mono', monospace" font-size="24">36g</text>
+    <text x="32" y="408" fill="#435650" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">The panel does not change the fruit.</text>
+    <text x="32" y="434" fill="#435650" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">It changes how the shopper reads the same bag.</text>
+  </g>
+
+  <g transform="translate(858 304)">
+    <rect width="594" height="414" rx="24" fill="#eef4ef" stroke="#24433d" stroke-width="2"/>
+    <text x="34" y="54" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="4">READING HABIT</text>
+    <text x="34" y="104" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="34">Use both columns to judge realistic intake</text>
+    <text x="34" y="162" fill="#435650" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">1. Check whether the bag feels like a one-sitting snack.</text>
+    <text x="34" y="206" fill="#435650" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">2. Compare per serving with per package.</text>
+    <text x="34" y="250" fill="#435650" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">3. Read that alongside ingredient line and package size.</text>
+    <text x="34" y="294" fill="#435650" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">4. Remember: not every freeze-dried fruit bag will carry dual columns.</text>
+    <rect x="34" y="332" width="526" height="44" rx="14" fill="#17312f"/>
+    <text x="58" y="360" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Light package feel can hide concentrated fruit solids.</text>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Why drop testing and compression testing matter for freeze-dried fruit e-commerce packs</title>
+  <desc id="desc">Technical diagram comparing case compression and free-fall drop testing for freeze-dried fruit parcel packs.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="52" y="52" width="1496" height="796" rx="28" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="108" y="132" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="108" y="188" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="48">Transit damage is usually two problems, not one</text>
+  <text x="108" y="230" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Compression weakens the protective structure. Drops convert that weakness into visible breakage.</text>
+
+  <g transform="translate(108 294)">
+    <rect width="626" height="432" rx="26" fill="#eff3ef" stroke="#24433d" stroke-width="2"/>
+    <text x="36" y="52" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="23" letter-spacing="4">COMPRESSION</text>
+    <text x="36" y="96" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="34">Can the case stay protective under load?</text>
+    <rect x="84" y="168" width="260" height="176" rx="18" fill="#fffdf8" stroke="#c8d1c8"/>
+    <rect x="114" y="198" width="200" height="116" rx="8" fill="#ead8b7" stroke="#9c8458"/>
+    <rect x="124" y="208" width="52" height="96" rx="6" fill="#c84b4b"/>
+    <rect x="192" y="208" width="52" height="96" rx="6" fill="#d76d57"/>
+    <rect x="260" y="208" width="36" height="96" rx="6" fill="#e8a654"/>
+    <line x1="114" y1="176" x2="314" y2="176" stroke="#24433d" stroke-width="8"/>
+    <polygon points="146,176 154,152 162,176" fill="#24433d"/>
+    <polygon points="212,176 220,152 228,176" fill="#24433d"/>
+    <polygon points="278,176 286,152 294,176" fill="#24433d"/>
+    <text x="386" y="204" fill="#3f534f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Checks whether stacked load</text>
+    <text x="386" y="232" fill="#3f534f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">or handling pressure deforms</text>
+    <text x="386" y="260" fill="#3f534f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">the shipper before delivery.</text>
+    <text x="36" y="384" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Useful read: case rigidity, inner restraint, settling risk,</text>
+    <text x="36" y="410" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">and whether premium whole pieces stay protected in stack.</text>
+  </g>
+
+  <g transform="translate(864 294)">
+    <rect width="626" height="432" rx="26" fill="#17312f"/>
+    <text x="36" y="52" fill="#dfe9e2" font-family="'Source Sans 3', Arial, sans-serif" font-size="23" letter-spacing="4">DROP</text>
+    <text x="36" y="96" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="34">What happens when the packed system takes impact?</text>
+    <rect x="86" y="156" width="212" height="132" rx="12" fill="#ead8b7" stroke="#fff6e6" stroke-width="2"/>
+    <rect x="106" y="176" width="50" height="92" rx="6" fill="#c84b4b"/>
+    <rect x="170" y="176" width="50" height="92" rx="6" fill="#d76d57"/>
+    <rect x="234" y="176" width="32" height="92" rx="6" fill="#e8a654"/>
+    <path d="M 360 146 C 416 92 476 92 528 144" fill="none" stroke="#f0d7a8" stroke-width="6" stroke-dasharray="12 12"/>
+    <polygon points="520,138 548,148 526,168" fill="#f0d7a8"/>
+    <line x1="82" y1="346" x2="560" y2="346" stroke="#54706b" stroke-width="8"/>
+    <text x="330" y="208" fill="#f8eee0" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Shows how shock turns brittle fruit</text>
+    <text x="330" y="236" fill="#f8eee0" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">into fragments, fines, or complaint-level</text>
+    <text x="330" y="264" fill="#f8eee0" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">presentation damage.</text>
+    <text x="36" y="384" fill="#dfe9e2" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Useful read: corner hits, pouch movement, headspace,</text>
+    <text x="36" y="410" fill="#dfe9e2" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">and whole-piece loss after free-fall events.</text>
+  </g>
+
+  <rect x="108" y="766" width="1382" height="44" rx="16" fill="#203836"/>
+  <text x="138" y="794" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Parcel-ready freeze-dried fruit packs need both structural load control and impact control.</text>
+</svg>

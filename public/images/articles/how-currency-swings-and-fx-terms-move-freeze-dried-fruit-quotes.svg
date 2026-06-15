@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How currency swings and FX terms move freeze-dried fruit quotes</title>
+  <desc id="desc">Flow diagram showing a supplier quote passing through an exchange-rate conversion step, where the buyer's landed cost moves up or down depending on currency direction, with the quote currency deciding who carries the risk.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="48">The Quote Hasn't Changed. The Rate Did.</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Between quote and payment, the exchange rate decides what the same number really costs.</text>
+
+  <!-- Supplier quote box -->
+  <rect x="112" y="312" width="360" height="300" rx="22" fill="#17312f"/>
+  <text x="150" y="358" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="3">SUPPLIER QUOTE</text>
+  <text x="150" y="424" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="40">Unchanged</text>
+  <text x="150" y="478" fill="#cfe0d9" font-family="'JetBrains Mono', monospace" font-size="30">€4.20 / 100 g</text>
+  <text x="150" y="540" fill="#a9c2ba" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Priced firm in the</text>
+  <text x="150" y="566" fill="#a9c2ba" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">supplier's currency.</text>
+
+  <!-- FX conversion gear box -->
+  <rect x="560" y="312" width="360" height="300" rx="22" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="740" y="358" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="3" text-anchor="middle">EXCHANGE RATE</text>
+  <circle cx="740" cy="462" r="64" fill="none" stroke="#b9772a" stroke-width="4"/>
+  <text x="740" y="452" fill="#8d5c18" font-family="'JetBrains Mono', monospace" font-size="22" text-anchor="middle">USD</text>
+  <text x="740" y="482" fill="#8d5c18" font-family="'JetBrains Mono', monospace" font-size="22" text-anchor="middle">per €</text>
+  <path d="M676 462 q-30 0 -30 30" stroke="#b9772a" stroke-width="3" fill="none"/>
+  <text x="740" y="566" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" text-anchor="middle">moves between quote</text>
+  <text x="740" y="590" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" text-anchor="middle">and payment</text>
+
+  <!-- arrows -->
+  <path d="M472 462 L552 462" stroke="#203836" stroke-width="4" fill="none" marker-end="url(#a)"/>
+  <path d="M920 420 L1000 392" stroke="#2f7d4f" stroke-width="4" fill="none" marker-end="url(#a)"/>
+  <path d="M920 510 L1000 540" stroke="#b6433a" stroke-width="4" fill="none" marker-end="url(#a)"/>
+
+  <!-- buyer cost up -->
+  <rect x="1008" y="332" width="416" height="118" rx="18" fill="#e8f1e9" stroke="#2f7d4f" stroke-width="2"/>
+  <text x="1036" y="372" fill="#216c41" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">BUYER'S CURRENCY STRENGTHENS</text>
+  <text x="1036" y="412" fill="#1d5836" font-family="'DM Serif Display', Georgia, serif" font-size="30">Same quote, lower cost ↓</text>
+
+  <!-- buyer cost down -->
+  <rect x="1008" y="474" width="416" height="118" rx="18" fill="#f7e7e3" stroke="#b6433a" stroke-width="2"/>
+  <text x="1036" y="514" fill="#9c3a31" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">BUYER'S CURRENCY WEAKENS</text>
+  <text x="1036" y="554" fill="#8a322a" font-family="'DM Serif Display', Georgia, serif" font-size="30">Same quote, higher cost ↑</text>
+
+  <!-- risk-owner strip -->
+  <rect x="112" y="656" width="1312" height="92" rx="18" fill="#eef3ef" stroke="#294643"/>
+  <text x="140" y="692" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" letter-spacing="2">WHO CARRIES THE RISK</text>
+  <text x="140" y="726" fill="#324e49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Quoted in buyer's currency → supplier carries it (and prices it in).  Quoted in supplier's currency → buyer carries it.</text>
+
+  <rect x="112" y="772" width="1312" height="46" rx="16" fill="#203836"/>
+  <text x="140" y="802" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="700">Confirm the firm currency and the validity window — they are part of the price, not the fine print.</text>
+
+  <defs>
+    <marker id="a" markerWidth="11" markerHeight="11" refX="8" refY="5" orient="auto"><path d="M0 0 L11 5 L0 10 z" fill="#203836"/></marker>
+  </defs>
+</svg>

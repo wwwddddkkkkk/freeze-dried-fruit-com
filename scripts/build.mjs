@@ -733,72 +733,56 @@ function renderHomeBody({ site, mailto, articles, home, news, homeConfig, report
 // pushes PageRank into pages that were stuck in "Discovered — not indexed".
 // Editorial above-the-fold layout is untouched.
 function renderBrowseFieldGuide({ articles, reports }) {
-  const PER_CAT = 8;
-  // Articles are passed in newest-first order from loadArticles, so slice(0, N)
-  // surfaces the most recent N per category — which also tends to be what
-  // Google's freshness signals reward.
-  const byCat = (cat) => articles.filter(a => a.category === cat).slice(0, PER_CAT);
+  const catCount = (name) => articles.filter(a => a.category === name).length;
 
-  const CATEGORY_BLOCKS = [
-    { name: "Industry Insights", path: "/articles/category/industry-insights/" },
-    { name: "Technology",        path: "/articles/category/technology/" },
-    { name: "Labels & Quality",  path: "/articles/category/labels-and-quality/" },
-    { name: "Applications",      path: "/articles/category/applications/" },
-    { name: "Fruit Reports",     path: "/articles/category/fruit-reports/" },
+  // Compact line icons (stroke = currentColor so they inherit the accent color).
+  const ICON = {
+    insights: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2M3 13h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>`,
+    tech: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 18a8 8 0 1116 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M12 18l4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="18" r="1.4" fill="currentColor"/></svg>`,
+    labels: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 4h7l9 9-7 7-9-9V4z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="8.5" cy="8.5" r="1.4" fill="currentColor"/></svg>`,
+    apps: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 11h13a4 4 0 01-4 4H7a4 4 0 01-4-4z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M20 4c-1.5.5-2.5 2-2.5 4S18 11 20 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>`,
+    reports: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 20c0-8 5-13 15-14 1 10-4 15-12 15-1.5 0-3-1-3-1z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M9 16c2-2.5 4.5-4 8-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>`,
+    compare: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4" y="5" width="6.5" height="14" rx="1.5" stroke="currentColor" stroke-width="1.5"/><rect x="13.5" y="5" width="6.5" height="14" rx="1.5" stroke="currentColor" stroke-width="1.5"/></svg>`,
+    glossary: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 4h8a3 3 0 013 3v13H8a3 3 0 01-3-3V4z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M5 4v13a3 3 0 003 3" stroke="currentColor" stroke-width="1.5"/></svg>`,
+    data: `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 19V12M12 19V5M19 19v-9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>`,
+  };
+
+  // Card per hub. Cards link to the category / section landing pages, which in
+  // turn list every article — so the homepage still fans PageRank out to all the
+  // major hubs (hub-and-spoke), just without dumping ~70 raw titles inline.
+  const cards = [
+    { title: "Industry Insights", href: "/articles/category/industry-insights/", meta: `${catCount("Industry Insights")} articles`, desc: "Buyers, suppliers, pricing, sourcing, and standards.", icon: ICON.insights },
+    { title: "Technology",        href: "/articles/category/technology/",        meta: `${catCount("Technology")} articles`,        desc: "Process, drying behavior, packaging, and quality control.", icon: ICON.tech },
+    { title: "Labels & Quality",  href: "/articles/category/labels-and-quality/", meta: `${catCount("Labels & Quality")} articles`,  desc: "Ingredient labels, specs, defects, and value checks.", icon: ICON.labels },
+    { title: "Applications",      href: "/articles/category/applications/",       meta: `${catCount("Applications")} articles`,      desc: "Practical ways to use freeze-dried fruit.", icon: ICON.apps },
+    { title: "Fruit Reports",     href: "/articles/category/fruit-reports/",      meta: `${catCount("Fruit Reports")} reports`,      desc: "Per-fruit profiles — origin, variety, and processing.", icon: ICON.reports },
+    { title: "Compare fruits",    href: "/compare/",                              meta: "120+ comparisons",                          desc: "Side-by-side freeze-dried fruit comparisons.", icon: ICON.compare },
+    { title: "Glossary",          href: "/glossary/",                             meta: "Key terms, A–Z",                            desc: "The vocabulary of freeze-drying, defined plainly.", icon: ICON.glossary },
+    { title: "Reports & data",    href: "/state-of-freeze-dried-fruit-2026/",     meta: `${(reports || []).length} flagship reports`, desc: "Quarterly supply notes and the annual outlook.", icon: ICON.data },
   ];
 
-  const catColumns = CATEGORY_BLOCKS.map(c => {
-    const items = byCat(c.name);
-    if (!items.length) return "";
-    const lis = items.map(a =>
-      `<li><a href="${articleUrl(a.id)}">${escapeHtml(a.title)}</a></li>`
-    ).join("");
-    return `
-      <div class="browse-col">
-        <h3 class="browse-col__title"><a href="${c.path}">${escapeHtml(c.name)}</a></h3>
-        <ul class="browse-col__list">${lis}</ul>
-        <a class="browse-col__all" href="${c.path}">All ${escapeHtml(c.name)} →</a>
-      </div>`;
-  }).join("");
+  const cardHtml = cards.map(c => `
+        <a class="browse-card" href="${c.href}">
+          <span class="browse-card__icon">${c.icon}</span>
+          <span class="browse-card__meta">${escapeHtml(c.meta)}</span>
+          <h3 class="browse-card__title">${escapeHtml(c.title)}</h3>
+          <p class="browse-card__desc">${escapeHtml(c.desc)}</p>
+          <span class="browse-card__cta">Browse ${Icons.arrowSmall}</span>
+        </a>`).join("");
 
-  // Featured comparison pairs — a curated subset of the 121 /compare/ pages,
-  // chosen for highest-impression queries (mangosteen vs lychee, cherry vs
-  // cranberry, etc.) so we hub-link the pages Google sees most often.
-  const featuredCompares = [
-    { slug: "cherry-vs-cranberry",        label: "Cherry vs Cranberry" },
-    { slug: "blueberry-vs-strawberry",    label: "Blueberry vs Strawberry" },
-    { slug: "jackfruit-vs-lychee",        label: "Jackfruit vs Lychee" },
-    { slug: "lychee-vs-mangosteen",       label: "Lychee vs Mangosteen" },
-    { slug: "mangosteen-vs-rambutan",     label: "Mangosteen vs Rambutan" },
-    { slug: "apricot-vs-plum",            label: "Apricot vs Plum" },
-    { slug: "cranberry-vs-strawberry",    label: "Cranberry vs Strawberry" },
-    { slug: "guava-vs-passion-fruit",     label: "Guava vs Passion Fruit" },
-  ];
-  const compareLis = featuredCompares.map(p =>
-    `<li><a href="/compare/${p.slug}/">${escapeHtml(p.label)}</a></li>`
-  ).join("");
-
-  // Essential glossary terms — the ones with the strongest standalone search
-  // intent. Surfaced here so Google sees them linked from the most-crawled URL.
-  const essentialGlossary = [
-    { slug: "water-activity",     label: "Water activity (aw)" },
-    { slug: "moisture-content",   label: "Moisture content" },
-    { slug: "lyophilization",     label: "Lyophilization" },
-    { slug: "sublimation",        label: "Sublimation" },
-    { slug: "brix",               label: "Brix" },
-    { slug: "eutectic-point",     label: "Eutectic point" },
-    { slug: "barrier-film",       label: "Barrier film" },
-    { slug: "rehydration",        label: "Rehydration" },
-  ];
-  const glossaryLis = essentialGlossary.map(g =>
-    `<li><a href="/glossary/${g.slug}/">${escapeHtml(g.label)}</a></li>`
-  ).join("");
-
-  // Flagship reports — these are top-level industry assets that already rank
-  // well; promoting them on the homepage reinforces topical authority signals.
-  const reportLis = (reports || []).map(r =>
-    `<li><a href="/${r.slug}/">${escapeHtml(r.title)}</a></li>`
-  ).join("");
+  // Utility / hub pages kept as a tidy inline link row rather than a stacked list.
+  const moreLinks = [
+    { href: "/articles/", label: "All articles" },
+    { href: "/news/", label: "News Wire" },
+    { href: "/calculators/", label: "Calculators" },
+    { href: "/calculators/fruit-equivalency/", label: "Fruit equivalency" },
+    { href: "/calculators/pouch-barrier/", label: "Pouch barrier" },
+    { href: "/exchange/", label: "Industry Exchange" },
+    { href: "/editorial/", label: "Editorial Desk" },
+    { href: "/methodology/", label: "Methodology" },
+    { href: "/about/", label: "About" },
+  ].map(l => `<a href="${l.href}">${escapeHtml(l.label)}</a>`)
+   .join(`<span class="browse-more__sep" aria-hidden="true">·</span>`);
 
   return `
   <section class="section browse-fieldguide" aria-labelledby="browse-fieldguide-heading">
@@ -810,40 +794,12 @@ function renderBrowseFieldGuide({ articles, reports }) {
       <div class="fi-rule"></div>
       <p class="browse-intro">Every section, every comparison, every glossary term — organized for fast access. Looking for something specific? Try <a href="/articles/">all articles</a>, <a href="/compare/">all comparisons</a>, or <a href="/glossary/">the glossary</a>.</p>
 
-      <div class="browse-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:32px;margin-top:24px">
-        ${catColumns}
+      <div class="browse-cards">${cardHtml}
+      </div>
 
-        <div class="browse-col">
-          <h3 class="browse-col__title"><a href="/compare/">Compare freeze-dried fruits</a></h3>
-          <ul class="browse-col__list">${compareLis}</ul>
-          <a class="browse-col__all" href="/compare/">All 120+ comparisons →</a>
-        </div>
-
-        <div class="browse-col">
-          <h3 class="browse-col__title"><a href="/glossary/">Glossary</a></h3>
-          <ul class="browse-col__list">${glossaryLis}</ul>
-          <a class="browse-col__all" href="/glossary/">All glossary terms →</a>
-        </div>
-
-        <div class="browse-col">
-          <h3 class="browse-col__title">Flagship reports</h3>
-          <ul class="browse-col__list">${reportLis}</ul>
-          <a class="browse-col__all" href="/state-of-freeze-dried-fruit-2026/">Read the 2026 industry overview →</a>
-        </div>
-
-        <div class="browse-col">
-          <h3 class="browse-col__title">More tools &amp; hubs</h3>
-          <ul class="browse-col__list">
-            <li><a href="/news/">News Wire</a></li>
-            <li><a href="/calculators/">Calculators</a></li>
-            <li><a href="/calculators/fruit-equivalency/">Fruit equivalency calculator</a></li>
-            <li><a href="/calculators/pouch-barrier/">Pouch barrier calculator</a></li>
-            <li><a href="/exchange/">Industry Exchange</a></li>
-            <li><a href="/editorial/">Editorial Desk</a></li>
-            <li><a href="/methodology/">Methodology</a></li>
-            <li><a href="/about/">About</a></li>
-          </ul>
-        </div>
+      <div class="browse-more">
+        <span class="browse-more__label">More</span>
+        <nav class="browse-more__links" aria-label="More tools and hubs">${moreLinks}</nav>
       </div>
     </div>
   </section>`;

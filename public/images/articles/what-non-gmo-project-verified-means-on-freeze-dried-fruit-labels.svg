@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What Non-GMO Project Verified means on freeze-dried fruit labels</title>
+  <desc id="desc">Side-by-side comparison of a voluntary third-party non-GMO verification seal and the mandatory Bioengineered disclosure, with notes on what each means for plain freeze-dried fruit versus blends.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="48">One Seal Is Voluntary. One Is Required.</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">And on most plain fruit, the seal answers a question the fruit never posed.</text>
+
+  <!-- Left card: voluntary seal -->
+  <rect x="104" y="292" width="658" height="340" rx="24" fill="#eef3ef" stroke="#294643" stroke-width="2"/>
+  <text x="142" y="338" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">VOLUNTARY · THIRD PARTY</text>
+  <!-- butterfly-ish mark (abstract, not a logo) -->
+  <g transform="translate(180,420)">
+    <circle r="48" fill="#fcfaf6" stroke="#2f7d4f" stroke-width="3"/>
+    <path d="M-2 -22 C-26 -36 -40 -10 -16 2 C-40 14 -26 38 -2 22 Z" fill="#2f7d4f"/>
+    <path d="M2 -22 C26 -36 40 -10 16 2 C40 14 26 38 2 22 Z" fill="#7bb98f"/>
+    <line x1="0" y1="-24" x2="0" y2="24" stroke="#1d5836" stroke-width="3"/>
+  </g>
+  <text x="252" y="404" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="30">Non-GMO Project</text>
+  <text x="252" y="440" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="30">Verified seal</text>
+  <text x="142" y="510" fill="#324e49" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">• Brand opts in, pays, and earns it</text>
+  <text x="142" y="544" fill="#324e49" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">• Private standard + testing thresholds</text>
+  <text x="142" y="578" fill="#324e49" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">• Not organic, not a quality grade</text>
+  <text x="142" y="612" fill="#324e49" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">• Most meaningful on blends &amp; crisps</text>
+
+  <!-- Right card: mandatory disclosure -->
+  <rect x="838" y="292" width="658" height="340" rx="24" fill="#17312f"/>
+  <text x="876" y="338" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">MANDATORY · FEDERAL</text>
+  <rect x="876" y="372" width="96" height="96" rx="14" fill="#fcfaf6"/>
+  <text x="924" y="410" fill="#8d5c18" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" text-anchor="middle">BE</text>
+  <text x="924" y="440" fill="#8d5c18" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">disclosure</text>
+  <text x="996" y="408" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="30">Bioengineered</text>
+  <text x="996" y="444" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="30">disclosure (USDA)</text>
+  <text x="876" y="510" fill="#cfe0d9" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">• Required when BE material is present</text>
+  <text x="876" y="544" fill="#cfe0d9" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">• A legal obligation, not a choice</text>
+  <text x="876" y="578" fill="#cfe0d9" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">• Administered by USDA</text>
+  <text x="876" y="612" fill="#cfe0d9" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">• Separate system from the seal</text>
+
+  <!-- fruit note strip -->
+  <rect x="104" y="660" width="1392" height="88" rx="18" fill="#f1ebdf" stroke="#c7bda8"/>
+  <text x="132" y="696" fill="#8a5a16" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" letter-spacing="2">FRUIT IS THE UNUSUAL CASE</text>
+  <text x="132" y="730" fill="#5a4a30" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Strawberry, mango, blueberry, apple, banana — not typical GMO crops. On plain fruit the seal mostly covers additives and the wider supply chain.</text>
+
+  <rect x="104" y="772" width="1392" height="46" rx="16" fill="#203836"/>
+  <text x="132" y="802" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="700">Read the seal alongside the ingredient list, not instead of it.</text>
+</svg>

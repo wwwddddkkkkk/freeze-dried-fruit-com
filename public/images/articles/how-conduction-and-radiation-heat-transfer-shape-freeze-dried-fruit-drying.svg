@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How conduction and radiation heat transfer shape freeze-dried fruit drying</title>
+  <desc id="desc">Cross-section diagram of a freeze-dryer shelf showing conductive heat rising from the heated shelf into fruit pieces and radiant heat arriving from chamber walls onto edge pieces, with a sublimation front retreating downward.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="48">Two Heat Paths, One Uneven Tray</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Conduction rises from the shelf; radiation arrives from the chamber. They rarely match.</text>
+
+  <!-- chamber walls -->
+  <rect x="112" y="288" width="1376" height="470" rx="20" fill="#eef3ef" stroke="#294643" stroke-width="2"/>
+  <text x="140" y="322" fill="#41635c" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" letter-spacing="3">VACUUM CHAMBER · WARM WALLS</text>
+
+  <!-- radiation arrows from left wall to edge fruit -->
+  <g stroke="#b9772a" stroke-width="3" fill="none">
+    <path d="M150 400 L330 430" marker-end="url(#rad)"/>
+    <path d="M150 480 L330 500" marker-end="url(#rad)"/>
+    <path d="M150 560 L330 575" marker-end="url(#rad)"/>
+    <path d="M1450 400 L1270 430" marker-end="url(#rad)"/>
+    <path d="M1450 480 L1270 500" marker-end="url(#rad)"/>
+    <path d="M1450 560 L1270 575" marker-end="url(#rad)"/>
+  </g>
+  <text x="150" y="640" fill="#b9772a" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">RADIATION</text>
+  <text x="1330" y="640" fill="#b9772a" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">RADIATION</text>
+
+  <!-- shelf -->
+  <rect x="360" y="640" width="880" height="40" rx="8" fill="#b6433a"/>
+  <text x="800" y="668" fill="#fff5ee" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="700">HEATED SHELF</text>
+  <!-- tray -->
+  <rect x="368" y="612" width="864" height="28" rx="4" fill="#c9bda4"/>
+
+  <!-- fruit pieces row -->
+  <g>
+    <!-- edge piece (fast) -->
+    <rect x="384" y="500" width="150" height="112" rx="14" fill="#f0c98a" stroke="#9a6b22"/>
+    <rect x="384" y="500" width="150" height="44" rx="14" fill="#e7ad55"/>
+    <text x="459" y="476" fill="#8a5a16" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" text-anchor="middle">edge: dries fast</text>
+    <!-- center pieces (slow) -->
+    <rect x="560" y="500" width="150" height="112" rx="14" fill="#f4ecd9" stroke="#b9ab8a"/>
+    <rect x="560" y="566" width="150" height="46" rx="14" fill="#cfe2ea"/>
+    <rect x="724" y="500" width="150" height="112" rx="14" fill="#f4ecd9" stroke="#b9ab8a"/>
+    <rect x="724" y="560" width="150" height="52" rx="14" fill="#cfe2ea"/>
+    <rect x="888" y="500" width="150" height="112" rx="14" fill="#f4ecd9" stroke="#b9ab8a"/>
+    <rect x="888" y="566" width="150" height="46" rx="14" fill="#cfe2ea"/>
+    <text x="797" y="476" fill="#5a7a86" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" text-anchor="middle">center: shielded, lags · blue = ice still subliming</text>
+    <!-- edge piece right (fast) -->
+    <rect x="1064" y="500" width="150" height="112" rx="14" fill="#f0c98a" stroke="#9a6b22"/>
+    <rect x="1064" y="500" width="150" height="44" rx="14" fill="#e7ad55"/>
+    <text x="1139" y="476" fill="#8a5a16" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" text-anchor="middle">edge: dries fast</text>
+  </g>
+
+  <!-- conduction arrows up from shelf -->
+  <g stroke="#b6433a" stroke-width="3" fill="none">
+    <path d="M459 610 L459 562" marker-end="url(#con)"/>
+    <path d="M635 610 L635 562" marker-end="url(#con)"/>
+    <path d="M799 610 L799 562" marker-end="url(#con)"/>
+    <path d="M963 610 L963 562" marker-end="url(#con)"/>
+    <path d="M1139 610 L1139 562" marker-end="url(#con)"/>
+  </g>
+  <text x="800" y="712" fill="#b6433a" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="700">CONDUCTION ↑ through tray and piece</text>
+
+  <!-- bottom caption bar -->
+  <rect x="112" y="772" width="1376" height="46" rx="16" fill="#203836"/>
+  <text x="140" y="802" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="700">Heat must reach the ice front without warming the piece past its collapse limit — balance, not maximum power.</text>
+
+  <defs>
+    <marker id="rad" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b9772a"/></marker>
+    <marker id="con" markerWidth="10" markerHeight="10" refX="5" refY="2" orient="auto"><path d="M0 10 L5 0 L10 10 z" fill="#b6433a"/></marker>
+  </defs>
+</svg>

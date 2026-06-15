@@ -424,7 +424,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
 }
 
 /* ---------- Browse the field guide (homepage sitemap hub) ---------- */
-.browse-fieldguide { padding: 8px 0 8px; }
+.browse-fieldguide { padding: 8px 0 56px; }
 .browse-intro {
   max-width: 760px;
   color: var(--muted);

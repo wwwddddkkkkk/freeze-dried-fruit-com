@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How choked flow between chamber and condenser caps freeze-dried fruit drying rate</title>
+  <desc id="desc">Editorial diagram of a freeze-drying chamber sending water vapor through a duct and valve to the condenser, with a choke point where flow caps and chamber pressure rises.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="50">The Vapor Highway Sets the Speed Limit</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">When the duct chokes, more shelf heat raises pressure and product temperature, not drying speed.</text>
+
+  <!-- Chamber -->
+  <rect x="104" y="300" width="430" height="372" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="140" y="346" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="4">DRYING CHAMBER</text>
+  <!-- shelves with fruit -->
+  <rect x="150" y="378" width="338" height="20" rx="6" fill="#cdb78c"/>
+  <rect x="150" y="452" width="338" height="20" rx="6" fill="#cdb78c"/>
+  <rect x="150" y="526" width="338" height="20" rx="6" fill="#cdb78c"/>
+  <circle cx="196" cy="368" r="11" fill="#e0b05f"/><circle cx="240" cy="370" r="10" fill="#e0b05f"/><circle cx="286" cy="366" r="12" fill="#e0b05f"/><circle cx="336" cy="370" r="9" fill="#e0b05f"/><circle cx="388" cy="367" r="11" fill="#e0b05f"/>
+  <circle cx="200" cy="442" r="10" fill="#e0b05f"/><circle cx="250" cy="444" r="11" fill="#e0b05f"/><circle cx="300" cy="440" r="9" fill="#e0b05f"/><circle cx="356" cy="444" r="12" fill="#e0b05f"/><circle cx="404" cy="441" r="10" fill="#e0b05f"/>
+  <!-- vapor rising arrows -->
+  <path d="M230 432 L230 408" stroke="#7fa9a0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M310 432 L310 408" stroke="#7fa9a0" stroke-width="5" stroke-linecap="round"/>
+  <path d="M250 506 L250 482" stroke="#7fa9a0" stroke-width="5" stroke-linecap="round"/>
+  <text x="150" y="600" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">ice sublimes &#8594; large volume of vapor</text>
+  <text x="150" y="628" fill="#9a3b2f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="700">chamber pressure &#8593; when path is full</text>
+
+  <!-- Duct with choke -->
+  <path d="M534 470 L700 470 L740 500 L740 540 L700 570 L534 570 Z" fill="#e9dec8" stroke="#294643" stroke-width="2"/>
+  <text x="556" y="446" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="3">DUCT + VALVE</text>
+  <!-- narrowing choke -->
+  <path d="M700 470 L740 500 L740 540 L700 570" fill="none" stroke="#9a3b2f" stroke-width="6"/>
+  <text x="612" y="528" fill="#9a3b2f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">CHOKE</text>
+  <!-- flow arrows through duct -->
+  <path d="M560 520 L690 520" stroke="#17312f" stroke-width="7" stroke-linecap="round" marker-end="url(#ah)"/>
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#17312f"/></marker>
+  </defs>
+
+  <!-- Condenser -->
+  <rect x="820" y="300" width="300" height="372" rx="24" fill="#17312f"/>
+  <text x="856" y="346" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="4">CONDENSER</text>
+  <text x="856" y="380" fill="#9fc4ba" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">cold surface, vapor refreezes</text>
+  <path d="M856 430 q40 -30 80 0 q40 30 80 0 q40 -30 80 0" fill="none" stroke="#88b8aa" stroke-width="5"/>
+  <path d="M856 480 q40 -30 80 0 q40 30 80 0 q40 -30 80 0" fill="none" stroke="#88b8aa" stroke-width="5"/>
+  <path d="M856 530 q40 -30 80 0 q40 30 80 0 q40 -30 80 0" fill="none" stroke="#88b8aa" stroke-width="5"/>
+  <circle cx="900" cy="600" r="10" fill="#cfe6df"/><circle cx="950" cy="612" r="9" fill="#cfe6df"/><circle cx="1000" cy="600" r="11" fill="#cfe6df"/><circle cx="1052" cy="610" r="8" fill="#cfe6df"/>
+  <text x="856" y="648" fill="#cfe6df" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">capacity wasted if path is the limit</text>
+
+  <!-- Right panel: heat vs result -->
+  <rect x="1156" y="300" width="336" height="372" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="1190" y="346" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">PAST THE CHOKE</text>
+  <text x="1190" y="392" fill="#9a3b2f" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">+ shelf heat</text>
+  <path d="M1300 384 L1360 384" stroke="#9a3b2f" stroke-width="6" stroke-linecap="round" marker-end="url(#ah)"/>
+  <text x="1190" y="448" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">&#8226; warmer product</text>
+  <text x="1190" y="486" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">&#8226; collapse risk</text>
+  <text x="1190" y="524" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">&#8226; browning, aroma loss</text>
+  <text x="1190" y="562" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">&#8226; soft / meltback centers</text>
+  <text x="1190" y="616" fill="#2f4f49" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">not a faster cycle</text>
+
+  <rect x="104" y="710" width="1388" height="42" rx="16" fill="#203836"/>
+  <text x="142" y="738" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Useful rule: if heat raises pressure but not drying speed, the vapor path is the bottleneck &#8212; reduce load, not patience.</text>
+</svg>

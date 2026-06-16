@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to rehydrate freeze-dried fruit for baking, sauces, and cooking</title>
+  <desc id="desc">A step diagram showing dry freeze-dried fruit absorbing small measured amounts of liquid to become soft pieces, puree, or sauce, plus a panel on when to skip rehydrating.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">APPLICATIONS</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="50">Add the Water Slowly, Stop Early</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Porous fruit drinks liquid in minutes. Under-pour first &#8212; you cannot un-drown it.</text>
+
+  <!-- Step flow -->
+  <text x="112" y="312" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">THE METHOD</text>
+
+  <!-- step 1 dry -->
+  <circle cx="230" cy="430" r="78" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <circle cx="206" cy="416" r="14" fill="#e0b05f"/><circle cx="250" cy="420" r="13" fill="#e0b05f"/><circle cx="228" cy="452" r="15" fill="#e0b05f"/><circle cx="262" cy="448" r="11" fill="#e0b05f"/>
+  <text x="230" y="544" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="700">1. dry, porous</text>
+  <text x="230" y="572" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" text-anchor="middle">crisp pieces</text>
+
+  <path d="M322 430 L408 430" stroke="#17312f" stroke-width="6" stroke-linecap="round" marker-end="url(#a)"/>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#17312f"/></marker></defs>
+
+  <!-- step 2 add small liquid -->
+  <circle cx="500" cy="430" r="78" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <path d="M500 372 q22 30 0 52 q-22 -22 0 -52 Z" fill="#7fa9c9"/>
+  <circle cx="482" cy="448" r="13" fill="#d99a4e"/><circle cx="520" cy="452" r="12" fill="#d99a4e"/><circle cx="500" cy="470" r="11" fill="#d99a4e"/>
+  <text x="500" y="544" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="700">2. small liquid</text>
+  <text x="500" y="572" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" text-anchor="middle">warm = faster</text>
+
+  <path d="M592 430 L678 430" stroke="#17312f" stroke-width="6" stroke-linecap="round" marker-end="url(#a)"/>
+
+  <!-- step 3 wait -->
+  <circle cx="770" cy="430" r="78" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <circle cx="770" cy="430" r="44" fill="none" stroke="#294643" stroke-width="4"/>
+  <line x1="770" y1="430" x2="770" y2="398" stroke="#294643" stroke-width="5" stroke-linecap="round"/>
+  <line x1="770" y1="430" x2="794" y2="442" stroke="#294643" stroke-width="5" stroke-linecap="round"/>
+  <text x="770" y="544" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="700">3. wait + check</text>
+  <text x="770" y="572" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" text-anchor="middle">~2&#8211;10 min</text>
+
+  <path d="M862 430 L948 430" stroke="#17312f" stroke-width="6" stroke-linecap="round" marker-end="url(#a)"/>
+
+  <!-- step 4 result -->
+  <circle cx="1040" cy="430" r="78" fill="#17312f"/>
+  <path d="M996 452 q44 -28 88 0 q-44 22 -88 0 Z" fill="#c8506a"/>
+  <circle cx="1018" cy="430" r="12" fill="#e0738c"/><circle cx="1058" cy="426" r="13" fill="#e0738c"/>
+  <text x="1040" y="544" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="700">4. soft / puree</text>
+  <text x="1040" y="572" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" text-anchor="middle">sauce or filling</text>
+
+  <!-- skip panel -->
+  <rect x="1146" y="300" width="300" height="320" rx="24" fill="#9a3b2f"/>
+  <text x="1176" y="346" fill="#fff3ef" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">SKIP IT FOR</text>
+  <text x="1176" y="392" fill="#ffffff" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">&#8226; muffins, cookies</text>
+  <text x="1176" y="430" fill="#ffffff" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">&#8226; scones, quick breads</text>
+  <text x="1176" y="468" fill="#ffffff" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">&#8226; distinct fruit bursts</text>
+  <text x="1176" y="524" fill="#ffd9cf" font-family="'Source Serif 4', Georgia, serif" font-size="19">Dry pieces pull moisture</text>
+  <text x="1176" y="552" fill="#ffd9cf" font-family="'Source Serif 4', Georgia, serif" font-size="19">from the batter instead &#8212;</text>
+  <text x="1176" y="580" fill="#ffd9cf" font-family="'Source Serif 4', Georgia, serif" font-size="19">no soggy streaks.</text>
+
+  <!-- liquid choice strip -->
+  <rect x="104" y="636" width="1342" height="92" rx="18" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="132" y="672" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="2">PICK THE LIQUID</text>
+  <text x="132" y="708" fill="#102725" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">water = clean &amp; bright &#160;&#160;|&#160;&#160; juice = richer fruit &#160;&#160;|&#160;&#160; milk/cream = fillings &amp; frostings &#160;&#160;|&#160;&#160; powder dry = flavor, no water</text>
+
+  <rect x="104" y="746" width="1342" height="42" rx="16" fill="#203836"/>
+  <text x="142" y="774" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">One rule: under-pour first. Adding more liquid is easy; rescuing drowned fruit is not.</text>
+</svg>

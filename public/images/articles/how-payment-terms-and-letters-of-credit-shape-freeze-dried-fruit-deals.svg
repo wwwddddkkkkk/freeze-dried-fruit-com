@@ -1,0 +1,64 @@
+<svg viewBox="0 0 800 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Payment terms risk seesaw between buyer and supplier, and a letter of credit routed through banks against documents">
+  <defs>
+    <style>
+      .bg{fill:#f7f5ef}
+      .tt{font-family:Georgia,'Times New Roman',serif;fill:#1f1f1c;font-weight:bold}
+      .sm{font-family:Georgia,serif;fill:#5c574c}
+      .lbl{font-family:Georgia,serif;fill:#3a3a36}
+      .ln{stroke:#3a3a36;stroke-width:1.5}
+      .box{fill:#fff;stroke:#3a3a36;stroke-width:1.5}
+      .buyer{fill:#2f6f6f}
+      .supp{fill:#a8512c}
+      .bank{fill:#9a7b2e}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="800" height="460"/>
+  <text class="tt" x="40" y="42" font-size="22">Who carries the risk, and for how long</text>
+  <text class="sm" x="40" y="64" font-size="13">Payment terms shift exposure between buyer and supplier — and a letter of credit routes it through banks</text>
+
+  <!-- seesaw spectrum -->
+  <line class="ln" x1="120" y1="150" x2="660" y2="150"/>
+  <polygon points="390,150 370,185 410,185" fill="#3a3a36"/>
+  <text class="sm" x="120" y="135" font-size="12">advance deposit</text>
+  <text class="sm" x="300" y="135" font-size="12">balance vs documents</text>
+  <text class="sm" x="560" y="135" font-size="12">open account</text>
+
+  <!-- buyer side risk high at left -->
+  <rect class="box" x="110" y="195" width="120" height="50" rx="4"/>
+  <rect class="buyer" x="110" y="195" width="8" height="50"/>
+  <text class="tt" x="126" y="218" font-size="12">Buyer risk</text>
+  <text class="sm" x="126" y="235" font-size="10">money out before goods</text>
+
+  <rect class="box" x="540" y="195" width="120" height="50" rx="4"/>
+  <rect class="supp" x="540" y="195" width="8" height="50"/>
+  <text class="tt" x="556" y="218" font-size="12">Supplier risk</text>
+  <text class="sm" x="556" y="235" font-size="10">goods out before pay</text>
+
+  <text class="sm" x="300" y="225" font-size="11" font-style="italic">shared</text>
+
+  <!-- letter of credit lower section -->
+  <text class="tt" x="40" y="300" font-size="15">Letter of credit: banks stand in the middle</text>
+
+  <rect class="box" x="60" y="320" width="130" height="56" rx="4"/>
+  <rect class="buyer" x="60" y="320" width="8" height="56"/>
+  <text class="tt" x="78" y="345" font-size="12">Buyer</text>
+  <text class="sm" x="78" y="362" font-size="10">+ issuing bank</text>
+
+  <rect class="box" x="335" y="320" width="130" height="56" rx="4"/>
+  <rect class="bank" x="335" y="320" width="8" height="56"/>
+  <text class="tt" x="353" y="345" font-size="12">Banks</text>
+  <text class="sm" x="353" y="362" font-size="10">pay vs documents</text>
+
+  <rect class="box" x="610" y="320" width="130" height="56" rx="4"/>
+  <rect class="supp" x="610" y="320" width="8" height="56"/>
+  <text class="tt" x="628" y="345" font-size="12">Supplier</text>
+  <text class="sm" x="628" y="362" font-size="10">+ advising bank</text>
+
+  <line class="ln" x1="190" y1="348" x2="335" y2="348" marker-end="url(#a)"/>
+  <line class="ln" x1="465" y1="348" x2="610" y2="348" marker-end="url(#a)"/>
+  <defs>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#3a3a36"/></marker>
+  </defs>
+
+  <text class="sm" x="40" y="420" font-size="11" font-style="italic">The bank checks paperwork, not fruit — so quality protection must live in the required document list.</text>
+</svg>

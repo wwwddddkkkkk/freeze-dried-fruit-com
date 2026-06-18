@@ -1,0 +1,59 @@
+<svg viewBox="0 0 800 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="How percent Daily Value per serving crosses thresholds to qualify as good source or excellent source, with serving size as the basis">
+  <defs>
+    <style>
+      .bg{fill:#f7f5ef}
+      .tt{font-family:Georgia,'Times New Roman',serif;fill:#1f1f1c;font-weight:bold}
+      .sm{font-family:Georgia,serif;fill:#5c574c}
+      .lbl{font-family:Georgia,serif;fill:#3a3a36}
+      .axis{stroke:#3a3a36;stroke-width:1.5}
+      .zoneA{fill:#e4e0d4}
+      .zoneB{fill:#cfe0d8}
+      .zoneC{fill:#bcd6c4}
+      .thr{stroke:#a8512c;stroke-width:1.5;stroke-dasharray:5 4}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="800" height="460"/>
+  <text class="tt" x="40" y="42" font-size="22">What the front-panel claim is really measuring</text>
+  <text class="sm" x="40" y="64" font-size="13">Nutrient content claims map to a share of the Daily Value — counted per labeled serving</text>
+
+  <!-- bar scale -->
+  <text class="lbl" x="40" y="120" font-size="13">% Daily Value of one nutrient, per serving</text>
+  <rect class="zoneA" x="60" y="135" width="220" height="60"/>
+  <rect class="zoneB" x="280" y="135" width="200" height="60"/>
+  <rect class="zoneC" x="480" y="135" width="240" height="60"/>
+  <line class="axis" x1="60" y1="195" x2="720" y2="195"/>
+
+  <line class="thr" x1="280" y1="125" x2="280" y2="205"/>
+  <line class="thr" x1="480" y1="125" x2="480" y2="205"/>
+
+  <text class="sm" x="90" y="170" font-size="12">below threshold</text>
+  <text class="sm" x="80" y="186" font-size="10">no claim</text>
+
+  <text class="tt" x="320" y="168" font-size="13">"good source"</text>
+  <text class="sm" x="320" y="186" font-size="10">moderate share</text>
+
+  <text class="tt" x="510" y="168" font-size="13">"excellent source" / "high"</text>
+  <text class="sm" x="510" y="186" font-size="10">larger share</text>
+
+  <text class="sm" x="262" y="222" font-size="10">lower line</text>
+  <text class="sm" x="462" y="222" font-size="10">higher line</text>
+
+  <!-- serving size basis -->
+  <text class="tt" x="40" y="280" font-size="15">The basis: serving size sets every number</text>
+
+  <rect x="60" y="300" width="300" height="110" fill="#fff" stroke="#3a3a36" stroke-width="1.5"/>
+  <text class="tt" x="75" y="324" font-size="12">Small declared serving</text>
+  <text class="sm" x="75" y="345" font-size="11">low calories / sugars shown</text>
+  <text class="sm" x="75" y="364" font-size="11">claim can still clear the line</text>
+  <text class="sm" x="75" y="390" font-size="11" font-style="italic">looks favorable on paper</text>
+
+  <rect x="440" y="300" width="300" height="110" fill="#fff" stroke="#3a3a36" stroke-width="1.5"/>
+  <text class="tt" x="455" y="324" font-size="12">Realistic portion (2–3×)</text>
+  <text class="sm" x="455" y="345" font-size="11">calories, sugars, nutrient all scale up</text>
+  <text class="sm" x="455" y="364" font-size="11">front claim unchanged</text>
+  <text class="sm" x="455" y="390" font-size="11" font-style="italic">read the whole panel</text>
+
+  <text class="sm" x="370" y="360" font-size="22" fill="#a8512c">→</text>
+
+  <text class="sm" x="40" y="440" font-size="11" font-style="italic">A claim is one true fact about one nutrient — not a verdict on the whole bag.</text>
+</svg>

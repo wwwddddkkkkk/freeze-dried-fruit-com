@@ -1,0 +1,73 @@
+<svg viewBox="0 0 800 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Comparison of three drying methods on a temperature and pressure map with resulting texture and density">
+  <defs>
+    <style>
+      .bg{fill:#f7f5ef}
+      .axis{stroke:#3a3a36;stroke-width:1.5}
+      .grid{stroke:#d8d4c8;stroke-width:1}
+      .lbl{font-family:Georgia,'Times New Roman',serif;fill:#3a3a36}
+      .tt{font-family:Georgia,serif;fill:#1f1f1c;font-weight:bold}
+      .sm{font-family:Georgia,serif;fill:#5c574c}
+      .fd{stroke:#2f6f6f;stroke-width:3;fill:none}
+      .vd{stroke:#9a7b2e;stroke-width:3;fill:none;stroke-dasharray:2 0}
+      .ad{stroke:#a8512c;stroke-width:3;fill:none}
+      .dot{stroke-width:0}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="800" height="460"/>
+  <text class="tt" x="40" y="42" font-size="22">Three ways to remove water from fruit</text>
+  <text class="sm" x="40" y="64" font-size="13">Process route on a temperature / pressure map and the texture it leaves behind</text>
+
+  <!-- axes -->
+  <line class="axis" x1="120" y1="100" x2="120" y2="330"/>
+  <line class="axis" x1="120" y1="330" x2="560" y2="330"/>
+  <text class="lbl" x="40" y="120" font-size="12">high temp</text>
+  <text class="lbl" x="40" y="325" font-size="12">low temp</text>
+  <text class="lbl" x="118" y="352" font-size="12">low pressure (vacuum)</text>
+  <text class="lbl" x="470" y="352" font-size="12">high pressure</text>
+
+  <!-- freezing line marker -->
+  <line class="grid" x1="120" y1="250" x2="560" y2="250"/>
+  <text class="sm" x="430" y="245" font-size="11">freezing line</text>
+
+  <!-- Air drying: high temp, high pressure -->
+  <path class="ad" d="M520 300 C470 240 430 170 400 130"/>
+  <circle class="dot" cx="400" cy="130" r="6" fill="#a8512c"/>
+  <text class="tt" x="320" y="118" font-size="13" fill="#a8512c">Air-dried</text>
+  <text class="sm" x="320" y="135" font-size="11">heat + airflow, fruit soft</text>
+
+  <!-- Vacuum drying: mid -->
+  <path class="vd" d="M360 300 C300 270 240 230 200 200"/>
+  <circle class="dot" cx="200" cy="200" r="6" fill="#9a7b2e"/>
+  <text class="tt" x="210" y="195" font-size="13" fill="#9a7b2e">Vacuum-dried</text>
+  <text class="sm" x="210" y="212" font-size="11">low pressure, gentle heat</text>
+
+  <!-- Freeze drying: low temp, deep vacuum, sublimation -->
+  <path class="fd" d="M300 300 C220 300 170 295 150 290"/>
+  <circle class="dot" cx="150" cy="290" r="6" fill="#2f6f6f"/>
+  <text class="tt" x="135" y="312" font-size="13" fill="#2f6f6f">Freeze-dried</text>
+  <text class="sm" x="135" y="328" font-size="11">frozen, ice → vapor</text>
+
+  <!-- result panel -->
+  <line class="grid" x1="600" y1="100" x2="600" y2="420"/>
+  <text class="tt" x="620" y="120" font-size="13">Resulting product</text>
+
+  <rect x="620" y="140" width="20" height="20" fill="#2f6f6f"/>
+  <text class="sm" x="650" y="148" font-size="11">Freeze-dried</text>
+  <text class="sm" x="650" y="163" font-size="10">porous · crisp · very light</text>
+
+  <rect x="620" y="195" width="20" height="20" fill="#9a7b2e"/>
+  <text class="sm" x="650" y="203" font-size="11">Vacuum-dried</text>
+  <text class="sm" x="650" y="218" font-size="10">in-between · denser</text>
+
+  <rect x="620" y="250" width="20" height="20" fill="#a8512c"/>
+  <text class="sm" x="650" y="258" font-size="11">Air-dried</text>
+  <text class="sm" x="650" y="273" font-size="10">chewy · dense · darker</text>
+
+  <text class="sm" x="620" y="320" font-size="11">Spec-sheet tells:</text>
+  <text class="sm" x="620" y="340" font-size="10">· moisture content</text>
+  <text class="sm" x="620" y="356" font-size="10">· water activity</text>
+  <text class="sm" x="620" y="372" font-size="10">· bulk density</text>
+  <text class="sm" x="620" y="388" font-size="10">· rehydration speed</text>
+
+  <text class="sm" x="40" y="440" font-size="11" font-style="italic">Same fruit, three processes — the route the water takes decides the texture.</text>
+</svg>

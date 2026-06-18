@@ -1,0 +1,66 @@
+<svg viewBox="0 0 800 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Garnish formats and timing for freeze-dried fruit: pieces, shards and powder matched to surfaces, with a moisture clock showing softening over time">
+  <defs>
+    <style>
+      .bg{fill:#f7f5ef}
+      .tt{font-family:Georgia,'Times New Roman',serif;fill:#1f1f1c;font-weight:bold}
+      .sm{font-family:Georgia,serif;fill:#5c574c}
+      .lbl{font-family:Georgia,serif;fill:#3a3a36}
+      .ln{stroke:#3a3a36;stroke-width:1.5}
+      .berry{fill:#a8512c}
+      .mango{fill:#c98a2b}
+      .pwd{fill:#b8607a}
+      .glass{fill:none;stroke:#2f6f6f;stroke-width:2}
+      .crisp{stroke:#2f6f6f;stroke-width:3;fill:none}
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="800" height="460"/>
+  <text class="tt" x="40" y="42" font-size="22">Match the format to the surface — and garnish at the last second</text>
+  <text class="sm" x="40" y="64" font-size="13">Freeze-dried fruit stays vivid only until moisture reaches it</text>
+
+  <!-- three format cards -->
+  <!-- pieces -->
+  <rect x="50" y="95" width="220" height="150" fill="#fff" stroke="#3a3a36" stroke-width="1.5" rx="4"/>
+  <text class="tt" x="65" y="120" font-size="13">Whole pieces / shards</text>
+  <circle class="berry" cx="80" cy="150" r="9"/>
+  <polygon class="mango" points="110,142 130,150 110,160"/>
+  <circle class="berry" cx="150" cy="152" r="7"/>
+  <text class="sm" x="65" y="190" font-size="11">on whipped, frozen,</text>
+  <text class="sm" x="65" y="206" font-size="11">set or dry surfaces</text>
+  <text class="sm" x="65" y="228" font-size="11" font-style="italic">visible crunch</text>
+
+  <!-- powder -->
+  <rect x="290" y="95" width="220" height="150" fill="#fff" stroke="#3a3a36" stroke-width="1.5" rx="4"/>
+  <text class="tt" x="305" y="120" font-size="13">Powder</text>
+  <g fill="#b8607a">
+    <circle cx="312" cy="150" r="1.6"/><circle cx="322" cy="146" r="1.6"/><circle cx="332" cy="153" r="1.6"/>
+    <circle cx="342" cy="148" r="1.6"/><circle cx="352" cy="156" r="1.6"/><circle cx="362" cy="150" r="1.6"/>
+    <circle cx="372" cy="145" r="1.6"/><circle cx="382" cy="154" r="1.6"/><circle cx="392" cy="149" r="1.6"/>
+    <circle cx="402" cy="152" r="1.6"/><circle cx="412" cy="147" r="1.6"/><circle cx="328" cy="160" r="1.6"/>
+    <circle cx="356" cy="163" r="1.6"/><circle cx="388" cy="161" r="1.6"/>
+  </g>
+  <text class="sm" x="305" y="190" font-size="11">on damp, creamy or</text>
+  <text class="sm" x="305" y="206" font-size="11">foamy surfaces; rims</text>
+  <text class="sm" x="305" y="228" font-size="11" font-style="italic">color + dusting</text>
+
+  <!-- rim -->
+  <rect x="530" y="95" width="220" height="150" fill="#fff" stroke="#3a3a36" stroke-width="1.5" rx="4"/>
+  <text class="tt" x="545" y="120" font-size="13">Rim &amp; float (drinks)</text>
+  <path class="glass" d="M600 145 L612 200 L648 200 L660 145"/>
+  <line class="ln" x1="596" y1="145" x2="664" y2="145"/>
+  <g fill="#b8607a"><circle cx="600" cy="143" r="2"/><circle cx="612" cy="142" r="2"/><circle cx="630" cy="141" r="2"/><circle cx="648" cy="142" r="2"/><circle cx="660" cy="143" r="2"/></g>
+  <circle class="berry" cx="636" cy="158" r="6"/>
+  <text class="sm" x="545" y="228" font-size="11" font-style="italic">serve promptly</text>
+
+  <!-- moisture clock -->
+  <text class="tt" x="40" y="300" font-size="15">Moisture clock: crunch fades after contact</text>
+  <line class="ln" x1="60" y1="390" x2="720" y2="390"/>
+  <path class="crisp" d="M60 330 C200 332 320 345 460 375 C540 386 640 389 720 390"/>
+  <circle cx="60" cy="330" r="5" fill="#2f6f6f"/>
+  <text class="sm" x="70" y="325" font-size="11">at serving: crisp, vivid</text>
+  <circle cx="460" cy="375" r="5" fill="#a8512c"/>
+  <text class="sm" x="380" y="368" font-size="11">minutes later: softening</text>
+  <text class="sm" x="610" y="382" font-size="11">soggy, dull</text>
+  <text class="sm" x="60" y="412" font-size="11">add last → keep sealed with desiccant until use</text>
+
+  <text class="sm" x="40" y="442" font-size="11" font-style="italic">No moisture of its own — which is exactly why it grabs moisture from everything it touches.</text>
+</svg>

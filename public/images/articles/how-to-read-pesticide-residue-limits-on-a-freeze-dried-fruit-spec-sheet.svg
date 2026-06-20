@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Pesticide residue concentration through freeze-drying</title>
+  <desc id="desc">An illustration showing fresh fruit with a residue level, water removed by freeze-drying, and the finished dried piece holding the same residue in less mass, beside a spec-sheet panel listing standard, method, reporting limit, and basis.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="134" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="34">Reading Residue Limits</text>
+  <text x="108" y="174" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Why the basis of the number matters for freeze-dried fruit</text>
+
+  <!-- Fresh fruit -->
+  <g>
+    <circle cx="290" cy="380" r="100" fill="#e87d52" stroke="#b9542f" stroke-width="3"/>
+    <text x="234" y="510" fill="#3f3526" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Fresh fruit</text>
+    <text x="214" y="536" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">mostly water, by weight</text>
+    <!-- residue dots -->
+    <circle cx="250" cy="350" r="6" fill="#3f3526"/><circle cx="320" cy="330" r="6" fill="#3f3526"/><circle cx="300" cy="410" r="6" fill="#3f3526"/><circle cx="260" cy="420" r="6" fill="#3f3526"/>
+    <text x="214" y="568" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">residue spread across large mass</text>
+  </g>
+
+  <!-- arrow / process -->
+  <g>
+    <path d="M410 380h150" fill="none" stroke="#8b7654" stroke-width="5" stroke-linecap="round"/>
+    <polygon points="566,380 544,368 544,392" fill="#8b7654"/>
+    <text x="408" y="352" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">freeze-drying</text>
+    <text x="408" y="410" fill="#6ea2a4" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">water removed</text>
+    <path d="M470 430c8 22 8 22 0 44" fill="none" stroke="#6ea2a4" stroke-width="3"/>
+    <path d="M500 430c8 22 8 22 0 44" fill="none" stroke="#6ea2a4" stroke-width="3"/>
+  </g>
+
+  <!-- Dried fruit -->
+  <g>
+    <circle cx="690" cy="380" r="48" fill="#cf6a3f" stroke="#9a4524" stroke-width="3"/>
+    <text x="630" y="510" fill="#3f3526" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Dried piece</text>
+    <text x="612" y="536" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">far less mass remaining</text>
+    <!-- residue dots concentrated -->
+    <circle cx="672" cy="366" r="6" fill="#3f3526"/><circle cx="704" cy="362" r="6" fill="#3f3526"/><circle cx="690" cy="398" r="6" fill="#3f3526"/><circle cx="668" cy="396" r="6" fill="#3f3526"/>
+    <text x="612" y="568" fill="#b94a3a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">same residue, measured per less mass</text>
+  </g>
+
+  <!-- divider -->
+  <line x1="828" y1="240" x2="828" y2="640" stroke="#ddccaa" stroke-width="2"/>
+
+  <!-- Spec sheet panel -->
+  <rect x="888" y="248" width="568" height="392" rx="20" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="918" y="296" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.6">WHAT A STRONG SPEC NAMES</text>
+
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" fill="#31281c">
+    <circle cx="930" cy="344" r="6" fill="#caa64a"/><text x="952" y="350">Standard: EPA / Codex / EU / customer list</text>
+    <circle cx="930" cy="392" r="6" fill="#caa64a"/><text x="952" y="398">Method: multi-residue GC-MS/MS, LC-MS/MS</text>
+    <circle cx="930" cy="440" r="6" fill="#caa64a"/><text x="952" y="446">Scope: how many compounds screened</text>
+    <circle cx="930" cy="488" r="6" fill="#caa64a"/><text x="952" y="494">Limit of quantification (LOQ)</text>
+    <circle cx="930" cy="536" r="6" fill="#caa64a"/><text x="952" y="542">Basis: fresh weight or dried weight</text>
+    <circle cx="930" cy="584" r="6" fill="#caa64a"/><text x="952" y="590">Lot-specific, with lab and date</text>
+  </g>
+
+  <!-- bottom note -->
+  <rect x="120" y="668" width="1336" height="104" rx="18" fill="#f8efe0" stroke="#ccb88f"/>
+  <text x="150" y="710" fill="#31281c" font-family="Georgia, 'Times New Roman', serif" font-size="24">"Not detected" is a statement about the reporting limit</text>
+  <text x="150" y="744" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">It means nothing was found above the method's LOQ, not that the residue is truly zero.</text>
+</svg>

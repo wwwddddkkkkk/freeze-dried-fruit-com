@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Light exposure fading freeze-dried fruit color in clear packaging</title>
+  <desc id="desc">Diagram showing retail light passing through a clear pouch onto freeze-dried fruit, a wavelength scale marking ultraviolet and blue light as most damaging, and a left-to-right gradient from bright to faded pieces.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf2" stroke="#ccbda1" stroke-width="2"/>
+  <text x="112" y="136" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="34">Clear Packaging Lets the Light In</text>
+  <text x="112" y="176" fill="#786956" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">How retail and daylight slowly fade the pigments that make freeze-dried fruit look ripe</text>
+
+  <!-- light source -->
+  <circle cx="250" cy="300" r="54" fill="#f6e3a6" stroke="#d9b94e" stroke-width="3"/>
+  <text x="250" y="307" fill="#7a5d10" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" text-anchor="middle">LIGHT</text>
+  <g stroke="#d9b94e" stroke-width="3" stroke-linecap="round">
+    <line x1="318" y1="270" x2="470" y2="300"/>
+    <line x1="318" y1="300" x2="470" y2="340"/>
+    <line x1="318" y1="330" x2="470" y2="382"/>
+  </g>
+  <text x="250" y="392" fill="#8a7a3a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" text-anchor="middle">storefront + display</text>
+
+  <!-- clear pouch -->
+  <rect x="486" y="244" width="300" height="372" rx="20" fill="#eef4f6" stroke="#9fb6bd" stroke-width="3" opacity="0.65"/>
+  <rect x="486" y="244" width="300" height="46" rx="12" fill="#cdd9dc" opacity="0.8"/>
+  <text x="636" y="274" fill="#46606a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" text-anchor="middle">CLEAR WINDOW POUCH</text>
+  <text x="636" y="640" fill="#5e7a83" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" text-anchor="middle">high visibility, low protection</text>
+
+  <!-- fruit pieces fading left bright to right faded -->
+  <g>
+    <circle cx="546" cy="350" r="22" fill="#c2354a"/>
+    <circle cx="612" cy="360" r="22" fill="#cb5a63"/>
+    <circle cx="678" cy="350" r="22" fill="#d28b86"/>
+    <circle cx="744" cy="362" r="22" fill="#cdab9d"/>
+    <circle cx="560" cy="430" r="22" fill="#bb3f6f"/>
+    <circle cx="628" cy="440" r="22" fill="#c47d8d"/>
+    <circle cx="696" cy="430" r="22" fill="#cba9a6"/>
+    <circle cx="560" cy="512" r="22" fill="#c2354a"/>
+    <circle cx="630" cy="520" r="22" fill="#cf9a92"/>
+    <circle cx="700" cy="512" r="22" fill="#cdbcae"/>
+  </g>
+  <text x="546" y="582" fill="#9a3a48" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">fresh color</text>
+  <text x="724" y="582" fill="#9b8d7a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">faded after light</text>
+  <path d="M520 596 L760 596" stroke="#b6a285" stroke-width="2" stroke-dasharray="6 8"/>
+
+  <!-- wavelength scale -->
+  <rect x="860" y="244" width="624" height="150" rx="20" fill="#f8efe0" stroke="#d3c4a6"/>
+  <text x="892" y="290" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="26">Which light does the damage</text>
+  <defs>
+    <linearGradient id="spec" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6a4fb0"/>
+      <stop offset="0.25" stop-color="#3f6fd0"/>
+      <stop offset="0.5" stop-color="#3fae6a"/>
+      <stop offset="0.72" stop-color="#e0c23c"/>
+      <stop offset="1" stop-color="#c2412f"/>
+    </linearGradient>
+  </defs>
+  <rect x="892" y="312" width="560" height="30" rx="8" fill="url(#spec)"/>
+  <text x="900" y="372" fill="#5a4632" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">UV / blue — most harmful</text>
+  <text x="1300" y="372" fill="#5a4632" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" text-anchor="end">red — gentler</text>
+
+  <!-- protection options -->
+  <rect x="860" y="418" width="624" height="200" rx="20" fill="#f8efe0" stroke="#d3c4a6"/>
+  <text x="892" y="462" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="26">Trade-off, not a verdict</text>
+
+  <rect x="892" y="486" width="178" height="106" rx="14" fill="#eef4ef" stroke="#bcd2c4"/>
+  <text x="912" y="520" fill="#235041" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Clear</text>
+  <text x="912" y="548" fill="#4e6a5d" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">sells the look</text>
+  <text x="912" y="570" fill="#4e6a5d" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">fades fastest</text>
+
+  <rect x="1084" y="486" width="178" height="106" rx="14" fill="#f7ead8" stroke="#d9c4a0"/>
+  <text x="1104" y="520" fill="#7a5d31" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Window + UV block</text>
+  <text x="1104" y="548" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">some view</text>
+  <text x="1104" y="570" fill="#7a6a56" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">slower fade</text>
+
+  <rect x="1276" y="486" width="178" height="106" rx="14" fill="#ece6dd" stroke="#c2b49a"/>
+  <text x="1296" y="520" fill="#3c3226" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">Opaque / foil</text>
+  <text x="1296" y="548" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">best protection</text>
+  <text x="1296" y="570" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">hides product</text>
+
+  <!-- footer note -->
+  <rect x="110" y="664" width="1374" height="112" rx="20" fill="#fcf6ea" stroke="#d3c4a6"/>
+  <text x="140" y="706" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="24">Fade is cumulative</text>
+  <text x="140" y="740" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">A pouch loses a little color each day under light, so slow-moving, pigment-rich berry SKUs show the problem first.</text>
+  <text x="140" y="766" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">Match film to fruit, rotate stock, keep displays out of direct light, and include a lit condition in shelf-life testing.</text>
+</svg>

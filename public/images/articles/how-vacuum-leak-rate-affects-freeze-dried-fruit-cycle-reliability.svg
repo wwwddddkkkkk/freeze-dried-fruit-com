@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Freeze-dryer leak rate diagram</title>
+  <desc id="desc">A sealed freeze-dryer chamber with isolation valves closed, alongside a pressure-rise chart comparing a tight chamber that holds vacuum with a leaking chamber whose pressure climbs over time.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="134" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="34">Vacuum Leak Rate</text>
+  <text x="108" y="174" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">How fast pressure rises in a sealed, isolated chamber</text>
+
+  <!-- Chamber panel -->
+  <rect x="108" y="230" width="560" height="540" rx="22" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="140" y="280" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.8">ISOLATED CHAMBER</text>
+
+  <!-- chamber body -->
+  <rect x="160" y="320" width="320" height="300" rx="20" fill="#efe3c7" stroke="#bfa678" stroke-width="3"/>
+  <!-- door -->
+  <rect x="160" y="320" width="40" height="300" rx="12" fill="#e3d3ad" stroke="#bfa678" stroke-width="3"/>
+  <text x="206" y="360" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">door gasket</text>
+  <!-- trays of fruit -->
+  <rect x="226" y="392" width="226" height="14" rx="6" fill="#8f7a58"/>
+  <rect x="226" y="452" width="226" height="14" rx="6" fill="#8f7a58"/>
+  <rect x="226" y="512" width="226" height="14" rx="6" fill="#8f7a58"/>
+  <circle cx="256" cy="384" r="9" fill="#d66f49"/><circle cx="296" cy="384" r="9" fill="#d66f49"/><circle cx="336" cy="384" r="9" fill="#d66f49"/><circle cx="376" cy="384" r="9" fill="#d66f49"/><circle cx="416" cy="384" r="9" fill="#d66f49"/>
+  <circle cx="256" cy="444" r="9" fill="#d66f49"/><circle cx="296" cy="444" r="9" fill="#d66f49"/><circle cx="336" cy="444" r="9" fill="#d66f49"/><circle cx="376" cy="444" r="9" fill="#d66f49"/><circle cx="416" cy="444" r="9" fill="#d66f49"/>
+  <circle cx="256" cy="504" r="9" fill="#d66f49"/><circle cx="296" cy="504" r="9" fill="#d66f49"/><circle cx="336" cy="504" r="9" fill="#d66f49"/><circle cx="376" cy="504" r="9" fill="#d66f49"/><circle cx="416" cy="504" r="9" fill="#d66f49"/>
+
+  <!-- closed valves -->
+  <line x1="480" y1="420" x2="560" y2="420" stroke="#8b7654" stroke-width="6"/>
+  <polygon points="512,420 532,406 532,434" fill="#b94a3a"/>
+  <polygon points="532,420 512,406 512,434" fill="#b94a3a"/>
+  <text x="500" y="398" fill="#b94a3a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">valve closed</text>
+  <rect x="560" y="396" width="60" height="48" rx="8" fill="#fffaf0" stroke="#bfa678"/>
+  <text x="566" y="426" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="13">pump</text>
+
+  <!-- leak arrows into chamber -->
+  <path d="M150 470c-18 0 -28 0 -40 0" fill="none" stroke="#6ea2a4" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="158,470 142,462 142,478" fill="#6ea2a4"/>
+  <text x="118" y="510" fill="#6ea2a4" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">air + moisture</text>
+  <text x="118" y="530" fill="#6ea2a4" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">leaking in</text>
+
+  <text x="140" y="680" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">Pump and condenser isolated, no product</text>
+  <text x="140" y="704" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">subliming: pressure should hold steady.</text>
+
+  <!-- Chart panel -->
+  <rect x="700" y="230" width="788" height="540" rx="22" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="732" y="280" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.8">PRESSURE-RISE TEST</text>
+
+  <!-- axes -->
+  <line x1="780" y1="320" x2="780" y2="680" stroke="#8b7654" stroke-width="3"/>
+  <line x1="780" y1="680" x2="1430" y2="680" stroke="#8b7654" stroke-width="3"/>
+  <text x="724" y="500" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" transform="rotate(-90 724 500)">chamber pressure</text>
+  <text x="1300" y="712" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">time isolated</text>
+
+  <!-- leaking curve -->
+  <path d="M780 660 C 950 600, 1150 470, 1430 360" fill="none" stroke="#b94a3a" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="1430" cy="360" r="7" fill="#b94a3a"/>
+  <text x="1180" y="430" fill="#b94a3a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">leaking chamber: pressure climbs</text>
+
+  <!-- tight curve -->
+  <path d="M780 660 C 1000 656, 1200 652, 1430 648" fill="none" stroke="#3f7d54" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="1430" cy="648" r="7" fill="#3f7d54"/>
+  <text x="980" y="630" fill="#3f7d54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">tight chamber: holds vacuum</text>
+
+  <text x="782" y="666" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14">low</text>
+</svg>

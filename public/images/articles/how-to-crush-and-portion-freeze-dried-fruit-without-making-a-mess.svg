@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Crushing and portioning freeze-dried fruit cleanly</title>
+  <desc id="desc">Three crush levels of freeze-dried fruit shown inside a sealed bag, a fine sieve separating coarse pieces from powder, and a resealed pouch, labelled for topping, baking, and drinks.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="134" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="34">Crush It On Purpose</text>
+  <text x="108" y="174" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Match the crush level to the use, and keep the fines contained</text>
+
+  <!-- Three crush levels -->
+  <!-- Shards -->
+  <rect x="120" y="240" width="380" height="250" rx="20" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="150" y="284" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" letter-spacing="1.4">SHARDS</text>
+  <polygon points="180,360 220,330 250,370 210,400" fill="#d66f49"/>
+  <polygon points="270,350 320,332 340,380 290,396" fill="#d66f49"/>
+  <polygon points="360,366 410,344 430,392 380,406" fill="#d66f49"/>
+  <text x="150" y="452" fill="#31281c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">For topping: yogurt,</text>
+  <text x="150" y="478" fill="#31281c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">oatmeal, ice cream</text>
+
+  <!-- Crumble -->
+  <rect x="540" y="240" width="380" height="250" rx="20" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="570" y="284" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" letter-spacing="1.4">COARSE CRUMBLE</text>
+  <g fill="#d66f49">
+    <circle cx="610" cy="350" r="9"/><circle cx="645" cy="372" r="8"/><circle cx="680" cy="346" r="10"/><circle cx="715" cy="368" r="8"/><circle cx="750" cy="350" r="9"/>
+    <circle cx="628" cy="392" r="8"/><circle cx="668" cy="398" r="9"/><circle cx="708" cy="392" r="8"/><circle cx="748" cy="396" r="9"/><circle cx="788" cy="372" r="8"/>
+  </g>
+  <text x="570" y="452" fill="#31281c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">For baking: granola,</text>
+  <text x="570" y="478" fill="#31281c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">bars, chocolate bark</text>
+
+  <!-- Powder -->
+  <rect x="960" y="240" width="380" height="250" rx="20" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="990" y="284" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" letter-spacing="1.4">FINE POWDER</text>
+  <ellipse cx="1110" cy="372" rx="110" ry="30" fill="#e69a78"/>
+  <g fill="#cf6a3f">
+    <circle cx="1060" cy="368" r="3"/><circle cx="1090" cy="378" r="3"/><circle cx="1120" cy="366" r="3"/><circle cx="1150" cy="380" r="3"/><circle cx="1080" cy="384" r="3"/><circle cx="1140" cy="362" r="3"/><circle cx="1170" cy="374" r="3"/>
+  </g>
+  <text x="990" y="452" fill="#31281c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">For drinks, frosting,</text>
+  <text x="990" y="478" fill="#31281c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">dusting, seasoning</text>
+
+  <!-- Process row -->
+  <rect x="120" y="540" width="1220" height="230" rx="20" fill="#f8efe0" stroke="#ccb88f"/>
+  <text x="150" y="586" fill="#31281c" font-family="Georgia, 'Times New Roman', serif" font-size="26">The clean method</text>
+
+  <!-- step 1: sealed bag -->
+  <rect x="170" y="612" width="150" height="120" rx="12" fill="#fffaf0" stroke="#bfa678"/>
+  <path d="M210 628h70v86h-70z" fill="#eadfc6" stroke="#bfa678"/>
+  <line x1="210" y1="640" x2="280" y2="640" stroke="#9a7d38" stroke-width="3"/>
+  <circle cx="228" cy="676" r="5" fill="#d66f49"/><circle cx="248" cy="688" r="5" fill="#d66f49"/><circle cx="266" cy="672" r="5" fill="#d66f49"/>
+  <text x="178" y="752" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">1. Crush in a sealed bag</text>
+
+  <path d="M338 672h54" fill="none" stroke="#8b7654" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="392,672 374,662 374,682" fill="#8b7654"/>
+
+  <!-- step 2: sieve -->
+  <rect x="410" y="612" width="150" height="120" rx="12" fill="#fffaf0" stroke="#bfa678"/>
+  <path d="M438 648h94l-14 34h-66z" fill="none" stroke="#9a7d38" stroke-width="3"/>
+  <line x1="442" y1="660" x2="528" y2="660" stroke="#bfa678" stroke-width="2"/>
+  <line x1="448" y1="672" x2="522" y2="672" stroke="#bfa678" stroke-width="2"/>
+  <circle cx="470" cy="700" r="2.5" fill="#cf6a3f"/><circle cx="485" cy="706" r="2.5" fill="#cf6a3f"/><circle cx="500" cy="700" r="2.5" fill="#cf6a3f"/>
+  <text x="418" y="752" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">2. Sieve for even powder</text>
+
+  <path d="M578 672h54" fill="none" stroke="#8b7654" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="632,672 614,662 614,682" fill="#8b7654"/>
+
+  <!-- step 3: portion -->
+  <rect x="650" y="612" width="150" height="120" rx="12" fill="#fffaf0" stroke="#bfa678"/>
+  <rect x="700" y="650" width="50" height="60" rx="8" fill="#eadfc6" stroke="#bfa678"/>
+  <ellipse cx="725" cy="652" rx="25" ry="7" fill="#e69a78"/>
+  <text x="658" y="752" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">3. Portion with a dry spoon</text>
+
+  <path d="M818 672h54" fill="none" stroke="#8b7654" stroke-width="4" stroke-linecap="round"/>
+  <polygon points="872,672 854,662 854,682" fill="#8b7654"/>
+
+  <!-- step 4: reseal -->
+  <rect x="890" y="612" width="150" height="120" rx="12" fill="#fffaf0" stroke="#bfa678"/>
+  <path d="M930 628h70v86h-70z" fill="#eadfc6" stroke="#bfa678"/>
+  <line x1="930" y1="640" x2="1000" y2="640" stroke="#3f7d54" stroke-width="5"/>
+  <text x="898" y="752" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">4. Reseal, keep it dry</text>
+
+  <!-- tip -->
+  <rect x="1060" y="612" width="262" height="120" rx="12" fill="#fff4e2" stroke="#d8c28f"/>
+  <text x="1082" y="650" fill="#b94a3a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">Stop early</text>
+  <text x="1082" y="682" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">Over-crushing is the</text>
+  <text x="1082" y="704" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">main cause of dust.</text>
+  <text x="1082" y="726" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">Roll, don't pound.</text>
+</svg>

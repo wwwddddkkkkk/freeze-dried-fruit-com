@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Negotiating price tiers and volume breaks for freeze-dried fruit</title>
+  <desc id="desc">A descending volume-break price ladder where per-unit price steps down as order size grows, with annotations showing fixed costs spreading over more units, a flattening point, and rising inventory and cash risk at the deepest tier.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf2" stroke="#ccbda1" stroke-width="2"/>
+  <text x="112" y="136" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="34">Reading the Volume-Break Ladder</text>
+  <text x="112" y="176" fill="#786956" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Each tier is a snapshot of the supplier's cost structure, not a fixed discount menu</text>
+
+  <!-- chart panel -->
+  <rect x="110" y="232" width="930" height="496" rx="26" fill="#fcf6ea" stroke="#d3c4a6"/>
+  <line x1="190" y1="676" x2="980" y2="676" stroke="#8b7654" stroke-width="4" stroke-linecap="round"/>
+  <line x1="190" y1="676" x2="190" y2="288" stroke="#8b7654" stroke-width="4" stroke-linecap="round"/>
+  <text x="500" y="716" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Order size</text>
+  <text x="150" y="500" fill="#6c5d49" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" transform="rotate(-90 150 500)">Price per unit</text>
+
+  <!-- step-down bars -->
+  <rect x="230" y="350" width="120" height="326" rx="8" fill="#c98a5a"/>
+  <rect x="378" y="430" width="120" height="246" rx="8" fill="#bf9a6a"/>
+  <rect x="526" y="498" width="120" height="178" rx="8" fill="#a9a06f"/>
+  <rect x="674" y="546" width="120" height="130" rx="8" fill="#7f9a72"/>
+  <rect x="822" y="566" width="120" height="110" rx="8" fill="#5f8f74"/>
+
+  <text x="290" y="336" fill="#7a4d2a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" text-anchor="middle">small</text>
+  <text x="438" y="416" fill="#7a5d2a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" text-anchor="middle">tier 2</text>
+  <text x="586" y="484" fill="#6c6a3a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" text-anchor="middle">tier 3</text>
+  <text x="734" y="532" fill="#3f6a4d" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" text-anchor="middle">tier 4</text>
+  <text x="882" y="552" fill="#2f6a51" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" text-anchor="middle">bulk</text>
+
+  <!-- big drop annotation -->
+  <path d="M300 360 C 360 360, 400 412, 460 440" fill="none" stroke="#9a5a39" stroke-width="3" stroke-dasharray="7 7"/>
+  <rect x="300" y="276" width="252" height="64" rx="12" fill="#fffaf2" stroke="#d9b89a"/>
+  <text x="316" y="304" fill="#7a4d2a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Big early step =</text>
+  <text x="316" y="326" fill="#7a4d2a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">fixed costs spreading fast</text>
+
+  <!-- flattening annotation -->
+  <path d="M880 560 C 900 540, 930 540, 956 548" fill="none" stroke="#2f6a51" stroke-width="3" stroke-dasharray="7 7"/>
+  <rect x="700" y="600" width="262" height="62" rx="12" fill="#eef4ef" stroke="#bcd2c4"/>
+  <text x="716" y="628" fill="#2f6a51" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Curve flattens =</text>
+  <text x="716" y="650" fill="#3f6a4d" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">mostly variable cost left</text>
+
+  <!-- right column -->
+  <rect x="1080" y="232" width="404" height="234" rx="22" fill="#f8efe0" stroke="#d3c4a6"/>
+  <text x="1110" y="278" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="26">What you can trade</text>
+  <text x="1110" y="318" fill="#5a4632" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">• Committed annual volume</text>
+  <text x="1110" y="352" fill="#5a4632" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">• Fewer, larger lots</text>
+  <text x="1110" y="386" fill="#5a4632" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">• A credible demand forecast</text>
+  <text x="1110" y="420" fill="#5a4632" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">• Simpler specs and packaging</text>
+  <text x="1110" y="454" fill="#5a4632" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">• Faster payment terms</text>
+
+  <rect x="1080" y="486" width="404" height="242" rx="22" fill="#f7ece6" stroke="#d8b6a6"/>
+  <text x="1110" y="532" fill="#8b3f35" font-family="Georgia, 'Times New Roman', serif" font-size="26">The deepest tier risk</text>
+  <text x="1110" y="572" fill="#7a4a40" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">More volume ties up cash and</text>
+  <text x="1110" y="600" fill="#7a4a40" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">space, and fruit does not improve</text>
+  <text x="1110" y="628" fill="#7a4a40" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">while it waits.</text>
+  <text x="1110" y="672" fill="#6c4338" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">Judge on landed + carrying cost</text>
+  <text x="1110" y="700" fill="#6c4338" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">over volume you can actually turn.</text>
+</svg>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Demurrage and detention timeline for a container</title>
+  <desc id="desc">A horizontal timeline of an imported container from vessel discharge through terminal free time, out-gate, warehouse unload, and empty return, marking the demurrage window inside the terminal and the detention window outside it.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="134" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="34">Demurrage vs Detention</text>
+  <text x="108" y="174" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Two time charges that begin when free time runs out</text>
+
+  <!-- terminal zone -->
+  <rect x="120" y="250" width="640" height="300" rx="20" fill="#f3ead6" stroke="#cbb88f"/>
+  <text x="150" y="292" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.6">INSIDE THE TERMINAL</text>
+
+  <!-- outside zone -->
+  <rect x="800" y="250" width="640" height="300" rx="20" fill="#f3ead6" stroke="#cbb88f"/>
+  <text x="830" y="292" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.6">OUT IN YOUR CONTROL</text>
+
+  <!-- timeline baseline -->
+  <line x1="150" y1="470" x2="1410" y2="470" stroke="#8b7654" stroke-width="4"/>
+
+  <!-- milestone markers -->
+  <g font-family="'Helvetica Neue', Arial, sans-serif">
+    <circle cx="180" cy="470" r="9" fill="#3f7d54"/>
+    <text x="158" y="512" fill="#3f3526" font-size="16">vessel</text>
+    <text x="158" y="532" fill="#3f3526" font-size="16">discharge</text>
+
+    <circle cx="470" cy="470" r="9" fill="#caa64a"/>
+    <text x="430" y="512" fill="#3f3526" font-size="16">free time</text>
+    <text x="446" y="532" fill="#3f3526" font-size="16">ends</text>
+
+    <circle cx="760" cy="470" r="9" fill="#9a7d38"/>
+    <text x="700" y="512" fill="#3f3526" font-size="16">pick up /</text>
+    <text x="704" y="532" fill="#3f3526" font-size="16">out-gate</text>
+
+    <circle cx="1070" cy="470" r="9" fill="#caa64a"/>
+    <text x="1018" y="512" fill="#3f3526" font-size="16">detention</text>
+    <text x="1020" y="532" fill="#3f3526" font-size="16">free ends</text>
+
+    <circle cx="1410" cy="470" r="9" fill="#3f7d54"/>
+    <text x="1346" y="512" fill="#3f3526" font-size="16">empty</text>
+    <text x="1340" y="532" fill="#3f3526" font-size="16">returned</text>
+  </g>
+
+  <!-- free time inside -->
+  <rect x="180" y="430" width="290" height="20" rx="8" fill="#cfe0cf"/>
+  <text x="210" y="414" fill="#3f7d54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">demurrage free time</text>
+
+  <!-- demurrage charge -->
+  <rect x="470" y="430" width="290" height="20" rx="8" fill="#e6b7ae"/>
+  <text x="500" y="414" fill="#b94a3a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">DEMURRAGE charged</text>
+
+  <!-- detention free time -->
+  <rect x="760" y="430" width="310" height="20" rx="8" fill="#cfe0cf"/>
+  <text x="800" y="414" fill="#3f7d54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">detention free time</text>
+
+  <!-- detention charge -->
+  <rect x="1070" y="430" width="340" height="20" rx="8" fill="#e6b7ae"/>
+  <text x="1110" y="414" fill="#b94a3a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">DETENTION charged</text>
+
+  <!-- container icons -->
+  <rect x="300" y="350" width="90" height="48" rx="4" fill="#d8a24a" stroke="#9a7d38" stroke-width="2"/>
+  <line x1="318" y1="350" x2="318" y2="398" stroke="#9a7d38" stroke-width="2"/><line x1="336" y1="350" x2="336" y2="398" stroke="#9a7d38" stroke-width="2"/><line x1="354" y1="350" x2="354" y2="398" stroke="#9a7d38" stroke-width="2"/><line x1="372" y1="350" x2="372" y2="398" stroke="#9a7d38" stroke-width="2"/>
+  <rect x="1140" y="350" width="90" height="48" rx="4" fill="#d8a24a" stroke="#9a7d38" stroke-width="2"/>
+  <line x1="1158" y1="350" x2="1158" y2="398" stroke="#9a7d38" stroke-width="2"/><line x1="1176" y1="350" x2="1176" y2="398" stroke="#9a7d38" stroke-width="2"/><line x1="1194" y1="350" x2="1194" y2="398" stroke="#9a7d38" stroke-width="2"/><line x1="1212" y1="350" x2="1212" y2="398" stroke="#9a7d38" stroke-width="2"/>
+
+  <!-- bottom note -->
+  <rect x="120" y="600" width="1320" height="170" rx="20" fill="#f8efe0" stroke="#ccb88f"/>
+  <text x="150" y="648" fill="#31281c" font-family="Georgia, 'Times New Roman', serif" font-size="26">Where the meter starts</text>
+  <text x="150" y="690" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">Demurrage runs while the loaded box sits inside the terminal past free time. Detention runs once the</text>
+  <text x="150" y="718" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">box leaves the gate and is not returned empty in time. Both sit outside the unit price and freight quote,</text>
+  <text x="150" y="746" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">so they distort real landed cost. Documents ready before arrival and fast unloading keep both near zero.</text>
+</svg>

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-21T03:47:10.246Z",
+  "updated_at": "2026-06-21T09:44:31.991Z",
   "items": [
     {
       "title": "Cap’n Crunch bars with freeze-dried fruit - KELOLAND.com",
@@ -50,14 +50,6 @@
       "feed": "Google News — freeze drying industry"
     },
     {
-      "title": "Everyone Is Talking About This Popping-Candy-Coated Costco Snack (I Can't Stop Eating It) - Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTkU5eGVuX2JZb2lNS01vOHFsbmVpMDE3bmJjeFJWQXJTR2ZVMzlfclI0d1djTENWN3VETm5jUzBsZHMtbWttMzNHV1NzbDlFbXcyRXoyR1Fnd2xqcVlfYW1heWRYN3U1QjN1cmZ1NHdwNGFjWHJ6OGh0WmZzWXJWZ1NkREZRd0VlcUdadGRvRDlkdWFZYUF2ag?oc=5",
-      "source": "Yahoo",
-      "date": "2026-04-29T07:00:00.000Z",
-      "date_label": "Apr 29, 2026",
-      "feed": "Google News — freeze-dried fruit"
-    },
-    {
       "title": "6 of the Best Dried Fruits to Eat, According to Nutritionists - marthastewart.com",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1UNFFTUVNXWm8tUnB3MWtITjBHUTdpUjNReEc3b1lTQ2RxSE1kd3REbUNDVmlYY0J1RHlaRlM3b2g1Tmk5S01laDhrLU96VnBXR19OS3lMLXJ6VnhMNE0tTlg4OWxpeW80dmhrRFZBUng?oc=5",
       "source": "marthastewart.com",
@@ -72,6 +64,14 @@
       "date": "2026-03-24T07:00:00.000Z",
       "date_label": "Mar 24, 2026",
       "feed": "Google News — freeze drying industry"
+    },
+    {
+      "title": "Pick Up This Freeze-Dried Fruit For A Sweet Snack That's Loaded With Fiber - Tasting Table",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9vUWxjajhzR0g0U0ZuLVNWWXFSdDdGZWJ6d2FEVTJQd3Y3UWVzejJLMjNZZXp0NWJQTDBRZ2s5Y282QVhtdkhCT3g1SlNPUXNYRmVINGJYX21tcUVPRVJ6TTFHQU1JXzdfR2ZzZTdBeS1qTW15TkpTa1hrcDVmdw?oc=5",
+      "source": "Tasting Table",
+      "date": "2026-03-07T08:00:00.000Z",
+      "date_label": "Mar 7, 2026",
+      "feed": "Google News — freeze-dried fruit"
     },
     {
       "title": "Freeze Dried Fruits and Vegetables - Dried Figs - Cashew Drive Global Demand for Sustainable Snacking Solutions - Health - The Desert Sun",
@@ -210,9 +210,9 @@
       "feed": "Google News — freeze-dried fruit"
     },
     {
-      "title": "Freeze-dried fruit sold at Sam’s Club recalled due to possible listeria contamination - WDBJ7",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSndYQnVoSks1eER2d2xGU08zUTBXZVVHZ1NkS1hNRDFkbXo0dVh2OFFfSW5pbEcxTFZmbUthS2Z1bkxJT1dhSTBHbmQ5Mk8wS255eG0ydVNfeGE5NW9USkM2VTd3YU5jMDJYczNhalFXLU9yWUlFRkJCNlZxRXV4ajNkZTF3ZDlnanhUOHpGbGtZaF9uTEZOYjQzQTFWYVNBZWlyclhQN3FlbVU2czE5SDJ30gHGAUFVX3lxTE1JN2l4UDg2RzlvMTFrZUdCQlJxQWdpaHBGU0xUMEpNNHF6QjV6Y2s5U1hkN0JRMkJEM1IwUXRLSE9UZzlwWnRrTEU2QTQwMU1KaE05T3AzWUZId3kwbk5Fcm95bWgzZFdoX1RsSk5zTHhIZVJ3eEkyT2lNOVhQbldXXzdFUXhYdlNsQjdQQll0UHFmU2N1NzFDaGtQLXJRNUV3M1Z3djc4b0x6YWdmZGlQOURyZ2NjR1FodGpESGhIN0pOcnJ6UQ?oc=5",
-      "source": "WDBJ7",
+      "title": "Freeze-dried fruit sold at Sam’s Club recalled due to possible listeria contamination - KY3",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdHNxMUcwUlc0aTY2aHRlbGV5cjh0T19MMEhySUN1Y0pfWm1nWHRzTndiSFNhUUpFd2JkQll4VnZRX0drTUI0MFlfMDBLNjQtbWNtZ1g2a2N0Nzh5QWQ5aW1IcW9ZQTRoZXYyMUxobjFEX1dNY251TUFobnl4MHJSei1JQVpxdFZQa3I5eFFmcllZRU5kM1ppR3FlMzREdktZcGNmT3duVVl1dk1ha1840gHDAUFVX3lxTE0zaTJaTE1vMlg0U2hGYTFuZkQ2cnRCQXJReUVlUXR5Q04zM01DbmNwZ3I4Z1IwUkdKdDBDNTVyNERVSVNiWHFwN1BuWEphRTRjYkV2NzFqdWtpZmdnSUM4aFF5eFRlWnBoa2lZWEdmbUMtQnpqR2g0TkVUOEpRR0lraXQydmFSR0NOM1lScFJlcnlxaGRTaG1DbW4xQ0J1M0ZDYTVTMEI1VVREeFI1c3VQREktWEx3ZnpBT25Temhyc0Jpdw?oc=5",
+      "source": "KY3",
       "date": "2025-08-01T07:00:00.000Z",
       "date_label": "Aug 1, 2025",
       "feed": "Google News — freeze-dried fruit"

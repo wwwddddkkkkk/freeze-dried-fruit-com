@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How glass transition temperature governs freeze-dried fruit stickiness and shelf stability</title>
+  <desc id="desc">A state diagram with moisture on the horizontal axis and temperature on the vertical axis. A falling glass-transition curve separates a lower glassy crisp zone from an upper rubbery sticky zone, with a horizontal storage-temperature line crossing it.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="66" y="66" width="1468" height="768" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="140" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">The Line Between Crisp and Sticky Keeps Moving</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Moisture lowers the glass transition; when it drops below storage temperature, the fruit turns rubbery.</text>
+
+  <!-- Plot frame -->
+  <rect x="150" y="300" width="800" height="430" rx="14" fill="#fffdf8" stroke="#d4c7b1" stroke-width="2"/>
+  <!-- axes -->
+  <line x1="210" y1="320" x2="210" y2="690" stroke="#17312f" stroke-width="3"/>
+  <line x1="210" y1="690" x2="910" y2="690" stroke="#17312f" stroke-width="3"/>
+  <text x="118" y="510" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" transform="rotate(-90 130 510)">Temperature</text>
+  <text x="470" y="726" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Moisture / water activity</text>
+
+  <!-- rubbery zone fill (above Tg curve) -->
+  <path d="M210 330 L910 330 L910 470 C760 360 470 360 210 470 Z" fill="#f0d3cf" opacity="0.55"/>
+  <!-- glassy zone fill (below Tg curve) -->
+  <path d="M210 470 C470 360 760 360 910 470 L910 690 L210 690 Z" fill="#dce9e4" opacity="0.6"/>
+
+  <!-- storage temperature line -->
+  <line x1="210" y1="500" x2="910" y2="500" stroke="#cb5d58" stroke-width="3" stroke-dasharray="10 8"/>
+  <text x="700" y="492" fill="#9c3f3b" font-family="'JetBrains Mono', monospace" font-size="19">storage temp</text>
+
+  <!-- Tg curve -->
+  <path d="M210 470 C470 360 760 360 910 470 C940 480 950 510 950 540" fill="none" stroke="#17312f" stroke-width="4"/>
+  <text x="250" y="408" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="26">Tg curve (falls as moisture rises)</text>
+
+  <!-- zone labels -->
+  <text x="560" y="395" fill="#9c3f3b" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">RUBBERY · sticky · cakes</text>
+  <text x="560" y="640" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">GLASSY · crisp · stable</text>
+
+  <!-- crossing point marker -->
+  <circle cx="772" cy="500" r="10" fill="#e0b05f" stroke="#17312f" stroke-width="2"/>
+  <line x1="772" y1="500" x2="772" y2="690" stroke="#5c5040" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <text x="700" y="715" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">fails here</text>
+
+  <!-- side panel: what sets Tg -->
+  <rect x="986" y="300" width="436" height="430" rx="24" fill="#17312f"/>
+  <text x="1020" y="346" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="4">WHAT MOVES THE LINE</text>
+  <circle cx="1036" cy="402" r="13" fill="#cb5d58"/>
+  <text x="1062" y="409" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">moisture pickup lowers Tg</text>
+  <circle cx="1036" cy="452" r="13" fill="#cb5d58"/>
+  <text x="1062" y="459" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">high sugar (mango, banana) low Tg</text>
+  <circle cx="1036" cy="502" r="13" fill="#88b8aa"/>
+  <text x="1062" y="509" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">secondary drying raises Tg</text>
+  <circle cx="1036" cy="552" r="13" fill="#88b8aa"/>
+  <text x="1062" y="559" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">barrier film holds Tg up</text>
+  <circle cx="1036" cy="602" r="13" fill="#88b8aa"/>
+  <text x="1062" y="609" fill="#edf0ea" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">cooler storage adds margin</text>
+  <text x="1020" y="678" fill="#e0b05f" font-family="'Source Serif 4', Georgia, serif" font-size="19" font-style="italic">Stay on the glassy side.</text>
+
+  <rect x="112" y="754" width="1310" height="48" rx="18" fill="#203836"/>
+  <text x="146" y="785" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Stability means keeping storage temperature below a glass transition that moisture keeps trying to pull down.</text>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to make instant oatmeal cups with freeze-dried fruit</title>
+  <desc id="desc">A cutaway jar showing layers of oats and milk powder at the base, freeze-dried fruit stirred into the mix, a reserved fruit topping, and a hot-water fill line, beside a three-step sequence and a timer.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="66" y="66" width="1468" height="768" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="140" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">APPLICATIONS</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">One Jar, Hot Water, Three Minutes</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Freeze-dried fruit shares the oats' shelf life and rehydrates on the same clock.</text>
+
+  <!-- jar cutaway -->
+  <text x="150" y="300" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">BUILD THE CUP</text>
+  <!-- lid -->
+  <rect x="196" y="318" width="220" height="26" rx="8" fill="#294643"/>
+  <!-- jar body -->
+  <path d="M196 348 h220 v300 a18 18 0 0 1 -18 18 h-184 a18 18 0 0 1 -18 -18 z" fill="#fffdf8" stroke="#17312f" stroke-width="3"/>
+  <!-- topping layer -->
+  <rect x="200" y="352" width="212" height="44" fill="#f0d3cf"/>
+  <text x="306" y="380" fill="#9c3f3b" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" text-anchor="middle">reserved fruit topping</text>
+  <!-- fill line -->
+  <line x1="196" y1="404" x2="416" y2="404" stroke="#cb5d58" stroke-width="2.5" stroke-dasharray="9 7"/>
+  <text x="424" y="402" fill="#9c3f3b" font-family="'JetBrains Mono', monospace" font-size="16">hot water</text>
+  <text x="424" y="424" fill="#9c3f3b" font-family="'JetBrains Mono', monospace" font-size="16">fill line</text>
+  <!-- fruit-in-mix -->
+  <rect x="200" y="404" width="212" height="120" fill="#f3e6cf"/>
+  <circle cx="240" cy="440" r="9" fill="#e0b05f"/><circle cx="300" cy="470" r="9" fill="#cb5d58"/><circle cx="360" cy="445" r="9" fill="#88b8aa"/><circle cx="270" cy="500" r="9" fill="#cb5d58"/><circle cx="350" cy="500" r="9" fill="#e0b05f"/>
+  <text x="306" y="430" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" text-anchor="middle">freeze-dried fruit + oats</text>
+  <!-- body layer -->
+  <rect x="200" y="524" width="212" height="44" fill="#efe5d2"/>
+  <text x="306" y="552" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" text-anchor="middle">milk powder / nut butter</text>
+  <!-- base oats -->
+  <rect x="200" y="568" width="212" height="96" fill="#e7d8b8"/>
+  <text x="306" y="622" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" text-anchor="middle">quick or rolled oats</text>
+
+  <!-- steps -->
+  <rect x="520" y="318" width="902" height="158" rx="20" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="548" y="358" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="2">METHOD</text>
+  <circle cx="566" cy="402" r="16" fill="#88b8aa"/><text x="566" y="409" fill="#0f2622" font-family="'JetBrains Mono', monospace" font-size="18" text-anchor="middle">1</text>
+  <text x="594" y="409" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Stir most of the fruit into the dry oats + body; reserve a pinch.</text>
+  <circle cx="566" cy="442" r="16" fill="#e0b05f"/><text x="566" y="449" fill="#3a2f17" font-family="'JetBrains Mono', monospace" font-size="18" text-anchor="middle">2</text>
+  <text x="594" y="449" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Seal and store dry. Add hot water to the fill line when ready.</text>
+  <circle cx="566" cy="482" r="16" fill="#cb5d58"/><text x="566" y="489" fill="#fff" font-family="'JetBrains Mono', monospace" font-size="18" text-anchor="middle">3</text>
+  <text x="594" y="489" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Wait, stir, top with the reserved fruit, eat.</text>
+
+  <!-- timer + texture note -->
+  <rect x="520" y="500" width="438" height="164" rx="20" fill="#17312f"/>
+  <circle cx="600" cy="582" r="52" fill="none" stroke="#88b8aa" stroke-width="8"/>
+  <path d="M600 582 V544" stroke="#e0b05f" stroke-width="6" stroke-linecap="round"/>
+  <path d="M600 582 l30 18" stroke="#e0b05f" stroke-width="6" stroke-linecap="round"/>
+  <text x="690" y="558" fill="#f7f0e4" font-family="'DM Serif Display', Georgia, serif" font-size="30">~3 min</text>
+  <text x="690" y="594" fill="#cfe2dd" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">fruit rehydrates with</text>
+  <text x="690" y="618" fill="#cfe2dd" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">the oats</text>
+
+  <rect x="978" y="500" width="444" height="164" rx="20" fill="#fffdf8" stroke="#294643" stroke-width="2"/>
+  <text x="1006" y="540" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="2">REMEMBER</text>
+  <text x="1006" y="578" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">• mixed-in fruit softens fully</text>
+  <text x="1006" y="608" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">• reserved topping keeps color</text>
+  <text x="1006" y="638" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">• keep cups sealed and dry</text>
+
+  <rect x="112" y="700" width="1310" height="48" rx="18" fill="#203836"/>
+  <text x="146" y="731" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Stir most of the fruit in for flavor, hold a little back for the top, add body to manage moisture.</text>
+</svg>

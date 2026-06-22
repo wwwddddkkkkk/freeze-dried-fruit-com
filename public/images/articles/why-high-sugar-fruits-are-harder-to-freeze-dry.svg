@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Why high-sugar fruits are harder to freeze-dry</title>
+  <desc id="desc">A temperature scale comparing a low-sugar fruit and a high-sugar fruit. The high-sugar fruit's collapse threshold sits much lower, leaving a narrower safe drying window between the product temperature and the point where the structure collapses.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf2" stroke="#ccbda1" stroke-width="2"/>
+  <text x="112" y="136" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="34">Sugar Lowers the Safe Drying Ceiling</text>
+  <text x="112" y="176" fill="#786956" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">The sweeter the fruit, the colder it must stay to avoid collapse during primary drying</text>
+
+  <!-- vertical temperature axis -->
+  <line x1="220" y1="240" x2="220" y2="760" stroke="#9a8a72" stroke-width="3"/>
+  <polygon points="220,228 212,250 228,250" fill="#9a8a72"/>
+  <text x="150" y="244" fill="#6f6052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">warmer</text>
+  <text x="150" y="756" fill="#6f6052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">colder</text>
+  <text x="120" y="500" fill="#6f6052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" transform="rotate(-90 120 500)">product temperature</text>
+
+  <!-- LOW SUGAR column -->
+  <text x="470" y="280" fill="#3c3226" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" text-anchor="middle">Low-sugar fruit</text>
+  <text x="470" y="306" fill="#7a8a5e" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" text-anchor="middle">tart berries, watery fruit</text>
+  <!-- safe window band (large) -->
+  <rect x="360" y="330" width="220" height="300" rx="10" fill="#cfe0c0" stroke="#8fae6e" stroke-width="2"/>
+  <text x="470" y="470" fill="#41562b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" text-anchor="middle">wide safe</text>
+  <text x="470" y="494" fill="#41562b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" text-anchor="middle">drying window</text>
+  <!-- collapse line low -->
+  <line x1="340" y1="330" x2="600" y2="330" stroke="#c0563f" stroke-width="4" stroke-dasharray="10 7"/>
+  <text x="470" y="324" fill="#a8412c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">collapse threshold (higher)</text>
+  <!-- fruit icon -->
+  <circle cx="470" cy="690" r="34" fill="#c2354a"/>
+  <circle cx="458" cy="680" r="6" fill="#e0808f"/>
+
+  <!-- HIGH SUGAR column -->
+  <text x="1010" y="280" fill="#3c3226" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" text-anchor="middle">High-sugar fruit</text>
+  <text x="1010" y="306" fill="#b07a2e" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" text-anchor="middle">ripe mango, banana, pineapple</text>
+  <!-- safe window band (narrow, lower) -->
+  <rect x="900" y="560" width="220" height="120" rx="10" fill="#e7d29a" stroke="#cd9f4e" stroke-width="2"/>
+  <text x="1010" y="612" fill="#7a5d10" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" text-anchor="middle">narrow safe</text>
+  <text x="1010" y="636" fill="#7a5d10" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" text-anchor="middle">window</text>
+  <!-- collapse line high-sugar (lower) -->
+  <line x1="880" y1="560" x2="1140" y2="560" stroke="#c0563f" stroke-width="4" stroke-dasharray="10 7"/>
+  <text x="1010" y="554" fill="#a8412c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">collapse threshold (lower)</text>
+  <!-- danger zone above the lower threshold -->
+  <rect x="900" y="330" width="220" height="230" rx="10" fill="#f0d8cf" stroke="#d8a48f" stroke-width="2" opacity="0.85"/>
+  <text x="1010" y="430" fill="#a8412c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" text-anchor="middle">too warm here:</text>
+  <text x="1010" y="454" fill="#a8412c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" text-anchor="middle">collapse, stickiness,</text>
+  <text x="1010" y="478" fill="#a8412c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" text-anchor="middle">browning</text>
+  <!-- fruit icon high sugar -->
+  <ellipse cx="1010" cy="720" rx="40" ry="30" fill="#e6a93a"/>
+  <ellipse cx="996" cy="710" rx="7" ry="5" fill="#f3cf86"/>
+
+  <!-- arrow showing lower ceiling -->
+  <line x1="640" y1="330" x2="860" y2="560" stroke="#9a8a72" stroke-width="2" stroke-dasharray="6 6"/>
+  <text x="750" y="430" fill="#6f6052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle" transform="rotate(46 750 430)">more sugar -&gt; lower ceiling</text>
+
+  <text x="220" y="800" fill="#8a7a64" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">Schematic. The sugar-rich solids left behind soften at a lower temperature, so the cycle must run colder and slower.</text>
+</svg>

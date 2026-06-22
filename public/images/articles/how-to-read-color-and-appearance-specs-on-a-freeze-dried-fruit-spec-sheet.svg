@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to read color and appearance specs on a freeze-dried fruit spec sheet</title>
+  <desc id="desc">On the left, a spec sheet appearance section with vague adjective lines. An arrow leads to the right, where the same lines are anchored to a physical color reference card with a tolerance band and a defect grid with countable limits.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf2" stroke="#ccbda1" stroke-width="2"/>
+  <text x="112" y="136" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="34">From Adjectives to Acceptance Criteria</text>
+  <text x="112" y="176" fill="#786956" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Anchoring vague color and appearance lines to references and countable limits</text>
+
+  <!-- LEFT: weak spec sheet -->
+  <rect x="110" y="240" width="430" height="520" rx="14" fill="#fff" stroke="#c9b890" stroke-width="2"/>
+  <text x="325" y="284" fill="#3c3226" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="bold">Spec sheet — appearance</text>
+  <line x1="150" y1="304" x2="500" y2="304" stroke="#e3d8bd" stroke-width="2"/>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#5b5040">
+    <text x="150" y="350">Color:</text>
+    <text x="320" y="350" fill="#a8412c">"characteristic"</text>
+    <text x="150" y="400">Appearance:</text>
+    <text x="320" y="400" fill="#a8412c">"typical"</text>
+    <text x="150" y="450">Defects:</text>
+    <text x="320" y="450" fill="#a8412c">"free from"</text>
+  </g>
+  <rect x="150" y="500" width="350" height="120" rx="10" fill="#f0e2dc" stroke="#cf9f8d" stroke-width="2"/>
+  <text x="325" y="540" fill="#8a4836" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" text-anchor="middle">Two inspectors can</text>
+  <text x="325" y="566" fill="#8a4836" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" text-anchor="middle">reach different</text>
+  <text x="325" y="592" fill="#8a4836" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" text-anchor="middle">accept / reject calls</text>
+  <text x="325" y="700" fill="#9a8a72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">weak: words only</text>
+
+  <!-- arrow -->
+  <g>
+    <line x1="560" y1="490" x2="690" y2="490" stroke="#8fae6e" stroke-width="6"/>
+    <polygon points="710,490 682,476 682,504" fill="#8fae6e"/>
+    <text x="635" y="468" fill="#5e7045" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">anchor it</text>
+  </g>
+
+  <!-- RIGHT top: color reference card -->
+  <rect x="740" y="240" width="730" height="230" rx="14" fill="#fff" stroke="#c9b890" stroke-width="2"/>
+  <text x="770" y="282" fill="#3c3226" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="bold">Color reference + tolerance</text>
+  <!-- color swatch gradient with target and band -->
+  <rect x="770" y="306" width="80" height="120" rx="6" fill="#b8553f"/>
+  <rect x="858" y="306" width="80" height="120" rx="6" fill="#c2354a"/>
+  <rect x="946" y="306" width="80" height="120" rx="6" fill="#cf5a64" stroke="#3c3226" stroke-width="3"/>
+  <rect x="1034" y="306" width="80" height="120" rx="6" fill="#d98c88"/>
+  <rect x="1122" y="306" width="80" height="120" rx="6" fill="#ddc7bf"/>
+  <text x="986" y="448" fill="#41562b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">target shade (outlined) with allowed range either side</text>
+  <text x="1245" y="360" fill="#5b5040" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">measured value</text>
+  <text x="1245" y="384" fill="#5b5040" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">or retained</text>
+  <text x="1245" y="408" fill="#5b5040" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">sample + a</text>
+  <text x="1245" y="432" fill="#5b5040" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">stated tolerance</text>
+
+  <!-- RIGHT bottom: defect grid -->
+  <rect x="740" y="500" width="730" height="260" rx="14" fill="#fff" stroke="#c9b890" stroke-width="2"/>
+  <text x="770" y="542" fill="#3c3226" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="bold">Countable defect limits</text>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">
+    <rect x="770" y="562" width="210" height="58" rx="8" fill="#f6ecd9" stroke="#d8b87a" stroke-width="1.5"/>
+    <text x="785" y="588" fill="#6f5a3f">Browned pieces</text>
+    <text x="785" y="610" fill="#a8412c">max 3% by wt</text>
+    <rect x="998" y="562" width="210" height="58" rx="8" fill="#f6ecd9" stroke="#d8b87a" stroke-width="1.5"/>
+    <text x="1013" y="588" fill="#6f5a3f">Pale / faded</text>
+    <text x="1013" y="610" fill="#a8412c">max 5% by wt</text>
+    <rect x="1226" y="562" width="210" height="58" rx="8" fill="#f6ecd9" stroke="#d8b87a" stroke-width="1.5"/>
+    <text x="1241" y="588" fill="#6f5a3f">Fines / powder</text>
+    <text x="1241" y="610" fill="#a8412c">max 2% by wt</text>
+    <rect x="770" y="638" width="210" height="58" rx="8" fill="#f6ecd9" stroke="#d8b87a" stroke-width="1.5"/>
+    <text x="785" y="664" fill="#6f5a3f">Scorched edges</text>
+    <text x="785" y="686" fill="#a8412c">max 2% by ct</text>
+    <rect x="998" y="638" width="210" height="58" rx="8" fill="#f6ecd9" stroke="#d8b87a" stroke-width="1.5"/>
+    <text x="1013" y="664" fill="#6f5a3f">Clumped / fused</text>
+    <text x="1013" y="686" fill="#a8412c">max 3% by wt</text>
+    <rect x="1226" y="638" width="210" height="58" rx="8" fill="#f6ecd9" stroke="#d8b87a" stroke-width="1.5"/>
+    <text x="1241" y="664" fill="#6f5a3f">Foreign-looking</text>
+    <text x="1241" y="686" fill="#a8412c">0 tolerance</text>
+  </g>
+  <text x="1105" y="734" fill="#41562b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">defined sample size · pass/fail photo guide · written into the quality agreement</text>
+</svg>

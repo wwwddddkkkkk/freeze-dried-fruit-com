@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What a freeze-dried fruit quality agreement should cover</title>
+  <desc id="desc">A central document labeled Quality Agreement sits between a buyer and a supplier. Five labeled sections branch from it: specifications and acceptance, documentation, change control, nonconformance and complaints, and responsibilities and audits.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf2" stroke="#ccbda1" stroke-width="2"/>
+  <text x="112" y="136" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="34">The Rulebook Behind the Purchase Order</text>
+  <text x="112" y="176" fill="#786956" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">What a freeze-dried fruit quality agreement should define before the first order ships</text>
+
+  <!-- buyer -->
+  <rect x="110" y="430" width="170" height="90" rx="12" fill="#e7efe0" stroke="#8fae6e" stroke-width="2"/>
+  <text x="195" y="470" fill="#41562b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" text-anchor="middle">BUYER</text>
+  <text x="195" y="496" fill="#5e7045" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" text-anchor="middle">carries downstream risk</text>
+
+  <!-- supplier -->
+  <rect x="1320" y="430" width="170" height="90" rx="12" fill="#eee3f0" stroke="#9a7aae" stroke-width="2"/>
+  <text x="1405" y="470" fill="#5a3f6e" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" text-anchor="middle">SUPPLIER</text>
+  <text x="1405" y="496" fill="#6f5680" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" text-anchor="middle">makes &amp; ships the lot</text>
+
+  <!-- connecting lines -->
+  <line x1="280" y1="475" x2="620" y2="475" stroke="#9a8a72" stroke-width="3" stroke-dasharray="8 6"/>
+  <line x1="980" y1="475" x2="1320" y2="475" stroke="#9a8a72" stroke-width="3" stroke-dasharray="8 6"/>
+
+  <!-- central document -->
+  <rect x="620" y="330" width="360" height="290" rx="16" fill="#fff" stroke="#b89a64" stroke-width="3"/>
+  <rect x="620" y="330" width="360" height="56" rx="16" fill="#cdb88a"/>
+  <text x="800" y="368" fill="#fff" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" text-anchor="middle">QUALITY AGREEMENT</text>
+  <line x1="660" y1="430" x2="940" y2="430" stroke="#ddd0b3" stroke-width="2"/>
+  <line x1="660" y1="466" x2="940" y2="466" stroke="#ddd0b3" stroke-width="2"/>
+  <line x1="660" y1="502" x2="940" y2="502" stroke="#ddd0b3" stroke-width="2"/>
+  <line x1="660" y1="538" x2="880" y2="538" stroke="#ddd0b3" stroke-width="2"/>
+  <text x="800" y="592" fill="#9a8a72" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">signed by both sides</text>
+
+  <!-- five section cards across the top and bottom -->
+  <g font-family="'Helvetica Neue', Arial, sans-serif">
+    <!-- 1 specs -->
+    <rect x="150" y="640" width="250" height="120" rx="12" fill="#fbe9d2" stroke="#d8a86a" stroke-width="2"/>
+    <text x="275" y="676" fill="#7a4f1e" font-size="18" text-anchor="middle" font-weight="bold">1 · Specs &amp; acceptance</text>
+    <text x="275" y="706" fill="#6f5a3f" font-size="14" text-anchor="middle">moisture, aw, breakage,</text>
+    <text x="275" y="726" fill="#6f5a3f" font-size="14" text-anchor="middle">defects, sampling plan,</text>
+    <text x="275" y="746" fill="#6f5a3f" font-size="14" text-anchor="middle">critical vs minor</text>
+
+    <!-- 2 documentation -->
+    <rect x="420" y="640" width="250" height="120" rx="12" fill="#e9f0e2" stroke="#8fae6e" stroke-width="2"/>
+    <text x="545" y="676" fill="#3f5a2a" font-size="18" text-anchor="middle" font-weight="bold">2 · Documentation</text>
+    <text x="545" y="706" fill="#516b3a" font-size="14" text-anchor="middle">lot-specific COA, allergen,</text>
+    <text x="545" y="726" fill="#516b3a" font-size="14" text-anchor="middle">origin, certification scope,</text>
+    <text x="545" y="746" fill="#516b3a" font-size="14" text-anchor="middle">lot codes &amp; traceability</text>
+
+    <!-- 3 change control -->
+    <rect x="690" y="640" width="250" height="120" rx="12" fill="#e3eef2" stroke="#6f9bb0" stroke-width="2"/>
+    <text x="815" y="676" fill="#2f5566" font-size="18" text-anchor="middle" font-weight="bold">3 · Change control</text>
+    <text x="815" y="706" fill="#436475" font-size="14" text-anchor="middle">advance written notice</text>
+    <text x="815" y="726" fill="#436475" font-size="14" text-anchor="middle">of any material change</text>
+    <text x="815" y="746" fill="#436475" font-size="14" text-anchor="middle">(the key clause)</text>
+
+    <!-- 4 nonconformance -->
+    <rect x="960" y="640" width="250" height="120" rx="12" fill="#f0e0db" stroke="#c98f7c" stroke-width="2"/>
+    <text x="1085" y="676" fill="#8a4836" font-size="18" text-anchor="middle" font-weight="bold">4 · Nonconformance</text>
+    <text x="1085" y="706" fill="#7a5347" font-size="14" text-anchor="middle">holds, rejection, credit,</text>
+    <text x="1085" y="726" fill="#7a5347" font-size="14" text-anchor="middle">complaints, retained</text>
+    <text x="1085" y="746" fill="#7a5347" font-size="14" text-anchor="middle">samples, corrective action</text>
+
+    <!-- 5 responsibilities -->
+    <rect x="1230" y="640" width="250" height="120" rx="12" fill="#ece3f0" stroke="#9a7aae" stroke-width="2"/>
+    <text x="1355" y="676" fill="#553a68" font-size="18" text-anchor="middle" font-weight="bold">5 · Roles &amp; audits</text>
+    <text x="1355" y="706" fill="#6a5280" font-size="14" text-anchor="middle">required certifications,</text>
+    <text x="1355" y="726" fill="#6a5280" font-size="14" text-anchor="middle">audit rights, escalation</text>
+    <text x="1355" y="746" fill="#6a5280" font-size="14" text-anchor="middle">when results disagree</text>
+  </g>
+
+  <!-- connectors from document down to cards -->
+  <g stroke="#c4b48f" stroke-width="2" fill="none">
+    <path d="M700 620 C620 640 400 600 275 640"/>
+    <path d="M740 620 C700 636 600 620 545 640"/>
+    <path d="M800 620 L815 640"/>
+    <path d="M860 620 C900 636 1010 620 1085 640"/>
+    <path d="M900 620 C1000 640 1230 600 1355 640"/>
+  </g>
+</svg>

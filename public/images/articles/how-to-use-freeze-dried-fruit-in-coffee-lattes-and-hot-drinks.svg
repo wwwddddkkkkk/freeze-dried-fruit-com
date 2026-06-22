@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to use freeze-dried fruit in coffee, lattes, and hot drinks</title>
+  <desc id="desc">A three-step method: freeze-dried fruit is crushed to powder, pre-mixed with a small amount of warm liquid or the dry mix to avoid clumps, then stirred into coffee, a latte, or cocoa, with crushed pieces added last on top as a garnish.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf2" stroke="#ccbda1" stroke-width="2"/>
+  <text x="112" y="136" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="34">Fruit in the Mug, Without the Clump</text>
+  <text x="112" y="176" fill="#786956" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Powder flavors the drink; pieces finish it. Wet the powder gradually, add fruit late.</text>
+
+  <!-- Step 1: crush to powder -->
+  <text x="320" y="270" fill="#7a4f1e" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="bold">1 · Crush to powder</text>
+  <circle cx="270" cy="360" r="26" fill="#c2354a"/>
+  <circle cx="320" cy="345" r="22" fill="#cf5a64"/>
+  <circle cx="360" cy="372" r="20" fill="#b8553f"/>
+  <line x1="240" y1="410" x2="400" y2="410" stroke="#9a8a72" stroke-width="3"/>
+  <g fill="#caa46a">
+    <circle cx="262" cy="440" r="4"/><circle cx="288" cy="448" r="3"/><circle cx="312" cy="438" r="4"/>
+    <circle cx="338" cy="450" r="3"/><circle cx="362" cy="440" r="4"/><circle cx="300" cy="458" r="3"/>
+    <circle cx="276" cy="456" r="3"/><circle cx="350" cy="458" r="3"/>
+  </g>
+  <text x="320" y="500" fill="#6f5a3f" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">fine powder = even flavor</text>
+
+  <!-- arrow -->
+  <polygon points="470,400 440,386 440,414" fill="#8fae6e"/>
+  <line x1="400" y1="400" x2="450" y2="400" stroke="#8fae6e" stroke-width="5"/>
+
+  <!-- Step 2: pre-mix slurry -->
+  <text x="760" y="270" fill="#2f5566" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="bold">2 · Pre-mix first</text>
+  <path d="M690 330 h140 l-14 110 a8 8 0 0 1 -8 7 h-96 a8 8 0 0 1 -8 -7 z" fill="#e3eef2" stroke="#6f9bb0" stroke-width="2"/>
+  <path d="M700 360 h120 l-9 70 a6 6 0 0 1 -6 5 h-90 a6 6 0 0 1 -6 -5 z" fill="#d8526a" opacity="0.55"/>
+  <line x1="760" y1="312" x2="760" y2="430" stroke="#9a8a72" stroke-width="3"/>
+  <ellipse cx="760" cy="312" rx="14" ry="6" fill="#9a8a72"/>
+  <text x="760" y="500" fill="#436475" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">powder + splash of warm</text>
+  <text x="760" y="520" fill="#436475" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">liquid (or the dry mix)</text>
+  <rect x="640" y="548" width="240" height="40" rx="8" fill="#f0e0db" stroke="#cf9f8d" stroke-width="1.5"/>
+  <text x="760" y="574" fill="#8a4836" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" text-anchor="middle">never dump onto a full hot cup</text>
+
+  <!-- arrow -->
+  <polygon points="930,400 900,386 900,414" fill="#8fae6e"/>
+  <line x1="860" y1="400" x2="910" y2="400" stroke="#8fae6e" stroke-width="5"/>
+
+  <!-- Step 3: combine + garnish -->
+  <text x="1200" y="270" fill="#41562b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="bold">3 · Combine &amp; finish</text>
+  <!-- mug -->
+  <path d="M1110 320 h180 v110 a40 40 0 0 1 -40 40 h-100 a40 40 0 0 1 -40 -40 z" fill="#fff" stroke="#9a8a72" stroke-width="3"/>
+  <path d="M1290 340 a36 36 0 0 1 0 72" fill="none" stroke="#9a8a72" stroke-width="3"/>
+  <!-- coffee + milk -->
+  <path d="M1118 360 h164 v60 a36 36 0 0 1 -36 36 h-92 a36 36 0 0 1 -36 -36 z" fill="#6f4a32"/>
+  <ellipse cx="1200" cy="360" rx="82" ry="14" fill="#e9dcc8"/>
+  <!-- garnish pieces on foam -->
+  <circle cx="1175" cy="356" r="6" fill="#c2354a"/>
+  <circle cx="1205" cy="360" r="5" fill="#cf5a64"/>
+  <circle cx="1232" cy="355" r="6" fill="#b8553f"/>
+  <text x="1200" y="520" fill="#5e7045" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">stir in late · crushed pieces on top, eaten soon</text>
+
+  <!-- pairing footer -->
+  <rect x="150" y="640" width="1300" height="120" rx="14" fill="#fff" stroke="#c9b890" stroke-width="2"/>
+  <text x="180" y="680" fill="#3c3226" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="bold">Pairing by drink strength</text>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#5b5040">
+    <text x="180" y="714">Espresso / cocoa (bold):  raspberry · strawberry · cherry</text>
+    <text x="180" y="742">Tea / warm milk (gentle):  blueberry · banana · softer fruits</text>
+    <text x="820" y="714" fill="#8a4836">Milk drinks: tart fruit can curdle hot dairy —</text>
+    <text x="820" y="742" fill="#8a4836">blend into the sweet base first &amp; use less</text>
+  </g>
+</svg>

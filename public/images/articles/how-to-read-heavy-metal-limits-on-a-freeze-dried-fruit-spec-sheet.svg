@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to read heavy metal limits on a freeze-dried fruit spec sheet</title>
+  <desc id="desc">An annotated spec-sheet panel listing lead, arsenic, cadmium and mercury rows with units and a reference column, alongside a bar diagram showing how drying concentrates the same metal into a smaller mass, and a checklist for verification.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="66" y="66" width="1468" height="768" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="140" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">Read the Basis, the Unit, and the Reference</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">A lead or arsenic figure only means something once you know what it is measured against.</text>
+
+  <!-- spec panel -->
+  <rect x="112" y="296" width="690" height="356" rx="20" fill="#fffdf8" stroke="#294643" stroke-width="2"/>
+  <text x="140" y="338" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">SPEC SHEET — CONTAMINANTS</text>
+  <line x1="140" y1="356" x2="774" y2="356" stroke="#d4c7b1" stroke-width="1.5"/>
+  <!-- header -->
+  <text x="150" y="392" fill="#5c5040" font-family="'JetBrains Mono', monospace" font-size="17">metal</text>
+  <text x="370" y="392" fill="#5c5040" font-family="'JetBrains Mono', monospace" font-size="17">result</text>
+  <text x="540" y="392" fill="#5c5040" font-family="'JetBrains Mono', monospace" font-size="17">reference</text>
+  <!-- rows -->
+  <text x="150" y="436" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Lead (Pb)</text>
+  <text x="370" y="436" fill="#17312f" font-family="'JetBrains Mono', monospace" font-size="19">&lt; 10 ppb</text>
+  <text x="540" y="436" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">FDA action level</text>
+  <text x="150" y="476" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Arsenic (As)</text>
+  <text x="370" y="476" fill="#17312f" font-family="'JetBrains Mono', monospace" font-size="19">&lt; 0.10 ppm</text>
+  <text x="540" y="476" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">market max level</text>
+  <text x="150" y="516" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Cadmium (Cd)</text>
+  <text x="370" y="516" fill="#17312f" font-family="'JetBrains Mono', monospace" font-size="19">&lt; 0.05 ppm</text>
+  <text x="540" y="516" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">customer cap</text>
+  <text x="150" y="556" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Mercury (Hg)</text>
+  <text x="370" y="556" fill="#17312f" font-family="'JetBrains Mono', monospace" font-size="19">&lt; 0.01 ppm</text>
+  <text x="540" y="556" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">market max level</text>
+  <!-- callouts -->
+  <rect x="150" y="586" width="624" height="48" rx="10" fill="#f0d3cf"/>
+  <text x="166" y="616" fill="#9c3f3b" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" font-weight="700">ppm vs ppb differ by 1000× — read the unit before the number.</text>
+
+  <!-- concentration bars -->
+  <rect x="828" y="296" width="594" height="190" rx="20" fill="#17312f"/>
+  <text x="856" y="338" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="2">DRYING CONCENTRATES THE RESULT</text>
+  <text x="856" y="386" fill="#cfe2dd" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">fresh basis</text>
+  <rect x="856" y="396" width="120" height="22" rx="6" fill="#88b8aa"/>
+  <circle cx="876" cy="407" r="4" fill="#cb5d58"/><circle cx="906" cy="407" r="4" fill="#cb5d58"/><circle cx="946" cy="407" r="4" fill="#cb5d58"/>
+  <text x="856" y="446" fill="#f3d2cf" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">dried basis (same metal, less mass)</text>
+  <rect x="856" y="456" width="120" height="22" rx="6" fill="#cb5d58"/>
+  <circle cx="868" cy="467" r="4" fill="#f7f0e4"/><circle cx="884" cy="467" r="4" fill="#f7f0e4"/><circle cx="900" cy="467" r="4" fill="#f7f0e4"/><circle cx="916" cy="467" r="4" fill="#f7f0e4"/><circle cx="932" cy="467" r="4" fill="#f7f0e4"/><circle cx="948" cy="467" r="4" fill="#f7f0e4"/>
+  <text x="996" y="430" fill="#e0b05f" font-family="'Source Serif 4', Georgia, serif" font-size="18" font-style="italic">Confirm dried vs as-consumed basis.</text>
+
+  <!-- verify checklist -->
+  <rect x="828" y="506" width="594" height="146" rx="20" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="856" y="544" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="2">VERIFY WITH A LAB REPORT</text>
+  <text x="856" y="582" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">• accredited third-party method</text>
+  <text x="856" y="612" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">• stated detection limit</text>
+  <text x="856" y="642" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">• traceable to the lot shipped</text>
+
+  <rect x="112" y="754" width="1310" height="48" rx="18" fill="#203836"/>
+  <text x="146" y="785" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Basis, unit, reference, and a real lab report — four checks that keep a heavy-metal number honest.</text>
+</svg>

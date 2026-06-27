@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Forward booking versus spot buying across a crop season</title>
+  <desc id="desc">A timeline from harvest through the year showing forward-booked volume committed before and during harvest, spot buying competing for leftover stock later, and capacity filling up during the peak processing window.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="134" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="34">Forward Booking vs Spot Buying</text>
+  <text x="108" y="174" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Most supply is decided before the order is placed</text>
+
+  <!-- season timeline -->
+  <line x1="150" y1="300" x2="1450" y2="300" stroke="#8b7654" stroke-width="3"/>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#6f5d45">
+    <line x1="320" y1="290" x2="320" y2="310" stroke="#8b7654" stroke-width="3"/>
+    <text x="250" y="278">pre-season</text>
+    <line x1="620" y1="290" x2="620" y2="310" stroke="#8b7654" stroke-width="3"/>
+    <text x="560" y="278">harvest</text>
+    <line x1="920" y1="290" x2="920" y2="310" stroke="#8b7654" stroke-width="3"/>
+    <text x="840" y="278">peak processing</text>
+    <line x1="1280" y1="290" x2="1280" y2="310" stroke="#8b7654" stroke-width="3"/>
+    <text x="1210" y="278">later in year</text>
+  </g>
+
+  <!-- capacity bar filling up -->
+  <text x="150" y="378" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.5">FREEZE-DRYING CAPACITY</text>
+  <rect x="150" y="400" width="1300" height="70" rx="14" fill="#fcf6ea" stroke="#ccb88f"/>
+  <rect x="150" y="400" width="780" height="70" rx="14" fill="#cdb98c"/>
+  <rect x="150" y="400" width="780" height="70" fill="#cdb98c"/>
+  <text x="320" y="444" fill="#574a35" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">booked volume claims cycles first</text>
+  <text x="1010" y="444" fill="#9a8559" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">leftover</text>
+
+  <!-- forward booked stream -->
+  <rect x="150" y="540" width="500" height="110" rx="18" fill="#e3efe6" stroke="#3f7d54" stroke-width="2"/>
+  <text x="176" y="580" fill="#2f6242" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Forward booking</text>
+  <text x="176" y="612" fill="#3f6b50" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">commit before / during harvest</text>
+  <text x="176" y="636" fill="#3f6b50" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">secures access, variety, smoother price</text>
+  <path d="M650 595 C 740 595, 760 440, 830 435" fill="none" stroke="#3f7d54" stroke-width="4"/>
+  <polygon points="832,435 814,428 818,446" fill="#3f7d54"/>
+
+  <!-- spot buying stream -->
+  <rect x="150" y="680" width="500" height="110" rx="18" fill="#f6e7e3" stroke="#b94a3a" stroke-width="2"/>
+  <text x="176" y="720" fill="#8f3527" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Spot buying</text>
+  <text x="176" y="752" fill="#a14637" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">buy from leftover stock</text>
+  <text x="176" y="776" fill="#a14637" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">flexible, but last in line when tight</text>
+  <path d="M650 735 C 900 735, 1050 480, 1010 472" fill="none" stroke="#b94a3a" stroke-width="4" stroke-dasharray="8 7"/>
+  <polygon points="1010,472 1024,486 1028,468" fill="#b94a3a"/>
+
+  <!-- note -->
+  <rect x="760" y="540" width="690" height="250" rx="18" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="790" y="582" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.2">THE TRADE-OFF</text>
+  <text x="790" y="622" fill="#574a35" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">Book ahead &#8594; secure supply + grade,</text>
+  <text x="790" y="650" fill="#574a35" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">but take on demand and crop risk.</text>
+  <text x="790" y="694" fill="#574a35" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">Buy spot &#8594; stay flexible,</text>
+  <text x="790" y="722" fill="#574a35" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">but feel scarcity first.</text>
+  <text x="790" y="766" fill="#9a8559" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Most programs blend a booked base with spot on top.</text>
+</svg>

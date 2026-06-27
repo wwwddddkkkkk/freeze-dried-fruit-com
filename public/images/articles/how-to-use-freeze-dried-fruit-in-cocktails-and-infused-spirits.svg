@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Ways to use freeze-dried fruit in cocktails and infused spirits</title>
+  <desc id="desc">Four bar techniques shown side by side: an infusion jar with fruit steeping in a spirit, a glass with a powdered fruit rim, a powder dusting over a foamed drink, and a crisp fruit garnish on a pick, with a note that freeze-dried fruit absorbs moisture fast.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="134" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="34">Freeze-Dried Fruit Behind the Bar</text>
+  <text x="108" y="174" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Concentrated flavor and color, almost no dilution</text>
+
+  <!-- Panel 1: Infusion jar -->
+  <rect x="108" y="240" width="320" height="500" rx="20" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="140" y="284" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" letter-spacing="1">INFUSE</text>
+  <rect x="190" y="330" width="160" height="300" rx="20" fill="#e7eef0" stroke="#9bb6bb" stroke-width="3"/>
+  <rect x="190" y="450" width="160" height="180" rx="0" fill="#e3b9c4" opacity="0.55"/>
+  <rect x="200" y="320" width="140" height="24" rx="8" fill="#cdb98c"/>
+  <g fill="#c25a6e">
+    <circle cx="225" cy="500" r="12"/><circle cx="300" cy="540" r="12"/><circle cx="260" cy="580" r="12"/><circle cx="315" cy="490" r="10"/><circle cx="220" cy="560" r="10"/>
+  </g>
+  <text x="150" y="690" fill="#574a35" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">pieces steep,</text>
+  <text x="150" y="714" fill="#574a35" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">then strain</text>
+
+  <!-- Panel 2: Rim -->
+  <rect x="450" y="240" width="320" height="500" rx="20" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="482" y="284" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" letter-spacing="1">RIM</text>
+  <path d="M540 360 L640 360 L620 560 L560 560 Z" fill="#eef3f4" stroke="#9bb6bb" stroke-width="3"/>
+  <rect x="535" y="352" width="110" height="16" rx="8" fill="#c25a6e"/>
+  <g fill="#c25a6e"><circle cx="545" cy="352" r="5"/><circle cx="575" cy="348" r="5"/><circle cx="610" cy="350" r="5"/><circle cx="635" cy="353" r="5"/></g>
+  <line x1="590" y1="560" x2="590" y2="620" stroke="#9bb6bb" stroke-width="6"/>
+  <rect x="555" y="618" width="70" height="14" rx="6" fill="#9bb6bb"/>
+  <text x="482" y="690" fill="#574a35" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">powder + sugar</text>
+  <text x="482" y="714" fill="#574a35" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">or salt edge</text>
+
+  <!-- Panel 3: Dust -->
+  <rect x="792" y="240" width="320" height="500" rx="20" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="824" y="284" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" letter-spacing="1">DUST</text>
+  <path d="M870 420 L1030 420 L1010 600 L890 600 Z" fill="#eef3f4" stroke="#9bb6bb" stroke-width="3"/>
+  <ellipse cx="950" cy="420" rx="80" ry="16" fill="#f4ead2" stroke="#cdb98c"/>
+  <g fill="#c25a6e"><circle cx="915" cy="416" r="4"/><circle cx="945" cy="410" r="4"/><circle cx="975" cy="418" r="4"/><circle cx="930" cy="424" r="4"/><circle cx="965" cy="424" r="4"/></g>
+  <g fill="#c25a6e" opacity="0.7"><circle cx="900" cy="380" r="3"/><circle cx="950" cy="370" r="3"/><circle cx="1000" cy="384" r="3"/><circle cx="925" cy="360" r="3"/><circle cx="975" cy="358" r="3"/></g>
+  <text x="824" y="690" fill="#574a35" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">color + aroma</text>
+  <text x="824" y="714" fill="#574a35" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">over foam</text>
+
+  <!-- Panel 4: Garnish -->
+  <rect x="1134" y="240" width="320" height="500" rx="20" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="1166" y="284" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" letter-spacing="1">GARNISH</text>
+  <path d="M1210 380 L1370 380 L1350 600 L1230 600 Z" fill="#eef3f4" stroke="#9bb6bb" stroke-width="3"/>
+  <rect x="1218" y="430" width="144" height="160" fill="#e3b9c4" opacity="0.5"/>
+  <line x1="1300" y1="330" x2="1300" y2="470" stroke="#bfa678" stroke-width="4"/>
+  <circle cx="1300" cy="360" r="26" fill="#d66f49" stroke="#b94a3a" stroke-width="2"/>
+  <g fill="#fff" opacity="0.6"><circle cx="1292" cy="352" r="3"/><circle cx="1308" cy="356" r="3"/><circle cx="1300" cy="368" r="3"/></g>
+  <text x="1166" y="690" fill="#574a35" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">crisp until it</text>
+  <text x="1166" y="714" fill="#574a35" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">touches liquid</text>
+
+  <!-- note bar -->
+  <rect x="108" y="762" width="1346" height="52" rx="14" fill="#f6e7e3" stroke="#cda39a"/>
+  <text x="130" y="795" fill="#8f3527" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">It absorbs moisture fast &#8212; infuse then strain, rim just before serving, garnish at the last minute.</text>
+</svg>

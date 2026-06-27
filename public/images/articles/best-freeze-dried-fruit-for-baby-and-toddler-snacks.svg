@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Best Freeze-Dried Fruit for Baby and Toddler Snacks</title>
+  <desc id="desc">A guide layout pairing easy-dissolving fruits with prep formats for young children, plus a label-check and a supervision reminder.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#efe7d7"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#58707a}
+      .small{font:500 23px 'Source Sans 3',Arial,sans-serif}
+      .label{font:600 28px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .title{font:700 50px 'Source Serif 4',Georgia,serif}
+      .tag{font:600 26px 'Source Sans 3',Arial,sans-serif}
+      .mono{font:600 22px 'JetBrains Mono',monospace}
+      .line{stroke:#17313b;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="118" class="label ink">Applications</text>
+  <text x="96" y="186" class="title ink">Pick by how it dissolves, serve by how it's prepped</text>
+  <text x="96" y="228" class="small muted">Plain, single-ingredient fruit — with supervision and a pediatrician's guidance.</text>
+
+  <!-- LEFT: easy-dissolving fruits -->
+  <rect x="96" y="288" width="560" height="470" rx="22" class="panel"/>
+  <text x="130" y="340" class="tag ink">Easy-dissolving picks</text>
+
+  <circle cx="160" cy="402" r="20" fill="#db6c4b" stroke="#17313b" stroke-width="2.5"/>
+  <text x="200" y="410" class="small ink">Strawberry — thin slices soften fast</text>
+  <circle cx="160" cy="468" r="20" fill="#f1ba55" stroke="#17313b" stroke-width="2.5"/>
+  <text x="200" y="476" class="small ink">Banana — soft, crushes to flakes</text>
+  <circle cx="160" cy="534" r="20" fill="#ef8e54" stroke="#17313b" stroke-width="2.5"/>
+  <text x="200" y="542" class="small ink">Mango — naturally sweet, dissolves</text>
+  <circle cx="160" cy="600" r="20" fill="#6f7fb0" stroke="#17313b" stroke-width="2.5"/>
+  <text x="200" y="608" class="small ink">Blueberry — flatten or break first</text>
+
+  <text x="130" y="676" class="mono muted">skip: added sugar · coatings</text>
+  <text x="130" y="708" class="mono muted">skip: blends · large hard pieces</text>
+
+  <!-- RIGHT: prep formats -->
+  <rect x="766" y="288" width="738" height="300" rx="22" class="panel"/>
+  <text x="800" y="340" class="tag ink">Prep formats that help</text>
+
+  <!-- piece -->
+  <rect x="812" y="380" width="80" height="80" rx="12" fill="#ef8e54" stroke="#17313b" stroke-width="2.5"/>
+  <text x="800" y="500" class="small ink">whole piece</text>
+  <path d="M912 420h44" class="line"/><path d="M944 412l10 8-10 8" class="line"/>
+  <!-- flakes -->
+  <rect x="980" y="392" width="22" height="22" rx="5" fill="#ef8e54" stroke="#17313b" stroke-width="2"/>
+  <rect x="1012" y="416" width="20" height="20" rx="5" fill="#f1ba55" stroke="#17313b" stroke-width="2"/>
+  <rect x="996" y="430" width="18" height="18" rx="5" fill="#db6c4b" stroke="#17313b" stroke-width="2"/>
+  <text x="976" y="500" class="small ink">crushed flakes</text>
+  <path d="M1070 420h44" class="line"/><path d="M1102 412l10 8-10 8" class="line"/>
+  <!-- powder over bowl -->
+  <circle cx="1180" cy="404" r="3" fill="#cf5d3d"/><circle cx="1196" cy="398" r="3" fill="#cf5d3d"/>
+  <circle cx="1212" cy="404" r="3" fill="#cf5d3d"/><circle cx="1188" cy="412" r="3" fill="#cf5d3d"/>
+  <path d="M1150 432h84a42 42 0 0 1-84 0z" fill="#cfe0e6" stroke="#17313b" stroke-width="2.5"/>
+  <text x="1150" y="500" class="small ink">powder on soft food</text>
+  <text x="800" y="556" class="small muted">Crushing controls texture and portion size.</text>
+
+  <!-- supervision / label panel -->
+  <rect x="766" y="608" width="738" height="150" rx="22" class="panel"/>
+  <circle cx="838" cy="690" r="34" fill="#fffaf1" stroke="#17313b" stroke-width="3"/>
+  <path d="M822 690l11 12 21-24" class="line"/>
+  <text x="892" y="668" class="tag ink">Two non-negotiables</text>
+  <text x="892" y="704" class="small muted">Read the ingredient list — single fruit, no added sugar.</text>
+  <text x="892" y="736" class="small muted">Supervise eating; follow your pediatrician on age and texture.</text>
+</svg>

@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How to use freeze-dried fruit to make flavored sugars, salts, and spice rubs</title>
+  <desc id="desc">A flow diagram showing freeze-dried fruit ground to powder, then blended into flavored sugar, finishing salt, and a spice rub with suggested fruit-to-base ratios.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Grind once, season three ways</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Dry, intense powder colors and flavors without adding water — keep it airtight.</text>
+
+  <!-- Step 1: fruit to powder -->
+  <g transform="translate(118 232)">
+    <rect width="300" height="316" rx="24" fill="#f7f3ea" stroke="#d8d2c3" stroke-width="2"/>
+    <text x="150" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">1 · Grind &amp; sift</text>
+    <circle cx="92" cy="120" r="24" fill="#c45d7d"/>
+    <circle cx="150" cy="108" r="20" fill="#ead8b7"/>
+    <circle cx="206" cy="124" r="22" fill="#c7845f"/>
+    <path d="M120 156 l60 0 l-12 40 l-36 0 z" fill="#cfc8b8"/>
+    <text x="150" y="216" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="middle">fine fruit powder</text>
+    <g fill="#c45d7d" opacity="0.7">
+      <circle cx="110" cy="244" r="3"/><circle cx="130" cy="252" r="2.5"/><circle cx="150" cy="246" r="3"/>
+      <circle cx="170" cy="254" r="2.5"/><circle cx="190" cy="246" r="3"/><circle cx="140" cy="262" r="2.5"/>
+      <circle cx="160" cy="264" r="3"/><circle cx="120" cy="262" r="2.5"/><circle cx="180" cy="264" r="2.5"/>
+    </g>
+    <text x="150" y="298" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="13" text-anchor="middle">hygroscopic — keep dry</text>
+  </g>
+
+  <!-- arrow -->
+  <path d="M430 392 h44" stroke="#9db5a7" stroke-width="4" stroke-linecap="round"/>
+  <path d="M466 384 l12 8 l-12 8" fill="none" stroke="#9db5a7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- three outputs -->
+  <g transform="translate(496 232)">
+    <rect width="290" height="98" rx="18" fill="#efe2d4"/>
+    <text x="22" y="40" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Flavored sugar</text>
+    <text x="22" y="68" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="14">~1 part fruit : 4–6 sugar</text>
+    <text x="22" y="88" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="13">rims, pastries, toppings</text>
+  </g>
+  <g transform="translate(496 341)">
+    <rect width="290" height="98" rx="18" fill="#dce7f3"/>
+    <text x="22" y="40" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Finishing salt</text>
+    <text x="22" y="68" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="14">~1 part fruit : 6–10 salt</text>
+    <text x="22" y="88" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="13">chocolate, fish, veg, rims</text>
+  </g>
+  <g transform="translate(496 450)">
+    <rect width="290" height="98" rx="18" fill="#e6d2bd"/>
+    <text x="22" y="40" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Spice rub</text>
+    <text x="22" y="68" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="14">fruit = minority accent</text>
+    <text x="22" y="88" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="13">add late — scorches on high heat</text>
+  </g>
+
+  <!-- storage note -->
+  <g transform="translate(820 232)">
+    <rect width="268" height="316" rx="24" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+    <text x="134" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">Keep it loose</text>
+    <g font-family="Inter, Arial, sans-serif" font-size="15" fill="#68736c">
+      <text x="26" y="92">• airtight, small jars</text>
+      <text x="26" y="126">• dry spoon every time</text>
+      <text x="26" y="160">• away from steam &amp; sun</text>
+      <text x="26" y="194">• make small, fresh batches</text>
+    </g>
+    <rect x="26" y="226" width="216" height="64" rx="14" fill="#ead8b7"/>
+    <text x="134" y="252" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Clumping = moisture,</text>
+    <text x="134" y="274" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">not bad technique</text>
+  </g>
+</svg>

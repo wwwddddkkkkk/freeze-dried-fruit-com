@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Reading a rehydration ratio on a freeze-dried fruit spec sheet</title>
+  <desc id="desc">A dry freeze-dried piece soaking into a plumper rehydrated piece with a weight ratio, a small spec-sheet excerpt listing test conditions, and a contrast between fast open-pore rehydration and slow collapsed rehydration.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="134" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="34">Rehydration Ratio</text>
+  <text x="108" y="174" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">How much water the fruit takes back, and how fast</text>
+
+  <!-- Dry to wet panel -->
+  <rect x="108" y="230" width="700" height="300" rx="22" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="140" y="278" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.5">WEIGHT BEFORE AND AFTER SOAK</text>
+
+  <!-- dry piece (small) -->
+  <circle cx="240" cy="400" r="38" fill="#e3d3ad" stroke="#bfa678" stroke-width="3"/>
+  <g fill="#cdb98c"><circle cx="226" cy="390" r="4"/><circle cx="252" cy="394" r="4"/><circle cx="238" cy="412" r="4"/><circle cx="256" cy="416" r="4"/></g>
+  <text x="200" y="470" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">dry: 1 g</text>
+
+  <!-- arrow + water -->
+  <path d="M300 400 h120" fill="none" stroke="#6ea2a4" stroke-width="4"/>
+  <polygon points="424,400 406,392 406,408" fill="#6ea2a4"/>
+  <text x="318" y="386" fill="#6ea2a4" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">+ water</text>
+
+  <!-- wet piece (big) -->
+  <circle cx="560" cy="400" r="74" fill="#cfa0a0" stroke="#b06a6a" stroke-width="3"/>
+  <g fill="#b06a6a" opacity="0.6"><circle cx="535" cy="380" r="5"/><circle cx="585" cy="392" r="5"/><circle cx="560" cy="420" r="5"/><circle cx="540" cy="430" r="5"/><circle cx="590" cy="430" r="5"/></g>
+  <text x="500" y="510" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">after soak: ~6 g</text>
+
+  <text x="660" y="405" fill="#3f3526" font-family="Georgia, serif" font-size="40">6 : 1</text>
+
+  <!-- Spec sheet excerpt -->
+  <rect x="108" y="560" width="700" height="210" rx="18" fill="#fffaf0" stroke="#ccb88f"/>
+  <text x="140" y="600" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.5">CONDITIONS MAKE IT COMPARABLE</text>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#574a35">
+    <text x="140" y="640">Rehydration ratio ............ 6 : 1</text>
+    <text x="140" y="672">Water temperature ........... 40&#176;C</text>
+    <text x="140" y="704">Soak time ........................ 10 min</text>
+    <text x="140" y="736">Water : fruit .................... 10 : 1</text>
+  </g>
+
+  <!-- Fast vs slow panel -->
+  <rect x="850" y="230" width="638" height="540" rx="22" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="882" y="278" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.5">STRUCTURE DRIVES BEHAVIOR</text>
+
+  <!-- open pore, fast -->
+  <circle cx="990" cy="400" r="78" fill="#e3efe6" stroke="#3f7d54" stroke-width="3"/>
+  <g stroke="#3f7d54" stroke-width="2" fill="none" opacity="0.7">
+    <circle cx="970" cy="380" r="10"/><circle cx="1010" cy="382" r="10"/><circle cx="985" cy="415" r="10"/><circle cx="1020" cy="418" r="10"/><circle cx="960" cy="418" r="10"/>
+  </g>
+  <text x="900" y="510" fill="#2f6242" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">open pores &#8594; fast, full</text>
+
+  <!-- collapsed, slow -->
+  <circle cx="1330" cy="400" r="78" fill="#f6e7e3" stroke="#b94a3a" stroke-width="3"/>
+  <g stroke="#b94a3a" stroke-width="2" fill="none" opacity="0.6">
+    <circle cx="1320" cy="390" r="4"/><circle cx="1345" cy="395" r="4"/><circle cx="1330" cy="415" r="4"/><circle cx="1310" cy="410" r="4"/>
+  </g>
+  <text x="1240" y="510" fill="#8f3527" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">collapsed &#8594; slow, partial</text>
+
+  <!-- when it matters -->
+  <text x="882" y="586" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.2">WEIGHT IT BY USE</text>
+  <text x="882" y="624" fill="#574a35" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">Matters most: cereal, oatmeal, baking, sauces</text>
+  <text x="882" y="656" fill="#574a35" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">Matters less: dry snacking, toppings, trail mix</text>
+  <text x="882" y="712" fill="#9a8559" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">No stated conditions = number not comparable.</text>
+  <text x="882" y="740" fill="#9a8559" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">A quick soak test in your own water settles it.</text>
+</svg>

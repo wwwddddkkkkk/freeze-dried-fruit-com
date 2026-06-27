@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Dried-layer resistance and the receding sublimation front</title>
+  <desc id="desc">A cross-section of a freeze-drying fruit piece showing a dried porous outer layer, the receding frozen sublimation front, and vapor diffusing outward through the dry layer, beside a drying-rate curve that falls as the dried layer thickens.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="134" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="34">Dried-Layer Resistance</text>
+  <text x="108" y="174" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Vapor must escape through the part that is already dry</text>
+
+  <!-- Cross-section panel -->
+  <rect x="108" y="230" width="620" height="540" rx="22" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="140" y="280" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.8">PIECE CROSS-SECTION</text>
+
+  <!-- piece body -->
+  <rect x="170" y="320" width="480" height="380" rx="26" fill="#efe3c7" stroke="#bfa678" stroke-width="3"/>
+
+  <!-- frozen core -->
+  <rect x="300" y="430" width="220" height="160" rx="18" fill="#bcd4dc" stroke="#6ea2a4" stroke-width="3"/>
+  <text x="330" y="518" fill="#3f6b6e" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">frozen core</text>
+
+  <!-- dried porous layer dots -->
+  <g fill="#cdb98c">
+    <circle cx="210" cy="360" r="6"/><circle cx="250" cy="380" r="6"/><circle cx="240" cy="430" r="6"/><circle cx="215" cy="470" r="6"/>
+    <circle cx="230" cy="520" r="6"/><circle cx="210" cy="560" r="6"/><circle cx="250" cy="600" r="6"/><circle cx="225" cy="640" r="6"/>
+    <circle cx="560" cy="360" r="6"/><circle cx="600" cy="390" r="6"/><circle cx="590" cy="440" r="6"/><circle cx="565" cy="480" r="6"/>
+    <circle cx="600" cy="520" r="6"/><circle cx="575" cy="560" r="6"/><circle cx="605" cy="600" r="6"/><circle cx="570" cy="640" r="6"/>
+    <circle cx="400" cy="360" r="6"/><circle cx="450" cy="375" r="6"/><circle cx="360" cy="385" r="6"/>
+    <circle cx="400" cy="650" r="6"/><circle cx="450" cy="660" r="6"/><circle cx="360" cy="650" r="6"/>
+  </g>
+  <text x="360" y="350" fill="#9a8559" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">dried porous layer</text>
+
+  <!-- sublimation front (dashed boundary around core) -->
+  <rect x="288" y="418" width="244" height="184" rx="22" fill="none" stroke="#b94a3a" stroke-width="3" stroke-dasharray="9 8"/>
+  <text x="300" y="412" fill="#b94a3a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">sublimation front (recedes inward)</text>
+
+  <!-- vapor arrows escaping upward through dried layer -->
+  <g stroke="#6ea2a4" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M250 430 C 245 400, 245 380, 245 340"/>
+    <path d="M575 440 C 580 400, 580 380, 580 340"/>
+  </g>
+  <polygon points="245,330 237,348 253,348" fill="#6ea2a4"/>
+  <polygon points="580,330 572,348 588,348" fill="#6ea2a4"/>
+  <text x="250" y="312" fill="#6ea2a4" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">vapor out</text>
+
+  <text x="140" y="740" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Longer, more tortuous path = more resistance</text>
+
+  <!-- Chart panel -->
+  <rect x="760" y="230" width="728" height="540" rx="22" fill="#fcf6ea" stroke="#ccb88f"/>
+  <text x="792" y="280" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.8">DRYING RATE OVER TIME</text>
+
+  <!-- axes -->
+  <line x1="840" y1="320" x2="840" y2="680" stroke="#8b7654" stroke-width="3"/>
+  <line x1="840" y1="680" x2="1440" y2="680" stroke="#8b7654" stroke-width="3"/>
+  <text x="784" y="520" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" transform="rotate(-90 784 520)">drying rate</text>
+  <text x="1300" y="712" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">time</text>
+
+  <!-- falling rate curve -->
+  <path d="M840 350 C 1000 400, 1120 600, 1440 650" fill="none" stroke="#b94a3a" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="840" cy="350" r="7" fill="#b94a3a"/>
+  <circle cx="1440" cy="650" r="7" fill="#b94a3a"/>
+  <text x="860" y="345" fill="#b94a3a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">fast: thin dry layer</text>
+  <text x="1150" y="620" fill="#9a8559" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">slow: thick dry layer</text>
+
+  <!-- dry-layer thickness ramp -->
+  <rect x="840" y="700" width="600" height="0" fill="none"/>
+  <polygon points="840,760 1440,760 1440,720 840,748" fill="#e3d3ad" stroke="#bfa678"/>
+  <text x="980" y="800" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">dried-layer thickness grows &#8594;</text>
+</svg>

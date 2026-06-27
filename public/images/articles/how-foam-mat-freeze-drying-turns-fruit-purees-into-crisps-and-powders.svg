@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How Foam-Mat Freeze-Drying Turns Fruit Purees into Crisps and Powders</title>
+  <desc id="desc">A four-stage process path: dense fruit puree, whipped foam with air bubbles, frozen thin sheet, and a porous brittle freeze-dried flake that mills to powder.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#efe7d7"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d97a43"/>
+      <stop offset="100%" stop-color="#cf5d3d"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#58707a}
+      .small{font:500 23px 'Source Sans 3',Arial,sans-serif}
+      .label{font:600 28px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .stage{font:600 26px 'Source Sans 3',Arial,sans-serif}
+      .title{font:700 52px 'Source Serif 4',Georgia,serif}
+      .mono{font:600 22px 'JetBrains Mono',monospace}
+      .line{stroke:#17313b;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="118" class="label ink">Technology</text>
+  <text x="96" y="186" class="title ink">From purée to porous flake</text>
+  <text x="96" y="228" class="small muted">Whip in air, freeze thin, sublimate, mill. The bubbles open the path for vapor.</text>
+
+  <!-- four stage panels -->
+  <rect x="96" y="288" width="320" height="430" rx="22" class="panel"/>
+  <rect x="450" y="288" width="320" height="430" rx="22" class="panel"/>
+  <rect x="804" y="288" width="320" height="430" rx="22" class="panel"/>
+  <rect x="1158" y="288" width="346" height="430" rx="22" class="panel"/>
+
+  <text x="120" y="338" class="stage ink">1 · Purée</text>
+  <text x="474" y="338" class="stage ink">2 · Foam</text>
+  <text x="828" y="338" class="stage ink">3 · Frozen sheet</text>
+  <text x="1182" y="338" class="stage ink">4 · Dried flake</text>
+
+  <!-- stage 1: dense puree blob -->
+  <path d="M150 470c20-46 78-60 122-40 52 24 60 96 24 140-40 50-128 52-160 4-22-34-12-72 14-104z" fill="url(#accent)" stroke="#17313b" stroke-width="3"/>
+  <text x="120" y="640" class="mono muted">dense · slow</text>
+  <text x="120" y="672" class="small muted">water trapped in a</text>
+  <text x="120" y="696" class="small muted">continuous mass</text>
+
+  <!-- stage 2: foam with bubbles -->
+  <path d="M500 520c0-44 36-72 84-72s86 26 86 70c0 40-34 70-86 70s-84-28-84-68z" fill="#f1ba55" stroke="#17313b" stroke-width="3"/>
+  <circle cx="548" cy="500" r="15" fill="#fffaf1" stroke="#17313b" stroke-width="2"/>
+  <circle cx="592" cy="528" r="20" fill="#fffaf1" stroke="#17313b" stroke-width="2"/>
+  <circle cx="640" cy="498" r="14" fill="#fffaf1" stroke="#17313b" stroke-width="2"/>
+  <circle cx="628" cy="540" r="12" fill="#fffaf1" stroke="#17313b" stroke-width="2"/>
+  <circle cx="560" cy="540" r="11" fill="#fffaf1" stroke="#17313b" stroke-width="2"/>
+  <text x="474" y="640" class="mono muted">air whipped in</text>
+  <text x="474" y="672" class="small muted">+ small stabilizer</text>
+  <text x="474" y="696" class="small muted">holds the bubbles</text>
+
+  <!-- stage 3: thin frozen sheet -->
+  <rect x="836" y="486" width="256" height="56" rx="10" fill="#cfe0e6" stroke="#17313b" stroke-width="3"/>
+  <line x1="868" y1="486" x2="868" y2="542" class="line"/>
+  <line x1="916" y1="486" x2="916" y2="542" class="line"/>
+  <line x1="964" y1="486" x2="964" y2="542" class="line"/>
+  <line x1="1012" y1="486" x2="1012" y2="542" class="line"/>
+  <line x1="1060" y1="486" x2="1060" y2="542" class="line"/>
+  <text x="828" y="640" class="mono muted">spread thin</text>
+  <text x="828" y="672" class="small muted">even thickness =</text>
+  <text x="828" y="696" class="small muted">even drying</text>
+
+  <!-- stage 4: porous brittle flake + sublimation arrows -->
+  <path d="M1190 470h150c12 30 -8 44 8 70 14 24 -10 40 4 64h-162c10-26 -10-40 4-66 12-22 -8-38 -4-68z" fill="#ef8e54" stroke="#17313b" stroke-width="3"/>
+  <circle cx="1228" cy="512" r="9" fill="#fffaf1" stroke="#17313b" stroke-width="2"/>
+  <circle cx="1268" cy="540" r="11" fill="#fffaf1" stroke="#17313b" stroke-width="2"/>
+  <circle cx="1308" cy="510" r="8" fill="#fffaf1" stroke="#17313b" stroke-width="2"/>
+  <circle cx="1296" cy="556" r="7" fill="#fffaf1" stroke="#17313b" stroke-width="2"/>
+  <circle cx="1240" cy="556" r="7" fill="#fffaf1" stroke="#17313b" stroke-width="2"/>
+  <path d="M1220 462v-34" class="line"/><path d="M1212 440l8-14 8 14" class="line"/>
+  <path d="M1300 462v-34" class="line"/><path d="M1292 440l8-14 8 14" class="line"/>
+  <text x="1182" y="640" class="mono muted">brittle · porous</text>
+  <text x="1182" y="672" class="small muted">vapor escapes freely;</text>
+  <text x="1182" y="696" class="small muted">mills clean to powder</text>
+
+  <!-- arrows between stages -->
+  <path d="M420 503h26" class="line"/><path d="M438 495l10 8-10 8" class="line"/>
+  <path d="M774 503h26" class="line"/><path d="M792 495l10 8-10 8" class="line"/>
+  <path d="M1128 503h26" class="line"/><path d="M1146 495l10 8-10 8" class="line"/>
+
+  <text x="96" y="790" class="small muted">The foam is the trick: it does not make the fruit thinner, it makes the structure open.</text>
+</svg>

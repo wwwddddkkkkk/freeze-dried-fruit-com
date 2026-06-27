@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How safety stock and reorder points protect freeze-dried fruit buyers from stockouts</title>
+  <desc id="desc">An inventory sawtooth chart showing stock depleting to the reorder point, the lead-time window, the safety-stock buffer below, and replenishment arriving before stock runs out.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">A planned buffer, not a guess</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Reorder point sets when to buy; safety stock covers late, variable supply.</text>
+
+  <!-- chart frame -->
+  <g transform="translate(140 210)">
+    <!-- axes -->
+    <line x1="0" y1="0" x2="0" y2="320" stroke="#c9c2b2" stroke-width="2"/>
+    <line x1="0" y1="320" x2="900" y2="320" stroke="#c9c2b2" stroke-width="2"/>
+    <text x="-12" y="-6" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="end" transform="rotate(-90 -12 160)">stock on hand</text>
+    <text x="900" y="346" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="end">time</text>
+
+    <!-- safety stock band -->
+    <rect x="0" y="262" width="900" height="58" fill="#ead8b7" opacity="0.55"/>
+    <line x1="0" y1="262" x2="900" y2="262" stroke="#9a6b2f" stroke-width="2" stroke-dasharray="7 6"/>
+    <text x="16" y="300" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">safety stock buffer</text>
+
+    <!-- reorder point line -->
+    <line x1="0" y1="150" x2="900" y2="150" stroke="#34526a" stroke-width="2" stroke-dasharray="7 6"/>
+    <text x="640" y="142" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">reorder point</text>
+
+    <!-- sawtooth stock line: deplete to reorder point, dip into buffer during lead time, replenish -->
+    <polyline points="0,20 230,150 470,228 470,40 700,150 900,200"
+      fill="none" stroke="#2f5d4a" stroke-width="4" stroke-linejoin="round"/>
+
+    <!-- order trigger markers -->
+    <circle cx="230" cy="150" r="7" fill="#34526a"/>
+    <circle cx="700" cy="150" r="7" fill="#34526a"/>
+    <text x="230" y="135" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="13" text-anchor="middle">order placed</text>
+
+    <!-- lead time window -->
+    <line x1="230" y1="360" x2="470" y2="360" stroke="#7a3f35" stroke-width="3"/>
+    <line x1="230" y1="352" x2="230" y2="368" stroke="#7a3f35" stroke-width="3"/>
+    <line x1="470" y1="352" x2="470" y2="368" stroke="#7a3f35" stroke-width="3"/>
+    <text x="350" y="384" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="middle">lead time (variable)</text>
+
+    <!-- replenishment marker -->
+    <circle cx="470" cy="40" r="7" fill="#2f5d4a"/>
+    <text x="470" y="28" fill="#2f5d4a" font-family="Inter, Arial, sans-serif" font-size="13" text-anchor="middle">stock arrives</text>
+  </g>
+
+  <text x="140" y="588" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="14">Reorder point = (avg demand × lead time) + safety stock. Wider lead-time spread → larger buffer.</text>
+</svg>

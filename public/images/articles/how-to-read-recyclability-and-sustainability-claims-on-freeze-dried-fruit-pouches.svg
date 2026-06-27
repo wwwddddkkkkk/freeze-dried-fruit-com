@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How to read recyclability and sustainability claims on freeze-dried fruit pouches</title>
+  <desc id="desc">A pouch cross-section showing bonded barrier layers that resist recycling, beside a panel decoding recyclable, store drop-off, compostable, and vague eco claims.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">The claim describes the pouch, not the fruit</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">The layers that protect crunch are the layers that resist recycling.</text>
+
+  <!-- Pouch cross-section -->
+  <g transform="translate(118 214)">
+    <rect width="420" height="320" rx="26" fill="#f7f3ea" stroke="#d8d2c3" stroke-width="2"/>
+    <text x="26" y="42" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Barrier laminate, magnified</text>
+
+    <g transform="translate(40 70)">
+      <rect x="0" y="0" width="300" height="34" rx="6" fill="#cadccf"/>
+      <text x="316" y="22" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="13">print / outer film</text>
+      <rect x="0" y="40" width="300" height="34" rx="6" fill="#b7bdc7"/>
+      <text x="316" y="62" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="13">metallized / foil barrier</text>
+      <rect x="0" y="80" width="300" height="34" rx="6" fill="#e7c0b5"/>
+      <text x="316" y="102" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="13">adhesive tie layer</text>
+      <rect x="0" y="120" width="300" height="34" rx="6" fill="#ead8b7"/>
+      <text x="316" y="142" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="13">sealant layer</text>
+    </g>
+    <text x="40" y="278" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Bonded layers ↛ standard recycling</text>
+    <text x="40" y="302" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="14">Mixed materials are hard to separate.</text>
+  </g>
+
+  <!-- Claims decoder -->
+  <g transform="translate(580 214)">
+    <rect width="508" height="320" rx="26" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+    <text x="26" y="42" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">What the claim requires</text>
+
+    <rect x="26" y="62" width="456" height="50" rx="14" fill="#dce7f3"/>
+    <text x="44" y="83" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Recyclable</text>
+    <text x="44" y="103" fill="#34526a" font-family="Inter, Arial, sans-serif" font-size="13">Needs an available system — often not curbside.</text>
+
+    <rect x="26" y="120" width="456" height="50" rx="14" fill="#cadccf"/>
+    <text x="44" y="141" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Store drop-off</text>
+    <text x="44" y="161" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="13">Take film to a participating retail collection point.</text>
+
+    <rect x="26" y="178" width="456" height="50" rx="14" fill="#ead8b7"/>
+    <text x="44" y="199" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Compostable</text>
+    <text x="44" y="219" fill="#6e5a2f" font-family="Inter, Arial, sans-serif" font-size="13">Usually industrial composting, not backyard.</text>
+
+    <rect x="26" y="236" width="456" height="50" rx="14" fill="#efe2d4"/>
+    <text x="44" y="257" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Bare leaf / "eco"</text>
+    <text x="44" y="277" fill="#7a3f35" font-family="Inter, Arial, sans-serif" font-size="13">No standard, no route — least information.</text>
+  </g>
+</svg>

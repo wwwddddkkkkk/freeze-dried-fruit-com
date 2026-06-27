@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What Vegan and Plant-Based Claims Mean on a Freeze-Dried Fruit Label</title>
+  <desc id="desc">A label-reading layout: a front-of-pack vegan claim on the left, and on the right the ingredient list and certification mark that actually substantiate the claim, with the claim flagged as maker-defined.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#efe7d7"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#58707a}
+      .small{font:500 23px 'Source Sans 3',Arial,sans-serif}
+      .label{font:600 28px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .title{font:700 50px 'Source Serif 4',Georgia,serif}
+      .tag{font:600 26px 'Source Sans 3',Arial,sans-serif}
+      .mono{font:600 22px 'JetBrains Mono',monospace}
+      .claim{font:700 40px 'Source Serif 4',Georgia,serif}
+      .line{stroke:#17313b;stroke-width:3;fill:none;stroke-linecap:round}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="118" class="label ink">Labels &amp; Quality</text>
+  <text x="96" y="186" class="title ink">The word is a starting point, not the answer</text>
+  <text x="96" y="228" class="small muted">"Vegan" and "plant-based" are maker-defined, not federally regulated terms.</text>
+
+  <!-- LEFT: front of pack claim -->
+  <rect x="96" y="288" width="560" height="470" rx="22" class="panel"/>
+  <text x="130" y="340" class="tag ink">Front of pack</text>
+  <rect x="150" y="380" width="452" height="150" rx="14" fill="#7bb37a" opacity="0.85" stroke="#17313b" stroke-width="2.5"/>
+  <text x="376" y="470" text-anchor="middle" class="claim" fill="#0f2a22">VEGAN</text>
+  <text x="130" y="590" class="small muted">No single official standard</text>
+  <text x="130" y="624" class="small muted">behind this word. Each maker</text>
+  <text x="130" y="658" class="small muted">sets its own rule.</text>
+  <text x="130" y="712" class="mono" fill="#cf5d3d">verify, don't assume</text>
+
+  <!-- arrow -->
+  <path d="M676 520h70" class="line"/><path d="M732 510l14 10-14 10" class="line"/>
+
+  <!-- RIGHT: what substantiates it -->
+  <rect x="766" y="288" width="738" height="470" rx="22" class="panel"/>
+  <text x="800" y="340" class="tag ink">What actually substantiates it</text>
+
+  <text x="800" y="392" class="small ink">1 · Ingredient list — read this first</text>
+  <rect x="800" y="410" width="664" height="92" rx="10" fill="#f3ede1" stroke="#17313b" stroke-width="2"/>
+  <text x="818" y="446" class="mono ink">freeze-dried mango.</text>
+  <text x="818" y="480" class="small muted">single fruit = plant-based already</text>
+
+  <text x="800" y="556" class="small ink">2 · Watch added ingredients on blends</text>
+  <text x="818" y="592" class="small muted">honey · bone-char sugar · gelatin coatings · carriers</text>
+
+  <text x="800" y="648" class="small ink">3 · Certification covers more than recipe</text>
+  <g>
+    <circle cx="844" cy="690" r="30" fill="#fffaf1" stroke="#17313b" stroke-width="3"/>
+    <path d="M830 690l10 11 20-22" class="line"/>
+    <text x="892" y="685" class="small muted">A third-party mark is audited and may</text>
+    <text x="892" y="714" class="small muted">consider processing aids and shared lines.</text>
+  </g>
+
+  <text x="96" y="800" class="small muted">A vegan claim describes the recipe — not necessarily the equipment. It is not an allergen statement.</text>
+</svg>

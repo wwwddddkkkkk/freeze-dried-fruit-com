@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to Read Coloring and Added-Color Statements on Freeze-Dried Fruit Labels</title>
+  <desc id="desc">An ingredient panel with two colored callouts: certified colors named individually like Red 40, and colors from natural sources shown as color added or a named source such as beet juice, beside a note that plain fruit rarely needs added color.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#efe7d7"/>
+    </linearGradient>
+    <style>
+      .ink{fill:#17313b}
+      .muted{fill:#58707a}
+      .small{font:500 23px 'Source Sans 3',Arial,sans-serif}
+      .ingr{font:500 25px 'Source Sans 3',Arial,sans-serif;fill:#17313b}
+      .label{font:600 28px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .title{font:700 48px 'Source Serif 4',Georgia,serif}
+      .mono{font:600 22px 'JetBrains Mono',monospace}
+      .tag{font:600 22px 'Source Sans 3',Arial,sans-serif;fill:#fffaf1}
+      .line{stroke:#17313b;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="118" class="label ink">Labels &amp; Quality</text>
+  <text x="96" y="182" class="title ink">Two ways color shows up</text>
+  <text x="96" y="224" class="small muted">Good plain fruit keeps its own color — so a coloring line is a signal, not background.</text>
+
+  <!-- ingredient panel -->
+  <rect x="96" y="280" width="640" height="500" rx="16" fill="#fffaf1" stroke="#17313b" stroke-width="3"/>
+  <text x="124" y="330" class="mono ink">INGREDIENTS</text>
+  <line x1="124" y1="346" x2="708" y2="346" class="line"/>
+  <text x="124" y="392" class="ingr">Freeze-dried strawberries,</text>
+  <text x="124" y="430" class="ingr">apple, freeze-dried blueberries,</text>
+  <text x="124" y="468" class="ingr">cane sugar,</text>
+
+  <!-- highlighted line: certified color -->
+  <rect x="112" y="486" width="612" height="46" rx="8" fill="#cf5d3d" opacity="0.16" stroke="#cf5d3d" stroke-width="2"/>
+  <text x="124" y="518" class="ingr">Red 40, Blue 1,</text>
+
+  <text x="124" y="566" class="ingr">citric acid,</text>
+
+  <!-- highlighted line: natural source color -->
+  <rect x="112" y="584" width="612" height="46" rx="8" fill="#f1ba55" opacity="0.28" stroke="#caa23a" stroke-width="2"/>
+  <text x="124" y="616" class="ingr">beet juice (color), color added.</text>
+
+  <text x="124" y="664" class="ingr">Contains: none.</text>
+
+  <!-- claim conflict chip -->
+  <rect x="124" y="700" width="300" height="56" rx="10" fill="#fff" stroke="#cf5d3d" stroke-width="2.5"/>
+  <text x="142" y="736" class="mono ink" fill="#cf5d3d">front: "100% fruit" ?</text>
+
+  <!-- right column callouts -->
+  <rect x="800" y="300" width="704" height="150" rx="14" fill="#cf5d3d" stroke="#17313b" stroke-width="3"/>
+  <text x="828" y="350" class="tag">CERTIFIED COLORS</text>
+  <text x="828" y="392" class="small" fill="#fff0e6">Named individually: Red 40, Yellow 5,</text>
+  <text x="828" y="424" class="small" fill="#fff0e6">Blue 1. Impossible to miss — in "plain</text>
+
+  <rect x="800" y="470" width="704" height="150" rx="14" fill="#f1ba55" stroke="#17313b" stroke-width="3"/>
+  <text x="828" y="520" class="tag" fill="#17313b">COLOR FROM NATURAL SOURCES</text>
+  <text x="828" y="562" class="ingr">Often vague: "color added," "beet</text>
+  <text x="828" y="594" class="ingr">juice (color)," "turmeric." Easy to skim.</text>
+
+  <rect x="800" y="640" width="704" height="140" rx="14" fill="#fffaf1" stroke="#17313b" stroke-width="2.5"/>
+  <text x="828" y="688" class="mono ink">The test</text>
+  <text x="828" y="728" class="small muted">Would this fruit, processed well, already</text>
+  <text x="828" y="760" class="small muted">be this color? If yes, ask what the dye is doing.</text>
+
+  <text x="828" y="408" class="small" fill="#fff0e6">fruit," a clear sign it is something more.</text>
+</svg>

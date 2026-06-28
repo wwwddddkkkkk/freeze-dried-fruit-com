@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to Use Freeze-Dried Fruit in Homemade Fruit Leather and Roll-Ups</title>
+  <desc id="desc">A four-step path: freeze-dried fruit milled to powder, blended into a thick purée, spread thin and even on a lined tray, then dried into a flexible sheet rolled into a roll-up.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#efe7d7"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d97a43"/>
+      <stop offset="100%" stop-color="#cf5d3d"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#58707a}
+      .small{font:500 23px 'Source Sans 3',Arial,sans-serif}
+      .label{font:600 28px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .stage{font:600 26px 'Source Sans 3',Arial,sans-serif}
+      .title{font:700 52px 'Source Serif 4',Georgia,serif}
+      .mono{font:600 22px 'JetBrains Mono',monospace}
+      .line{stroke:#17313b;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="118" class="label ink">Applications</text>
+  <text x="96" y="186" class="title ink">Powder in, fast leather out</text>
+  <text x="96" y="228" class="small muted">The water is already gone — so the purée thickens fast and dries sooner.</text>
+
+  <rect x="96" y="288" width="320" height="430" rx="22" class="panel"/>
+  <rect x="450" y="288" width="320" height="430" rx="22" class="panel"/>
+  <rect x="804" y="288" width="320" height="430" rx="22" class="panel"/>
+  <rect x="1158" y="288" width="346" height="430" rx="22" class="panel"/>
+
+  <text x="120" y="338" class="stage ink">1 · Powder</text>
+  <text x="474" y="338" class="stage ink">2 · Blend</text>
+  <text x="828" y="338" class="stage ink">3 · Spread thin</text>
+  <text x="1182" y="338" class="stage ink">4 · Dry &amp; roll</text>
+
+  <!-- stage 1: powder pile -->
+  <path d="M150 560c30-70 132-70 162 0z" fill="url(#accent)" stroke="#17313b" stroke-width="3"/>
+  <circle cx="200" cy="540" r="4" fill="#fffaf1"/>
+  <circle cx="231" cy="520" r="4" fill="#fffaf1"/>
+  <circle cx="262" cy="540" r="4" fill="#fffaf1"/>
+  <circle cx="231" cy="548" r="4" fill="#fffaf1"/>
+  <text x="120" y="612" class="mono muted">milled fine</text>
+  <text x="120" y="644" class="small muted">concentrated</text>
+  <text x="120" y="668" class="small muted">fruit, no water</text>
+
+  <!-- stage 2: bowl with purée + arrow stir -->
+  <path d="M508 500h204c-8 60 -50 96 -102 96s-94-36 -102-96z" fill="#ef8e54" stroke="#17313b" stroke-width="3"/>
+  <ellipse cx="610" cy="500" rx="102" ry="20" fill="#f1ba55" stroke="#17313b" stroke-width="3"/>
+  <path d="M610 470c0 22 26 26 26 50" class="line"/>
+  <text x="474" y="640" class="mono muted">thick paste</text>
+  <text x="474" y="672" class="small muted">taste before</text>
+  <text x="474" y="696" class="small muted">adding sugar</text>
+
+  <!-- stage 3: thin even layer on tray -->
+  <rect x="832" y="500" width="264" height="40" rx="6" fill="#ef8e54" stroke="#17313b" stroke-width="3"/>
+  <rect x="824" y="540" width="280" height="16" rx="4" fill="#cfe0e6" stroke="#17313b" stroke-width="3"/>
+  <path d="M860 484v-22M860 462l-5 10 10 0z" class="line"/>
+  <path d="M1064 484v-22M1064 462l-5 10 10 0z" class="line"/>
+  <text x="828" y="640" class="mono muted">~ 1/8 inch</text>
+  <text x="828" y="672" class="small muted">even = dries</text>
+  <text x="828" y="696" class="small muted">all at once</text>
+
+  <!-- stage 4: rolled leather -->
+  <path d="M1196 540c0-40 40-60 80-60s80 20 80 60-40 60-80 60c40 0 40-40 0-40s-40 40 0 40c-40 0-80-20-80-60z" fill="#cf5d3d" stroke="#17313b" stroke-width="3"/>
+  <path d="M1356 480v120" class="line"/>
+  <text x="1182" y="640" class="mono muted">tacky · flexible</text>
+  <text x="1182" y="672" class="small muted">peels in one piece,</text>
+  <text x="1182" y="696" class="small muted">not crisp</text>
+
+  <!-- arrows between -->
+  <path d="M420 503h26" class="line"/><path d="M438 495l10 8-10 8" class="line"/>
+  <path d="M774 503h26" class="line"/><path d="M792 495l10 8-10 8" class="line"/>
+  <path d="M1128 503h26" class="line"/><path d="M1146 495l10 8-10 8" class="line"/>
+
+  <text x="96" y="790" class="small muted">Freeze-dried fruit is already intense — so the leather tastes brighter, usually with little or no added sugar.</text>
+</svg>

@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to Build a Should-Cost Model for Freeze-Dried Fruit</title>
+  <desc id="desc">A stacked cost bar building a finished freeze-dried fruit price from raw fruit and yield loss up through processing, packaging, quality and overhead, margin, and freight, beside a note that raw fruit times yield dominates.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#efe7d7"/>
+    </linearGradient>
+    <style>
+      .ink{fill:#17313b}
+      .muted{fill:#58707a}
+      .small{font:500 23px 'Source Sans 3',Arial,sans-serif}
+      .seg{font:600 24px 'Source Sans 3',Arial,sans-serif;fill:#fffaf1}
+      .segd{font:600 24px 'Source Sans 3',Arial,sans-serif;fill:#17313b}
+      .label{font:600 28px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .title{font:700 52px 'Source Serif 4',Georgia,serif}
+      .mono{font:600 22px 'JetBrains Mono',monospace}
+      .line{stroke:#17313b;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="118" class="label ink">Industry Insights</text>
+  <text x="96" y="186" class="title ink">Rebuild the price, layer by layer</text>
+  <text x="96" y="228" class="small muted">A should-cost model stacks the inputs so you can see where the money — and the room — sits.</text>
+
+  <!-- stacked cost bar -->
+  <g>
+    <rect x="150" y="300" width="420" height="150" fill="#cf5d3d" stroke="#17313b" stroke-width="3"/>
+    <text x="170" y="382" class="seg">Raw fruit x yield</text>
+    <text x="170" y="412" class="seg">~ largest line</text>
+
+    <rect x="150" y="450" width="420" height="90" fill="#d97a43" stroke="#17313b" stroke-width="3"/>
+    <text x="170" y="503" class="seg">Processing · energy · cycle time</text>
+
+    <rect x="150" y="540" width="420" height="70" fill="#ef8e54" stroke="#17313b" stroke-width="3"/>
+    <text x="170" y="583" class="seg">Packaging · film · absorber</text>
+
+    <rect x="150" y="610" width="420" height="60" fill="#f1ba55" stroke="#17313b" stroke-width="3"/>
+    <text x="170" y="648" class="segd">Quality · testing · overhead</text>
+
+    <rect x="150" y="670" width="420" height="48" fill="#cfe0e6" stroke="#17313b" stroke-width="3"/>
+    <text x="170" y="701" class="segd">Margin</text>
+
+    <rect x="150" y="718" width="420" height="44" fill="#bcd0d8" stroke="#17313b" stroke-width="3"/>
+    <text x="170" y="747" class="segd">Freight · duty → landed</text>
+  </g>
+
+  <!-- brace and total -->
+  <path d="M590 300 q22 0 22 22 v200 q0 22 22 22 q-22 0 -22 22 v200 q0 22 -22 22" class="line"/>
+  <text x="648" y="520" class="mono ink">= modeled cost</text>
+  <text x="648" y="552" class="small muted">compare to the quote</text>
+
+  <!-- side note panel -->
+  <rect x="900" y="300" width="604" height="200" rx="18" fill="#fffaf1" stroke="#17313b" stroke-width="2.5"/>
+  <text x="930" y="350" class="mono ink">Why the top block dominates</text>
+  <text x="930" y="392" class="small muted">10 kg fresh fruit hides inside</text>
+  <text x="930" y="424" class="small muted">1 kg dried at a 10:1 yield. Move</text>
+  <text x="930" y="456" class="small muted">that ratio and the raw line swings</text>
+  <text x="930" y="488" class="small muted">more than every other layer combined.</text>
+
+  <!-- negotiation note panel -->
+  <rect x="900" y="528" width="604" height="234" rx="18" fill="#fffaf1" stroke="#17313b" stroke-width="2.5"/>
+  <text x="930" y="578" class="mono ink">Read the gap</text>
+  <text x="930" y="620" class="small muted">Quote ≈ model + normal margin → fair.</text>
+  <text x="930" y="656" class="small muted">Quote far above → room to push.</text>
+  <text x="930" y="692" class="small muted">Quote far below → a question, not a win:</text>
+  <text x="930" y="724" class="small muted">grade, breakage, film, or origin may differ.</text>
+
+  <text x="96" y="800" class="small muted">The model need not be exact — it only has to show which layer is large and where a quote is out of line.</text>
+</svg>

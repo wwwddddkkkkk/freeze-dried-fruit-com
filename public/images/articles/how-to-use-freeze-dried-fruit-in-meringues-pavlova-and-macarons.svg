@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How to use freeze-dried fruit in meringues, pavlova, and macarons</title>
+  <desc id="desc">Freeze-dried fruit used as fine powder folded into meringue and as crisp pieces decorating pavlova and macarons, with moisture kept low.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="70" y="70" width="1060" height="540" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+
+  <text x="110" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Dry fruit for desserts that fear water</text>
+  <text x="110" y="162" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Powder to flavor, pieces to decorate — moisture kept out.</text>
+
+  <!-- moisture axis -->
+  <g transform="translate(112 214)">
+    <rect width="976" height="60" rx="14" fill="#f4f0e5" stroke="#d8d2c3"/>
+    <text x="22" y="28" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="14">Fresh purée</text>
+    <text x="22" y="48" fill="#b45f42" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">adds water → weeps, softens</text>
+    <line x1="300" y1="30" x2="676" y2="30" stroke="#7b867f" stroke-width="2" marker-end="url(#ar)"/>
+    <text x="402" y="24" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="13">drier is safer for structure</text>
+    <text x="820" y="28" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="14" text-anchor="end">Freeze-dried fruit</text>
+    <text x="954" y="48" fill="#5a7d56" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" text-anchor="end">flavor + color, little water</text>
+    <defs><marker id="ar" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#7b867f"/></marker></defs>
+  </g>
+
+  <!-- three dessert cards -->
+  <g font-family="Inter, Arial, sans-serif">
+    <!-- meringue -->
+    <g transform="translate(112 300)">
+      <rect width="306" height="210" rx="20" fill="#f4f0e5" stroke="#d8d2c3"/>
+      <path d="M60 150 Q80 70 100 150 Q120 70 140 150 Q160 70 180 150 Q200 70 220 150 Z" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+      <circle cx="100" cy="120" r="3" fill="#b45f42"/><circle cx="150" cy="110" r="3" fill="#b45f42"/><circle cx="190" cy="125" r="3" fill="#b45f42"/>
+      <text x="153" y="180" text-anchor="middle" fill="#1f332d" font-size="18" font-weight="700">Meringue</text>
+      <text x="153" y="200" text-anchor="middle" fill="#5f6a63" font-size="13">fold powder through stiff foam</text>
+    </g>
+    <!-- pavlova -->
+    <g transform="translate(447 300)">
+      <rect width="306" height="210" rx="20" fill="#f4f0e5" stroke="#d8d2c3"/>
+      <ellipse cx="153" cy="120" rx="100" ry="46" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+      <ellipse cx="153" cy="96" rx="92" ry="20" fill="#eef0e6"/>
+      <circle cx="120" cy="92" r="5" fill="#b45f42"/><circle cx="160" cy="86" r="5" fill="#7a4a8a"/><circle cx="195" cy="96" r="5" fill="#b45f42"/>
+      <text x="153" y="180" text-anchor="middle" fill="#1f332d" font-size="18" font-weight="700">Pavlova</text>
+      <text x="153" y="200" text-anchor="middle" fill="#5f6a63" font-size="13">powder in cream, pieces on top</text>
+    </g>
+    <!-- macaron -->
+    <g transform="translate(782 300)">
+      <rect width="306" height="210" rx="20" fill="#f4f0e5" stroke="#d8d2c3"/>
+      <ellipse cx="153" cy="98" rx="80" ry="26" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+      <rect x="73" y="104" width="160" height="18" rx="6" fill="#b45f42"/>
+      <ellipse cx="153" cy="128" rx="80" ry="26" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+      <text x="153" y="180" text-anchor="middle" fill="#1f332d" font-size="18" font-weight="700">Macarons</text>
+      <text x="153" y="200" text-anchor="middle" fill="#5f6a63" font-size="13">powder in dry mix, more in filling</text>
+    </g>
+  </g>
+
+  <text x="112" y="556" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="15">Add decoration near serving and store airtight — even dry fruit pulls moisture from the air.</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to stock and rotate a freeze-dried fruit pantry</title>
+  <desc id="desc">A pantry shelf split into three zones — everyday toppings, baking and powders, and sealed backup — with arrows showing first-in first-out rotation, newest bags placed at the back and oldest pulled from the front.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="66" y="66" width="1468" height="768" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="140" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">APPLICATIONS</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">A Shelf That Keeps Everything Crisp</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Group by how you use it, then rotate first-in, first-out — newest to the back, oldest to the front.</text>
+
+  <!-- cabinet -->
+  <rect x="120" y="300" width="1360" height="470" rx="12" fill="#efe7d6" stroke="#b59a6e" stroke-width="3"/>
+
+  <!-- shelf zones -->
+  <!-- Zone 1 everyday -->
+  <rect x="150" y="330" width="410" height="410" rx="10" fill="#cfe0d8" opacity="0.5" stroke="#294643" stroke-width="2"/>
+  <text x="170" y="368" fill="#1d4038" font-family="'DM Serif Display', Georgia, serif" font-size="26">Everyday toppings</text>
+  <text x="170" y="394" fill="#33514c" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">most accessible · front and center</text>
+  <!-- bags back to front -->
+  <g font-family="'Source Sans 3', Arial, sans-serif">
+    <rect x="200" y="430" width="80" height="120" rx="8" fill="#cb5d58" opacity="0.5" stroke="#9c3f3b" stroke-width="2"/>
+    <rect x="300" y="430" width="80" height="120" rx="8" fill="#cb5d58" opacity="0.7" stroke="#9c3f3b" stroke-width="2"/>
+    <rect x="400" y="430" width="80" height="120" rx="8" fill="#cb5d58" opacity="0.92" stroke="#9c3f3b" stroke-width="2.5"/>
+    <text x="240" y="575" fill="#7e3a37" font-size="14" text-anchor="middle">newest</text>
+    <text x="440" y="575" fill="#7e3a37" font-size="14" text-anchor="middle" font-weight="700">use first</text>
+  </g>
+  <text x="355" y="640" fill="#33514c" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle">strawberry · blueberry · mango</text>
+
+  <!-- Zone 2 baking -->
+  <rect x="585" y="330" width="410" height="410" rx="10" fill="#f3e2c6" opacity="0.6" stroke="#b98f33" stroke-width="2"/>
+  <text x="605" y="368" fill="#8a6a1f" font-family="'DM Serif Display', Georgia, serif" font-size="26">Baking &amp; powders</text>
+  <text x="605" y="394" fill="#7a5e23" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">opened less often · bigger amounts</text>
+  <!-- jars -->
+  <g>
+    <rect x="640" y="450" width="90" height="120" rx="10" fill="#fffdf8" stroke="#8a6a1f" stroke-width="2.5"/>
+    <rect x="640" y="450" width="90" height="26" rx="6" fill="#e0b05f"/>
+    <rect x="650" y="500" width="70" height="60" rx="4" fill="#cb5d58" opacity="0.6"/>
+    <rect x="760" y="450" width="90" height="120" rx="10" fill="#fffdf8" stroke="#8a6a1f" stroke-width="2.5"/>
+    <rect x="760" y="450" width="90" height="26" rx="6" fill="#e0b05f"/>
+    <rect x="770" y="500" width="70" height="60" rx="4" fill="#d98a3a" opacity="0.6"/>
+  </g>
+  <text x="790" y="612" fill="#7a5e23" font-family="'JetBrains Mono', monospace" font-size="14" text-anchor="middle">label + date the jar</text>
+  <text x="790" y="650" fill="#7a5e23" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle">powders · rehydrate · batter</text>
+
+  <!-- Zone 3 backup -->
+  <rect x="1020" y="330" width="430" height="410" rx="10" fill="#dce9e4" opacity="0.55" stroke="#17312f" stroke-width="2"/>
+  <text x="1040" y="368" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="26">Sealed backup</text>
+  <text x="1040" y="394" fill="#33514c" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">unopened · higher / further back</text>
+  <g fill="#7a8f86" stroke="#17312f" stroke-width="2">
+    <rect x="1060" y="440" width="74" height="130" rx="8"/>
+    <rect x="1150" y="440" width="74" height="130" rx="8"/>
+    <rect x="1240" y="440" width="74" height="130" rx="8"/>
+    <rect x="1330" y="440" width="74" height="130" rx="8"/>
+  </g>
+  <text x="1235" y="612" fill="#33514c" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle">open the next only when a front bag runs out</text>
+
+  <!-- FIFO arrow across -->
+  <g>
+    <line x1="220" y1="408" x2="470" y2="408" stroke="#9c3f3b" stroke-width="4"/>
+    <path d="M470 408 l-22 -12 v24 z" fill="#9c3f3b"/>
+    <text x="345" y="690" fill="#9c3f3b" font-family="'JetBrains Mono', monospace" font-size="15" text-anchor="middle">pull from front  →</text>
+  </g>
+
+  <!-- footer rule -->
+  <text x="120" y="800" fill="#5c5040" font-family="'Source Serif 4', Georgia, serif" font-size="20">Keep the whole shelf cool, dark, and dry — after opening, humidity is what turns crisp pieces soft.</text>
+</svg>

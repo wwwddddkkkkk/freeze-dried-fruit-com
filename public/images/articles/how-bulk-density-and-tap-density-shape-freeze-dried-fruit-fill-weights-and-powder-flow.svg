@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How bulk density and tap density shape freeze-dried fruit fill weights and powder flow</title>
+  <desc id="desc">Two measuring cylinders hold the same mass of freeze-dried fruit. The left cylinder shows a tall loose fill at bulk density; the right shows a shorter settled fill after tapping at tap density. The Hausner ratio and Carr index relate the two.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="66" y="66" width="1468" height="768" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="140" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">Same Weight, Two Different Volumes</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Loose fruit settles when tapped; the gap predicts how empty the bag looks and how a powder flows.</text>
+
+  <!-- baseline -->
+  <line x1="150" y1="720" x2="1010" y2="720" stroke="#17312f" stroke-width="3"/>
+
+  <!-- LEFT cylinder: bulk (loose, tall) -->
+  <rect x="230" y="320" width="220" height="400" rx="8" fill="#fffdf8" stroke="#17312f" stroke-width="3"/>
+  <rect x="233" y="338" width="214" height="382" rx="6" fill="#dce9e4" opacity="0.55"/>
+  <!-- loose pieces -->
+  <g fill="#cb5d58" opacity="0.85">
+    <circle cx="280" cy="380" r="13"/><circle cx="330" cy="410" r="15"/><circle cx="390" cy="378" r="12"/>
+    <circle cx="300" cy="460" r="14"/><circle cx="370" cy="450" r="13"/><circle cx="420" cy="430" r="11"/>
+    <circle cx="270" cy="520" r="12"/><circle cx="345" cy="520" r="15"/><circle cx="410" cy="510" r="13"/>
+    <circle cx="300" cy="585" r="14"/><circle cx="375" cy="590" r="12"/><circle cx="425" cy="575" r="11"/>
+    <circle cx="275" cy="650" r="13"/><circle cx="340" cy="660" r="14"/><circle cx="410" cy="650" r="12"/>
+    <circle cx="305" cy="700" r="12"/><circle cx="380" cy="702" r="11"/>
+  </g>
+  <line x1="230" y1="338" x2="450" y2="338" stroke="#9c3f3b" stroke-width="2.5" stroke-dasharray="9 6"/>
+  <text x="340" y="305" fill="#9c3f3b" font-family="'JetBrains Mono', monospace" font-size="18" text-anchor="middle">loose fill</text>
+  <text x="340" y="762" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="30" text-anchor="middle">Bulk density</text>
+  <text x="340" y="792" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" text-anchor="middle">as poured · low</text>
+
+  <!-- arrow tap -->
+  <g>
+    <line x1="500" y1="520" x2="700" y2="520" stroke="#e0b05f" stroke-width="5"/>
+    <path d="M700 520 l-22 -12 v24 z" fill="#e0b05f"/>
+    <text x="600" y="500" fill="#5c5040" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" text-anchor="middle">tap / vibrate</text>
+    <text x="600" y="552" fill="#8a7a5c" font-family="'JetBrains Mono', monospace" font-size="15" text-anchor="middle">pieces re-pack</text>
+  </g>
+
+  <!-- RIGHT cylinder: tap (settled, short) -->
+  <rect x="760" y="320" width="220" height="400" rx="8" fill="#fffdf8" stroke="#17312f" stroke-width="3"/>
+  <rect x="763" y="500" width="214" height="220" rx="6" fill="#cfe0d8" opacity="0.75"/>
+  <g fill="#cb5d58" opacity="0.92">
+    <circle cx="800" cy="535" r="13"/><circle cx="845" cy="528" r="14"/><circle cx="895" cy="535" r="12"/><circle cx="940" cy="532" r="13"/>
+    <circle cx="805" cy="578" r="14"/><circle cx="855" cy="575" r="13"/><circle cx="905" cy="578" r="14"/><circle cx="948" cy="575" r="12"/>
+    <circle cx="800" cy="620" r="13"/><circle cx="848" cy="622" r="14"/><circle cx="900" cy="620" r="13"/><circle cx="945" cy="620" r="13"/>
+    <circle cx="803" cy="662" r="14"/><circle cx="852" cy="665" r="13"/><circle cx="902" cy="662" r="14"/><circle cx="946" cy="664" r="12"/>
+    <circle cx="820" cy="700" r="13"/><circle cx="880" cy="702" r="13"/><circle cx="935" cy="700" r="12"/>
+  </g>
+  <line x1="760" y1="500" x2="980" y2="500" stroke="#294643" stroke-width="2.5" stroke-dasharray="9 6"/>
+  <text x="870" y="488" fill="#294643" font-family="'JetBrains Mono', monospace" font-size="18" text-anchor="middle">settled fill</text>
+  <text x="870" y="762" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="30" text-anchor="middle">Tap density</text>
+  <text x="870" y="792" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" text-anchor="middle">after settling · higher</text>
+
+  <!-- settle gap bracket -->
+  <line x1="1000" y1="338" x2="1000" y2="500" stroke="#9c3f3b" stroke-width="2"/>
+  <line x1="994" y1="338" x2="1006" y2="338" stroke="#9c3f3b" stroke-width="2"/>
+  <line x1="994" y1="500" x2="1006" y2="500" stroke="#9c3f3b" stroke-width="2"/>
+  <text x="1014" y="424" fill="#9c3f3b" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">settling gap</text>
+
+  <!-- right panel: indices -->
+  <rect x="1080" y="300" width="380" height="430" rx="16" fill="#fffdf8" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="1110" y="350" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="30">Reading the gap</text>
+
+  <text x="1110" y="408" fill="#24433d" font-family="'JetBrains Mono', monospace" font-size="20">Hausner ratio</text>
+  <text x="1110" y="438" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">= tap ÷ bulk density</text>
+  <text x="1110" y="470" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">≈ 1.0–1.1  free flowing</text>
+  <text x="1110" y="498" fill="#9c3f3b" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">≥ 1.25  settles, flows poorly</text>
+
+  <line x1="1110" y1="524" x2="1430" y2="524" stroke="#e4dccb" stroke-width="2"/>
+
+  <text x="1110" y="566" fill="#24433d" font-family="'JetBrains Mono', monospace" font-size="20">Carr index</text>
+  <text x="1110" y="596" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">= (tap − bulk) ÷ tap × 100</text>
+  <text x="1110" y="628" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">low %  pours cleanly</text>
+  <text x="1110" y="656" fill="#9c3f3b" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">high %  bridges, ratholes</text>
+
+  <line x1="1110" y1="682" x2="1430" y2="682" stroke="#e4dccb" stroke-width="2"/>
+  <text x="1110" y="712" fill="#5c5040" font-family="'Source Serif 4', Georgia, serif" font-size="17">Not a quality grade — a behavior forecast.</text>
+</svg>

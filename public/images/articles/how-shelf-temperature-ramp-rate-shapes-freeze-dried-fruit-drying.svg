@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How shelf-temperature ramp rate shapes freeze-dried fruit drying</title>
+  <desc id="desc">Chart comparing a fast and slow shelf-temperature ramp against rising product temperature and a collapse line during primary drying of freeze-dried fruit.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="70" y="70" width="1060" height="540" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+
+  <text x="110" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">The ramp decides how close fruit gets to collapse</text>
+  <text x="110" y="162" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Same final shelf temperature, two different paths there.</text>
+
+  <!-- main chart -->
+  <g transform="translate(112 210)">
+    <rect width="700" height="300" rx="26" fill="#f4f0e5" stroke="#d8d2c3"/>
+    <line x1="80" y1="34" x2="80" y2="252" stroke="#7b867f" stroke-width="2"/>
+    <line x1="80" y1="252" x2="650" y2="252" stroke="#7b867f" stroke-width="2"/>
+    <text x="14" y="46" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="14">Temp</text>
+    <text x="520" y="284" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="14">Time in primary drying →</text>
+
+    <!-- collapse line -->
+    <line x1="80" y1="92" x2="650" y2="92" stroke="#b45f42" stroke-width="3" stroke-dasharray="10 8"/>
+    <text x="430" y="84" fill="#b45f42" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Collapse risk line</text>
+
+    <!-- fast ramp shelf -->
+    <polyline points="80,236 150,150 230,108 650,100" fill="none" stroke="#1f332d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="240" y="132" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Fast ramp (shelf)</text>
+
+    <!-- fast product temp overshoots -->
+    <polyline points="80,244 170,210 250,150 330,96 410,82 650,90" fill="none" stroke="#1f332d" stroke-width="5" stroke-dasharray="6 6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="380" cy="84" r="9" fill="#b45f42"/>
+    <text x="332" y="64" fill="#b45f42" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">product crosses line</text>
+
+    <!-- slow ramp shelf -->
+    <polyline points="80,236 250,196 430,150 650,118" fill="none" stroke="#5a7d56" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="430" y="142" fill="#5a7d56" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Slow ramp (shelf)</text>
+
+    <!-- slow product stays below -->
+    <polyline points="80,244 260,224 440,188 650,150" fill="none" stroke="#5a7d56" stroke-width="5" stroke-dasharray="6 6" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="470" y="178" fill="#5a7d56" font-family="Inter, Arial, sans-serif" font-size="13">product stays safe</text>
+  </g>
+
+  <!-- side panel -->
+  <g transform="translate(842 210)">
+    <rect width="246" height="300" rx="26" fill="#f4f0e5" stroke="#d8d2c3"/>
+    <text x="26" y="48" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">What shrinks</text>
+    <text x="26" y="72" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">the safe ramp</text>
+
+    <g font-family="Inter, Arial, sans-serif" font-size="15" fill="#3f4a44">
+      <circle cx="34" cy="108" r="5" fill="#b45f42"/><text x="50" y="113">High sugar load</text>
+      <circle cx="34" cy="146" r="5" fill="#b45f42"/><text x="50" y="151">Thick pieces</text>
+      <circle cx="34" cy="184" r="5" fill="#b45f42"/><text x="50" y="189">Mixed cut sizes</text>
+      <circle cx="34" cy="222" r="5" fill="#b45f42"/><text x="50" y="227">Heavy tray load</text>
+      <circle cx="34" cy="260" r="5" fill="#b45f42"/><text x="50" y="265">Edge vs center gap</text>
+    </g>
+  </g>
+
+  <text x="112" y="560" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="15">Target temperature is the destination. Ramp rate is the driving style — and where texture margin is won or lost.</text>
+</svg>

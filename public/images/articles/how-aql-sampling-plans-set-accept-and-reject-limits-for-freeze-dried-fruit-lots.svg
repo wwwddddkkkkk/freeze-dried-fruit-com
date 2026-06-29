@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How AQL sampling plans set accept and reject limits for freeze-dried fruit lots</title>
+  <desc id="desc">A flow diagram: a lot of freeze-dried fruit cases plus an inspection level give a sample size; the sample is inspected against critical, major, and minor AQLs; defect counts are compared to accept and reject numbers, producing an accept or reject decision.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="66" y="66" width="1468" height="768" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="140" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">From Lot Size to a Pass-or-Fail Verdict</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">The standard fixes the sample and the accept/reject numbers before the truck arrives.</text>
+
+  <!-- Step 1: lot -->
+  <rect x="120" y="320" width="270" height="220" rx="14" fill="#fffdf8" stroke="#17312f" stroke-width="2.5"/>
+  <text x="255" y="356" fill="#24433d" font-family="'JetBrains Mono', monospace" font-size="17" text-anchor="middle">STEP 1 · THE LOT</text>
+  <!-- stacked cases -->
+  <g fill="#dce9e4" stroke="#17312f" stroke-width="2">
+    <rect x="160" y="378" width="60" height="46"/><rect x="225" y="378" width="60" height="46"/><rect x="290" y="378" width="60" height="46"/>
+    <rect x="160" y="426" width="60" height="46"/><rect x="225" y="426" width="60" height="46"/><rect x="290" y="426" width="60" height="46"/>
+  </g>
+  <text x="255" y="506" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" text-anchor="middle">lot size +</text>
+  <text x="255" y="528" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" text-anchor="middle">inspection level</text>
+
+  <!-- arrow -->
+  <g stroke="#e0b05f" stroke-width="5" fill="#e0b05f"><line x1="392" y1="430" x2="452" y2="430"/><path d="M452 430 l-20 -11 v22 z"/></g>
+
+  <!-- Step 2: sample -->
+  <rect x="460" y="320" width="270" height="220" rx="14" fill="#fffdf8" stroke="#17312f" stroke-width="2.5"/>
+  <text x="595" y="356" fill="#24433d" font-family="'JetBrains Mono', monospace" font-size="17" text-anchor="middle">STEP 2 · THE SAMPLE</text>
+  <g fill="#cb5d58" opacity="0.85">
+    <circle cx="510" cy="396" r="11"/><circle cx="545" cy="396" r="11"/><circle cx="580" cy="396" r="11"/><circle cx="615" cy="396" r="11"/><circle cx="650" cy="396" r="11"/><circle cx="685" cy="396" r="11"/>
+    <circle cx="510" cy="430" r="11"/><circle cx="545" cy="430" r="11"/><circle cx="580" cy="430" r="11"/><circle cx="615" cy="430" r="11"/><circle cx="650" cy="430" r="11"/><circle cx="685" cy="430" r="11"/>
+    <circle cx="510" cy="464" r="11"/><circle cx="545" cy="464" r="11"/><circle cx="580" cy="464" r="11"/><circle cx="615" cy="464" r="11"/><circle cx="650" cy="464" r="11"/><circle cx="685" cy="464" r="11"/>
+  </g>
+  <text x="595" y="512" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" text-anchor="middle">code letter → sample size n</text>
+
+  <!-- arrow -->
+  <g stroke="#e0b05f" stroke-width="5" fill="#e0b05f"><line x1="732" y1="430" x2="792" y2="430"/><path d="M792 430 l-20 -11 v22 z"/></g>
+
+  <!-- Step 3: classify + count -->
+  <rect x="800" y="300" width="320" height="430" rx="14" fill="#fffdf8" stroke="#17312f" stroke-width="2.5"/>
+  <text x="960" y="338" fill="#24433d" font-family="'JetBrains Mono', monospace" font-size="17" text-anchor="middle">STEP 3 · COUNT vs AQL</text>
+
+  <rect x="826" y="360" width="268" height="100" rx="10" fill="#f0d3cf" opacity="0.6"/>
+  <text x="844" y="392" fill="#9c3f3b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">CRITICAL</text>
+  <text x="844" y="420" fill="#7e3a37" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">foreign material, safety</text>
+  <text x="844" y="446" fill="#7e3a37" font-family="'JetBrains Mono', monospace" font-size="16">AQL ≈ 0 · Ac 0 / Re 1</text>
+
+  <rect x="826" y="470" width="268" height="100" rx="10" fill="#f3e2c6" opacity="0.7"/>
+  <text x="844" y="502" fill="#8a6a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">MAJOR</text>
+  <text x="844" y="530" fill="#7a5e23" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">off-color, moisture, fines</text>
+  <text x="844" y="556" fill="#7a5e23" font-family="'JetBrains Mono', monospace" font-size="16">AQL 1.0 · Ac 5 / Re 6</text>
+
+  <rect x="826" y="580" width="268" height="100" rx="10" fill="#dce9e4" opacity="0.7"/>
+  <text x="844" y="612" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">MINOR</text>
+  <text x="844" y="640" fill="#33514c" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">cosmetic breakage, shade</text>
+  <text x="844" y="666" fill="#33514c" font-family="'JetBrains Mono', monospace" font-size="16">AQL 4.0 · Ac 14 / Re 15</text>
+
+  <!-- arrow -->
+  <g stroke="#e0b05f" stroke-width="5" fill="#e0b05f"><line x1="1122" y1="510" x2="1182" y2="510"/><path d="M1182 510 l-20 -11 v22 z"/></g>
+
+  <!-- Step 4: decision -->
+  <rect x="1190" y="380" width="270" height="260" rx="14" fill="#fffdf8" stroke="#17312f" stroke-width="2.5"/>
+  <text x="1325" y="418" fill="#24433d" font-family="'JetBrains Mono', monospace" font-size="17" text-anchor="middle">STEP 4 · VERDICT</text>
+  <rect x="1216" y="438" width="218" height="80" rx="10" fill="#cfe0d8"/>
+  <text x="1325" y="476" fill="#1d4038" font-family="'DM Serif Display', Georgia, serif" font-size="28" text-anchor="middle">ACCEPT</text>
+  <text x="1325" y="502" fill="#33514c" font-family="'JetBrains Mono', monospace" font-size="15" text-anchor="middle">defects ≤ Ac</text>
+  <rect x="1216" y="530" width="218" height="80" rx="10" fill="#f0d3cf"/>
+  <text x="1325" y="568" fill="#9c3f3b" font-family="'DM Serif Display', Georgia, serif" font-size="28" text-anchor="middle">REJECT</text>
+  <text x="1325" y="594" fill="#7e3a37" font-family="'JetBrains Mono', monospace" font-size="15" text-anchor="middle">defects ≥ Re</text>
+
+  <!-- footer note -->
+  <text x="120" y="700" fill="#5c5040" font-family="'Source Serif 4', Georgia, serif" font-size="19">Switching rules move a supplier between normal, tightened, and reduced inspection as their track record changes.</text>
+  <text x="120" y="760" fill="#8a7a5c" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">Illustrative numbers — real Ac/Re values come from the standard's table for your lot size and AQL.</text>
+</svg>

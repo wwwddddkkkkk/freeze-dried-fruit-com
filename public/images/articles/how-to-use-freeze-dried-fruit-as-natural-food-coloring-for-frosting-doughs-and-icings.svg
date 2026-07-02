@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Using freeze-dried fruit as natural food coloring</title>
+  <desc id="desc">Guide showing freeze-dried fruit ground to powder and sifted into frosting, icing, and dough, with notes on quantity, moisture, and heat sensitivity.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="70" y="70" width="1060" height="540" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+
+  <text x="110" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Real fruit pigment, not a bottle of dye</text>
+  <text x="110" y="162" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Grind, sift, add gradually — natural shades that also carry flavor.</text>
+
+  <!-- flow: piece -> powder -> sift -->
+  <g transform="translate(112 210)">
+    <circle cx="50" cy="40" r="30" fill="#d98aa0"/>
+    <text x="14" y="102" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="14">Fruit pieces</text>
+    <path d="M96 40 L150 40 L150 30 L176 46 L150 62 L150 52 L96 52 Z" fill="#c8bfa9"/>
+    <g transform="translate(180 10)">
+      <rect width="90" height="60" rx="10" fill="#e8cdd5"/>
+      <g fill="#c86f8c"><circle cx="24" cy="24" r="3"/><circle cx="44" cy="34" r="3"/><circle cx="64" cy="22" r="3"/><circle cx="34" cy="44" r="3"/><circle cx="58" cy="46" r="3"/></g>
+      <text x="6" y="86" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="14">Fine powder</text>
+    </g>
+    <path d="M290 40 L344 40 L344 30 L370 46 L344 62 L344 52 L290 52 Z" fill="#c8bfa9"/>
+    <g transform="translate(376 6)">
+      <ellipse cx="45" cy="16" rx="45" ry="12" fill="none" stroke="#7b867f" stroke-width="2"/>
+      <line x1="14" y1="16" x2="14" y2="30" stroke="#7b867f" stroke-width="2"/>
+      <line x1="76" y1="16" x2="76" y2="30" stroke="#7b867f" stroke-width="2"/>
+      <g stroke="#c86f8c" stroke-width="2"><line x1="30" y1="34" x2="30" y2="52"/><line x1="45" y1="34" x2="45" y2="56"/><line x1="60" y1="34" x2="60" y2="50"/></g>
+      <text x="8" y="90" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="14">Sift out seeds</text>
+    </g>
+  </g>
+
+  <!-- three application cards -->
+  <g transform="translate(112 348)">
+    <rect width="300" height="176" rx="18" fill="#edf6f1" stroke="#c6d8ce"/>
+    <text x="22" y="40" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Frosting &amp; buttercream</text>
+    <text x="22" y="72" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="14">Best canvas. ~1 tsp / cup, build up.</text>
+    <text x="22" y="98" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="14">Loosen with fat/cream if stiff.</text>
+    <text x="22" y="132" fill="#2f7a55" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Color survives (no heat).</text>
+  </g>
+  <g transform="translate(444 348)">
+    <rect width="300" height="176" rx="18" fill="#edf6f1" stroke="#c6d8ce"/>
+    <text x="22" y="40" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Icings &amp; glazes</text>
+    <text x="22" y="72" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="14">Whisk into liquid/sugar first.</text>
+    <text x="22" y="98" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="14">Brightest, cleanest color.</text>
+    <text x="22" y="132" fill="#2f7a55" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Color survives (no heat).</text>
+  </g>
+  <g transform="translate(776 348)">
+    <rect width="300" height="176" rx="18" fill="#f4ede6" stroke="#d8c9bc"/>
+    <text x="22" y="40" fill="#8a4a30" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Doughs &amp; batters</text>
+    <text x="22" y="72" fill="#7a5540" font-family="Inter, Arial, sans-serif" font-size="14">Powder dries dough — adjust liquid.</text>
+    <text x="22" y="98" fill="#7a5540" font-family="Inter, Arial, sans-serif" font-size="14">Berry pigment shifts with heat/soda.</text>
+    <text x="22" y="132" fill="#8a4a30" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Expect softer, toasted shades.</text>
+  </g>
+
+  <text x="110" y="576" fill="#8a949b" font-family="Inter, Arial, sans-serif" font-size="13">Color deepens as the powder hydrates — add a little, wait, then decide.</text>
+</svg>

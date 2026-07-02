@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How nonenzymatic browning develops in freeze-dried fruit during storage</title>
+  <desc id="desc">A field-guide chart showing browning rate peaking in a mid-range water activity window, with a temperature arrow and a storage timeline from bright to tan.</desc>
+  <rect width="1200" height="680" fill="#f7f2e8"/>
+  <rect x="76" y="72" width="1048" height="536" rx="34" fill="#fffdf8" stroke="#d8d0bf" stroke-width="2"/>
+  <text x="116" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Browning runs fastest in a mid-moisture window</text>
+  <text x="116" y="166" fill="#69736d" font-family="Inter, Arial, sans-serif" font-size="17">Sugars and amino groups react slowly on the shelf — heat and time push the rate.</text>
+
+  <!-- Chart panel -->
+  <g transform="translate(122 210)">
+    <rect width="560" height="352" rx="26" fill="#f7f3ea" stroke="#d8d0bf"/>
+    <text x="28" y="44" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="21" font-weight="700">Browning rate vs water activity</text>
+    <!-- axes -->
+    <line x1="70" y1="300" x2="512" y2="300" stroke="#b9b19f" stroke-width="2"/>
+    <line x1="70" y1="90" x2="70" y2="300" stroke="#b9b19f" stroke-width="2"/>
+    <text x="70" y="330" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="13">very dry</text>
+    <text x="440" y="330" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="13">wetter</text>
+    <text x="18" y="100" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="13" transform="rotate(-90 18 100)">rate</text>
+    <!-- reactive window band -->
+    <rect x="210" y="90" width="150" height="210" fill="#cf6f5d" opacity="0.12"/>
+    <text x="228" y="112" fill="#b25640" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">reactive</text>
+    <text x="228" y="128" fill="#b25640" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">window</text>
+    <!-- curve peaking mid -->
+    <path d="M70 288 C 150 250, 210 130, 285 122 C 360 130, 420 250, 512 288" fill="none" stroke="#cf6f5d" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="285" cy="122" r="6" fill="#cf6f5d"/>
+  </g>
+
+  <!-- Right column: temperature + timeline -->
+  <g transform="translate(716 210)">
+    <rect width="362" height="164" rx="24" fill="#f7f3ea" stroke="#d8d0bf"/>
+    <text x="26" y="42" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Temperature lever</text>
+    <text x="26" y="70" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="14">The factor you control after packing</text>
+    <line x1="26" y1="110" x2="300" y2="110" stroke="#b9b19f" stroke-width="2"/>
+    <path d="M300 110 l-14 -7 v14 z" fill="#b9b19f"/>
+    <text x="26" y="138" fill="#3f6f5c" font-family="Inter, Arial, sans-serif" font-size="14">cool &amp; steady</text>
+    <text x="196" y="138" fill="#b25640" font-family="Inter, Arial, sans-serif" font-size="14">warm = faster</text>
+  </g>
+
+  <g transform="translate(716 398)">
+    <rect width="362" height="164" rx="24" fill="#f7f3ea" stroke="#d8d0bf"/>
+    <text x="26" y="42" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Over storage time</text>
+    <circle cx="70" cy="98" r="30" fill="#e9b04a"/>
+    <circle cx="181" cy="98" r="30" fill="#cf9a52"/>
+    <circle cx="292" cy="98" r="30" fill="#9c6f43"/>
+    <text x="46" y="150" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="13">bright</text>
+    <text x="165" y="150" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="13">duller</text>
+    <text x="278" y="150" fill="#65736c" font-family="Inter, Arial, sans-serif" font-size="13">tan</text>
+  </g>
+</svg>

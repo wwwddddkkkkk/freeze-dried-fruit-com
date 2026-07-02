@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Why freeze-dryer capacity utilization drives freeze-dried fruit pricing</title>
+  <desc id="desc">Diagram showing a full versus half-loaded dryer cycle carrying the same fixed cost, changing machine cost per kilogram of finished fruit.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="70" y="70" width="1060" height="540" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+
+  <text x="110" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Same cycle cost, spread over less product</text>
+  <text x="110" y="162" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">A freeze dryer's fixed cost per batch lands on whatever fills the chamber.</text>
+
+  <!-- LEFT: full load -->
+  <g transform="translate(112 208)">
+    <rect width="460" height="316" rx="26" fill="#edf6f1" stroke="#c6d8ce"/>
+    <text x="26" y="42" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Full load, back-to-back cycles</text>
+    <!-- chamber with full shelves -->
+    <g transform="translate(40 66)">
+      <rect width="180" height="180" rx="14" fill="#dfeee7" stroke="#4f7a68" stroke-width="2"/>
+      <g fill="#8fc0ab">
+        <rect x="16" y="20" width="148" height="24" rx="4"/>
+        <rect x="16" y="56" width="148" height="24" rx="4"/>
+        <rect x="16" y="92" width="148" height="24" rx="4"/>
+        <rect x="16" y="128" width="148" height="24" rx="4"/>
+      </g>
+    </g>
+    <g transform="translate(250 74)">
+      <text x="0" y="20" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="15">Fixed cost / cycle</text>
+      <text x="0" y="48" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">$X</text>
+      <text x="0" y="96" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="15">÷ full kilograms</text>
+      <rect x="0" y="116" width="150" height="46" rx="12" fill="#27453c"/>
+      <text x="16" y="145" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Low $/kg</text>
+    </g>
+  </g>
+
+  <!-- RIGHT: half load -->
+  <g transform="translate(628 208)">
+    <rect width="460" height="316" rx="26" fill="#f4ede6" stroke="#d8c9bc"/>
+    <text x="26" y="42" fill="#8a4a30" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Half load, short runs</text>
+    <g transform="translate(40 66)">
+      <rect width="180" height="180" rx="14" fill="#f2e2d8" stroke="#b45f42" stroke-width="2"/>
+      <g fill="#d99a7c">
+        <rect x="16" y="20" width="148" height="24" rx="4"/>
+        <rect x="16" y="56" width="148" height="24" rx="4"/>
+      </g>
+      <g fill="none" stroke="#c9a58f" stroke-width="2" stroke-dasharray="5 5">
+        <rect x="16" y="92" width="148" height="24" rx="4"/>
+        <rect x="16" y="128" width="148" height="24" rx="4"/>
+      </g>
+    </g>
+    <g transform="translate(250 74)">
+      <text x="0" y="20" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="15">Fixed cost / cycle</text>
+      <text x="0" y="48" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700">$X</text>
+      <text x="0" y="96" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="15">÷ fewer kilograms</text>
+      <rect x="0" y="116" width="150" height="46" rx="12" fill="#8a4a30"/>
+      <text x="16" y="145" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">High $/kg</text>
+    </g>
+  </g>
+
+  <text x="110" y="580" fill="#8a949b" font-family="Inter, Arial, sans-serif" font-size="13">Long cycles, partial loads, and fragmented scheduling all raise the machine cost each kilogram must carry.</text>
+</svg>

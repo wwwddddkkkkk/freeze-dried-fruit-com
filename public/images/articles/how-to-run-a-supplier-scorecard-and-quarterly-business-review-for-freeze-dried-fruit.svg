@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Supplier scorecard and quarterly business review for freeze-dried fruit</title>
+  <desc id="desc">Five weighted scorecard categories, quality, delivery, documentation, responsiveness, and cost stability, feed an overall rating. The rating flows into a quarterly business review that produces owned, dated corrective actions.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf2" stroke="#ccbda1" stroke-width="2"/>
+  <text x="112" y="134" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="34">From Scorecard to Action</text>
+  <text x="112" y="174" fill="#786956" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">A few weighted measures roll into one rating that drives the quarterly review</text>
+
+  <!-- left: weighted categories -->
+  <text x="300" y="240" fill="#5a4f3e" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" text-anchor="middle">Scored from your records</text>
+
+  <!-- category bars -->
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">
+    <!-- Quality -->
+    <text x="120" y="298" fill="#3c3226">Quality</text>
+    <rect x="120" y="308" width="360" height="26" rx="6" fill="#e7e0d2"/>
+    <rect x="120" y="308" width="320" height="26" rx="6" fill="#7a8a5e"/>
+    <text x="492" y="328" fill="#6f6052" font-size="14">wt 35%</text>
+    <!-- Delivery -->
+    <text x="120" y="362" fill="#3c3226">Delivery</text>
+    <rect x="120" y="372" width="360" height="26" rx="6" fill="#e7e0d2"/>
+    <rect x="120" y="372" width="250" height="26" rx="6" fill="#8fae6e"/>
+    <text x="492" y="392" fill="#6f6052" font-size="14">wt 25%</text>
+    <!-- Documentation -->
+    <text x="120" y="426" fill="#3c3226">Documentation</text>
+    <rect x="120" y="436" width="360" height="26" rx="6" fill="#e7e0d2"/>
+    <rect x="120" y="436" width="300" height="26" rx="6" fill="#b39152"/>
+    <text x="492" y="456" fill="#6f6052" font-size="14">wt 15%</text>
+    <!-- Responsiveness -->
+    <text x="120" y="490" fill="#3c3226">Responsiveness</text>
+    <rect x="120" y="500" width="360" height="26" rx="6" fill="#e7e0d2"/>
+    <rect x="120" y="500" width="280" height="26" rx="6" fill="#c79a4a"/>
+    <text x="492" y="520" fill="#6f6052" font-size="14">wt 15%</text>
+    <!-- Cost stability -->
+    <text x="120" y="554" fill="#3c3226">Cost stability</text>
+    <rect x="120" y="564" width="360" height="26" rx="6" fill="#e7e0d2"/>
+    <rect x="120" y="564" width="200" height="26" rx="6" fill="#c0563f"/>
+    <text x="492" y="584" fill="#6f6052" font-size="14">wt 10%</text>
+  </g>
+
+  <!-- arrow to rating -->
+  <line x1="560" y1="440" x2="700" y2="440" stroke="#9a8a72" stroke-width="3"/>
+  <polygon points="700,440 684,431 684,449" fill="#9a8a72"/>
+
+  <!-- overall rating dial -->
+  <circle cx="820" cy="440" r="92" fill="#fbf7ee" stroke="#cdbfa3" stroke-width="2"/>
+  <circle cx="820" cy="440" r="92" fill="none" stroke="#7a8a5e" stroke-width="10" stroke-dasharray="430 580" transform="rotate(-90 820 440)"/>
+  <text x="820" y="430" fill="#3c3226" font-family="Georgia, serif" font-size="34" text-anchor="middle">B+</text>
+  <text x="820" y="462" fill="#6f6052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">overall rating</text>
+  <text x="820" y="560" fill="#786956" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">trend vs last quarter &#8595;</text>
+
+  <!-- arrow to review -->
+  <line x1="930" y1="440" x2="1060" y2="440" stroke="#9a8a72" stroke-width="3"/>
+  <polygon points="1060,440 1044,431 1044,449" fill="#9a8a72"/>
+
+  <!-- quarterly review panel -->
+  <rect x="1080" y="300" width="384" height="300" rx="12" fill="#eef2e4" stroke="#a9bd86" stroke-width="2"/>
+  <text x="1272" y="338" fill="#41562b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" text-anchor="middle">Quarterly business review</text>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#3c3226">
+    <text x="1104" y="382">1. Review score + trend together</text>
+    <text x="1104" y="416">2. What went well (briefly)</text>
+    <text x="1104" y="450">3. What slipped, and why</text>
+    <text x="1104" y="484">4. Corrective actions:</text>
+    <text x="1128" y="514" fill="#6f6052" font-size="15">each with an owner + date</text>
+    <text x="1104" y="552">5. Reward good scores with</text>
+    <text x="1128" y="578" fill="#6f6052" font-size="15">volume / stability</text>
+  </g>
+
+  <text x="112" y="700" fill="#5a4f3e" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">The number is the prompt. The owned, dated actions are the output.</text>
+  <text x="112" y="792" fill="#8a7a64" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">Illustrative weights. Set your own, matched to what each dimension costs you when it slips.</text>
+</svg>

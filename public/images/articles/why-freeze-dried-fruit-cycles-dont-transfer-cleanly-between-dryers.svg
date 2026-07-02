@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Why freeze-dried fruit cycles don't transfer cleanly between dryers</title>
+  <desc id="desc">The same shelf temperature and pressure setpoints are applied to two different freeze dryers. On Dryer A the resulting product temperature curve stays inside the safe window. On Dryer B, with different heat transfer and vapor path, the same setpoints push the product temperature across the collapse line.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf2" stroke="#ccbda1" stroke-width="2"/>
+  <text x="112" y="134" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="34">Same Recipe, Different Machines</text>
+  <text x="112" y="174" fill="#786956" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Identical shelf temperature and pressure produce different product temperatures on each dryer</text>
+
+  <!-- shared setpoint box -->
+  <rect x="112" y="206" width="1376" height="56" rx="10" fill="#e7e0d2" stroke="#c3b69b" stroke-width="1.5"/>
+  <text x="132" y="241" fill="#5a4f3e" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">Recipe (inputs): shelf temperature schedule + chamber pressure + phase timing  &#8594;  sent unchanged to both machines</text>
+
+  <!-- ================= DRYER A ================= -->
+  <text x="430" y="318" fill="#41562b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" text-anchor="middle">Dryer A (original)</text>
+  <!-- plot frame A -->
+  <rect x="170" y="340" width="520" height="380" rx="8" fill="#fbf7ee" stroke="#cdbfa3" stroke-width="1.5"/>
+  <!-- collapse line A -->
+  <line x1="170" y1="400" x2="690" y2="400" stroke="#c0563f" stroke-width="3" stroke-dasharray="10 7"/>
+  <text x="680" y="392" fill="#a8412c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="end">collapse threshold</text>
+  <!-- safe window band A -->
+  <rect x="170" y="400" width="520" height="230" fill="#cfe0c0" opacity="0.55"/>
+  <text x="190" y="615" fill="#41562b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">safe window</text>
+  <!-- axes A -->
+  <line x1="170" y1="720" x2="690" y2="720" stroke="#9a8a72" stroke-width="2"/>
+  <text x="430" y="752" fill="#6f6052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">drying time &#8594;</text>
+  <text x="158" y="540" fill="#6f6052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle" transform="rotate(-90 158 540)">product temp</text>
+  <!-- product temp curve A (stays in window) -->
+  <path d="M190,660 C260,520 360,470 470,455 C560,443 640,448 670,452" fill="none" stroke="#2f6f4f" stroke-width="4"/>
+  <circle cx="670" cy="452" r="6" fill="#2f6f4f"/>
+  <text x="500" y="690" fill="#2f6f4f" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">stays below collapse &#8594; good pieces</text>
+
+  <!-- ================= DRYER B ================= -->
+  <text x="1170" y="318" fill="#a8412c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" text-anchor="middle">Dryer B (new machine)</text>
+  <!-- plot frame B -->
+  <rect x="910" y="340" width="520" height="380" rx="8" fill="#fbf7ee" stroke="#cdbfa3" stroke-width="1.5"/>
+  <!-- collapse line B -->
+  <line x1="910" y1="400" x2="1430" y2="400" stroke="#c0563f" stroke-width="3" stroke-dasharray="10 7"/>
+  <text x="1420" y="392" fill="#a8412c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="end">collapse threshold</text>
+  <!-- safe window band B -->
+  <rect x="910" y="400" width="520" height="230" fill="#cfe0c0" opacity="0.55"/>
+  <!-- danger band above -->
+  <rect x="910" y="360" width="520" height="40" fill="#f0d8cf" opacity="0.8"/>
+  <!-- axes B -->
+  <line x1="910" y1="720" x2="1430" y2="720" stroke="#9a8a72" stroke-width="2"/>
+  <text x="1170" y="752" fill="#6f6052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">drying time &#8594;</text>
+  <!-- product temp curve B (crosses collapse) -->
+  <path d="M930,665 C1010,500 1110,420 1230,388 C1320,365 1390,372 1410,378" fill="none" stroke="#c0563f" stroke-width="4"/>
+  <circle cx="1410" cy="378" r="6" fill="#c0563f"/>
+  <text x="1240" y="690" fill="#a8412c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">crosses collapse &#8594; soft centers / collapse</text>
+
+  <!-- difference callout between the two -->
+  <text x="800" y="430" fill="#6f6052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">different</text>
+  <text x="800" y="452" fill="#6f6052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">heat transfer,</text>
+  <text x="800" y="474" fill="#6f6052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">condenser,</text>
+  <text x="800" y="496" fill="#6f6052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">vapor path</text>
+
+  <text x="112" y="800" fill="#8a7a64" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">Schematic. The recipe fixes the settings; each machine turns them into a different product temperature, so the cycle must be re-mapped on the new dryer.</text>
+</svg>

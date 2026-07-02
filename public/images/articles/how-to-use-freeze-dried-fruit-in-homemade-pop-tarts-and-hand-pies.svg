@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Using freeze-dried fruit in homemade pop-tarts and hand pies</title>
+  <desc id="desc">A cross-section of a hand pie showing a thick freeze-dried fruit paste filling kept clear of a firmly crimped, dough-on-dough sealed edge, with a vent cut in the top crust so steam escapes upward. A side panel shows the filling built from fruit powder, sugar, thickener, and a small controlled amount of liquid.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf2" stroke="#ccbda1" stroke-width="2"/>
+  <text x="112" y="134" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="34">A Hand Pie That Doesn't Leak</text>
+  <text x="112" y="174" fill="#786956" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Thick, low-water filling + clean sealed border + a vent on top</text>
+
+  <!-- ===== cross section of pie ===== -->
+  <!-- bottom crust -->
+  <path d="M180,560 Q200,520 260,518 L1060,518 Q1120,520 1140,560 L1140,600 Q1120,612 1060,612 L260,612 Q200,612 180,600 Z" fill="#e3c79a" stroke="#c4a36b" stroke-width="3"/>
+  <!-- top crust (domed) -->
+  <path d="M180,560 Q200,420 660,408 Q1120,420 1140,560 L1140,560 Q1120,520 1060,518 L260,518 Q200,520 180,560 Z" fill="#edd4a6" stroke="#c4a36b" stroke-width="3"/>
+  <!-- filling (thick paste) -->
+  <path d="M320,560 Q330,480 470,474 L850,474 Q990,480 1000,560 Q990,520 850,516 L470,516 Q330,520 320,560 Z" fill="#c2354a"/>
+  <ellipse cx="500" cy="520" rx="10" ry="6" fill="#d96b7c"/>
+  <ellipse cx="640" cy="525" rx="9" ry="5" fill="#d96b7c"/>
+  <ellipse cx="780" cy="520" rx="10" ry="6" fill="#d96b7c"/>
+  <text x="660" y="500" fill="#fbeaee" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" text-anchor="middle">thick freeze-dried fruit paste</text>
+
+  <!-- vent -->
+  <line x1="660" y1="412" x2="660" y2="452" stroke="#8a5a2a" stroke-width="4" stroke-linecap="round"/>
+  <path d="M660,400 l-26,-34 m26,34 l26,-34" stroke="#9a8a72" stroke-width="2" fill="none"/>
+  <path d="M634,366 q26,-20 52,0" stroke="#9a8a72" stroke-width="2" fill="none"/>
+  <text x="660" y="352" fill="#6f6052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" text-anchor="middle">vent: steam escapes up</text>
+
+  <!-- crimped sealed edge callouts (left + right) -->
+  <g stroke="#8a6a3a" stroke-width="2">
+    <line x1="226" y1="540" x2="226" y2="580"/>
+    <line x1="244" y1="538" x2="244" y2="582"/>
+    <line x1="262" y1="540" x2="262" y2="580"/>
+    <line x1="1058" y1="540" x2="1058" y2="580"/>
+    <line x1="1076" y1="538" x2="1076" y2="582"/>
+    <line x1="1094" y1="540" x2="1094" y2="580"/>
+  </g>
+  <text x="244" y="662" fill="#41562b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" text-anchor="middle">clear, sealed</text>
+  <text x="244" y="684" fill="#41562b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" text-anchor="middle">dough-on-dough edge</text>
+  <text x="1076" y="662" fill="#41562b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" text-anchor="middle">no filling in</text>
+  <text x="1076" y="684" fill="#41562b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" text-anchor="middle">the crimp</text>
+
+  <!-- margin markers -->
+  <line x1="300" y1="560" x2="320" y2="560" stroke="#c0563f" stroke-width="3"/>
+  <line x1="1000" y1="560" x2="1020" y2="560" stroke="#c0563f" stroke-width="3"/>
+
+  <!-- ===== filling recipe panel ===== -->
+  <rect x="1180" y="300" width="288" height="372" rx="12" fill="#fbf7ee" stroke="#cdbfa3" stroke-width="2"/>
+  <text x="1324" y="340" fill="#3c3226" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" text-anchor="middle">The filling</text>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" fill="#3c3226">
+    <text x="1204" y="386">+ freeze-dried fruit powder</text>
+    <text x="1204" y="424">+ a little sugar</text>
+    <text x="1204" y="462">+ starch or pectin</text>
+    <text x="1204" y="500">+ liquid, added slowly</text>
+  </g>
+  <line x1="1204" y1="522" x2="1444" y2="522" stroke="#cdbfa3" stroke-width="1.5"/>
+  <text x="1324" y="556" fill="#41562b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" text-anchor="middle">= thick spreadable</text>
+  <text x="1324" y="580" fill="#41562b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" text-anchor="middle">paste</text>
+  <text x="1324" y="624" fill="#6f6052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">should hold a soft</text>
+  <text x="1324" y="646" fill="#6f6052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">peak on a spoon</text>
+
+  <text x="112" y="780" fill="#8a7a64" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">Schematic. Low-water filling means less steam and no runny juice, so the crust stays crisp and the seams hold.</text>
+</svg>

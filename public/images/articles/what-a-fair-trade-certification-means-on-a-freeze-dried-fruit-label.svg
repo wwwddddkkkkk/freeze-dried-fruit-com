@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What a Fair Trade certification means on a freeze-dried fruit label</title>
+  <desc id="desc">A Fair Trade seal on a freeze-dried fruit bag certifies sourcing terms and social standards. It does not certify taste and texture, organic status, food safety, or health benefits, which are governed separately.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf2" stroke="#ccbda1" stroke-width="2"/>
+  <text x="112" y="134" fill="#3c3226" font-family="Georgia, 'Times New Roman', serif" font-size="34">What the Seal Does and Doesn't Cover</text>
+  <text x="112" y="174" fill="#786956" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Fair Trade is a sourcing claim, not a quality, organic, or safety claim</text>
+
+  <!-- central seal -->
+  <circle cx="800" cy="300" r="70" fill="#eef2e4" stroke="#7a8a5e" stroke-width="4"/>
+  <text x="800" y="292" fill="#41562b" font-family="Georgia, serif" font-size="20" text-anchor="middle">FAIR</text>
+  <text x="800" y="318" fill="#41562b" font-family="Georgia, serif" font-size="20" text-anchor="middle">TRADE</text>
+  <text x="800" y="404" fill="#6f6052" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">on a freeze-dried fruit bag</text>
+
+  <!-- DOES certify panel -->
+  <rect x="120" y="470" width="640" height="300" rx="14" fill="#e3ecd6" stroke="#8fae6e" stroke-width="2"/>
+  <text x="150" y="512" fill="#41562b" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">&#10003; Does certify (sourcing)</text>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#3c3226">
+    <text x="150" y="560">Minimum / guaranteed price to producers</text>
+    <text x="150" y="600">Premium reinvested by producer groups</text>
+    <text x="150" y="640">Labor standards and worker protections</text>
+    <text x="150" y="680">Often: environmental growing criteria</text>
+    <text x="150" y="724" fill="#6f6052" font-size="15">Verified by a third-party program</text>
+  </g>
+
+  <!-- does NOT certify panel -->
+  <rect x="840" y="470" width="640" height="300" rx="14" fill="#f0e2da" stroke="#cd9f8e" stroke-width="2"/>
+  <text x="870" y="512" fill="#a8412c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22">&#10007; Does not certify</text>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" fill="#3c3226">
+    <text x="870" y="560">Taste, texture, crunch, breakage</text>
+    <text x="870" y="600">Moisture, water activity, safety limits</text>
+    <text x="870" y="640">Organic status (separate seal)</text>
+    <text x="870" y="680">Nutrition or health benefits</text>
+    <text x="870" y="724" fill="#6f6052" font-size="15">Judge these on spec sheet + sample</text>
+  </g>
+
+  <!-- arrows from seal to panels -->
+  <line x1="740" y1="350" x2="470" y2="468" stroke="#9a8a72" stroke-width="2.5"/>
+  <polygon points="470,468 480,449 489,460" fill="#9a8a72"/>
+  <line x1="860" y1="350" x2="1130" y2="468" stroke="#9a8a72" stroke-width="2.5"/>
+  <polygon points="1130,468 1111,460 1120,449" fill="#9a8a72"/>
+
+  <text x="112" y="812" fill="#8a7a64" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">Note: several programs use the words "fair trade." Look for a recognized seal, and check how much of a blend is actually certified.</text>
+</svg>

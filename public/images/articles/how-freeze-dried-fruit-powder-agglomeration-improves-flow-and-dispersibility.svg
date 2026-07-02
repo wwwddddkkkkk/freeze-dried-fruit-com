@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How agglomeration improves freeze-dried fruit powder flow and dispersibility</title>
+  <desc id="desc">Comparison diagram: loose fine fruit powder that cakes and floats versus agglomerated porous granules that flow and disperse in liquid.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="70" y="70" width="1060" height="540" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+
+  <text x="110" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Fine powder fights back; granules behave</text>
+  <text x="110" y="162" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Binding fruit fines into porous granules changes flow, dosing, and how it wets.</text>
+
+  <!-- LEFT: fine powder -->
+  <g transform="translate(112 214)">
+    <rect width="460" height="300" rx="26" fill="#f4ede6" stroke="#d8c9bc"/>
+    <text x="26" y="42" fill="#8a4a30" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Fine powder (milled only)</text>
+
+    <!-- scattered fine dots -->
+    <g fill="#b45f42">
+      <circle cx="60" cy="86" r="4"/><circle cx="82" cy="100" r="3"/><circle cx="102" cy="82" r="4"/>
+      <circle cx="120" cy="104" r="3"/><circle cx="140" cy="88" r="4"/><circle cx="72" cy="120" r="3"/>
+      <circle cx="110" cy="126" r="4"/><circle cx="150" cy="118" r="3"/><circle cx="92" cy="140" r="3"/>
+      <circle cx="132" cy="146" r="4"/><circle cx="58" cy="150" r="3"/><circle cx="164" cy="140" r="3"/>
+    </g>
+    <text x="46" y="188" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="14">Cohesive, hygroscopic, bridges in the hopper</text>
+
+    <!-- glass with floating raft -->
+    <g transform="translate(300 70)">
+      <path d="M8 0 L112 0 L102 150 L18 150 Z" fill="#e7f0ee" stroke="#7b867f" stroke-width="2"/>
+      <rect x="20" y="70" width="80" height="72" fill="#cfe0dc"/>
+      <rect x="24" y="66" width="72" height="10" rx="4" fill="#b45f42"/>
+      <text x="6" y="176" fill="#8a4a30" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">Floats &amp; clumps</text>
+    </g>
+    <text x="26" y="286" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="13">Outer particles gel, trapping dry powder inside</text>
+  </g>
+
+  <!-- RIGHT: agglomerated -->
+  <g transform="translate(628 214)">
+    <rect width="460" height="300" rx="26" fill="#edf6f1" stroke="#c6d8ce"/>
+    <text x="26" y="42" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Agglomerated granules</text>
+
+    <!-- porous granules -->
+    <g>
+      <circle cx="70" cy="100" r="20" fill="#cadccf" stroke="#4f7a68" stroke-width="2"/>
+      <circle cx="70" cy="100" r="9" fill="#edf6f1"/>
+      <circle cx="128" cy="92" r="18" fill="#cadccf" stroke="#4f7a68" stroke-width="2"/>
+      <circle cx="128" cy="92" r="8" fill="#edf6f1"/>
+      <circle cx="100" cy="140" r="17" fill="#cadccf" stroke="#4f7a68" stroke-width="2"/>
+      <circle cx="100" cy="140" r="7" fill="#edf6f1"/>
+    </g>
+    <text x="26" y="188" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="14">Porous granules pour and dose consistently</text>
+
+    <!-- glass dispersing -->
+    <g transform="translate(300 70)">
+      <path d="M8 0 L112 0 L102 150 L18 150 Z" fill="#e7f0ee" stroke="#7b867f" stroke-width="2"/>
+      <rect x="18" y="30" width="84" height="112" fill="#bcd6cd"/>
+      <g fill="#4f7a68">
+        <circle cx="40" cy="60" r="3"/><circle cx="66" cy="80" r="3"/><circle cx="86" cy="100" r="3"/>
+        <circle cx="52" cy="110" r="3"/><circle cx="76" cy="55" r="3"/><circle cx="34" cy="92" r="3"/>
+      </g>
+      <text x="8" y="176" fill="#27453c" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">Wets, sinks, disperses</text>
+    </g>
+    <text x="26" y="286" fill="#466258" font-family="Inter, Arial, sans-serif" font-size="13">Liquid wicks into pores before a skin can form</text>
+  </g>
+
+  <text x="110" y="576" fill="#8a949b" font-family="Inter, Arial, sans-serif" font-size="13">Agglomeration fixes handling, not moisture sensitivity — water activity and barrier film still do the real work.</text>
+</svg>

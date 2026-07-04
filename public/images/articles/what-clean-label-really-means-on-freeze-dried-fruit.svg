@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What clean label really means on freeze-dried fruit</title>
+  <desc id="desc">On the left, a short one-ingredient list wrapped in a clean-label marketing halo. On the right, the spec-sheet fields that actually determine quality: moisture, water activity, piece integrity, color, and origin.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="192" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">A Short List Isn't a Spec</text>
+  <text x="112" y="232" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="23">"Clean label" says what's left out — not how good what remains is.</text>
+
+  <!-- Left: clean label halo -->
+  <rect x="104" y="290" width="620" height="442" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="142" y="336" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">WHAT THE FRONT SAYS</text>
+  <!-- halo -->
+  <ellipse cx="414" cy="500" rx="210" ry="120" fill="none" stroke="#c9a53b" stroke-width="3" stroke-dasharray="6 8"/>
+  <text x="414" y="440" text-anchor="middle" fill="#a9862a" font-family="'DM Serif Display', Georgia, serif" font-size="30">"CLEAN LABEL"</text>
+  <rect x="284" y="470" width="260" height="120" rx="12" fill="#fcfaf5" stroke="#294643" stroke-width="1.5"/>
+  <text x="414" y="512" text-anchor="middle" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" letter-spacing="2">INGREDIENTS</text>
+  <text x="414" y="556" text-anchor="middle" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="34">Strawberries.</text>
+  <text x="142" y="700" fill="#8f3a26" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Unregulated term &#183; easy for plain fruit &#183; proves little</text>
+
+  <!-- Right: real spec -->
+  <rect x="756" y="290" width="708" height="442" rx="24" fill="#17312f"/>
+  <text x="792" y="336" fill="#a7c7bd" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">WHAT THE SPEC SHEET SAYS</text>
+  <g font-family="'Source Sans 3', Arial, sans-serif" font-size="22" fill="#ffffff">
+    <rect x="792" y="360" width="636" height="58" rx="10" fill="#24433d"/>
+    <text x="814" y="398">Moisture &amp; water activity — crunch, shelf life</text>
+    <rect x="792" y="428" width="636" height="58" rx="10" fill="#24433d"/>
+    <text x="814" y="466">Piece integrity — whole vs broken vs fines</text>
+    <rect x="792" y="496" width="636" height="58" rx="10" fill="#24433d"/>
+    <text x="814" y="534">Color &amp; defects — oxidation, browning</text>
+    <rect x="792" y="564" width="636" height="58" rx="10" fill="#24433d"/>
+    <text x="814" y="602">Origin &amp; variety — flavor, consistency</text>
+  </g>
+  <text x="792" y="700" fill="#cfe0d8" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">None of this appears in the ingredient list</text>
+
+  <rect x="104" y="756" width="1360" height="48" rx="18" fill="#203836"/>
+  <text x="142" y="787" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Use "clean label" to filter — then verify with the COA and a sample in your hand.</text>
+</svg>

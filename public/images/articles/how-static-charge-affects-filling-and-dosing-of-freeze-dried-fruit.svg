@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How static charge affects filling and dosing of freeze-dried fruit</title>
+  <desc id="desc">A filling hopper on the left shows charged fines clinging to the walls and an uneven fill weight; on the right, grounding, humidity control, and ionization drain the charge and produce even fills.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="112" y="192" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">Dry Enough to Hold a Charge</text>
+  <text x="112" y="232" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="23">Static build-up turns light, very dry fruit into clinging fines and uneven fills.</text>
+
+  <!-- Left panel: charged / uncontrolled -->
+  <rect x="104" y="286" width="658" height="446" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="142" y="332" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">UNGROUNDED &#183; DRY AIR</text>
+  <!-- hopper funnel -->
+  <path d="M250 372 H616 L470 560 H396 Z" fill="#dfeae2" stroke="#294643" stroke-width="2"/>
+  <!-- charged fines clinging -->
+  <g fill="#b7472f">
+    <circle cx="268" cy="400" r="7"/><circle cx="300" cy="430" r="6"/><circle cx="286" cy="470" r="5"/>
+    <circle cx="598" cy="400" r="7"/><circle cx="566" cy="432" r="6"/><circle cx="584" cy="472" r="5"/>
+    <circle cx="330" cy="500" r="6"/><circle cx="540" cy="500" r="6"/>
+  </g>
+  <!-- plus signs indicating charge -->
+  <g stroke="#b7472f" stroke-width="3">
+    <line x1="330" y1="392" x2="346" y2="392"/><line x1="338" y1="384" x2="338" y2="400"/>
+    <line x1="520" y1="392" x2="536" y2="392"/><line x1="528" y1="384" x2="528" y2="400"/>
+    <line x1="424" y1="360" x2="440" y2="360"/><line x1="432" y1="352" x2="432" y2="368"/>
+  </g>
+  <!-- scale bucket uneven -->
+  <rect x="360" y="576" width="146" height="96" rx="10" fill="#eadfca" stroke="#294643" stroke-width="2"/>
+  <path d="M372 660 Q404 604 433 648 Q462 596 494 664" fill="none" stroke="#b7472f" stroke-width="3"/>
+  <text x="142" y="712" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Fines cling &#183; erratic fills &#183; dust on the seal zone</text>
+
+  <!-- Right panel: controlled -->
+  <rect x="838" y="286" width="658" height="446" rx="24" fill="#17312f"/>
+  <text x="876" y="332" fill="#a7c7bd" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">GROUNDED &#183; RH WINDOW &#183; IONIZED</text>
+  <!-- hopper funnel -->
+  <path d="M984 372 H1350 L1204 560 H1130 Z" fill="#24433d" stroke="#7fa89c" stroke-width="2"/>
+  <!-- clean even stream -->
+  <g fill="#cfe0d8">
+    <circle cx="1150" cy="420" r="7"/><circle cx="1184" cy="440" r="7"/><circle cx="1160" cy="470" r="7"/>
+    <circle cx="1196" cy="500" r="7"/><circle cx="1168" cy="530" r="7"/>
+  </g>
+  <!-- ground symbol -->
+  <g stroke="#7fa89c" stroke-width="3">
+    <line x1="1310" y1="470" x2="1310" y2="512"/>
+    <line x1="1288" y1="512" x2="1332" y2="512"/>
+    <line x1="1296" y1="524" x2="1324" y2="524"/>
+    <line x1="1304" y1="536" x2="1316" y2="536"/>
+  </g>
+  <!-- even scale bucket -->
+  <rect x="1094" y="576" width="146" height="96" rx="10" fill="#24433d" stroke="#7fa89c" stroke-width="2"/>
+  <line x1="1106" y1="632" x2="1228" y2="632" stroke="#cfe0d8" stroke-width="3"/>
+  <text x="876" y="712" fill="#cfe0d8" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Charge drains &#183; steady weights &#183; clean seals</text>
+
+  <rect x="104" y="756" width="1392" height="48" rx="18" fill="#203836"/>
+  <text x="142" y="787" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">The fruit is fine — the fix is on the equipment and in the room: ground it, control humidity, slow the drop.</text>
+</svg>

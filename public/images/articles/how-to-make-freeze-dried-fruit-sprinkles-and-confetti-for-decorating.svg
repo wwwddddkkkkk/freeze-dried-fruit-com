@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to make freeze-dried fruit sprinkles and confetti for decorating</title>
+  <desc id="desc">A left-to-right crush scale from whole piece to shards to confetti flakes to fine powder, with a sieve separating confetti sprinkles above from powder below, then confetti scattered onto a set frosting surface.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">APPLICATIONS</text>
+  <text x="112" y="192" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">Stop at Confetti, Not Powder</text>
+  <text x="112" y="232" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="23">Crush in stages, sieve the flakes from the dust, and add it late so it stays bright.</text>
+
+  <!-- crush scale -->
+  <text x="112" y="322" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="2">THE CRUSH SCALE</text>
+  <g>
+    <!-- whole -->
+    <rect x="112" y="344" width="300" height="150" rx="16" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+    <path d="M262 380 q40 0 40 55 q0 55 -40 78 q-40 -23 -40 -78 q0 -55 40 -55 z" fill="#c0473a"/>
+    <text x="262" y="470" text-anchor="middle" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Whole piece</text>
+    <!-- shards -->
+    <rect x="440" y="344" width="300" height="150" rx="16" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+    <g fill="#c0473a"><path d="M540 388 l34 12 -20 28 z"/><path d="M600 400 l30 22 -26 20 z"/><path d="M556 430 l28 18 -22 16 z"/></g>
+    <text x="590" y="470" text-anchor="middle" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Shards</text>
+    <!-- confetti (highlight) -->
+    <rect x="768" y="344" width="300" height="150" rx="16" fill="#fbeecb" stroke="#c9a53b" stroke-width="3"/>
+    <g fill="#c0473a"><rect x="838" y="392" width="12" height="12" rx="2"/><rect x="866" y="410" width="11" height="11" rx="2"/><rect x="892" y="388" width="12" height="12" rx="2"/><rect x="918" y="414" width="11" height="11" rx="2"/><rect x="852" y="430" width="12" height="12" rx="2"/><rect x="906" y="432" width="11" height="11" rx="2"/><rect x="880" y="428" width="11" height="11" rx="2"/></g>
+    <text x="918" y="470" text-anchor="middle" fill="#8f6a12" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="700">Confetti &#8212; stop here</text>
+    <!-- powder -->
+    <rect x="1096" y="344" width="300" height="150" rx="16" fill="#17312f"/>
+    <g fill="#e2a89e"><circle cx="1180" cy="400" r="3"/><circle cx="1200" cy="410" r="3"/><circle cx="1220" cy="398" r="3"/><circle cx="1240" cy="412" r="3"/><circle cx="1190" cy="424" r="3"/><circle cx="1214" cy="426" r="3"/><circle cx="1236" cy="422" r="3"/><circle cx="1258" cy="408" r="3"/><circle cx="1170" cy="414" r="3"/></g>
+    <text x="1246" y="470" text-anchor="middle" fill="#cfe0d8" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Powder (dusting)</text>
+  </g>
+  <!-- arrows -->
+  <g stroke="#294643" stroke-width="3" fill="none">
+    <path d="M418 419 H434" marker-end="url(#a2)"/>
+    <path d="M746 419 H762" marker-end="url(#a2)"/>
+    <path d="M1074 419 H1090" marker-end="url(#a2)"/>
+  </g>
+  <defs><marker id="a2" markerWidth="12" markerHeight="12" refX="8" refY="6" orient="auto"><path d="M0 0 L10 6 L0 12 Z" fill="#294643"/></marker></defs>
+
+  <!-- sieve + application -->
+  <rect x="112" y="522" width="620" height="210" rx="20" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="140" y="562" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="2">SIEVE &#8594; TWO PRODUCTS</text>
+  <rect x="150" y="580" width="300" height="18" rx="6" fill="#c9a53b"/>
+  <g stroke="#8f6a12" stroke-width="2"><line x1="170" y1="580" x2="170" y2="598"/><line x1="210" y1="580" x2="210" y2="598"/><line x1="250" y1="580" x2="250" y2="598"/><line x1="290" y1="580" x2="290" y2="598"/><line x1="330" y1="580" x2="330" y2="598"/><line x1="370" y1="580" x2="370" y2="598"/><line x1="410" y1="580" x2="410" y2="598"/></g>
+  <text x="470" y="596" fill="#8f3a26" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Flakes stay = sprinkles</text>
+  <text x="470" y="664" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Dust falls = powder</text>
+  <g fill="#c0473a"><rect x="180" y="636" width="10" height="10" rx="2"/><rect x="230" y="646" width="9" height="9" rx="2"/><rect x="300" y="640" width="10" height="10" rx="2"/><rect x="360" y="650" width="9" height="9" rx="2"/></g>
+
+  <rect x="756" y="522" width="640" height="210" rx="20" fill="#17312f"/>
+  <text x="784" y="562" fill="#a7c7bd" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="2">APPLY LATE, ON A SET SURFACE</text>
+  <path d="M784 690 h580 v-70 q0 -26 -40 -26 h-500 q-40 0 -40 26 z" fill="#3a2f4a"/>
+  <path d="M784 624 q60 -22 120 0 q60 22 120 0 q60 -22 120 0 q60 22 120 0 q60 -22 100 0 v0 h-580 z" fill="#e8dced"/>
+  <g fill="#e0524a"><rect x="840" y="600" width="12" height="12" rx="2"/><rect x="920" y="606" width="11" height="11" rx="2"/><rect x="1000" y="598" width="12" height="12" rx="2"/><rect x="1090" y="606" width="11" height="11" rx="2"/><rect x="1180" y="600" width="12" height="12" rx="2"/><rect x="1270" y="606" width="11" height="11" rx="2"/></g>
+  <text x="784" y="716" fill="#cfe0d8" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Dry, thirsty fruit softens on anything wet &#8212; decorate near serving</text>
+
+  <rect x="112" y="756" width="1352" height="48" rx="18" fill="#203836"/>
+  <text x="140" y="787" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Real-fruit color and flavor, no dye or added sugar — as long as you keep it dry until it lands.</text>
+</svg>

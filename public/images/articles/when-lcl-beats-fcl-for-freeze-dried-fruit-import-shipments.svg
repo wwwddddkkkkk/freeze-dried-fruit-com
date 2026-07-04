@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">When LCL beats FCL for freeze-dried fruit import shipments</title>
+  <desc id="desc">Diagram showing a container that cubes out on volume before reaching its weight limit, and a break-even comparison between LCL and FCL freight for freeze-dried fruit.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="192" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">Light Cargo Cubes Out First</text>
+  <text x="112" y="232" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="23">Freeze-dried fruit fills a container's space long before its weight — so pick freight by volume.</text>
+
+  <!-- Container fill gauges -->
+  <text x="112" y="308" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">ONE FULL CONTAINER OF FREEZE-DRIED FRUIT</text>
+
+  <!-- Volume gauge full -->
+  <text x="112" y="356" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Volume used</text>
+  <rect x="112" y="372" width="620" height="46" rx="10" fill="#e7ded0" stroke="#c7bda8"/>
+  <rect x="112" y="372" width="612" height="46" rx="10" fill="#8d5c18"/>
+  <text x="740" y="403" fill="#8d5c18" font-family="'JetBrains Mono', monospace" font-size="22">~99% cubed out</text>
+
+  <!-- Weight gauge low -->
+  <text x="112" y="452" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Weight used</text>
+  <rect x="112" y="468" width="620" height="46" rx="10" fill="#e7ded0" stroke="#c7bda8"/>
+  <rect x="112" y="468" width="150" height="46" rx="10" fill="#294643"/>
+  <text x="740" y="499" fill="#294643" font-family="'JetBrains Mono', monospace" font-size="22">~25% of payload</text>
+
+  <text x="112" y="566" fill="#465b57" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Fill it full and most of the freight bill is paying to move air.</text>
+
+  <!-- Decision cards -->
+  <rect x="112" y="600" width="640" height="200" rx="20" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="140" y="642" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">LCL WINS WHEN</text>
+  <text x="140" y="684" fill="#33534d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">&#8226; Small / trial orders, low CBM</text>
+  <text x="140" y="716" fill="#33534d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">&#8226; Cash and warehouse space are tight</text>
+  <text x="140" y="748" fill="#33534d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">&#8226; Supplier still unproven, want flexibility</text>
+  <text x="140" y="784" fill="#8d5c18" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Pay per cubic meter, plus handling fees</text>
+
+  <rect x="848" y="286" width="648" height="514" rx="20" fill="#17312f"/>
+  <text x="880" y="330" fill="#a7c7bd" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">FCL WINS WHEN</text>
+  <text x="880" y="374" fill="#ffffff" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">&#8226; Volume passes the break-even CBM</text>
+  <text x="880" y="410" fill="#ffffff" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">&#8226; Lowest unit cost matters most</text>
+  <text x="880" y="446" fill="#ffffff" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">&#8226; Fewer touchpoints = less damage</text>
+  <text x="880" y="482" fill="#ffffff" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">&#8226; Predictable transit timing</text>
+
+  <line x1="880" y1="520" x2="1464" y2="520" stroke="#3c5b55" stroke-width="1.5"/>
+  <text x="880" y="566" fill="#cfe0d8" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" letter-spacing="2">DECIDE IN THIS ORDER</text>
+  <text x="880" y="606" fill="#eef4f0" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">1. Estimate total cubic meters (CBM)</text>
+  <text x="880" y="642" fill="#eef4f0" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">2. Quote both, all-in, per finished unit</text>
+  <text x="880" y="678" fill="#eef4f0" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">3. Weigh cash, shelf life, space, damage</text>
+  <rect x="880" y="708" width="584" height="66" rx="14" fill="#203836"/>
+  <text x="906" y="740" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="700">Compare on cost per CBM and per unit —</text>
+  <text x="906" y="764" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="700">not price per kilo, which this product lacks.</text>
+</svg>

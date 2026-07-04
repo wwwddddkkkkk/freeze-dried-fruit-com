@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to read foreign material and extraneous matter limits on a freeze-dried fruit spec sheet</title>
+  <desc id="desc">Annotated spec-sheet excerpt separating a numeric allowance for extraneous plant matter from a zero-tolerance limit for hazardous foreign material, with the four elements that make a limit enforceable.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="192" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="44">Two Limits That Should Never Share a Line</text>
+  <text x="112" y="232" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="23">Extraneous matter gets an allowance. Hazardous foreign material gets a controlled zero.</text>
+
+  <!-- Extraneous card -->
+  <rect x="104" y="286" width="658" height="330" rx="20" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="140" y="330" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">EXTRANEOUS MATTER</text>
+  <text x="140" y="364" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Product-related, mostly cosmetic</text>
+  <rect x="140" y="388" width="586" height="196" rx="14" fill="#fcfaf6" stroke="#c7bda8"/>
+  <text x="168" y="428" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Stem / cap pieces</text>
+  <text x="560" y="428" fill="#17312f" font-family="'JetBrains Mono', monospace" font-size="20">&#8804; 2 / 100 g</text>
+  <text x="168" y="470" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Loose skin / peel</text>
+  <text x="560" y="470" fill="#17312f" font-family="'JetBrains Mono', monospace" font-size="20">&#8804; 0.5% w/w</text>
+  <text x="168" y="512" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Seed / pit fragments</text>
+  <text x="560" y="512" fill="#17312f" font-family="'JetBrains Mono', monospace" font-size="20">&#8804; 1 / 100 g</text>
+  <text x="168" y="560" fill="#8d5c18" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Numeric, unit-bearing, by type &#8212; not "minimal"</text>
+
+  <!-- Foreign material card -->
+  <rect x="838" y="286" width="658" height="330" rx="20" fill="#17312f"/>
+  <text x="874" y="330" fill="#e5b7a0" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">FOREIGN MATERIAL</text>
+  <text x="874" y="364" fill="#a7c7bd" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Hazardous &#8212; never belongs in food</text>
+  <rect x="874" y="388" width="586" height="196" rx="14" fill="#fcfaf6"/>
+  <text x="902" y="428" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Glass / metal / hard plastic</text>
+  <text x="1300" y="428" fill="#9a2f1f" font-family="'JetBrains Mono', monospace" font-size="20">ZERO</text>
+  <text x="902" y="470" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Wood / stone</text>
+  <text x="1300" y="470" fill="#9a2f1f" font-family="'JetBrains Mono', monospace" font-size="20">ZERO</text>
+  <text x="902" y="520" fill="#33534d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Backed by: metal detection, X-ray,</text>
+  <text x="902" y="546" fill="#33534d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">sieving, optical sort, magnets</text>
+  <text x="874" y="606" fill="#e0cdbe" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">A zero is only real if the controls exist and are recorded.</text>
+
+  <!-- Enforceable bar -->
+  <text x="112" y="668" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">A LIMIT IS ENFORCEABLE ONLY WITH ALL FOUR</text>
+  <rect x="104" y="690" width="340" height="60" rx="14" fill="#dfeae2" stroke="#294643"/>
+  <text x="128" y="728" fill="#1c3a35" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">1&#160;&#160;LIMIT</text>
+  <rect x="458" y="690" width="340" height="60" rx="14" fill="#dfeae2" stroke="#294643"/>
+  <text x="482" y="728" fill="#1c3a35" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">2&#160;&#160;UNIT</text>
+  <rect x="812" y="690" width="340" height="60" rx="14" fill="#dfeae2" stroke="#294643"/>
+  <text x="836" y="728" fill="#1c3a35" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">3&#160;&#160;METHOD</text>
+  <rect x="1166" y="690" width="330" height="60" rx="14" fill="#dfeae2" stroke="#294643"/>
+  <text x="1190" y="728" fill="#1c3a35" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">4&#160;&#160;SAMPLING</text>
+
+  <rect x="104" y="768" width="1392" height="44" rx="16" fill="#203836"/>
+  <text x="128" y="797" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="700">Read it before a problem: this section defines what you can reject &#8212; and what you have already accepted.</text>
+</svg>

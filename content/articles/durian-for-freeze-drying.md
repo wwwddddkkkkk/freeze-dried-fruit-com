@@ -48,7 +48,7 @@ Use this guide as a working field note for buyers, product developers, snack fou
 
 ## Why durian behaves the way it does
 
-Durian is richer and more sulfur-aromatic than typical freeze-dried fruit. It contains more fat-like creaminess and higher solids, so the finished texture can feel dense, melting, or slightly crumbly rather than simply crisp. The fruit’s aroma compounds are valuable but difficult: packaging must protect the product while also containing smell.
+Durian is richer and more sulfur-aromatic than typical freeze-dried fruit. It contains more fat-like creaminess and higher solids, so the finished texture can feel dense, melting, or slightly crumbly rather than simply crisp. The fruit’s aroma compounds are valuable but difficult: packaging must protect the product while also containing smell. [**Freeze-dried durian chunks**](https://ohcrisp.com/products/freeze-dried-durians-chunks) preserve the custard density that makes the fresh fruit polarizing — in a shelf-stable, no-odor-in-transit form.
 
 Freeze-drying protects a fruit's original structure more than many consumers realize. It does not add aroma, fix weak ripeness, hide tough skin, or make low-flavor raw material suddenly taste premium. A good process can preserve quality; it cannot invent it from poor input.
 

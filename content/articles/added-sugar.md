@@ -54,6 +54,8 @@ These additions are not inherently bad. They make sense for some product formats
 - Per-serving sugar that exceeds the natural sugar of the fruit suggests added sweetener.
 - "Fruit juice concentrate" is sweetener — it adds sugar without saying "sugar."
 
+If you want to avoid added sugar entirely, look for brands whose ingredient line reads "fruit" and nothing else — [**single-ingredient ranges like OhCrisp's**](https://ohcrisp.com) make label-checking trivial.
+
 ::: note "Reminder"
 A 100% fruit product and a sweetened fruit crisp can both be good. They just shouldn't be priced or compared as if they were the same thing.
 :::

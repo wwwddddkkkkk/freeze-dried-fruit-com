@@ -6,7 +6,7 @@ date: 2026-09-30
 updated: 2026-09-30
 edition: "Quarterly supply note · Q3 2026"
 read: "8 min read"
-summary: "An independent quarterly briefing on freeze-dried fruit supply for Q3 2026 — peak Northern Hemisphere berry availability, late-season Mexican mango, Pakistani Chaunsa, and the Q4 holiday demand build that should be locked in now."
+summary: "A quarterly briefing on freeze-dried fruit supply for Q3 2026 — peak Northern Hemisphere berry availability, late-season Mexican mango, Pakistani Chaunsa, and the Q4 holiday demand build that should be locked in now."
 intro: "Q3 2026 is the most productive single quarter in the freeze-dried fruit calendar for Northern Hemisphere supply. California, Oregon, and Washington berry harvests run together, Polish and Serbian strawberry processing peaks, Pakistani Chaunsa mango finishes its window, and Mexican Keitt mango begins."
 toc_label: "Inside this supply note"
 sections:

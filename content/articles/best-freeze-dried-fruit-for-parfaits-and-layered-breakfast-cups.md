@@ -145,7 +145,7 @@ Useful layered breakfast-cup pairings include:
 - apple + cinnamon yogurt + oat crumble
 - raspberry + vanilla yogurt + dark-cocoa granola
 
-These combinations work because the fruit has a clear job. It is not just present. It is balancing sweetness, texture, and visual contrast.
+These combinations work because the fruit has a clear job. It is not just present. It is balancing sweetness, texture, and visual contrast. A mixed pack such as [**this classic fruits mix**](https://ohcrisp.com/products/freeze-dried-classic-fruits-mix) covers strawberry, apple, and banana in one bag for layered cups.
 
 ::: related
 - best-freeze-dried-fruit-for-oatmeal-and-overnight-oats

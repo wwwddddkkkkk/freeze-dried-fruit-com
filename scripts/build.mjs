@@ -41,7 +41,9 @@ import {
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const DIST = path.join(ROOT, "dist");
+// DIST_DIR override lets sandboxed environments build to a writable temp dir
+// (validation-only builds); default stays ./dist for local preview.
+const DIST = process.env.DIST_DIR || path.join(ROOT, "dist");
 
 // Subpath support: when GitHub Pages serves the site under
 // /freeze-dried-fruit-com/, the workflow sets BASE_PATH so internal links
@@ -373,7 +375,7 @@ function editorialNode(site) {
     "@id": `${site.url}/#editorial`,
     name: byline,
     url,
-    description: site.editorial?.tagline || "Independent editorial team covering the freeze-dried fruit category.",
+    description: site.editorial?.tagline || "The editorial team covering the freeze-dried fruit category.",
     parentOrganization: { "@id": `${site.url}/#organization` },
   };
 }
@@ -1703,8 +1705,8 @@ function renderArticlesMetaPillar({ site, articles, articlesById }) {
       a: "Articles carry both a publish date and an *updated* date when the content has been materially revised. The article meta strip and the sitemap both flow from those fields. Most articles in the Technology, Labels & Quality, and Industry Insights sections are reviewed and refreshed at intervals as the category evolves.",
     },
     {
-      q: "Is Freeze-Dried-Fruit.com independent?",
-      a: "Yes. The site does not accept paid placements, sponsored articles, or affiliate compensation tied to editorial coverage. Disclosures and editorial methodology are documented in the Methodology page, and authorship sits with the Editorial Desk rather than fictional named bylines.",
+      q: "Who is behind Freeze-Dried-Fruit.com?",
+      a: "Freeze-Dried-Fruit.com is published by the team behind OhCrisp, a freeze-dried fruit snack brand, and the About page says so plainly. Editorial coverage is written to be brand-neutral, and the site does not accept paid placements, sponsored articles, or affiliate compensation tied to editorial coverage. Where OhCrisp products are linked, it is as a concrete example, clearly worded as such. Authorship sits with the Editorial Desk rather than fictional named bylines.",
     },
     {
       q: "How are articles selected for each category?",
@@ -2230,15 +2232,15 @@ function renderAboutBody({ mailto }) {
   return `
     <section class="page-head">
       <div class="container">
-        <span class="eyebrow">About · Independent</span>
+        <span class="eyebrow">About · Field Guide</span>
         <h1>About Freeze-Dried-Fruit.com</h1>
-        <p>An independent field guide to the freeze-dried fruit category.</p>
+        <p>A field guide to the freeze-dried fruit category.</p>
       </div>
     </section>
     <section class="section">
       <div class="container-narrow">
         <div class="prose">
-          <p>Freeze-Dried-Fruit.com is an independent field guide to the freeze-dried fruit category — written for everyone who eats it, makes it, or sells it.</p>
+          <p>Freeze-Dried-Fruit.com is a field guide to the freeze-dried fruit category — written for everyone who eats it, makes it, or sells it.</p>
           <p>If you've ever stood in a snack aisle wondering why one bag of freeze-dried strawberries costs three times more than another, why some are crispy and others soft, or why some have sugar listed on the label and others don't — this site is for you.</p>
           <p>If you're a snack founder, ingredient buyer, supplier, equipment owner, retailer, or category researcher trying to understand how the freeze-dried fruit ecosystem actually works — sourcing, processing, moisture targets, packaging, pricing, private label — this site is also for you.</p>
           <p style="font-family:var(--titles);font-size:28px;line-height:1.3;color:var(--ink);margin:32px 0;font-weight:700;letter-spacing:-0.015em">Our goal is simple: <em style="color:var(--mint-deep);font-style:italic">make freeze-dried fruit easier to understand.</em></p>
@@ -2246,6 +2248,7 @@ function renderAboutBody({ mailto }) {
           <p>For industry, that means transparent reporting on processing methods, ingredient choices, sourcing trade-offs, packaging, and the parts of the category that don't usually get written about. We talk to suppliers, equipment owners, and operators to get details that go beyond marketing.</p>
           <p>We believe the category deserves more transparency around fruit sourcing, processing methods, added ingredients, moisture control, packaging, price comparison, and real fruit value — and that consumers and industry benefit when the same information is available to both.</p>
           <p>Freeze-Dried-Fruit.com is created by a team building in the fruit snack space. We may occasionally reference our own product development experience, but this site is built as a broader educational and industry resource.</p>
+          <p>Freeze-Dried-Fruit.com is published by the team behind <a href="https://ohcrisp.com">OhCrisp</a>, a freeze-dried fruit snack brand. Our editorial coverage is written to be brand-neutral and useful on its own; where we link to OhCrisp products, it is as a concrete example, and we say so plainly.</p>
         </div>
 
         <div class="exchange-cta">
@@ -2357,7 +2360,7 @@ function renderPrivacyBody({ site }) {
 
 function renderEditorialBody({ site, mailto }) {
   const byline = site.editorial?.byline || "Editorial Desk";
-  const tagline = site.editorial?.tagline || "Independent editorial team.";
+  const tagline = site.editorial?.tagline || "The editorial team.";
 
   return `
     <section class="page-head">
@@ -2431,7 +2434,7 @@ function renderMethodologyBody({ mailto }) {
       <div class="container-narrow">
         <div class="prose">
           <h2>What this site is</h2>
-          <p>Freeze-Dried-Fruit.com is an independent field guide to the freeze-dried fruit category. We cover quality, processing, sourcing, packaging, pricing, applications, and the parts of the category that usually go unwritten. Articles are written for consumers, brand founders, ingredient buyers, suppliers, and operators — readers who want a precise picture of how this category actually works.</p>
+          <p>Freeze-Dried-Fruit.com is a field guide to the freeze-dried fruit category. We cover quality, processing, sourcing, packaging, pricing, applications, and the parts of the category that usually go unwritten. Articles are written for consumers, brand founders, ingredient buyers, suppliers, and operators — readers who want a precise picture of how this category actually works.</p>
 
           <h2>What we cover</h2>
           <p>We write about fruit chemistry, freeze-drying process design, residual moisture and water activity, packaging barrier behavior, supplier evaluation, landed cost, ingredient labels, and consumer use cases. We avoid health and medical claims. We do not write product reviews of named brands.</p>
@@ -3039,7 +3042,7 @@ function renderEsHomeBody({ articlesEs, reportsEs = [], mailto, site }) {
       <div class="container">
         <span class="eyebrow">Edición en Español · Freeze-Dried-Fruit.com</span>
         <h1>Guía de campo de la fruta liofilizada</h1>
-        <p>Una guía editorial independiente sobre la fruta liofilizada — calidad, proceso, abastecimiento, empaque y aplicaciones. Escrita para consumidores curiosos, fundadores de snacks, compradores de ingredientes, proveedores y operadores.</p>
+        <p>Una guía editorial sobre la fruta liofilizada — calidad, proceso, abastecimiento, empaque y aplicaciones. Escrita para consumidores curiosos, fundadores de snacks, compradores de ingredientes, proveedores y operadores.</p>
       </div>
     </section>
 
@@ -3094,7 +3097,7 @@ function renderCalculatorsHubBody() {
       <div class="container">
         <span class="eyebrow">Tools · Free calculators</span>
         <h1>Freeze-Dried Fruit Calculators</h1>
-        <p>Free, dependency-free tools for converting fresh fruit into freeze-dried equivalents and for estimating packaging-barrier requirements. Independent and ad-free.</p>
+        <p>Free, dependency-free tools for converting fresh fruit into freeze-dried equivalents and for estimating packaging-barrier requirements. Ad-free.</p>
       </div>
     </section>
     <section class="section">
@@ -3468,7 +3471,7 @@ function buildLlmsTxt({ site, articles, reports = [] }) {
 
 > ${site.description}
 
-An independent, advertising-free field guide to freeze-dried fruit — covering quality, processing, sourcing, packaging, and applications. Written for curious consumers, snack founders, ingredient buyers, suppliers, and operators.
+An advertising-free field guide to freeze-dried fruit — covering quality, processing, sourcing, packaging, and applications. Written for curious consumers, snack founders, ingredient buyers, suppliers, and operators.
 
 ${reports.length ? `## Flagship reports
 
@@ -3815,7 +3818,7 @@ async function build() {
     await writeFilePage("es/index.html", renderPage({
       site, mailto, currentPath: "/es/",
       title: "Guía de campo de la fruta liofilizada",
-      description: "Una guía editorial independiente sobre la fruta liofilizada — calidad, proceso, abastecimiento, empaque y aplicaciones.",
+      description: "Una guía editorial sobre la fruta liofilizada — calidad, proceso, abastecimiento, empaque y aplicaciones.",
       body: renderEsHomeBody({ articlesEs, reportsEs, mailto, site }),
       screen: "home-es",
       lang: "es",
@@ -3827,7 +3830,7 @@ async function build() {
           "@id": `${site.url}/es/`,
           url: `${site.url}/es/`,
           name: "Guía de campo de la fruta liofilizada",
-          description: "Una guía editorial independiente sobre la fruta liofilizada.",
+          description: "Una guía editorial sobre la fruta liofilizada.",
           inLanguage: "es",
           isPartOf: { "@id": `${site.url}/#website` },
         },
@@ -4058,11 +4061,11 @@ async function build() {
   }));
   await writeFilePage("about/index.html", renderPage({
     site, mailto, currentPath: "/about/", title: "About",
-    description: "An independent field guide to the freeze-dried fruit category.",
+    description: "A field guide to the freeze-dried fruit category.",
     body: renderAboutBody({ mailto }), screen: "about",
     jsonLd: simplePageJsonLd({
       site, currentPath: "/about/", name: "About Freeze-Dried-Fruit.com",
-      description: "An independent field guide to the freeze-dried fruit category.",
+      description: "A field guide to the freeze-dried fruit category.",
       type: "AboutPage",
     }),
   }));
@@ -4097,7 +4100,7 @@ async function build() {
   }));
   await writeFilePage("editorial/index.html", renderPage({
     site, mailto, currentPath: "/editorial/", title: site.editorial?.byline || "Editorial Desk",
-    description: `${site.editorial?.byline || "Editorial Desk"} — ${site.editorial?.tagline || "Independent editorial team."}`,
+    description: `${site.editorial?.byline || "Editorial Desk"} — ${site.editorial?.tagline || "The editorial team."}`,
     body: renderEditorialBody({ site, mailto }), screen: "editorial",
     jsonLd: editorialPageJsonLd({ site }),
   }));

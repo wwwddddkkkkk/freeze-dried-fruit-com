@@ -70,7 +70,7 @@ Freeze-drying preserves what's already there. It does not add sugar, hide fiber,
 Brix is a rough measure of soluble solids — mostly sugar. Mango at harvest typically falls between 10 and 22° Brix. The same cultivar picked under-ripe and ripened in transit will register lower than one picked tree-ripe.
 :::
 
-A processor can choose a cheaper, fibrous, lower-Brix mango and a heroic freeze-drying cycle won't fix it. The variety sets the ceiling.
+A processor can choose a cheaper, fibrous, lower-Brix mango and a heroic freeze-drying cycle won't fix it. The variety sets the ceiling. In finished-bag terms, low-fiber cultivars are exactly why good [**freeze-dried mango chunks**](https://ohcrisp.com/products/freeze-dried-mangoes-chunks) stay crisp instead of chewy.
 
 ## The American supermarket workhorses
 

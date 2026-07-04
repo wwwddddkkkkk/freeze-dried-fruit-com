@@ -3,7 +3,7 @@
   "description": "A field guide to freeze-dried fruit — written for curious consumers, snack founders, buyers, and operators.",
   "url": "https://freeze-dried-fruit.com",
   "tagline": "The field guide to freeze-dried fruit quality, processing, and market trends.",
-  "footer_tagline": "The field guide to freeze-dried fruit — for curious consumers, snack founders, ingredient buyers, suppliers, and operators. Independent. Reader-supported.",
+  "footer_tagline": "The field guide to freeze-dried fruit — for curious consumers, snack founders, ingredient buyers, suppliers, and operators. Reader-supported. No paid placements.",
   "established": "2026",
   "email": {
     "hello": "hello@freeze-dried-fruit.com",
@@ -14,10 +14,10 @@
     "byline": "Freeze-Dried Fruit Editorial Desk",
     "shortByline": "Editorial Desk",
     "url": "/editorial/",
-    "tagline": "Independent editorial team covering the freeze-dried fruit category."
+    "tagline": "The editorial team covering the freeze-dried fruit category."
   },
   "analytics": {
-    "googleSiteVerification": "",
+    "googleSiteVerification": "08Rom6VaEohCxO2tS4FIEMM9twvo9cQkZePXwYtLlV0",
     "plausibleDomain": "",
     "plausibleSrc": "https://plausible.io/js/script.js",
     "ga4Id": "",

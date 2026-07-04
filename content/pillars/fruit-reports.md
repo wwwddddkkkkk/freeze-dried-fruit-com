@@ -52,7 +52,7 @@ Some fruits are forgiving in freeze-drying. **Strawberry**, **apple**, **banana*
 
 Other fruits are more particular. **Watermelon** has extreme water content, which crushes yield. **Cranberry** is naturally tart and usually needs sweetening or careful blending. **Citrus** carries strong aroma and peel bitterness that demand careful format choices. **Grapes** have skin that complicates drying. **Dragon fruit** is valued for color more than flavor.
 
-Then there are the regional specialties — **durian**, **mangosteen**, **soursop**, **lychee**, **longan**, **rambutan**, **jackfruit**, **jujube** — that have devoted regional consumer bases and inconsistent international supply. Their freeze-dried versions exist, but the category is narrower and the sourcing conversation is more about origin reliability than cultivar selection.
+Then there are the regional specialties — **durian**, **mangosteen**, **soursop**, **lychee**, **longan**, **rambutan**, **jackfruit**, **jujube** — that have devoted regional consumer bases and inconsistent international supply. Their freeze-dried versions exist, but the category is narrower and the sourcing conversation is more about origin reliability than cultivar selection. Several of these regional fruits — durian, mangosteen, lychee, jackfruit — are easier to try in one go via a [**freeze-dried exotic fruit sampler**](https://ohcrisp.com/products/freeze-dried-fruit-discovery-mix) than to source individually.
 
 ::: related
 - strawberry-varieties-for-freeze-drying

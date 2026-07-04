@@ -6,7 +6,7 @@ date: 2026-12-31
 updated: 2026-12-31
 edition: "Quarterly supply note · Q4 2026"
 read: "8 min read"
-summary: "An independent quarterly briefing on freeze-dried fruit supply for Q4 2026 — U.S. cranberry and pomegranate peak, holiday demand surge, the Chilean bridge into 2027, and the Q1 2027 contract conversations that should already be underway."
+summary: "A quarterly briefing on freeze-dried fruit supply for Q4 2026 — U.S. cranberry and pomegranate peak, holiday demand surge, the Chilean bridge into 2027, and the Q1 2027 contract conversations that should already be underway."
 intro: "Q4 2026 is the year's transition quarter. U.S. cranberry and California pomegranate harvest, the Mexican Keitt window finishes, Brazilian Palmer mango hits peak volume, and Chilean blueberry begins its long ramp into Q1 2027. Holiday demand for retail snack pouches and gift packs is at its annual peak."
 toc_label: "Inside this supply note"
 sections:

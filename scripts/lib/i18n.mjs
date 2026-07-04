@@ -46,7 +46,7 @@ const STRINGS = {
     footerListEquipment: "List Equipment",
     footerBuyerRequest: "Buyer Request",
     footerCompareFruits: "Compare Fruits",
-    footerIndependent: "Independent · Field Guide · Est.",
+    footerIndependent: "A Field Guide · Est.",
     // Article rendering
     keyTakeaways: "Key Takeaways",
     frequentlyAskedQuestions: "Frequently Asked Questions",
@@ -98,7 +98,7 @@ const STRINGS = {
     footerListEquipment: "Publicar equipos",
     footerBuyerRequest: "Solicitud de comprador",
     footerCompareFruits: "Comparar frutas",
-    footerIndependent: "Independiente · Guía de campo · Desde",
+    footerIndependent: "Guía de campo · Desde",
     keyTakeaways: "Puntos clave",
     frequentlyAskedQuestions: "Preguntas frecuentes",
     primarySources: "Fuentes primarias y lecturas adicionales",

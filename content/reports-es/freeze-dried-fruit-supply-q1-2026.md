@@ -7,7 +7,7 @@ date: 2026-03-31
 updated: 2026-03-31
 edition: "Nota trimestral · Q1 2026"
 read: "8 min de lectura"
-summary: "Una nota trimestral independiente sobre el suministro de fruta liofilizada para el Q1 2026 — temporada pico chilena y peruana, preparación pretemporada del Alphonso indio, y las conversaciones contractuales que los compradores deben tener antes de que abra el Q2."
+summary: "Una nota trimestral sobre el suministro de fruta liofilizada para el Q1 2026 — temporada pico chilena y peruana, preparación pretemporada del Alphonso indio, y las conversaciones contractuales que los compradores deben tener antes de que abra el Q2."
 intro: "El Q1 2026 es el trimestre donde el suministro del hemisferio sur domina la conversación. Las cosechas de arándano y cereza chilenos corren a tope, las exportaciones peruanas de aguaymanto y lúcuma se aceleran, y la capacidad de liofilización en Chile y Perú está en su tramo más activo del año."
 toc_label: "Contenido de esta nota de suministro"
 sections:

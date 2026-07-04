@@ -7,7 +7,7 @@ date: 2026-12-31
 updated: 2026-12-31
 edition: "Nota trimestral · Q4 2026"
 read: "8 min de lectura"
-summary: "Una nota trimestral independiente sobre el suministro de fruta liofilizada para el Q4 2026 — pico de arándano estadounidense y granada de California, pico de demanda navideña, el puente chileno hacia 2027 y las conversaciones contractuales Q1 2027 que ya deben estar en marcha."
+summary: "Una nota trimestral sobre el suministro de fruta liofilizada para el Q4 2026 — pico de arándano estadounidense y granada de California, pico de demanda navideña, el puente chileno hacia 2027 y las conversaciones contractuales Q1 2027 que ya deben estar en marcha."
 intro: "El Q4 2026 es el trimestre de transición del año. Cosechas de arándano estadounidense y granada de California, la ventana del Keitt mexicano termina, el mango Palmer brasileño llega a volumen pico, y el arándano chileno comienza su larga aceleración hacia el Q1 2027. La demanda navideña de bolsas de snack minoristas y paquetes de regalo está en su pico anual."
 toc_label: "Contenido de esta nota de suministro"
 sections:

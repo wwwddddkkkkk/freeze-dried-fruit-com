@@ -48,7 +48,7 @@ Use this guide as a practical sourcing tool. The goal is not to rank every possi
 
 ## Why jackfruit behaves the way it does
 
-Ripe jackfruit pods contain sugar, aroma, and a distinctive fibrous structure. Freeze-drying concentrates the tropical aroma, which can be a strength or a liability depending on the audience. Fiber is the main technical issue. Large pieces can feel stringy if the raw material is not carefully selected. Smaller pieces or shreds can make the texture more manageable, but they also shift the product from premium snack to ingredient format. Young jackfruit is a different conversation because it is used more for texture than sweetness.
+Ripe jackfruit pods contain sugar, aroma, and a distinctive fibrous structure. Freeze-drying concentrates the tropical aroma, which can be a strength or a liability depending on the audience. Fiber is the main technical issue. Large pieces can feel stringy if the raw material is not carefully selected. Smaller pieces or shreds can make the texture more manageable, but they also shift the product from premium snack to ingredient format. Young jackfruit is a different conversation because it is used more for texture than sweetness. Ripe-pod sweetness is the whole point of [**freeze-dried jackfruit chunks**](https://ohcrisp.com/products/freeze-dried-jackfruits-chunks).
 
 The technical question is always the same: does the finished piece preserve the best part of the fruit, or does the process amplify the weaknesses? Freeze-drying removes water, but it does not create better raw material. If the fruit begins with weak aroma, poor maturity, too much fiber, or inconsistent sizing, the final product will usually show it.
 

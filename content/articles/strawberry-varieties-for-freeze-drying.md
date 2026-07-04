@@ -62,7 +62,7 @@ A strong freeze-dried strawberry sample usually has these signals:
 - **Moderate powder at the bottom of the pouch, not excessive fines.**
 - **A finish that tastes tart-sweet rather than only sour.**
 
-These signals matter because consumers judge freeze-dried fruit quickly. They see the color first, smell the product when the pouch opens, and then decide whether the texture feels worth buying again.
+These signals matter because consumers judge freeze-dried fruit quickly. They see the color first, smell the product when the pouch opens, and then decide whether the texture feels worth buying again. For a reference point of what whole-berry format looks like in a finished bag, see [**these whole freeze-dried strawberries**](https://ohcrisp.com/products/freeze-dried-strawberries-whole).
 
 ## Sourcing reality
 

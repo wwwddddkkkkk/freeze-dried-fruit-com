@@ -48,7 +48,7 @@ Use this guide as a practical sourcing tool. The goal is not to rank every possi
 
 ## Why mangosteen behaves the way it does
 
-Mangosteen is technically challenging because most of the fruit is rind, not edible flesh. The white segments are delicate and can be difficult to handle cleanly. Seeds may be present in larger segments, which affects both texture and yield. The flavor is often described as sweet, floral, and lightly acidic, but it is not as loud as pineapple or mango. Freeze-drying can preserve the elegant profile, but poor raw material or long storage can leave the finished fruit tasting faint.
+Mangosteen is technically challenging because most of the fruit is rind, not edible flesh. The white segments are delicate and can be difficult to handle cleanly. Seeds may be present in larger segments, which affects both texture and yield. The flavor is often described as sweet, floral, and lightly acidic, but it is not as loud as pineapple or mango. Freeze-drying can preserve the elegant profile, but poor raw material or long storage can leave the finished fruit tasting faint. Given the rind-to-flesh ratio described above, [**whole freeze-dried mangosteen**](https://ohcrisp.com/products/freeze-dried-mangosteens-whole) remains a small-batch, premium product.
 
 The technical question is always the same: does the finished piece preserve the best part of the fruit, or does the process amplify the weaknesses? Freeze-drying removes water, but it does not create better raw material. If the fruit begins with weak aroma, poor maturity, too much fiber, or inconsistent sizing, the final product will usually show it.
 

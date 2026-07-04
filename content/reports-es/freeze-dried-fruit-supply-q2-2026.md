@@ -7,7 +7,7 @@ date: 2026-06-30
 updated: 2026-06-30
 edition: "Nota trimestral · Q2 2026"
 read: "8 min de lectura"
-summary: "Una nota trimestral independiente sobre el suministro de fruta liofilizada para el Q2 2026 — la corta ventana del Alphonso, la aceleración de bayas norteamericanas, y qué deben los compradores asegurar para el Q3."
+summary: "Una nota trimestral sobre el suministro de fruta liofilizada para el Q2 2026 — la corta ventana del Alphonso, la aceleración de bayas norteamericanas, y qué deben los compradores asegurar para el Q3."
 intro: "El Q2 2026 es el trimestre del mango premium. La ventana del Alphonso y Kesar indios corre corta y caliente, el Sindhri pakistaní abre, y el Ataulfo mexicano lleva el volumen. La producción de bayas del hemisferio norte se acelera desde California hasta el Mediterráneo, y la reducción de inventario IQF desde el Q1 comienza a tocar fondo."
 toc_label: "Contenido de esta nota de suministro"
 sections:

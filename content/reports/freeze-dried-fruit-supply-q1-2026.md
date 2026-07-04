@@ -6,7 +6,7 @@ date: 2026-03-31
 updated: 2026-03-31
 edition: "Quarterly supply note · Q1 2026"
 read: "8 min read"
-summary: "An independent quarterly briefing on freeze-dried fruit supply for Q1 2026 — Chilean and Peruvian peak season, Indian Alphonso pre-season build, and the contract conversations buyers should be having before Q2 opens."
+summary: "A quarterly briefing on freeze-dried fruit supply for Q1 2026 — Chilean and Peruvian peak season, Indian Alphonso pre-season build, and the contract conversations buyers should be having before Q2 opens."
 intro: "Q1 2026 is the quarter where Southern Hemisphere supply dominates the conversation. Chilean blueberry and cherry harvests run hot, Peruvian aguaymanto and lúcuma exports ramp, and freeze-drying capacity across Chile and Peru is in its busiest stretch of the year."
 toc_label: "Inside this supply note"
 sections:

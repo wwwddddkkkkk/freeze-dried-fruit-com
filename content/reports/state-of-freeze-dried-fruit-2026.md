@@ -1,12 +1,12 @@
 ---
 slug: state-of-freeze-dried-fruit-2026
 title: "The State of Freeze-Dried Fruit 2026"
-subtitle: "An independent field guide to where the category stands — supply, technology, regulation, and consumer behavior in the 2026 production year."
+subtitle: "A field guide to where the category stands — supply, technology, regulation, and consumer behavior in the 2026 production year."
 date: 2026-05-16
 updated: 2026-05-16
 edition: "2026 Annual Edition"
 read: "18 min read"
-summary: "An independent industry overview of freeze-dried fruit in 2026: supply origins, technology shifts, regulatory developments, channel dynamics, and the buyer questions that matter most for the year ahead."
+summary: "An industry overview of freeze-dried fruit in 2026: supply origins, technology shifts, regulatory developments, channel dynamics, and the buyer questions that matter most for the year ahead."
 intro: "The freeze-dried fruit category in 2026 is no longer a novelty. It sits at the intersection of three durable shifts: clean-label snacking, ingredient-grade fruit demand from cereal, bakery, and beverage formulators, and a still-fragile global supply chain that runs from a handful of dominant origins."
 toc_label: "Inside this report"
 sections:

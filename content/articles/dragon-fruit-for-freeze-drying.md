@@ -48,7 +48,7 @@ Use this guide as a practical sourcing tool. The goal is not to rank every possi
 
 ## Why dragon fruit behaves the way it does
 
-Dragon fruit has a high water content, delicate flesh, and many tiny seeds. The red-flesh types are valuable because their color survives as a strong visual signal. The flavor is often subtle, so freeze-dried dragon fruit should not be judged only against mango or pineapple. Its strength is different: color, seed-speckled texture, and the way it makes bowls or mixes look more exciting. Thin pieces can become crisp and vivid, while thicker cubes may be more fragile or airy.
+Dragon fruit has a high water content, delicate flesh, and many tiny seeds. The red-flesh types are valuable because their color survives as a strong visual signal. The flavor is often subtle, so freeze-dried dragon fruit should not be judged only against mango or pineapple. Its strength is different: color, seed-speckled texture, and the way it makes bowls or mixes look more exciting. Thin pieces can become crisp and vivid, while thicker cubes may be more fragile or airy. In snack format, [**freeze-dried dragon fruit**](https://ohcrisp.com/products/freeze-dried-dragon-fruits-chunks) is bought for its magenta color as much as its flavor.
 
 The technical question is always the same: does the finished piece preserve the best part of the fruit, or does the process amplify the weaknesses? Freeze-drying removes water, but it does not create better raw material. If the fruit begins with weak aroma, poor maturity, too much fiber, or inconsistent sizing, the final product will usually show it.
 

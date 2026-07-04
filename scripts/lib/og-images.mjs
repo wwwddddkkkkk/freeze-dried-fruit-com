@@ -92,7 +92,7 @@ export function renderArticleOgSvg({ title, category }) {
 
   <!-- bottom rule + tagline -->
   <line x1="${PADDING}" y1="${OG_HEIGHT - 105}" x2="${OG_WIDTH - PADDING}" y2="${OG_HEIGHT - 105}" stroke="#0A2540" stroke-opacity="0.12" stroke-width="1"/>
-  <text x="${PADDING}" y="${OG_HEIGHT - PADDING + 8}" font-family="'Courier New', 'Menlo', monospace" font-size="14" fill="#0A2540" fill-opacity="0.65" letter-spacing="2.5">INDEPENDENT FIELD GUIDE · EST. 2026</text>
+  <text x="${PADDING}" y="${OG_HEIGHT - PADDING + 8}" font-family="'Courier New', 'Menlo', monospace" font-size="14" fill="#0A2540" fill-opacity="0.65" letter-spacing="2.5">FIELD GUIDE · EST. 2026</text>
   <text x="${OG_WIDTH - PADDING}" y="${OG_HEIGHT - PADDING + 8}" text-anchor="end" font-family="'Courier New', 'Menlo', monospace" font-size="14" fill="#0A2540" fill-opacity="0.65" letter-spacing="2.5">FREEZE-DRIED-FRUIT.COM</text>
 </svg>`;
 }
@@ -124,7 +124,7 @@ export function renderSiteOgSvg(site) {
   <text x="${PADDING}" y="345" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-style="italic" fill="#0A2540" letter-spacing="-0.5">${taglineTspans}</text>
 
   <line x1="${PADDING}" y1="${OG_HEIGHT - 105}" x2="${OG_WIDTH - PADDING}" y2="${OG_HEIGHT - 105}" stroke="#0A2540" stroke-opacity="0.12" stroke-width="1"/>
-  <text x="${PADDING}" y="${OG_HEIGHT - PADDING + 8}" font-family="'Courier New', 'Menlo', monospace" font-size="14" fill="#0A2540" fill-opacity="0.65" letter-spacing="2.5">INDEPENDENT FIELD GUIDE · EST. 2026</text>
+  <text x="${PADDING}" y="${OG_HEIGHT - PADDING + 8}" font-family="'Courier New', 'Menlo', monospace" font-size="14" fill="#0A2540" fill-opacity="0.65" letter-spacing="2.5">FIELD GUIDE · EST. 2026</text>
   <text x="${OG_WIDTH - PADDING}" y="${OG_HEIGHT - PADDING + 8}" text-anchor="end" font-family="'Courier New', 'Menlo', monospace" font-size="14" fill="#0A2540" fill-opacity="0.65" letter-spacing="2.5">FREEZE-DRIED-FRUIT.COM</text>
 </svg>`;
 }

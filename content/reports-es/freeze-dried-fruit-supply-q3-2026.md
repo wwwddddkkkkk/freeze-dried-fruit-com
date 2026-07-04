@@ -7,7 +7,7 @@ date: 2026-09-30
 updated: 2026-09-30
 edition: "Nota trimestral · Q3 2026"
 read: "8 min de lectura"
-summary: "Una nota trimestral independiente sobre el suministro de fruta liofilizada para el Q3 2026 — disponibilidad pico de bayas del hemisferio norte, mango mexicano de fin de temporada, Chaunsa pakistaní y la acumulación de demanda navideña Q4 que debe asegurarse ahora."
+summary: "Una nota trimestral sobre el suministro de fruta liofilizada para el Q3 2026 — disponibilidad pico de bayas del hemisferio norte, mango mexicano de fin de temporada, Chaunsa pakistaní y la acumulación de demanda navideña Q4 que debe asegurarse ahora."
 intro: "El Q3 2026 es el trimestre individual más productivo en el calendario de fruta liofilizada para el suministro del hemisferio norte. Las cosechas de bayas de California, Oregón y Washington corren juntas, el procesamiento de fresa polaca y serbia alcanza su pico, el mango Chaunsa pakistaní termina su ventana, y el mango Keitt mexicano comienza."
 toc_label: "Contenido de esta nota de suministro"
 sections:

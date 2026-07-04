@@ -6,7 +6,7 @@ date: 2026-06-30
 updated: 2026-06-30
 edition: "Quarterly supply note · Q2 2026"
 read: "8 min read"
-summary: "An independent quarterly briefing on freeze-dried fruit supply for Q2 2026 — the short Alphonso window, North American berry ramp-up, and what buyers should be locking in for Q3."
+summary: "A quarterly briefing on freeze-dried fruit supply for Q2 2026 — the short Alphonso window, North American berry ramp-up, and what buyers should be locking in for Q3."
 intro: "Q2 2026 is the premium-mango quarter. The Indian Alphonso and Kesar window runs short and hot, Pakistani Sindhri opens, and Mexican Ataulfo carries volume. Northern Hemisphere berry production ramps from California to the Mediterranean, and the IQF inventory drawdown from Q1 begins to bottom out."
 toc_label: "Inside this supply note"
 sections:

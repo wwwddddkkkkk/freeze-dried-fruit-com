@@ -48,7 +48,7 @@ Use this guide as a practical sourcing tool. The goal is not to rank every possi
 
 ## Why lychee behaves the way it does
 
-Lychee flesh is translucent, juicy, and aromatic. The seed must be removed, and that labor affects cost. The fruit has a floral perfume that can be beautiful after drying, but it is also easy to lose if raw material is old or storage is poor. Texture can move from crisp to airy depending on thickness and drying endpoint. Because lychee is naturally associated with delicacy, broken or dull pieces can feel disappointing even when the flavor is acceptable.
+Lychee flesh is translucent, juicy, and aromatic. The seed must be removed, and that labor affects cost. The fruit has a floral perfume that can be beautiful after drying, but it is also easy to lose if raw material is old or storage is poor. Texture can move from crisp to airy depending on thickness and drying endpoint. Because lychee is naturally associated with delicacy, broken or dull pieces can feel disappointing even when the flavor is acceptable. [**Whole freeze-dried lychees**](https://ohcrisp.com/products/freeze-dried-lychees-whole) keep the floral top notes that canning tends to strip away.
 
 The technical question is always the same: does the finished piece preserve the best part of the fruit, or does the process amplify the weaknesses? Freeze-drying removes water, but it does not create better raw material. If the fruit begins with weak aroma, poor maturity, too much fiber, or inconsistent sizing, the final product will usually show it.
 

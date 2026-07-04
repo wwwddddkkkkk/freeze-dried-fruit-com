@@ -48,7 +48,7 @@ Use this guide as a working field note for buyers, product developers, snack fou
 
 ## Why jujube behaves the way it does
 
-Jujube changes character dramatically as it matures and dries. Fresh jujube can taste like a small apple; mature red date forms are sweeter, denser, and more caramel-like. Freeze-drying preserves whichever starting point is chosen. That makes raw material definition especially important.
+Jujube changes character dramatically as it matures and dries. Fresh jujube can taste like a small apple; mature red date forms are sweeter, denser, and more caramel-like. Freeze-drying preserves whichever starting point is chosen. That makes raw material definition especially important. Winter jujube's apple-crisp texture translates directly — [**freeze-dried winter jujubes**](https://ohcrisp.com/products/freeze-dried-winter-jujubes-halves) read closer to a light apple chip than to a date.
 
 Freeze-drying protects a fruit's original structure more than many consumers realize. It does not add aroma, fix weak ripeness, hide tough skin, or make low-flavor raw material suddenly taste premium. A good process can preserve quality; it cannot invent it from poor input.
 

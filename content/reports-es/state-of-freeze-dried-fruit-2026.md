@@ -2,12 +2,12 @@
 slug: state-of-freeze-dried-fruit-2026
 en_slug: state-of-freeze-dried-fruit-2026
 title: "El estado de la fruta liofilizada 2026"
-subtitle: "Una guía de campo independiente sobre dónde se encuentra la categoría — suministro, tecnología, regulación y comportamiento del consumidor en el año de producción 2026."
+subtitle: "Una guía de campo sobre dónde se encuentra la categoría — suministro, tecnología, regulación y comportamiento del consumidor en el año de producción 2026."
 date: 2026-05-16
 updated: 2026-05-18
 edition: "Edición anual 2026"
 read: "18 min de lectura"
-summary: "Una visión general independiente de la industria de fruta liofilizada en 2026: orígenes de suministro, cambios tecnológicos, desarrollos regulatorios, dinámica de canal y las preguntas de comprador que más importan para el año que viene."
+summary: "Una visión general de la industria de fruta liofilizada en 2026: orígenes de suministro, cambios tecnológicos, desarrollos regulatorios, dinámica de canal y las preguntas de comprador que más importan para el año que viene."
 intro: "La categoría de fruta liofilizada en 2026 ya no es una novedad. Se ubica en la intersección de tres cambios duraderos: snacking de etiqueta limpia, demanda de fruta de grado ingrediente por parte de formuladores de cereales, panadería y bebidas, y una cadena de suministro global aún frágil que opera desde un puñado de orígenes dominantes."
 toc_label: "Contenido del reporte"
 sections:

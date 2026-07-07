@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How force majeure and crop-failure clauses work in freeze-dried fruit supply contracts</title>
+  <desc id="desc">Flow diagram tracing a crop shortfall through a force majeure clause into either excused or delayed performance, then into how remaining supply is allocated among buyers.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="70" y="70" width="1060" height="540" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+
+  <text x="110" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Where a short harvest lands in the contract</text>
+  <text x="110" y="162" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">The clause decides who absorbs the gap — and who keeps priority.</text>
+
+  <!-- Node 1: crop shortfall -->
+  <g transform="translate(110 220)">
+    <rect width="220" height="96" rx="18" fill="#f4f0e5" stroke="#d8d2c3"/>
+    <text x="24" y="40" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Crop shortfall</text>
+    <text x="24" y="66" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="14">weather · yield · quality</text>
+    <text x="24" y="86" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="14">below expected</text>
+  </g>
+  <!-- arrow -->
+  <line x1="330" y1="268" x2="392" y2="268" stroke="#7b867f" stroke-width="3"/>
+  <polygon points="392,268 380,261 380,275" fill="#7b867f"/>
+
+  <!-- Node 2: does clause trigger -->
+  <g transform="translate(392 214)">
+    <rect width="236" height="108" rx="18" fill="#f4f0e5" stroke="#d8d2c3"/>
+    <text x="24" y="38" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Does the clause</text>
+    <text x="24" y="60" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">actually trigger?</text>
+    <text x="24" y="86" fill="#b45f42" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">crop-failure wording removes the argument</text>
+  </g>
+  <!-- arrow -->
+  <line x1="628" y1="268" x2="690" y2="268" stroke="#7b867f" stroke-width="3"/>
+  <polygon points="690,268 678,261 678,275" fill="#7b867f"/>
+
+  <!-- Node 3 split: excuse vs delay -->
+  <g transform="translate(690 190)">
+    <rect width="200" height="70" rx="16" fill="#eef3ea" stroke="#c3d3bc"/>
+    <text x="20" y="30" fill="#3a5a34" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Excused</text>
+    <text x="20" y="52" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="13">affected volume dropped</text>
+  </g>
+  <g transform="translate(690 278)">
+    <rect width="200" height="70" rx="16" fill="#f6ece4" stroke="#e3c6b3"/>
+    <text x="20" y="30" fill="#9a4e33" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Delayed</text>
+    <text x="20" y="52" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="13">suspended — cap the wait</text>
+  </g>
+
+  <!-- Node 4 allocation -->
+  <g transform="translate(940 214)">
+    <rect width="150" height="200" rx="18" fill="#f4f0e5" stroke="#d8d2c3"/>
+    <text x="20" y="36" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Allocation</text>
+    <text x="20" y="56" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="12">of what remains</text>
+    <g font-family="Inter, Arial, sans-serif" font-size="13" fill="#3f4a44">
+      <circle cx="30" cy="92" r="5" fill="#5a7d56"/><text x="44" y="97">Pro-rata</text>
+      <circle cx="30" cy="126" r="5" fill="#5a7d56"/><text x="44" y="131">Priority</text>
+      <circle cx="30" cy="160" r="5" fill="#b45f42"/><text x="44" y="165">Supplier</text>
+      <text x="44" y="182" fill="#b45f42">discretion (weak)</text>
+    </g>
+  </g>
+  <line x1="890" y1="225" x2="936" y2="260" stroke="#7b867f" stroke-width="3"/>
+  <line x1="890" y1="313" x2="936" y2="300" stroke="#7b867f" stroke-width="3"/>
+
+  <text x="110" y="470" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Buyer levers that change the outcome</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="15" fill="#3f4a44">
+    <circle cx="120" cy="500" r="5" fill="#5a7d56"/><text x="136" y="505">Name crop failure explicitly</text>
+    <circle cx="430" cy="500" r="5" fill="#5a7d56"/><text x="446" y="505">Require prompt written notice</text>
+    <circle cx="760" cy="500" r="5" fill="#5a7d56"/><text x="776" y="505">Fix a fair allocation method</text>
+    <circle cx="120" cy="536" r="5" fill="#5a7d56"/><text x="136" y="541">Cap how long performance is suspended</text>
+    <circle cx="560" cy="536" r="5" fill="#5a7d56"/><text x="576" y="541">Keep the right to source elsewhere</text>
+  </g>
+
+  <text x="110" y="580" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="14">In a short year, allocation priority is often worth more than the headline price.</text>
+</svg>

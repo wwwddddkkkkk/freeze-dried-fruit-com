@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How tray bed depth shapes freeze-dried fruit cycle time and uniformity</title>
+  <desc id="desc">Cross-section comparison of a shallow and a deep fruit bed on a heated freeze-dryer shelf, showing the sublimation front and the longer vapor escape path in the deeper load.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="70" y="70" width="1060" height="540" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+
+  <text x="110" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Depth sets how far the water has to travel out</text>
+  <text x="110" y="162" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Same fruit, same shelf — the deeper bed dries slower and less evenly.</text>
+
+  <!-- shallow bed -->
+  <g transform="translate(112 210)">
+    <rect width="440" height="330" rx="26" fill="#f4f0e5" stroke="#d8d2c3"/>
+    <text x="30" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Shallow bed</text>
+    <text x="30" y="70" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="14">Short vapor path · finishes fast and even</text>
+
+    <!-- vapor arrows -->
+    <g stroke="#5a7d56" stroke-width="3" fill="none" stroke-linecap="round">
+      <line x1="120" y1="150" x2="120" y2="98"/><line x1="220" y1="150" x2="220" y2="98"/><line x1="320" y1="150" x2="320" y2="98"/>
+    </g>
+    <g fill="#5a7d56"><polygon points="120,90 114,104 126,104"/><polygon points="220,90 214,104 226,104"/><polygon points="320,90 314,104 326,104"/></g>
+
+    <!-- dried layer -->
+    <rect x="60" y="150" width="320" height="26" fill="#e7dcc4"/>
+    <text x="66" y="168" fill="#8a7d5e" font-family="Inter, Arial, sans-serif" font-size="12">dried layer</text>
+    <!-- front -->
+    <line x1="60" y1="176" x2="380" y2="176" stroke="#b45f42" stroke-width="3" stroke-dasharray="8 6"/>
+    <!-- frozen fruit -->
+    <rect x="60" y="176" width="320" height="52" fill="#cfe0e6"/>
+    <text x="66" y="208" fill="#5f7480" font-family="Inter, Arial, sans-serif" font-size="12">frozen fruit</text>
+    <!-- shelf -->
+    <rect x="60" y="228" width="320" height="20" rx="4" fill="#7b867f"/>
+    <text x="150" y="272" fill="#b45f42" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">↑ heat from shelf</text>
+    <text x="30" y="308" fill="#3f4a44" font-family="Inter, Arial, sans-serif" font-size="14">Whole layer finishes close together.</text>
+  </g>
+
+  <!-- deep bed -->
+  <g transform="translate(648 210)">
+    <rect width="440" height="330" rx="26" fill="#f4f0e5" stroke="#d8d2c3"/>
+    <text x="30" y="46" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Deep bed</text>
+    <text x="30" y="70" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="14">Long vapor path · slow, uneven finish</text>
+
+    <!-- vapor arrows longer -->
+    <g stroke="#b45f42" stroke-width="3" fill="none" stroke-linecap="round">
+      <line x1="120" y1="196" x2="120" y2="98"/><line x1="220" y1="196" x2="220" y2="98"/><line x1="320" y1="196" x2="320" y2="98"/>
+    </g>
+    <g fill="#b45f42"><polygon points="120,90 114,104 126,104"/><polygon points="220,90 214,104 226,104"/><polygon points="320,90 314,104 326,104"/></g>
+
+    <!-- thick dried layer -->
+    <rect x="60" y="120" width="320" height="76" fill="#e7dcc4"/>
+    <text x="66" y="150" fill="#8a7d5e" font-family="Inter, Arial, sans-serif" font-size="12">thicker dried layer resists vapor</text>
+    <!-- front -->
+    <line x1="60" y1="196" x2="380" y2="196" stroke="#b45f42" stroke-width="3" stroke-dasharray="8 6"/>
+    <text x="250" y="190" fill="#b45f42" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">front recedes down</text>
+    <!-- frozen core -->
+    <rect x="60" y="196" width="320" height="32" fill="#cfe0e6"/>
+    <circle cx="200" cy="212" r="7" fill="#5f7480"/>
+    <text x="214" y="216" fill="#5f7480" font-family="Inter, Arial, sans-serif" font-size="12">core finishes last</text>
+    <!-- shelf -->
+    <rect x="60" y="228" width="320" height="20" rx="4" fill="#7b867f"/>
+    <text x="150" y="272" fill="#b45f42" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">↑ heat from shelf</text>
+    <text x="30" y="308" fill="#3f4a44" font-family="Inter, Arial, sans-serif" font-size="14">Bottom and center lag — under-drying risk.</text>
+  </g>
+
+  <text x="112" y="576" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="15">Each extra millimeter of depth costs more time than the last, because vapor must climb through the fruit already dried above it.</text>
+</svg>

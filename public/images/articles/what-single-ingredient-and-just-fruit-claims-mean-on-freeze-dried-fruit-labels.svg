@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">What single-ingredient and just fruit claims mean on freeze-dried fruit labels</title>
+  <desc id="desc">Two ingredient statements side by side: one listing only the fruit and passing a single-ingredient test, one listing fruit plus sugar, oil and natural flavor and failing it.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="70" y="70" width="1060" height="540" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+
+  <text x="110" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">The claim you can check is on the back</text>
+  <text x="110" y="162" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Count the ingredients — the fruit should stand alone.</text>
+
+  <!-- PASS panel -->
+  <g transform="translate(112 208)">
+    <rect width="440" height="336" rx="26" fill="#f4f0e5" stroke="#c3d3bc" stroke-width="2"/>
+    <text x="30" y="46" fill="#3a5a34" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Passes single-ingredient</text>
+    <rect x="30" y="70" width="380" height="150" rx="12" fill="#fffdf8" stroke="#d8d2c3"/>
+    <text x="46" y="100" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">INGREDIENTS</text>
+    <text x="46" y="132" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="18">Freeze-dried strawberries.</text>
+    <text x="46" y="176" fill="#8a7d5e" font-family="Inter, Arial, sans-serif" font-size="14">One item. Nothing added.</text>
+    <circle cx="60" cy="262" r="14" fill="#5a7d56"/>
+    <path d="M53 262 l5 6 l11 -13" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="86" y="268" fill="#3a5a34" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">"Just fruit" is accurate here</text>
+    <text x="30" y="308" fill="#3f4a44" font-family="Inter, Arial, sans-serif" font-size="14">Front slogan matches the ingredient list.</text>
+  </g>
+
+  <!-- FAIL panel -->
+  <g transform="translate(648 208)">
+    <rect width="440" height="336" rx="26" fill="#f4f0e5" stroke="#e3c6b3" stroke-width="2"/>
+    <text x="30" y="46" fill="#9a4e33" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700">Fails single-ingredient</text>
+    <rect x="30" y="70" width="380" height="150" rx="12" fill="#fffdf8" stroke="#d8d2c3"/>
+    <text x="46" y="100" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">INGREDIENTS</text>
+    <text x="46" y="130" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="17">Strawberries, <tspan fill="#b45f42" font-weight="700">sugar</tspan>,</text>
+    <text x="46" y="156" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="17"><tspan fill="#b45f42" font-weight="700">sunflower oil</tspan>, <tspan fill="#b45f42" font-weight="700">natural flavor</tspan>.</text>
+    <text x="46" y="196" fill="#8a7d5e" font-family="Inter, Arial, sans-serif" font-size="14">Four items — a flavored product.</text>
+    <circle cx="60" cy="262" r="14" fill="#b45f42"/>
+    <path d="M54 256 l12 12 M66 256 l-12 12" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    <text x="86" y="268" fill="#9a4e33" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">"Just fruit" front is unsupported</text>
+    <text x="30" y="308" fill="#3f4a44" font-family="Inter, Arial, sans-serif" font-size="14">Slogan and contents have parted ways.</text>
+  </g>
+
+  <text x="112" y="580" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="15">"No added sugar" only rules out sweeteners. Single-ingredient rules out everything but the fruit.</text>
+</svg>

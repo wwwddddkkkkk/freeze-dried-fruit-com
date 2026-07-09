@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How pretreatment dips change freeze-dried fruit color and texture</title>
+  <desc id="desc">A process diagram showing cut fruit passing through an ascorbic or citric acid color-protecting dip and a calcium firming dip before freezing and freeze-drying, compared with an untreated control path.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">A dip before freezing sets color and structure</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Pretreatment happens upstream of the chamber and rarely leaves a visible trace.</text>
+
+  <!-- cut fruit start -->
+  <g transform="translate(112 232)">
+    <text x="0" y="-14" fill="#8a8578" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="1.5">CUT FRUIT</text>
+    <circle cx="44" cy="60" r="40" fill="#f2c98a" stroke="#c98b3a" stroke-width="2"/>
+    <path d="M44 20 A40 40 0 0 1 44 100" fill="#f4d9a6"/>
+    <line x1="44" y1="20" x2="44" y2="100" stroke="#c98b3a" stroke-width="1.5"/>
+  </g>
+
+  <!-- arrow -->
+  <path d="M212 292 h56" stroke="#bdb4a1" stroke-width="3" fill="none"/>
+  <path d="M268 292 l-10 -6 v12 z" fill="#bdb4a1"/>
+
+  <!-- color dip -->
+  <g transform="translate(292 200)">
+    <rect width="240" height="184" rx="20" fill="#eef2fb" stroke="#9bb0e0" stroke-width="2"/>
+    <text x="22" y="36" fill="#37477e" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Color-protecting dip</text>
+    <text x="22" y="60" fill="#5d6aa0" font-family="Inter, Arial, sans-serif" font-size="14">Ascorbic / citric acid</text>
+    <rect x="22" y="78" width="196" height="70" rx="10" fill="#dbe4f7" stroke="#9bb0e0"/>
+    <circle cx="60" cy="113" r="20" fill="#f2c98a" stroke="#c98b3a" stroke-width="2"/>
+    <circle cx="110" cy="113" r="20" fill="#f2c98a" stroke="#c98b3a" stroke-width="2"/>
+    <circle cx="160" cy="113" r="20" fill="#f2c98a" stroke="#c98b3a" stroke-width="2"/>
+    <text x="22" y="172" fill="#37477e" font-family="Inter, Arial, sans-serif" font-size="13">Slows enzymatic browning</text>
+  </g>
+
+  <!-- firming dip -->
+  <g transform="translate(560 200)">
+    <rect width="240" height="184" rx="20" fill="#eaf4ee" stroke="#7db08e" stroke-width="2"/>
+    <text x="22" y="36" fill="#2f6b53" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Firming dip</text>
+    <text x="22" y="60" fill="#4f8468" font-family="Inter, Arial, sans-serif" font-size="14">Calcium chloride / lactate</text>
+    <rect x="22" y="78" width="196" height="70" rx="10" fill="#d6eade" stroke="#7db08e"/>
+    <rect x="42" y="96" width="34" height="34" rx="5" fill="#f2c98a" stroke="#c98b3a" stroke-width="2"/>
+    <rect x="94" y="96" width="34" height="34" rx="5" fill="#f2c98a" stroke="#c98b3a" stroke-width="2"/>
+    <rect x="146" y="96" width="34" height="34" rx="5" fill="#f2c98a" stroke="#c98b3a" stroke-width="2"/>
+    <text x="22" y="172" fill="#2f6b53" font-family="Inter, Arial, sans-serif" font-size="13">Reinforces cell-wall pectin</text>
+  </g>
+
+  <!-- arrow to freeze -->
+  <path d="M812 292 h44" stroke="#bdb4a1" stroke-width="3" fill="none"/>
+  <path d="M856 292 l-10 -6 v12 z" fill="#bdb4a1"/>
+
+  <!-- freeze + dry -->
+  <g transform="translate(872 218)">
+    <rect width="196" height="148" rx="18" fill="#f7f3ea" stroke="#d8d2c3" stroke-width="2"/>
+    <text x="22" y="34" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Freeze &#38; dry</text>
+    <text x="22" y="58" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="13">Sublimation under vacuum</text>
+    <path d="M28 96 q40 -28 80 0 t80 0" fill="none" stroke="#5d79c8" stroke-width="4" stroke-linecap="round"/>
+    <text x="22" y="128" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12">Pretreatment already locked in</text>
+  </g>
+
+  <!-- control comparison bar -->
+  <g transform="translate(112 452)">
+    <rect width="956" height="120" rx="22" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <text x="28" y="40" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Treated vs untreated finish</text>
+    <circle cx="250" cy="74" r="24" fill="#f2c98a" stroke="#c98b3a" stroke-width="2"/>
+    <text x="288" y="70" fill="#2f6b53" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">Treated: brighter color, firmer edges</text>
+    <circle cx="250" cy="74" r="24" fill="#f2c98a" stroke="#c98b3a" stroke-width="2"/>
+    <circle cx="620" cy="74" r="24" fill="#cbb083" stroke="#9c8552" stroke-width="2"/>
+    <text x="658" y="70" fill="#8a6a3a" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="600">Untreated: more browning, softer slump</text>
+    <text x="28" y="100" fill="#8a8578" font-family="Inter, Arial, sans-serif" font-size="12">Residual dip ingredients belong on the label; neither path is inherently better.</text>
+  </g>
+</svg>

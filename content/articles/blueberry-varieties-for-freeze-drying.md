@@ -48,7 +48,7 @@ Use this guide as a practical sourcing tool. The goal is not to rank every possi
 
 ## Why blueberry behaves the way it does
 
-The blueberry problem is skin. A blueberry has a waxy outer surface that protects the fresh fruit, but that same skin can slow drying. Processors often need to manage cracking, piercing, pre-treatment, or cut format so vapor can escape. If the skin stays too intact, the product can look dry outside while retaining uneven texture inside. Small wild blueberries can dry more evenly and taste more intense, but their small size changes the eating experience. Larger cultivated blueberries are visually familiar, yet may be milder and more variable after drying.
+The blueberry problem is skin. A blueberry has a waxy outer surface that protects the fresh fruit, but that same skin can slow drying. Processors often need to manage cracking, piercing, pre-treatment, or cut format so vapor can escape. If the skin stays too intact, the product can look dry outside while retaining uneven texture inside. Small wild blueberries can dry more evenly and taste more intense, but their small size changes the eating experience. Larger cultivated blueberries are visually familiar, yet may be milder and more variable after drying. Skin behavior is what decides the crunch of [**whole freeze-dried blueberries**](https://ohcrisp.com/products/freeze-dried-blueberries-whole).
 
 The technical question is always the same: does the finished piece preserve the best part of the fruit, or does the process amplify the weaknesses? Freeze-drying removes water, but it does not create better raw material. If the fruit begins with weak aroma, poor maturity, too much fiber, or inconsistent sizing, the final product will usually show it.
 

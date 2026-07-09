@@ -62,7 +62,7 @@ A strong freeze-dried mulberry sample usually has these signals:
 - **Crisp or light texture rather than sticky softness.**
 - **Sweet finish with enough acidity to stay interesting.**
 
-These signals matter because consumers judge freeze-dried fruit quickly. They see the color first, smell the product when the pouch opens, and then decide whether the texture feels worth buying again.
+These signals matter because consumers judge freeze-dried fruit quickly. They see the color first, smell the product when the pouch opens, and then decide whether the texture feels worth buying again. [**Whole freeze-dried mulberries**](https://ohcrisp.com/products/freeze-dried-mulberries-whole) show the staining-dark color and honey sweetness this report describes.
 
 ## Sourcing reality
 

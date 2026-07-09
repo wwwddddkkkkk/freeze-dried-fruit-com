@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">What a halal certification mark means on a freeze-dried fruit label</title>
+  <desc id="desc">A diagram showing that a halal mark on freeze-dried fruit certifies review of ingredients, processing aids and flavor carriers, and shared-line cross-contact, verified by a named certifying body, rather than the fruit itself.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="74" y="72" width="1052" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="112" y="128" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">The mark certifies the process, not the fruit</text>
+  <text x="112" y="166" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Plain fruit is already plant-based; the review targets everything added around it.</text>
+
+  <!-- central mark -->
+  <g transform="translate(112 226)">
+    <circle cx="120" cy="150" r="108" fill="#eaf4ee" stroke="#2f6b53" stroke-width="3"/>
+    <text x="120" y="140" fill="#2f6b53" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">HALAL</text>
+    <text x="120" y="172" fill="#4f8468" font-family="Inter, Arial, sans-serif" font-size="15" text-anchor="middle">certified</text>
+    <text x="120" y="298" fill="#8a8578" font-family="Inter, Arial, sans-serif" font-size="13" text-anchor="middle">Only as strong as the certifying body</text>
+  </g>
+
+  <!-- three check panels -->
+  <g transform="translate(392 214)" font-family="Inter, Arial, sans-serif">
+    <rect width="676" height="90" rx="16" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <circle cx="46" cy="45" r="20" fill="#eaf4ee" stroke="#7db08e" stroke-width="2"/>
+    <path d="M37 45 l7 8 12 -16" fill="none" stroke="#2f6b53" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="84" y="40" fill="#1f332d" font-size="19" font-weight="700">Ingredients</text>
+    <text x="84" y="66" fill="#68736c" font-size="14">Coatings, binders, sweeteners checked for animal-derived items</text>
+  </g>
+
+  <g transform="translate(392 316)" font-family="Inter, Arial, sans-serif">
+    <rect width="676" height="90" rx="16" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <circle cx="46" cy="45" r="20" fill="#eaf4ee" stroke="#7db08e" stroke-width="2"/>
+    <path d="M37 45 l7 8 12 -16" fill="none" stroke="#2f6b53" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="84" y="40" fill="#1f332d" font-size="19" font-weight="700">Flavors &#38; carriers</text>
+    <text x="84" y="66" fill="#68736c" font-size="14">Alcohol-based extracts and animal carriers ruled out</text>
+  </g>
+
+  <g transform="translate(392 418)" font-family="Inter, Arial, sans-serif">
+    <rect width="676" height="90" rx="16" fill="#f7f3ea" stroke="#d8d2c3"/>
+    <circle cx="46" cy="45" r="20" fill="#eaf4ee" stroke="#7db08e" stroke-width="2"/>
+    <path d="M37 45 l7 8 12 -16" fill="none" stroke="#2f6b53" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="84" y="40" fill="#1f332d" font-size="19" font-weight="700">Shared lines</text>
+    <text x="84" y="66" fill="#68736c" font-size="14">Cross-contact with non-halal products assessed and controlled</text>
+  </g>
+
+  <!-- bottom note -->
+  <text x="392" y="548" fill="#8a8578" font-family="Inter, Arial, sans-serif" font-size="13">Verify the certifier and the certificate scope, not just the symbol on the pack.</text>
+</svg>

@@ -90,7 +90,7 @@ This is often more useful than asking for one best type. A variety can be perfec
 
 For freeze-dried durian, cultivar identity can matter more than almost any other fruit. Aroma, fat-like creaminess, bitterness, sweetness, and color all concentrate after drying. Buyers should ask cultivar, origin, pulp grade, seed removal, frozen or fresh input, packaging barrier, odor control, and whether the product is chunks, powder, pulp pieces, or formulated filling.
 
-Freeze-drying concentrates both strengths and flaws. Strong aroma can become more vivid. Weak flavor can become more obvious. Tough skin, large seeds, excess fiber, low acidity, or high water content may require a different cut format, blend partner, or use case.
+Freeze-drying concentrates both strengths and flaws. Strong aroma can become more vivid. Weak flavor can become more obvious. Tough skin, large seeds, excess fiber, low acidity, or high water content may require a different cut format, blend partner, or use case. For most readers outside Southeast Asia, [**OhCrisp's durian**](https://ohcrisp.com/products/freeze-dried-durians-chunks) is a lower-commitment way to meet the fruit than a whole Monthong.
 
 ## Why labels often hide variety
 

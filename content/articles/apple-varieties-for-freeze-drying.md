@@ -48,7 +48,7 @@ Use this guide as a working field note. It is written for buyers, snack founders
 
 ## Why apple behaves the way it does
 
-Apple is structurally friendly for freeze-drying. It can be sliced, diced, peeled, unpeeled, powdered, or blended. The main technical risks are browning, texture loss, and blandness. A sweet apple with low acidity can become pleasant but forgettable. A tart apple can stay more interesting after drying. Peel adds color and identity but can change bite. Slice thickness controls snap, fragility, and drying time.
+Apple is structurally friendly for freeze-drying. It can be sliced, diced, peeled, unpeeled, powdered, or blended. The main technical risks are browning, texture loss, and blandness. A sweet apple with low acidity can become pleasant but forgettable. A tart apple can stay more interesting after drying. Peel adds color and identity but can change bite. Slice thickness controls snap, fragility, and drying time. Chunk-cut [**freeze-dried apple chunks**](https://ohcrisp.com/products/freeze-dried-apples-chunks) show how much slice geometry changes the eating experience.
 
 Freeze-drying removes water, but it does not erase the fruit's original structure. The strongest products begin with raw material that already has the right flavor, maturity, and texture for the intended format. A process can protect quality; it cannot invent it from weak fruit.
 

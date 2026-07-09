@@ -48,7 +48,7 @@ Use this guide as a practical sourcing tool. The goal is not to rank every possi
 
 ## Why banana behaves the way it does
 
-Banana changes dramatically as starch converts to sugar. Freeze-drying preserves that stage. A ripe banana slice can become crisp, sweet, and easy to recognize. Under-ripe banana can feel chalky or bland. Very ripe banana can bring strong aroma but may brown, stick, or lose shape before drying. Enzymatic browning is a key issue, so some processors use pre-treatments to protect color. Slice thickness also matters: thin slices are crisp and fragile, while thicker slices can feel more substantial but may dry less evenly.
+Banana changes dramatically as starch converts to sugar. Freeze-drying preserves that stage. A ripe banana slice can become crisp, sweet, and easy to recognize. Under-ripe banana can feel chalky or bland. Very ripe banana can bring strong aroma but may brown, stick, or lose shape before drying. Enzymatic browning is a key issue, so some processors use pre-treatments to protect color. Slice thickness also matters: thin slices are crisp and fragile, while thicker slices can feel more substantial but may dry less evenly. Slice thickness is why good [**freeze-dried banana slices**](https://ohcrisp.com/products/freeze-dried-bananas-slices) snap rather than bend.
 
 The technical question is always the same: does the finished piece preserve the best part of the fruit, or does the process amplify the weaknesses? Freeze-drying removes water, but it does not create better raw material. If the fruit begins with weak aroma, poor maturity, too much fiber, or inconsistent sizing, the final product will usually show it.
 

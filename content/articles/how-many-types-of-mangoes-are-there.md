@@ -162,7 +162,7 @@ The strongest freeze-dried mango candidates usually have:
 
 For premium freeze-dried snacking, the names to watch are **Ataulfo**, **Alphonso**, **Kesar**, **Carabao**, and **Nam Dok Mai**. For reliable cubes and broader ingredient use, **Kent** and **Keitt** are often more practical. For powders, pulp-derived ingredients, and lower-cost blends, **Tommy Atkins**, **Totapuri**, and **Palmer** may appear more often.
 
-That does not mean one group is morally better than another. It means each variety has a job.
+That does not mean one group is morally better than another. It means each variety has a job. Mango's versatility also shows up in composed snacks — [**a mango-and-cashew crisp**](https://ohcrisp.com/products/freeze-dried-mango-cashew-crisp) is a recent example of the fruit carrying a whole format.
 
 ## Why packaging often just says "mango"
 

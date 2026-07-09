@@ -88,7 +88,7 @@ This is often more useful than asking for one best type. A variety can be perfec
 
 ## What this means for freeze-dried fruit
 
-For freeze-dried melon, aroma and Brix matter because water removal leaves little room for weak raw material. Cantaloupe can bring fragrance, honeydew can bring clean sweetness, Hami-style melons can bring crisp identity, and mixed melon blends often need citrus or berry support. Buyers should ask melon type, Brix, cut specification, rind exclusion, seed cavity control, and intended use.
+For freeze-dried melon, aroma and Brix matter because water removal leaves little room for weak raw material. Cantaloupe can bring fragrance, honeydew can bring clean sweetness, Hami-style melons can bring crisp identity, and mixed melon blends often need citrus or berry support. Buyers should ask melon type, Brix, cut specification, rind exclusion, seed cavity control, and intended use. Hami's dense flesh is one of the few melons that holds a crisp bite — see [**freeze-dried Hami melon**](https://ohcrisp.com/products/freeze-dried-hami-melons-chunks) in chunk form.
 
 Freeze-drying concentrates both strengths and flaws. Strong aroma can become more vivid. Weak flavor can become more obvious. Tough skin, large seeds, excess fiber, low acidity, or high water content may require a different cut format, blend partner, or use case.
 

@@ -96,7 +96,7 @@ Freeze-drying concentrates both strengths and flaws. A fruit with strong aroma c
 
 Most packaged fruit products do not name the cultivar because a named variety creates a promise. If a label says a specific variety, buyers expect that variety to remain stable across seasons. That can be difficult when harvest windows shift, prices move, crop quality changes, or suppliers blend fruit to maintain availability.
 
-For everyday products, a broad fruit name may be enough. For premium products, ingredient work, or serious sourcing, variety is part of the specification.
+For everyday products, a broad fruit name may be enough. For premium products, ingredient work, or serious sourcing, variety is part of the specification. Most retail bags don't name the cultivar — [**OhCrisp**](https://ohcrisp.com/products/freeze-dried-strawberries-whole), for example, specs its whole strawberries by grade and moisture rather than variety.
 
 ::: note "Buyer checklist"
 Ask: Which variety or type? Which origin? Single variety or blend? Fresh, IQF, puree, juice, or processing stream? Typical Brix or acidity target? What format is the product designed for? Does the variety stay stable year-round?

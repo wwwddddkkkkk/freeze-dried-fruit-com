@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Nonconformance and CAPA loop for freeze-dried fruit</title>
+  <desc id="desc">A closed loop flow diagram moving from detecting a nonconformance, to containing the affected lot, to root-cause analysis, to corrective and preventive action, to verification, and finally to closure, with a feedback arrow back to a supplier scorecard.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="140" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="36">Nonconformance to Fix</text>
+  <text x="108" y="182" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">A closed corrective-action loop for freeze-dried fruit lots</text>
+
+  <!-- Step boxes -->
+  <!-- 1 Detect -->
+  <rect x="120" y="270" width="260" height="120" rx="16" fill="#f6ece0" stroke="#d8a24a" stroke-width="3"/>
+  <text x="150" y="316" fill="#b07a3a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" letter-spacing="1">1 · DETECT</text>
+  <text x="150" y="346" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Lot fails a spec;</text>
+  <text x="150" y="368" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">write it up with evidence</text>
+
+  <!-- 2 Contain -->
+  <rect x="450" y="270" width="260" height="120" rx="16" fill="#f6ece0" stroke="#c46b4c" stroke-width="3"/>
+  <text x="480" y="316" fill="#b94a3a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" letter-spacing="1">2 · CONTAIN</text>
+  <text x="480" y="346" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Hold the lot,</text>
+  <text x="480" y="368" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">quarantine, disposition</text>
+
+  <!-- 3 Root cause -->
+  <rect x="780" y="270" width="260" height="120" rx="16" fill="#f6ece0" stroke="#8fb3b5" stroke-width="3"/>
+  <text x="810" y="316" fill="#4f7274" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" letter-spacing="1">3 · ROOT CAUSE</text>
+  <text x="810" y="346" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Five whys / fishbone</text>
+  <text x="810" y="368" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">to the mechanism</text>
+
+  <!-- 4 Corrective action -->
+  <rect x="1110" y="270" width="270" height="120" rx="16" fill="#f6ece0" stroke="#7a9a5a" stroke-width="3"/>
+  <text x="1140" y="316" fill="#5f7a42" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" letter-spacing="1">4 · ACTION</text>
+  <text x="1140" y="346" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Change the system,</text>
+  <text x="1140" y="368" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">not the person</text>
+
+  <!-- arrows across top row -->
+  <g stroke="#bfa678" stroke-width="4" fill="#bfa678">
+    <path d="M380 330 L442 330" fill="none"/><polygon points="450,330 432,321 432,339"/>
+    <path d="M710 330 L772 330" fill="none"/><polygon points="780,330 762,321 762,339"/>
+    <path d="M1040 330 L1102 330" fill="none"/><polygon points="1110,330 1092,321 1092,339"/>
+  </g>
+
+  <!-- down arrow to verify -->
+  <path d="M1245 390 L1245 470" fill="none" stroke="#bfa678" stroke-width="4"/>
+  <polygon points="1245,478 1236,460 1254,460" fill="#bfa678"/>
+
+  <!-- 5 Verify -->
+  <rect x="1110" y="480" width="270" height="120" rx="16" fill="#eef2e6" stroke="#7a9a5a" stroke-width="3"/>
+  <text x="1140" y="526" fill="#5f7a42" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" letter-spacing="1">5 · VERIFY</text>
+  <text x="1140" y="556" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Evidence on next lots</text>
+  <text x="1140" y="578" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">before closing</text>
+
+  <!-- left arrow to close -->
+  <path d="M1110 540 L1042 540" fill="none" stroke="#bfa678" stroke-width="4"/>
+  <polygon points="1034,540 1052,531 1052,549" fill="#bfa678"/>
+
+  <!-- 6 Close -->
+  <rect x="780" y="480" width="260" height="120" rx="16" fill="#eef2e6" stroke="#5f7a42" stroke-width="3"/>
+  <text x="810" y="526" fill="#5f7a42" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" letter-spacing="1">6 · CLOSE</text>
+  <text x="810" y="556" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Only when the fix</text>
+  <text x="810" y="578" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">is proven to hold</text>
+
+  <!-- feedback arrow to scorecard -->
+  <path d="M780 540 L470 540 Q250 540 250 470 L250 410" fill="none" stroke="#8b7654" stroke-width="4" stroke-dasharray="10 8"/>
+  <polygon points="250,402 241,420 259,420" fill="#8b7654"/>
+
+  <!-- scorecard -->
+  <rect x="120" y="480" width="380" height="130" rx="16" fill="#fcf6ea" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="150" y="522" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" letter-spacing="1">SUPPLIER SCORECARD</text>
+  <text x="150" y="552" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">Trend defects, causes, and</text>
+  <text x="150" y="574" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">whether corrective actions stick.</text>
+
+  <text x="108" y="710" fill="#6f5d45" font-family="Georgia, serif" font-size="21" font-style="italic">Rejecting a lot protects one shipment. Closing the loop protects every one after.</text>
+</svg>

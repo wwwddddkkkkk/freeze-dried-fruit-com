@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Freeze-dryer vacuum train with gas ballast</title>
+  <desc id="desc">A vacuum train diagram showing the chamber of fruit, the cold condenser that traps water vapor as ice, and the vacuum pump that removes non-condensable gas, with a gas ballast valve bleeding dry air through the pump to carry water vapor out before it condenses in the oil.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="140" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="36">The Vacuum Train</text>
+  <text x="108" y="182" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Chamber to condenser to pump — and where gas ballast fits</text>
+
+  <!-- Chamber -->
+  <rect x="120" y="300" width="330" height="320" rx="20" fill="#efe3c7" stroke="#bfa678" stroke-width="3"/>
+  <text x="150" y="286" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.5">CHAMBER</text>
+  <rect x="150" y="356" width="270" height="14" rx="6" fill="#8f7a58"/>
+  <rect x="150" y="436" width="270" height="14" rx="6" fill="#8f7a58"/>
+  <rect x="150" y="516" width="270" height="14" rx="6" fill="#8f7a58"/>
+  <g fill="#d66f49">
+    <circle cx="185" cy="346" r="9"/><circle cx="230" cy="346" r="9"/><circle cx="275" cy="346" r="9"/><circle cx="320" cy="346" r="9"/><circle cx="365" cy="346" r="9"/>
+    <circle cx="185" cy="426" r="9"/><circle cx="230" cy="426" r="9"/><circle cx="275" cy="426" r="9"/><circle cx="320" cy="426" r="9"/><circle cx="365" cy="426" r="9"/>
+    <circle cx="185" cy="506" r="9"/><circle cx="230" cy="506" r="9"/><circle cx="275" cy="506" r="9"/><circle cx="320" cy="506" r="9"/><circle cx="365" cy="506" r="9"/>
+  </g>
+  <text x="150" y="600" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">water vapor rises off fruit</text>
+
+  <!-- vapor arrow to condenser -->
+  <path d="M450 440 L560 440" fill="none" stroke="#6ea2a4" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="560,440 540,430 540,450" fill="#6ea2a4"/>
+  <text x="466" y="425" fill="#6ea2a4" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">vapor</text>
+
+  <!-- Condenser -->
+  <rect x="580" y="300" width="300" height="320" rx="20" fill="#e7eef0" stroke="#8fb3b5" stroke-width="3"/>
+  <text x="610" y="286" fill="#4f7274" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.5">CONDENSER (COLD TRAP)</text>
+  <g stroke="#6ea2a4" stroke-width="5" fill="none">
+    <path d="M620 360 q60 -30 120 0 q60 30 120 0"/>
+    <path d="M620 420 q60 -30 120 0 q60 30 120 0"/>
+    <path d="M620 480 q60 -30 120 0 q60 30 120 0"/>
+    <path d="M620 540 q60 -30 120 0 q60 30 120 0"/>
+  </g>
+  <g fill="#bcd6d8">
+    <circle cx="660" cy="500" r="6"/><circle cx="720" cy="520" r="6"/><circle cx="790" cy="500" r="6"/><circle cx="830" cy="530" r="6"/>
+  </g>
+  <text x="610" y="600" fill="#4f7274" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">water freezes to ice on coils</text>
+
+  <!-- non-condensable arrow to pump -->
+  <path d="M880 440 L1000 440" fill="none" stroke="#b07a3a" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="1000,440 980,430 980,450" fill="#b07a3a"/>
+  <text x="886" y="425" fill="#b07a3a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14">air (non-condensable)</text>
+
+  <!-- Pump -->
+  <rect x="1020" y="330" width="300" height="260" rx="20" fill="#efe3c7" stroke="#bfa678" stroke-width="3"/>
+  <text x="1050" y="316" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" letter-spacing="1.5">VACUUM PUMP</text>
+  <circle cx="1170" cy="460" r="70" fill="#f3ead6" stroke="#bfa678" stroke-width="3"/>
+  <circle cx="1170" cy="460" r="40" fill="#e3d3ad" stroke="#bfa678" stroke-width="2"/>
+  <line x1="1170" y1="420" x2="1170" y2="500" stroke="#8f7a58" stroke-width="4"/>
+  <line x1="1130" y1="460" x2="1210" y2="460" stroke="#8f7a58" stroke-width="4"/>
+  <text x="1050" y="560" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">oil-sealed or dry pump</text>
+
+  <!-- exhaust -->
+  <path d="M1320 460 L1420 460" fill="none" stroke="#8b7654" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="1420,460 1400,450 1400,470" fill="#8b7654"/>
+  <text x="1330" y="445" fill="#8b7654" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14">exhaust</text>
+
+  <!-- gas ballast bleed into pump -->
+  <path d="M1170 690 L1170 545" fill="none" stroke="#4f7274" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="1170,540 1160,562 1180,562" fill="#4f7274"/>
+  <rect x="1108" y="694" width="124" height="52" rx="10" fill="#e7eef0" stroke="#8fb3b5" stroke-width="2"/>
+  <text x="1128" y="726" fill="#4f7274" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">GAS BALLAST</text>
+  <text x="900" y="726" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">Bleeds dry air so water vapor exits before</text>
+  <text x="900" y="750" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17">it condenses into the sealing oil.</text>
+
+  <line x1="108" y1="676" x2="820" y2="676" stroke="#e2d5b8" stroke-width="2"/>
+  <text x="108" y="726" fill="#6f5d45" font-family="Georgia, serif" font-size="20" font-style="italic">A weak pump raises working pressure — and slows drying.</text>
+</svg>

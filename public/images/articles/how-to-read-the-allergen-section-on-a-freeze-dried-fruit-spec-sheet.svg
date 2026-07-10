@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Freeze-dried fruit allergen matrix</title>
+  <desc id="desc">A spec-sheet allergen matrix with rows for major allergens and two columns, one marking whether each allergen is present as an ingredient and one marking whether it is present in the facility through shared equipment or cross-contact.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="140" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="36">Reading the Allergen Matrix</text>
+  <text x="108" y="182" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">In the product vs. in the facility — two different questions</text>
+
+  <!-- table -->
+  <g font-family="'Helvetica Neue', Arial, sans-serif">
+    <!-- header row -->
+    <rect x="120" y="240" width="440" height="66" fill="#efe3c7" stroke="#bfa678" stroke-width="2"/>
+    <rect x="560" y="240" width="380" height="66" fill="#efe3c7" stroke="#bfa678" stroke-width="2"/>
+    <rect x="940" y="240" width="400" height="66" fill="#e7eef0" stroke="#8fb3b5" stroke-width="2"/>
+    <text x="150" y="282" fill="#6f5d45" font-size="20">ALLERGEN</text>
+    <text x="590" y="282" fill="#6f5d45" font-size="19">PRESENT AS INGREDIENT</text>
+    <text x="970" y="282" fill="#4f7274" font-size="19">PRESENT IN FACILITY</text>
+
+    <!-- rows -->
+    <g font-size="19" fill="#4a3f2e">
+      <!-- row template: label, ingredient mark, facility mark -->
+      <rect x="120" y="306" width="1220" height="52" fill="#fcf6ea" stroke="#e2d5b8"/>
+      <text x="150" y="340">Milk</text>
+      <text x="690" y="340" fill="#7a9a5a">—</text>
+      <text x="1100" y="340" fill="#c46b4c">shared line</text>
+
+      <rect x="120" y="358" width="1220" height="52" fill="#fdf9f0" stroke="#e2d5b8"/>
+      <text x="150" y="392">Tree nuts</text>
+      <text x="690" y="392" fill="#7a9a5a">—</text>
+      <text x="1100" y="392" fill="#c46b4c">may contain</text>
+
+      <rect x="120" y="410" width="1220" height="52" fill="#fcf6ea" stroke="#e2d5b8"/>
+      <text x="150" y="444">Peanuts</text>
+      <text x="690" y="444" fill="#7a9a5a">—</text>
+      <text x="1100" y="444" fill="#c46b4c">may contain</text>
+
+      <rect x="120" y="462" width="1220" height="52" fill="#fdf9f0" stroke="#e2d5b8"/>
+      <text x="150" y="496">Wheat</text>
+      <text x="690" y="496" fill="#7a9a5a">—</text>
+      <text x="1100" y="496" fill="#8a7a60">segregated</text>
+
+      <rect x="120" y="514" width="1220" height="52" fill="#fcf6ea" stroke="#e2d5b8"/>
+      <text x="150" y="548">Soy</text>
+      <text x="690" y="548" fill="#7a9a5a">—</text>
+      <text x="1100" y="548" fill="#8a7a60">segregated</text>
+
+      <rect x="120" y="566" width="1220" height="52" fill="#fdf9f0" stroke="#e2d5b8"/>
+      <text x="150" y="600">Sesame</text>
+      <text x="690" y="600" fill="#7a9a5a">—</text>
+      <text x="1100" y="600" fill="#8a7a60">not handled</text>
+
+      <rect x="120" y="618" width="1220" height="52" fill="#fcf6ea" stroke="#e2d5b8"/>
+      <text x="150" y="652">Sulfites</text>
+      <text x="690" y="652" fill="#7a9a5a">—</text>
+      <text x="1100" y="652" fill="#8a7a60">verify with supplier</text>
+    </g>
+  </g>
+
+  <!-- callouts -->
+  <rect x="560" y="700" width="360" height="86" rx="12" fill="#eef2e6" stroke="#7a9a5a" stroke-width="2"/>
+  <text x="582" y="734" fill="#5f7a42" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Ingredient column clean =</text>
+  <text x="582" y="758" fill="#5f7a42" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">plain fruit, as expected.</text>
+
+  <rect x="940" y="700" width="400" height="86" rx="12" fill="#f6ece0" stroke="#c46b4c" stroke-width="2"/>
+  <text x="962" y="734" fill="#b94a3a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Facility column is where the</text>
+  <text x="962" y="758" fill="#b94a3a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">real questions live.</text>
+
+  <text x="120" y="734" fill="#6f5d45" font-family="Georgia, serif" font-size="19" font-style="italic">"May contain"</text>
+  <text x="120" y="762" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">is a risk flag,</text>
+  <text x="120" y="784" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">not a guarantee.</text>
+</svg>

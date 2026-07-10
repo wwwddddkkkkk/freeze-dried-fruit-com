@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Freeze-dried fruit in an instant noodle cup</title>
+  <desc id="desc">A cross-section of an instant noodle cup showing layers of noodles, seasoning, and freeze-dried fruit near the top where hot water rehydrates it, alongside a short list of savory-friendly fruits and the flavor role each plays.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="140" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="36">Fruit in a Savory Cup</text>
+  <text x="108" y="182" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Same hot water, no separate prep — layer it near the top</text>
+
+  <!-- cup cross-section -->
+  <g>
+    <!-- steam -->
+    <path d="M360 250 q-20 -34 8 -60 q24 -22 4 -52" fill="none" stroke="#c9b89a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M470 250 q-20 -34 8 -60 q24 -22 4 -52" fill="none" stroke="#c9b89a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M580 250 q-20 -34 8 -60 q24 -22 4 -52" fill="none" stroke="#c9b89a" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- cup body (tapered) -->
+    <path d="M300 300 L640 300 L610 720 L330 720 Z" fill="#fcf6ea" stroke="#bfa678" stroke-width="4"/>
+    <!-- rim -->
+    <rect x="286" y="284" width="368" height="34" rx="12" fill="#efe3c7" stroke="#bfa678" stroke-width="3"/>
+
+    <!-- fruit layer (top) -->
+    <path d="M312 330 L628 330 L620 408 L320 408 Z" fill="#f6ddc9" stroke="#d99f6e" stroke-width="1"/>
+    <g fill="#d66f49">
+      <circle cx="360" cy="368" r="12"/><circle cx="430" cy="382" r="12"/><circle cx="500" cy="364" r="12"/><circle cx="565" cy="384" r="12"/>
+    </g>
+    <g fill="#e8a34a">
+      <circle cx="395" cy="356" r="9"/><circle cx="470" cy="392" r="9"/><circle cx="535" cy="360" r="9"/>
+    </g>
+    <text x="662" y="378" fill="#c46b4c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">freeze-dried fruit</text>
+    <text x="662" y="402" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">rehydrates in the steam &amp; water</text>
+
+    <!-- seasoning layer -->
+    <path d="M320 408 L620 408 L614 470 L326 470 Z" fill="#efe3c7"/>
+    <g fill="#8b7654"><circle cx="380" cy="440" r="4"/><circle cx="430" cy="450" r="4"/><circle cx="480" cy="436" r="4"/><circle cx="540" cy="452" r="4"/><circle cx="410" cy="458" r="4"/><circle cx="510" cy="444" r="4"/></g>
+    <text x="662" y="446" fill="#8b7654" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">seasoning</text>
+
+    <!-- noodle layer -->
+    <path d="M326 470 L614 470 L610 712 L330 712 Z" fill="#f3e7c8"/>
+    <g stroke="#d9c48f" stroke-width="4" fill="none">
+      <path d="M348 500 q60 -18 120 0 q60 18 120 0"/>
+      <path d="M348 540 q60 -18 120 0 q60 18 120 0"/>
+      <path d="M348 580 q60 -18 120 0 q60 18 120 0"/>
+      <path d="M348 620 q60 -18 120 0 q60 18 120 0"/>
+      <path d="M348 660 q60 -18 120 0 q60 18 120 0"/>
+    </g>
+    <text x="662" y="592" fill="#a68a52" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">noodles</text>
+  </g>
+
+  <!-- fruit list panel -->
+  <rect x="980" y="300" width="470" height="430" rx="18" fill="#fcf6ea" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="1012" y="348" fill="#6f5d45" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" letter-spacing="1">WHAT EACH FRUIT DOES</text>
+  <g font-family="'Helvetica Neue', Arial, sans-serif">
+    <circle cx="1024" cy="392" r="10" fill="#e8a34a"/>
+    <text x="1050" y="398" fill="#4a3f2e" font-size="18">Pineapple — bright, tangy, cuts heat</text>
+    <circle cx="1024" cy="440" r="10" fill="#e0813a"/>
+    <text x="1050" y="446" fill="#4a3f2e" font-size="18">Mango — aromatic; chili &amp; coconut</text>
+    <circle cx="1024" cy="488" r="10" fill="#cbb56a"/>
+    <text x="1050" y="494" fill="#4a3f2e" font-size="18">Apple — mild acid; miso &amp; curry</text>
+    <circle cx="1024" cy="536" r="10" fill="#b94a3a"/>
+    <text x="1050" y="542" fill="#4a3f2e" font-size="18">Cranberry — sharp; cuts rich broth</text>
+    <circle cx="1024" cy="584" r="10" fill="#e6952f"/>
+    <text x="1050" y="590" fill="#4a3f2e" font-size="18">Citrus — lifts a flat, dried base</text>
+  </g>
+  <line x1="1012" y1="616" x2="1418" y2="616" stroke="#e2d5b8" stroke-width="2"/>
+  <text x="1012" y="654" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Acidity &amp; aroma balance salt and fat.</text>
+  <text x="1012" y="686" fill="#c46b4c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Start with ~1 tbsp per cup — restraint wins.</text>
+
+  <text x="108" y="784" fill="#6f5d45" font-family="Georgia, serif" font-size="20" font-style="italic">Treat fruit as a seasoning, not a sweet.</text>
+</svg>

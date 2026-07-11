@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How cargo insurance and damage claims work in freeze-dried fruit shipments</title>
+  <desc id="desc">Left: a bar comparison showing weight-capped carrier liability recovering only a small fraction of the cargo value of a light, high-value freeze-dried fruit container. Right: a claims timeline from delivery note to survey to paid claim.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="192" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">The Gap Liability Doesn&#8217;t Cover</text>
+  <text x="112" y="232" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="23">Weight-based caps fail worst on cargo that is mostly air.</text>
+
+  <!-- Left: value vs liability -->
+  <rect x="104" y="286" width="640" height="486" rx="24" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="142" y="332" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">ONE CONTAINER, TWO NUMBERS</text>
+
+  <!-- Cargo value bar -->
+  <rect x="152" y="368" width="440" height="120" rx="10" fill="#e8a24a" stroke="#294643" stroke-width="2"/>
+  <text x="176" y="418" fill="#3a2a12" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" letter-spacing="2">CARGO VALUE</text>
+  <text x="176" y="454" fill="#3a2a12" font-family="'Source Serif 4', Georgia, serif" font-size="19">full by volume, high value</text>
+
+  <!-- Liability bar -->
+  <rect x="152" y="524" width="86" height="120" rx="10" fill="#c9bda6" stroke="#294643" stroke-width="2"/>
+  <rect x="238" y="524" width="354" height="120" rx="10" fill="#fcfaf5" stroke="#294643" stroke-width="2" stroke-dasharray="8 6"/>
+  <text x="176" y="574" fill="#3c332a" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">CAP</text>
+  <text x="272" y="574" fill="#8d5a4a" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">UNINSURED GAP</text>
+  <text x="272" y="608" fill="#7c8b86" font-family="'Source Serif 4', Georgia, serif" font-size="19">only a cargo policy fills this</text>
+
+  <text x="152" y="694" fill="#3c5a54" font-family="'Source Serif 4', Georgia, serif" font-size="20">Carrier liability is capped by gross weight.</text>
+  <text x="152" y="726" fill="#3c5a54" font-family="'Source Serif 4', Georgia, serif" font-size="20">Freeze-dried fruit weighs almost nothing —</text>
+  <text x="152" y="758" fill="#3c5a54" font-family="'Source Serif 4', Georgia, serif" font-size="20">so the cap recovers almost nothing.</text>
+
+  <!-- Right: claims timeline -->
+  <rect x="784" y="286" width="712" height="486" rx="24" fill="#e6eee7" stroke="#294643" stroke-width="2"/>
+  <text x="822" y="332" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">CLAIMS RUN ON A CLOCK</text>
+
+  <line x1="856" y1="392" x2="856" y2="726" stroke="#294643" stroke-width="3"/>
+
+  <circle cx="856" cy="404" r="12" fill="#b7405c" stroke="#294643" stroke-width="2"/>
+  <text x="898" y="398" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Doors open &#183; photograph the stow</text>
+  <text x="898" y="426" fill="#7c8b86" font-family="'Source Serif 4', Georgia, serif" font-size="18">seal number, load as-found, before unloading</text>
+
+  <circle cx="856" cy="480" r="12" fill="#b7405c" stroke="#294643" stroke-width="2"/>
+  <text x="898" y="474" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Note exceptions on the delivery receipt</text>
+  <text x="898" y="502" fill="#7c8b86" font-family="'Source Serif 4', Georgia, serif" font-size="18">a clean signed receipt is the worst document you can create</text>
+
+  <circle cx="856" cy="556" r="12" fill="#e8a24a" stroke="#294643" stroke-width="2"/>
+  <text x="898" y="550" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Written notice &#183; days, not weeks</text>
+  <text x="898" y="578" fill="#7c8b86" font-family="'Source Serif 4', Georgia, serif" font-size="18">notice first, investigate second</text>
+
+  <circle cx="856" cy="632" r="12" fill="#e8a24a" stroke="#294643" stroke-width="2"/>
+  <text x="898" y="626" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Independent survey &#183; preserve the goods</text>
+  <text x="898" y="654" fill="#7c8b86" font-family="'Source Serif 4', Georgia, serif" font-size="18">disposing of the product before survey kills the claim</text>
+
+  <circle cx="856" cy="708" r="12" fill="#4f7d63" stroke="#294643" stroke-width="2"/>
+  <text x="898" y="702" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22">Complete file &#183; paid claim</text>
+  <text x="898" y="730" fill="#7c8b86" font-family="'Source Serif 4', Georgia, serif" font-size="18">invoice, B/L, receipt, survey, loss statement</text>
+</svg>

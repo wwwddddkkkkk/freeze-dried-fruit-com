@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How changeover cleaning controls flavor carryover between freeze-dried fruit runs</title>
+  <desc id="desc">A freeze-drying line map showing the five places residue collects — trays, door gasket, chamber corners, sieves, and conveyors — with dry cleaning and run sequencing shown as the two controls that keep the next lot clean.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="112" y="192" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">Where the Last Fruit Hides</text>
+  <text x="112" y="232" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="23">Carryover is physical: fines, powder, and pigment left on shared surfaces.</text>
+
+  <!-- Line spine -->
+  <line x1="150" y1="470" x2="1450" y2="470" stroke="#c9bda6" stroke-width="3" stroke-dasharray="10 8"/>
+
+  <!-- Node 1: trays -->
+  <rect x="122" y="300" width="240" height="200" rx="18" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <rect x="152" y="342" width="180" height="14" rx="4" fill="#dfeae2" stroke="#294643" stroke-width="2"/>
+  <rect x="152" y="374" width="180" height="14" rx="4" fill="#dfeae2" stroke="#294643" stroke-width="2"/>
+  <rect x="152" y="406" width="180" height="14" rx="4" fill="#dfeae2" stroke="#294643" stroke-width="2"/>
+  <circle cx="196" cy="349" r="4" fill="#b7405c"/>
+  <circle cx="268" cy="381" r="4" fill="#b7405c"/>
+  <circle cx="228" cy="413" r="4" fill="#b7405c"/>
+  <circle cx="304" cy="349" r="3" fill="#b7405c"/>
+  <text x="152" y="462" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">TRAYS</text>
+  <text x="152" y="486" fill="#7c8b86" font-family="'Source Serif 4', Georgia, serif" font-size="17">sticky sugar film</text>
+
+  <!-- Node 2: gasket -->
+  <rect x="392" y="300" width="240" height="200" rx="18" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <rect x="432" y="336" width="160" height="100" rx="10" fill="#fcfaf5" stroke="#294643" stroke-width="2"/>
+  <rect x="446" y="350" width="132" height="72" rx="6" fill="#dfeae2" stroke="#294643" stroke-width="2" stroke-dasharray="6 5"/>
+  <circle cx="446" cy="350" r="5" fill="#b7405c"/>
+  <circle cx="578" cy="422" r="5" fill="#b7405c"/>
+  <circle cx="578" cy="350" r="4" fill="#b7405c"/>
+  <text x="422" y="462" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">DOOR GASKET</text>
+  <text x="422" y="486" fill="#7c8b86" font-family="'Source Serif 4', Georgia, serif" font-size="17">powder in the groove</text>
+
+  <!-- Node 3: chamber -->
+  <rect x="662" y="300" width="276" height="200" rx="18" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <path d="M700 340 H900 V430 H700 Z" fill="#dfeae2" stroke="#294643" stroke-width="2"/>
+  <line x1="700" y1="370" x2="900" y2="370" stroke="#294643" stroke-width="1.5"/>
+  <line x1="700" y1="400" x2="900" y2="400" stroke="#294643" stroke-width="1.5"/>
+  <circle cx="708" cy="424" r="4" fill="#b7405c"/>
+  <circle cx="893" cy="424" r="4" fill="#b7405c"/>
+  <circle cx="708" cy="346" r="4" fill="#b7405c"/>
+  <text x="692" y="462" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">CHAMBER CORNERS</text>
+  <text x="692" y="486" fill="#7c8b86" font-family="'Source Serif 4', Georgia, serif" font-size="17">fines settle, then lift on venting</text>
+
+  <!-- Node 4: sieve -->
+  <rect x="968" y="300" width="230" height="200" rx="18" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <path d="M1000 344 H1166 L1132 428 H1034 Z" fill="#dfeae2" stroke="#294643" stroke-width="2"/>
+  <line x1="1010" y1="368" x2="1156" y2="368" stroke="#294643" stroke-width="1.5"/>
+  <line x1="1020" y1="392" x2="1146" y2="392" stroke="#294643" stroke-width="1.5"/>
+  <circle cx="1052" cy="368" r="4" fill="#b7405c"/>
+  <circle cx="1108" cy="392" r="4" fill="#b7405c"/>
+  <text x="998" y="462" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">SIEVES</text>
+  <text x="998" y="486" fill="#7c8b86" font-family="'Source Serif 4', Georgia, serif" font-size="17">fines trapped in the weave</text>
+
+  <!-- Node 5: conveyor -->
+  <rect x="1228" y="300" width="240" height="200" rx="18" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <rect x="1258" y="360" width="180" height="26" rx="13" fill="#dfeae2" stroke="#294643" stroke-width="2"/>
+  <circle cx="1272" cy="373" r="8" fill="#fcfaf5" stroke="#294643" stroke-width="2"/>
+  <circle cx="1424" cy="373" r="8" fill="#fcfaf5" stroke="#294643" stroke-width="2"/>
+  <circle cx="1310" cy="404" r="4" fill="#b7405c"/>
+  <circle cx="1370" cy="414" r="4" fill="#b7405c"/>
+  <circle cx="1400" cy="400" r="3" fill="#b7405c"/>
+  <text x="1258" y="462" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="21">CONVEYORS</text>
+  <text x="1258" y="486" fill="#7c8b86" font-family="'Source Serif 4', Georgia, serif" font-size="17">most product contact of all</text>
+
+  <!-- Controls band -->
+  <rect x="122" y="574" width="646" height="200" rx="20" fill="#e6eee7" stroke="#294643" stroke-width="2"/>
+  <text x="158" y="620" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">CONTROL 1 &#183; DRY CHANGEOVER</text>
+  <text x="158" y="662" fill="#3c5a54" font-family="'Source Serif 4', Georgia, serif" font-size="21">Vacuum, brush, disassemble. Water is a last resort —</text>
+  <text x="158" y="694" fill="#3c5a54" font-family="'Source Serif 4', Georgia, serif" font-size="21">every wet clean owes the schedule a full dry-down</text>
+  <text x="158" y="726" fill="#3c5a54" font-family="'Source Serif 4', Georgia, serif" font-size="21">before the next lot can safely run.</text>
+
+  <rect x="832" y="574" width="636" height="200" rx="20" fill="#e6eee7" stroke="#294643" stroke-width="2"/>
+  <text x="868" y="620" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">CONTROL 2 &#183; RUN SEQUENCING</text>
+  <text x="868" y="666" fill="#3c5a54" font-family="'Source Serif 4', Georgia, serif" font-size="21">Light before dark. Mild before intense.</text>
+  <circle cx="884" cy="706" r="13" fill="#f3e6c8" stroke="#294643" stroke-width="2"/>
+  <text x="908" y="713" fill="#3c5a54" font-family="'Source Serif 4', Georgia, serif" font-size="20">pineapple</text>
+  <path d="M1024 706 H1064" stroke="#294643" stroke-width="2" marker-end="url(#arrow)"/>
+  <circle cx="1090" cy="706" r="13" fill="#e8a24a" stroke="#294643" stroke-width="2"/>
+  <text x="1114" y="713" fill="#3c5a54" font-family="'Source Serif 4', Georgia, serif" font-size="20">mango</text>
+  <path d="M1204 706 H1244" stroke="#294643" stroke-width="2" marker-end="url(#arrow)"/>
+  <circle cx="1270" cy="706" r="13" fill="#b7405c" stroke="#294643" stroke-width="2"/>
+  <text x="1294" y="713" fill="#3c5a54" font-family="'Source Serif 4', Georgia, serif" font-size="20">raspberry</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0 0 L9 4.5 L0 9 Z" fill="#294643"/>
+    </marker>
+  </defs>
+</svg>

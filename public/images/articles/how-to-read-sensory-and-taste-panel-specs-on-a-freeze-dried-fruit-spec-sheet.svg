@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to read sensory and taste panel specs on a freeze-dried fruit spec sheet</title>
+  <desc id="desc">Left: the common one-line sensory spec, shown as unenforceable. Right: a structured sensory spec with named attributes on a radar-style scale, a panel definition, a 1 to 5 pass rule, and a retained reference sample as the anchor.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="192" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">A Spec You Can Actually Fail</text>
+  <text x="112" y="232" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="23">&#8220;Characteristic of the fruit&#8221; is not a specification. It is a shrug.</text>
+
+  <!-- Left: the vague spec -->
+  <rect x="104" y="286" width="576" height="486" rx="24" fill="#f1ebdf" stroke="#8d5a4a" stroke-width="2"/>
+  <text x="142" y="332" fill="#8d5a4a" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">WHAT MOST SHEETS SAY</text>
+
+  <rect x="142" y="360" width="500" height="118" rx="12" fill="#fcfaf5" stroke="#c9bda6" stroke-width="2"/>
+  <text x="170" y="402" fill="#4a4238" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">FLAVOR / ODOR</text>
+  <text x="170" y="436" fill="#6b6255" font-family="'Source Serif 4', Georgia, serif" font-size="21">Characteristic of the fruit.</text>
+  <text x="170" y="464" fill="#6b6255" font-family="'Source Serif 4', Georgia, serif" font-size="21">Free from off-flavors.</text>
+
+  <text x="142" y="536" fill="#8d5a4a" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Characteristic of <tspan font-style="italic">what?</tspan></text>
+  <line x1="142" y1="558" x2="642" y2="558" stroke="#e0d3bd" stroke-width="2"/>
+  <text x="142" y="600" fill="#6b6255" font-family="'Source Serif 4', Georgia, serif" font-size="20">&#8226; no attributes named</text>
+  <text x="142" y="638" fill="#6b6255" font-family="'Source Serif 4', Georgia, serif" font-size="20">&#8226; no method, no conditions</text>
+  <text x="142" y="676" fill="#6b6255" font-family="'Source Serif 4', Georgia, serif" font-size="20">&#8226; no panel, no pass rule</text>
+  <text x="142" y="714" fill="#6b6255" font-family="'Source Serif 4', Georgia, serif" font-size="20">&#8226; no physical reference</text>
+  <text x="142" y="754" fill="#8d5a4a" font-family="'Source Serif 4', Georgia, serif" font-size="20" font-style="italic">Result: drift is invisible, disputes are unwinnable.</text>
+
+  <!-- Right: structured spec -->
+  <rect x="720" y="286" width="776" height="486" rx="24" fill="#e6eee7" stroke="#294643" stroke-width="2"/>
+  <text x="758" y="332" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">WHAT A USABLE SPEC SAYS</text>
+
+  <!-- attribute bars scored against reference -->
+  <g font-family="'Source Serif 4', Georgia, serif" font-size="19" fill="#3c5a54">
+    <text x="758" y="386">color uniformity</text>
+    <text x="758" y="428">fruit aroma intensity</text>
+    <text x="758" y="470">absence of stale / cooked notes</text>
+    <text x="758" y="512">initial crispness</text>
+    <text x="758" y="554">clean fracture (no bend)</text>
+    <text x="758" y="596">sweet&#8211;acid balance</text>
+  </g>
+  <g>
+    <rect x="1102" y="370" width="240" height="16" rx="8" fill="#fcfaf5" stroke="#294643" stroke-width="1.5"/>
+    <rect x="1102" y="370" width="60" height="16" rx="8" fill="#4f7d63"/>
+    <rect x="1102" y="412" width="240" height="16" rx="8" fill="#fcfaf5" stroke="#294643" stroke-width="1.5"/>
+    <rect x="1102" y="412" width="108" height="16" rx="8" fill="#4f7d63"/>
+    <rect x="1102" y="454" width="240" height="16" rx="8" fill="#fcfaf5" stroke="#294643" stroke-width="1.5"/>
+    <rect x="1102" y="454" width="60" height="16" rx="8" fill="#4f7d63"/>
+    <rect x="1102" y="496" width="240" height="16" rx="8" fill="#fcfaf5" stroke="#294643" stroke-width="1.5"/>
+    <rect x="1102" y="496" width="156" height="16" rx="8" fill="#e8a24a"/>
+    <rect x="1102" y="538" width="240" height="16" rx="8" fill="#fcfaf5" stroke="#294643" stroke-width="1.5"/>
+    <rect x="1102" y="538" width="204" height="16" rx="8" fill="#b7405c"/>
+    <rect x="1102" y="580" width="240" height="16" rx="8" fill="#fcfaf5" stroke="#294643" stroke-width="1.5"/>
+    <rect x="1102" y="580" width="108" height="16" rx="8" fill="#4f7d63"/>
+  </g>
+  <text x="1102" y="632" fill="#7c8b86" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">1 &#183; MATCHES REF</text>
+  <text x="1256" y="632" fill="#7c8b86" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">5 &#183; REJECT</text>
+  <text x="1370" y="551" fill="#b7405c" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">HOLD</text>
+
+  <line x1="758" y1="664" x2="1458" y2="664" stroke="#c5d4c9" stroke-width="2"/>
+
+  <!-- reference sample anchor -->
+  <rect x="758" y="688" width="132" height="66" rx="10" fill="#f3e6c8" stroke="#294643" stroke-width="2"/>
+  <line x1="758" y1="706" x2="890" y2="706" stroke="#294643" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="774" y="742" fill="#3c5a54" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">SEALED RETAIN</text>
+  <text x="918" y="712" fill="#3c5a54" font-family="'Source Serif 4', Georgia, serif" font-size="20">Every score is measured against a physical</text>
+  <text x="918" y="744" fill="#3c5a54" font-family="'Source Serif 4', Georgia, serif" font-size="20">reference lot &#8212; not against memory.</text>
+</svg>

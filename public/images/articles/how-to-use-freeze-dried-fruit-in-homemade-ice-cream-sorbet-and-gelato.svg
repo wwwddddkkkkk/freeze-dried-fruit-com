@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to use freeze-dried fruit in homemade ice cream, sorbet, and gelato</title>
+  <desc id="desc">Left: fresh fruit purée adds flavor plus water, producing ice crystals in the churned base. Right: freeze-dried fruit powder adds the same flavor and color with almost no water, giving a smooth base. Below: a dosing guide per liter of base for common fruits.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">APPLICATIONS</text>
+  <text x="112" y="192" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">Flavor Without the Water</text>
+  <text x="112" y="232" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="23">Ice cream wants fruit flavor. It does not want what fruit is mostly made of.</text>
+
+  <!-- Left: purée route -->
+  <rect x="104" y="286" width="656" height="290" rx="24" fill="#f1ebdf" stroke="#8d5a4a" stroke-width="2"/>
+  <text x="142" y="332" fill="#8d5a4a" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">FRESH PUR&#201;E</text>
+  <circle cx="212" cy="428" r="46" fill="#b7405c" stroke="#294643" stroke-width="2"/>
+  <text x="180" y="502" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="18">flavor + water</text>
+  <path d="M286 428 H366" stroke="#8d5a4a" stroke-width="3" marker-end="url(#a2)"/>
+  <!-- icy scoop -->
+  <circle cx="470" cy="428" r="58" fill="#f7d7de" stroke="#294643" stroke-width="2"/>
+  <g stroke="#8fb2c9" stroke-width="3" stroke-linecap="round">
+    <line x1="440" y1="404" x2="456" y2="392"/>
+    <line x1="486" y1="400" x2="504" y2="412"/>
+    <line x1="446" y1="452" x2="462" y2="464"/>
+    <line x1="492" y1="450" x2="506" y2="440"/>
+    <line x1="466" y1="428" x2="482" y2="428"/>
+  </g>
+  <text x="560" y="416" fill="#8d5a4a" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">ICE CRYSTALS</text>
+  <text x="560" y="446" fill="#7c8b86" font-family="'Source Serif 4', Georgia, serif" font-size="18">grainy, diluted,</text>
+  <text x="560" y="472" fill="#7c8b86" font-family="'Source Serif 4', Georgia, serif" font-size="18">less fruit than you hoped</text>
+
+  <!-- Right: powder route -->
+  <rect x="840" y="286" width="656" height="290" rx="24" fill="#e6eee7" stroke="#294643" stroke-width="2"/>
+  <text x="878" y="332" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">FREEZE-DRIED POWDER</text>
+  <g fill="#b7405c">
+    <circle cx="936" cy="410" r="5"/><circle cx="958" cy="428" r="4"/><circle cx="920" cy="436" r="4"/>
+    <circle cx="948" cy="452" r="5"/><circle cx="972" cy="404" r="3"/><circle cx="912" cy="414" r="3"/>
+    <circle cx="934" cy="462" r="3"/><circle cx="964" cy="444" r="3"/>
+  </g>
+  <text x="898" y="502" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="18">flavor, no water</text>
+  <path d="M1010 428 H1090" stroke="#294643" stroke-width="3" marker-end="url(#a1)"/>
+  <circle cx="1196" cy="428" r="58" fill="#e8788f" stroke="#294643" stroke-width="2"/>
+  <path d="M1152 442 q44 -26 88 0" fill="none" stroke="#fcfaf5" stroke-width="4" stroke-linecap="round"/>
+  <path d="M1158 414 q38 -22 76 0" fill="none" stroke="#fcfaf5" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <text x="1288" y="416" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">SMOOTH</text>
+  <text x="1288" y="446" fill="#7c8b86" font-family="'Source Serif 4', Georgia, serif" font-size="18">dense color,</text>
+  <text x="1288" y="472" fill="#7c8b86" font-family="'Source Serif 4', Georgia, serif" font-size="18">concentrated flavor</text>
+
+  <!-- Dosing strip -->
+  <rect x="104" y="616" width="1392" height="156" rx="20" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="142" y="660" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" letter-spacing="3">STARTING DOSE &#183; GRAMS OF POWDER PER LITRE OF BASE</text>
+  <g font-family="'Source Serif 4', Georgia, serif" font-size="20" fill="#3c5a54">
+    <circle cx="166" cy="722" r="14" fill="#e8788f" stroke="#294643" stroke-width="2"/>
+    <text x="190" y="729">raspberry 15&#8211;20</text>
+    <circle cx="392" cy="722" r="14" fill="#d9536f" stroke="#294643" stroke-width="2"/>
+    <text x="416" y="729">strawberry 20&#8211;30</text>
+    <circle cx="638" cy="722" r="14" fill="#e8c24a" stroke="#294643" stroke-width="2"/>
+    <text x="662" y="729">passion fruit 10&#8211;15</text>
+    <circle cx="906" cy="722" r="14" fill="#e8a24a" stroke="#294643" stroke-width="2"/>
+    <text x="930" y="729">mango 25&#8211;35</text>
+    <circle cx="1136" cy="722" r="14" fill="#5b6ea8" stroke="#294643" stroke-width="2"/>
+    <text x="1160" y="729">blueberry 20&#8211;30</text>
+    <circle cx="1360" cy="722" r="14" fill="#c9d94a" stroke="#294643" stroke-width="2"/>
+    <text x="1384" y="729">lime 8&#8211;12</text>
+  </g>
+
+  <defs>
+    <marker id="a1" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#294643"/></marker>
+    <marker id="a2" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#8d5a4a"/></marker>
+  </defs>
+</svg>

@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How Chocolate and Yogurt Coatings Change Moisture Migration in Freeze-Dried Fruit</title>
+  <desc id="desc">Cross-section of a coated freeze-dried fruit piece showing water activity in the shell higher than the core, with moisture arrows migrating inward, plus a water activity scale.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#efe7d7"/>
+    </linearGradient>
+    <linearGradient id="scale" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#17313b"/>
+      <stop offset="55%" stop-color="#d97a43"/>
+      <stop offset="100%" stop-color="#e8c66a"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#58707a}
+      .small{font:500 22px 'Source Sans 3',Arial,sans-serif}
+      .body{font:500 26px 'Source Sans 3',Arial,sans-serif}
+      .label{font:600 26px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .title{font:700 52px 'Source Serif 4',Georgia,serif}
+      .mono{font:600 24px 'JetBrains Mono',monospace}
+      .line{stroke:#17313b;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
+      .arrow{stroke:#cf5d3d;stroke-width:4;fill:none;stroke-linecap:round}
+      .dash{stroke:#58707a;stroke-width:2.5;stroke-dasharray:8 10;fill:none}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="118" class="label ink">Technology</text>
+  <text x="96" y="184" class="title ink">The shell donates water to the core</text>
+  <text x="96" y="226" class="small muted">Coated freeze-dried fruit fails from the inside out, not from the outside in.</text>
+
+  <!-- cross section panel -->
+  <rect x="96" y="276" width="720" height="486" rx="26" class="panel"/>
+  <text x="136" y="326" class="label ink">Cross-section</text>
+
+  <circle cx="456" cy="524" r="192" fill="#4a3128" stroke="#17313b" stroke-width="3"/>
+  <circle cx="456" cy="524" r="158" fill="#5d3f31" stroke="#17313b" stroke-width="2"/>
+  <circle cx="456" cy="524" r="126" fill="#ef8e54" stroke="#17313b" stroke-width="3"/>
+  <circle cx="410" cy="486" r="10" fill="#fffaf1" opacity=".75"/>
+  <circle cx="470" cy="470" r="7" fill="#fffaf1" opacity=".75"/>
+  <circle cx="506" cy="522" r="11" fill="#fffaf1" opacity=".75"/>
+  <circle cx="432" cy="552" r="8" fill="#fffaf1" opacity=".75"/>
+  <circle cx="486" cy="576" r="9" fill="#fffaf1" opacity=".75"/>
+  <circle cx="398" cy="546" r="6" fill="#fffaf1" opacity=".75"/>
+  <circle cx="452" cy="512" r="6" fill="#fffaf1" opacity=".75"/>
+
+  <!-- inward arrows -->
+  <path d="M456 348v72" class="arrow"/>
+  <path d="M442 400l14 22 14-22" class="arrow"/>
+  <path d="M310 420l52 52" class="arrow"/>
+  <path d="M338 466l26 8-8-26" class="arrow"/>
+  <path d="M602 420l-52 52" class="arrow"/>
+  <path d="M574 466l-26 8 8-26" class="arrow"/>
+  <path d="M456 700v-72" class="arrow"/>
+  <path d="M442 648l14-22 14 22" class="arrow"/>
+
+  <text x="136" y="726" class="mono muted">shell a&#8375; &gt; core a&#8375;  &#8594;  water moves inward</text>
+
+  <!-- right panel -->
+  <rect x="856" y="276" width="648" height="486" rx="26" class="panel"/>
+  <text x="896" y="326" class="label ink">Water activity gradient</text>
+
+  <rect x="896" y="356" width="568" height="30" rx="15" fill="url(#scale)" stroke="#17313b" stroke-width="2"/>
+  <text x="896" y="416" class="small muted">drier</text>
+  <text x="1400" y="416" class="small muted">wetter</text>
+
+  <circle cx="962" cy="371" r="13" fill="#fffaf1" stroke="#17313b" stroke-width="3"/>
+  <text x="920" y="452" class="small ink">fruit core</text>
+  <circle cx="1300" cy="371" r="13" fill="#fffaf1" stroke="#17313b" stroke-width="3"/>
+  <text x="1236" y="452" class="small ink">coating</text>
+  <path d="M962 388v34" class="dash"/>
+  <path d="M1300 388v34" class="dash"/>
+  <path d="M980 400h300" class="arrow"/>
+  <path d="M1258 388l24 12-24 12" class="arrow"/>
+
+  <text x="896" y="518" class="body ink">1. Crunch softens before the bag looks wet.</text>
+  <text x="896" y="562" class="body ink">2. Warm storage speeds the exchange.</text>
+  <text x="896" y="606" class="body ink">3. A drier core widens the gap, not the margin.</text>
+  <text x="896" y="650" class="body ink">4. Coverage gaps let outside air in as well.</text>
+
+  <rect x="896" y="682" width="568" height="52" rx="12" fill="#17313b"/>
+  <text x="920" y="716" class="mono" fill="#f7f2e8">fix the shell, not just the fruit</text>
+</svg>

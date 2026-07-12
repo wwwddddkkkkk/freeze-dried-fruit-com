@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to Use Freeze-Dried Fruit in Yeasted Breads, Babka, and Enriched Doughs</title>
+  <desc id="desc">Cross-section of a swirled babka loaf showing where freeze-dried fruit powder, filling, whole pieces, and glaze belong, with a note that fruit in the dough pulls water from the crumb.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#efe7d7"/>
+    </linearGradient>
+    <linearGradient id="crumb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3dcae"/>
+      <stop offset="100%" stop-color="#e6c88d"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#58707a}
+      .small{font:500 22px 'Source Sans 3',Arial,sans-serif}
+      .body{font:500 25px 'Source Sans 3',Arial,sans-serif}
+      .label{font:600 25px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .title{font:700 52px 'Source Serif 4',Georgia,serif}
+      .mono{font:600 22px 'JetBrains Mono',monospace}
+      .line{stroke:#17313b;stroke-width:3;fill:none;stroke-linecap:round}
+      .dash{stroke:#58707a;stroke-width:2.5;stroke-dasharray:8 10;fill:none}
+      .arrow{stroke:#cf5d3d;stroke-width:3.5;fill:none;stroke-linecap:round}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="112" class="label ink">Applications</text>
+  <text x="96" y="178" class="title ink">Where the fruit belongs in the loaf</text>
+  <text x="96" y="218" class="small muted">In a long ferment, freeze-dried fruit is a water thief. Put it where the water can't reach it.</text>
+
+  <!-- loaf panel -->
+  <rect x="96" y="262" width="800" height="518" rx="26" class="panel"/>
+  <text x="136" y="312" class="label ink">Babka cross-section</text>
+
+  <!-- loaf body -->
+  <path d="M180 700V430c0-40 34-72 76-72h420c42 0 76 32 76 72v270z" fill="url(#crumb)" stroke="#17313b" stroke-width="3"/>
+  <!-- glaze -->
+  <path d="M180 430c0-40 34-72 76-72h420c42 0 76 32 76 72z" fill="#f4b8c4" stroke="#17313b" stroke-width="3"/>
+  <!-- whole pieces on top -->
+  <path d="M320 372c-14-8-18-28-6-42 14-16 40-14 52 2 10 14 4 32-12 40-10 6-24 6-34 0z" fill="#db6c4b" stroke="#17313b" stroke-width="2.5"/>
+  <path d="M520 366c-12-8-14-26-4-38 12-14 34-12 44 2 8 12 4 28-10 34-10 6-20 6-30 2z" fill="#ef8e54" stroke="#17313b" stroke-width="2.5"/>
+  <!-- swirls -->
+  <path d="M240 660c60-60 60-140 0-190" stroke="#8c3b4a" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M350 690c70-70 70-170 0-224" stroke="#a8465a" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M470 690c70-70 70-170 0-224" stroke="#8c3b4a" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M590 680c66-66 66-160 0-212" stroke="#a8465a" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <path d="M700 662c56-56 56-138 0-186" stroke="#8c3b4a" stroke-width="18" fill="none" stroke-linecap="round"/>
+
+  <text x="180" y="742" class="mono muted">swirl = butter + fruit powder (loud flavor, no ferment)</text>
+
+  <!-- callouts -->
+  <path d="M420 358l0-42h180" class="dash"/>
+  <text x="612" y="322" class="small ink">whole pieces: on top, in the glaze</text>
+  <path d="M760 394h96" class="dash"/>
+
+  <!-- right panel -->
+  <rect x="936" y="262" width="568" height="518" rx="26" class="panel"/>
+  <text x="976" y="312" class="label ink">Three placements</text>
+
+  <rect x="976" y="344" width="488" height="120" rx="14" fill="#f2ece0" stroke="#17313b" stroke-width="2"/>
+  <text x="998" y="382" class="body ink">Powder in the dough</text>
+  <text x="998" y="416" class="small muted">modest dose · add water to match</text>
+  <text x="998" y="446" class="mono" fill="#cf5d3d">background color &amp; scent</text>
+
+  <rect x="976" y="484" width="488" height="120" rx="14" fill="#fdf0e2" stroke="#cf5d3d" stroke-width="3"/>
+  <text x="998" y="522" class="body ink">Powder in the filling</text>
+  <text x="998" y="556" class="small muted">fat-bound · shielded from dough water</text>
+  <text x="998" y="586" class="mono" fill="#cf5d3d">best flavor per effort</text>
+
+  <rect x="976" y="624" width="488" height="120" rx="14" fill="#f2ece0" stroke="#17313b" stroke-width="2"/>
+  <text x="998" y="662" class="body ink">Pieces late or on top</text>
+  <text x="998" y="696" class="small muted">never through a bulk ferment</text>
+  <text x="998" y="726" class="mono" fill="#cf5d3d">texture survives</text>
+
+  <!-- water theft arrows -->
+  <path d="M150 470c-22 30-22 62 0 92" class="arrow"/>
+  <path d="M150 552l-12-26 24-4" class="arrow"/>
+  <text x="102" y="440" class="mono muted">dough</text>
+  <text x="102" y="606" class="mono muted">water</text>
+</svg>

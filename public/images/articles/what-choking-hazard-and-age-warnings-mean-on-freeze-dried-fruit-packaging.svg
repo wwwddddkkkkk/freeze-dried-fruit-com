@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What Choking Hazard and Age Warnings Mean on Freeze-Dried Fruit Packaging</title>
+  <desc id="desc">A comparison of freeze-dried fruit formats by thickness, hardness and dissolution speed, next to a mock label panel showing where voluntary age and hazard statements appear.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#efe7d7"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#58707a}
+      .small{font:500 22px 'Source Sans 3',Arial,sans-serif}
+      .body{font:500 25px 'Source Sans 3',Arial,sans-serif}
+      .label{font:600 25px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .title{font:700 52px 'Source Serif 4',Georgia,serif}
+      .mono{font:600 22px 'JetBrains Mono',monospace}
+      .line{stroke:#17313b;stroke-width:3;fill:none;stroke-linecap:round}
+      .dash{stroke:#58707a;stroke-width:2.5;stroke-dasharray:8 10;fill:none}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="112" class="label ink">Labels &amp; Quality</text>
+  <text x="96" y="178" class="title ink">The format decides, not the process</text>
+  <text x="96" y="218" class="small muted">Age guidance on food packs is mostly voluntary. Piece geometry is the real variable.</text>
+
+  <!-- format ladder -->
+  <rect x="96" y="262" width="820" height="518" rx="26" class="panel"/>
+  <text x="136" y="312" class="label ink">Same fruit, four physical objects</text>
+
+  <!-- axis -->
+  <path d="M136 736h740" class="line"/>
+  <text x="136" y="770" class="small muted">dissolves fast</text>
+  <text x="742" y="770" class="small muted">stays intact</text>
+
+  <!-- melt -->
+  <rect x="160" y="600" width="120" height="12" rx="6" fill="#ef8e54" stroke="#17313b" stroke-width="2.5"/>
+  <path d="M220 600v-40" class="dash"/>
+  <text x="160" y="548" class="body ink">thin melt</text>
+  <text x="160" y="662" class="mono muted">low mass</text>
+  <path d="M220 620v96" class="dash"/>
+
+  <!-- slice -->
+  <rect x="352" y="574" width="126" height="38" rx="10" fill="#f1ba55" stroke="#17313b" stroke-width="2.5"/>
+  <path d="M416 574v-26" class="dash"/>
+  <text x="352" y="530" class="body ink">slice</text>
+  <text x="352" y="662" class="mono muted">medium</text>
+  <path d="M416 620v96" class="dash"/>
+
+  <!-- whole -->
+  <path d="M556 616c-30-16-40-56-16-86 26-32 78-30 102 4 22 30 10 68-20 82-22 10-46 10-66 0z" fill="#db6c4b" stroke="#17313b" stroke-width="3"/>
+  <text x="536" y="500" class="body ink">whole piece</text>
+  <text x="536" y="662" class="mono muted">hard, dense</text>
+  <path d="M594 626v90" class="dash"/>
+
+  <!-- coated -->
+  <circle cx="784" cy="574" r="48" fill="#4a3128" stroke="#17313b" stroke-width="3"/>
+  <circle cx="784" cy="574" r="26" fill="#ef8e54" stroke="#17313b" stroke-width="2"/>
+  <text x="726" y="500" class="body ink">coated piece</text>
+  <text x="716" y="662" class="mono muted">shell first</text>
+  <path d="M784 626v90" class="dash"/>
+
+  <!-- label panel -->
+  <rect x="956" y="262" width="548" height="518" rx="26" class="panel"/>
+  <text x="996" y="312" class="label ink">On the pack</text>
+
+  <rect x="996" y="344" width="468" height="76" rx="12" fill="#f2ece0" stroke="#17313b" stroke-width="2"/>
+  <text x="1018" y="378" class="small ink">Nutrition Facts · allergens · net weight</text>
+  <text x="1018" y="406" class="mono muted">mandatory, standardized</text>
+
+  <rect x="996" y="440" width="468" height="76" rx="12" fill="#f2ece0" stroke="#17313b" stroke-width="2"/>
+  <text x="1018" y="474" class="small ink">Ingredient statement · lot code</text>
+  <text x="1018" y="502" class="mono muted">mandatory, standardized</text>
+
+  <rect x="996" y="536" width="468" height="100" rx="12" fill="#fdf0e2" stroke="#cf5d3d" stroke-width="3"/>
+  <text x="1018" y="572" class="small ink">"6 months+" · "not for children under 4"</text>
+  <text x="1018" y="602" class="small ink">"adult supervision recommended"</text>
+  <text x="1018" y="628" class="mono" fill="#cf5d3d">largely voluntary — brand's own read</text>
+
+  <rect x="996" y="656" width="468" height="88" rx="12" fill="#17313b"/>
+  <text x="1018" y="694" class="mono" fill="#f7f2e8">no warning &#8800; safety claim</text>
+  <text x="1018" y="726" class="mono" fill="#cfe0e6">read the format, then the pieces</text>
+</svg>

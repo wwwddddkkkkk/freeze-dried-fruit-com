@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Where Off-Spec Freeze-Dried Fruit and Fines Actually Go</title>
+  <desc id="desc">Flow diagram of one freeze-drying run splitting through a screening step into prime pieces, downgrade pieces, fines and powder, and rejected material, each with its commercial destination.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#efe7d7"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#58707a}
+      .small{font:500 22px 'Source Sans 3',Arial,sans-serif}
+      .body{font:500 25px 'Source Sans 3',Arial,sans-serif}
+      .label{font:600 25px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .title{font:700 52px 'Source Serif 4',Georgia,serif}
+      .mono{font:600 22px 'JetBrains Mono',monospace}
+      .flow{stroke:#17313b;stroke-width:3;fill:none;stroke-linecap:round}
+      .dash{stroke:#58707a;stroke-width:2.5;stroke-dasharray:8 10;fill:none}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="112" class="label ink">Industry Insights</text>
+  <text x="96" y="178" class="title ink">One run, four commercial streams</text>
+  <text x="96" y="218" class="small muted">The price of the prime grade depends on where the rest of the run goes.</text>
+
+  <!-- source -->
+  <rect x="96" y="440" width="238" height="150" rx="18" fill="#17313b"/>
+  <text x="128" y="500" class="label" fill="#f7f2e8">One Run</text>
+  <text x="128" y="540" class="small" fill="#cfe0e6">tray load</text>
+  <text x="128" y="572" class="small" fill="#cfe0e6">after drying</text>
+
+  <!-- screen -->
+  <path d="M334 515h96" class="flow"/>
+  <rect x="430" y="430" width="150" height="170" rx="16" class="panel"/>
+  <text x="452" y="468" class="label ink">Screen</text>
+  <path d="M452 494h106M452 524h106M452 554h106" class="dash"/>
+  <text x="452" y="588" class="mono muted">sieve cut</text>
+
+  <!-- fan out -->
+  <path d="M580 480C660 480 660 268 740 268" class="flow"/>
+  <path d="M580 500C660 500 660 428 740 428" class="flow"/>
+  <path d="M580 540C660 540 660 588 740 588" class="flow"/>
+  <path d="M580 560C660 560 660 748 740 748" class="flow"/>
+
+  <!-- stream cards -->
+  <rect x="740" y="204" width="764" height="128" rx="18" class="panel"/>
+  <circle cx="796" cy="268" r="24" fill="#ef8e54" stroke="#17313b" stroke-width="3"/>
+  <text x="844" y="258" class="body ink">Prime pieces</text>
+  <text x="844" y="296" class="small muted">retail packs · premium ingredient contracts · toppings</text>
+
+  <rect x="740" y="364" width="764" height="128" rx="18" class="panel"/>
+  <circle cx="796" cy="428" r="24" fill="#e3a95c" stroke="#17313b" stroke-width="3"/>
+  <text x="844" y="418" class="body ink">Downgrade pieces</text>
+  <text x="844" y="456" class="small muted">blends · value lines · foodservice · looser-spec private label</text>
+
+  <rect x="740" y="524" width="764" height="128" rx="18" class="panel"/>
+  <circle cx="784" cy="580" r="8" fill="#d97a43" stroke="#17313b" stroke-width="2"/>
+  <circle cx="806" cy="596" r="6" fill="#d97a43" stroke="#17313b" stroke-width="2"/>
+  <circle cx="792" cy="608" r="5" fill="#d97a43" stroke="#17313b" stroke-width="2"/>
+  <circle cx="812" cy="570" r="5" fill="#d97a43" stroke="#17313b" stroke-width="2"/>
+  <text x="844" y="578" class="body ink">Fines &amp; dust</text>
+  <text x="844" y="616" class="small muted">milled to powder · purée bases · inclusion flavor</text>
+
+  <rect x="740" y="684" width="764" height="128" rx="18" class="panel"/>
+  <path d="M780 826" class="flow"/>
+  <circle cx="796" cy="748" r="24" fill="#8b9599" stroke="#17313b" stroke-width="3"/>
+  <path d="M784 736l24 24M808 736l-24 24" stroke="#17313b" stroke-width="3" fill="none"/>
+  <text x="844" y="738" class="body ink">Rejected</text>
+  <text x="844" y="776" class="small muted">fails a safety or compliance limit — not the same as downgrade</text>
+
+  <text x="96" y="700" class="mono muted">ask: what is your</text>
+  <text x="96" y="732" class="mono muted">yield split by stream?</text>
+  <text x="96" y="770" class="mono muted">which one fills my order?</text>
+</svg>

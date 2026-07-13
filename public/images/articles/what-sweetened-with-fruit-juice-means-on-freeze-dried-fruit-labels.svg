@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">What 'sweetened with fruit juice' means on freeze-dried fruit labels</title>
+  <desc id="desc">Annotated label showing a front-panel juice-sweetened claim, a juice concentrate in the ingredient list, and an arrow tracing it to a non-zero Added Sugars line on the Nutrition Facts panel.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="70" y="70" width="1060" height="540" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+
+  <text x="110" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">The juice is named on the front. The sugar is counted on the back.</text>
+  <text x="110" y="162" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">FDA counts juice concentrate used as a sweetener as added sugar.</text>
+
+  <!-- front panel -->
+  <rect x="120" y="200" width="270" height="330" rx="14" fill="#e9f0ea" stroke="#b9c8bd" stroke-width="2"/>
+  <text x="144" y="232" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12" letter-spacing="1">FRONT PANEL</text>
+  <rect x="144" y="248" width="222" height="120" rx="10" fill="#fffdf8" stroke="#d8d2c3"/>
+  <circle cx="200" cy="308" r="20" fill="#c94f5f" opacity="0.75"/>
+  <circle cx="240" cy="300" r="16" fill="#c94f5f" opacity="0.6"/>
+  <circle cx="278" cy="312" r="18" fill="#c94f5f" opacity="0.7"/>
+  <text x="144" y="398" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Freeze-Dried Berries</text>
+  <rect x="144" y="412" width="222" height="34" rx="17" fill="#2f6b53"/>
+  <text x="160" y="434" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Sweetened with fruit juice</text>
+  <text x="144" y="470" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="13">no cane sugar · juice-infused</text>
+  <text x="144" y="500" fill="#b7503f" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">= positioning, not nutrition</text>
+
+  <!-- ingredient list -->
+  <rect x="430" y="200" width="290" height="200" rx="14" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="454" y="232" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12" letter-spacing="1">INGREDIENTS</text>
+  <line x1="454" y1="244" x2="696" y2="244" stroke="#e0dbcd" stroke-width="1.5"/>
+  <text x="454" y="272" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="14">Strawberries,</text>
+  <rect x="448" y="284" width="252" height="30" rx="6" fill="#fbe9d6" stroke="#e8b04b" stroke-width="2"/>
+  <text x="458" y="304" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Apple juice concentrate,</text>
+  <text x="454" y="340" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="14">Citric acid.</text>
+  <text x="454" y="376" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12">Listed by source — but what matters</text>
+  <text x="454" y="392" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12">is the job it is doing.</text>
+
+  <!-- arrow -->
+  <path d="M700 300 C 760 300, 760 330, 810 330" stroke="#b7503f" stroke-width="3" fill="none" stroke-dasharray="6 5"/>
+  <path d="M806 322 l16 8 l-16 8 z" fill="#b7503f"/>
+  <text x="716" y="288" fill="#b7503f" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">functions as sweetener</text>
+
+  <!-- nutrition facts -->
+  <rect x="830" y="200" width="250" height="330" rx="10" fill="#fffdf8" stroke="#1f332d" stroke-width="3"/>
+  <text x="850" y="234" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Nutrition Facts</text>
+  <line x1="850" y1="244" x2="1060" y2="244" stroke="#1f332d" stroke-width="6"/>
+  <text x="850" y="270" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="13">Serving size 1 pouch (28g)</text>
+  <line x1="850" y1="280" x2="1060" y2="280" stroke="#1f332d" stroke-width="2"/>
+  <text x="850" y="306" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">Total Carbohydrate</text>
+  <text x="850" y="330" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="13">   Total Sugars 18g</text>
+  <rect x="846" y="342" width="218" height="34" rx="6" fill="#fbe0dd" stroke="#b7503f" stroke-width="2"/>
+  <text x="858" y="364" fill="#b7503f" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Includes 7g Added Sugars</text>
+  <line x1="850" y1="390" x2="1060" y2="390" stroke="#1f332d" stroke-width="2"/>
+  <text x="850" y="418" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12">This line does not care what the</text>
+  <text x="850" y="436" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12">sweetener is called.</text>
+  <text x="850" y="474" fill="#2f6b53" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">0g here = genuinely plain.</text>
+  <text x="850" y="496" fill="#b7503f" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">&gt;0g here = sweetener added.</text>
+
+  <!-- footer note -->
+  <rect x="120" y="546" width="960" height="48" rx="14" fill="#f1efe6" stroke="#e0dbcd" stroke-width="1.5"/>
+  <text x="144" y="576" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="14">Sweetener occupies net weight — so a juice-sweetened bag is not price-comparable, per gram, with plain fruit.</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How sample fees, trial lots, and pilot runs are priced in freeze-dried fruit sourcing</title>
+  <desc id="desc">Four-stage staircase from shelf sample to pilot run, showing rising supplier cost and rising predictive value, with a cost-driver breakdown beneath.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="70" y="70" width="1060" height="540" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+
+  <text x="110" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">What a sample costs tells you what it proves</text>
+  <text x="110" y="162" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Dryer time is the expensive input. Fruit is not.</text>
+
+  <!-- axes -->
+  <line x1="150" y1="440" x2="1060" y2="440" stroke="#c9c2b1" stroke-width="2"/>
+  <line x1="150" y1="440" x2="150" y2="200" stroke="#c9c2b1" stroke-width="2"/>
+  <text x="96" y="214" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="13" transform="rotate(-90 96 214)">predictive value</text>
+  <text x="900" y="468" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="13">cost to supplier →</text>
+
+  <!-- steps -->
+  <rect x="175" y="392" width="190" height="48" rx="8" fill="#e6ece7" stroke="#b9c8bd" stroke-width="1.5"/>
+  <text x="192" y="414" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Shelf sample</text>
+  <text x="192" y="432" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12">50–500 g · free · from stock</text>
+
+  <rect x="385" y="330" width="190" height="110" rx="8" fill="#dce7de" stroke="#a8bdae" stroke-width="1.5"/>
+  <text x="402" y="352" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Custom sample</text>
+  <text x="402" y="370" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12">0.5–5 kg · buyer pays</text>
+  <text x="402" y="392" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12">proves they can hit</text>
+  <text x="402" y="408" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12">your spec once</text>
+
+  <rect x="595" y="268" width="190" height="172" rx="8" fill="#cfe0d2" stroke="#93b09c" stroke-width="1.5"/>
+  <text x="612" y="290" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Trial lot</text>
+  <text x="612" y="308" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12">20–200 kg · buyer pays</text>
+  <text x="612" y="330" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12">proves it survives</text>
+  <text x="612" y="346" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12">your process</text>
+
+  <rect x="805" y="206" width="215" height="234" rx="8" fill="#2f6b53" stroke="#25543f" stroke-width="1.5"/>
+  <text x="822" y="230" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Pilot / first run</text>
+  <text x="822" y="250" fill="#d6e6dc" font-family="Inter, Arial, sans-serif" font-size="12">full batch · near commercial price</text>
+  <text x="822" y="276" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="12">full trays · standard cycle</text>
+  <text x="822" y="294" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="12">real packing line</text>
+  <text x="822" y="322" fill="#e8b04b" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">the only sample that</text>
+  <text x="822" y="340" fill="#e8b04b" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">predicts your lots</text>
+
+  <!-- drift note -->
+  <path d="M370 250 h190" stroke="#b7503f" stroke-width="2" stroke-dasharray="5 5"/>
+  <text x="180" y="242" fill="#b7503f" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">where approval samples flatter:</text>
+  <text x="180" y="262" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12">light trays · long cycle · hand-packed</text>
+  <text x="180" y="280" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12">→ production drifts, and nobody lied</text>
+
+  <!-- bottom: cost drivers -->
+  <rect x="110" y="490" width="980" height="84" rx="18" fill="#f1efe6" stroke="#e0dbcd" stroke-width="1.5"/>
+  <text x="136" y="520" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Ask for the quote in three lines:</text>
+
+  <rect x="470" y="504" width="170" height="46" rx="8" fill="#fffdf8" stroke="#d8d2c3"/>
+  <text x="486" y="524" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12">fruit cost</text>
+  <text x="486" y="542" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">usually small</text>
+
+  <rect x="655" y="504" width="200" height="46" rx="8" fill="#fffdf8" stroke="#b7503f"/>
+  <text x="671" y="524" fill="#b7503f" font-family="Inter, Arial, sans-serif" font-size="12">cycle / setup</text>
+  <text x="671" y="542" fill="#b7503f" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">the real number</text>
+
+  <rect x="870" y="504" width="190" height="46" rx="8" fill="#fffdf8" stroke="#d8d2c3"/>
+  <text x="886" y="524" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12">freight</text>
+  <text x="886" y="542" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">light, bulky, high</text>
+</svg>

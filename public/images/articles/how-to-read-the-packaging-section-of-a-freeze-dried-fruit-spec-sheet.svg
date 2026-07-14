@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Packaging specification anatomy</title>
+  <desc id="desc">An annotated laminate film cross-section with named layers and gauges, a seal zone detail, a barrier value block showing required test conditions, and a case and pallet block.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="134" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="34">What a Packaging Spec Should Say</text>
+  <text x="108" y="174" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Four blocks. If one is missing, the spec describes the package instead of specifying it.</text>
+
+  <!-- Film structure -->
+  <rect x="108" y="230" width="500" height="360" rx="14" fill="#fdf7ec" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="132" y="268" fill="#5c4f39" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">1. Film structure, layer by layer</text>
+
+  <g stroke="#8c7a58" stroke-width="2">
+    <rect x="150" y="300" width="300" height="42" fill="#e8dcc4"/>
+    <rect x="150" y="342" width="300" height="30" fill="#cfc3a6"/>
+    <rect x="150" y="372" width="300" height="34" fill="#b9a680"/>
+    <rect x="150" y="406" width="300" height="30" fill="#cfc3a6"/>
+    <rect x="150" y="436" width="300" height="46" fill="#f0e7d4"/>
+  </g>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#5c4f39">
+    <text x="466" y="327">outer print / abrasion layer</text>
+    <text x="466" y="363">adhesive tie layer</text>
+    <text x="466" y="395">barrier layer — foil or metallized</text>
+    <text x="466" y="427">adhesive tie layer</text>
+    <text x="466" y="465">sealant layer</text>
+  </g>
+  <text x="132" y="518" fill="#8a7c62" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">Each layer needs a material and a gauge.</text>
+  <text x="132" y="546" fill="#8a7c62" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">"Foil pouch" is a category, not a specification.</text>
+  <text x="132" y="574" fill="#a6613a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">Ask about flex-crack and pinholes after transit.</text>
+
+  <!-- Barrier -->
+  <rect x="640" y="230" width="430" height="360" rx="14" fill="#fdf7ec" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="664" y="268" fill="#5c4f39" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">2. Barrier, with its conditions</text>
+  <g font-family="'Helvetica Neue', Arial, sans-serif">
+    <rect x="664" y="292" width="382" height="120" rx="10" fill="#eaf1e6" stroke="#7f9c72"/>
+    <text x="684" y="322" fill="#41603a" font-size="17">WVTR — value + units + area</text>
+    <text x="684" y="350" fill="#4f6b47" font-size="15">measured at stated temperature and RH</text>
+    <text x="684" y="376" fill="#4f6b47" font-size="15">method referenced</text>
+    <text x="684" y="400" fill="#4f6b47" font-size="15">finished pouch, not flat film coupon</text>
+
+    <rect x="664" y="426" width="382" height="120" rx="10" fill="#eaf1e6" stroke="#7f9c72"/>
+    <text x="684" y="456" fill="#41603a" font-size="17">OTR — value + units + area</text>
+    <text x="684" y="484" fill="#4f6b47" font-size="15">measured at stated temperature and RH</text>
+    <text x="684" y="510" fill="#4f6b47" font-size="15">method referenced</text>
+    <text x="684" y="534" fill="#4f6b47" font-size="15">two numbers from different conditions</text>
+  </g>
+  <text x="684" y="572" fill="#a6613a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">cannot be ranked against each other</text>
+
+  <!-- Seal + case -->
+  <rect x="1102" y="230" width="390" height="170" rx="14" fill="#fdf7ec" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="1126" y="268" fill="#5c4f39" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">3. Seal specification</text>
+  <rect x="1126" y="288" width="342" height="26" fill="#e8dcc4" stroke="#8c7a58"/>
+  <rect x="1126" y="288" width="342" height="10" fill="#c98a5e"/>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#7a6a54">
+    <text x="1126" y="342">seal width, seal strength, test method</text>
+    <text x="1126" y="368">integrity check frequency, per lot or per startup</text>
+    <text x="1126" y="392">how fruit dust in the seal area is controlled</text>
+  </g>
+
+  <rect x="1102" y="420" width="390" height="170" rx="14" fill="#fdf7ec" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="1126" y="458" fill="#5c4f39" font-family="'Helvetica Neue', Arial, sans-serif" font-size="19">4. Case, liner, pallet</text>
+  <g stroke="#8c7a58" stroke-width="2" fill="#f0e7d4">
+    <rect x="1126" y="478" width="70" height="50" rx="4"/>
+    <rect x="1204" y="478" width="70" height="50" rx="4"/>
+    <rect x="1126" y="534" width="70" height="30" rx="4"/>
+    <rect x="1204" y="534" width="70" height="30" rx="4"/>
+  </g>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" fill="#7a6a54">
+    <text x="1292" y="500">board grade, count</text>
+    <text x="1292" y="526">liner spec</text>
+    <text x="1292" y="552">stack height limit</text>
+    <text x="1292" y="578">drop and compression</text>
+  </g>
+
+  <line x1="108" y1="640" x2="1492" y2="640" stroke="#e0d3b8" stroke-width="2"/>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#7a6a54">
+    <text x="108" y="684">A resealable zipper is a consumer feature, not a barrier. It protects nothing before the bag is opened.</text>
+    <text x="108" y="720">Most damage to freeze-dried fruit happens above the pouch, in the case and on the pallet.</text>
+    <text x="108" y="756">Send four questions. A supplier with the documentation answers in a day; one without sends a photo of the bag.</text>
+  </g>
+</svg>

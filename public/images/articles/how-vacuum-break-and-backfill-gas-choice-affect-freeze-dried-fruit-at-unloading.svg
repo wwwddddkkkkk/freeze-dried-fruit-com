@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Vacuum break and backfill gas diagram</title>
+  <desc id="desc">A freeze-dryer chamber at the end of a cycle with two backfill paths, one fast break with humid room air and one slow metered break with dried filtered nitrogen, next to a chart of moisture pickup in the fruit over the minutes after the break.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="134" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="34">Breaking Vacuum</text>
+  <text x="108" y="174" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">The last minute of the cycle, and what the fruit meets on the way out</text>
+
+  <!-- Chamber -->
+  <rect x="108" y="240" width="440" height="330" rx="18" fill="#f0e7d4" stroke="#b9a680" stroke-width="2"/>
+  <text x="128" y="278" fill="#5c4f39" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">Chamber at end of secondary drying</text>
+
+  <!-- trays -->
+  <g stroke="#8c7a58" stroke-width="2" fill="#fffaf0">
+    <rect x="150" y="300" width="356" height="46" rx="6"/>
+    <rect x="150" y="362" width="356" height="46" rx="6"/>
+    <rect x="150" y="424" width="356" height="46" rx="6"/>
+    <rect x="150" y="486" width="356" height="46" rx="6"/>
+  </g>
+  <g fill="#d9a441">
+    <circle cx="180" cy="323" r="9"/><circle cx="216" cy="323" r="9"/><circle cx="252" cy="323" r="9"/><circle cx="288" cy="323" r="9"/><circle cx="324" cy="323" r="9"/><circle cx="360" cy="323" r="9"/><circle cx="396" cy="323" r="9"/><circle cx="432" cy="323" r="9"/><circle cx="468" cy="323" r="9"/>
+    <circle cx="180" cy="385" r="9"/><circle cx="216" cy="385" r="9"/><circle cx="252" cy="385" r="9"/><circle cx="288" cy="385" r="9"/><circle cx="324" cy="385" r="9"/><circle cx="360" cy="385" r="9"/><circle cx="396" cy="385" r="9"/><circle cx="432" cy="385" r="9"/><circle cx="468" cy="385" r="9"/>
+    <circle cx="180" cy="447" r="9"/><circle cx="216" cy="447" r="9"/><circle cx="252" cy="447" r="9"/><circle cx="288" cy="447" r="9"/><circle cx="324" cy="447" r="9"/><circle cx="360" cy="447" r="9"/><circle cx="396" cy="447" r="9"/><circle cx="432" cy="447" r="9"/><circle cx="468" cy="447" r="9"/>
+    <circle cx="180" cy="509" r="9"/><circle cx="216" cy="509" r="9"/><circle cx="252" cy="509" r="9"/><circle cx="288" cy="509" r="9"/><circle cx="324" cy="509" r="9"/><circle cx="360" cy="509" r="9"/><circle cx="396" cy="509" r="9"/><circle cx="432" cy="509" r="9"/><circle cx="468" cy="509" r="9"/>
+  </g>
+  <text x="128" y="556" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">Driest, most porous state of the whole process</text>
+
+  <!-- Two paths -->
+  <g font-family="'Helvetica Neue', Arial, sans-serif">
+    <!-- fast path -->
+    <rect x="600" y="240" width="360" height="150" rx="14" fill="#fbeee2" stroke="#c98a5e" stroke-width="2"/>
+    <text x="622" y="278" fill="#8a4f2c" font-size="19">Fast break, room air</text>
+    <text x="622" y="308" fill="#8a5f42" font-size="15">Open valve to atmosphere</text>
+    <text x="622" y="332" fill="#8a5f42" font-size="15">Humid, oxygen-rich, unfiltered</text>
+    <text x="622" y="356" fill="#8a5f42" font-size="15">Bed disturbed, fines shift</text>
+    <path d="M548 300 L596 300" stroke="#c98a5e" stroke-width="3" marker-end="url(#a1)"/>
+
+    <!-- slow path -->
+    <rect x="600" y="420" width="360" height="150" rx="14" fill="#eaf1e6" stroke="#7f9c72" stroke-width="2"/>
+    <text x="622" y="458" fill="#41603a" font-size="19">Metered break, dried gas</text>
+    <text x="622" y="488" fill="#4f6b47" font-size="15">Orifice or valve controls rate</text>
+    <text x="622" y="512" fill="#4f6b47" font-size="15">Filtered and dried air, or nitrogen</text>
+    <text x="622" y="536" fill="#4f6b47" font-size="15">Trays stay still, less pickup</text>
+    <path d="M548 500 L596 500" stroke="#7f9c72" stroke-width="3" marker-end="url(#a2)"/>
+  </g>
+
+  <defs>
+    <marker id="a1" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0 L10 4 L0 8 z" fill="#c98a5e"/></marker>
+    <marker id="a2" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0 L10 4 L0 8 z" fill="#7f9c72"/></marker>
+  </defs>
+
+  <!-- Chart -->
+  <rect x="1010" y="240" width="490" height="330" rx="14" fill="#fdf7ec" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="1034" y="278" fill="#5c4f39" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">Moisture picked up after the break</text>
+  <line x1="1070" y1="530" x2="1470" y2="530" stroke="#b9a680" stroke-width="2"/>
+  <line x1="1070" y1="310" x2="1070" y2="530" stroke="#b9a680" stroke-width="2"/>
+  <text x="1070" y="556" fill="#8a7c62" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14">break</text>
+  <text x="1400" y="556" fill="#8a7c62" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14">seal</text>
+  <text x="1000" y="306" fill="#8a7c62" font-family="'Helvetica Neue', Arial, sans-serif" font-size="14" text-anchor="end">aₔ</text>
+  <path d="M1070 522 C1140 470, 1230 380, 1330 348 C1390 332, 1430 326, 1470 322" fill="none" stroke="#c98a5e" stroke-width="4"/>
+  <path d="M1070 522 C1160 512, 1260 496, 1350 484 C1400 478, 1440 474, 1470 472" fill="none" stroke="#7f9c72" stroke-width="4"/>
+  <text x="1240" y="342" fill="#a6613a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">fast break, humid air</text>
+  <text x="1200" y="512" fill="#4f6b47" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15">metered break, dried gas</text>
+
+  <text x="108" y="640" fill="#5c4f39" font-family="Georgia, 'Times New Roman', serif" font-size="22">Time from vacuum break to sealed pouch is the exposure that matters</text>
+  <line x1="108" y1="666" x2="1492" y2="666" stroke="#e0d3b8" stroke-width="2"/>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#7a6a54">
+    <text x="108" y="706">Ask a supplier: what gas, is it filtered and dried, is the break metered, how many minutes to seal?</text>
+    <text x="108" y="742">Nitrogen limits oxygen contact. Dry air limits moisture. Neither fixes a long, humid walk to the packaging line.</text>
+    <text x="108" y="778">Signs of a careless break: water activity creeping to spec limit, dull color in pale fruit, rising fines.</text>
+  </g>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Retail chargeback exposure map</title>
+  <desc id="desc">A flow from purchase order to remittance with deduction points marked at the advance ship notice, case label, pallet build, delivery appointment, and receipt, alongside a bar showing how deductions reduce a small brand's invoice.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="134" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="34">Where the Margin Leaks</text>
+  <text x="108" y="174" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Five compliance gates between the purchase order and the payment</text>
+
+  <!-- flow line -->
+  <line x1="150" y1="330" x2="1450" y2="330" stroke="#cdbd9a" stroke-width="3"/>
+
+  <g font-family="'Helvetica Neue', Arial, sans-serif">
+    <!-- nodes -->
+    <g>
+      <circle cx="180" cy="330" r="18" fill="#fffaf0" stroke="#8c7a58" stroke-width="3"/>
+      <text x="150" y="290" fill="#5c4f39" font-size="17">Purchase</text>
+      <text x="150" y="270" fill="#5c4f39" font-size="17">order</text>
+    </g>
+
+    <g>
+      <circle cx="450" cy="330" r="18" fill="#fbeee2" stroke="#c98a5e" stroke-width="3"/>
+      <text x="392" y="290" fill="#8a4f2c" font-size="17">Advance ship</text>
+      <text x="392" y="270" fill="#8a4f2c" font-size="17">notice</text>
+      <rect x="366" y="368" width="176" height="96" rx="10" fill="#fbeee2" stroke="#e0c3a8"/>
+      <text x="384" y="396" fill="#8a5f42" font-size="14">late transmission</text>
+      <text x="384" y="420" fill="#8a5f42" font-size="14">count mismatch</text>
+      <text x="384" y="444" fill="#8a5f42" font-size="14">missing SSCC</text>
+    </g>
+
+    <g>
+      <circle cx="720" cy="330" r="18" fill="#fbeee2" stroke="#c98a5e" stroke-width="3"/>
+      <text x="668" y="290" fill="#8a4f2c" font-size="17">Case label</text>
+      <text x="668" y="270" fill="#8a4f2c" font-size="17">and barcode</text>
+      <rect x="636" y="368" width="176" height="96" rx="10" fill="#fbeee2" stroke="#e0c3a8"/>
+      <text x="654" y="396" fill="#8a5f42" font-size="14">wrong GTIN</text>
+      <text x="654" y="420" fill="#8a5f42" font-size="14">unreadable code</text>
+      <text x="654" y="444" fill="#8a5f42" font-size="14">no lot or date</text>
+    </g>
+
+    <g>
+      <circle cx="990" cy="330" r="18" fill="#fbeee2" stroke="#c98a5e" stroke-width="3"/>
+      <text x="944" y="290" fill="#8a4f2c" font-size="17">Pallet build</text>
+      <text x="944" y="270" fill="#8a4f2c" font-size="17">and freight</text>
+      <rect x="906" y="368" width="176" height="96" rx="10" fill="#fbeee2" stroke="#e0c3a8"/>
+      <text x="924" y="396" fill="#8a5f42" font-size="14">overhang, height</text>
+      <text x="924" y="420" fill="#8a5f42" font-size="14">unstable light load</text>
+      <text x="924" y="444" fill="#8a5f42" font-size="14">wrong carrier</text>
+    </g>
+
+    <g>
+      <circle cx="1260" cy="330" r="18" fill="#fbeee2" stroke="#c98a5e" stroke-width="3"/>
+      <text x="1206" y="290" fill="#8a4f2c" font-size="17">Delivery and</text>
+      <text x="1206" y="270" fill="#8a4f2c" font-size="17">receipt</text>
+      <rect x="1176" y="368" width="176" height="96" rx="10" fill="#fbeee2" stroke="#e0c3a8"/>
+      <text x="1194" y="396" fill="#8a5f42" font-size="14">late or early</text>
+      <text x="1194" y="420" fill="#8a5f42" font-size="14">short shipment</text>
+      <text x="1194" y="444" fill="#8a5f42" font-size="14">crushed cases</text>
+    </g>
+
+    <g>
+      <circle cx="1440" cy="330" r="18" fill="#fffaf0" stroke="#8c7a58" stroke-width="3"/>
+      <text x="1394" y="290" fill="#5c4f39" font-size="17">Remittance</text>
+    </g>
+  </g>
+
+  <!-- invoice bar -->
+  <text x="150" y="560" fill="#5c4f39" font-family="Georgia, 'Times New Roman', serif" font-size="22">Deductions are taken per violation, not per dollar of profit</text>
+  <rect x="150" y="590" width="1000" height="56" rx="8" fill="#eaf1e6" stroke="#7f9c72" stroke-width="2"/>
+  <rect x="880" y="590" width="270" height="56" rx="8" fill="#f0d2c0" stroke="#c98a5e" stroke-width="2"/>
+  <text x="170" y="626" fill="#41603a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">Invoiced value</text>
+  <text x="906" y="626" fill="#8a4f2c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18">Deductions</text>
+  <text x="1170" y="626" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="16">A small shipment absorbs the same flat fee as a large one</text>
+
+  <line x1="150" y1="690" x2="1450" y2="690" stroke="#e0d3b8" stroke-width="2"/>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#7a6a54">
+    <text x="150" y="730">Freeze-dried fruit is extra exposed: light, bulky pallets shift in transit and fragile pieces fail at receipt.</text>
+    <text x="150" y="766">Reconcile deductions monthly, categorize the cause, and find out whether the 3PL or the co-packer owns the miss.</text>
+  </g>
+</svg>

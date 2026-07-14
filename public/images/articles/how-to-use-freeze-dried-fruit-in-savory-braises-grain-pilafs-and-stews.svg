@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">When to add freeze-dried fruit to a savory dish</title>
+  <desc id="desc">A cooking timeline from the start of a braise to the plate, showing that fruit added early dissolves into the sauce and becomes flavor, while fruit added at the end stays as visible crisp pieces.</desc>
+  <rect width="1600" height="900" fill="#f5f1e8"/>
+  <rect x="64" y="64" width="1472" height="772" rx="28" fill="#fffaf0" stroke="#cdbd9a" stroke-width="2"/>
+  <text x="108" y="134" fill="#3f3526" font-family="Georgia, 'Times New Roman', serif" font-size="34">Early It Becomes Flavor. Late It Stays Fruit.</text>
+  <text x="108" y="174" fill="#7a6a54" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Freeze-dried fruit in a savory pot, along the cooking timeline</text>
+
+  <!-- timeline -->
+  <line x1="150" y1="470" x2="1450" y2="470" stroke="#cdbd9a" stroke-width="4"/>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#8a7c62">
+    <text x="150" y="510">sear and aromatics</text>
+    <text x="520" y="510">simmer</text>
+    <text x="900" y="510">reduce</text>
+    <text x="1180" y="510">off the heat</text>
+    <text x="1380" y="510">plate</text>
+  </g>
+  <g fill="#b9a680">
+    <circle cx="180" cy="470" r="8"/><circle cx="550" cy="470" r="8"/><circle cx="930" cy="470" r="8"/><circle cx="1230" cy="470" r="8"/><circle cx="1420" cy="470" r="8"/>
+  </g>
+
+  <!-- early add -->
+  <rect x="150" y="240" width="470" height="180" rx="14" fill="#fbeee2" stroke="#c98a5e" stroke-width="2"/>
+  <text x="176" y="278" fill="#8a4f2c" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Add early → dissolves</text>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#8a5f42">
+    <text x="176" y="312">rehydrates in seconds, then collapses</text>
+    <text x="176" y="342">leaves acidity, aroma, colour in the sauce</text>
+    <text x="176" y="372">adds fruit without adding water</text>
+    <text x="176" y="402">crush to powder for even dosing</text>
+  </g>
+  <path d="M300 424 L240 462" stroke="#c98a5e" stroke-width="3" marker-end="url(#ar)"/>
+
+  <!-- piece dissolving sequence -->
+  <g>
+    <circle cx="700" cy="330" r="26" fill="#d9a441" stroke="#a6613a" stroke-width="2"/>
+    <circle cx="800" cy="330" r="22" fill="#e0b463" stroke="#bd8149" stroke-width="2" stroke-dasharray="5 4"/>
+    <circle cx="895" cy="330" r="17" fill="#eac98f" stroke="#cca370" stroke-width="2" stroke-dasharray="4 5"/>
+    <circle cx="985" cy="330" r="10" fill="#f2e0bd" stroke="#d9c39a" stroke-width="2" stroke-dasharray="3 5"/>
+    <text x="700" y="386" fill="#8a7c62" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">in</text>
+    <text x="985" y="386" fill="#8a7c62" font-family="'Helvetica Neue', Arial, sans-serif" font-size="15" text-anchor="middle">gone into the sauce</text>
+    <path d="M732 330 L770 330 M824 330 L868 330 M914 330 L968 330" stroke="#cdbd9a" stroke-width="2"/>
+  </g>
+
+  <!-- late add -->
+  <rect x="1060" y="240" width="430" height="180" rx="14" fill="#eaf1e6" stroke="#7f9c72" stroke-width="2"/>
+  <text x="1086" y="278" fill="#41603a" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20">Add last → stays crisp</text>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#4f6b47">
+    <text x="1086" y="312">stir in off the heat, serve immediately</text>
+    <text x="1086" y="342">or scatter on the plated dish</text>
+    <text x="1086" y="372">shatters rather than chews</text>
+    <text x="1086" y="402">on a clock: soft in ten minutes under a lid</text>
+  </g>
+  <path d="M1300 424 L1240 462" stroke="#7f9c72" stroke-width="3" marker-end="url(#ar2)"/>
+
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0 L10 4 L0 8 z" fill="#c98a5e"/></marker>
+    <marker id="ar2" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0 0 L10 4 L0 8 z" fill="#7f9c72"/></marker>
+  </defs>
+
+  <line x1="150" y1="580" x2="1450" y2="580" stroke="#e0d3b8" stroke-width="2"/>
+  <text x="150" y="626" fill="#5c4f39" font-family="Georgia, 'Times New Roman', serif" font-size="22">Not a raisin substitute</text>
+  <g font-family="'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#7a6a54">
+    <text x="150" y="664">Conventional dried fruit holds a chewy piece through an hour of simmering. Freeze-dried fruit does not.</text>
+    <text x="150" y="700">Tart and aromatic fruits travel furthest in savory dishes: sour cherry, cranberry, raspberry, apricot, citrus.</text>
+    <text x="150" y="736">Dose small and taste. All the water is gone, so a spoonful carries more fruit than it looks like it should.</text>
+    <text x="150" y="772">Reseal the bag away from the stove — the same porosity that makes it useful makes it pick up kitchen humidity.</text>
+  </g>
+</svg>

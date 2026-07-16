@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How Container Fumigation and Phytosanitary Rules Affect Freeze-Dried Fruit Imports</title>
+  <desc id="desc">An import path from origin loading through ocean transit to arrival inspection, showing that the fruit passes but wood pallets and paperwork are the pest-risk triggers, with a branch to fumigation or hold.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#efe7d7"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#58707a}
+      .small{font:500 21px 'Source Sans 3',Arial,sans-serif}
+      .body{font:600 24px 'Source Sans 3',Arial,sans-serif}
+      .label{font:600 26px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .title{font:700 50px 'Source Serif 4',Georgia,serif}
+      .mono{font:600 22px 'JetBrains Mono',monospace}
+      .flow{stroke:#17313b;stroke-width:3.5;fill:none;stroke-linecap:round}
+      .warn{stroke:#cf5d3d;stroke-width:4;fill:none;stroke-linecap:round}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="118" class="label ink">Industry Insights</text>
+  <text x="96" y="182" class="title ink">The fruit passes. The pallet is the risk.</text>
+  <text x="96" y="224" class="small muted">Phytosanitary and fumigation rules target pests — carried by wood and paperwork, not the product.</text>
+
+  <!-- flow row -->
+  <g>
+    <!-- origin -->
+    <rect x="96" y="300" width="300" height="150" rx="18" class="panel"/>
+    <text x="120" y="348" class="body ink">Origin loading</text>
+    <text x="120" y="382" class="small muted">Freeze-dried fruit,</text>
+    <text x="120" y="408" class="small muted">sealed in barrier pouches</text>
+    <text x="120" y="434" class="mono" fill="#2f6b53">low pest risk &#10003;</text>
+
+    <path d="M396 375 h84" class="flow"/>
+    <path d="M470 366 l14 9 -14 9" class="flow"/>
+
+    <!-- pallet / ISPM15 highlighted -->
+    <rect x="486" y="288" width="320" height="174" rx="18" fill="#fff3e6" stroke="#cf5d3d" stroke-width="3.5"/>
+    <text x="510" y="336" class="body ink">Wood packaging</text>
+    <text x="510" y="368" class="small muted">Pallets, crates, dunnage</text>
+    <!-- stamp -->
+    <rect x="510" y="386" width="120" height="56" rx="8" fill="none" stroke="#cf5d3d" stroke-width="3"/>
+    <text x="522" y="412" class="mono" fill="#cf5d3d">ISPM 15</text>
+    <text x="522" y="434" class="mono" fill="#cf5d3d">HT &#9635;</text>
+    <text x="648" y="410" class="small muted">missing mark</text>
+    <text x="648" y="434" class="small muted">= container held</text>
+
+    <path d="M806 375 h84" class="flow"/>
+    <path d="M880 366 l14 9 -14 9" class="flow"/>
+
+    <!-- transit -->
+    <rect x="896" y="300" width="270" height="150" rx="18" class="panel"/>
+    <text x="920" y="348" class="body ink">Ocean transit</text>
+    <text x="920" y="382" class="small muted">Container + documents</text>
+    <text x="920" y="408" class="small muted">move together</text>
+
+    <path d="M1166 375 h74" class="flow"/>
+    <path d="M1230 366 l14 9 -14 9" class="flow"/>
+
+    <!-- arrival -->
+    <rect x="1246" y="300" width="222" height="150" rx="18" class="panel"/>
+    <text x="1270" y="348" class="body ink">Arrival</text>
+    <text x="1270" y="382" class="small muted">Inspection &amp;</text>
+    <text x="1270" y="408" class="small muted">doc check</text>
+  </g>
+
+  <!-- branch from arrival -->
+  <path d="M1357 450 v70" class="warn"/>
+  <path d="M1348 506 l9 14 9 -14" class="warn"/>
+
+  <rect x="1140" y="524" width="328" height="150" rx="18" fill="#fbe9e2" stroke="#cf5d3d" stroke-width="3"/>
+  <text x="1164" y="572" class="body ink">Fumigation / hold</text>
+  <text x="1164" y="606" class="small muted">+ days, treatment fees,</text>
+  <text x="1164" y="632" class="small muted">demurrage &amp; detention</text>
+  <text x="1164" y="660" class="mono" fill="#cf5d3d">who pays? &#8594; contract</text>
+
+  <!-- what borders check -->
+  <rect x="96" y="524" width="980" height="150" rx="18" class="panel"/>
+  <text x="120" y="568" class="label ink">Borders release on documents</text>
+  <text x="120" y="612" class="small muted">Phytosanitary cert (if required) &#183; treatment cert &#183; ISPM 15 marks</text>
+  <text x="120" y="644" class="small muted">Consistent commodity description &amp; coding across invoice, packing list, B/L</text>
+
+  <text x="96" y="800" class="mono muted">confirm packaging, certificates &amp; cost allocation before it ships — not at port</text>
+</svg>

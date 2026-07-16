@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to Use Freeze-Dried Fruit to Make Homemade Fruit Syrups and Drink Concentrates</title>
+  <desc id="desc">A three-step method turning freeze-dried fruit into syrup: powder or steep the fruit, dissolve into a warm sugar base while controlling sweetness, then strain and bottle a refrigerated concentrate for drinks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#efe7d7"/>
+    </linearGradient>
+    <linearGradient id="syrup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e0568f"/>
+      <stop offset="100%" stop-color="#b32e63"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#58707a}
+      .small{font:500 21px 'Source Sans 3',Arial,sans-serif}
+      .body{font:600 25px 'Source Sans 3',Arial,sans-serif}
+      .label{font:600 26px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .title{font:700 50px 'Source Serif 4',Georgia,serif}
+      .mono{font:600 22px 'JetBrains Mono',monospace}
+      .flow{stroke:#cf5d3d;stroke-width:4;fill:none;stroke-linecap:round}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="118" class="label ink">Applications</text>
+  <text x="96" y="182" class="title ink">From dry fruit to drink concentrate</text>
+  <text x="96" y="224" class="small muted">Intense color and aroma without cooking fresh fruit down for an hour.</text>
+
+  <!-- step 1 -->
+  <rect x="96" y="300" width="420" height="360" rx="22" class="panel"/>
+  <text x="128" y="350" class="mono" fill="#cf5d3d">STEP 1</text>
+  <text x="128" y="386" class="body ink">Powder or steep</text>
+  <!-- fruit bits -->
+  <g fill="#c0356a" stroke="#17313b" stroke-width="2">
+    <circle cx="200" cy="470" r="20"/><circle cx="250" cy="500" r="16"/>
+    <circle cx="180" cy="520" r="14"/><circle cx="240" cy="452" r="12"/>
+  </g>
+  <text x="300" y="478" class="small muted">grind to powder</text>
+  <text x="300" y="506" class="small muted">= deep color, body</text>
+  <text x="300" y="546" class="small muted">or steep pieces</text>
+  <text x="300" y="574" class="small muted">= lighter, clearer</text>
+  <text x="128" y="632" class="mono" fill="#2f6b53">~1 : 4&#8211;6 fruit : liquid</text>
+
+  <path d="M520 480 h64" class="flow"/>
+  <path d="M576 471 l14 9 -14 9" class="flow"/>
+
+  <!-- step 2 -->
+  <rect x="590" y="300" width="420" height="360" rx="22" class="panel"/>
+  <text x="622" y="350" class="mono" fill="#cf5d3d">STEP 2</text>
+  <text x="622" y="386" class="body ink">Dissolve in warm base</text>
+  <!-- pot -->
+  <path d="M680 440 h180 v90 a30 30 0 0 1 -30 30 h-120 a30 30 0 0 1 -30 -30 Z" fill="#eec9a8" stroke="#17313b" stroke-width="2.5"/>
+  <path d="M680 440 h180" stroke="#17313b" stroke-width="2.5"/>
+  <path d="M700 470 q40 20 80 0 q40 -20 80 0" fill="none" stroke="#b32e63" stroke-width="3"/>
+  <text x="622" y="612" class="small muted">warm, not boiled &#183; sugar sets</text>
+  <text x="622" y="640" class="small muted">sweetness + shelf stability</text>
+
+  <path d="M1014 480 h64" class="flow"/>
+  <path d="M1070 471 l14 9 -14 9" class="flow"/>
+
+  <!-- step 3 -->
+  <rect x="1084" y="300" width="384" height="360" rx="22" class="panel"/>
+  <text x="1116" y="350" class="mono" fill="#cf5d3d">STEP 3</text>
+  <text x="1116" y="386" class="body ink">Strain &amp; bottle</text>
+  <!-- bottle -->
+  <rect x="1210" y="430" width="60" height="30" rx="6" fill="#cdd6d2" stroke="#17313b" stroke-width="2"/>
+  <path d="M1200 460 h80 v150 a16 16 0 0 1 -16 16 h-48 a16 16 0 0 1 -16 -16 Z" fill="url(#syrup)" stroke="#17313b" stroke-width="2.5"/>
+  <text x="1116" y="656" class="small muted">refrigerate &#183; label &#183; date</text>
+
+  <!-- storage / safety bar -->
+  <rect x="96" y="690" width="1372" height="118" rx="20" fill="#fbe9e2" stroke="#cf5d3d" stroke-width="2.5"/>
+  <text x="128" y="736" class="label ink" >Storage is about sugar</text>
+  <text x="128" y="776" class="small muted">High-sugar (~1:1+): a few weeks refrigerated &#183; Low/no-sugar: fresh &amp; perishable — use in days or freeze &#183; clean bottles only</text>
+</svg>

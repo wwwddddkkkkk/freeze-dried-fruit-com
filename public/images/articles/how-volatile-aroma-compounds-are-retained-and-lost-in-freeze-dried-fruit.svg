@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How Volatile Aroma Compounds Are Retained and Lost in Freeze-Dried Fruit</title>
+  <desc id="desc">A freeze-dried fruit piece shown as a glassy sugar matrix trapping aroma molecules, with three labeled loss pathways: freezing and handling, sublimation drying, and after the bag is opened.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#efe7d7"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#58707a}
+      .small{font:500 22px 'Source Sans 3',Arial,sans-serif}
+      .body{font:500 25px 'Source Sans 3',Arial,sans-serif}
+      .label{font:600 26px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .title{font:700 50px 'Source Serif 4',Georgia,serif}
+      .mono{font:600 23px 'JetBrains Mono',monospace}
+      .arrow{stroke:#cf5d3d;stroke-width:4;fill:none;stroke-linecap:round}
+      .keep{stroke:#2f6b53;stroke-width:4;fill:none;stroke-linecap:round}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="118" class="label ink">Technology</text>
+  <text x="96" y="182" class="title ink">Where the aroma goes</text>
+  <text x="96" y="224" class="small muted">Volatiles stay locked in a glassy, dry matrix — and escape when it softens or opens.</text>
+
+  <!-- matrix panel -->
+  <rect x="96" y="272" width="700" height="500" rx="26" class="panel"/>
+  <text x="136" y="322" class="label ink">The glassy vault</text>
+  <text x="136" y="352" class="small muted">Dry, low water activity = molecules held in place</text>
+
+  <!-- porous piece -->
+  <path d="M250 430 q60 -70 200 -50 q160 20 120 150 q30 120 -120 150 q-170 30 -220 -60 q-60 -110 20 -190 Z" fill="#f4b45f" stroke="#17313b" stroke-width="3"/>
+  <!-- pore network -->
+  <g fill="none" stroke="#c9832f" stroke-width="2" opacity=".7">
+    <circle cx="340" cy="470" r="26"/><circle cx="410" cy="440" r="20"/>
+    <circle cx="470" cy="500" r="30"/><circle cx="360" cy="560" r="24"/>
+    <circle cx="440" cy="600" r="22"/><circle cx="520" cy="560" r="18"/>
+    <circle cx="300" cy="530" r="16"/><circle cx="500" cy="450" r="16"/>
+  </g>
+  <!-- trapped aroma molecules -->
+  <g fill="#2f6b53">
+    <circle cx="345" cy="472" r="7"/><circle cx="412" cy="442" r="7"/>
+    <circle cx="472" cy="502" r="7"/><circle cx="362" cy="560" r="7"/>
+    <circle cx="442" cy="600" r="7"/><circle cx="520" cy="560" r="7"/>
+    <circle cx="302" cy="530" r="7"/><circle cx="500" cy="452" r="7"/>
+  </g>
+  <text x="360" y="716" class="mono muted">aroma trapped in solid</text>
+  <circle cx="330" cy="710" r="7" fill="#2f6b53"/>
+
+  <!-- pathways panel -->
+  <rect x="836" y="272" width="632" height="500" rx="26" class="panel"/>
+  <text x="876" y="322" class="label ink">Three loss pathways</text>
+
+  <!-- 1 -->
+  <circle cx="898" cy="392" r="20" fill="#cf5d3d"/>
+  <text x="898" y="400" text-anchor="middle" class="mono" fill="#fffaf1">1</text>
+  <text x="940" y="386" class="body ink">Freezing &amp; warm handling</text>
+  <text x="940" y="416" class="small muted">soft, wet, exposed before the matrix sets</text>
+  <path d="M876 442 h552" stroke="#e3d8c4" stroke-width="2"/>
+
+  <!-- 2 -->
+  <circle cx="898" cy="502" r="20" fill="#cf5d3d"/>
+  <text x="898" y="510" text-anchor="middle" class="mono" fill="#fffaf1">2</text>
+  <text x="940" y="496" class="body ink">Sublimation drying</text>
+  <text x="940" y="526" class="small muted">some volatiles carried off with water vapor</text>
+  <path d="M876 552 h552" stroke="#e3d8c4" stroke-width="2"/>
+
+  <!-- 3 -->
+  <circle cx="898" cy="612" r="20" fill="#cf5d3d"/>
+  <text x="898" y="620" text-anchor="middle" class="mono" fill="#fffaf1">3</text>
+  <text x="940" y="606" class="body ink">After the bag is opened</text>
+  <text x="940" y="636" class="small muted">moisture softens matrix → aroma diffuses out</text>
+
+  <!-- escaping molecules illustration -->
+  <g fill="#cf5d3d">
+    <circle cx="900" cy="694" r="6"/><circle cx="940" cy="682" r="6"/>
+    <circle cx="985" cy="700" r="6"/><circle cx="1030" cy="686" r="6"/>
+  </g>
+  <path d="M900 700 q20 -22 40 -10 M985 706 q20 -22 45 -12" class="arrow"/>
+  <text x="1070" y="700" class="small muted">escaping volatiles</text>
+
+  <text x="96" y="812" class="mono muted">retention &#8776; stay cold &#183; dry low &#183; seal fast &#183; keep glassy</text>
+</svg>

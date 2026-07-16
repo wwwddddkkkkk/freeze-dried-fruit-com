@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What 'Contains 2% or Less of' Statements Mean on Freeze-Dried Fruit Labels</title>
+  <desc id="desc">An ingredient list divided into a ranked-by-weight section and a trailing two-percent-or-less section where minor ingredients such as acids, flavors, and colors appear in any order.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2e8"/>
+      <stop offset="100%" stop-color="#efe7d7"/>
+    </linearGradient>
+    <style>
+      .panel{fill:#fffaf1;stroke:#17313b;stroke-width:2.5}
+      .ink{fill:#17313b}
+      .muted{fill:#58707a}
+      .small{font:500 21px 'Source Sans 3',Arial,sans-serif}
+      .body{font:600 25px 'Source Sans 3',Arial,sans-serif}
+      .label{font:600 26px 'Source Sans 3',Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+      .title{font:700 50px 'Source Serif 4',Georgia,serif}
+      .mono{font:600 23px 'JetBrains Mono',monospace}
+      .item{font:500 25px 'Source Sans 3',Arial,sans-serif;fill:#17313b}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="56" y="48" width="1488" height="804" rx="28" fill="none" stroke="#17313b" stroke-width="2.5"/>
+
+  <text x="96" y="118" class="label ink">Labels &amp; Quality</text>
+  <text x="96" y="182" class="title ink">Where strict ranking stops</text>
+  <text x="96" y="224" class="small muted">The phrase marks the line between ordered-by-weight and minor, unordered ingredients.</text>
+
+  <!-- ingredient panel -->
+  <rect x="96" y="280" width="760" height="500" rx="26" class="panel"/>
+  <text x="130" y="330" class="label ink">Ingredients</text>
+
+  <!-- ranked section -->
+  <rect x="130" y="352" width="692" height="150" rx="14" fill="#eef4ef" stroke="#2f6b53" stroke-width="2.5"/>
+  <text x="152" y="386" class="mono" fill="#2f6b53">RANKED BY WEIGHT &#8595;</text>
+  <text x="152" y="428" class="item">Freeze-dried strawberries,</text>
+  <text x="152" y="466" class="item">freeze-dried banana,</text>
+  <text x="152" y="494" class="item">apple pieces,</text>
+
+  <!-- divider phrase -->
+  <rect x="130" y="516" width="692" height="46" rx="10" fill="#fbe9e2" stroke="#cf5d3d" stroke-width="2.5"/>
+  <text x="152" y="547" class="mono" fill="#cf5d3d">contains 2% or less of &#8212;&#8594;</text>
+
+  <!-- unordered section -->
+  <rect x="130" y="576" width="692" height="176" rx="14" fill="#faf1e6" stroke="#d4a24a" stroke-width="2.5"/>
+  <text x="152" y="610" class="mono" fill="#b07d23">ANY ORDER &#183; EACH &#8804; 2%</text>
+  <text x="152" y="650" class="item">citric acid, natural flavor,</text>
+  <text x="152" y="686" class="item">fruit &amp; vegetable juice (color),</text>
+  <text x="152" y="722" class="item">anti-caking agent</text>
+
+  <!-- reading guide -->
+  <rect x="896" y="280" width="572" height="500" rx="26" class="panel"/>
+  <text x="930" y="330" class="label ink">How to read it</text>
+
+  <circle cx="952" cy="392" r="16" fill="#2f6b53"/>
+  <text x="952" y="400" text-anchor="middle" class="mono" fill="#fffaf1">1</text>
+  <text x="984" y="386" class="body ink">Before the phrase</text>
+  <text x="984" y="416" class="small muted">read for dominance — is fruit first?</text>
+
+  <circle cx="952" cy="480" r="16" fill="#cf5d3d"/>
+  <text x="952" y="488" text-anchor="middle" class="mono" fill="#fffaf1">2</text>
+  <text x="984" y="474" class="body ink">After the phrase</text>
+  <text x="984" y="504" class="small muted">read for identity, not order</text>
+
+  <path d="M930 548 h508" stroke="#e3d8c4" stroke-width="2"/>
+  <text x="930" y="596" class="small muted">Still fully disclosed &#183; order relaxed, not</text>
+  <text x="930" y="626" class="small muted">hidden. Not a sugar or quality signal.</text>
+  <text x="930" y="686" class="mono" fill="#2f6b53">single-ingredient fruit</text>
+  <text x="930" y="716" class="small muted">won't show this phrase at all.</text>
+
+  <text x="96" y="818" class="mono muted">2% of dry finished weight = a genuinely small amount &#8212; but small &#8800; none</text>
+</svg>

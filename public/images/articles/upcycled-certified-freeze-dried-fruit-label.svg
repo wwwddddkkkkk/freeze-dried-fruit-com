@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What Upcycled Certified means on a freeze-dried fruit label</title>
+  <desc id="desc">Diagram showing surplus and byproduct fruit diverted from a waste path into an upcycled freeze-dried product, with notes that the claim covers sourcing rather than nutrition, organic status, or sensory quality.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="196" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="48">A Sourcing Claim, Not a Quality Grade</text>
+  <text x="112" y="238" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="23">"Upcycled" says the fruit was rescued from waste — nothing more, nothing less.</text>
+
+  <!-- sources of fruit -->
+  <text x="112" y="316" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Would-be waste, still edible</text>
+  <g font-family="'Source Serif 4', Georgia, serif" font-size="18" fill="#3d5347">
+    <rect x="112" y="336" width="250" height="52" rx="10" fill="#eef3ee" stroke="#9db3a6"/>
+    <text x="132" y="369">Off-size / off-color fruit</text>
+    <rect x="112" y="400" width="250" height="52" rx="10" fill="#eef3ee" stroke="#9db3a6"/>
+    <text x="132" y="433">Trim &amp; off-cuts</text>
+    <rect x="112" y="464" width="250" height="52" rx="10" fill="#eef3ee" stroke="#9db3a6"/>
+    <text x="132" y="497">Surplus / over-ripe</text>
+  </g>
+
+  <!-- diverging paths -->
+  <g stroke="#b5473a" stroke-width="3" fill="none" stroke-dasharray="7 7" marker-end="url(#ua2)">
+    <path d="M372 362 C 470 362, 470 300, 560 300"/>
+  </g>
+  <text x="574" y="296" fill="#a03b2e" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Landfill / compost</text>
+  <text x="574" y="322" fill="#a03b2e" font-family="'Source Serif 4', Georgia, serif" font-style="italic" font-size="17">the path it avoids</text>
+
+  <g stroke="#2f6b4f" stroke-width="4" fill="none" marker-end="url(#ua3)">
+    <path d="M372 476 C 500 476, 520 476, 600 476"/>
+  </g>
+  <!-- freeze-drying -->
+  <rect x="612" y="430" width="200" height="96" rx="12" fill="#dbe7f0" stroke="#7f9bb0" stroke-width="2"/>
+  <text x="712" y="472" text-anchor="middle" fill="#3d5568" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Freeze-dried</text>
+  <text x="712" y="498" text-anchor="middle" fill="#3d5568" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">pieces &amp; powder</text>
+  <g stroke="#2f6b4f" stroke-width="4" fill="none" marker-end="url(#ua3)"><line x1="812" y1="478" x2="890" y2="478"/></g>
+
+  <!-- badge -->
+  <circle cx="1000" cy="478" r="76" fill="#dcefe2" stroke="#2f6b4f" stroke-width="3"/>
+  <text x="1000" y="466" text-anchor="middle" fill="#2f6b4f" font-family="'DM Serif Display', Georgia, serif" font-size="26">UPCYCLED</text>
+  <text x="1000" y="500" text-anchor="middle" fill="#2f6b4f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="2">CERTIFIED</text>
+
+  <defs>
+    <marker id="ua2" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#b5473a"/></marker>
+    <marker id="ua3" markerWidth="12" markerHeight="12" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#2f6b4f"/></marker>
+  </defs>
+
+  <!-- what it does NOT cover -->
+  <rect x="1108" y="352" width="360" height="252" rx="14" fill="#fbf3e8" stroke="#d8b98a" stroke-width="2"/>
+  <text x="1132" y="392" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="1">DOES NOT MEAN</text>
+  <g font-family="'Source Serif 4', Georgia, serif" font-size="19" fill="#6b5230">
+    <text x="1132" y="436">✕ Higher nutrition</text>
+    <text x="1132" y="476">✕ Organic or non-GMO</text>
+    <text x="1132" y="516">✕ Better crunch or flavor</text>
+    <text x="1132" y="556">✕ Exempt from specs</text>
+  </g>
+
+  <text x="112" y="700" fill="#172f2b" font-family="'Source Serif 4', Georgia, serif" font-size="22" font-style="italic">Still check the ingredient list, moisture and defect specs, and cost per gram of fruit.</text>
+  <text x="112" y="770" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Freeze-Dried-Fruit.com — Labels &amp; Quality field notes</text>
+</svg>

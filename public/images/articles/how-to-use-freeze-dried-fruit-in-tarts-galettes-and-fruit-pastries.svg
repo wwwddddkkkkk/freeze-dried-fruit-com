@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to use freeze-dried fruit in tarts, galettes, and fruit pastries</title>
+  <desc id="desc">A tart cross-section labelled with four roles for freeze-dried fruit: crisp pieces added on top after cooling, powder blended into the pastry cream, a dry crushed layer buffering the crust, and rehydrated fruit used as filling.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">APPLICATIONS</text>
+  <text x="112" y="192" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">Flavour In, Water Out</text>
+  <text x="112" y="232" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="23">Four roles in one tart — decide dry or rehydrated before you open the bag.</text>
+
+  <!-- tart cross-section -->
+  <g>
+    <!-- crust -->
+    <path d="M420 640 L420 470 Q420 452 442 452 L1010 452 Q1032 452 1032 470 L1032 640 Z" fill="#e2c493" stroke="#8a5a2b" stroke-width="3"/>
+    <!-- buffer layer -->
+    <rect x="440" y="574" width="572" height="26" fill="#c98a4b"/>
+    <!-- cream -->
+    <rect x="440" y="496" width="572" height="78" fill="#f0d9c6" stroke="#d8b79a" stroke-width="2"/>
+    <!-- top crisp pieces -->
+    <g fill="#b7472f">
+      <rect x="472" y="470" width="34" height="20" rx="5"/>
+      <rect x="546" y="464" width="28" height="22" rx="5"/>
+      <rect x="620" y="472" width="36" height="18" rx="5"/>
+      <rect x="712" y="464" width="30" height="22" rx="5"/>
+      <rect x="796" y="470" width="34" height="20" rx="5"/>
+      <rect x="884" y="466" width="28" height="22" rx="5"/>
+      <rect x="946" y="472" width="34" height="18" rx="5"/>
+    </g>
+    <!-- plate line -->
+    <line x1="380" y1="640" x2="1072" y2="640" stroke="#294643" stroke-width="4"/>
+  </g>
+
+  <!-- Callout 1: top crisp -->
+  <line x1="700" y1="440" x2="700" y2="384" stroke="#294643" stroke-width="2"/>
+  <line x1="700" y1="384" x2="1120" y2="384" stroke="#294643" stroke-width="2"/>
+  <text x="1136" y="378" fill="#b7472f" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" font-weight="700">1 · Crisp pieces on top</text>
+  <text x="1136" y="406" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">After the tart is fully cool</text>
+
+  <!-- Callout 2: powder in cream -->
+  <line x1="1012" y1="534" x2="1120" y2="534" stroke="#294643" stroke-width="2"/>
+  <text x="1136" y="528" fill="#a0673a" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" font-weight="700">2 · Powder in the cream</text>
+  <text x="1136" y="556" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Colour and flavour, no liquid</text>
+
+  <!-- Callout 3: buffer layer -->
+  <line x1="440" y1="588" x2="332" y2="588" stroke="#294643" stroke-width="2"/>
+  <text x="112" y="582" fill="#8a5a2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" font-weight="700">3 · Dry crushed layer</text>
+  <text x="112" y="610" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Buffers the crust from</text>
+  <text x="112" y="634" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">a wet filling</text>
+
+  <!-- Callout 4: rehydrated -->
+  <rect x="112" y="680" width="480" height="112" rx="16" fill="#17312f"/>
+  <text x="144" y="718" fill="#a7c7bd" font-family="'Source Sans 3', Arial, sans-serif" font-size="21" font-weight="700">4 · Rehydrated as filling</text>
+  <text x="144" y="748" fill="#cfe0d8" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">For galettes and hand pies — you</text>
+  <text x="144" y="772" fill="#cfe0d8" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">control exactly how much liquid goes in</text>
+
+  <rect x="636" y="680" width="860" height="112" rx="16" fill="#203836"/>
+  <text x="668" y="718" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">The crunch and the pastry have different windows.</text>
+  <text x="668" y="750" fill="#a7c7bd" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Anything baked in will soften. Anything left on top softens within hours.</text>
+  <text x="668" y="776" fill="#a7c7bd" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Bake and fill ahead; finish with crisp fruit just before serving.</text>
+</svg>

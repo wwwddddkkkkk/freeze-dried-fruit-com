@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What changes when a freeze-dried fruit program crosses into a new crop year</title>
+  <desc id="desc">A timeline showing old-crop inventory drawing down while new-crop production ramps up, with an overlap window in the middle where quality drift begins before the contract price resets.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="192" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">Two Calendars That Do Not Line Up</text>
+  <text x="112" y="232" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="23">The fruit changes when the freezer changes. The price changes when the contract does.</text>
+
+  <!-- overlap band -->
+  <rect x="640" y="290" width="300" height="330" fill="#efe4cd"/>
+  <text x="700" y="320" fill="#8a6a2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" letter-spacing="3">OVERLAP WINDOW</text>
+
+  <!-- axis -->
+  <line x1="152" y1="620" x2="1450" y2="620" stroke="#294643" stroke-width="3"/>
+  <text x="152" y="656" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Harvest</text>
+  <text x="740" y="656" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Mixed sourcing</text>
+  <text x="1330" y="656" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Next season</text>
+
+  <!-- old crop drawdown -->
+  <path d="M152 340 L640 340 L940 600 L940 620 L152 620 Z" fill="#c99a5b" opacity="0.55"/>
+  <text x="220" y="404" fill="#6b4a1e" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">OLD-CROP INVENTORY</text>
+  <text x="220" y="434" fill="#6b4a1e" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Known color · known Brix · known size</text>
+
+  <!-- new crop ramp -->
+  <path d="M640 620 L940 360 L1450 360 L1450 620 Z" fill="#2f6b57" opacity="0.55"/>
+  <text x="1030" y="424" fill="#173d31" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">NEW-CROP PRODUCTION</text>
+  <text x="1030" y="454" fill="#173d31" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">New color · new Brix · new size mix</text>
+
+  <!-- quality drift marker -->
+  <line x1="700" y1="290" x2="700" y2="620" stroke="#b7472f" stroke-width="3" stroke-dasharray="8 6"/>
+  <circle cx="700" cy="290" r="9" fill="#b7472f"/>
+  <text x="596" y="272" fill="#b7472f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="700">Quality drift starts</text>
+
+  <!-- price reset marker -->
+  <line x1="1080" y1="290" x2="1080" y2="620" stroke="#294643" stroke-width="3" stroke-dasharray="8 6"/>
+  <circle cx="1080" cy="290" r="9" fill="#294643"/>
+  <text x="1104" y="272" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="700">Price resets</text>
+
+  <!-- gap bracket -->
+  <line x1="700" y1="688" x2="1080" y2="688" stroke="#8a6a2b" stroke-width="3"/>
+  <line x1="700" y1="678" x2="700" y2="698" stroke="#8a6a2b" stroke-width="3"/>
+  <line x1="1080" y1="678" x2="1080" y2="698" stroke="#8a6a2b" stroke-width="3"/>
+  <text x="748" y="718" fill="#8a6a2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="700">Where &quot;nothing changed&quot; complaints live</text>
+
+  <rect x="104" y="740" width="1392" height="64" rx="18" fill="#203836"/>
+  <text x="140" y="780" fill="#fffdf8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Ask which crop year the lot came from — it explains most variation across the seam.</text>
+</svg>

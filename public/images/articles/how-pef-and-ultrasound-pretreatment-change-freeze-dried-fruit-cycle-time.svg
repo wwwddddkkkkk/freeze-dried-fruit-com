@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How PEF and ultrasound pretreatment change freeze-dried fruit cycle time</title>
+  <desc id="desc">Three fruit tissue panels showing untreated intact cells, PEF-permeabilised membranes, and ultrasound micro-channels, above a drying curve where treated loads reach the target moisture earlier.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="70" y="60" width="1060" height="560" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+
+  <text x="110" y="116" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Opening the tissue before the chamber does the work</text>
+  <text x="110" y="150" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Both pretreatments lower the resistance water meets on its way out of the piece.</text>
+
+  <!-- panel 1: untreated -->
+  <g transform="translate(110 180)">
+    <rect width="316" height="196" rx="22" fill="#f4f0e5" stroke="#d8d2c3"/>
+    <text x="24" y="38" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Untreated</text>
+    <text x="24" y="60" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="13">Intact membranes · long water path</text>
+    <g fill="#cfe0e6" stroke="#7f9aa6" stroke-width="2">
+      <rect x="30" y="80" width="52" height="42" rx="10"/><rect x="92" y="80" width="52" height="42" rx="10"/>
+      <rect x="154" y="80" width="52" height="42" rx="10"/><rect x="216" y="80" width="52" height="42" rx="10"/>
+      <rect x="30" y="130" width="52" height="42" rx="10"/><rect x="92" y="130" width="52" height="42" rx="10"/>
+      <rect x="154" y="130" width="52" height="42" rx="10"/><rect x="216" y="130" width="52" height="42" rx="10"/>
+    </g>
+  </g>
+
+  <!-- panel 2: PEF -->
+  <g transform="translate(442 180)">
+    <rect width="316" height="196" rx="22" fill="#f4f0e5" stroke="#d8d2c3"/>
+    <text x="24" y="38" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">PEF pretreated</text>
+    <text x="24" y="60" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="13">Electroporated membranes</text>
+    <g fill="#cfe0e6" stroke="#7f9aa6" stroke-width="2" stroke-dasharray="6 5">
+      <rect x="30" y="80" width="52" height="42" rx="10"/><rect x="92" y="80" width="52" height="42" rx="10"/>
+      <rect x="154" y="80" width="52" height="42" rx="10"/><rect x="216" y="80" width="52" height="42" rx="10"/>
+      <rect x="30" y="130" width="52" height="42" rx="10"/><rect x="92" y="130" width="52" height="42" rx="10"/>
+      <rect x="154" y="130" width="52" height="42" rx="10"/><rect x="216" y="130" width="52" height="42" rx="10"/>
+    </g>
+    <g stroke="#b45f42" stroke-width="3" stroke-linecap="round">
+      <line x1="24" y1="72" x2="292" y2="72"/><line x1="24" y1="182" x2="292" y2="182"/>
+    </g>
+    <text x="24" y="66" fill="#b45f42" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700">electrode</text>
+  </g>
+
+  <!-- panel 3: ultrasound -->
+  <g transform="translate(774 180)">
+    <rect width="316" height="196" rx="22" fill="#f4f0e5" stroke="#d8d2c3"/>
+    <text x="24" y="38" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Ultrasound assisted</text>
+    <text x="24" y="60" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="13">Micro-channels · surface agitation</text>
+    <g fill="#cfe0e6" stroke="#7f9aa6" stroke-width="2">
+      <rect x="30" y="80" width="52" height="42" rx="10"/><rect x="92" y="80" width="52" height="42" rx="10"/>
+      <rect x="154" y="80" width="52" height="42" rx="10"/><rect x="216" y="80" width="52" height="42" rx="10"/>
+      <rect x="30" y="130" width="52" height="42" rx="10"/><rect x="92" y="130" width="52" height="42" rx="10"/>
+      <rect x="154" y="130" width="52" height="42" rx="10"/><rect x="216" y="130" width="52" height="42" rx="10"/>
+    </g>
+    <g stroke="#5a7d56" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <path d="M56 126 L56 100 M118 126 L118 100 M180 126 L180 100 M242 126 L242 100"/>
+    </g>
+    <g stroke="#5a7d56" stroke-width="2" fill="none" opacity="0.75">
+      <path d="M40 176 q16 -12 32 0 q16 12 32 0 q16 -12 32 0 q16 12 32 0 q16 -12 32 0 q16 12 32 0"/>
+    </g>
+  </g>
+
+  <!-- drying curve -->
+  <g transform="translate(110 404)">
+    <rect width="980" height="180" rx="22" fill="#f4f0e5" stroke="#d8d2c3"/>
+    <text x="26" y="34" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Moisture vs time</text>
+    <text x="200" y="34" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="13">Reported reductions across non-thermal pretreatments: roughly 20–55%, product dependent.</text>
+
+    <line x1="60" y1="56" x2="60" y2="150" stroke="#a9a294" stroke-width="2"/>
+    <line x1="60" y1="150" x2="900" y2="150" stroke="#a9a294" stroke-width="2"/>
+    <text x="20" y="66" fill="#8a8478" font-family="Inter, Arial, sans-serif" font-size="11">moisture</text>
+    <text x="860" y="170" fill="#8a8478" font-family="Inter, Arial, sans-serif" font-size="11">time →</text>
+
+    <line x1="60" y1="134" x2="900" y2="134" stroke="#b45f42" stroke-width="1.5" stroke-dasharray="7 6"/>
+    <text x="700" y="128" fill="#b45f42" font-family="Inter, Arial, sans-serif" font-size="11" font-weight="700">target moisture</text>
+
+    <path d="M60 62 C 300 74, 560 108, 830 134" fill="none" stroke="#7f9aa6" stroke-width="3.5"/>
+    <path d="M60 62 C 240 76, 420 112, 600 134" fill="none" stroke="#5a7d56" stroke-width="3.5"/>
+
+    <circle cx="830" cy="134" r="5" fill="#7f9aa6"/>
+    <circle cx="600" cy="134" r="5" fill="#5a7d56"/>
+    <text x="742" y="112" fill="#7f9aa6" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">untreated</text>
+    <text x="486" y="112" fill="#5a7d56" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700">pretreated</text>
+  </g>
+</svg>

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How to use freeze-dried fruit in shaved ice, slushies, and blended frozen drinks</title>
+  <desc id="desc">Two glasses compared: fresh fruit adds water and thins the ice structure, while freeze-dried powder adds flavour and colour with no added liquid. Below, a three-step method for adding powder to the liquid base.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="70" y="60" width="1060" height="560" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+
+  <text x="110" y="116" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="33" font-weight="700">Flavour without the water</text>
+  <text x="110" y="150" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">A frozen drink can take more flavour. It cannot take more liquid.</text>
+
+  <!-- fresh fruit glass -->
+  <g transform="translate(122 186)">
+    <rect width="440" height="248" rx="22" fill="#f4f0e5" stroke="#d8d2c3"/>
+    <text x="26" y="38" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Fresh fruit blended in</text>
+    <text x="26" y="60" fill="#5f6a63" font-family="Inter, Arial, sans-serif" font-size="13">More flavour arrives with more water</text>
+
+    <path d="M60 90 L100 214 L162 214 L202 90 Z" fill="#eef4f6" stroke="#9fb4bd" stroke-width="2.5"/>
+    <path d="M74 134 L96 202 L166 202 L188 134 Z" fill="#dbe8ec"/>
+    <path d="M84 168 L100 202 L162 202 L178 168 Z" fill="#bcd2da"/>
+    <text x="106" y="196" fill="#5f7480" font-family="Inter, Arial, sans-serif" font-size="12">watery base</text>
+
+    <g transform="translate(238 96)">
+      <text x="0" y="16" fill="#8f4630" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">what you add</text>
+      <rect x="0" y="30" width="164" height="22" rx="6" fill="#e0b7a6"/>
+      <text x="8" y="46" fill="#7a3d29" font-family="Inter, Arial, sans-serif" font-size="12">water · 85–90%</text>
+      <rect x="0" y="60" width="42" height="22" rx="6" fill="#b45f42"/>
+      <text x="50" y="76" fill="#8f4630" font-family="Inter, Arial, sans-serif" font-size="12">flavour</text>
+      <text x="0" y="112" fill="#8f4630" font-family="Inter, Arial, sans-serif" font-size="13">ice structure softens,</text>
+      <text x="0" y="130" fill="#8f4630" font-family="Inter, Arial, sans-serif" font-size="13">drink thins toward juice</text>
+    </g>
+  </g>
+
+  <!-- freeze-dried glass -->
+  <g transform="translate(616 186)">
+    <rect width="440" height="248" rx="22" fill="#eef2e6" stroke="#5a7d56" stroke-width="2"/>
+    <text x="26" y="38" fill="#3f5c3b" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700">Freeze-dried powder</text>
+    <text x="26" y="60" fill="#5a7d56" font-family="Inter, Arial, sans-serif" font-size="13">Flavour, colour and acid — no added liquid</text>
+
+    <path d="M60 90 L100 214 L162 214 L202 90 Z" fill="#f7e3e6" stroke="#c3798a" stroke-width="2.5"/>
+    <path d="M70 118 L98 208 L164 208 L192 118 Z" fill="#e9b9c4"/>
+    <path d="M80 152 L100 202 L162 202 L182 152 Z" fill="#d98da0"/>
+    <text x="102" y="196" fill="#8f4b5c" font-family="Inter, Arial, sans-serif" font-size="12">dense colour</text>
+
+    <g transform="translate(238 96)">
+      <text x="0" y="16" fill="#3f5c3b" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">what you add</text>
+      <rect x="0" y="30" width="150" height="22" rx="6" fill="#5a7d56"/>
+      <text x="8" y="46" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="12">flavour · colour · acid</text>
+      <text x="0" y="76" fill="#5a7d56" font-family="Inter, Arial, sans-serif" font-size="12">water added: none</text>
+      <text x="0" y="112" fill="#3f5c3b" font-family="Inter, Arial, sans-serif" font-size="13">ice structure holds,</text>
+      <text x="0" y="130" fill="#3f5c3b" font-family="Inter, Arial, sans-serif" font-size="13">flavour reads stronger</text>
+    </g>
+  </g>
+
+  <!-- method strip -->
+  <g transform="translate(122 462)">
+    <rect width="934" height="122" rx="20" fill="#f4f0e5" stroke="#d8d2c3"/>
+    <text x="26" y="34" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">The method</text>
+
+    <g font-family="Inter, Arial, sans-serif">
+      <g transform="translate(26 52)">
+        <circle cx="16" cy="16" r="15" fill="#5a7d56"/>
+        <text x="16" y="21" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">1</text>
+        <text x="42" y="14" fill="#1f332d" font-size="14" font-weight="700">Grind fine</text>
+        <text x="42" y="34" fill="#5f6a63" font-size="12.5">powder disperses; pieces rehydrate unevenly</text>
+      </g>
+      <g transform="translate(340 52)">
+        <circle cx="16" cy="16" r="15" fill="#5a7d56"/>
+        <text x="16" y="21" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">2</text>
+        <text x="42" y="14" fill="#1f332d" font-size="14" font-weight="700">Whisk into the base</text>
+        <text x="42" y="34" fill="#5f6a63" font-size="12.5">before freezing — not onto finished ice</text>
+      </g>
+      <g transform="translate(646 52)">
+        <circle cx="16" cy="16" r="15" fill="#5a7d56"/>
+        <text x="16" y="21" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">3</text>
+        <text x="42" y="14" fill="#1f332d" font-size="14" font-weight="700">Overshoot slightly</text>
+        <text x="42" y="34" fill="#5f6a63" font-size="12.5">cold mutes sweetness and aroma</text>
+      </g>
+    </g>
+  </g>
+</svg>

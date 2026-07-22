@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How anti-dumping and countervailing duties reshape freeze-dried fruit import costs</title>
+  <desc id="desc">A landed-cost stack showing product, freight, and normal tariff, next to a taller stack where added anti-dumping and countervailing duty blocks dominate.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="72" y="72" width="1056" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="110" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">A trade remedy can dwarf the tariff you planned for</text>
+  <text x="110" y="164" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">AD and CVD sit on top of the normal duty and follow the product and origin, not the buyer.</text>
+
+  <!-- Base axis -->
+  <line x1="150" y1="556" x2="1050" y2="556" stroke="#c9c2b2" stroke-width="2"/>
+
+  <!-- Stack 1: normal -->
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="300" y="588" text-anchor="middle" fill="#4c5a54" font-size="16" font-weight="700">Planned landed cost</text>
+    <!-- product -->
+    <rect x="230" y="416" width="140" height="140" fill="#7fae86"/>
+    <text x="300" y="492" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Product</text>
+    <!-- freight -->
+    <rect x="230" y="356" width="140" height="60" fill="#a9cbae"/>
+    <text x="300" y="392" text-anchor="middle" fill="#274b30" font-size="14">Freight + ins.</text>
+    <!-- normal tariff -->
+    <rect x="230" y="322" width="140" height="34" fill="#e0b25c"/>
+    <text x="300" y="345" text-anchor="middle" fill="#5c4517" font-size="13" font-weight="700">Normal tariff</text>
+  </g>
+
+  <!-- Stack 2: with AD/CVD -->
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="720" y="588" text-anchor="middle" fill="#4c5a54" font-size="16" font-weight="700">If an AD/CVD order lands</text>
+    <!-- product -->
+    <rect x="650" y="416" width="140" height="140" fill="#7fae86"/>
+    <text x="720" y="492" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Product</text>
+    <!-- freight -->
+    <rect x="650" y="356" width="140" height="60" fill="#a9cbae"/>
+    <text x="720" y="392" text-anchor="middle" fill="#274b30" font-size="14">Freight + ins.</text>
+    <!-- normal tariff -->
+    <rect x="650" y="322" width="140" height="34" fill="#e0b25c"/>
+    <text x="720" y="345" text-anchor="middle" fill="#5c4517" font-size="13" font-weight="700">Normal tariff</text>
+    <!-- CVD -->
+    <rect x="650" y="252" width="140" height="70" fill="#d98a4f"/>
+    <text x="720" y="293" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">+ CVD</text>
+    <!-- AD -->
+    <rect x="650" y="150" width="140" height="102" fill="#c05f56"/>
+    <text x="720" y="205" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="700">+ Anti-dumping</text>
+  </g>
+
+  <!-- brace / callout -->
+  <path d="M812 150 q18 0 18 18 v72 q0 18 18 18 q-18 0 -18 18 v72 q0 18 -18 18" fill="none" stroke="#b4544f" stroke-width="2"/>
+  <text x="866" y="240" fill="#a34a45" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Trade-remedy</text>
+  <text x="866" y="262" fill="#a34a45" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">stack</text>
+  <text x="866" y="292" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="13">often far larger</text>
+  <text x="866" y="312" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="13">than the normal</text>
+  <text x="866" y="332" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="13">tariff; can stack</text>
+</svg>

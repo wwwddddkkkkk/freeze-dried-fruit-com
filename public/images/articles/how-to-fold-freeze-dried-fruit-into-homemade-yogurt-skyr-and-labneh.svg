@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">How to fold freeze-dried fruit into homemade yogurt, skyr, and labneh</title>
+  <desc id="desc">A timeline showing culture and strain steps done with plain milk, then freeze-dried fruit added only at the finish, as powder for a smooth result or pieces for crunch.</desc>
+  <rect width="1200" height="680" fill="#f6f4ee"/>
+  <rect x="72" y="72" width="1056" height="536" rx="34" fill="#fffdf8" stroke="#d8d2c3" stroke-width="2"/>
+  <text x="110" y="126" fill="#1f332d" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="700">Add the fruit last &#8212; after culturing and straining</text>
+  <text x="110" y="164" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="17">Freeze-dried fruit flavors cultured dairy without the water that thins a batch or ruins a strain.</text>
+
+  <!-- timeline -->
+  <line x1="150" y1="300" x2="1050" y2="300" stroke="#cdd6cd" stroke-width="4"/>
+
+  <!-- step 1 culture -->
+  <g transform="translate(150 240)">
+    <circle cx="60" cy="60" r="46" fill="#eef4fb" stroke="#c9d5e6" stroke-width="2"/>
+    <path d="M40 60 h40 M60 40 v40" stroke="#7ca1c8" stroke-width="0"/>
+    <path d="M42 52 q18 -16 36 0 v20 q-18 14 -36 0 z" fill="#dfeaf6" stroke="#9db8d6"/>
+    <text x="60" y="140" text-anchor="middle" fill="#274b64" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">1. Culture</text>
+    <text x="60" y="164" text-anchor="middle" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="13">plain milk, warm hold</text>
+  </g>
+
+  <!-- step 2 strain -->
+  <g transform="translate(430 240)">
+    <circle cx="60" cy="60" r="46" fill="#eef4fb" stroke="#c9d5e6" stroke-width="2"/>
+    <path d="M40 44 h40 l-12 30 h-16 z" fill="#dfeaf6" stroke="#9db8d6"/>
+    <line x1="60" y1="74" x2="60" y2="92" stroke="#9db8d6" stroke-width="3"/>
+    <circle cx="60" cy="96" r="3" fill="#9db8d6"/>
+    <text x="60" y="140" text-anchor="middle" fill="#274b64" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">2. Strain</text>
+    <text x="60" y="164" text-anchor="middle" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="13">skyr / labneh thickness</text>
+  </g>
+
+  <!-- step 3 add fruit -->
+  <g transform="translate(710 240)">
+    <circle cx="60" cy="60" r="52" fill="#fef2e4" stroke="#e6c39a" stroke-width="3"/>
+    <circle cx="46" cy="52" r="10" fill="#e07a5f"/>
+    <circle cx="72" cy="48" r="9" fill="#e6a441"/>
+    <circle cx="60" cy="72" r="10" fill="#c0546a"/>
+    <text x="60" y="150" text-anchor="middle" fill="#a05a2c" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">3. Add fruit</text>
+    <text x="60" y="174" text-anchor="middle" fill="#68736c" font-family="Inter, Arial, sans-serif" font-size="13">at the finish, cold</text>
+  </g>
+
+  <!-- fork: powder vs pieces -->
+  <g transform="translate(950 214)">
+    <rect x="0" y="0" width="176" height="78" rx="14" fill="#eef6ef" stroke="#c7ddc9"/>
+    <text x="88" y="30" text-anchor="middle" fill="#2f5d3a" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Powder &#8594; smooth</text>
+    <text x="88" y="54" text-anchor="middle" fill="#4c6150" font-family="Inter, Arial, sans-serif" font-size="12">even color, stir through</text>
+  </g>
+  <g transform="translate(950 306)">
+    <rect x="0" y="0" width="176" height="78" rx="14" fill="#fdf1e6" stroke="#e6c9a8"/>
+    <text x="88" y="30" text-anchor="middle" fill="#a05a2c" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">Pieces &#8594; crunch</text>
+    <text x="88" y="54" text-anchor="middle" fill="#7a5a3a" font-family="Inter, Arial, sans-serif" font-size="12">fold in just before serving</text>
+  </g>
+  <line x1="830" y1="300" x2="950" y2="253" stroke="#c7ddc9" stroke-width="3"/>
+  <line x1="830" y1="300" x2="950" y2="345" stroke="#e6c9a8" stroke-width="3"/>
+
+  <!-- warning strip -->
+  <g transform="translate(150 456)">
+    <rect width="900" height="86" rx="16" fill="#fbeeee" stroke="#e6c9c9"/>
+    <text x="28" y="38" fill="#a34a45" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Don&#8217;t add fruit before culturing</text>
+    <text x="28" y="66" fill="#7a4a46" font-family="Inter, Arial, sans-serif" font-size="14">Long warm holds fade color and aroma; early pieces pull moisture and go to mush. Start with a little powder and taste.</text>
+  </g>
+</svg>

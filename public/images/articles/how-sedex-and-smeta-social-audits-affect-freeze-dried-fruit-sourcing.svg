@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How Sedex and SMETA social audits affect freeze-dried fruit sourcing</title>
+  <desc id="desc">Diagram contrasting a food-safety audit lane covering product with a social-audit lane covering labor, health and safety, environment, and ethics, both feeding a shared Sedex platform used by multiple buyers.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="48">Two Audits, Two Questions, One Shared Record</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Passing food safety says nothing about labor. Buyers now ask for both.</text>
+
+  <!-- Food safety lane -->
+  <rect x="104" y="288" width="640" height="196" rx="22" fill="#f1ebdf" stroke="#294643" stroke-width="2"/>
+  <text x="140" y="336" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">FOOD-SAFETY AUDIT · GFSI</text>
+  <text x="140" y="376" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="30">"Is the product safe?"</text>
+  <text x="140" y="418" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">SQF · BRCGS · FSSC 22000</text>
+  <text x="140" y="450" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Process · hygiene · allergens · HACCP</text>
+
+  <!-- Social lane -->
+  <rect x="104" y="504" width="640" height="256" rx="22" fill="#17312f"/>
+  <text x="140" y="552" fill="#ffd9a0" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">SOCIAL AUDIT · SMETA</text>
+  <text x="140" y="592" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="30">"How are the people treated?"</text>
+  <text x="140" y="638" fill="#e7ece8" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">▪ Labor standards</text>
+  <text x="420" y="638" fill="#e7ece8" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">▪ Health &amp; safety</text>
+  <text x="140" y="674" fill="#e7ece8" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">▪ Environment</text>
+  <text x="420" y="674" fill="#e7ece8" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">▪ Business ethics</text>
+  <text x="140" y="718" fill="#9db3ad" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">Report + corrective actions, not a pass/fail badge</text>
+
+  <!-- Arrows to platform -->
+  <path d="M744 386 H840 V500 H900" fill="none" stroke="#8d5c18" stroke-width="3"/>
+  <path d="M744 620 H840 V520 H900" fill="none" stroke="#8d5c18" stroke-width="3"/>
+  <polygon points="900,510 884,502 884,518" fill="#8d5c18"/>
+
+  <!-- Sedex platform -->
+  <rect x="906" y="430" width="560" height="160" rx="20" fill="#e8dcc4" stroke="#294643" stroke-width="2"/>
+  <text x="1186" y="480" text-anchor="middle" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">SEDEX PLATFORM</text>
+  <text x="1186" y="522" text-anchor="middle" fill="#17312f" font-family="'DM Serif Display', Georgia, serif" font-size="28">One record, stored &amp; shared</text>
+  <text x="1186" y="560" text-anchor="middle" fill="#4f625f" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">SMETA is the audit · Sedex is where it lives</text>
+
+  <!-- Buyers -->
+  <g font-family="'Source Sans 3', Arial, sans-serif" font-size="18" fill="#17312f">
+    <rect x="946" y="640" width="150" height="70" rx="14" fill="#fcfaf6" stroke="#c7bda8"/>
+    <text x="1021" y="682" text-anchor="middle">Retailer A</text>
+    <rect x="1111" y="640" width="150" height="70" rx="14" fill="#fcfaf6" stroke="#c7bda8"/>
+    <text x="1186" y="682" text-anchor="middle">Foodservice B</text>
+    <rect x="1276" y="640" width="150" height="70" rx="14" fill="#fcfaf6" stroke="#c7bda8"/>
+    <text x="1351" y="682" text-anchor="middle">Brand C</text>
+  </g>
+  <path d="M1021 610 V640 M1186 590 V640 M1351 610 V640" fill="none" stroke="#294643" stroke-width="2"/>
+
+  <rect x="104" y="784" width="1362" height="12" rx="6" fill="#203836"/>
+</svg>

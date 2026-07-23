@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">What treated by irradiation and the radura symbol mean on freeze-dried fruit labels</title>
+  <desc id="desc">Illustration of the radura symbol beside a freeze-dried fruit label callout showing the required treated by irradiation disclosure and what it does and does not mean.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">A Required Disclosure — Not a Warning, Not a Grade</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">The radura tells you a process was used. The rest of the label tells you the quality.</text>
+
+  <!-- Radura panel -->
+  <rect x="104" y="292" width="470" height="468" rx="24" fill="#17312f"/>
+  <text x="339" y="344" text-anchor="middle" fill="#f7f0e4" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="3">THE RADURA</text>
+  <!-- stylized radura -->
+  <g transform="translate(339,500)">
+    <circle cx="0" cy="0" r="120" fill="none" stroke="#7cc47a" stroke-width="10" stroke-dasharray="150 60" transform="rotate(-20)"/>
+    <path d="M0 60 L0 -6" stroke="#7cc47a" stroke-width="10" stroke-linecap="round"/>
+    <path d="M0 -6 C-46 -30 -70 -78 -46 -104 C-18 -80 -4 -40 0 -6Z" fill="#7cc47a"/>
+    <path d="M0 -6 C46 -30 70 -78 46 -104 C18 -80 4 -40 0 -6Z" fill="#7cc47a"/>
+    <ellipse cx="-34" cy="24" rx="34" ry="14" fill="#7cc47a" transform="rotate(-18 -34 24)"/>
+    <ellipse cx="34" cy="24" rx="34" ry="14" fill="#7cc47a" transform="rotate(18 34 24)"/>
+  </g>
+  <text x="339" y="678" text-anchor="middle" fill="#e7ece8" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Paired with the words</text>
+  <text x="339" y="712" text-anchor="middle" fill="#ffffff" font-family="'DM Serif Display', Georgia, serif" font-size="30">"treated by irradiation"</text>
+
+  <!-- Means / doesn't mean -->
+  <rect x="606" y="292" width="890" height="222" rx="20" fill="#eaf3e8" stroke="#4f7d4c" stroke-width="2"/>
+  <text x="642" y="340" fill="#2f5a2c" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">WHAT IT MEANS</text>
+  <text x="642" y="382" fill="#274d25" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">✓ Ionizing energy was applied — usually for pest or microbe control</text>
+  <text x="642" y="420" fill="#274d25" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">✓ Often a phytosanitary treatment for imported fruit</text>
+  <text x="642" y="458" fill="#274d25" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">✓ A neutral, mandatory disclosure so the shopper can choose</text>
+  <text x="642" y="496" fill="#274d25" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">✓ The food is NOT radioactive — energy passes through</text>
+
+  <rect x="606" y="534" width="890" height="226" rx="20" fill="#f6ece2" stroke="#a86a2c" stroke-width="2"/>
+  <text x="642" y="582" fill="#8d5c18" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">WHAT IT DOES NOT MEAN</text>
+  <text x="642" y="624" fill="#6f4a1c" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">✗ Not a warning, and not a quality or safety grade</text>
+  <text x="642" y="662" fill="#6f4a1c" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">✗ Not a sign the fruit was contaminated or defective</text>
+  <text x="642" y="700" fill="#6f4a1c" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">✗ Says nothing about sugar, additives, or origin</text>
+  <text x="642" y="738" fill="#6f4a1c" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">✗ Uncommon on plain freeze-dried fruit; more on single-ingredient packs</text>
+
+  <rect x="104" y="784" width="1392" height="12" rx="6" fill="#203836"/>
+</svg>

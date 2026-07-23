@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to use freeze-dried fruit in homemade infused water and electrolyte drinks</title>
+  <desc id="desc">Diagram comparing crushed freeze-dried fruit for fast cloudy flavored water with whole pieces for slow clear infusion, plus a simple electrolyte drink build adding salt and sweetener.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">APPLICATIONS</text>
+  <text x="112" y="194" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="48">Crush It for Fast Flavor, Steep It for a Clear Drink</text>
+  <text x="112" y="236" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">The fruit brings taste and color. Salt and a little sweetener make it an electrolyte drink.</text>
+
+  <!-- Glass 1: crushed -->
+  <g transform="translate(180,300)">
+    <text x="110" y="24" text-anchor="middle" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">CRUSHED → POWDER</text>
+    <path d="M40 60 L180 60 L166 300 L54 300 Z" fill="#f6d2cf" stroke="#294643" stroke-width="2.5"/>
+    <path d="M54 300 L166 300 L156 470 L64 470 Z" fill="#e78b84" stroke="#294643" stroke-width="2.5"/>
+    <path d="M54 300 L166 300 L162 340 L58 340 Z" fill="#d96c63"/>
+    <circle cx="90" cy="140" r="4" fill="#c25a51"/><circle cx="130" cy="200" r="4" fill="#c25a51"/><circle cx="105" cy="250" r="4" fill="#c25a51"/><circle cx="150" cy="160" r="4" fill="#c25a51"/>
+    <text x="110" y="520" text-anchor="middle" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Instant color, cloudy</text>
+    <text x="110" y="546" text-anchor="middle" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Drink soon · shake before sipping</text>
+  </g>
+
+  <!-- Glass 2: whole -->
+  <g transform="translate(470,300)">
+    <text x="110" y="24" text-anchor="middle" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">WHOLE → STEEP</text>
+    <path d="M40 60 L180 60 L166 300 L54 300 Z" fill="#fbeee8" stroke="#294643" stroke-width="2.5"/>
+    <path d="M54 300 L166 300 L156 470 L64 470 Z" fill="#f4ddd2" stroke="#294643" stroke-width="2.5"/>
+    <path d="M75 190 q12 -18 26 0 q-12 18 -26 0Z" fill="#e08a5a"/>
+    <path d="M120 250 q12 -18 26 0 q-12 18 -26 0Z" fill="#e08a5a"/>
+    <path d="M95 330 q12 -18 26 0 q-12 18 -26 0Z" fill="#d97b6a"/>
+    <text x="110" y="520" text-anchor="middle" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Slow, clear infusion</text>
+    <text x="110" y="546" text-anchor="middle" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Strain the pieces out</text>
+  </g>
+
+  <!-- Electrolyte build -->
+  <rect x="770" y="300" width="726" height="360" rx="24" fill="#17312f"/>
+  <text x="806" y="352" fill="#ffd9a0" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" letter-spacing="2">SIMPLE ELECTROLYTE BUILD</text>
+  <g font-family="'Source Sans 3', Arial, sans-serif">
+    <text x="806" y="410" fill="#ffffff" font-size="24">💧 Water</text>
+    <text x="1120" y="410" fill="#9db3ad" font-size="19">the base</text>
+    <text x="806" y="458" fill="#ffffff" font-size="24">🧂 Pinch of salt</text>
+    <text x="1120" y="458" fill="#9db3ad" font-size="19">sodium — the electrolyte</text>
+    <text x="806" y="506" fill="#ffffff" font-size="24">🍯 A little sweetener</text>
+    <text x="1120" y="506" fill="#9db3ad" font-size="19">taste + aids fluid uptake</text>
+    <text x="806" y="554" fill="#ffffff" font-size="24">🍓 Crushed freeze-dried fruit</text>
+    <text x="1120" y="554" fill="#9db3ad" font-size="19">flavor + color, not electrolytes</text>
+  </g>
+  <line x1="806" y1="586" x2="1460" y2="586" stroke="#3a5450" stroke-width="1.5"/>
+  <text x="806" y="622" fill="#e7ece8" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">Measure the salt and sugar. Once mixed, refrigerate and drink same day.</text>
+
+  <!-- Bright fruit note -->
+  <rect x="770" y="686" width="726" height="76" rx="18" fill="#eaf3e8" stroke="#4f7d4c" stroke-width="2"/>
+  <text x="806" y="732" fill="#2f5a2c" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Best fruits: strawberry · raspberry · lemon · mango. Skip banana — it clouds the water.</text>
+
+  <rect x="180" y="686" width="510" height="76" rx="18" fill="#f6ece2" stroke="#a86a2c" stroke-width="2"/>
+  <text x="220" y="722" fill="#8d5c18" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Start with 1–2 tsp powder</text>
+  <text x="220" y="748" fill="#6f4a1c" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">per large glass — it is concentrated. Add more to taste.</text>
+
+  <rect x="104" y="788" width="1392" height="12" rx="6" fill="#203836"/>
+</svg>

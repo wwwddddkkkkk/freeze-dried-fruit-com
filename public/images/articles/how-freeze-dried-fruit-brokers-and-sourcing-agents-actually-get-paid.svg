@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How freeze-dried fruit brokers, agents, and traders get paid</title>
+  <desc id="desc">Three rows showing a buyer, a middle party, and a factory. Row one: an agent paid commission by the supplier. Row two: a broker paid a matchmaking fee. Row three: a trader who takes title and resells on a margin.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="196" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">Who Pays the Middle Party — and Whose Side They're On</text>
+  <text x="112" y="238" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">The payment model tells you what the markup buys and who you claim against.</text>
+
+  <!-- column headers -->
+  <text x="300" y="300" text-anchor="middle" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">YOU (BUYER)</text>
+  <text x="800" y="300" text-anchor="middle" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">MIDDLE PARTY</text>
+  <text x="1300" y="300" text-anchor="middle" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">FACTORY</text>
+
+  <!-- Row 1: AGENT -->
+  <g transform="translate(0,330)">
+    <rect x="210" y="0" width="180" height="70" rx="10" fill="#eef1ec" stroke="#294643" stroke-width="2"/>
+    <text x="300" y="43" text-anchor="middle" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Buyer</text>
+    <rect x="700" y="0" width="200" height="70" rx="10" fill="#dcece6" stroke="#2f6f63" stroke-width="2.5"/>
+    <text x="800" y="43" text-anchor="middle" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Agent</text>
+    <rect x="1210" y="0" width="180" height="70" rx="10" fill="#eef1ec" stroke="#294643" stroke-width="2"/>
+    <text x="1300" y="43" text-anchor="middle" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Factory</text>
+    <line x1="390" y1="35" x2="700" y2="35" stroke="#294643" stroke-width="2.5"/>
+    <line x1="900" y1="35" x2="1210" y2="35" stroke="#294643" stroke-width="2.5"/>
+    <path d="M1000 35 C 1000 -8, 900 -8, 900 30" fill="none" stroke="#c1663b" stroke-width="3" stroke-dasharray="7 6"/>
+    <text x="955" y="-16" text-anchor="middle" fill="#c1663b" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" font-weight="700">commission</text>
+    <text x="1200" y="105" text-anchor="end" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">Represents the supplier · loyalty follows the pay</text>
+  </g>
+
+  <!-- Row 2: BROKER -->
+  <g transform="translate(0,510)">
+    <rect x="210" y="0" width="180" height="70" rx="10" fill="#eef1ec" stroke="#294643" stroke-width="2"/>
+    <text x="300" y="43" text-anchor="middle" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Buyer</text>
+    <rect x="700" y="0" width="200" height="70" rx="10" fill="#dcece6" stroke="#2f6f63" stroke-width="2.5"/>
+    <text x="800" y="43" text-anchor="middle" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Broker</text>
+    <rect x="1210" y="0" width="180" height="70" rx="10" fill="#eef1ec" stroke="#294643" stroke-width="2"/>
+    <text x="1300" y="43" text-anchor="middle" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Factory</text>
+    <line x1="390" y1="35" x2="700" y2="35" stroke="#294643" stroke-width="2.5"/>
+    <line x1="900" y1="35" x2="1210" y2="35" stroke="#294643" stroke-width="2.5"/>
+    <text x="800" y="112" text-anchor="middle" fill="#c1663b" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" font-weight="700">matchmaking fee · does not own goods</text>
+    <text x="1200" y="105" text-anchor="end" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="17"></text>
+  </g>
+
+  <!-- Row 3: TRADER -->
+  <g transform="translate(0,690)">
+    <rect x="210" y="0" width="180" height="70" rx="10" fill="#eef1ec" stroke="#294643" stroke-width="2"/>
+    <text x="300" y="43" text-anchor="middle" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Buyer</text>
+    <rect x="700" y="0" width="200" height="70" rx="10" fill="#f2ddcf" stroke="#c1663b" stroke-width="2.5"/>
+    <text x="800" y="43" text-anchor="middle" fill="#7a4426" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Trader</text>
+    <rect x="1210" y="0" width="180" height="70" rx="10" fill="#eef1ec" stroke="#294643" stroke-width="2"/>
+    <text x="1300" y="43" text-anchor="middle" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">Factory</text>
+    <line x1="390" y1="35" x2="700" y2="35" stroke="#c1663b" stroke-width="3.5"/>
+    <line x1="900" y1="35" x2="1210" y2="35" stroke="#c1663b" stroke-width="3.5"/>
+    <text x="800" y="112" text-anchor="middle" fill="#c1663b" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" font-weight="700">takes title · resells on a margin · your contract is here</text>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Using freeze-dried fruit in homemade nut and seed butters</title>
+  <desc id="desc">A three-step flow: blend nuts to a smooth butter, crush freeze-dried fruit to a powder, then fold the powder in at the end and keep everything dry.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">APPLICATIONS</text>
+  <text x="112" y="196" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">Fruit Flavor, No Water: Butter First, Powder Last</text>
+  <text x="112" y="238" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Freeze-dried fruit colors and flavors nut butter without shortening its keeping time.</text>
+
+  <!-- Step 1: blend nuts -->
+  <g transform="translate(190,330)">
+    <circle cx="130" cy="150" r="120" fill="#efe3d2" stroke="#294643" stroke-width="3"/>
+    <ellipse cx="95" cy="120" rx="26" ry="18" fill="#c79a63" transform="rotate(-20 95 120)"/>
+    <ellipse cx="160" cy="110" rx="26" ry="18" fill="#b98a52" transform="rotate(15 160 110)"/>
+    <ellipse cx="130" cy="180" rx="26" ry="18" fill="#c79a63" transform="rotate(35 130 180)"/>
+    <text x="130" y="-6" text-anchor="middle" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">1 · BLEND NUTS</text>
+    <text x="130" y="320" text-anchor="middle" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Past crumbly → smooth,</text>
+    <text x="130" y="345" text-anchor="middle" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">oil released</text>
+  </g>
+
+  <text x="540" y="490" text-anchor="middle" fill="#8a5a3b" font-family="'Source Sans 3', Arial, sans-serif" font-size="60">→</text>
+
+  <!-- Step 2: crush fruit -->
+  <g transform="translate(620,330)">
+    <circle cx="130" cy="150" r="120" fill="#f6d2cf" stroke="#294643" stroke-width="3"/>
+    <circle cx="95" cy="120" r="6" fill="#c25a51"/><circle cx="150" cy="105" r="6" fill="#c25a51"/>
+    <circle cx="120" cy="170" r="6" fill="#c25a51"/><circle cx="170" cy="160" r="6" fill="#c25a51"/>
+    <circle cx="90" cy="185" r="6" fill="#c25a51"/><circle cx="135" cy="135" r="6" fill="#d96c63"/>
+    <text x="130" y="-6" text-anchor="middle" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">2 · CRUSH FRUIT</text>
+    <text x="130" y="320" text-anchor="middle" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">To a powder for even</text>
+    <text x="130" y="345" text-anchor="middle" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">color and flavor</text>
+  </g>
+
+  <text x="970" y="490" text-anchor="middle" fill="#8a5a3b" font-family="'Source Sans 3', Arial, sans-serif" font-size="60">→</text>
+
+  <!-- Step 3: fold in -->
+  <g transform="translate(1050,330)">
+    <circle cx="130" cy="150" r="120" fill="#e8a9a0" stroke="#294643" stroke-width="3"/>
+    <path d="M40 150 A90 90 0 0 1 220 150" fill="none" stroke="#c25a51" stroke-width="5" opacity="0.6"/>
+    <path d="M55 190 A80 80 0 0 1 205 190" fill="none" stroke="#d0857b" stroke-width="5" opacity="0.6"/>
+    <text x="130" y="-6" text-anchor="middle" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="700">3 · FOLD IN LAST</text>
+    <text x="130" y="320" text-anchor="middle" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Start small · taste up ·</text>
+    <text x="130" y="345" text-anchor="middle" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">just combine</text>
+  </g>
+
+  <rect x="112" y="740" width="1376" height="52" rx="12" fill="#2f6f63" opacity="0.10"/>
+  <text x="800" y="773" text-anchor="middle" fill="#17312f" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">Keep it dry: dry blender, dry jar, dry spoon · refrigerate · use within a couple of weeks</text>
+</svg>

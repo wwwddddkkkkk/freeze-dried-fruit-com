@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">The BET monolayer value and freeze-dried fruit stability</title>
+  <desc id="desc">A sorption isotherm curve with the monolayer point marked near a water activity of 0.25, and a reaction-rate curve dipping to its minimum at the same point, showing why the monolayer is the most stable moisture target.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="112" y="196" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">The Monolayer: Where Dried Fruit Is Most Stable</text>
+  <text x="112" y="238" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">A sorption model marks the driest, slowest-reacting point — usually near water activity 0.25.</text>
+
+  <!-- Plot frame -->
+  <g transform="translate(150,300)">
+    <!-- axes -->
+    <line x1="120" y1="60" x2="120" y2="460" stroke="#294643" stroke-width="3"/>
+    <line x1="120" y1="460" x2="1180" y2="460" stroke="#294643" stroke-width="3"/>
+    <text x="90" y="70" text-anchor="end" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">high</text>
+    <text x="90" y="455" text-anchor="end" fill="#294643" font-family="'Source Sans 3', Arial, sans-serif" font-size="19">low</text>
+    <text x="60" y="270" text-anchor="middle" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" transform="rotate(-90 60 270)">moisture content</text>
+    <text x="650" y="505" text-anchor="middle" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20">water activity (a&#8341;)  →</text>
+    <text x="120" y="490" text-anchor="middle" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">0</text>
+    <text x="1180" y="490" text-anchor="middle" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="17">1.0</text>
+
+    <!-- sorption isotherm (J/S shaped) -->
+    <path d="M120 430 C 260 405, 360 380, 420 350 C 520 300, 640 250, 780 180 C 900 120, 1020 95, 1180 80" fill="none" stroke="#2f6f63" stroke-width="5"/>
+    <text x="1010" y="150" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">sorption isotherm</text>
+
+    <!-- reaction-rate curve (U shaped, dashed) minimum at monolayer -->
+    <path d="M120 300 C 260 360, 360 400, 420 410 C 520 415, 560 405, 620 360 C 720 285, 880 180, 1180 110" fill="none" stroke="#c1663b" stroke-width="4" stroke-dasharray="10 8"/>
+    <text x="150" y="290" fill="#c1663b" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="700">reaction rate</text>
+    <text x="880" y="200" fill="#c1663b" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">oxidation · browning · softening rise →</text>
+
+    <!-- monolayer marker at ~aw 0.25 -->
+    <line x1="420" y1="60" x2="420" y2="460" stroke="#294643" stroke-width="2" stroke-dasharray="4 6"/>
+    <circle cx="420" cy="350" r="9" fill="#2f6f63" stroke="#fcfaf5" stroke-width="3"/>
+    <circle cx="420" cy="410" r="9" fill="#c1663b" stroke="#fcfaf5" stroke-width="3"/>
+    <text x="420" y="45" text-anchor="middle" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700">monolayer</text>
+    <text x="420" y="490" text-anchor="middle" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">a&#8341; ≈ 0.2–0.3</text>
+
+    <!-- stable band -->
+    <rect x="330" y="60" width="170" height="400" fill="#2f6f63" opacity="0.07"/>
+    <text x="415" y="440" text-anchor="middle" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="15">most stable</text>
+  </g>
+  <text x="150" y="800" fill="#8a5a3b" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">BET fits the dry end · GAB fits the wider curve · for sugary fruit, pair with glass-transition and storage testing</text>
+</svg>

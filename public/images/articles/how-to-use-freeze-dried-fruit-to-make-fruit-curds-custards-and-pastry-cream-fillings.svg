@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Using freeze-dried fruit powder to flavor curds, custards, and pastry cream</title>
+  <desc id="desc">A four-step path: bloom freeze-dried fruit powder into liquid or fat, whisk into the custard base, cook gently, then strain into a smooth fruit filling.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">APPLICATIONS</text>
+  <text x="112" y="196" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">Fruit Flavor Without the Water</text>
+  <text x="112" y="238" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Powder, bloomed and strained, flavors a curd or pastry cream without loosening the set.</text>
+
+  <!-- 4 step nodes -->
+  <g font-family="'Source Sans 3', Arial, sans-serif">
+    <!-- step 1 -->
+    <g transform="translate(150,330)">
+      <circle cx="90" cy="90" r="90" fill="#ffffff" stroke="#2f6f63" stroke-width="4"/>
+      <text x="90" y="70" fill="#2f6f63" font-size="22" font-weight="800" text-anchor="middle">1 · BLOOM</text>
+      <text x="90" y="104" fill="#172f2b" font-size="17" text-anchor="middle">whisk powder</text>
+      <text x="90" y="126" fill="#172f2b" font-size="17" text-anchor="middle">into liquid / fat</text>
+    </g>
+    <!-- arrow -->
+    <path d="M348,420 L432,420" stroke="#c9a24a" stroke-width="5" marker-end="url(#ar)"/>
+    <!-- step 2 -->
+    <g transform="translate(470,330)">
+      <circle cx="90" cy="90" r="90" fill="#ffffff" stroke="#2f6f63" stroke-width="4"/>
+      <text x="90" y="70" fill="#2f6f63" font-size="22" font-weight="800" text-anchor="middle">2 · WHISK</text>
+      <text x="90" y="104" fill="#172f2b" font-size="17" text-anchor="middle">into the</text>
+      <text x="90" y="126" fill="#172f2b" font-size="17" text-anchor="middle">custard base</text>
+    </g>
+    <path d="M668,420 L752,420" stroke="#c9a24a" stroke-width="5" marker-end="url(#ar)"/>
+    <!-- step 3 -->
+    <g transform="translate(790,330)">
+      <circle cx="90" cy="90" r="90" fill="#ffffff" stroke="#2f6f63" stroke-width="4"/>
+      <text x="90" y="70" fill="#2f6f63" font-size="22" font-weight="800" text-anchor="middle">3 · COOK</text>
+      <text x="90" y="104" fill="#172f2b" font-size="17" text-anchor="middle">gently to</text>
+      <text x="90" y="126" fill="#172f2b" font-size="17" text-anchor="middle">thicken</text>
+    </g>
+    <path d="M988,420 L1072,420" stroke="#c9a24a" stroke-width="5" marker-end="url(#ar)"/>
+    <!-- step 4 -->
+    <g transform="translate(1110,330)">
+      <circle cx="90" cy="90" r="90" fill="#ffffff" stroke="#2f6f63" stroke-width="4"/>
+      <text x="90" y="70" fill="#2f6f63" font-size="22" font-weight="800" text-anchor="middle">4 · STRAIN</text>
+      <text x="90" y="104" fill="#172f2b" font-size="17" text-anchor="middle">smooth,</text>
+      <text x="90" y="126" fill="#172f2b" font-size="17" text-anchor="middle">seed-free</text>
+    </g>
+  </g>
+
+  <!-- result bar -->
+  <g transform="translate(150,570)">
+    <rect x="0" y="0" width="1300" height="88" rx="12" fill="#2f6f63" opacity="0.10"/>
+    <text x="30" y="40" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="22" font-weight="800">Result: firm set · vivid color · real fruit flavor</text>
+    <text x="30" y="70" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Powder for the filling · pieces only as a garnish (they soften in the moist base)</text>
+  </g>
+
+  <text x="150" y="795" fill="#8a5a3b" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Add tart powders in stages and taste — extra acid shifts how eggs set. Start small; the powder adds flavor, not water.</text>
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#c9a24a"/>
+    </marker>
+  </defs>
+</svg>

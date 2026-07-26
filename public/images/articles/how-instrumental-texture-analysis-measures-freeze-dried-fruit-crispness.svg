@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Force curves from a texture analyzer for crisp versus softened freeze-dried fruit</title>
+  <desc id="desc">Two force-versus-distance plots. Left: a crisp piece producing a jagged curve with many fracture peaks. Right: a softened piece producing a smooth rounded curve with few peaks.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="112" y="196" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">Crispness Is in the Jagged Curve</text>
+  <text x="112" y="238" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">A probe presses down; the count of fracture peaks — not their height — tracks crunch.</text>
+
+  <!-- Left plot: crisp -->
+  <g transform="translate(150,300)">
+    <rect x="0" y="0" width="600" height="440" rx="12" fill="#ffffff" stroke="#172f2b" stroke-width="3"/>
+    <text x="24" y="46" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" font-weight="800">Crisp piece</text>
+    <!-- axes -->
+    <line x1="60" y1="380" x2="560" y2="380" stroke="#172f2b" stroke-width="2"/>
+    <line x1="60" y1="90" x2="60" y2="380" stroke="#172f2b" stroke-width="2"/>
+    <text x="300" y="416" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" text-anchor="middle">Distance</text>
+    <text x="30" y="240" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" text-anchor="middle" transform="rotate(-90 30 240)">Force</text>
+    <!-- jagged trace -->
+    <polyline fill="none" stroke="#2f6f63" stroke-width="3" points="60,380 90,300 105,340 130,180 145,270 170,150 185,250 210,130 225,240 250,170 265,290 290,140 305,260 330,120 345,250 370,190 385,300 410,160 425,280 450,210 465,320 490,200 505,300 530,240 560,300"/>
+    <text x="300" y="200" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">many fracture peaks</text>
+  </g>
+
+  <!-- Right plot: softened -->
+  <g transform="translate(850,300)">
+    <rect x="0" y="0" width="600" height="440" rx="12" fill="#ffffff" stroke="#172f2b" stroke-width="3"/>
+    <text x="24" y="46" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="24" font-weight="800">Softened piece</text>
+    <line x1="60" y1="380" x2="560" y2="380" stroke="#172f2b" stroke-width="2"/>
+    <line x1="60" y1="90" x2="60" y2="380" stroke="#172f2b" stroke-width="2"/>
+    <text x="300" y="416" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" text-anchor="middle">Distance</text>
+    <text x="30" y="240" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" text-anchor="middle" transform="rotate(-90 30 240)">Force</text>
+    <!-- smooth trace -->
+    <path fill="none" stroke="#c1663b" stroke-width="3" d="M60,380 C180,360 240,220 330,205 C400,195 430,215 470,250 C510,285 535,300 560,320"/>
+    <text x="300" y="180" fill="#c1663b" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">few, rounded peaks</text>
+  </g>
+  <text x="150" y="795" fill="#8a5a3b" font-family="'Source Sans 3', Arial, sans-serif" font-size="18">Curves are illustrative. Compare only at matched moisture — a few percent of water flattens the jagged peaks into a smooth rise.</text>
+</svg>

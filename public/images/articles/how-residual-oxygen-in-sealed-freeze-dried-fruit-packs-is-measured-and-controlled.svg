@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Measuring and controlling residual oxygen in a sealed freeze-dried fruit pack</title>
+  <desc id="desc">A sealed pouch showing headspace and pore oxygen, a septum needle headspace analyzer and a non-destructive optical sensor spot, and a shelf-life curve of residual oxygen rising through a leaky film versus held low by a barrier and absorber.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">TECHNOLOGY</text>
+  <text x="112" y="196" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">The Oxygen That Is Left Behind</text>
+  <text x="112" y="238" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Residual oxygen is measured on the finished pack — and must hold low across shelf life.</text>
+
+  <!-- Pouch with headspace + pores -->
+  <g transform="translate(150,300)">
+    <text x="0" y="-16" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="800">SEALED POUCH</text>
+    <rect x="0" y="0" width="360" height="360" rx="16" fill="#ffffff" stroke="#2f6f63" stroke-width="4"/>
+    <!-- seal top -->
+    <rect x="0" y="0" width="360" height="26" fill="#d9ece7"/>
+    <text x="180" y="18" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">heat seal</text>
+    <!-- headspace -->
+    <rect x="14" y="40" width="332" height="90" rx="8" fill="#eaf3f7"/>
+    <text x="180" y="78" fill="#3a6ea5" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" text-anchor="middle" font-weight="700">headspace gas</text>
+    <text x="180" y="104" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">measured % O2</text>
+    <!-- fruit pieces with pore O2 -->
+    <g>
+      <circle cx="90" cy="210" r="34" fill="#f5e2c8" stroke="#c79a56" stroke-width="2"/>
+      <circle cx="185" cy="255" r="40" fill="#f2d6b3" stroke="#c79a56" stroke-width="2"/>
+      <circle cx="280" cy="205" r="30" fill="#f5e2c8" stroke="#c79a56" stroke-width="2"/>
+      <circle cx="140" cy="300" r="30" fill="#f2d6b3" stroke="#c79a56" stroke-width="2"/>
+      <circle cx="250" cy="300" r="26" fill="#f5e2c8" stroke="#c79a56" stroke-width="2"/>
+      <!-- trapped O2 dots -->
+      <circle cx="88" cy="205" r="4" fill="#d9534f"/><circle cx="98" cy="220" r="4" fill="#d9534f"/>
+      <circle cx="182" cy="250" r="4" fill="#d9534f"/><circle cx="196" cy="262" r="4" fill="#d9534f"/>
+      <circle cx="278" cy="200" r="4" fill="#d9534f"/>
+      <circle cx="138" cy="298" r="4" fill="#d9534f"/><circle cx="252" cy="300" r="4" fill="#d9534f"/>
+    </g>
+    <text x="180" y="352" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">pores trap O2 that equilibrates after sealing</text>
+  </g>
+
+  <!-- Two measurement methods -->
+  <g transform="translate(600,300)">
+    <text x="0" y="-16" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="800">TWO WAYS TO MEASURE</text>
+    <!-- septum needle -->
+    <rect x="0" y="0" width="330" height="150" rx="12" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+    <text x="20" y="34" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" font-weight="800">Septum sampling</text>
+    <text x="20" y="60" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">needle draws a gas sample — destroys pack</text>
+    <line x1="30" y1="105" x2="150" y2="105" stroke="#7a8a86" stroke-width="6"/>
+    <polygon points="150,101 172,105 150,109" fill="#7a8a86"/>
+    <rect x="172" y="90" width="70" height="30" rx="4" fill="#eaf3f7" stroke="#3a6ea5" stroke-width="2"/>
+    <text x="207" y="110" fill="#3a6ea5" font-family="'Source Sans 3', Arial, sans-serif" font-size="12" text-anchor="middle">film</text>
+    <text x="290" y="110" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="12" text-anchor="middle">analyzer</text>
+
+    <!-- optical -->
+    <rect x="0" y="170" width="330" height="150" rx="12" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+    <text x="20" y="204" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" font-weight="800">Optical sensor spot</text>
+    <text x="20" y="230" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">read through film — same pack over time</text>
+    <rect x="60" y="255" width="110" height="46" rx="6" fill="#eaf3f7" stroke="#3a6ea5" stroke-width="2"/>
+    <circle cx="115" cy="278" r="12" fill="#8ac6b3" stroke="#2f6f63" stroke-width="2"/>
+    <text x="115" y="316" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="12" text-anchor="middle">sensor in pack</text>
+    <line x1="230" y1="240" x2="150" y2="272" stroke="#c79a56" stroke-width="3" stroke-dasharray="5 4"/>
+    <text x="250" y="280" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="12" text-anchor="middle">reader</text>
+  </g>
+
+  <!-- Shelf-life curve -->
+  <g transform="translate(1000,300)">
+    <text x="0" y="-16" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="800">RESIDUAL O2 OVER SHELF LIFE</text>
+    <rect x="0" y="0" width="440" height="360" rx="12" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+    <!-- axes -->
+    <line x1="60" y1="40" x2="60" y2="310" stroke="#7a8a86" stroke-width="2"/>
+    <line x1="60" y1="310" x2="400" y2="310" stroke="#7a8a86" stroke-width="2"/>
+    <text x="30" y="50" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle" transform="rotate(-90 30 175)">% O2</text>
+    <text x="230" y="340" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">time in storage</text>
+    <!-- leaky rising -->
+    <path d="M60,250 C170,240 280,150 400,70" fill="none" stroke="#d9534f" stroke-width="5"/>
+    <text x="330" y="60" fill="#d9534f" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" font-weight="700">leaky / low barrier</text>
+    <!-- absorber held low -->
+    <path d="M60,250 C160,285 300,292 400,290" fill="none" stroke="#2f6f63" stroke-width="5"/>
+    <text x="250" y="285" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" font-weight="700">barrier + absorber</text>
+    <circle cx="60" cy="250" r="6" fill="#172f2b"/>
+    <text x="86" y="238" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="12">day-one reading</text>
+  </g>
+
+  <text x="112" y="792" fill="#8a948f" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">Freeze-Dried-Fruit.com — a day-one number behind a leaky pouch still ends badly.</text>
+</svg>

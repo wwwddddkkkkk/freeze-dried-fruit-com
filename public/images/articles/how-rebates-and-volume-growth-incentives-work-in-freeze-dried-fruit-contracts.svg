@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How rebate and growth-incentive structures work in freeze-dried fruit contracts</title>
+  <desc id="desc">A comparison of a retroactive tiered rebate that pays on all volume once a threshold is crossed versus an incremental rebate that pays only on volume above the threshold, a growth incentive measured against a prior-year baseline, and a timeline from earned to paid.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="196" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">A Rebate Is Only Worth How It Is Written</text>
+  <text x="112" y="238" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Structure, baseline, and payout timing decide whether a rebate really lowers your cost.</text>
+
+  <!-- Retroactive tier -->
+  <g transform="translate(120,300)">
+    <text x="0" y="-16" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="800">RETROACTIVE TIER</text>
+    <rect x="0" y="0" width="360" height="300" rx="12" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+    <line x1="50" y1="30" x2="50" y2="250" stroke="#7a8a86" stroke-width="2"/>
+    <line x1="50" y1="250" x2="330" y2="250" stroke="#7a8a86" stroke-width="2"/>
+    <!-- threshold -->
+    <line x1="190" y1="30" x2="190" y2="250" stroke="#c79a56" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="190" y="272" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">threshold</text>
+    <!-- all volume shaded above -->
+    <rect x="50" y="120" width="280" height="130" fill="#cfe6dd" opacity="0.8"/>
+    <text x="185" y="105" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle" font-weight="700">higher rate on ALL volume</text>
+    <text x="185" y="200" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">crossing = lump-sum "cliff"</text>
+  </g>
+
+  <!-- Incremental -->
+  <g transform="translate(520,300)">
+    <text x="0" y="-16" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="800">INCREMENTAL</text>
+    <rect x="0" y="0" width="360" height="300" rx="12" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+    <line x1="50" y1="30" x2="50" y2="250" stroke="#7a8a86" stroke-width="2"/>
+    <line x1="50" y1="250" x2="330" y2="250" stroke="#7a8a86" stroke-width="2"/>
+    <line x1="190" y1="30" x2="190" y2="250" stroke="#c79a56" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="190" y="272" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">threshold</text>
+    <!-- only above threshold shaded -->
+    <rect x="190" y="120" width="140" height="130" fill="#cfe6dd" opacity="0.8"/>
+    <rect x="50" y="200" width="140" height="50" fill="#efe6d4" opacity="0.8"/>
+    <text x="260" y="105" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle" font-weight="700">rate only ABOVE band</text>
+    <text x="120" y="230" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">lower rate below</text>
+  </g>
+
+  <!-- Growth baseline -->
+  <g transform="translate(920,300)">
+    <text x="0" y="-16" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="800">GROWTH VS BASELINE</text>
+    <rect x="0" y="0" width="530" height="300" rx="12" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+    <!-- prior year bar -->
+    <rect x="70" y="140" width="120" height="110" fill="#d9cbb2"/>
+    <text x="130" y="270" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">prior-year baseline</text>
+    <!-- this year bar taller -->
+    <rect x="300" y="70" width="120" height="180" fill="#8ac6b3"/>
+    <rect x="300" y="140" width="120" height="110" fill="#d9cbb2"/>
+    <line x1="60" y1="140" x2="440" y2="140" stroke="#c79a56" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="360" y="270" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">this year</text>
+    <text x="360" y="55" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="700">growth = rebate</text>
+    <text x="470" y="130" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="12" text-anchor="middle">baseline may</text>
+    <text x="470" y="148" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="12" text-anchor="middle">ratchet up</text>
+  </g>
+
+  <!-- earned -> paid timeline -->
+  <g transform="translate(120,650)">
+    <line x1="0" y1="30" x2="1330" y2="30" stroke="#7a8a86" stroke-width="3"/>
+    <circle cx="60" cy="30" r="9" fill="#2f6f63"/>
+    <text x="60" y="66" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle">buy</text>
+    <circle cx="500" cy="30" r="9" fill="#2f6f63"/>
+    <text x="500" y="66" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle">period closes → EARNED</text>
+    <circle cx="900" cy="30" r="9" fill="#c79a56"/>
+    <text x="900" y="66" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle">reconciled</text>
+    <circle cx="1300" cy="30" r="9" fill="#d9534f"/>
+    <text x="1300" y="66" fill="#d9534f" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle">PAID (months later)</text>
+    <text x="665" y="12" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">you finance the full price in this gap — track earned vs paid</text>
+  </g>
+
+  <text x="112" y="800" fill="#8a948f" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">Freeze-Dried-Fruit.com — reduce every rebate to an effective net cost per unit before comparing suppliers.</text>
+</svg>

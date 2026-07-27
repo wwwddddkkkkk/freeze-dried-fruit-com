@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Reading yogurt-coated and glazed freeze-dried fruit ingredient statements</title>
+  <desc id="desc">An ingredient statement with coating and sugar listed before the fruit, a breakdown of a yogurt coating into sugar, oil, and yogurt powder, and a cross-section of a coated freeze-dried fruit piece.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="196" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">Mostly Coating, or Mostly Fruit?</text>
+  <text x="112" y="238" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Ingredients run by weight — where the fruit falls tells you what you are buying.</text>
+
+  <!-- Ingredient statement -->
+  <g transform="translate(120,300)">
+    <text x="0" y="-16" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="800">INGREDIENTS (BY WEIGHT)</text>
+    <rect x="0" y="0" width="470" height="360" rx="12" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+    <text x="24" y="52" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="800">1. Yogurt coating</text>
+    <text x="44" y="80" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="15">(sugar, palm kernel oil,</text>
+    <text x="44" y="104" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="15">yogurt powder, soy lecithin)</text>
+    <text x="24" y="146" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="800">2. Sugar</text>
+    <text x="24" y="188" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="800">3. Freeze-dried strawberries</text>
+    <text x="24" y="220" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="15">4. Natural flavor</text>
+    <line x1="24" y1="250" x2="446" y2="250" stroke="#e0d6c2" stroke-width="1.5"/>
+    <text x="24" y="286" fill="#d9534f" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" font-weight="700">Fruit is 3rd → coating &amp; sugar</text>
+    <text x="24" y="310" fill="#d9534f" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" font-weight="700">outweigh the fruit</text>
+    <text x="24" y="342" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">A confection built around fruit.</text>
+  </g>
+
+  <!-- Coating breakdown donut -->
+  <g transform="translate(680,320)">
+    <text x="120" y="-36" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="800" text-anchor="middle">WHAT A "YOGURT COATING" IS</text>
+    <!-- pie approx: sugar big, oil medium, yogurt small -->
+    <circle cx="120" cy="120" r="110" fill="#f2e2c2"/>
+    <path d="M120,120 L120,10 A110,110 0 0,1 230,120 Z" fill="#e8c98a"/>
+    <path d="M120,120 L230,120 A110,110 0 0,1 150,224 Z" fill="#cbb184"/>
+    <path d="M120,120 L150,224 A110,110 0 0,1 60,214 Z" fill="#8ac6b3"/>
+    <circle cx="120" cy="120" r="52" fill="#fcfaf5"/>
+    <text x="120" y="126" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle" font-weight="700">coating</text>
+    <g font-family="'Source Sans 3', Arial, sans-serif" font-size="15">
+      <rect x="260" y="40" width="20" height="20" fill="#e8c98a"/><text x="288" y="56" fill="#172f2b">sugar (largest)</text>
+      <rect x="260" y="78" width="20" height="20" fill="#cbb184"/><text x="288" y="94" fill="#172f2b">oil / fat</text>
+      <rect x="260" y="116" width="20" height="20" fill="#8ac6b3"/><text x="288" y="132" fill="#172f2b">yogurt powder (small)</text>
+      <rect x="260" y="154" width="20" height="20" fill="#f2e2c2"/><text x="288" y="170" fill="#172f2b">emulsifier / flavor</text>
+    </g>
+    <text x="120" y="270" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">"Yogurt" ≠ yogurt — a sweet shell</text>
+  </g>
+
+  <!-- cross-section -->
+  <g transform="translate(1150,320)">
+    <text x="150" y="-36" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" font-weight="800" text-anchor="middle">COATED PIECE</text>
+    <circle cx="150" cy="120" r="110" fill="#f4efe6" stroke="#cbb184" stroke-width="26"/>
+    <circle cx="150" cy="120" r="70" fill="#e77c7c" stroke="#c94f4f" stroke-width="3"/>
+    <text x="150" y="126" fill="#ffffff" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="700">fruit</text>
+    <text x="150" y="20" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">sugar-and-fat shell</text>
+    <text x="150" y="270" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">compare coated to coated</text>
+  </g>
+
+  <text x="112" y="792" fill="#8a948f" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">Freeze-Dried-Fruit.com — read the parentheses inside the coating for sugar and allergens.</text>
+</svg>

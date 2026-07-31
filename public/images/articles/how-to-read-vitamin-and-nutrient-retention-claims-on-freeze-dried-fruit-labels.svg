@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How to read vitamin and nutrient retention claims on freeze-dried fruit labels</title>
+  <desc id="desc">A front-of-pack retention percentage marked as unregulated next to a governed Nutrition Facts panel, with a panel listing the three missing anchors — which nutrient, which baseline, and when measured — and a storage curve showing a stable nutrient holding while a sensitive one declines.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">LABELS &amp; QUALITY</text>
+  <text x="112" y="196" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">97% of What, Compared to When?</text>
+  <text x="112" y="238" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">A retention percentage is a ratio with the denominator left off the package.</text>
+
+  <!-- Front of pack vs panel -->
+  <g transform="translate(112,300)">
+    <text x="0" y="-14" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="800">TWO PARTS OF ONE BAG</text>
+
+    <rect x="0" y="0" width="300" height="200" rx="14" fill="#ffffff" stroke="#d9534f" stroke-width="3"/>
+    <text x="150" y="52" fill="#8a948f" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">FRONT OF PACK</text>
+    <text x="150" y="108" fill="#d9534f" font-family="'DM Serif Display', Georgia, serif" font-size="42" text-anchor="middle">“retains 97%”</text>
+    <text x="150" y="142" fill="#a33b37" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle">no required method</text>
+    <text x="150" y="166" fill="#a33b37" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle">no required baseline</text>
+    <text x="150" y="188" fill="#a33b37" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle">not comparable brand to brand</text>
+
+    <rect x="0" y="230" width="300" height="210" rx="14" fill="#ffffff" stroke="#2f6f63" stroke-width="3"/>
+    <text x="150" y="262" fill="#8a948f" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">BACK OF PACK</text>
+    <line x1="24" y1="276" x2="276" y2="276" stroke="#172f2b" stroke-width="6"/>
+    <text x="24" y="304" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" font-weight="800">Nutrition Facts</text>
+    <line x1="24" y1="314" x2="276" y2="314" stroke="#172f2b" stroke-width="2"/>
+    <text x="24" y="338" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">Serving size</text>
+    <text x="24" y="362" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">Amount per serving</text>
+    <text x="24" y="386" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">% Daily Value</text>
+    <line x1="24" y1="398" x2="276" y2="398" stroke="#172f2b" stroke-width="2"/>
+    <text x="150" y="424" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle" font-weight="700">governed and comparable</text>
+  </g>
+
+  <!-- Three anchors -->
+  <g transform="translate(472,300)">
+    <text x="0" y="-14" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="800">THREE MISSING ANCHORS</text>
+    <rect x="0" y="0" width="450" height="440" rx="12" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+
+    <circle cx="52" cy="70" r="22" fill="#d9ece7" stroke="#2f6f63" stroke-width="2"/>
+    <text x="52" y="78" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="800">1</text>
+    <text x="94" y="62" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" font-weight="800">Which nutrient?</text>
+    <text x="94" y="88" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">minerals and fiber are stable;</text>
+    <text x="94" y="110" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">some vitamins are not</text>
+
+    <circle cx="52" cy="190" r="22" fill="#d9ece7" stroke="#2f6f63" stroke-width="2"/>
+    <text x="52" y="198" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="800">2</text>
+    <text x="94" y="182" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" font-weight="800">Compared with what?</text>
+    <text x="94" y="208" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">fruit at harvest, fruit entering the</text>
+    <text x="94" y="230" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">dryer, or a reference table?</text>
+
+    <circle cx="52" cy="310" r="22" fill="#d9ece7" stroke="#2f6f63" stroke-width="2"/>
+    <text x="52" y="318" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="800">3</text>
+    <text x="94" y="302" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" font-weight="800">Measured when?</text>
+    <text x="94" y="328" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">at the end of the line, or in the</text>
+    <text x="94" y="350" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">bag you are holding?</text>
+
+    <rect x="24" y="378" width="402" height="44" rx="8" fill="#f7ecd9"/>
+    <text x="225" y="406" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle" font-weight="700">Miss any one and the number cannot be checked.</text>
+  </g>
+
+  <!-- Storage curve -->
+  <g transform="translate(972,300)">
+    <text x="0" y="-14" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="800">PRODUCTION IS NOT SHELF LIFE</text>
+    <rect x="0" y="0" width="468" height="440" rx="12" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+
+    <line x1="66" y1="44" x2="66" y2="330" stroke="#7a8a86" stroke-width="2"/>
+    <line x1="66" y1="330" x2="420" y2="330" stroke="#7a8a86" stroke-width="2"/>
+    <text x="34" y="188" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle" transform="rotate(-90 34 188)">amount remaining</text>
+    <text x="243" y="360" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">months in storage →</text>
+
+    <path d="M66,80 C170,82 300,84 420,86" fill="none" stroke="#2f6f63" stroke-width="5"/>
+    <text x="300" y="72" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" font-weight="700">stable: minerals, fiber</text>
+
+    <path d="M66,80 C160,140 260,230 420,290" fill="none" stroke="#d9534f" stroke-width="5"/>
+    <text x="300" y="266" fill="#d9534f" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" font-weight="700">sensitive to oxygen and light</text>
+
+    <circle cx="66" cy="80" r="7" fill="#172f2b"/>
+    <text x="88" y="112" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="13">the claim is usually measured here</text>
+
+    <line x1="360" y1="44" x2="360" y2="330" stroke="#8a948f" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="360" y="38" fill="#8a948f" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">the bag you buy</text>
+
+    <text x="34" y="388" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">Barrier film, an intact seal, and cool dark storage</text>
+    <text x="34" y="412" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">shape the right-hand end of this chart.</text>
+  </g>
+
+  <text x="112" y="792" fill="#8a948f" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">Freeze-Dried-Fruit.com — buy on the panel and the ingredient list; read the percentage as marketing.</text>
+</svg>

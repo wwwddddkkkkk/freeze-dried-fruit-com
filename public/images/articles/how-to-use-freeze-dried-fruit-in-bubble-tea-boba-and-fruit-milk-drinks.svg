@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Using freeze-dried fruit in bubble tea, boba, and fruit milk drinks</title>
+  <desc id="desc">A three-step build showing freeze-dried fruit ground to powder and made into a slurry with sugar, blended into a milk and tea base over tapioca pearls, and finished with crisp crushed fruit on top, alongside a panel contrasting powder in the drink with pieces on the garnish and a fruit-versus-base pairing guide.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">APPLICATIONS</text>
+  <text x="112" y="196" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">Powder in the Cup, Pieces on Top</text>
+  <text x="112" y="238" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Fruit flavor without the syrup, the pulp, or the season.</text>
+
+  <!-- Step 1: grind + slurry -->
+  <g transform="translate(112,300)">
+    <text x="0" y="-14" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="800">1 — GRIND, THEN SLURRY</text>
+    <rect x="0" y="0" width="330" height="440" rx="12" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+
+    <g transform="translate(46,40)">
+      <circle cx="34" cy="34" r="24" fill="#f2d6b3" stroke="#c79a56" stroke-width="2"/>
+      <circle cx="86" cy="46" r="18" fill="#f5e2c8" stroke="#c79a56" stroke-width="2"/>
+      <circle cx="128" cy="30" r="21" fill="#f2d6b3" stroke="#c79a56" stroke-width="2"/>
+      <text x="80" y="92" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">crisp pieces</text>
+      <line x1="180" y1="34" x2="212" y2="34" stroke="#7a8a86" stroke-width="4"/>
+      <polygon points="212,27 232,34 212,41" fill="#7a8a86"/>
+    </g>
+
+    <g fill="#c79a56" transform="translate(0,0)">
+      <circle cx="252" cy="66" r="4"/><circle cx="268" cy="80" r="3"/><circle cx="284" cy="62" r="3"/>
+      <circle cx="258" cy="94" r="2.5"/><circle cx="278" cy="98" r="2.5"/><circle cx="294" cy="82" r="2"/>
+    </g>
+    <text x="272" y="124" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">fine powder</text>
+
+    <rect x="30" y="160" width="270" height="120" rx="10" fill="#f7ecd9" stroke="#c79a56" stroke-width="2"/>
+    <text x="50" y="192" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" font-weight="800">Powder + sugar</text>
+    <text x="50" y="218" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">or a splash of warm base</text>
+    <text x="50" y="248" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">stir to a smooth paste first</text>
+
+    <rect x="30" y="300" width="270" height="112" rx="10" fill="#fbe4e2" stroke="#d9534f" stroke-width="2"/>
+    <text x="50" y="332" fill="#a33b37" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" font-weight="800">Straight into cold milk</text>
+    <text x="50" y="358" fill="#a33b37" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">= lumps with dry centers</text>
+    <g fill="#e8a3a0">
+      <circle cx="90" cy="388" r="13"/><circle cx="140" cy="392" r="10"/><circle cx="186" cy="386" r="12"/>
+    </g>
+  </g>
+
+  <!-- Step 2: the cup -->
+  <g transform="translate(482,300)">
+    <text x="0" y="-14" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="800">2 — BUILD THE CUP</text>
+    <rect x="0" y="0" width="360" height="440" rx="12" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+
+    <g transform="translate(110,30)">
+      <path d="M20,0 L160,0 L142,360 L38,360 Z" fill="#f7f2ea" stroke="#2f6f63" stroke-width="4"/>
+      <rect x="10" y="-14" width="160" height="18" rx="6" fill="#d9ece7" stroke="#2f6f63" stroke-width="2"/>
+      <!-- garnish layer -->
+      <path d="M22,14 L158,14 L154,66 L26,66 Z" fill="#f5e2c8"/>
+      <g fill="#c79a56">
+        <circle cx="52" cy="40" r="7"/><circle cx="82" cy="32" r="5"/><circle cx="108" cy="44" r="6"/><circle cx="134" cy="34" r="5"/>
+      </g>
+      <text x="90" y="88" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">crushed pieces, last second</text>
+      <!-- drink -->
+      <path d="M27,100 L153,100 L140,300 L40,300 Z" fill="#f0dcc6"/>
+      <text x="90" y="176" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle" font-weight="700">fruit base</text>
+      <text x="90" y="200" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">+ tea + milk</text>
+      <!-- pearls -->
+      <g fill="#4a3a30">
+        <circle cx="60" cy="322" r="12"/><circle cx="90" cy="334" r="12"/><circle cx="120" cy="322" r="12"/>
+        <circle cx="74" cy="348" r="11"/><circle cx="108" cy="348" r="11"/>
+      </g>
+      <!-- straw -->
+      <line x1="120" y1="-40" x2="86" y2="200" stroke="#5f9c8b" stroke-width="12" stroke-linecap="round"/>
+    </g>
+    <text x="180" y="424" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">flavor the pearl syrup lightly, not the pearls</text>
+  </g>
+
+  <!-- Step 3: pairing -->
+  <g transform="translate(892,300)">
+    <text x="0" y="-14" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="800">3 — MATCH FRUIT TO BASE</text>
+    <rect x="0" y="0" width="548" height="440" rx="12" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+
+    <rect x="26" y="30" width="240" height="190" rx="10" fill="#f7f2ea" stroke="#c79a56" stroke-width="2"/>
+    <text x="146" y="62" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" text-anchor="middle" font-weight="800">Milk base</text>
+    <text x="146" y="94" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle">mango · strawberry</text>
+    <text x="146" y="120" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle">peach · banana</text>
+    <text x="146" y="158" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">dairy rounds off acidity</text>
+    <text x="146" y="188" fill="#a33b37" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">test very tart fruit in milk first</text>
+
+    <rect x="286" y="30" width="240" height="190" rx="10" fill="#e9f2ee" stroke="#5f9c8b" stroke-width="2"/>
+    <text x="406" y="62" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" text-anchor="middle" font-weight="800">Clear tea base</text>
+    <text x="406" y="94" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle">passion fruit · lychee</text>
+    <text x="406" y="120" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" text-anchor="middle">raspberry · pineapple</text>
+    <text x="406" y="158" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">nothing blunts the acidity</text>
+    <text x="406" y="188" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">color stays vivid</text>
+
+    <rect x="26" y="246" width="500" height="76" rx="10" fill="#d9ece7"/>
+    <text x="46" y="278" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" font-weight="800">Set fruit level first, sweetness second</text>
+    <text x="46" y="304" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">Syrup makes a drink sweeter long before it makes it fruitier.</text>
+
+    <rect x="26" y="340" width="500" height="76" rx="10" fill="#f7ecd9"/>
+    <text x="46" y="372" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" font-weight="800">Dose varies by fruit</text>
+    <text x="46" y="398" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">Raspberry lands at a pinch; banana and melon need much more.</text>
+  </g>
+
+  <text x="112" y="792" fill="#8a948f" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">Freeze-Dried-Fruit.com — pieces dropped in the cup float, then go soft; keep them on top.</text>
+</svg>

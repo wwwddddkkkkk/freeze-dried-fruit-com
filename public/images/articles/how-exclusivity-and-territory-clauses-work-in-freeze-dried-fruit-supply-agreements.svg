@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How exclusivity and territory clauses work in freeze-dried fruit supply agreements</title>
+  <desc id="desc">Three panels: a narrowing scope ladder from an entire fruit line down to one formulation and pack format, a territory panel separating active selling from downstream resale leakage, and a timeline showing exclusivity held while volume clears a threshold and lapsing after a missed quarter and cure period.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="196" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">Exclusive to What, Exactly?</text>
+  <text x="112" y="238" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Scope, territory, and a volume floor — the three things the word itself does not settle.</text>
+
+  <!-- Scope ladder -->
+  <g transform="translate(112,300)">
+    <text x="0" y="-14" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="800">SCOPE — NARROW WINS</text>
+    <rect x="0" y="0" width="420" height="440" rx="12" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+
+    <rect x="30" y="34" width="360" height="60" rx="8" fill="#fbe4e2" stroke="#d9534f" stroke-width="2"/>
+    <text x="50" y="60" fill="#a33b37" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" font-weight="800">Entire fruit line</text>
+    <text x="50" y="82" fill="#a33b37" font-family="'Source Sans 3', Arial, sans-serif" font-size="13">rarely agreed — supplier turns away demand</text>
+
+    <rect x="60" y="114" width="300" height="60" rx="8" fill="#f7ecd9" stroke="#c79a56" stroke-width="2"/>
+    <text x="80" y="140" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" font-weight="800">A channel or account</text>
+    <text x="80" y="162" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="13">workable when named precisely</text>
+
+    <rect x="90" y="194" width="240" height="60" rx="8" fill="#e9f2ee" stroke="#5f9c8b" stroke-width="2"/>
+    <text x="110" y="220" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" font-weight="800">A cut or pack format</text>
+    <text x="110" y="242" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="13">verifiable, easy to police</text>
+
+    <rect x="120" y="274" width="180" height="62" rx="8" fill="#d9ece7" stroke="#2f6f63" stroke-width="3"/>
+    <text x="140" y="300" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" font-weight="800">One formulation</text>
+    <text x="140" y="322" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="13">the version both sides sign</text>
+
+    <line x1="210" y1="94" x2="210" y2="114" stroke="#7a8a86" stroke-width="3"/>
+    <line x1="210" y1="174" x2="210" y2="194" stroke="#7a8a86" stroke-width="3"/>
+    <line x1="210" y1="254" x2="210" y2="274" stroke="#7a8a86" stroke-width="3"/>
+    <polygon points="202,274 218,274 210,286" fill="#2f6f63"/>
+
+    <text x="210" y="382" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">Write what is covered</text>
+    <text x="210" y="406" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle">and what is expressly not.</text>
+  </g>
+
+  <!-- Territory -->
+  <g transform="translate(572,300)">
+    <text x="0" y="-14" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="800">TERRITORY — AND LEAKAGE</text>
+    <rect x="0" y="0" width="420" height="440" rx="12" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+
+    <rect x="34" y="34" width="160" height="130" rx="10" fill="#d9ece7" stroke="#2f6f63" stroke-width="3"/>
+    <text x="114" y="94" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" text-anchor="middle" font-weight="800">Territory A</text>
+    <text x="114" y="118" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">exclusive buyer</text>
+
+    <rect x="226" y="34" width="160" height="130" rx="10" fill="#f1ece2" stroke="#8a948f" stroke-width="2" stroke-dasharray="7 5"/>
+    <text x="306" y="94" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" text-anchor="middle" font-weight="800">Territory B</text>
+    <text x="306" y="118" fill="#8a948f" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">open market</text>
+
+    <line x1="194" y1="99" x2="222" y2="99" stroke="#7a8a86" stroke-width="3" stroke-dasharray="5 4"/>
+
+    <rect x="34" y="196" width="352" height="94" rx="10" fill="#e9f2ee" stroke="#5f9c8b" stroke-width="2"/>
+    <text x="54" y="226" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" font-weight="800">Enforceable: active selling</text>
+    <text x="54" y="250" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="13">no direct sales, no appointed distributors,</text>
+    <text x="54" y="272" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="13">no marketing into the territory</text>
+
+    <rect x="34" y="306" width="352" height="94" rx="10" fill="#fbe4e2" stroke="#d9534f" stroke-width="2"/>
+    <text x="54" y="336" fill="#a33b37" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" font-weight="800">Not enforceable: it never appears</text>
+    <text x="54" y="360" fill="#a33b37" font-family="'Source Sans 3', Arial, sans-serif" font-size="13">third-party resale and marketplace listings</text>
+    <text x="54" y="382" fill="#a33b37" font-family="'Source Sans 3', Arial, sans-serif" font-size="13">cross borders without a breach</text>
+  </g>
+
+  <!-- Volume threshold timeline -->
+  <g transform="translate(1032,300)">
+    <text x="0" y="-14" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="19" font-weight="800">WHAT KEEPS IT ALIVE</text>
+    <rect x="0" y="0" width="408" height="440" rx="12" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+
+    <line x1="56" y1="46" x2="56" y2="290" stroke="#7a8a86" stroke-width="2"/>
+    <line x1="56" y1="290" x2="368" y2="290" stroke="#7a8a86" stroke-width="2"/>
+    <text x="30" y="168" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle" transform="rotate(-90 30 168)">volume purchased</text>
+
+    <line x1="56" y1="176" x2="368" y2="176" stroke="#c79a56" stroke-width="3" stroke-dasharray="8 6"/>
+    <text x="368" y="166" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="end">contract minimum</text>
+
+    <rect x="76" y="120" width="42" height="170" rx="5" fill="#8ac6b3"/>
+    <rect x="136" y="106" width="42" height="184" rx="5" fill="#8ac6b3"/>
+    <rect x="196" y="134" width="42" height="156" rx="5" fill="#8ac6b3"/>
+    <rect x="256" y="216" width="42" height="74" rx="5" fill="#e8a3a0"/>
+    <rect x="316" y="200" width="42" height="90" rx="5" fill="#e8a3a0"/>
+
+    <text x="97" y="308" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="12" text-anchor="middle">Q1</text>
+    <text x="157" y="308" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="12" text-anchor="middle">Q2</text>
+    <text x="217" y="308" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="12" text-anchor="middle">Q3</text>
+    <text x="277" y="308" fill="#a33b37" font-family="'Source Sans 3', Arial, sans-serif" font-size="12" text-anchor="middle">Q4</text>
+    <text x="337" y="308" fill="#a33b37" font-family="'Source Sans 3', Arial, sans-serif" font-size="12" text-anchor="middle">Q5</text>
+
+    <rect x="56" y="330" width="312" height="40" rx="8" fill="#d9ece7"/>
+    <text x="72" y="356" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" font-weight="700">above the floor → exclusivity holds</text>
+
+    <rect x="56" y="380" width="312" height="44" rx="8" fill="#fbe4e2"/>
+    <text x="72" y="404" fill="#a33b37" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" font-weight="700">missed → notice, cure window,</text>
+    <text x="72" y="422" fill="#a33b37" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" font-weight="700">then it converts to non-exclusive</text>
+  </g>
+
+  <text x="112" y="792" fill="#8a948f" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">Freeze-Dried-Fruit.com — exclusivity is sole sourcing by another name; know who your backup would be.</text>
+</svg>

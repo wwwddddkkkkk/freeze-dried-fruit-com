@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">How packaging film minimums and lead times constrain freeze-dried fruit launches</title>
+  <desc id="desc">Two parallel timelines comparing a digital print path with a rotogravure path for freeze-dried fruit pouches, showing cylinder engraving as the added lead-time block, alongside a cost-per-unit crossover chart and a dependency chain from film structure to printed date code.</desc>
+  <rect width="1600" height="900" fill="#f4efe6"/>
+  <rect x="64" y="64" width="1472" height="772" rx="30" fill="#fcfaf5" stroke="#d4c7b1" stroke-width="2"/>
+  <text x="112" y="138" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="26" letter-spacing="5">INDUSTRY INSIGHTS</text>
+  <text x="112" y="196" fill="#172f2b" font-family="'DM Serif Display', Georgia, serif" font-size="46">The Film Sets the Launch Date</text>
+  <text x="112" y="238" fill="#5f716d" font-family="'Source Serif 4', Georgia, serif" font-size="24">Fruit can be re-sourced in weeks. Engraved tooling cannot.</text>
+
+  <!-- Timelines -->
+  <g transform="translate(112,290)">
+    <rect x="0" y="0" width="880" height="252" rx="14" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+    <text x="24" y="38" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" font-weight="800">TWO PATHS FROM ARTWORK TO PALLET</text>
+
+    <!-- digital -->
+    <text x="24" y="82" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" font-weight="800">Digital</text>
+    <g transform="translate(150,62)">
+      <rect x="0" y="0" width="120" height="34" rx="6" fill="#eaf3f7" stroke="#3a6ea5" stroke-width="2"/>
+      <text x="60" y="23" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">artwork</text>
+      <rect x="132" y="0" width="120" height="34" rx="6" fill="#eaf3f7" stroke="#3a6ea5" stroke-width="2"/>
+      <text x="192" y="23" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">print</text>
+      <rect x="264" y="0" width="120" height="34" rx="6" fill="#eaf3f7" stroke="#3a6ea5" stroke-width="2"/>
+      <text x="324" y="23" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">laminate</text>
+      <rect x="396" y="0" width="120" height="34" rx="6" fill="#eaf3f7" stroke="#3a6ea5" stroke-width="2"/>
+      <text x="456" y="23" fill="#24433d" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">convert</text>
+      <text x="558" y="23" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" font-weight="700">2&#8211;4 weeks</text>
+      <text x="558" y="44" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="12.5">no tooling charge</text>
+    </g>
+
+    <!-- gravure -->
+    <text x="24" y="164" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="16" font-weight="800">Rotogravure</text>
+    <g transform="translate(150,144)">
+      <rect x="0" y="0" width="120" height="34" rx="6" fill="#fbeceb" stroke="#d9534f" stroke-width="2"/>
+      <text x="60" y="23" fill="#8a2c28" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">artwork</text>
+      <rect x="132" y="0" width="150" height="34" rx="6" fill="#f6d9d6" stroke="#d9534f" stroke-width="3"/>
+      <text x="207" y="23" fill="#8a2c28" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle" font-weight="700">engrave cylinders</text>
+      <rect x="294" y="0" width="96" height="34" rx="6" fill="#fbeceb" stroke="#d9534f" stroke-width="2"/>
+      <text x="342" y="23" fill="#8a2c28" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">print</text>
+      <rect x="402" y="0" width="100" height="34" rx="6" fill="#fbeceb" stroke="#d9534f" stroke-width="2"/>
+      <text x="452" y="23" fill="#8a2c28" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">lam. + convert</text>
+      <text x="558" y="23" fill="#8a2c28" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" font-weight="700">weeks longer</text>
+      <text x="558" y="44" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="12.5">one cylinder per colour</text>
+    </g>
+
+    <line x1="24" y1="204" x2="856" y2="204" stroke="#e4dbca" stroke-width="2"/>
+    <text x="24" y="232" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="15" font-weight="700">Artwork approval is a hard commitment in gravure. A late label fix is re-engraved tooling.</text>
+  </g>
+
+  <!-- Crossover chart -->
+  <g transform="translate(1024,290)">
+    <rect x="0" y="0" width="416" height="252" rx="14" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+    <text x="24" y="38" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="17" font-weight="800">COST PER UNIT</text>
+    <line x1="60" y1="60" x2="60" y2="196" stroke="#7a8a86" stroke-width="2"/>
+    <line x1="60" y1="196" x2="384" y2="196" stroke="#7a8a86" stroke-width="2"/>
+    <text x="222" y="222" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" text-anchor="middle">run length &#8594;</text>
+
+    <path d="M66,150 C140,140 260,132 380,128" fill="none" stroke="#3a6ea5" stroke-width="4"/>
+    <path d="M66,70 C130,120 200,150 380,166" fill="none" stroke="#d9534f" stroke-width="4"/>
+    <circle cx="186" cy="141" r="7" fill="#8a5a1f"/>
+    <text x="196" y="112" fill="#8a5a1f" font-family="'Source Sans 3', Arial, sans-serif" font-size="12.5">crossover</text>
+    <text x="70" y="66" fill="#d9534f" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" font-weight="700">gravure</text>
+    <text x="300" y="120" fill="#3a6ea5" font-family="'Source Sans 3', Arial, sans-serif" font-size="13" font-weight="700">digital</text>
+  </g>
+
+  <!-- Dependency chain -->
+  <g transform="translate(112,570)">
+    <rect x="0" y="0" width="1328" height="176" rx="14" fill="#ffffff" stroke="#d4c7b1" stroke-width="2"/>
+    <text x="24" y="38" fill="#2f6f63" font-family="'Source Sans 3', Arial, sans-serif" font-size="18" font-weight="800">THE DEPENDENCY CHAIN THAT FORCES EARLY SEQUENCING</text>
+    <g transform="translate(24,62)">
+      <rect x="0" y="0" width="220" height="56" rx="8" fill="#f4efe6" stroke="#c8bda8" stroke-width="2"/>
+      <text x="110" y="26" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="700">film structure</text>
+      <text x="110" y="45" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="12.5" text-anchor="middle">metallised / foil</text>
+      <polygon points="234,20 258,28 234,36" fill="#7a8a86"/>
+
+      <rect x="266" y="0" width="220" height="56" rx="8" fill="#f4efe6" stroke="#c8bda8" stroke-width="2"/>
+      <text x="376" y="26" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="700">barrier (WVTR / OTR)</text>
+      <text x="376" y="45" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="12.5" text-anchor="middle">sets moisture ingress</text>
+      <polygon points="500,20 524,28 500,36" fill="#7a8a86"/>
+
+      <rect x="532" y="0" width="220" height="56" rx="8" fill="#f4efe6" stroke="#c8bda8" stroke-width="2"/>
+      <text x="642" y="26" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="700">shelf-life study</text>
+      <text x="642" y="45" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="12.5" text-anchor="middle">real or accelerated</text>
+      <polygon points="766,20 790,28 766,36" fill="#7a8a86"/>
+
+      <rect x="798" y="0" width="220" height="56" rx="8" fill="#f4efe6" stroke="#c8bda8" stroke-width="2"/>
+      <text x="908" y="26" fill="#172f2b" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="700">date-code policy</text>
+      <text x="908" y="45" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="12.5" text-anchor="middle">best-by you can defend</text>
+      <polygon points="1032,20 1056,28 1032,36" fill="#7a8a86"/>
+
+      <rect x="1064" y="0" width="216" height="56" rx="8" fill="#f6d9d6" stroke="#d9534f" stroke-width="2"/>
+      <text x="1172" y="26" fill="#8a2c28" font-family="'Source Sans 3', Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="700">printed artwork</text>
+      <text x="1172" y="45" fill="#8a2c28" font-family="'Source Sans 3', Arial, sans-serif" font-size="12.5" text-anchor="middle">the long-lead item</text>
+    </g>
+    <text x="24" y="156" fill="#5f716d" font-family="'Source Sans 3', Arial, sans-serif" font-size="14">Run these in series and a three-month launch becomes a seven-month one.</text>
+  </g>
+
+  <text x="112" y="800" fill="#8a948f" font-family="'Source Sans 3', Arial, sans-serif" font-size="16">Freeze-Dried-Fruit.com — ask for tooling, setup and per-unit price as three separate lines.</text>
+</svg>

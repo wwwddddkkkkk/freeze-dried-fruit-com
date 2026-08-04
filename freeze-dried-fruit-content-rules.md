@@ -6,23 +6,31 @@ Do not change the existing News Wire automation. The RSS-based News Wire already
 
 ## Publishing Cadence
 
-Default daily output:
+For the next 90 days, optimize the existing library before expanding it. The
+default weekly output is:
 
-- 4 articles per day
-- 1 Technology article
-- 1 Industry Insights article
-- 1 Labels & Quality article
-- 1 Applications article
-- 0 Fruit Reports unless specifically requested by the user
+- 2 net-new articles per week maximum
+- 2 substantive refreshes, consolidations, or source upgrades per week
+- 1 original authority asset per month (survey, buyer checklist, interview,
+  pricing methodology, seasonal supply note, or first-party comparison)
+- 0 Fruit Reports unless a real query gap, product cluster, or user request
+  justifies one
 
-Recommended daily split:
+Do not publish to satisfy a category quota. Select work in this order:
 
-- Technology: process, science, packaging, moisture, water activity, equipment, drying behavior, or technical quality-control topics
-- Industry Insights: buyer, supplier, pricing, standards, sourcing, commercial use, private label, foodservice, or industry trend topics
-- Labels & Quality: ingredient labels, added sugar, specs, defects, value comparison, quality signals, breakage, or purchasing checks
-- Applications: consumer-facing use cases, storage after opening, toppings, snack formats, recipe-adjacent ideas, shopping questions, or practical ways to use freeze-dried fruit
+1. Refresh pages already earning impressions but underperforming on clicks.
+2. Consolidate pages competing for the same search intent.
+3. Fill a documented topic gap supported by Search Console, customer
+   questions, supplier conversations, or a priority OhCrisp product cluster.
+4. Publish original data or operator insight that competing sites cannot
+   reproduce from generic web research.
 
-Fruit Reports are not part of the daily automation. Only write a Fruit Report when the user explicitly asks for one, such as a specific mango, dragon fruit, mangosteen, jackfruit, jujube, berry, or other fruit profile/report.
+The News Wire may continue updating several times per day because it is an
+automated aggregation surface, not a claim of four new editorial articles.
+
+Fruit Reports are not part of scheduled automation. Only write a Fruit Report
+when the user explicitly asks for one or when query and product evidence show a
+clear standalone need.
 
 Avoid duplicate topics by checking `content/articles/*.md` before writing.
 
@@ -48,7 +56,7 @@ The voice should be:
 
 Avoid:
 
-- brand promotion
+- undisclosed brand promotion
 - unsupported health claims
 - casual snack-blog language
 - AI-like filler
@@ -83,6 +91,10 @@ cover_alt: "Descriptive alt text"
 
 Use `draft: true` only when the article should not publish.
 
+Future-dated articles and reports are automatically excluded from normal
+builds. Set `INCLUDE_FUTURE=1` only for an intentional local preview; never use
+it in the production deployment.
+
 `updated:` is optional. Set it only when the article body, FAQs, takeaways, or
 factual claims have meaningfully changed after first publication. When set and
 strictly later than `date:`, the article shows an "Updated [date]" badge on the
@@ -99,7 +111,7 @@ Every article should choose cover type from the content first.
 
 Use a custom SVG cover drawn for that specific article.
 
-Do not rely on the existing reusable `hero` keys for daily automation unless there is no better option. The existing keys (`quality`, `fresh-frozen`, `sugar`, `pricing`, `process`, `moisture`) can stay for old articles and emergency fallback, but daily technical articles should get new article-specific SVGs.
+Do not rely on the existing reusable `hero` keys for new articles unless there is no better option. The existing keys (`quality`, `fresh-frozen`, `sugar`, `pricing`, `process`, `moisture`) can stay for old articles and emergency fallback, but new technical articles should get article-specific SVGs.
 
 Create the SVG at:
 
@@ -191,7 +203,25 @@ Category mapping:
 - Use `Labels & Quality` for ingredient lists, added sugar, defects, specs, value comparison, and quality signals.
 - Use `Fruit Reports` only for user-requested fruit profiles or fruit-specific reports.
 
-Daily automation should avoid `Fruit Reports` and should normally create one article in each of these four categories: `Technology`, `Industry Insights`, `Labels & Quality`, and `Applications`.
+Scheduled automation should avoid `Fruit Reports`. Category balance is reviewed
+monthly; it is not enforced by creating one article in every category.
+
+## OhCrisp Editorial Link Policy
+
+Freeze-Dried-Fruit.com is published by the team behind OhCrisp. That ownership
+must remain explicit while the article stays useful without a purchase.
+
+- Link to an OhCrisp product only when it is a concrete, relevant example of
+  the format, fruit, or use case being discussed.
+- Prefer one OhCrisp product link per article. Do not add links merely to hit a
+  commercial quota.
+- Do not describe OhCrisp as an independent third-party recommendation.
+- Product links receive campaign parameters and an on-page publisher
+  disclosure automatically during the build.
+- Map priority editorial clusters to the closest matching OhCrisp collection or
+  product page, and measure referral clicks and downstream revenue.
+- Keep authoritative citations, supplier examples, and category coverage
+  brand-neutral. The media site's value must not depend on the product link.
 
 Do not use older category names such as `Quality & Pricing`, `Packaging & Shelf Life`, or `Buyer Guides` unless the site navigation is intentionally changed first.
 
@@ -304,16 +334,19 @@ After adding articles and images:
 4. Confirm image paths copy into `dist/images/articles/` if a cover image is used.
 5. Commit source files and public images. `dist/` is ignored in this repo and does not need to be committed.
 
-## Automation Expectations
+## Scheduled Automation Expectations
 
-Daily automation should:
+Each scheduled content run should:
 
 1. Inspect git status and avoid overwriting unrelated user changes.
 2. Read this rules file and existing `content/articles/*.md`.
-3. Create 2 technical/industry articles with custom SVG covers.
-4. Create 1 consumer-facing article with a selected local photo when available.
-5. Do not create Fruit Reports during daily automation.
-6. Update `used-hero-images.json` for any reused-source photo selected as cover.
-7. Run `npm run build`.
-8. Commit the new Markdown, SVG/photo assets, and usage log.
+3. Review the current query/topic inventory and choose either one refresh or one
+   genuinely new article; do not generate a batch by default.
+4. Require primary sources for technical, regulatory, trade, pricing, nutrition,
+   safety, and certification claims.
+5. Do not create Fruit Reports during scheduled automation.
+6. Use a custom SVG for technical/industry work or a single-use local photo for
+   consumer work, updating `used-hero-images.json` when required.
+7. Run `npm run build` and confirm no future-dated page is emitted.
+8. Commit the source article, assets, and usage log only after validation.
 9. Attempt push if network allows. If Codex cannot push, the Mac LaunchAgent can push later.

@@ -3258,6 +3258,12 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   color: var(--ink);
   margin-bottom: 10px;
 }
+.publisher-disclosure {
+  border-left-color: var(--mint-dark);
+}
+.publisher-disclosure p {
+  margin: 0;
+}
 
 .exchange-cta {
   border: 1px solid var(--ink);

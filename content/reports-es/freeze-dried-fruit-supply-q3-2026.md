@@ -3,8 +3,8 @@ slug: freeze-dried-fruit-supply-q3-2026
 en_slug: freeze-dried-fruit-supply-q3-2026
 title: "Nota de suministro de fruta liofilizada — Q3 2026"
 subtitle: "Pico de bayas norteamericanas, ventana del Keitt mexicano, Chaunsa pakistaní, y la acumulación de demanda Q4."
-date: 2026-09-30
-updated: 2026-09-30
+date: 2026-08-03
+updated: 2026-08-03
 edition: "Nota trimestral · Q3 2026"
 read: "8 min de lectura"
 summary: "Una nota trimestral sobre el suministro de fruta liofilizada para el Q3 2026 — disponibilidad pico de bayas del hemisferio norte, mango mexicano de fin de temporada, Chaunsa pakistaní y la acumulación de demanda navideña Q4 que debe asegurarse ahora."

@@ -302,6 +302,27 @@ function headerScript() {
       setSearch(false);
     }
   });
+
+  // Publisher-product referrals carry UTMs in the generated href. Emit a
+  // matching first-party event when an analytics provider is configured so
+  // editorial traffic can be measured without adding provider-specific code
+  // to individual articles.
+  document.addEventListener('click', function (event) {
+    var target = event.target;
+    var link = target && target.closest ? target.closest('a[data-publisher-link="ohcrisp"]') : null;
+    if (!link) return;
+    var eventData = {
+      destination: link.href,
+      source_path: window.location.pathname,
+      link_text: (link.textContent || '').trim().slice(0, 120)
+    };
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'publisher_referral', eventData);
+    }
+    if (typeof window.plausible === 'function') {
+      window.plausible('Publisher Referral', { props: eventData });
+    }
+  });
 })();
 </script>`;
 }

@@ -65,7 +65,42 @@ function readTime(text) {
 }
 
 export function renderMarkdown(md) {
-  return marked.parse(md);
+  return decoratePublisherLinks(marked.parse(md));
+}
+
+// Commercial references to the publisher's OhCrisp products stay editorially
+// useful, but they also need to be transparent and measurable. Add campaign
+// parameters at build time so source Markdown remains readable and Shopify / GA
+// can attribute referrals without relying only on the browser referrer header.
+function decoratePublisherLinks(html, sourceSlug = null) {
+  return html.replace(
+    /href="(https:\/\/(?:www\.)?ohcrisp\.com[^\"]*)"/gi,
+    (full, rawHref) => {
+      try {
+        const url = new URL(rawHref.replace(/&amp;/g, "&"));
+        if (!url.searchParams.has("utm_source")) {
+          url.searchParams.set("utm_source", "freeze-dried-fruit.com");
+        }
+        if (!url.searchParams.has("utm_medium")) {
+          url.searchParams.set("utm_medium", "referral");
+        }
+        if (!url.searchParams.has("utm_campaign")) {
+          url.searchParams.set("utm_campaign", "editorial_reference");
+        }
+        if (sourceSlug && !url.searchParams.has("utm_content")) {
+          url.searchParams.set("utm_content", sourceSlug);
+        }
+        const trackedHref = url.toString().replace(/&/g, "&amp;");
+        return `href="${trackedHref}" data-publisher-link="ohcrisp"`;
+      } catch {
+        return full;
+      }
+    },
+  );
+}
+
+export function renderArticleMarkdown(md, sourceSlug) {
+  return decoratePublisherLinks(marked.parse(md), sourceSlug);
 }
 
 export async function loadArticles(dir, lang = "en") {
@@ -85,6 +120,11 @@ export async function loadArticles(dir, lang = "en") {
     if (data.draft) continue;
 
     const dateObj = data.date ? new Date(data.date) : null;
+    const publishThrough = new Date();
+    publishThrough.setUTCHours(23, 59, 59, 999);
+    if (dateObj && dateObj > publishThrough && process.env.INCLUDE_FUTURE !== "1") {
+      continue;
+    }
     // YYYY-MM-DD frontmatter dates parse as UTC midnight. Formatting them in
     // the local timezone slides them to the previous evening, so a frontmatter
     // date of 2026-05-13 in a Pacific-time build prints as "May 12, 2026".
@@ -192,7 +232,7 @@ export async function loadArticles(dir, lang = "en") {
               note: s.note ? String(s.note) : null,
             }))
         : null,
-      bodyHtml: renderMarkdown(content),
+      bodyHtml: renderArticleMarkdown(content, id),
     });
   }
   // Newest first.

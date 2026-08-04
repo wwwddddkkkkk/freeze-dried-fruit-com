@@ -91,13 +91,16 @@ function applyBase(html) {
 // When intrinsic dimensions were auto-detected at load time, we emit
 // explicit width / height attributes — eliminating CLS on Core Web Vitals
 // and giving Google a stable layout signal before the image loads.
-function renderCover(article) {
+function renderCover(article, { priority = false } = {}) {
   if (article.cover_image) {
     const alt = article.cover_alt || article.title || "";
     const dimAttrs = (article.cover_width && article.cover_height)
       ? ` width="${article.cover_width}" height="${article.cover_height}"`
       : "";
-    return `<img class="cover-img" src="${escapeHtml(article.cover_image)}" alt="${escapeHtml(alt)}"${dimAttrs} loading="lazy" decoding="async">`;
+    const loadingAttrs = priority
+      ? ` loading="eager" fetchpriority="high" decoding="async"`
+      : ` loading="lazy" decoding="async"`;
+    return `<img class="cover-img" src="${escapeHtml(article.cover_image)}" alt="${escapeHtml(alt)}"${dimAttrs}${loadingAttrs}>`;
   }
   return renderHero(article.hero);
 }
@@ -113,6 +116,17 @@ function coverCaption(article) {
     return `Photo · <a href="${escapeHtml(article.cover_credit_url)}" rel="noopener nofollow" target="_blank" style="color:inherit;border-bottom:1px solid currentColor">${credit}</a>`;
   }
   return `Photo · ${credit}`;
+}
+
+function publisherDisclosureHtml(lang = "en") {
+  const copy = lang === "es"
+    ? `Freeze-Dried-Fruit.com es publicado por el equipo detrás de <a href="https://ohcrisp.com/?utm_source=freeze-dried-fruit.com&amp;utm_medium=referral&amp;utm_campaign=publisher_disclosure" data-publisher-link="ohcrisp">OhCrisp</a>. Los enlaces de producto se incluyen como ejemplos relevantes, no como colocaciones pagadas.`
+    : `Freeze-Dried-Fruit.com is published by the team behind <a href="https://ohcrisp.com/?utm_source=freeze-dried-fruit.com&amp;utm_medium=referral&amp;utm_campaign=publisher_disclosure" data-publisher-link="ohcrisp">OhCrisp</a>. Product links are included as relevant examples, not paid placements.`;
+  const label = lang === "es" ? "Divulgación del editor" : "Publisher disclosure";
+  return `<aside class="note-box publisher-disclosure" aria-label="${label}">
+    <div class="note-box__label">${label}</div>
+    <p>${copy}</p>
+  </aside>`;
 }
 
 async function writeFilePage(relPath, content) {
@@ -682,7 +696,7 @@ function renderHomeBody({ site, mailto, articles, home, news, homeConfig, report
       <div class="home-hero__main">
         <article class="home-hero__article">
           <a href="${articleUrl(featured.id)}" style="display:block;color:inherit">
-            <div class="home-hero__media">${renderCover(featured)}</div>
+            <div class="home-hero__media">${renderCover(featured, { priority: true })}</div>
             <div class="home-hero__cat">${escapeHtml(featured.category)}</div>
             <h1 class="home-hero__title">${escapeHtml(featured.title)}</h1>
             <p class="home-hero__sum">${escapeHtml(featured.summary)}</p>
@@ -1541,6 +1555,10 @@ function renderPillar({ pillar, articles, articlesById, linker, mailto }) {
            </div>`).join("")}
        </section>` : "";
 
+  const publisherDisclosure = bodyHtml.includes('data-publisher-link="ohcrisp"')
+    ? publisherDisclosureHtml("en")
+    : "";
+
   const tocHtml = toc.length
     ? `<nav class="pillar-toc" aria-label="On this page">
          <div class="pillar-toc__label">On this page</div>
@@ -1568,6 +1586,7 @@ function renderPillar({ pillar, articles, articlesById, linker, mailto }) {
       ${headHtml}
       <div class="container-narrow pillar">
         ${tocHtml}
+        ${publisherDisclosure}
         <div class="pillar-body prose">${bodyHtml}</div>
         ${faqHtml}
       </div>`,
@@ -2084,6 +2103,11 @@ function renderArticle({ article, related, continueReading, mailto, site }) {
            </div>`).join("")}
        </section>` : "";
 
+  const hasPublisherLink = article.bodyHtml.includes('data-publisher-link="ohcrisp"');
+  const publisherDisclosure = hasPublisherLink
+    ? publisherDisclosureHtml(article.lang || "en")
+    : "";
+
   const relatedHtml = related.map(r => `
     <a href="${articleUrl(r.id)}" class="related__card" style="display:block;color:inherit">
       <div class="related__img">${renderCover(r)}</div>
@@ -2132,13 +2156,14 @@ function renderArticle({ article, related, continueReading, mailto, site }) {
 
       <div class="container-narrow">
         <div class="article-cover">
-          ${renderCover(article)}
+          ${renderCover(article, { priority: true })}
           <div class="article-cover__caption">${coverCaption(article)}</div>
         </div>
       </div>
 
       <div class="container-narrow article-body">
         ${takeaways}
+        ${publisherDisclosure}
         ${article.bodyHtml}
         ${faqHtml}
         ${renderSources(article.sources)}

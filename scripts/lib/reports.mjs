@@ -9,7 +9,7 @@ import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import matter from "gray-matter";
-import { renderMarkdown } from "./articles.mjs";
+import { renderArticleMarkdown } from "./articles.mjs";
 import { readImageDimensions } from "./image-dims.mjs";
 
 const PUBLIC_DIR = fileURLToPath(new URL("../../public", import.meta.url));
@@ -31,6 +31,11 @@ export async function loadReports(dir, lang = "en") {
 
     const DATE_FMT = { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" };
     const dateObj = data.date ? new Date(data.date) : null;
+    const publishThrough = new Date();
+    publishThrough.setUTCHours(23, 59, 59, 999);
+    if (dateObj && dateObj > publishThrough && process.env.INCLUDE_FUTURE !== "1") {
+      continue;
+    }
     const updatedObj = data.updated ? new Date(data.updated) : null;
     const isUpdated = !!(updatedObj && dateObj && updatedObj.getTime() > dateObj.getTime());
     const dateLabel = dateObj ? dateObj.toLocaleDateString("en-US", DATE_FMT) : "";
@@ -82,7 +87,7 @@ export async function loadReports(dir, lang = "en") {
             return dims ? { cover_width: dims.width, cover_height: dims.height } : {};
           })()
         : {}),
-      bodyHtml: renderMarkdown(content),
+      bodyHtml: renderArticleMarkdown(content, data.slug || id),
     });
   }
   reports.sort((a, b) => (b.date?.getTime() || 0) - (a.date?.getTime() || 0));

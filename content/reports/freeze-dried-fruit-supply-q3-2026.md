@@ -2,8 +2,8 @@
 slug: freeze-dried-fruit-supply-q3-2026
 title: "Freeze-Dried Fruit Supply Note — Q3 2026"
 subtitle: "North American berry peak, Mexican Keitt window, Pakistani Chaunsa, and the Q4 demand build."
-date: 2026-09-30
-updated: 2026-09-30
+date: 2026-08-03
+updated: 2026-08-03
 edition: "Quarterly supply note · Q3 2026"
 read: "8 min read"
 summary: "A quarterly briefing on freeze-dried fruit supply for Q3 2026 — peak Northern Hemisphere berry availability, late-season Mexican mango, Pakistani Chaunsa, and the Q4 holiday demand build that should be locked in now."

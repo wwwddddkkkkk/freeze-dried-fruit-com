@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Static site for Freeze-Dried-Fruit.com — editorial field guide. Markdown articles + JSON config compile to static HTML for GitHub Pages / Cloudflare Pages.",
+  "description": "Static site for Freeze-Dried-Fruit.com — editorial field guide deployed with Cloudflare Workers Builds.",
   "scripts": {
     "build": "node scripts/build.mjs",
     "dev": "node scripts/build.mjs && node scripts/serve.mjs",
     "fetch-news": "node scripts/fetch-news.mjs",
-    "new-article": "node scripts/new-article.mjs"
+    "new-article": "node scripts/new-article.mjs",
+    "deploy": "wrangler deploy",
+    "preview:cloudflare": "wrangler dev"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

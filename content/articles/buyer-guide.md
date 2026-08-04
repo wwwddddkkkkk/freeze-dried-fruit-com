@@ -5,6 +5,8 @@ date: 2026-05-06
 updated: 2026-05-13
 read: "14 min read"
 hero: "quality"
+cover_image: /images/articles/buyer-guide.webp
+cover_alt: "Buyer evaluation desk with freeze-dried fruit samples, plain pouches, a scale, caliper, loupe, jars, and clipboard"
 summary: "A practical field guide for comparing freeze-dried fruit by ingredients, real fruit content, format, texture, moisture control, packaging, and true value per ounce."
 intro: "Freeze-dried fruit looks simple from the outside: fruit goes in, crunchy fruit comes out. But anyone who has compared a few bags knows the category varies dramatically."
 takeaways:

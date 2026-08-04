@@ -5,6 +5,8 @@ date: 2026-05-02
 updated: 2026-05-13
 read: "8 min de lectura"
 hero: "quality"
+cover_image: /images/articles/quality-varies.webp
+cover_alt: "Cuatro bandejas comparan fresas, mango, arándanos y plátano liofilizados con distintos tamaños y niveles de rotura"
 summary: "La fruta liofilizada puede parecer simple: entra fruta, sale fruta crujiente. Pero la calidad varía ampliamente en la categoría. La diferencia a menudo viene del origen de la fruta, la madurez, el tamaño de corte, el pretratamiento, la configuración de liofilización, el control de humedad y el empaque."
 intro: "La fruta liofilizada puede parecer simple: entra fruta, sale fruta crujiente. Pero la calidad varía ampliamente en la categoría."
 takeaways:

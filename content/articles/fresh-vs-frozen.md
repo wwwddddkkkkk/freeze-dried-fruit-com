@@ -5,6 +5,8 @@ date: 2026-04-28
 updated: 2026-05-13
 read: "6 min read"
 hero: "fresh-frozen"
+cover_image: /images/articles/fresh-vs-frozen.webp
+cover_alt: "Fresh strawberry and mango pieces compared with lightly frosted IQF fruit on stainless steel trays near a freeze dryer"
 summary: "Not all freeze-dried fruit starts the same way. Some producers use fresh fruit, while others use frozen fruit or IQF fruit as the starting material. The better question is not simply \"fresh or frozen?\" It is whether the raw material, pre-treatment, and freeze-drying process are matched to the fruit and the final product format."
 intro: "Not all freeze-dried fruit starts the same way."
 faqs:

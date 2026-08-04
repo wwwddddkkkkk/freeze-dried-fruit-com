@@ -5,6 +5,8 @@ date: 2026-04-21
 updated: 2026-05-13
 read: "5 min read"
 hero: "sugar"
+cover_image: /images/articles/added-sugar.webp
+cover_alt: "Plain freeze-dried strawberries and raspberries beside glossy formulated fruit crisps and a small dish of sugar"
 summary: "Many shoppers assume freeze-dried fruit is just fruit. Sometimes it is. But some freeze-dried fruit snacks include added sugar, syrups, maltodextrin, starches, or other ingredients. A heavier bag may not always mean more real fruit."
 intro: "Many shoppers assume freeze-dried fruit is just fruit. Sometimes it is."
 faqs:

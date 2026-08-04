@@ -30,3 +30,7 @@ Record used cover photos in:
 
 `freezedriedfruit/used-hero-images.json`
 
+Original generated editorial covers are tracked separately in
+`freezedriedfruit/generated-hero-images.json`. The manifest stores the final
+prompt and production path so images remain auditable and are not accidentally
+reused as unrelated documentary photography.

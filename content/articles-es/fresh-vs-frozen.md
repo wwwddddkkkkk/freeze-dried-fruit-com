@@ -5,6 +5,8 @@ date: 2026-04-28
 updated: 2026-05-13
 read: "6 min de lectura"
 hero: "fresh-frozen"
+cover_image: /images/articles/fresh-vs-frozen.webp
+cover_alt: "Fresas y mango frescos comparados con fruta IQF ligeramente escarchada en bandejas de acero junto a un liofilizador"
 summary: "No toda la fruta liofilizada comienza de la misma manera. Algunos productores usan fruta fresca, mientras que otros usan fruta congelada o fruta IQF como materia prima. La mejor pregunta no es simplemente \"¿fresca o congelada?\" Es si la materia prima, el pretratamiento y el proceso de liofilización están adaptados a la fruta y al formato final del producto."
 intro: "No toda la fruta liofilizada comienza de la misma manera."
 en_slug: "fresh-vs-frozen"

@@ -24,6 +24,13 @@ A typical week:
 - Thursday: one consumer/product-cluster article or consolidation.
 - Friday: review Search Console movement and queue the next two refreshes.
 
+Image work is part of the refresh quota, not a separate publishing quota. Each
+week, replace weak generic covers on 2 priority URLs with either an authentic
+local photo, a purpose-built technical diagram, or a unique professional
+editorial image. Prioritize pages already earning impressions and core pages
+linked from the homepage. Do not mass-generate hundreds of interchangeable
+covers.
+
 Do not increase to 3 new articles per week until at least 70% of the previous
 eight weeks' new URLs are indexed within four weeks and the target clusters are
 gaining impressions without obvious query cannibalization. Reduce to 1 new
@@ -84,6 +91,8 @@ methodologies over generic explainers.
 - Add primary sources to technical and regulatory pages that lack them.
 - Strengthen internal links from authority pages to the best matching fruit or
   application page.
+- Upgrade the homepage and high-impression article covers before filling the
+  long tail; use 1600 x 900 WebP images below 250 KB when a photo is appropriate.
 - Upgrade the five everyday-fruit clusters before creating new fruit reports.
 
 ### Weeks 7–12: differentiated authority

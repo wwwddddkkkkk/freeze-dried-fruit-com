@@ -1,0 +1,30 @@
+[
+  {
+    "postSlug": "quality-varies",
+    "publicPath": "public/images/articles/quality-varies.webp",
+    "date": "2026-08-04",
+    "sourceTool": "OpenAI built-in image generation",
+    "prompt": "Professional 16:9 food-industry editorial photograph showing four unlabeled trays of freeze-dried strawberries, mango, blueberries, and banana with credible differences in piece size, color, texture, fines, and breakage; neutral QA-table setting, soft daylight, no people, brands, text, labels, certificates, readouts, watermark, or CGI appearance."
+  },
+  {
+    "postSlug": "fresh-vs-frozen",
+    "publicPath": "public/images/articles/fresh-vs-frozen.webp",
+    "date": "2026-08-04",
+    "sourceTool": "OpenAI built-in image generation",
+    "prompt": "Professional 16:9 food-technology editorial photograph comparing fresh strawberry halves and mango cubes with lightly frosted IQF versions on matching stainless trays near a plausible freeze dryer; clean technical lighting, realistic scale and frost, no people, brands, text, labels, watermark, futuristic equipment, or CGI appearance."
+  },
+  {
+    "postSlug": "added-sugar",
+    "publicPath": "public/images/articles/added-sugar.webp",
+    "date": "2026-08-04",
+    "sourceTool": "OpenAI built-in image generation",
+    "prompt": "Professional 16:9 investigative food-editorial photograph comparing matte plain freeze-dried strawberry and raspberry pieces with glossy uniform formulated fruit crisps, plus a small dish and spoon of sugar; neutral tabletop, soft daylight, no people, brands, package claims, text, labels, watermark, neon candy color, or CGI appearance."
+  },
+  {
+    "postSlug": "buyer-guide",
+    "publicPath": "public/images/articles/buyer-guide.webp",
+    "date": "2026-08-04",
+    "sourceTool": "OpenAI built-in image generation",
+    "prompt": "Professional 16:9 trade-publication flat lay of a food buyer's quality-evaluation desk with generic pouches, trays and jars of freeze-dried strawberry, mango, blueberry, and apple, plus a plausible scale, caliper, loupe, and blank clipboard; calm window light, no people, brands, text, labels, fake data, certifications, watermark, clutter, or CGI appearance."
+  }
+]

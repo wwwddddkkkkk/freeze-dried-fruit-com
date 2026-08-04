@@ -5,6 +5,8 @@ date: 2026-05-06
 updated: 2026-05-13
 read: "14 min de lectura"
 hero: "quality"
+cover_image: /images/articles/buyer-guide.webp
+cover_alt: "Mesa de evaluación de un comprador con muestras de fruta liofilizada, bolsas lisas, balanza, calibre, lupa, frascos y portapapeles"
 summary: "Una guía de campo práctica para comparar fruta liofilizada por ingredientes, contenido real de fruta, formato, textura, control de humedad, empaque y valor real por onza."
 intro: "La fruta liofilizada parece simple por fuera: entra fruta, sale fruta crujiente. Pero cualquiera que haya comparado varias bolsas sabe que la categoría varía enormemente."
 takeaways:

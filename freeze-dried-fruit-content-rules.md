@@ -138,7 +138,10 @@ SVG style should match the current site: clean, restrained, field-guide-like, no
 
 ### Consumer-Facing Articles
 
-Use a real photo from the local image gallery.
+Use a real photo from the local image gallery when a strong, accurate image is
+available. If the gallery does not have a credible match, generate a unique
+professional editorial image for the article rather than falling back to a
+generic SVG.
 
 Source gallery:
 
@@ -184,6 +187,31 @@ After using a photo, append:
 ```
 
 Custom SVG covers do not need to be logged as reused because they are created uniquely for the article.
+
+## Generated Editorial Image Standard
+
+Generated images are allowed for cover art and explanatory editorial scenes,
+but they must never be presented as documentary evidence of a real supplier,
+factory, lab result, certification, person, or product.
+
+- Use a restrained, photorealistic trade-publication style, not glossy ad art.
+- Keep fruit texture, scale, processing equipment, and QA tools physically
+  plausible.
+- Avoid brand packaging, logos, readable labels, certificates, instrument
+  results, health claims, and people whose identity could imply endorsement.
+- Use one original composition per article. Do not recolor or lightly remix the
+  same image across multiple URLs.
+- Export covers as 1600 x 900 WebP at an appropriate quality setting and aim
+  for less than 250 KB without obvious artifacts.
+- Write alt text for the information visible in the image, not for the target
+  keyword.
+- Record the final prompt, public path, article slug, and generation date in
+  `content-image-library/freezedriedfruit/generated-hero-images.json`.
+
+Generated images should be favored for consumer applications, sample
+comparisons, ingredient-format comparisons, and generic buyer workflows. Use a
+diagram instead when the article needs exact scientific relationships, labels,
+measurements, process steps, or regulatory information.
 
 ## Categories
 

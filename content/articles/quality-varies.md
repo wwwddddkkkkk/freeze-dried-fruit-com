@@ -5,8 +5,8 @@ date: 2026-05-02
 updated: 2026-05-13
 read: "8 min read"
 hero: "quality"
-cover_image: /images/articles/quality-varies.webp
-cover_alt: "Four trays comparing freeze-dried strawberries, mango, blueberries, and banana pieces with different sizes and breakage levels"
+cover_image: /images/articles/quality-varies.svg
+cover_alt: "Editorial diagram connecting raw material, cycle design, moisture control, and packaging to color, aroma, crunch, and breakage"
 summary: "Freeze-dried fruit can look simple: fruit goes in, crunchy fruit comes out. But quality varies widely across the category. The difference often comes from fruit sourcing, ripeness, cut size, pre-treatment, freeze-drying settings, moisture control, and packaging."
 intro: "Freeze-dried fruit can look simple: fruit goes in, crunchy fruit comes out. But quality varies widely across the category."
 takeaways:

@@ -1,8 +1,11 @@
 [
   {
     "postSlug": "quality-varies",
-    "publicPath": "public/images/articles/quality-varies.webp",
+    "status": "retired",
+    "archivePath": "content-image-library/freezedriedfruit/used/quality-varies-generated-2026-08-04.webp",
     "date": "2026-08-04",
+    "retiredDate": "2026-08-06",
+    "retiredReason": "Replaced by a brand-native editorial SVG for the permanently featured homepage article.",
     "sourceTool": "OpenAI built-in image generation",
     "prompt": "Professional 16:9 food-industry editorial photograph showing four unlabeled trays of freeze-dried strawberries, mango, blueberries, and banana with credible differences in piece size, color, texture, fines, and breakage; neutral QA-table setting, soft daylight, no people, brands, text, labels, certificates, readouts, watermark, or CGI appearance."
   },

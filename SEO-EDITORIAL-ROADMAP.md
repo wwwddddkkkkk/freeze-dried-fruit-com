@@ -7,6 +7,59 @@ search visibility and sends measurable, contextually relevant demand to
 OhCrisp. Editorial usefulness comes first; commercial attribution must be
 transparent.
 
+## Pinned Repair Plan
+
+This is the active order of work. Complete repair work before increasing the
+publishing cadence.
+
+### P0 — Measurement and index control
+
+- Connect Search Console performance/indexing exports and one privacy-appropriate
+  analytics platform.
+- Verify that `publisher_referral` and OhCrisp UTM traffic are actually recorded.
+- Classify comparison, glossary, and article URLs as keep, improve, consolidate,
+  redirect, or noindex. Do not remove or noindex URLs without performance and
+  index-status evidence.
+
+### P1 — Authority and internal architecture
+
+- Replace recency-based "continue reading" selections with semantic links based
+  on fruit, process, packaging, quality, application, and buyer intent.
+- Add primary sources and named review signals to priority technical pages.
+- Start with Fruit Reports and high-impression pages that currently have no
+  sources.
+- Document the methodology and provenance behind comparison-page ranges before
+  expanding the comparison inventory.
+
+### P2 — Search presentation and consolidation
+
+- Rewrite titles and descriptions for high-impression/low-CTR URLs first; do not
+  mechanically shorten every metadata field.
+- Consolidate overlapping query families only after reviewing Search Console
+  query overlap.
+- Paginate or segment the all-articles archive so it does not render the entire
+  library in one document.
+
+### P3 — Language, visuals, and performance
+
+- Build complete Spanish topic clusters instead of translating isolated pages.
+- Keep branded SVG editorial illustrations for concepts; use authentic photos
+  for process, product, packaging, and evidence-led content.
+- Check every new or refreshed visual at desktop and mobile widths for overflow,
+  typography consistency, meaningful alt text, dimensions, and file size.
+- Improve cache policy and asset delivery only after measuring live performance.
+
+### Weekly automation guardrails
+
+- Prefer one or two substantial refreshes over new URL creation.
+- Create at most one new article in a week, and only when the repository and
+  available search evidence show a genuine uncovered intent.
+- Never mass-generate articles, translations, glossary entries, comparison URLs,
+  redirects, or noindex rules.
+- Do not change or delete unrelated user work.
+- Build and validate before committing. Push only verified changes; if the branch
+  cannot be updated safely, report the blocker instead of forcing it.
+
 ## Publishing Rhythm
 
 For the next 90 days:

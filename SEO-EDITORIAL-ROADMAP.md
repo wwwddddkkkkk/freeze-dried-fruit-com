@@ -45,8 +45,16 @@ publishing cadence.
 - Build complete Spanish topic clusters instead of translating isolated pages.
 - Keep branded SVG editorial illustrations for concepts; use authentic photos
   for process, product, packaging, and evidence-led content.
+- Treat the design tokens in `public/styles.css` as the visual source of truth.
+  Reuse the existing navy, mint, warm-neutral, berry, and peach palette; the
+  Larken/Source Serif/Source Sans/JetBrains Mono type system; and the established
+  border, radius, spacing, and card treatments. Do not introduce one-off fonts,
+  colors, shadows, or component styles for individual pages.
 - Check every new or refreshed visual at desktop and mobile widths for overflow,
   typography consistency, meaningful alt text, dimensions, and file size.
+- For SVG artwork, keep labels inside the viewBox, match the site's type roles,
+  preserve consistent stroke weights, and avoid oversized dark panels that make
+  a single illustration visually heavier than the surrounding editorial layout.
 - Improve cache policy and asset delivery only after measuring live performance.
 
 ### Weekly automation guardrails
@@ -56,6 +64,9 @@ publishing cadence.
   available search evidence show a genuine uncovered intent.
 - Never mass-generate articles, translations, glossary entries, comparison URLs,
   redirects, or noindex rules.
+- Reject a weekly change if it creates horizontal overflow, mismatched fonts,
+  inconsistent color usage, or a component that looks unrelated to the existing
+  editorial system.
 - Do not change or delete unrelated user work.
 - Build and validate before committing. Push only verified changes; if the branch
   cannot be updated safely, report the blocker instead of forcing it.

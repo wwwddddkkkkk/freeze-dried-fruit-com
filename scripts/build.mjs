@@ -928,16 +928,68 @@ function renderCompareWithStrip(fruitKey) {
     </section>`;
 }
 
+// Semantic profiles keep article recommendations tied to the reader's task,
+// rather than letting a new publish date determine every next click. The
+// vocabulary intentionally follows the field guide's durable editorial
+// dimensions: fruit, process, packaging, quality, sourcing, labels, and use.
+const SEMANTIC_TOPIC_RULES = [
+  ["packaging", /\b(packag|pouch|film|barrier|seal|zipper|headspace|wvtr|otr|desiccant|nitrogen flush|oxygen absorb)/i],
+  ["quality", /\b(quality|moisture|water activity|\baw\b|crisp|crunch|texture|breakage|shelf life|inspection|spec sheet)/i],
+  ["process", /\b(process|drying|freeze dry|sublimation|secondary dry|cycle time|chamber|condenser|vacuum|pretreat)/i],
+  ["sourcing", /\b(buy|buyer|supplier|source|quote|cost|landed|import|contract|origin|distributor)/i],
+  ["labels", /\b(label|ingredient|nutrition|allergen|organic|claim|statement of identity)/i],
+  ["applications", /\b(recipe|baking|bakery|dessert|oatmeal|yogurt|cereal|cocktail|beverage|snack mix|confection)/i],
+];
+
+const SEMANTIC_STOP_WORDS = new Set([
+  "about", "after", "against", "article", "best", "buyer", "buyers", "buying",
+  "dried", "freeze", "fruit", "from", "guide", "have", "how", "into", "more",
+  "than", "that", "the", "this", "what", "when", "with", "why",
+]);
+
+function articleSemanticProfile(article) {
+  const text = `${article.id.replaceAll("-", " ")} ${article.title} ${article.summary}`.toLowerCase();
+  const topics = new Set(SEMANTIC_TOPIC_RULES
+    .filter(([, pattern]) => pattern.test(text))
+    .map(([topic]) => topic));
+  const fruits = new Set();
+  if (SLUG_TO_FRUIT[article.id]) fruits.add(SLUG_TO_FRUIT[article.id]);
+  for (const [key, fruit] of Object.entries(FRUIT_DATA)) {
+    const name = fruit.name.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    if (new RegExp(`\\b${name}s?\\b`, "i").test(text)) fruits.add(key);
+  }
+  const terms = new Set((text.match(/[a-z]{4,}/g) || [])
+    .filter(term => !SEMANTIC_STOP_WORDS.has(term)));
+  return { topics, fruits, terms };
+}
+
+function semanticScore(source, candidate) {
+  const sourceProfile = articleSemanticProfile(source);
+  const candidateProfile = articleSemanticProfile(candidate);
+  const sharedTopics = [...sourceProfile.topics].filter(topic => candidateProfile.topics.has(topic)).length;
+  const sharedFruits = [...sourceProfile.fruits].filter(fruit => candidateProfile.fruits.has(fruit)).length;
+  const sharedTerms = [...sourceProfile.terms].filter(term => candidateProfile.terms.has(term)).length;
+  return (sharedFruits * 24) + (sharedTopics * 8) + Math.min(sharedTerms, 6);
+}
+
+// Relevance is the primary sort. Publication date stays as a stable tiebreaker
+// for pages that genuinely match on the same signals.
+function rankSemanticLinks(source, candidates) {
+  return candidates
+    .map(candidate => ({ candidate, score: semanticScore(source, candidate) }))
+    .sort((a, b) => b.score - a.score
+      || (b.candidate.date?.getTime() || 0) - (a.candidate.date?.getTime() || 0)
+      || a.candidate.title.localeCompare(b.candidate.title))
+    .map(({ candidate }) => candidate);
+}
+
 // Render the "Continue reading in [Category]" strip — a 3-card pillar-aware
 // reading path that lives between the article's Sources block and the
 // fruit-report Compare-with strip. Different from the bottom "Related
 // Reading" block: this one stays inside the current pillar so a reader who
 // finished a Technology article gets nudged to the next Technology article,
 // not a Fruit Report. The bottom Related Reading block then offers a
-// cross-pillar branch.
-//
-// Selection: `siblings` is a pre-filtered list of same-category articles,
-// excluding the current one, ordered newest-first. We show up to 3.
+// cross-pillar branch. `siblings` is pre-ranked for semantic relevance.
 function renderContinueReading(siblings, category) {
   if (!siblings || !siblings.length) return "";
   const top = siblings.slice(0, 3);
@@ -3972,11 +4024,10 @@ async function build() {
 
   // Individual articles
   // Two-track internal-link strategy per article:
-  //   1. `continueReading` — up to 3 same-category siblings, surfaced
-  //      mid-article (between Sources and Compare-with). Keeps a reader
-  //      moving deeper into the same pillar.
-  //   2. `related` — 3 articles from OTHER categories, surfaced at the
-  //      bottom. Branches the reader into adjacent pillars.
+  //   1. `continueReading` — up to 3 semantically related same-category
+  //      siblings, surfaced mid-article (between Sources and Compare-with).
+  //   2. `related` — 3 semantically related articles from OTHER categories,
+  //      surfaced at the bottom to branch readers into adjacent pillars.
   // Deduping `related` against `continueReading` makes sure the two blocks
   // never repeat a card. For fruit reports, we additionally drop articles
   // that already appear in the Compare-with strip so the page never shows
@@ -3986,7 +4037,7 @@ async function build() {
     const a = articles[i];
 
     const sameCategory = articles.filter(x => x.id !== a.id && x.category === a.category);
-    const continueReading = sameCategory.slice(0, 3);
+    const continueReading = rankSemanticLinks(a, sameCategory).slice(0, 3);
 
     // Compare-with strip cards (only for fruit reports) — dedupe to avoid
     // showing the same neighbor article twice on one page.
@@ -4004,11 +4055,11 @@ async function build() {
     }
 
     const continueIds = new Set(continueReading.map(x => x.id));
-    const related = articles
+    const relatedCandidates = articles
       .filter(x => x.id !== a.id && x.category !== a.category)
       .filter(x => !continueIds.has(x.id))
-      .filter(x => !compareIds.has(x.id))
-      .slice(0, 3);
+      .filter(x => !compareIds.has(x.id));
+    const related = rankSemanticLinks(a, relatedCandidates).slice(0, 3);
 
     // Reciprocal hreflang alternates — when a Spanish translation exists
     // for this article, both versions advertise each other.

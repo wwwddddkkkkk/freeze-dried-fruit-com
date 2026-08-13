@@ -3575,8 +3575,18 @@ ${sections}
 `;
 }
 
-function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs = [] }) {
+function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs = [], sitemapConfig = {} }) {
   const today = new Date().toISOString().slice(0, 10);
+  // Do not rewrite <lastmod> for static and generated references on every
+  // News Wire build. A changing date is a claim that the page itself changed;
+  // keeping it accurate gives Google a cleaner crawl signal while the site
+  // works through its "Discovered — currently not indexed" inventory.
+  // Update these declared dates only with a material change to the matching
+  // source data or static page family.
+  const staticLastmod = sitemapConfig.static_content_lastmod || today;
+  const comparisonLastmod = sitemapConfig.comparison_data_lastmod || staticLastmod;
+  const glossaryLastmod = sitemapConfig.glossary_data_lastmod || staticLastmod;
+  const calculatorLastmod = sitemapConfig.calculator_content_lastmod || staticLastmod;
   // Latest activity timestamp: prefer updated date when present, otherwise
   // fall back to publish date. This keeps the homepage / index lastmod fresh
   // whenever any article — new or revised — has moved.
@@ -3590,18 +3600,18 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs
     { loc: "/", lastmod: latestArticleIso, changefreq: "daily", priority: "1.0" },
     { loc: "/articles/", lastmod: latestArticleIso, changefreq: "daily", priority: "0.9" },
     { loc: "/news/", lastmod: today, changefreq: "hourly", priority: "0.7" },
-    { loc: "/glossary/", lastmod: today, changefreq: "monthly", priority: "0.8" },
-    { loc: "/compare/", lastmod: today, changefreq: "monthly", priority: "0.7" },
-    { loc: "/calculators/", lastmod: today, changefreq: "monthly", priority: "0.7" },
-    { loc: "/calculators/fruit-equivalency/", lastmod: today, changefreq: "monthly", priority: "0.7" },
-    { loc: "/calculators/pouch-barrier/", lastmod: today, changefreq: "monthly", priority: "0.7" },
-    { loc: "/methodology/", lastmod: today, changefreq: "monthly", priority: "0.6" },
-    { loc: "/editorial/", lastmod: today, changefreq: "monthly", priority: "0.6" },
+    { loc: "/glossary/", lastmod: glossaryLastmod, changefreq: "monthly", priority: "0.8" },
+    { loc: "/compare/", lastmod: comparisonLastmod, changefreq: "monthly", priority: "0.7" },
+    { loc: "/calculators/", lastmod: calculatorLastmod, changefreq: "monthly", priority: "0.7" },
+    { loc: "/calculators/fruit-equivalency/", lastmod: calculatorLastmod, changefreq: "monthly", priority: "0.7" },
+    { loc: "/calculators/pouch-barrier/", lastmod: calculatorLastmod, changefreq: "monthly", priority: "0.7" },
+    { loc: "/methodology/", lastmod: staticLastmod, changefreq: "monthly", priority: "0.6" },
+    { loc: "/editorial/", lastmod: staticLastmod, changefreq: "monthly", priority: "0.6" },
     // /search/ intentionally omitted — it's noindex'd, see the writeFilePage call.
-    { loc: "/exchange/", lastmod: today, changefreq: "monthly", priority: "0.6" },
-    { loc: "/about/", lastmod: today, changefreq: "monthly", priority: "0.4" },
-    { loc: "/contact/", lastmod: today, changefreq: "monthly", priority: "0.4" },
-    { loc: "/privacy/", lastmod: today, changefreq: "yearly", priority: "0.2" },
+    { loc: "/exchange/", lastmod: staticLastmod, changefreq: "monthly", priority: "0.6" },
+    { loc: "/about/", lastmod: staticLastmod, changefreq: "monthly", priority: "0.4" },
+    { loc: "/contact/", lastmod: staticLastmod, changefreq: "monthly", priority: "0.4" },
+    { loc: "/privacy/", lastmod: staticLastmod, changefreq: "yearly", priority: "0.2" },
   ];
 
   // Category pages — lastmod = newest article in that category.
@@ -3688,7 +3698,7 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs
     // Spanish glossary hub and per-term pages.
     entries.push({
       loc: "/es/glossary/",
-      lastmod: today,
+      lastmod: glossaryLastmod,
       changefreq: "monthly",
       priority: "0.3",
     });
@@ -3726,12 +3736,12 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs
     });
   }
 
-  // Pairwise comparison pages — built from fruit data, refreshed when the
-  // data file changes. They share the build date.
+  // Pairwise comparison pages are built from fruit data. Their declared
+  // update date moves only when that data changes, not when News Wire does.
   for (const pair of buildComparisonPairs()) {
     entries.push({
       loc: `/compare/${pair.slug}/`,
-      lastmod: today,
+      lastmod: comparisonLastmod,
       changefreq: "monthly",
       priority: "0.6",
     });
@@ -3742,7 +3752,7 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs
   for (const term of GLOSSARY) {
     entries.push({
       loc: `/glossary/${term.slug}/`,
-      lastmod: today,
+      lastmod: glossaryLastmod,
       changefreq: "monthly",
       priority: "0.6",
     });
@@ -3765,9 +3775,10 @@ async function build() {
   await rm(DIST, { recursive: true, force: true });
   await mkdir(DIST, { recursive: true });
 
-  const [site, homeConfig, news] = await Promise.all([
+  const [site, homeConfig, sitemapConfig, news] = await Promise.all([
     readJson(path.join(ROOT, "config", "site.json")),
     readJson(path.join(ROOT, "config", "homepage.json")),
+    readJson(path.join(ROOT, "config", "sitemap.json")),
     readJson(path.join(ROOT, "content", "news", "feed.json")).catch(() => ({ items: [] })),
   ]);
   if (process.env.SITE_URL) site.url = process.env.SITE_URL.replace(/\/$/, "");
@@ -4424,7 +4435,7 @@ async function build() {
 
   // Feeds
   await writeFilePage("feed.xml", buildRssFeed({ site, articles }));
-  await writeFilePage("sitemap.xml", buildSitemap({ site, articles, reports, articlesEs, reportsEs }));
+  await writeFilePage("sitemap.xml", buildSitemap({ site, articles, reports, articlesEs, reportsEs, sitemapConfig }));
   await writeFilePage("llms.txt", buildLlmsTxt({ site, articles, reports }));
   await writeFilePage("robots.txt", `User-agent: *\nAllow: /\nSitemap: ${site.url}/sitemap.xml\n\n# AI engine guidance\n# A curated index for LLMs is published at /llms.txt\n`);
 

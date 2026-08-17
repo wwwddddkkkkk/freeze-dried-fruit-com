@@ -2,7 +2,7 @@
 title: "Fresh Fruit vs Frozen Fruit in Freeze-Drying"
 category: "Technology"
 date: 2026-04-28
-updated: 2026-05-13
+updated: 2026-08-17
 read: "6 min read"
 hero: "fresh-frozen"
 cover_image: /images/articles/fresh-vs-frozen.webp
@@ -22,6 +22,19 @@ faqs:
     a: "Fresh fruit can offer strong aroma and a clean structure when the variety, ripeness, and harvest timing are right. The trade-off is sourcing reliability — fresh fruit is seasonal, perishable, and sensitive to logistics."
   - q: "What should buyers ask suppliers about raw material?"
     a: "Ask about both the source material and the freezing method, then pair that with the format you actually want to ship. Mismatch between raw material and end format is often where quality slips quietly."
+sources:
+  - title: "Preserving Locally Harvested Produce in School Meals"
+    url: "https://www.fns.usda.gov/fs/produce-safety/preserving"
+    publisher: "USDA Food and Nutrition Service"
+    note: "Explains how freezing creates ice crystals, why crystal size changes cell-wall damage, and distinguishes individual quick freezing from bulk freezing."
+  - title: "Recent developments in freezing of fruits and vegetables: Striving for controlled ice nucleation and crystallization with enhanced freezing rates"
+    url: "https://pubmed.ncbi.nlm.nih.gov/37872804/"
+    publisher: "Journal of Food Science"
+    note: "Peer-reviewed review of freezing-rate, ice-crystal, and texture considerations in fruits and vegetables."
+  - title: "Commodity Specifications for Frozen Fruit"
+    url: "https://www.ams.usda.gov/sites/default/files/media/CommoditySpecificationsforFrozenFruitApril2020.pdf"
+    publisher: "USDA Agricultural Marketing Service"
+    note: "Example federal purchasing specification that defines individually quick frozen fruit and ties frozen-fruit quality to documented grade and condition requirements."
 ---
 
 Not all freeze-dried fruit starts the same way. Some producers use fresh fruit, while others use frozen fruit or IQF (individually quick-frozen) fruit as the starting material. The better question is not simply "fresh or frozen?" It is whether the raw material, pre-treatment, and freeze-drying process are matched to the fruit and the final product format.

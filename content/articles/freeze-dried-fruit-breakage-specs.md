@@ -2,7 +2,7 @@
 title: "How Buyers Should Set Breakage Specs for Freeze-Dried Fruit"
 category: "Labels & Quality"
 date: 2026-05-12
-updated: 2026-05-14
+updated: 2026-08-24
 read: "8 min read"
 summary: "Breakage specs should match the use case, not vague premium language. Buyers need clear tolerances for whole pieces, small fragments, powder, and transit damage."
 intro: "Every freeze-dried fruit bag sheds some fragments. The real question is whether the breakage level still fits the product you are trying to sell or use."
@@ -28,6 +28,15 @@ faqs:
     a: "Tighter whole-piece standards usually require more sorting, lower yield, slower handling, more protective packaging, and more rejected lots. If the fruit will be blended into cereal clusters or processed into a topping system, that extra cost may not generate meaningful end-product value. The spec should protect the use case, not flatter the buyer."
   - q: "What should buyers ask suppliers about breakage?"
     a: "Ask what percentage is typically whole pieces versus fragments, how powder is defined, what the bottom of the pouch usually looks like, whether breakage changes by fruit type or season, whether they can send bags after normal shipping rather than fresh line samples, and what package format protects the fruit best for the channel."
+sources:
+  - title: "FRUITS, FREEZE DRIED (A-A-20365)"
+    url: "https://www.ams.usda.gov/sites/default/files/media/AA_20365_Fruits_Freeze_Dried.pdf"
+    publisher: "U.S. Department of Agriculture Agricultural Marketing Service"
+    note: "Uses concrete style and size requirements for freeze-dried fruit and describes composite testing from five randomly selected subsamples when analytical verification is specified."
+  - title: "Customer Assisted Inspection Program Manual"
+    url: "https://www.ams.usda.gov/sites/default/files/media/Customer_Assisted_Inspection_Program_Manual.pdf"
+    publisher: "U.S. Department of Agriculture Agricultural Marketing Service"
+    note: "Explains the inspection importance of lot identification, documented sampling, and the specific defects, sizes, and tolerances in the applicable specification."
 ---
 
 Every freeze-dried fruit bag sheds some fragments. The real question is whether the breakage level still fits the product you are trying to sell or use.

@@ -2,6 +2,7 @@
 title: "How to Read a Freeze-Dried Fruit Spec Sheet"
 category: "Labels & Quality"
 date: 2026-05-14
+updated: 2026-08-24
 read: "7 min read"
 summary: "A freeze-dried fruit spec sheet should explain more than fruit name and net weight. Moisture logic, breakage, size bands, ingredients, and pack format change the real quality."
 intro: "A spec sheet is where freeze-dried fruit stops being a vague sample and becomes a product with measurable expectations."
@@ -23,6 +24,19 @@ faqs:
     a: "Vague wording such as premium quality, minimal breakage, or standard moisture without definitions or numeric ranges usually means the buyer still has room for disagreement later."
   - q: "Does the packaging line on a spec sheet matter?"
     a: "Yes. Freeze-dried fruit is sensitive to humidity and crush damage, so the pouch or bulk format is part of the product performance, not just a shipping detail."
+sources:
+  - title: "FRUITS, FREEZE DRIED (A-A-20365)"
+    url: "https://www.ams.usda.gov/sites/default/files/media/AA_20365_Fruits_Freeze_Dried.pdf"
+    publisher: "U.S. Department of Agriculture Agricultural Marketing Service"
+    note: "A concrete USDA procurement reference for freeze-dried fruit style, size, quality characteristics, packaging, and moisture-test requirements."
+  - title: "Water Activity (aw) in Foods"
+    url: "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/water-activity-aw-foods"
+    publisher: "U.S. Food & Drug Administration"
+    note: "Defines water activity and explains why a reading depends on equilibrium and controlled sample temperature, so it should be interpreted alongside the product and test method."
+  - title: "21 CFR Part 101 — Food Labeling"
+    url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101"
+    publisher: "Electronic Code of Federal Regulations"
+    note: "Current federal labeling rules for the consumer-facing identity, ingredient, nutrition, and net-quantity information that does not replace a buyer's product specification."
 howto:
   name: "How to read a freeze-dried fruit spec sheet"
   description: "A six-section reading order that helps buyers extract real product behavior from a freeze-dried fruit specification sheet before signing a quote."
@@ -37,7 +51,7 @@ howto:
       text: "Ask for the target range, the test method, when samples are tested after production, and how packaging is validated. A single moisture percentage without context is incomplete."
       url: "#3-moisture-numbers-need-context"
     - name: "Read size distribution and breakage tolerance together"
-      text: "Size distribution and broken-piece percentage define what the bag will actually look like. A tight 8–14 mm distribution with under 5% fines is a very different product from a 4–18 mm spread with 20% fines."
+      text: "Size distribution and broken-piece percentage define what the bag will actually look like. A tight 8–14 mm distribution with a stated fines limit is a different product from a 4–18 mm spread with a looser limit."
       url: "#4-size-and-breakage-define-what-the-bag-will-look-like"
     - name: "Decode the raw-material and origin notes"
       text: "Is the input fresh or IQF? Is the origin fixed, seasonal, or blended? Are varieties named? These lines change cost, consistency, and label language — they should not be vague."

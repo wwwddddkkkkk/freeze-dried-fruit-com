@@ -1835,8 +1835,32 @@ function renderArticlesMetaPillar({ site, articles, articlesById }) {
         </div>`).join("")}
     </section>`;
 
-  // Page head + the body. The full archive is appended below (in build
-  // orchestration) with the suppressHead path so we don't duplicate the H1.
+  // A category directory closes the hub instead of repeating the entire
+  // 379-row archive. Every article remains linked from its category hub, but
+  // the main collection page stays a useful routing document rather than a
+  // duplicate, oversized list.
+  const archiveDirectoryHtml = `
+    <section class="meta-pillar__archive-directory" id="field-guide-archive" aria-labelledby="field-guide-archive-title">
+      <header class="meta-pillar__section-head">
+        <div class="meta-pillar__section-eyebrow">Complete archive</div>
+        <h2 class="meta-pillar__section-title" id="field-guide-archive-title">Browse every article by section</h2>
+        <p class="meta-pillar__section-lead">Each section has its own complete archive, so you can scan the full library without loading every article card in one long page.</p>
+      </header>
+      <div class="pillar-related">
+        ${categoryFeatures.map(cf => {
+          const totalInCat = articles.filter(a => a.category === cf.category).length;
+          return `<a href="${categoryUrl(cf.category)}" class="pillar-card" style="display:block;color:inherit">
+            <div class="pillar-card__cat">${totalInCat} articles</div>
+            <div class="pillar-card__title">${escapeHtml(cf.category)}</div>
+            <div class="pillar-card__sum">${escapeHtml(cf.lead)}</div>
+            <div class="pillar-card__cta">Browse section ${Icons.arrowSmall}</div>
+          </a>`;
+        }).join("")}
+      </div>
+    </section>`;
+
+  // Page head + the body. Category hubs retain the complete article lists,
+  // while this top-level hub acts as the stable route into each section.
   return {
     bodyHtml: `
       <section class="page-head pillar-head meta-pillar__head">
@@ -1850,7 +1874,7 @@ function renderArticlesMetaPillar({ site, articles, articlesById }) {
         ${tocHtml}
         <div class="meta-pillar__sections">${categorySectionsHtml}</div>
         ${faqHtml}
-        <div id="field-guide-archive"></div>
+        ${archiveDirectoryHtml}
       </div>`,
     faqs: metaFaqs,
   };
@@ -3929,14 +3953,13 @@ async function build() {
     }));
   }
 
-  // All articles — meta-pillar surfacing the 5 categories first, then the
-  // suppressed-head archive list of all articles below.
+  // All articles — meta-pillar surfaces the five category hubs. Each category
+  // retains its complete archive, avoiding a duplicated 379-row listing here.
   const metaPillar = renderArticlesMetaPillar({ site, articles, articlesById });
-  const archiveBelow = renderArticlesIndex({ articles, category: null, suppressHead: true, eyebrowLabel: "Full Archive" });
   await writeFilePage("articles/index.html", renderPage({
     site, mailto, currentPath: "/articles/", title: "The Field Guide to Freeze-Dried Fruit",
     description: "All articles on Freeze-Dried-Fruit.com, organized across Industry Insights, Technology, Labels & Quality, Applications, and Fruit Reports.",
-    body: metaPillar.bodyHtml + archiveBelow,
+    body: metaPillar.bodyHtml,
     screen: "articles",
     jsonLd: articlesMetaPillarJsonLd({ site, articles, faqs: metaPillar.faqs }),
     alternates: articlesEs.length ? { en: "/articles/", es: "/es/articles/" } : null,

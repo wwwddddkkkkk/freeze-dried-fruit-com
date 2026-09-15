@@ -2,7 +2,7 @@
 title: "How to Store Freeze-Dried Fruit After Opening"
 category: "Applications"
 date: 2026-05-10
-updated: 2026-05-13
+updated: 2026-09-14
 read: "5 min read"
 summary: "After opening, freeze-dried fruit should be protected from humidity, warm storage, and repeated air exposure. The goal is simple: keep the crunch."
 intro: "The first serving of freeze-dried fruit is usually the easiest. The real test is what happens after the pouch has been opened."
@@ -48,6 +48,15 @@ howto:
     - name: "Keep it away from steam, sunlight, and heat"
       text: "Do not store opened freeze-dried fruit next to a kettle, above a stove, near a dishwasher vent, or in a sunny window. Steam and heat shorten crunch life faster than time alone."
       url: "#where-not-to-store-it"
+sources:
+  - title: "Packaging and Storing Dried Foods"
+    url: "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/"
+    publisher: "University of Georgia — National Center for Home Food Preservation"
+    note: "Extension guidance for packaging dried foods in clean, dry, tight-fitting containers and limiting repeated exposure to air and moisture."
+  - title: "The Freeze-Drying of Foods—The Characteristic of the Process Course and the Effect of Its Parameters on the Physical Properties of Food Materials"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7603155/"
+    publisher: "Foods"
+    note: "Peer-reviewed review of freeze-dried food structure, texture, and water activity considerations."
 ---
 
 The first serving of freeze-dried fruit is usually the easiest. The real test is what happens after the pouch has been opened.

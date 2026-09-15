@@ -2,6 +2,7 @@
 title: "How to Make Freeze-Dried Fruit Powder at Home for Drinks, Baking, and Seasoning"
 category: "Applications"
 date: 2026-06-15
+updated: 2026-09-14
 read: "6 min read"
 summary: "Freeze-dried fruit grinds into an intense, shelf-stable powder with a clean blender and a sieve. The hard part is not the grinding; it is keeping moisture out so the powder stays loose."
 intro: "Powder is the most flexible way to use freeze-dried fruit, but it is also the form that goes sticky fastest if you are careless with humidity."
@@ -21,10 +22,18 @@ faqs:
   - q: "Can I bake with the powder, or will the color and flavor disappear?"
     a: "You can bake with it, but heat and long mixing can dull the color and soften the bright, tart notes. The most reliable results come from using it where it is not fully cooked away: in frostings, glazes, whipped cream, fillings, or folded into a batter late and briefly. When you do bake it in, expect the flavor to read as gentle fruit rather than the sharp punch you taste straight from the jar."
 sources:
-  - title: "National Center for Home Food Preservation"
-    url: "https://nchfp.uga.edu/"
+  - title: "Packaging and Storing Dried Foods"
+    url: "https://nchfp.uga.edu/how/dry/drying-general/packaging-and-storing-dried-foods/"
     publisher: "University of Georgia / NCHFP"
-    note: "Referenced for general guidance that dried fruit products are moisture-sensitive and should be stored sealed and dry to maintain quality."
+    note: "Extension guidance for promptly packaging dried foods in clean, dry, tight-fitting containers and reducing repeated moisture exposure."
+  - title: "Proton Mobility for the Description of Dynamic Aspects of Freeze-Dried Fruits"
+    url: "https://doi.org/10.1016/j.jfoodeng.2013.10.029"
+    publisher: "Journal of Food Engineering"
+    note: "Peer-reviewed study linking water sorption behavior to physical changes in freeze-dried fruit systems."
+  - title: "The Freeze-Drying of Foods—The Characteristic of the Process Course and the Effect of Its Parameters on the Physical Properties of Food Materials"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7603155/"
+    publisher: "Foods"
+    note: "Peer-reviewed review of the porous structure and texture behavior of freeze-dried foods."
 ---
 
 Freeze-dried fruit has one trick that whole pieces cannot match: it grinds into a fine, intensely flavored powder that stirs into almost anything. The process is genuinely a one-minute job. The skill is in keeping that powder loose afterward, because the same dryness that makes freeze-dried fruit grind so cleanly also makes the powder grab moisture from the air the moment you turn your back.

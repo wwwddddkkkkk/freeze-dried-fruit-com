@@ -2,6 +2,7 @@
 title: "How Size Grading and Screening Improve Freeze-Dried Fruit Consistency"
 category: "Technology"
 date: 2026-05-17
+updated: 2026-09-21
 read: "7 min read"
 summary: "Screening and size grading help turn a mixed freeze-dried lot into a format that behaves more predictably in snack bags, toppings, and ingredient systems."
 intro: "A freeze dryer can remove water well and still leave a lot that feels inconsistent if piece size, fragments, and fines are not sorted with intent."
@@ -23,6 +24,11 @@ faqs:
     a: "No. Fines can still be useful for coatings, bakery, powder blends, and flavor applications. They become a problem when they are sold as if they were premium whole-piece product."
   - q: "What should buyers ask about screening?"
     a: "Ask for the target size band, the method used to measure fines, whether screening happens before or after final packing, and how transit breakage is accounted for in the commercial spec."
+sources:
+  - title: "Particle Size Characterization"
+    url: "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication960-1.pdf"
+    publisher: "National Institute of Standards and Technology"
+    note: "Technical reference for what a test sieve measures, stacked-sieve practice, and reporting material retained by aperture size."
 ---
 
 A freeze dryer can remove water well and still leave a lot that feels inconsistent if piece size, fragments, and fines are not sorted with intent.
@@ -51,7 +57,7 @@ Even a well-run batch can produce a distribution rather than a single neat size.
 
 ## What screening actually does
 
-In practical terms, screening uses defined openings or sieve bands to sort the lot into categories.
+In practical terms, screening uses defined openings or sieve bands to sort the lot into categories. A test sieve retains material larger than its opening while smaller material passes through; stacked screens make the resulting size distribution visible rather than subjective.
 
 A supplier may separate:
 
@@ -131,7 +137,7 @@ Useful questions include:
 - Does the quoted spec reflect normal transit breakage?
 - Is off-size material sold into a secondary grade?
 
-Those questions push the conversation beyond vague words such as "nice pieces" or "premium quality." They turn appearance into a measurable purchasing term.
+Those questions push the conversation beyond vague words such as "nice pieces" or "premium quality." They turn appearance into a measurable purchasing term. The most useful specification identifies the size-band boundaries, the unit used, the sampling plan, and whether the reported figure is mass retained, mass passing, or a maximum fines percentage.
 
 ## Bottom line
 

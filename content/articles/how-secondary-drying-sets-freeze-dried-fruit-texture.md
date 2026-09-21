@@ -2,6 +2,7 @@
 title: "How Secondary Drying Sets the Final Bite of Freeze-Dried Fruit"
 category: "Technology"
 date: 2026-05-18
+updated: 2026-09-21
 read: "6 min read"
 summary: "A freeze-dried fruit lot can look finished before its texture is truly settled. Secondary drying is where residual bound moisture is reduced enough to lock in the crisp, stable bite buyers expect."
 intro: "A tray can look dry long before the product is fully ready. The last part of the cycle often decides whether the fruit eats cleanly or drifts soft after packing."
@@ -23,11 +24,20 @@ faqs:
     a: "Dense or sugar-rich fruits, fruits with broad size variation, and formats that mix thin fragments with thicker pieces often show the strongest secondary-drying tradeoffs. The more uneven the structure, the more important careful endpoint control becomes."
   - q: "What should buyers ask suppliers about secondary drying?"
     a: "Ask how the drying endpoint is verified, how thickness variation is controlled, whether the supplier measures moisture and water activity together, and how the cycle is adjusted for different fruits or piece formats."
+sources:
+  - title: "The Freeze-Drying of Foods—The Characteristic of the Process Course and the Effect of Its Parameters on the Physical Properties of Food Materials"
+    url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC7603155/"
+    publisher: "Foods"
+    note: "Peer-reviewed review used for the distinction between primary drying and secondary desorption, and for the links among residual water, glass transition, structure, and storage stability."
+  - title: "Effects of cell morphology on the textural attributes of fruit cubes in freeze-drying: Apples, strawberries, and mangoes as examples"
+    url: "https://pubmed.ncbi.nlm.nih.gov/37248614/"
+    publisher: "Journal of Texture Studies"
+    note: "Original fruit-cube study referenced for how fruit structure and composition influence collapse and crispness outcomes during freeze-drying."
 ---
 
 A tray can look dry long before the product is fully ready. In freeze-dried fruit, that last stretch of the cycle often decides whether the pieces finish light and crisp or end up drifting toward softness, fragility, or lot-to-lot inconsistency.
 
-That is why secondary drying matters. It does not usually get the same attention as freezing or primary drying, yet it often determines the final eating quality buyers actually notice.
+That is why secondary drying matters. It does not usually get the same attention as freezing or primary drying, yet it is a decisive control for the residual moisture, stability, and final eating quality buyers actually notice.
 
 ## The direct answer
 
@@ -41,7 +51,7 @@ During the main sublimation stage, frozen water leaves the fruit as vapor under 
 
 But that is not the entire moisture story.
 
-Once the obvious ice is gone, some moisture still remains more closely associated with sugars, acids, fibers, and cell-wall material inside the fruit. Secondary drying is the part of the process that pushes that remaining moisture lower so the final product reaches a more reliable endpoint.
+Once the obvious ice is gone, some moisture still remains more closely associated with sugars, acids, fibers, and cell-wall material inside the fruit. Secondary drying—also called desorption drying—is the part of the process that reduces that remaining, non-frozen water so the final product reaches a more reliable endpoint.
 
 For texture, this matters because the fruit is no longer being judged only by whether it dried. It is being judged by:
 
@@ -63,7 +73,7 @@ That is why a lot can seem close to target and still disappoint in use. When sec
 
 The opposite problem exists too. If secondary drying is pushed too far for a delicate format, the structure can become more fragile than necessary. Thin slices and highly porous pieces may shatter more easily in handling, transport, or filling.
 
-The goal is not simply "as dry as possible." The goal is "dry enough for the right texture outcome."
+The goal is not simply "as dry as possible." The goal is a defensible endpoint for the right texture outcome, confirmed with appropriate moisture and water-activity checks rather than appearance alone.
 
 ## Why fruit and cut format change the answer
 
@@ -78,7 +88,7 @@ Cut format matters just as much:
 - mixed-format lots make endpoint decisions harder
 - crumble and powder formats may tolerate a different texture target than premium whole pieces
 
-This is why strong processors connect secondary drying to format control. The cycle is not just a machine setting. It is part of product design.
+This is why strong processors connect secondary drying to format control. The cycle is not just a machine setting. It is part of product design. Published fruit-cube work also shows that structure and composition can change collapse and crispness outcomes, so a cycle developed for one fruit or cut is not automatically transferable to another.
 
 ## What under-dried and over-dried fruit usually looks like
 

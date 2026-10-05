@@ -2,6 +2,7 @@
 title: "How to Read Carrier and Anti-Caking Ingredients in Freeze-Dried Fruit"
 category: "Labels & Quality"
 date: 2026-05-17
+updated: 2026-10-05
 read: "7 min read"
 summary: "Freeze-dried fruit powders and blends sometimes include carriers or anti-caking ingredients for flow, drying, or handling. The key is to read what was added, why it was added, and how much product identity changed."
 intro: "A pouch can say freeze-dried fruit on the front and still be a meaningfully different product once carriers, starches, or flow aids enter the ingredient line."
@@ -23,6 +24,23 @@ faqs:
     a: "Start with the ingredient statement. That is the fastest way to see whether the product is only fruit or whether it includes carriers, acids, starches, flavors, or anti-caking support."
   - q: "What should buyers ask suppliers about carriers?"
     a: "Ask which ingredient was added, why it was added, whether the ratio is fixed, how it changes flow and flavor, and whether a fruit-only version is available."
+sources:
+  - title: "21 CFR 101.4 — Food; Designation of Ingredients"
+    url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.4"
+    publisher: "Electronic Code of Federal Regulations"
+    note: "Requires most packaged-food ingredients to be listed by common or usual name in descending order of predominance by weight; it supports the article's label-reading guidance but does not disclose exact percentages."
+  - title: "21 CFR 184.1444 — Maltodextrin"
+    url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1444"
+    publisher: "Electronic Code of Federal Regulations"
+    note: "Lists the conditions under which maltodextrin is generally recognized as safe for direct addition to food, including use as a formulation aid."
+  - title: "21 CFR 172.480 — Silicon Dioxide"
+    url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-172/subpart-I/section-172.480"
+    publisher: "Electronic Code of Federal Regulations"
+    note: "Defines permitted food uses and limits for silicon dioxide, a common anticaking agent; a listed ingredient should be read as an ingredient, not assumed to reveal the complete process or formula."
+  - title: "Guidance for Industry: Food Labeling Guide"
+    url: "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-food-labeling-guide"
+    publisher: "U.S. Food & Drug Administration"
+    note: "FDA's practical labeling guide, used here to distinguish what the required ingredient statement can establish from details that require a supplier specification."
 ---
 
 A pouch can say freeze-dried fruit on the front and still be a meaningfully different product once carriers, starches, or flow aids enter the ingredient line.
@@ -83,6 +101,8 @@ The ingredient statement is still the strongest first filter. It tells you wheth
 - fruit plus carrier
 - a more fully formulated blend
 
+For U.S. packaged foods, the ingredient statement generally lists ingredients by common or usual name in descending order of predominance by weight. That makes it a reliable way to identify whether an added carrier or flow aid is present. It is not, however, a formula sheet: ingredients at two percent or less can be grouped under an appropriate qualifying statement, and a sequence cannot tell a buyer the exact percentage, the processing history, or the performance target.
+
 But the ingredient line does not always tell you everything a buyer wants to know.
 
 It may not explain:
@@ -93,6 +113,12 @@ It may not explain:
 - whether a fruit-only version could be supplied in another format
 
 That is why two products with similar labels can still perform quite differently in use.
+
+### A label is a starting point, not a process claim
+
+It is reasonable to read **maltodextrin**, a starch, gum, or silicon dioxide as evidence that the finished product is not simply one-ingredient fruit. It is not reasonable to infer the exact ratio or declare that the ingredient was unnecessary from the label alone.
+
+For example, federal rules recognize maltodextrin for direct food use and set conditions for silicon dioxide as an anticaking agent. Those rules establish permitted food uses; they do not certify that a particular powder has the best fruit concentration, flavor, or flow for a buyer's application. That distinction keeps the review fair: read the label precisely, then ask for the specification when the purchase decision depends on concentration, flow, or a claimed fruit-only format.
 
 ## Why comparison gets distorted
 
@@ -115,6 +141,8 @@ When carriers or anti-caking ingredients appear, useful questions include:
 - How much does the addition change fruit concentration?
 - Does it improve flow enough to justify the tradeoff?
 - Is a fruit-only version available?
+
+If the comparison is commercial rather than casual, ask the supplier to answer in writing whether the product is a plain-fruit powder, a carrier-supported powder, or a formulated blend; name each added ingredient; and provide the relevant fruit-content or solids specification where they can share it. That avoids treating label order as a substitute for a fit-for-use brief.
 - Which applications is this format actually built for?
 
 Those questions bring the commercial purpose back into focus.

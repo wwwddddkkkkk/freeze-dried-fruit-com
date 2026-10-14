@@ -2,7 +2,7 @@
 title: "Best Freeze-Dried Fruit for Oatmeal and Overnight Oats"
 category: "Applications"
 date: 2026-05-13
-updated: 2026-05-14
+updated: 2026-10-14
 read: "6 min read"
 summary: "The best freeze-dried fruit for oatmeal depends on when you add it, how much liquid is in the bowl, and whether you want distinct pieces or fast flavor release."
 intro: "Oatmeal rewards different freeze-dried fruits than yogurt does. Heat, soak time, and stirring change texture fast."

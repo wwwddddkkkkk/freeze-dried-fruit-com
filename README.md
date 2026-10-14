@@ -46,6 +46,26 @@ To unpublish without deleting, set `draft: true` in the frontmatter.
 
 ## Changing the homepage features
 
+### OhCrisp reader referrals
+
+The header, menu, and footer disclose the publisher relationship and link to
+OhCrisp. The homepage and two reviewed articles offer specific product formats;
+edit their selection and copy in `config/publisher-products.json`. Verify the
+public product page and availability before changing this small selection.
+The static site does not claim a live price or stock level.
+
+Shared referral links use `utm_campaign=field_guide` and
+`utm_content=<placement>:<source path>`, alongside the existing domain source
+and referral medium. Shopify can report destination sessions by these fields
+without adding a new analytics service to this site. The optional
+`publisher_referral` browser event still needs a configured analytics provider
+to be collected; emitting code alone does not create a report.
+
+Run `npm run build` followed by `npm run check:publisher` to validate the
+rendered links, attribution paths, reviewed placements, and sitemap dates.
+
+### Editorial homepage selection
+
 Open [`config/homepage.json`](config/homepage.json):
 
 ```json

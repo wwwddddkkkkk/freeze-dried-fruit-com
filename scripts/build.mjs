@@ -33,6 +33,7 @@ import { FRUIT_DATA, SLUG_TO_FRUIT, clusterForFruit, buildComparisonPairs, compa
 import { renderHero } from "./lib/illustrations.mjs";
 import { Icons } from "./lib/icons.mjs";
 import { buildMailto } from "./lib/mailto.mjs";
+import { publisherUrl } from "./lib/publisher-links.mjs";
 import { renderPage as renderPageRaw, escapeHtml, articleUrl, categoryUrl } from "./lib/layout.mjs";
 import {
   renderArticleOgSvg, renderSiteOgSvg, rasterize,
@@ -127,6 +128,35 @@ function publisherDisclosureHtml(lang = "en") {
     <div class="note-box__label">${label}</div>
     <p>${copy}</p>
   </aside>`;
+}
+
+// Product examples are deliberately limited to reviewed placements. Prices
+// and live stock claims stay on the store, so builds never depend on its API.
+function renderPublisherShop({ site, sourcePath = "/", articleId = null }) {
+  const catalog = site.publisherProducts;
+  const brief = articleId ? catalog.articles[articleId] : null;
+  if (articleId && !brief) return "";
+  const placement = articleId ? "article_shop" : "home_shop";
+  const products = (brief?.products || catalog.products.map(p => p.id)).map(id => {
+    const product = catalog.products.find(p => p.id === id);
+    if (!product) throw new Error(`Unknown publisher product: ${id}`);
+    return product;
+  });
+  return `<section class="publisher-shop" aria-label="Shop OhCrisp products">
+    <div class="eyebrow">From our publisher · OhCrisp</div>
+    <h2 class="publisher-shop__title">${escapeHtml(brief?.title || "Find your next fruit snack")}</h2>
+    <p class="publisher-shop__intro">${escapeHtml(brief?.intro || "Start with familiar fruit, explore a tropical mix, or choose a single-fruit format. Find the ingredients, pack details and current availability at OhCrisp.")}</p>
+    <p class="publisher-shop__disclosure">Freeze-Dried-Fruit.com is published by the team behind OhCrisp. These links lead to our own products.</p>
+    <div class="browse-cards publisher-shop__grid">
+      ${products.map(p => `<a class="browse-card publisher-product" href="${escapeHtml(publisherUrl(p.path, placement, sourcePath))}" data-publisher-link="ohcrisp" data-publisher-placement="${placement}">
+        <img class="publisher-product__image" src="${escapeHtml(p.image)}" alt="${escapeHtml(p.alt)}" width="480" height="360" loading="lazy" decoding="async">
+        <span class="browse-card__meta">${escapeHtml(p.use)}</span>
+        <h3 class="browse-card__title">${escapeHtml(p.name)}</h3>
+        <p class="browse-card__desc">${escapeHtml(p.description)}</p>
+        <span class="browse-card__cta">View at OhCrisp ${Icons.arrowSmall}</span>
+      </a>`).join("")}
+    </div>
+  </section>`;
 }
 
 async function writeFilePage(relPath, content) {
@@ -716,6 +746,10 @@ function renderHomeBody({ site, mailto, articles, home, news, homeConfig, report
         <a href="/articles/" class="more-link">More Insights ${Icons.arrow}</a>
       </aside>
     </div>
+  </div>
+
+  <div class="container">
+    ${renderPublisherShop({ site })}
   </div>
 
   <section class="section" style="padding-top:24px">
@@ -2159,6 +2193,9 @@ function reportJsonLd({ site, report }) {
 }
 
 function renderArticle({ article, related, continueReading, mailto, site }) {
+  const shopHtml = article.lang === "en"
+    ? renderPublisherShop({ site, articleId: article.id, sourcePath: articleUrl(article.id) })
+    : "";
   const intro = article.intro || article.summary;
   const takeaways = article.takeaways && article.takeaways.length
     ? `<div class="takeaways">
@@ -2241,18 +2278,19 @@ function renderArticle({ article, related, continueReading, mailto, site }) {
         ${takeaways}
         ${publisherDisclosure}
         ${article.bodyHtml}
+        ${shopHtml}
         ${faqHtml}
         ${renderSources(article.sources)}
         ${renderContinueReading(continueReading, article.category)}
         ${renderCompareWithStrip(SLUG_TO_FRUIT[article.id])}
 
-        <div class="exchange-cta">
+        ${shopHtml ? "" : `<div class="exchange-cta">
           <div>
             <strong>Have category insight to share?</strong>
             <div class="muted" style="font-size:14px;margin-top:4px">Suppliers, equipment owners, and operators can submit notes for future articles.</div>
           </div>
           <a href="${mailto.join}" class="btn btn-primary">Join the Exchange ${Icons.arrow}</a>
-        </div>
+        </div>`}
 
         ${related.length ? `
         <div class="related">
@@ -2349,7 +2387,7 @@ function renderAboutBody({ mailto }) {
           <p>For industry, that means transparent reporting on processing methods, ingredient choices, sourcing trade-offs, packaging, and the parts of the category that don't usually get written about. We talk to suppliers, equipment owners, and operators to get details that go beyond marketing.</p>
           <p>We believe the category deserves more transparency around fruit sourcing, processing methods, added ingredients, moisture control, packaging, price comparison, and real fruit value — and that consumers and industry benefit when the same information is available to both.</p>
           <p>Freeze-Dried-Fruit.com is created by a team building in the fruit snack space. We may occasionally reference our own product development experience, but this site is built as a broader educational and industry resource.</p>
-          <p>Freeze-Dried-Fruit.com is published by the team behind <a href="https://ohcrisp.com">OhCrisp</a>, a freeze-dried fruit snack brand. Our editorial coverage is written to be brand-neutral and useful on its own; where we link to OhCrisp products, it is as a concrete example, and we say so plainly.</p>
+          <p>Freeze-Dried-Fruit.com is published by the team behind <a href="${escapeHtml(publisherUrl(undefined, "about", "/about/"))}" data-publisher-link="ohcrisp" data-publisher-placement="about">OhCrisp</a>, a freeze-dried fruit snack brand. Our editorial coverage is written to be brand-neutral and useful on its own; where we link to OhCrisp products, it is as a concrete example, and we say so plainly.</p>
         </div>
 
         <div class="exchange-cta">
@@ -3805,6 +3843,7 @@ async function build() {
     readJson(path.join(ROOT, "config", "sitemap.json")),
     readJson(path.join(ROOT, "content", "news", "feed.json")).catch(() => ({ items: [] })),
   ]);
+  site.publisherProducts = await readJson(path.join(ROOT, "config", "publisher-products.json"));
   if (process.env.SITE_URL) site.url = process.env.SITE_URL.replace(/\/$/, "");
   const mailto = buildMailto(site.email);
   const articles = await loadArticles(path.join(ROOT, "content", "articles"));

@@ -6,6 +6,7 @@
   "description": "Static site for Freeze-Dried-Fruit.com — editorial field guide deployed with Cloudflare Workers Builds.",
   "scripts": {
     "build": "node scripts/build.mjs",
+    "check:publisher": "node scripts/check-publisher.mjs",
     "dev": "node scripts/build.mjs && node scripts/serve.mjs",
     "fetch-news": "node scripts/fetch-news.mjs",
     "new-article": "node scripts/new-article.mjs",

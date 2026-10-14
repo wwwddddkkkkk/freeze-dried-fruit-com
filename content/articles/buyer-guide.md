@@ -2,7 +2,7 @@
 title: "The Buyer's Guide to Freeze-Dried Fruit Quality"
 category: "Labels & Quality"
 date: 2026-05-06
-updated: 2026-05-13
+updated: 2026-10-14
 read: "14 min read"
 hero: "quality"
 cover_image: /images/articles/buyer-guide.webp
@@ -63,7 +63,7 @@ This guide explains how to compare freeze-dried fruit more like a buyer, not jus
 
 A bag that says "freeze-dried fruit" may contain only fruit. But some products include added sugar, syrup, starch, maltodextrin, citric acid, natural flavor, or oil. That does not automatically make the product bad — but a 100% fruit product and a sweetened fruit crisp should not be evaluated as if they are the same thing.
 
-If the ingredient list is short and only names the fruit, the product is likely closer to plain freeze-dried fruit. If it includes sugar, syrup, starch, or fruit juice concentrate, the product may be heavier, sweeter, or more processed. In practice, the cleanest benchmark is a single-ingredient product — [**OhCrisp's whole freeze-dried strawberries**](https://ohcrisp.com/products/freeze-dried-strawberries-whole), for example, list nothing but strawberries on the label.
+If the ingredient list is short and only names the fruit, the product is likely closer to plain freeze-dried fruit. If it includes sugar, syrup, starch, or fruit juice concentrate, the product may be heavier, sweeter, or more processed. As a format example, [**OhCrisp's individually wrapped whole freeze-dried bananas**](https://ohcrisp.com/products/freeze-dried-whole-banana-individually-wrapped-4-2oz) let you compare a whole-fruit snack with a mixed-fruit bag. Check the current ingredient panel and serving size on the product page before comparing products.
 
 ## 2. Compare Real Fruit Content, Not Just Bag Weight
 

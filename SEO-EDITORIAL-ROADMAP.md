@@ -2,6 +2,27 @@
 
 ## Active decision — October 14, 2026
 
+The business objective is to send relevant readers to OhCrisp and measure
+their product visits, cart additions, and completed checkouts. Organic reach
+supports that objective. Article count is not a success metric.
+
+The October 14 user-directed referral batch adds a visible, disclosed store
+entry in the header/menu/footer; a homepage format chooser; and product
+examples on the existing buyer and oatmeal guides. The three featured products
+were publicly available when reviewed: Classic Mix, Discovery Mix, and
+individually wrapped whole bananas. Review current availability before changing
+the selection; ACTIVE in the Admin catalog alone does not prove purchasability.
+Manage the small selection in config/publisher-products.json. Avoid copying
+live prices, discounts, health claims, or stock promises into the static site.
+
+New shared links carry utm_source=freeze-dried-fruit.com, utm_medium=referral,
+utm_campaign=field_guide, and utm_content=<placement>:<source path>. This allows
+Shopify to distinguish header/footer, homepage, and article referrals. Existing
+editorial-reference UTMs remain valid. Run npm run check:publisher after a build
+to verify that source paths, disclosures, locales, and reviewed offers survive
+rendering. Do not add reciprocal links to the Shopify store without a separate
+store-editing workflow.
+
 For the next four weekly maintenance runs, pause new article creation and use
 one bounded batch per week to improve crawl signals, existing content, and
 semantic links. A content batch normally refreshes 1–2 existing URLs. The
@@ -54,7 +75,14 @@ Important limits:
   additive to property impressions. A page with no reported impressions is not
   thereby proven unindexed.
 - No GA4 property is linked in GSC Wizard, and config/site.json has no GA4 or
-  Plausible identifier. Commercial referrals and sales impact remain unmeasured.
+  Plausible identifier. Publisher-site visits and outbound-click denominators
+  remain unmeasured. Shopify's human-session report for Jul 14–Oct 11 shows
+  three referring sessions from this domain, all landing on the store homepage,
+  with zero cart additions, checkout starts, completed checkouts, or orders in
+  those sessions. The matching rows have no UTM values. The recent 28-day
+  window contains the same three sessions. Store reporting uses America/Chicago;
+  GSC uses America/Los_Angeles. These observations do not measure assisted sales
+  or establish zero indirect brand value.
 
 ## Indexing diagnosis and next maintenance priority
 

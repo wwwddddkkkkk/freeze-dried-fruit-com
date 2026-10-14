@@ -305,6 +305,56 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   text-align: right;
 }
 
+/* Publisher relationship and a store entry that remains visible on mobile. */
+.publisher-strip {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 24px;
+  padding: 12px 0;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+  color: var(--muted);
+}
+.publisher-strip a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ink);
+  font-weight: 700;
+  min-height: 32px;
+}
+.publisher-strip a:hover { color: var(--mint-deep); }
+.footer__publisher { font-size: 14px; max-width: 36ch; }
+.footer__publisher a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--mint);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.publisher-shop { padding: 32px 0 48px; }
+.publisher-shop__title {
+  margin: 8px 0 16px;
+  font-family: var(--titles);
+  font-size: clamp(26px, 3vw, 36px);
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+}
+.publisher-shop__intro { max-width: 72ch; color: var(--ink-2); }
+.publisher-shop__disclosure { max-width: 78ch; font: 14px/1.6 var(--sans); color: var(--muted); }
+.browse-cards.publisher-shop__grid { grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); margin-top: 24px; }
+.publisher-product { min-width: 0; }
+.publisher-product__image { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: contain; background: var(--bg-soft); margin-bottom: 20px; }
+.article-body .publisher-shop { margin: 40px 0; padding: 32px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.article-body .publisher-shop__title { margin: 8px 0 16px; font-size: 28px; }
+.article-body a.publisher-product { color: var(--ink); border: 1px solid var(--line); }
+.article-body a.publisher-product:hover { border-color: var(--line-2); }
+.article-body .publisher-product .browse-card__title { margin: 6px 0 12px; font-size: 22px; }
+.article-body .publisher-product p { margin: 0; font: 16px/1.6 var(--sans); }
+
 /* nav strip */
 .nav-strip {
   border-top: 1px solid var(--ink);

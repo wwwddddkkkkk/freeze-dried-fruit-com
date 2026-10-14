@@ -1,0 +1,44 @@
+{
+  "reviewed": "2026-10-14",
+  "products": [
+    {
+      "id": "classic-mix",
+      "name": "Classic Fruit Mix",
+      "use": "Breakfast bowls & familiar favorites",
+      "description": "Seven fruits in one bag, including strawberry, mango, apple and banana. Add a few pieces just before serving for a fruit topping.",
+      "path": "/products/freeze-dried-classic-fruits-mix",
+      "image": "https://cdn.shopify.com/s/files/1/0793/5292/2327/files/Slide2_1fc250e3-fbcc-442f-b605-0120e97efb7d.jpg?v=1782671085&width=640",
+      "alt": "OhCrisp Classic Fruit Mix product photograph"
+    },
+    {
+      "id": "discovery-mix",
+      "name": "Exotic Fruit Discovery Mix",
+      "use": "Try unfamiliar fruit flavors",
+      "description": "A seven-fruit mix with lychee, fig, pineapple, coconut, jackfruit, dragon fruit and mango. Explore several flavors in a single bag.",
+      "path": "/products/freeze-dried-fruit-discovery-mix",
+      "image": "https://cdn.shopify.com/s/files/1/0793/5292/2327/files/Slide8_89d7e703-1b4e-4217-8d90-334c888cc827.jpg?v=1782671084&width=640",
+      "alt": "OhCrisp Exotic Fruit Discovery Mix product photograph"
+    },
+    {
+      "id": "whole-banana",
+      "name": "Individually Wrapped Whole Bananas",
+      "use": "A single-fruit snack",
+      "description": "Whole freeze-dried bananas in individual wrappers. Open one for a snack, or break a portion into pieces for your bowl.",
+      "path": "/products/freeze-dried-whole-banana-individually-wrapped-4-2oz",
+      "image": "https://cdn.shopify.com/s/files/1/0793/5292/2327/files/bananaproductphoto.png?v=1789330927&width=640",
+      "alt": "OhCrisp individually wrapped whole freeze-dried banana product photograph"
+    }
+  ],
+  "articles": {
+    "buyer-guide": {
+      "title": "See the formats at OhCrisp",
+      "intro": "Compare a mixed-fruit bag with an individually wrapped single-fruit format. Use the product pages to check current ingredients, pack size and availability.",
+      "products": ["classic-mix", "whole-banana"]
+    },
+    "best-freeze-dried-fruit-for-oatmeal-and-overnight-oats": {
+      "title": "Choose a fruit topping for your next bowl",
+      "intro": "Classic Mix offers several fruits in one bag; a whole banana lets you add one fruit at a time. Add pieces just before eating when you want topping contrast. These are product examples, not results from a comparative recipe test.",
+      "products": ["classic-mix", "whole-banana"]
+    }
+  }
+}

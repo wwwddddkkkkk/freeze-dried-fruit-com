@@ -23,6 +23,8 @@ const STRINGS = {
     searchPlaceholder: "Search articles, moisture, mango, suppliers...",
     searchHint: "Search articles on this site.",
     signUpNotes: "Sign Up for Industry Notes",
+    shopOhCrisp: "Shop OhCrisp",
+    publisherRelationship: "Published by the team behind OhCrisp.",
     sections: "Sections:",
     // Header / menu links
     home: "Home",
@@ -77,6 +79,8 @@ const STRINGS = {
     searchPlaceholder: "Busca artículos: humedad, mango, proveedores...",
     searchHint: "Busca artículos en este sitio.",
     signUpNotes: "Suscríbete a las Notas de Industria",
+    shopOhCrisp: "Comprar en OhCrisp",
+    publisherRelationship: "Publicado por el equipo de OhCrisp.",
     sections: "Secciones:",
     home: "Inicio",
     allArticles: "Todos los artículos",

@@ -1,5 +1,6 @@
 // Shared layout — masthead, nav, footer, full-page wrapper.
 import { Icons } from "./icons.mjs";
+import { publisherUrl } from "./publisher-links.mjs";
 
 const FONTS_HREF =
   "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;1,8..60,400&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap";
@@ -147,6 +148,7 @@ function renderHeader({ site, mailto, currentPath, lang = "en", i18n, alternates
       <div class="site-menu" id="site-menu" hidden>
         <div class="site-menu__grid">
           <a href="${homePath}">${escapeHtml(T.t("home"))}</a>
+          <a href="${escapeHtml(publisherUrl(undefined, "menu", currentPath))}" data-publisher-link="ohcrisp" data-publisher-placement="menu">${escapeHtml(T.t("shopOhCrisp"))} ${Icons.arrowSmall}</a>
           <a href="${prefix}/articles/">${escapeHtml(T.t("allArticles"))}</a>
           <a href="/news/">${escapeHtml(T.t("newsWire"))}</a>
           <a href="/glossary/">${escapeHtml(T.t("glossary"))}</a>
@@ -176,6 +178,11 @@ function renderHeader({ site, mailto, currentPath, lang = "en", i18n, alternates
         <div class="masthead__tag">${escapeHtml(site.tagline)}</div>
       </div>
 
+      <div class="publisher-strip">
+        <span>${escapeHtml(T.t("publisherRelationship"))}</span>
+        <a href="${escapeHtml(publisherUrl(undefined, "header", currentPath))}" data-publisher-link="ohcrisp" data-publisher-placement="header">${escapeHtml(T.t("shopOhCrisp"))} ${Icons.arrowSmall}</a>
+      </div>
+
       <div class="nav-strip">
         <nav class="nav" id="primary-nav">
           <span class="nav__quick">${escapeHtml(T.t("sections"))}</span>
@@ -194,7 +201,7 @@ function navItemUrlForLang(item, lang) {
   return "/";
 }
 
-function renderFooter({ site, mailto, lang = "en", i18n }) {
+function renderFooter({ site, mailto, currentPath = "/", lang = "en", i18n }) {
   const T = i18n;
   const prefix = lang === "en" ? "" : `/${lang}`;
   return `
@@ -204,6 +211,7 @@ function renderFooter({ site, mailto, lang = "en", i18n }) {
         <div>
           <div class="footer__brand">Freeze-Dried-Fruit<span class="dot">.com</span></div>
           <p class="footer__tag">${escapeHtml(site.footer_tagline)}</p>
+          <p class="footer__publisher">${escapeHtml(T.t("publisherRelationship"))} <a href="${escapeHtml(publisherUrl(undefined, "footer", currentPath))}" data-publisher-link="ohcrisp" data-publisher-placement="footer">${escapeHtml(T.t("shopOhCrisp"))} ${Icons.arrowSmall}</a></p>
         </div>
         <div>
           <h5>${escapeHtml(T.t("footerRead"))}</h5>
@@ -314,10 +322,11 @@ function headerScript() {
     var eventData = {
       destination: link.href,
       source_path: window.location.pathname,
+      placement: link.getAttribute('data-publisher-placement') || 'editorial_reference',
       link_text: (link.textContent || '').trim().slice(0, 120)
     };
     if (typeof window.gtag === 'function') {
-      window.gtag('event', 'publisher_referral', eventData);
+      window.gtag('event', 'publisher_referral', Object.assign({ transport_type: 'beacon' }, eventData));
     }
     if (typeof window.plausible === 'function') {
       window.plausible('Publisher Referral', { props: eventData });
@@ -409,7 +418,7 @@ ${renderJsonLd(jsonLd)}
 <body>
 ${renderHeader({ site, mailto, currentPath, lang, i18n: T, alternates })}
 <main data-screen-label="${screen || ""}">${body}</main>
-${renderFooter({ site, mailto, lang, i18n: T })}
+${renderFooter({ site, mailto, currentPath, lang, i18n: T })}
 ${headerScript()}
 </body>
 </html>`;

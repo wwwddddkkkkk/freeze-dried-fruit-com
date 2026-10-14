@@ -1,186 +1,245 @@
-# Freeze-Dried-Fruit.com — 90-Day SEO & Editorial Roadmap
+# Freeze-Dried-Fruit.com — SEO & Editorial Roadmap
 
-## Objective
+## Active decision — October 14, 2026
 
-Build a credible freeze-dried fruit industry publication that earns non-brand
-search visibility and sends measurable, contextually relevant demand to
-OhCrisp. Editorial usefulness comes first; commercial attribution must be
-transparent.
+For the next four weekly maintenance runs, pause new article creation and use
+one bounded batch per week to improve crawl signals, existing content, and
+semantic links. A content batch normally refreshes 1–2 existing URLs. The
+publication needs to earn useful search visibility from its existing library
+before expanding it.
 
-## Pinned Repair Plan
+This plan supersedes the earlier calendar-based publishing quotas. The weekly
+automation should read it before choosing work. News Wire remains unchanged.
+No sitemap submissions, indexing requests, Search Console setting changes, or
+account-permission changes are authorized by this plan.
 
-This is the active order of work. Complete repair work before increasing the
-publishing cadence.
+## Evidence and baseline
 
-### P0 — Measurement and index control
+Property: `sc-domain:freeze-dried-fruit.com`; search type: Web. Retrieved
+October 14, 2026 through the connected GSC Wizard integration, using Google's
+live API. Settled performance data ends October 11; October 12 onward is
+incomplete. Exact responses and URL inspections are saved in
+[SEO-GSC-BASELINE-2026-10-14.json](SEO-GSC-BASELINE-2026-10-14.json).
 
-- Connect Search Console performance/indexing exports and one privacy-appropriate
-  analytics platform.
-- Verify that `publisher_referral` and OhCrisp UTM traffic are actually recorded.
-- Classify comparison, glossary, and article URLs as keep, improve, consolidate,
-  redirect, or noindex. Do not remove or noindex URLs without performance and
-  index-status evidence.
+| Metric | Last 90 days: Jul 14–Oct 11 | Prior 90 days: Apr 15–Jul 13 | Change |
+| --- | ---: | ---: | ---: |
+| Clicks | 1 | 8 | -7 |
+| Impressions | 476 | 1,065 | -589 (-55.3%) |
+| CTR | 0.21% | 0.75% | -0.54 percentage points |
+| Average position | 41.02 | 28.09 | 12.93 positions worse |
 
-### P1 — Authority and internal architecture
+| Metric | Last 28 days: Sep 14–Oct 11 | Prior 28 days: Aug 17–Sep 13 | Change |
+| --- | ---: | ---: | ---: |
+| Clicks | 0 | 1 | -1 |
+| Impressions | 101 | 135 | -34 (-25.2%) |
+| CTR | 0% | 0.74% | -0.74 percentage points |
+| Average position | 14.50 | 33.96 | 19.47 positions better |
 
-- Replace recency-based "continue reading" selections with semantic links based
-  on fruit, process, packaging, quality, application, and buyer intent.
-- Add primary sources and named review signals to priority technical pages.
-- Start with Fruit Reports and high-impression pages that currently have no
-  sources.
-- Document the methodology and provenance behind comparison-page ranges before
-  expanding the comparison inventory.
+The site has little demonstrated organic traffic. Improved aggregate position
+in the recent window has not produced more impressions or clicks, and does not
+prove that the article library is ranking better. In that window, /articles/
+alone recorded 49 page-level impressions at position 5.37; the homepage and
+other hubs also appear frequently. Review comparable query–page pairs before
+calling any movement a ranking win.
 
-### P2 — Search presentation and consolidation
+Important limits:
 
-- Rewrite titles and descriptions for high-impression/low-CTR URLs first; do not
-  mechanically shorten every metadata field.
-- Consolidate overlapping query families only after reviewing Search Console
-  query overlap.
-- Paginate or segment the all-articles archive so it does not render the entire
-  library in one document.
+- Click counts are too small for reliable CTR experiments, forecasts, or revenue
+  estimates. Do not attribute the decline to a Google update or a penalty from
+  these observations.
+- Visible query rows total only 164 impressions over 90 days and 16 over 28
+  days; property totals are 476 and 101. Google omits anonymized queries. The
+  visible terms are useful examples, not a complete demand census.
+- Page impressions can count multiple URLs for a search. They are not directly
+  additive to property impressions. A page with no reported impressions is not
+  thereby proven unindexed.
+- No GA4 property is linked in GSC Wizard, and config/site.json has no GA4 or
+  Plausible identifier. Commercial referrals and sales impact remain unmeasured.
 
-### P3 — Language, visuals, and performance
+## Indexing diagnosis and next maintenance priority
 
-- Build complete Spanish topic clusters instead of translating isolated pages.
-- Keep branded SVG editorial illustrations for concepts; use authentic photos
-  for process, product, packaging, and evidence-led content.
-- Treat the design tokens in `public/styles.css` as the visual source of truth.
-  Reuse the existing navy, mint, warm-neutral, berry, and peach palette; the
-  Larken/Source Serif/Source Sans/JetBrains Mono type system; and the established
-  border, radius, spacing, and card treatments. Do not introduce one-off fonts,
-  colors, shadows, or component styles for individual pages.
-- Check every new or refreshed visual at desktop and mobile widths for overflow,
-  typography consistency, meaningful alt text, dimensions, and file size.
-- For SVG artwork, keep labels inside the viewBox, match the site's type roles,
-  preserve consistent stroke weights, and avoid oversized dark panels that make
-  a single illustration visually heavier than the surrounding editorial layout.
-- Improve cache policy and asset delivery only after measuring live performance.
+The signed-in Page Indexing report, last updated October 8, shows 268 indexed
+and 418 not-indexed URLs among 686 known URLs. This is 39.1% of Google's known
+URLs, not an indexing rate for the current repository's canonical content.
 
-### Weekly automation guardrails
+| Reason | Known URLs |
+| --- | ---: |
+| Discovered — currently not indexed | 254 |
+| Crawled — currently not indexed | 129 |
+| Alternate page with proper canonical tag | 34 |
+| Soft 404 | 1 |
 
-- Prefer one or two substantial refreshes over new URL creation.
-- Create at most one new article in a week, and only when the repository and
-  available search evidence show a genuine uncovered intent.
-- Never mass-generate articles, translations, glossary entries, comparison URLs,
-  redirects, or noindex rules.
-- Reject a weekly change if it creates horizontal overflow, mismatched fonts,
-  inconsistent color usage, or a component that looks unrelated to the existing
-  editorial system.
-- Do not change or delete unrelated user work.
-- Build and validate before committing. Push only verified changes; if the branch
-  cannot be updated safely, report the blocker instead of forcing it.
+The leading cause is the discovery-to-crawl backlog. Preserve useful existing
+URLs and sample priority pages before deciding what to repair. The 34
+alternates are not automatically defects; the single Soft 404 still needs its
+specific URL diagnosed.
 
-## Publishing Rhythm
+Three examples from the leading-cause list were individually inspected on
+October 14:
 
-For the next 90 days:
+| URL path | Current URL Inspection result | Implication |
+| --- | --- | --- |
+| /articles/added-sugar/ | Discovered — currently not indexed; no last crawl; homepage listed as referring URL | A homepage link already exists; adding another generic link is not a complete diagnosis |
+| /articles/apple-varieties-for-freeze-drying/ | URL is unknown to Google; no last crawl or canonical returned | Reconcile exact URLs and the lagging aggregate example list before acting |
+| /articles/barrier-films-for-freeze-dried-fruit/ | URL is unknown to Google; no last crawl or canonical returned | Same reconciliation needed; no canonical should be inferred |
 
-- Publish no more than 2 new articles per week.
-- Substantively refresh, consolidate, or source-upgrade 2 existing pages per
-  week.
-- Publish 1 original authority asset per month.
-- Keep the automated News Wire schedule unchanged.
-- Review indexing, queries, referrals, and cannibalization once per month.
+Live audits of added-sugar, the persimmon guide, and the Spanish process guide
+returned HTTP 200, self-canonicals, one H1, no noindex, and structured data. This
+small sample does not show a blanket indexability block. Automated metadata
+length and repeated Organization-logo warnings are secondary review leads,
+not demonstrated causes of the backlog.
 
-A typical week:
+Next batch: make sitemap signals truthful and review a small priority URL set.
+Repository inspection found that Spanish per-term glossary entries still emit
+the current build date as lastmod, while English terms use the declared
+glossary revision date. Fix that bounded inconsistency and remove the misleading
+assumption that sitemap priority can allocate English versus Spanish crawl.
+Google ignores priority and changefreq; changing either is not a crawl fix.
+Do not resubmit the sitemap as part of that batch.
 
-- Tuesday: one authority article or source-backed refresh.
-- Thursday: one consumer/product-cluster article or consolidation.
-- Friday: review Search Console movement and queue the next two refreshes.
+The sitemap was successfully read October 7, with 625 submitted Web URLs and
+zero warnings/errors. Its API indexed field reports zero, inconsistent with
+the Page Indexing report; use the latter and individual inspections for status,
+not that legacy sitemap field.
 
-Image work is part of the refresh quota, not a separate publishing quota. Each
-week, replace weak generic covers on 2 priority URLs with either an authentic
-local photo, a purpose-built technical diagram, or a unique professional
-editorial image. Prioritize pages already earning impressions and core pages
-linked from the homepage. Do not mass-generate hundreds of interchangeable
-covers.
+Existing architecture already includes an all-articles directory segmented by
+category and semantic English related-content links. Improve specific paths
+from those hubs rather than repeating those completed architectural projects.
+Also check actual HTML links, HTTP responses, robots directives, and canonical
+consistency for the priority sample; inspect crawl/server evidence before
+claiming the host is overloaded.
 
-Do not increase to 3 new articles per week until at least 70% of the previous
-eight weeks' new URLs are indexed within four weeks and the target clusters are
-gaining impressions without obvious query cannibalization. Reduce to 1 new
-article per week if the four-week index rate falls below 40%.
+## Existing-page refresh queue
 
-## Work Mix
+All figures below are Web performance for July 14–October 11 unless noted.
+Every page already exists; none of these intents currently requires a new URL.
 
-- 40% existing-page refreshes and consolidation
-- 25% product-adjacent search clusters
-- 20% original research, interviews, checklists, and seasonal reports
-- 15% emerging technical, regulatory, and category questions
+| Priority | Existing URL | Evidence | Refresh brief |
+| --- | --- | --- | --- |
+| 1 | /articles/how-many-types-of-persimmons-are-there/ | 9 impressions; position 19; all 9 occurred in the latest 28-day window; individual inspection: indexed, matching canonicals | Repair five literal undefined cells; explain Fuyu/Hachiya, astringency and treated fruit accurately; add horticultural primary sources and contextual link to the existing persimmon freeze-drying guide |
+| 2 | /es/articles/how-its-made/ | 99 page impressions; position 90.87; proceso de liofilización de frutas: 85 query impressions at 92.05; indexed; no page impressions in latest 28 days | Refresh the existing process intent, validate technical ranges and sources, improve its Spanish answer and links to the existing moisture/water-activity cluster; review English source alongside it |
+| 3 | /articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/ | 19 impressions; position 55.58; best fruit for oatmeal: 4 impressions at 39 | Add a documented recipe/rehydration comparison if real testing is available; explain add-before/add-after use clearly; label untested advice honestly |
+| 4 | /articles/added-sugar/ | Priority homepage story, but individually discovered and not indexed | Connect accurate label guidance to relevant source documents and existing quality hub; evaluate crawl discovery and inspect again after a substantive refresh |
 
-## Priority Topic Clusters
+Thirty existing fruit-variety guides contain a total of 151 literal undefined
+table cells. This is a concrete editorial defect, not proof of an algorithmic
+penalty. Put the affected URLs into a repair backlog and work through small,
+reviewed batches, starting with the indexed persimmon page. Do not replace
+missing cells with invented cultivar claims or launch more of that template.
 
-### 1. Everyday fruit demand
+## Topic strategy
 
-Priority products: strawberry, mango, banana, blueberry, and apple.
+### English consumer and application content
 
-Build or strengthen pages around format choice, whole versus pieces, storage,
-texture, comparison, use cases, and label-reading. These clusters should link
-to OhCrisp only when the matching product is a useful example.
+Treat the persimmon guide as an existing-page experiment, not evidence for a
+large new fruit-variety series. Improve the current oatmeal article before
+adding adjacent breakfast URLs. Freeze-dried versus dried-fruit intent already
+has a drying-method comparison page and related explanations; only one visible
+query impression currently maps to /articles/. Review routing through the hub
+and the best existing destination rather than building a duplicate answer.
 
-### 2. Exotic fruit discovery
+Keep strawberry, mango, banana, blueberry, and apple as business-relevant
+clusters, but do not call them proven search winners yet. Choose their next
+refreshes from new query evidence or from individually confirmed problems on
+priority pages. Product links must be relevant, disclosed, and UTM-tagged.
 
-Priority products: discovery mix, durian, dragon fruit, mangosteen, lychee,
-jackfruit, winter jujube, and mulberry.
+### Spanish process cluster
 
-The editorial angle is education and expectation-setting: taste, aroma,
-texture, origin, format, and how to try unfamiliar fruit without buying a whole
-fresh fruit. Avoid producing another generic variety article when a strong page
-already exists; improve or consolidate the existing page instead.
+The strongest visible query signal is Spanish process education, not a new
+uncovered intent. Spain contributed 97 property impressions with zero clicks
+and average position 91.62 in the 90-day window. That supports a focused review
+of the existing process cluster, not broad localization.
 
-### 3. Industry authority and link earning
+Use the existing Spanish how-its-made, moisture-control, and
+water-activity-vs-moisture-content pages as one connected learning path.
+Maintain reciprocal hreflang and accurate Spanish review signals. Expand the
+cluster only if refreshed pages regain sustained visibility and an additional
+intent remains uncovered. Do not publish isolated translations for
+maqui liofilizado (9 impressions) or tipos de papaya (2 impressions).
 
-Priority themes: moisture and water activity, barrier packaging, supplier
-qualification, landed cost, label interpretation, breakage, seasonal supply,
-and commercial freeze-drying constraints.
+### Professional and supplier content
 
-These pages are not required to link to a product. Their job is to earn
-citations, backlinks, professional trust, and category-level topical coverage.
-Favor primary sources, original diagrams, buyer tools, interviews, and
-methodologies over generic explainers.
+The state-of-industry report has 16 page impressions, while freeze dried fruit
+market has 6 query impressions at position 110.5. These figures do not justify
+more generic market reports. Prefer source-backed improvements to the existing
+report, documented measurement methods, and buyer tools when a real audience
+need exists. Interviews and tests require real participants or records; never
+invent expertise, supplier conversations, product testing, or market numbers.
 
-## 90-Day Sequence
+The 90-day cannibalization scan found no competing query family above five
+visible impressions. With anonymized queries and low traffic, that is weak
+negative evidence, not a license to merge or remove pages.
 
-### Weeks 1–2: measurement and inventory
+## Four-week execution schedule
 
-- Connect Search Console reporting and a privacy-appropriate analytics tool.
-- Confirm OhCrisp receives the new UTM parameters in Shopify/GA reporting.
-- Export URL, query, click, impression, CTR, position, and index-status data.
-- Group all existing URLs by search intent and product cluster.
-- Identify high-impression/low-CTR pages and pairs competing for the same query.
+Use exactly one bounded batch each week; a code/architecture batch replaces
+that week's content batch rather than adding to it.
 
-### Weeks 3–6: repair before expansion
+| Run | Batch | Deliverable |
+| --- | --- | --- |
+| 1 | Sitemap truth and priority-URL crawl review | Fix Spanish glossary lastmod; reconcile the three sampled URLs; establish a fixed set of 10 important existing canonical URLs and record their individual index status |
+| 2 | Persimmon quality repair | Refresh the existing persimmon variety guide, optionally its existing freeze-drying companion; source and verify the damaged table |
+| 3 | Spanish process refresh | Review the English/Spanish process pair and connect existing Spanish supporting guides; no new translation |
+| 4 | Application improvement and measurement | Refresh the oatmeal guide if documented evidence is available; otherwise use a source-backed priority quality page; compare index and query–page evidence for the earlier batches |
 
-- Refresh titles and introductions on high-impression/low-CTR pages.
-- Merge overlapping articles and redirect the weaker URL.
-- Add primary sources to technical and regulatory pages that lack them.
-- Strengthen internal links from authority pages to the best matching fruit or
-  application page.
-- Upgrade the homepage and high-impression article covers before filling the
-  long tail; use 1600 x 900 WebP images below 250 KB when a photo is appropriate.
-- Upgrade the five everyday-fruit clusters before creating new fruit reports.
+After each batch, save changed URLs and a before/after baseline. Validate
+affected HTML, links, canonical/schema/hreflang where relevant, sitemap and
+llms output, and UI at 1440px, 768px, and 390px. Run npm run build and relevant
+checks for site-source changes; review the diff, commit verified source, and
+push only a safe fast-forward. Keep meaningful deployment status separate from
+a successful Git push. Planning-only documentation edits do not change
+production HTML or require a new visual review.
 
-### Weeks 7–12: differentiated authority
+## Conditions for resuming new articles
 
-- Publish one original buyer checklist, interview, or category dataset.
-- Publish the next seasonal supply report only when the period is current and
-  its factual claims have been reviewed.
-- Build one genuinely useful interactive or downloadable reference if query
-  data supports it.
-- Seek relevant citations and industry relationships; do not build unrelated
-  volume links.
+After the four-week repair period, new articles remain optional. Approve at
+most one per weekly run, and only if all of the following are recorded:
 
-## Measurement
+1. A relevant uncovered query family normally has at least 20 visible Web
+   impressions over a settled 90-day window. This is an editorial selection
+   rule, not a Google requirement or a claim about total search volume.
+2. The content inventory and query–page mapping show no close competing URL.
+   If an existing page can answer the question well, refresh it.
+3. The brief contains a useful original contribution: documented test,
+   interview, buyer example, primary-source synthesis, or working tool with
+   disclosed assumptions. Article length and a new cover are not substitutes.
+4. Its parent hub and at least two relevant existing pages provide contextual
+   links; review these for reader usefulness rather than just link count.
+5. At least seven of the fixed ten priority URLs are individually indexed and
+   two consecutive weekly checks show no newly introduced crawl/index block.
+   This is a planning gate; the site-wide known-URL ratio cannot satisfy it.
+6. The previous repair batches have been measured after a complete 28-day
+   follow-up window. Report zero traffic honestly; do not invent an uplift.
 
-Track these separately for the publication and OhCrisp:
+Do not increase to two or three new articles per week until two consecutive
+settled 28-day windows show improving relevant non-brand demand and the new-URL
+cohort can be evaluated individually. A sitemap submission or an updated date
+does not satisfy this gate.
 
-- Google Search Console indexed URL rate
-- Non-brand clicks and impressions by topic cluster
-- CTR changes on refreshed pages
-- Queries shared by multiple URLs (cannibalization)
-- Referring domains and citations to authority assets
-- `publisher_referral` events
-- OhCrisp sessions and revenue from `utm_source=freeze-dried-fruit.com`
-- Conversion rate by article and product cluster
+## Measurement and review discipline
 
-The media site should not be judged only by article count. The operating goal
-is a smaller number of pages that rank, earn trust, and create measurable demand.
+- Weekly: one 28-day performance comparison, three-month top queries/pages,
+  leading indexing cause, and individual checks on affected URLs. Connector
+  access now works; use it first. If it fails, record the access gap.
+- For each refresh: compare the same URL and relevant visible query family
+  before/after, separating crawl/index gains from ranking and click gains.
+  Observe a full settled 28-day window; small counts remain directional only.
+- Compare CTR only for similar query/device/country and position bands. Defer
+  isolated title experiments until there is enough matched exposure to assess
+  them; currently zero or one click cannot support a performance conclusion.
+- At weeks 4 and 8: review the fixed ten-URL set, the persimmon and Spanish
+  process experiments, and the repair backlog. Reorder work from actual
+  outcomes rather than filling an article-count quota.
+- Track publisher_referral and OhCrisp UTM sessions/conversions only once an
+  actual analytics destination is connected and verified. Until then, report
+  that commercial performance is unknown.
+- Preserve design tokens/components, authentic attribution, and News Wire.
+  Never mass-generate pages, redirects, canonicals, translations, or noindex
+  rules. Removal or consolidation requires individual status and overlap
+  evidence, a clear destination, and the applicable user authorization.
+
+## Primary guidance
+
+- [Google: Page Indexing report](https://support.google.com/webmasters/answer/7440203)
+- [Google: Build and submit a sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap)
+- [Google: Creating helpful, reliable, people-first content](https://developers.google.com/search/docs/fundamentals/creating-helpful-content)

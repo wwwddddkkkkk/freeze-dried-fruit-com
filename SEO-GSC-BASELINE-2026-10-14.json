@@ -1,0 +1,5103 @@
+{
+  "reviewDate": "2026-10-14",
+  "property": "sc-domain:freeze-dried-fruit.com",
+  "searchType": "web",
+  "summary90": {
+    "siteUrl": "sc-domain:freeze-dried-fruit.com",
+    "range": {
+      "startDate": "2026-07-14",
+      "endDate": "2026-10-11",
+      "days": 90
+    },
+    "comparison": {
+      "startDate": "2026-04-15",
+      "endDate": "2026-07-13"
+    },
+    "current": {
+      "clicks": 1,
+      "impressions": 476,
+      "ctr": 0.21008403361344538,
+      "avgPosition": 41.01890756302521
+    },
+    "previous": {
+      "clicks": 8,
+      "impressions": 1065,
+      "ctr": 0.7511737089201878,
+      "avgPosition": 28.091079812206573
+    },
+    "deltas": {
+      "clicks": -7,
+      "impressions": -589,
+      "ctrPoints": -0.5410896753067423,
+      "positionDelta": 12.927827750818636
+    },
+    "dailyRows": [
+      {
+        "date": "2026-07-14",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 42.375
+      },
+      {
+        "date": "2026-07-15",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 56.285714285714285
+      },
+      {
+        "date": "2026-07-16",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 84
+      },
+      {
+        "date": "2026-07-17",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 45.375
+      },
+      {
+        "date": "2026-07-18",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 74.66666666666667
+      },
+      {
+        "date": "2026-07-19",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 46.333333333333336
+      },
+      {
+        "date": "2026-07-20",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 41.625
+      },
+      {
+        "date": "2026-07-21",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 67.5
+      },
+      {
+        "date": "2026-07-22",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 45.25
+      },
+      {
+        "date": "2026-07-23",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 99.33333333333333
+      },
+      {
+        "date": "2026-07-24",
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 43.4
+      },
+      {
+        "date": "2026-07-25",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 42.4
+      },
+      {
+        "date": "2026-07-26",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 74.14285714285714
+      },
+      {
+        "date": "2026-07-27",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 68.57142857142857
+      },
+      {
+        "date": "2026-07-28",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 94.6
+      },
+      {
+        "date": "2026-07-29",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 50.625
+      },
+      {
+        "date": "2026-07-30",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 67.77777777777777
+      },
+      {
+        "date": "2026-07-31",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 80.125
+      },
+      {
+        "date": "2026-08-01",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 76.875
+      },
+      {
+        "date": "2026-08-02",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 48
+      },
+      {
+        "date": "2026-08-03",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 79
+      },
+      {
+        "date": "2026-08-04",
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 46.4
+      },
+      {
+        "date": "2026-08-05",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 52.166666666666664
+      },
+      {
+        "date": "2026-08-06",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 43.357142857142854
+      },
+      {
+        "date": "2026-08-07",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 65.75
+      },
+      {
+        "date": "2026-08-08",
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 41
+      },
+      {
+        "date": "2026-08-09",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 53.57142857142857
+      },
+      {
+        "date": "2026-08-10",
+        "clicks": 0,
+        "impressions": 13,
+        "ctr": 0,
+        "position": 54.84615384615385
+      },
+      {
+        "date": "2026-08-11",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 61.8
+      },
+      {
+        "date": "2026-08-12",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 26.6
+      },
+      {
+        "date": "2026-08-13",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 24.333333333333332
+      },
+      {
+        "date": "2026-08-14",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 83
+      },
+      {
+        "date": "2026-08-15",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 69.8
+      },
+      {
+        "date": "2026-08-16",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 59.333333333333336
+      },
+      {
+        "date": "2026-08-17",
+        "clicks": 1,
+        "impressions": 19,
+        "ctr": 5.263157894736842,
+        "position": 28.842105263157894
+      },
+      {
+        "date": "2026-08-18",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 78
+      },
+      {
+        "date": "2026-08-19",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 55.857142857142854
+      },
+      {
+        "date": "2026-08-20",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 50.2
+      },
+      {
+        "date": "2026-08-21",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 53
+      },
+      {
+        "date": "2026-08-22",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 75.66666666666667
+      },
+      {
+        "date": "2026-08-23",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 19.5
+      },
+      {
+        "date": "2026-08-24",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-08-25",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 75
+      },
+      {
+        "date": "2026-08-26",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "date": "2026-08-27",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 37.42857142857143
+      },
+      {
+        "date": "2026-08-28",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 47.333333333333336
+      },
+      {
+        "date": "2026-08-29",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 53
+      },
+      {
+        "date": "2026-08-30",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 65.28571428571429
+      },
+      {
+        "date": "2026-08-31",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 48.142857142857146
+      },
+      {
+        "date": "2026-09-01",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 6.6
+      },
+      {
+        "date": "2026-09-02",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "date": "2026-09-03",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 15.5
+      },
+      {
+        "date": "2026-09-04",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 36
+      },
+      {
+        "date": "2026-09-05",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "date": "2026-09-06",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 71.66666666666667
+      },
+      {
+        "date": "2026-09-07",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 7.714285714285714
+      },
+      {
+        "date": "2026-09-08",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "date": "2026-09-09",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "date": "2026-09-10",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 21.2
+      },
+      {
+        "date": "2026-09-11",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 23.4
+      },
+      {
+        "date": "2026-09-12",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "date": "2026-09-13",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-09-14",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 98.33333333333333
+      },
+      {
+        "date": "2026-09-15",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 36
+      },
+      {
+        "date": "2026-09-16",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "date": "2026-09-17",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 32
+      },
+      {
+        "date": "2026-09-18",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 38.666666666666664
+      },
+      {
+        "date": "2026-09-19",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 4.666666666666666
+      },
+      {
+        "date": "2026-09-20",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "date": "2026-09-21",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-09-22",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-09-23",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "date": "2026-09-24",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 4.5
+      },
+      {
+        "date": "2026-09-25",
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 5.090909090909091
+      },
+      {
+        "date": "2026-09-26",
+        "clicks": 0,
+        "impressions": 19,
+        "ctr": 0,
+        "position": 5.105263157894737
+      },
+      {
+        "date": "2026-09-27",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 6.714285714285714
+      },
+      {
+        "date": "2026-09-28",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 7.222222222222222
+      },
+      {
+        "date": "2026-09-29",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 35
+      },
+      {
+        "date": "2026-09-30",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "date": "2026-10-01",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 49
+      },
+      {
+        "date": "2026-10-02",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7.5
+      },
+      {
+        "date": "2026-10-03",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "date": "2026-10-04",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 22
+      },
+      {
+        "date": "2026-10-05",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 29.75
+      },
+      {
+        "date": "2026-10-06",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "date": "2026-10-07",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 5.333333333333333
+      },
+      {
+        "date": "2026-10-08",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 29
+      },
+      {
+        "date": "2026-10-09",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "date": "2026-10-10",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "date": "2026-10-11",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      }
+    ],
+    "previousDailyRows": [
+      {
+        "date": "2026-05-10",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-05-11",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-05-12",
+        "clicks": 1,
+        "impressions": 3,
+        "ctr": 33.33333333333333,
+        "position": 18
+      },
+      {
+        "date": "2026-05-13",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 14.142857142857142
+      },
+      {
+        "date": "2026-05-14",
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 7.2
+      },
+      {
+        "date": "2026-05-15",
+        "clicks": 0,
+        "impressions": 16,
+        "ctr": 0,
+        "position": 27.25
+      },
+      {
+        "date": "2026-05-16",
+        "clicks": 1,
+        "impressions": 52,
+        "ctr": 1.9230769230769231,
+        "position": 47.88461538461539
+      },
+      {
+        "date": "2026-05-17",
+        "clicks": 0,
+        "impressions": 71,
+        "ctr": 0,
+        "position": 27.943661971830984
+      },
+      {
+        "date": "2026-05-18",
+        "clicks": 1,
+        "impressions": 73,
+        "ctr": 1.36986301369863,
+        "position": 40.054794520547944
+      },
+      {
+        "date": "2026-05-19",
+        "clicks": 1,
+        "impressions": 67,
+        "ctr": 1.4925373134328357,
+        "position": 29.73134328358209
+      },
+      {
+        "date": "2026-05-20",
+        "clicks": 0,
+        "impressions": 39,
+        "ctr": 0,
+        "position": 25.102564102564102
+      },
+      {
+        "date": "2026-05-21",
+        "clicks": 0,
+        "impressions": 66,
+        "ctr": 0,
+        "position": 21.454545454545453
+      },
+      {
+        "date": "2026-05-22",
+        "clicks": 1,
+        "impressions": 124,
+        "ctr": 0.8064516129032258,
+        "position": 18.572580645161292
+      },
+      {
+        "date": "2026-05-23",
+        "clicks": 1,
+        "impressions": 94,
+        "ctr": 1.0638297872340425,
+        "position": 18.819148936170212
+      },
+      {
+        "date": "2026-05-24",
+        "clicks": 0,
+        "impressions": 88,
+        "ctr": 0,
+        "position": 17.670454545454547
+      },
+      {
+        "date": "2026-05-25",
+        "clicks": 1,
+        "impressions": 83,
+        "ctr": 1.2048192771084338,
+        "position": 18.698795180722893
+      },
+      {
+        "date": "2026-05-26",
+        "clicks": 0,
+        "impressions": 92,
+        "ctr": 0,
+        "position": 17.891304347826086
+      },
+      {
+        "date": "2026-05-27",
+        "clicks": 0,
+        "impressions": 43,
+        "ctr": 0,
+        "position": 18.74418604651163
+      },
+      {
+        "date": "2026-05-28",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "date": "2026-05-29",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-05-30",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-05-31",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 73
+      },
+      {
+        "date": "2026-06-01",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 62
+      },
+      {
+        "date": "2026-06-02",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 79.5
+      },
+      {
+        "date": "2026-06-03",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 50
+      },
+      {
+        "date": "2026-06-04",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 60.5
+      },
+      {
+        "date": "2026-06-05",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 57
+      },
+      {
+        "date": "2026-06-06",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 57
+      },
+      {
+        "date": "2026-06-07",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 48.333333333333336
+      },
+      {
+        "date": "2026-06-08",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 39
+      },
+      {
+        "date": "2026-06-09",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 97
+      },
+      {
+        "date": "2026-06-10",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 60.333333333333336
+      },
+      {
+        "date": "2026-06-11",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 67.5
+      },
+      {
+        "date": "2026-06-12",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-06-13",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "date": "2026-06-14",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 36.666666666666664
+      },
+      {
+        "date": "2026-06-15",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 8.5
+      },
+      {
+        "date": "2026-06-16",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "date": "2026-06-17",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "date": "2026-06-18",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 64.75
+      },
+      {
+        "date": "2026-06-19",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "date": "2026-06-20",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 54
+      },
+      {
+        "date": "2026-06-21",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-06-22",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "date": "2026-06-23",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 68
+      },
+      {
+        "date": "2026-06-24",
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 50,
+        "position": 39
+      },
+      {
+        "date": "2026-06-25",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 82.33333333333333
+      },
+      {
+        "date": "2026-06-26",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 64.5
+      },
+      {
+        "date": "2026-06-27",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 69.5
+      },
+      {
+        "date": "2026-06-28",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-06-29",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 89
+      },
+      {
+        "date": "2026-06-30",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "date": "2026-07-01",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-07-02",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "date": "2026-07-03",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 81.5
+      },
+      {
+        "date": "2026-07-04",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 58.2
+      },
+      {
+        "date": "2026-07-05",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 61.44444444444444
+      },
+      {
+        "date": "2026-07-06",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 98
+      },
+      {
+        "date": "2026-07-07",
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 59.09090909090909
+      },
+      {
+        "date": "2026-07-08",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 65.75
+      },
+      {
+        "date": "2026-07-09",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 84.5
+      },
+      {
+        "date": "2026-07-10",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 49.75
+      },
+      {
+        "date": "2026-07-11",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 70.75
+      },
+      {
+        "date": "2026-07-12",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 75.25
+      },
+      {
+        "date": "2026-07-13",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 46.57142857142857
+      }
+    ],
+    "dataSource": "api",
+    "settledThrough": "2026-10-11",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-12",
+      "settledThrough": "2026-10-11",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-10-05",
+        "endDate": "2026-10-14",
+        "dataState": "all"
+      }
+    }
+  },
+  "summary28": {
+    "siteUrl": "sc-domain:freeze-dried-fruit.com",
+    "range": {
+      "startDate": "2026-09-14",
+      "endDate": "2026-10-11",
+      "days": 28
+    },
+    "comparison": {
+      "startDate": "2026-08-17",
+      "endDate": "2026-09-13"
+    },
+    "current": {
+      "clicks": 0,
+      "impressions": 101,
+      "ctr": 0,
+      "avgPosition": 14.495049504950495
+    },
+    "previous": {
+      "clicks": 1,
+      "impressions": 135,
+      "ctr": 0.7407407407407408,
+      "avgPosition": 33.96296296296296
+    },
+    "deltas": {
+      "clicks": -1,
+      "impressions": -34,
+      "ctrPoints": -0.7407407407407408,
+      "positionDelta": -19.467913458012468
+    },
+    "dailyRows": [
+      {
+        "date": "2026-09-14",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 98.33333333333333
+      },
+      {
+        "date": "2026-09-15",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 36
+      },
+      {
+        "date": "2026-09-16",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "date": "2026-09-17",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 32
+      },
+      {
+        "date": "2026-09-18",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 38.666666666666664
+      },
+      {
+        "date": "2026-09-19",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 4.666666666666666
+      },
+      {
+        "date": "2026-09-20",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "date": "2026-09-21",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-09-22",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-09-23",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "date": "2026-09-24",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 4.5
+      },
+      {
+        "date": "2026-09-25",
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 5.090909090909091
+      },
+      {
+        "date": "2026-09-26",
+        "clicks": 0,
+        "impressions": 19,
+        "ctr": 0,
+        "position": 5.105263157894737
+      },
+      {
+        "date": "2026-09-27",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 6.714285714285714
+      },
+      {
+        "date": "2026-09-28",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 7.222222222222222
+      },
+      {
+        "date": "2026-09-29",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 35
+      },
+      {
+        "date": "2026-09-30",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "date": "2026-10-01",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 49
+      },
+      {
+        "date": "2026-10-02",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7.5
+      },
+      {
+        "date": "2026-10-03",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "date": "2026-10-04",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 22
+      },
+      {
+        "date": "2026-10-05",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 29.75
+      },
+      {
+        "date": "2026-10-06",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "date": "2026-10-07",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 5.333333333333333
+      },
+      {
+        "date": "2026-10-08",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 29
+      },
+      {
+        "date": "2026-10-09",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "date": "2026-10-10",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "date": "2026-10-11",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      }
+    ],
+    "previousDailyRows": [
+      {
+        "date": "2026-08-17",
+        "clicks": 1,
+        "impressions": 19,
+        "ctr": 5.263157894736842,
+        "position": 28.842105263157894
+      },
+      {
+        "date": "2026-08-18",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 78
+      },
+      {
+        "date": "2026-08-19",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 55.857142857142854
+      },
+      {
+        "date": "2026-08-20",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 50.2
+      },
+      {
+        "date": "2026-08-21",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 53
+      },
+      {
+        "date": "2026-08-22",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 75.66666666666667
+      },
+      {
+        "date": "2026-08-23",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 19.5
+      },
+      {
+        "date": "2026-08-24",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      },
+      {
+        "date": "2026-08-25",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 75
+      },
+      {
+        "date": "2026-08-26",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "date": "2026-08-27",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 37.42857142857143
+      },
+      {
+        "date": "2026-08-28",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 47.333333333333336
+      },
+      {
+        "date": "2026-08-29",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 53
+      },
+      {
+        "date": "2026-08-30",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 65.28571428571429
+      },
+      {
+        "date": "2026-08-31",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 48.142857142857146
+      },
+      {
+        "date": "2026-09-01",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 6.6
+      },
+      {
+        "date": "2026-09-02",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "date": "2026-09-03",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 15.5
+      },
+      {
+        "date": "2026-09-04",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 36
+      },
+      {
+        "date": "2026-09-05",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "date": "2026-09-06",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 71.66666666666667
+      },
+      {
+        "date": "2026-09-07",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 7.714285714285714
+      },
+      {
+        "date": "2026-09-08",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "date": "2026-09-09",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "date": "2026-09-10",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 21.2
+      },
+      {
+        "date": "2026-09-11",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 23.4
+      },
+      {
+        "date": "2026-09-12",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "date": "2026-09-13",
+        "clicks": 0,
+        "impressions": 0,
+        "ctr": 0,
+        "position": 0
+      }
+    ],
+    "dataSource": "api",
+    "settledThrough": "2026-10-11",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-12",
+      "settledThrough": "2026-10-11",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-10-05",
+        "endDate": "2026-10-14",
+        "dataState": "all"
+      }
+    }
+  },
+  "queries90": {
+    "siteUrl": "sc-domain:freeze-dried-fruit.com",
+    "startDate": "2026-07-14",
+    "endDate": "2026-10-11",
+    "dimensions": [
+      "query"
+    ],
+    "searchType": "web",
+    "rowCount": 42,
+    "rows": [
+      {
+        "keys": [
+          "are freeze dried raspberries the same as frozen raspberries"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 66
+      },
+      {
+        "keys": [
+          "atkins papaya recipe"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 202
+      },
+      {
+        "keys": [
+          "best fruit for oatmeal"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 39
+      },
+      {
+        "keys": [
+          "brix"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 91
+      },
+      {
+        "keys": [
+          "brix que es"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 96
+      },
+      {
+        "keys": [
+          "can you freeze dry oatmeal"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 66
+      },
+      {
+        "keys": [
+          "difference between blueberry and raspberry"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 81
+      },
+      {
+        "keys": [
+          "different types of persimmons"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 21.5
+      },
+      {
+        "keys": [
+          "dried cherries and cranberries"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 96
+      },
+      {
+        "keys": [
+          "dried cherries vs dried cranberries"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 22
+      },
+      {
+        "keys": [
+          "dried fruit for charcuterie board"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 96
+      },
+      {
+        "keys": [
+          "dried fruits for oatmeal"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 21
+      },
+      {
+        "keys": [
+          "durian and rambutan"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 67
+      },
+      {
+        "keys": [
+          "durian rambutan"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 43
+      },
+      {
+        "keys": [
+          "freeze dried blueberries vs fresh"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 83
+      },
+      {
+        "keys": [
+          "freeze dried durian fruit"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 74
+      },
+      {
+        "keys": [
+          "freeze dried fruit market"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 110.5
+      },
+      {
+        "keys": [
+          "freeze dried fruit vs dried fruit"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 21
+      },
+      {
+        "keys": [
+          "jujube berries starry mart"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 82
+      },
+      {
+        "keys": [
+          "liofilizacion de frutas"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 95.77777777777777
+      },
+      {
+        "keys": [
+          "liofilizado en ingles"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 71.5
+      },
+      {
+        "keys": [
+          "liofilizado in english"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 76
+      },
+      {
+        "keys": [
+          "lychee star fruit"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 74
+      },
+      {
+        "keys": [
+          "mangosteen longan fruit"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 69
+      },
+      {
+        "keys": [
+          "maqui liofilizado"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 76.66666666666667
+      },
+      {
+        "keys": [
+          "metalized film facer"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 96
+      },
+      {
+        "keys": [
+          "parenthetical fruit"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "plums vs apricots"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 77
+      },
+      {
+        "keys": [
+          "private label freeze-drying"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 95
+      },
+      {
+        "keys": [
+          "proceso de liofilización de frutas"
+        ],
+        "clicks": 0,
+        "impressions": 85,
+        "ctr": 0,
+        "position": 92.04705882352941
+      },
+      {
+        "keys": [
+          "rambutan vs durian"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 35
+      },
+      {
+        "keys": [
+          "raspberry and blueberry difference"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 81
+      },
+      {
+        "keys": [
+          "raspberry or blueberry"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 81.5
+      },
+      {
+        "keys": [
+          "sqf"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 36
+      },
+      {
+        "keys": [
+          "tipos de papaya"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 76
+      },
+      {
+        "keys": [
+          "two types of persimmon"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 23
+      },
+      {
+        "keys": [
+          "types of persimmons"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 18.25
+      },
+      {
+        "keys": [
+          "variedades de la papaya"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 86
+      },
+      {
+        "keys": [
+          "water vapour transmission rate food packaging"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 86
+      },
+      {
+        "keys": [
+          "what are the different types of persimmons"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "which is sweeter"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "why does dried fruit have more calories"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 60
+      }
+    ],
+    "pagination": {
+      "limit": 1000,
+      "offset": 0,
+      "returned": 42,
+      "hasMore": false,
+      "note": "Showing all 42 rows."
+    },
+    "dataSource": "api",
+    "settledThrough": "2026-10-11",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-12",
+      "settledThrough": "2026-10-11",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-10-05",
+        "endDate": "2026-10-14",
+        "dataState": "all"
+      }
+    }
+  },
+  "pages90": {
+    "siteUrl": "sc-domain:freeze-dried-fruit.com",
+    "startDate": "2026-07-14",
+    "endDate": "2026-10-11",
+    "dimensions": [
+      "page"
+    ],
+    "searchType": "web",
+    "rowCount": 144,
+    "rows": [
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/"
+        ],
+        "clicks": 1,
+        "impressions": 17,
+        "ctr": 5.88235294117647,
+        "position": 1.5882352941176472
+      },
+      {
+        "keys": [
+          "http://freeze-dried-fruit.com/articles/how-condenser-capacity-shapes-freeze-dried-fruit-cycle-speed/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "http://freeze-dried-fruit.com/articles/what-country-of-origin-means-on-a-freeze-dried-fruit-label/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/"
+        ],
+        "clicks": 0,
+        "impressions": 106,
+        "ctr": 0,
+        "position": 9.084905660377359
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-cereal-and-granola/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 62
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-cheese-boards-and-snack-platters/"
+        ],
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 94.71428571428571
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-chia-pudding-and-refrigerated-breakfast-cups/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 60.75
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/"
+        ],
+        "clicks": 0,
+        "impressions": 19,
+        "ctr": 0,
+        "position": 55.578947368421055
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-pancakes-and-waffles/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 77
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-popcorn-and-savory-snack-mixes/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 93
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-toast-bagels-and-ricotta-boards/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/blackberry-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 19.25
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/buyer-guide/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 6.666666666666667
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/category/industry-insights/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 6.222222222222222
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/cheap-not-better/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 65
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/desiccants-vs-oxygen-absorbers/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 28.2
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/durian-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 31.4
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/freeze-dried-fruit-moqs-and-lead-times/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-conduction-and-radiation-heat-transfer-shape-freeze-dried-fruit-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 22.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-controlled-nucleation-changes-freeze-dried-fruit-cycle-uniformity/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 13
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-dual-column-nutrition-facts-labels-change-the-way-to-read-freeze-dried-fruit-bags/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-glass-transition-temperature-governs-freeze-dried-fruit-stickiness-and-shelf-stability/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 19
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-importer-of-record-and-fsvp-importer-roles-differ-in-freeze-dried-fruit-buying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-bananas-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 89
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-cherries-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-cranberries-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-gooseberries-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 87.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-kiwi-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 52.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-lychees-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-mangoes-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-melons-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-papaya-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 81
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-persimmons-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 19
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-starfruit-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 33
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-pirani-and-capacitance-manometer-readings-help-track-freeze-dried-fruit-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 21
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-prior-notice-mistakes-delay-freeze-dried-fruit-shipments/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-thermocouple-placement-changes-freeze-dried-fruit-endpoint-confidence/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-to-design-shelf-life-testing-for-freeze-dried-fruit/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-to-tell-whether-a-freeze-dried-fruit-supplier-is-a-manufacturer-trader-or-co-packer/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-to-use-fda-warning-letters-and-import-alerts-when-screening-freeze-dried-fruit-suppliers/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-to-use-freeze-dried-fruit-in-coffee-lattes-and-hot-drinks/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-to-use-freeze-dried-fruit-in-vinaigrettes-dressings-and-marinades/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 1.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/jackfruit-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/lemon-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/lucuma-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/lychee-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/mangosteen-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/moisture-control/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/peach-varieties-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/pear-varieties-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 41
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/persimmon-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 70.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/pineapple-varieties-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 23.333333333333332
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/plum-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/private-label-freeze-dried-fruit-launch-checklist/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 95
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/raspberry-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/starfruit-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/strawberry-varieties-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 10.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/what-a-bioengineered-food-disclosure-means-on-a-freeze-dried-fruit-label/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/what-parenthetical-sub-ingredients-mean-on-a-freeze-dried-fruit-label/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/why-case-level-lot-visibility-speeds-freeze-dried-fruit-receiving-and-claims/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/why-cell-structure-shapes-freeze-dried-fruit-crunch/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/why-certificate-scope-matters-more-than-the-gfsi-logo-in-freeze-dried-fruit-buying/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 4.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/why-collapse-temperature-limits-freeze-dried-fruit-cycle-speed/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/why-freeze-dried-fruit-calories-look-high-on-the-nutrition-facts-panel/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 60
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/why-freeze-dried-fruit-turns-sticky-before-it-looks-wet/"
+        ],
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 8.272727272727273
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/why-port-holds-and-customs-exams-distort-freeze-dried-fruit-lead-times/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/why-shelf-temperature-and-product-temperature-are-not-the-same-in-freeze-dried-fruit/"
+        ],
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 6.428571428571429
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/why-some-freeze-dried-fruit-pieces-are-softer-than-others/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 39.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/calculators/"
+        ],
+        "clicks": 0,
+        "impressions": 12,
+        "ctr": 0,
+        "position": 9.083333333333334
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/calculators/fruit-equivalency/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 79
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/calculators/pouch-barrier/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/"
+        ],
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 4.636363636363637
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/apple-vs-pear/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/apple-vs-strawberry/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 47
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/apricot-vs-plum/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 58.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/banana-vs-guava/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 54.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/banana-vs-papaya/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 31
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/banana-vs-passion-fruit/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 48
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/blackberry-vs-strawberry/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 58.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/blueberry-vs-raspberry/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 68.66666666666667
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/blueberry-vs-strawberry/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 80
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/cherry-vs-cranberry/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 36.75
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/cherry-vs-peach/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/cherry-vs-raspberry/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 23.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/cranberry-vs-mulberry/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 21.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/cranberry-vs-raspberry/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/dragon-fruit-vs-pomegranate/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/durian-vs-jackfruit/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 26
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/durian-vs-longan/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 33
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/durian-vs-lychee/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 41
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/durian-vs-mangosteen/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 35
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/durian-vs-rambutan/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 45.25
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/durian-vs-starfruit/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 39
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/fig-vs-kiwi/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/grapefruit-vs-lemon/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 28
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/guava-vs-papaya/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/honeydew-vs-watermelon/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 27
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/jackfruit-vs-jujube/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 34
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/jackfruit-vs-lychee/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 23.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/jackfruit-vs-starfruit/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 8.666666666666668
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/jujube-vs-mangosteen/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 45
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/jujube-vs-starfruit/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 60
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/lemon-vs-orange/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 1.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/longan-vs-lychee/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/longan-vs-mangosteen/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 49.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/longan-vs-sapodilla/"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 6.125
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/longan-vs-starfruit/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 43
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/lychee-vs-mangosteen/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 36
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/lychee-vs-starfruit/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 33.833333333333336
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/mango-vs-papaya/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 104
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/mango-vs-pineapple/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/mango-vs-strawberry/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/mulberry-vs-raspberry/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/papaya-vs-pineapple/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 22
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/pineapple-vs-strawberry/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/raspberry-vs-strawberry/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 8.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/editorial/"
+        ],
+        "clicks": 0,
+        "impressions": 12,
+        "ctr": 0,
+        "position": 7.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/"
+        ],
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 5.818181818181818
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/articles/"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/articles/buyer-guide/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 23
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/articles/category/industry-insights/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 34.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/articles/how-its-made/"
+        ],
+        "clicks": 0,
+        "impressions": 99,
+        "ctr": 0,
+        "position": 90.86868686868686
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/articles/lucuma-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 9.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/articles/maqui-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 70.3
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/articles/moisture-control/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/freeze-dried-fruit-supply-q1-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 17
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/freeze-dried-fruit-supply-q2-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 18
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/freeze-dried-fruit-supply-q3-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 20
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/freeze-dried-fruit-supply-q4-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 21
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/glossary/"
+        ],
+        "clicks": 0,
+        "impressions": 13,
+        "ctr": 0,
+        "position": 18.615384615384617
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/glossary/brix/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 93.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/glossary/usda-organic/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 98
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/state-of-freeze-dried-fruit-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/freeze-dried-fruit-supply-q1-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/freeze-dried-fruit-supply-q2-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/glossary/"
+        ],
+        "clicks": 0,
+        "impressions": 12,
+        "ctr": 0,
+        "position": 2.083333333333333
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/glossary/enzymatic-browning/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 75
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/glossary/eutectic-point/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 61
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/glossary/metallized-film/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 96
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/glossary/otr/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 49
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/glossary/sqf/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 36
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/glossary/wvtr/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 86
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/methodology/"
+        ],
+        "clicks": 0,
+        "impressions": 13,
+        "ctr": 0,
+        "position": 10.384615384615385
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/state-of-freeze-dried-fruit-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 16,
+        "ctr": 0,
+        "position": 54.625
+      }
+    ],
+    "pagination": {
+      "limit": 1000,
+      "offset": 0,
+      "returned": 144,
+      "hasMore": false,
+      "note": "Showing all 144 rows."
+    },
+    "dataSource": "api",
+    "settledThrough": "2026-10-11",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-12",
+      "settledThrough": "2026-10-11",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-10-05",
+        "endDate": "2026-10-14",
+        "dataState": "all"
+      }
+    }
+  },
+  "queries28": {
+    "siteUrl": "sc-domain:freeze-dried-fruit.com",
+    "startDate": "2026-09-14",
+    "endDate": "2026-10-11",
+    "dimensions": [
+      "query"
+    ],
+    "searchType": "web",
+    "rowCount": 10,
+    "rows": [
+      {
+        "keys": [
+          "different types of persimmons"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 21.5
+      },
+      {
+        "keys": [
+          "dried fruit for charcuterie board"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 97.5
+      },
+      {
+        "keys": [
+          "freeze dried fruit vs dried fruit"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 21
+      },
+      {
+        "keys": [
+          "maqui liofilizado"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 78
+      },
+      {
+        "keys": [
+          "metalized film facer"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 96
+      },
+      {
+        "keys": [
+          "sqf"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 36
+      },
+      {
+        "keys": [
+          "two types of persimmon"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 23
+      },
+      {
+        "keys": [
+          "types of persimmons"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 18.25
+      },
+      {
+        "keys": [
+          "what are the different types of persimmons"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "why does dried fruit have more calories"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 60
+      }
+    ],
+    "pagination": {
+      "limit": 1000,
+      "offset": 0,
+      "returned": 10,
+      "hasMore": false,
+      "note": "Showing all 10 rows."
+    },
+    "dataSource": "api",
+    "settledThrough": "2026-10-11",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-12",
+      "settledThrough": "2026-10-11",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-10-05",
+        "endDate": "2026-10-14",
+        "dataState": "all"
+      }
+    }
+  },
+  "pages28": {
+    "siteUrl": "sc-domain:freeze-dried-fruit.com",
+    "startDate": "2026-09-14",
+    "endDate": "2026-10-11",
+    "dimensions": [
+      "page"
+    ],
+    "searchType": "web",
+    "rowCount": 41,
+    "rows": [
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 1.625
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/"
+        ],
+        "clicks": 0,
+        "impressions": 49,
+        "ctr": 0,
+        "position": 5.36734693877551
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-cheese-boards-and-snack-platters/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 97.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/category/industry-insights/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-conduction-and-radiation-heat-transfer-shape-freeze-dried-fruit-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 28.333333333333332
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-dual-column-nutrition-facts-labels-change-the-way-to-read-freeze-dried-fruit-bags/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-glass-transition-temperature-governs-freeze-dried-fruit-stickiness-and-shelf-stability/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 25
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-importer-of-record-and-fsvp-importer-roles-differ-in-freeze-dried-fruit-buying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-lychees-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-mangoes-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-persimmons-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 19
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-to-design-shelf-life-testing-for-freeze-dried-fruit/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-to-use-fda-warning-letters-and-import-alerts-when-screening-freeze-dried-fruit-suppliers/"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-to-use-freeze-dried-fruit-in-coffee-lattes-and-hot-drinks/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/how-to-use-freeze-dried-fruit-in-vinaigrettes-dressings-and-marinades/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 1.5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/jackfruit-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/lemon-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/mangosteen-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/pineapple-varieties-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/starfruit-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/why-freeze-dried-fruit-calories-look-high-on-the-nutrition-facts-panel/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 60
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/why-freeze-dried-fruit-turns-sticky-before-it-looks-wet/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/articles/why-port-holds-and-customs-exams-distort-freeze-dried-fruit-lead-times/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/calculators/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/apple-vs-pear/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/guava-vs-papaya/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/longan-vs-sapodilla/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/compare/pineapple-vs-strawberry/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/editorial/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/articles/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 10
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/articles/lucuma-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/articles/maqui-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 78
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/glossary/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/es/glossary/usda-organic/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 98
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/glossary/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/glossary/metallized-film/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 96
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/glossary/sqf/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 36
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/methodology/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "https://freeze-dried-fruit.com/state-of-freeze-dried-fruit-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      }
+    ],
+    "pagination": {
+      "limit": 1000,
+      "offset": 0,
+      "returned": 41,
+      "hasMore": false,
+      "note": "Showing all 41 rows."
+    },
+    "dataSource": "api",
+    "settledThrough": "2026-10-11",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-12",
+      "settledThrough": "2026-10-11",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-10-05",
+        "endDate": "2026-10-14",
+        "dataState": "all"
+      }
+    }
+  },
+  "queryPagePairs90": {
+    "siteUrl": "sc-domain:freeze-dried-fruit.com",
+    "startDate": "2026-07-14",
+    "endDate": "2026-10-11",
+    "dimensions": [
+      "query",
+      "page"
+    ],
+    "searchType": "web",
+    "rowCount": 43,
+    "rows": [
+      {
+        "keys": [
+          "are freeze dried raspberries the same as frozen raspberries",
+          "https://freeze-dried-fruit.com/compare/blueberry-vs-raspberry/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 66
+      },
+      {
+        "keys": [
+          "atkins papaya recipe",
+          "https://freeze-dried-fruit.com/compare/mango-vs-papaya/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 202
+      },
+      {
+        "keys": [
+          "best fruit for oatmeal",
+          "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 39
+      },
+      {
+        "keys": [
+          "brix",
+          "https://freeze-dried-fruit.com/es/glossary/brix/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 91
+      },
+      {
+        "keys": [
+          "brix que es",
+          "https://freeze-dried-fruit.com/es/glossary/brix/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 96
+      },
+      {
+        "keys": [
+          "can you freeze dry oatmeal",
+          "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 66
+      },
+      {
+        "keys": [
+          "difference between blueberry and raspberry",
+          "https://freeze-dried-fruit.com/compare/blueberry-vs-raspberry/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 81
+      },
+      {
+        "keys": [
+          "different types of persimmons",
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-persimmons-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 21.5
+      },
+      {
+        "keys": [
+          "dried cherries and cranberries",
+          "https://freeze-dried-fruit.com/compare/cherry-vs-cranberry/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 96
+      },
+      {
+        "keys": [
+          "dried cherries vs dried cranberries",
+          "https://freeze-dried-fruit.com/compare/cherry-vs-cranberry/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 22
+      },
+      {
+        "keys": [
+          "dried fruit for charcuterie board",
+          "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-cheese-boards-and-snack-platters/"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 96
+      },
+      {
+        "keys": [
+          "dried fruits for oatmeal",
+          "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 21
+      },
+      {
+        "keys": [
+          "durian and rambutan",
+          "https://freeze-dried-fruit.com/compare/durian-vs-rambutan/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 67
+      },
+      {
+        "keys": [
+          "durian rambutan",
+          "https://freeze-dried-fruit.com/compare/durian-vs-rambutan/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 43
+      },
+      {
+        "keys": [
+          "freeze dried blueberries vs fresh",
+          "https://freeze-dried-fruit.com/compare/blueberry-vs-strawberry/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 83
+      },
+      {
+        "keys": [
+          "freeze dried durian fruit",
+          "https://freeze-dried-fruit.com/articles/durian-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 74
+      },
+      {
+        "keys": [
+          "freeze dried fruit market",
+          "https://freeze-dried-fruit.com/state-of-freeze-dried-fruit-2026/"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 110.5
+      },
+      {
+        "keys": [
+          "freeze dried fruit vs dried fruit",
+          "https://freeze-dried-fruit.com/articles/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 21
+      },
+      {
+        "keys": [
+          "jujube berries starry mart",
+          "https://freeze-dried-fruit.com/compare/jujube-vs-starfruit/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 82
+      },
+      {
+        "keys": [
+          "liofilizacion de frutas",
+          "https://freeze-dried-fruit.com/es/articles/how-its-made/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 95.77777777777777
+      },
+      {
+        "keys": [
+          "liofilizado en ingles",
+          "https://freeze-dried-fruit.com/es/articles/how-its-made/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 71
+      },
+      {
+        "keys": [
+          "liofilizado en ingles",
+          "https://freeze-dried-fruit.com/es/glossary/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 72
+      },
+      {
+        "keys": [
+          "liofilizado in english",
+          "https://freeze-dried-fruit.com/es/glossary/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 76
+      },
+      {
+        "keys": [
+          "lychee star fruit",
+          "https://freeze-dried-fruit.com/compare/lychee-vs-starfruit/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 74
+      },
+      {
+        "keys": [
+          "mangosteen longan fruit",
+          "https://freeze-dried-fruit.com/compare/longan-vs-mangosteen/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 69
+      },
+      {
+        "keys": [
+          "maqui liofilizado",
+          "https://freeze-dried-fruit.com/es/articles/maqui-for-freeze-drying/"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 76.66666666666667
+      },
+      {
+        "keys": [
+          "metalized film facer",
+          "https://freeze-dried-fruit.com/glossary/metallized-film/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 96
+      },
+      {
+        "keys": [
+          "parenthetical fruit",
+          "https://freeze-dried-fruit.com/articles/what-parenthetical-sub-ingredients-mean-on-a-freeze-dried-fruit-label/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "plums vs apricots",
+          "https://freeze-dried-fruit.com/compare/apricot-vs-plum/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 77
+      },
+      {
+        "keys": [
+          "private label freeze-drying",
+          "https://freeze-dried-fruit.com/articles/private-label-freeze-dried-fruit-launch-checklist/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 95
+      },
+      {
+        "keys": [
+          "proceso de liofilización de frutas",
+          "https://freeze-dried-fruit.com/es/articles/how-its-made/"
+        ],
+        "clicks": 0,
+        "impressions": 85,
+        "ctr": 0,
+        "position": 92.04705882352941
+      },
+      {
+        "keys": [
+          "rambutan vs durian",
+          "https://freeze-dried-fruit.com/compare/durian-vs-rambutan/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 35
+      },
+      {
+        "keys": [
+          "raspberry and blueberry difference",
+          "https://freeze-dried-fruit.com/compare/blueberry-vs-raspberry/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 81
+      },
+      {
+        "keys": [
+          "raspberry or blueberry",
+          "https://freeze-dried-fruit.com/compare/blueberry-vs-raspberry/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 81.5
+      },
+      {
+        "keys": [
+          "sqf",
+          "https://freeze-dried-fruit.com/glossary/sqf/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 36
+      },
+      {
+        "keys": [
+          "tipos de papaya",
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-papaya-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 76
+      },
+      {
+        "keys": [
+          "two types of persimmon",
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-persimmons-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 23
+      },
+      {
+        "keys": [
+          "types of persimmons",
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-persimmons-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 18.25
+      },
+      {
+        "keys": [
+          "variedades de la papaya",
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-papaya-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 86
+      },
+      {
+        "keys": [
+          "water vapour transmission rate food packaging",
+          "https://freeze-dried-fruit.com/glossary/wvtr/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 86
+      },
+      {
+        "keys": [
+          "what are the different types of persimmons",
+          "https://freeze-dried-fruit.com/articles/how-many-types-of-persimmons-are-there/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 16
+      },
+      {
+        "keys": [
+          "which is sweeter",
+          "https://freeze-dried-fruit.com/compare/longan-vs-lychee/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "why does dried fruit have more calories",
+          "https://freeze-dried-fruit.com/articles/why-freeze-dried-fruit-calories-look-high-on-the-nutrition-facts-panel/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 60
+      }
+    ],
+    "pagination": {
+      "limit": 1000,
+      "offset": 0,
+      "returned": 43,
+      "hasMore": false,
+      "note": "Showing all 43 rows."
+    },
+    "dataSource": "api",
+    "settledThrough": "2026-10-11",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-12",
+      "settledThrough": "2026-10-11",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-10-05",
+        "endDate": "2026-10-14",
+        "dataState": "all"
+      }
+    }
+  },
+  "countries90": {
+    "siteUrl": "sc-domain:freeze-dried-fruit.com",
+    "range": {
+      "startDate": "2026-07-14",
+      "endDate": "2026-10-11"
+    },
+    "countries": [
+      {
+        "country": "usa",
+        "clicks": 1,
+        "impressions": 203,
+        "ctr": 0.49261083743842365,
+        "position": 22.88177339901478
+      },
+      {
+        "country": "alb",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "country": "are",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "country": "arg",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 31.666666666666668
+      },
+      {
+        "country": "aus",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 16.857142857142858
+      },
+      {
+        "country": "bel",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 7
+      },
+      {
+        "country": "bgd",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 29.5
+      },
+      {
+        "country": "bra",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 4.666666666666666
+      },
+      {
+        "country": "brb",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "country": "can",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 24.2
+      },
+      {
+        "country": "che",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7.5
+      },
+      {
+        "country": "chl",
+        "clicks": 0,
+        "impressions": 11,
+        "ctr": 0,
+        "position": 65.27272727272727
+      },
+      {
+        "country": "chn",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 12
+      },
+      {
+        "country": "col",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 40
+      },
+      {
+        "country": "cri",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "country": "deu",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 4.5
+      },
+      {
+        "country": "esp",
+        "clicks": 0,
+        "impressions": 97,
+        "ctr": 0,
+        "position": 91.61855670103093
+      },
+      {
+        "country": "fra",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 26
+      },
+      {
+        "country": "gbr",
+        "clicks": 0,
+        "impressions": 13,
+        "ctr": 0,
+        "position": 13.23076923076923
+      },
+      {
+        "country": "hkg",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "country": "idn",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 49.333333333333336
+      },
+      {
+        "country": "ind",
+        "clicks": 0,
+        "impressions": 16,
+        "ctr": 0,
+        "position": 35.375
+      },
+      {
+        "country": "ita",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "country": "jam",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "country": "jor",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 67
+      },
+      {
+        "country": "jpn",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "country": "kor",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 8.5
+      },
+      {
+        "country": "ltu",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "country": "mex",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 51.57142857142857
+      },
+      {
+        "country": "mys",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 29.375
+      },
+      {
+        "country": "nzl",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 49.5
+      },
+      {
+        "country": "pak",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 19.333333333333332
+      },
+      {
+        "country": "per",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 99.33333333333333
+      },
+      {
+        "country": "phl",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 50.22222222222222
+      },
+      {
+        "country": "rus",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 32.5
+      },
+      {
+        "country": "sgp",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 4.25
+      },
+      {
+        "country": "tha",
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 42.625
+      },
+      {
+        "country": "tur",
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 54
+      },
+      {
+        "country": "ukr",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 37
+      },
+      {
+        "country": "vnm",
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 51.7
+      },
+      {
+        "country": "zaf",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 9
+      }
+    ],
+    "pagination": {
+      "limit": 100,
+      "offset": 0,
+      "returned": 41,
+      "hasMore": false,
+      "note": "Showing all 41 rows."
+    },
+    "dataSource": "api",
+    "settledThrough": "2026-10-11",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-12",
+      "settledThrough": "2026-10-11",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-10-05",
+        "endDate": "2026-10-14",
+        "dataState": "all"
+      }
+    }
+  },
+  "cannibalization90": {
+    "siteUrl": "sc-domain:freeze-dried-fruit.com",
+    "range": {
+      "startDate": "2026-07-14",
+      "endDate": "2026-10-11"
+    },
+    "minImpressions": 5,
+    "cannibalized": [],
+    "truncated": false,
+    "scanLimit": 25000,
+    "dataSource": "api"
+  },
+  "sitemaps": {
+    "siteUrl": "sc-domain:freeze-dried-fruit.com",
+    "sitemaps": [
+      {
+        "path": "https://freeze-dried-fruit.com/sitemap.xml",
+        "lastSubmitted": "2026-05-16T19:53:08.502Z",
+        "isPending": false,
+        "isSitemapsIndex": false,
+        "type": "sitemap",
+        "lastDownloaded": "2026-10-07T03:18:32.595Z",
+        "warnings": "0",
+        "errors": "0",
+        "contents": [
+          {
+            "type": "web",
+            "submitted": "625",
+            "indexed": "0"
+          }
+        ]
+      }
+    ]
+  },
+  "pageIndexing": {
+    "source": "Signed-in Google Search Console Page indexing UI, All known pages",
+    "reportLastUpdated": "2026-10-08",
+    "observedOn": "2026-10-14",
+    "indexed": 268,
+    "notIndexed": 418,
+    "reasons": {
+      "Discovered - currently not indexed": 254,
+      "Crawled - currently not indexed": 129,
+      "Alternate page with proper canonical tag": 34,
+      "Soft 404": 1
+    },
+    "leadingCauseSamples": [
+      "https://freeze-dried-fruit.com/articles/added-sugar/",
+      "https://freeze-dried-fruit.com/articles/apple-varieties-for-freeze-drying/",
+      "https://freeze-dried-fruit.com/articles/barrier-films-for-freeze-dried-fruit/"
+    ],
+    "note": "Individual inspection differs from lagging aggregate examples for apple and barrier guides; neither inspection supplied a canonical. Known-URL counts include historical/alternate URLs and are not a current-corpus indexing rate."
+  },
+  "urlInspections": [
+    {
+      "siteUrl": "sc-domain:freeze-dried-fruit.com",
+      "inspectionUrl": "https://freeze-dried-fruit.com/articles/added-sugar/",
+      "verdict": "NEUTRAL",
+      "coverageState": "Discovered - currently not indexed",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "crawledAs": "CRAWLING_USER_AGENT_UNSPECIFIED",
+      "referringUrls": [
+        "https://freeze-dried-fruit.com/"
+      ],
+      "googleCanonical": null,
+      "userCanonical": null,
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:freeze-dried-fruit.com&id=oyNTe2Z94LUV3E49hjmdWA&utm_medium=link&utm_source=api"
+    },
+    {
+      "siteUrl": "sc-domain:freeze-dried-fruit.com",
+      "inspectionUrl": "https://freeze-dried-fruit.com/articles/apple-varieties-for-freeze-drying/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "googleCanonical": null,
+      "userCanonical": null,
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:freeze-dried-fruit.com&id=9uozSn_9V7CpzjiPOt19CQ&utm_medium=link&utm_source=api"
+    },
+    {
+      "siteUrl": "sc-domain:freeze-dried-fruit.com",
+      "inspectionUrl": "https://freeze-dried-fruit.com/articles/barrier-films-for-freeze-dried-fruit/",
+      "verdict": "NEUTRAL",
+      "coverageState": "URL is unknown to Google",
+      "robotsTxtState": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "indexingState": "INDEXING_STATE_UNSPECIFIED",
+      "lastCrawlTime": null,
+      "pageFetchState": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "referringUrls": [],
+      "googleCanonical": null,
+      "userCanonical": null,
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:freeze-dried-fruit.com&id=k8eW8T7GFHemBO-5uXtAuw&utm_medium=link&utm_source=api"
+    },
+    {
+      "siteUrl": "sc-domain:freeze-dried-fruit.com",
+      "inspectionUrl": "https://freeze-dried-fruit.com/articles/how-many-types-of-persimmons-are-there/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-24T23:55:12Z",
+      "pageFetchState": "SUCCESSFUL",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://freeze-dried-fruit.com/articles/category/fruit-reports/"
+      ],
+      "googleCanonical": "https://freeze-dried-fruit.com/articles/how-many-types-of-persimmons-are-there/",
+      "userCanonical": "https://freeze-dried-fruit.com/articles/how-many-types-of-persimmons-are-there/",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:freeze-dried-fruit.com&id=Dfx2Pfx5lAIeU1HRiLXEyw&utm_medium=link&utm_source=api"
+    },
+    {
+      "siteUrl": "sc-domain:freeze-dried-fruit.com",
+      "inspectionUrl": "https://freeze-dried-fruit.com/es/articles/how-its-made/",
+      "verdict": "PASS",
+      "coverageState": "Submitted and indexed",
+      "robotsTxtState": "ALLOWED",
+      "indexingState": "INDEXING_ALLOWED",
+      "lastCrawlTime": "2026-09-28T17:56:20Z",
+      "pageFetchState": "SUCCESSFUL",
+      "crawledAs": "MOBILE",
+      "referringUrls": [
+        "https://freeze-dried-fruit.com/sitemap.xml"
+      ],
+      "googleCanonical": "https://freeze-dried-fruit.com/es/articles/how-its-made/",
+      "userCanonical": "https://freeze-dried-fruit.com/es/articles/how-its-made/",
+      "inspectionResultLink": "https://search.google.com/search-console/inspect?resource_id=sc-domain:freeze-dried-fruit.com&id=icsdHmPzYvK1iUEgfNQG5g&utm_medium=link&utm_source=api"
+    }
+  ],
+  "liveOnpageAudit": {
+    "siteUrl": "sc-domain:freeze-dried-fruit.com",
+    "contextRange": {
+      "startDate": "2026-09-14",
+      "endDate": "2026-10-11"
+    },
+    "auditedCount": 3,
+    "skipped": [],
+    "truncated": false,
+    "summary": {
+      "total_pages": 3,
+      "total_issues": 14,
+      "by_severity": {
+        "critical": 0,
+        "high": 0,
+        "medium": 10,
+        "low": 4,
+        "info": 0
+      },
+      "indexable_pages": 3,
+      "non_indexable_pages": 0
+    },
+    "pages": [
+      {
+        "url": "https://freeze-dried-fruit.com/articles/added-sugar/",
+        "finalUrl": "https://freeze-dried-fruit.com/articles/added-sugar/",
+        "statusCode": 200,
+        "redirected": false,
+        "redirectChain": [],
+        "responseTimeMs": 111,
+        "impressions": 0,
+        "clicks": 0,
+        "indexable": true,
+        "indexabilityStatus": "Indexable",
+        "title": "Why Some Freeze-Dried Fruit Has Added Sugar — Freeze-Dried-Fruit.com",
+        "titleLength": 68,
+        "metaDescriptionLength": 232,
+        "metaKeywords": null,
+        "h1Count": 1,
+        "h3Count": 7,
+        "h4Count": 3,
+        "h5Count": 3,
+        "h6Count": 0,
+        "wordCount": 929,
+        "canonicalUrl": "https://freeze-dried-fruit.com/articles/added-sugar/",
+        "canonicalIsSelf": true,
+        "noindex": false,
+        "internalLinks": 45,
+        "externalLinks": 6,
+        "imagesMissingAlt": 0,
+        "imagesCount": 4,
+        "hasStructuredData": true,
+        "structuredDataTypes": [
+          "Answer",
+          "Article",
+          "BreadcrumbList",
+          "CreativeWork",
+          "FAQPage",
+          "ImageObject",
+          "ListItem",
+          "Organization",
+          "Question",
+          "SpeakableSpecification",
+          "WebPage"
+        ],
+        "schemaIssues": [
+          {
+            "type": "Organization",
+            "level": "error",
+            "field": "logo",
+            "message": "Organization is missing required field \"logo\""
+          },
+          {
+            "type": "Organization",
+            "level": "error",
+            "field": "logo",
+            "message": "Organization is missing required field \"logo\""
+          },
+          {
+            "type": "Organization",
+            "level": "error",
+            "field": "logo",
+            "message": "Organization is missing required field \"logo\""
+          },
+          {
+            "type": "Organization",
+            "level": "error",
+            "field": "logo",
+            "message": "Organization is missing required field \"logo\""
+          },
+          {
+            "type": "Organization",
+            "level": "error",
+            "field": "logo",
+            "message": "Organization is missing required field \"logo\""
+          }
+        ],
+        "hasViewport": true,
+        "faviconPresent": true,
+        "lang": "en",
+        "hreflangCount": 0,
+        "bodyBytes": 31686,
+        "contentEncoding": "br",
+        "issues": [
+          {
+            "id": "title-long",
+            "category": "meta",
+            "severity": "low",
+            "message": "Title is 68 chars (over ~60 may truncate)"
+          },
+          {
+            "id": "meta-long",
+            "category": "meta",
+            "severity": "low",
+            "message": "Meta description is 232 chars (over ~160 may truncate)"
+          },
+          {
+            "id": "schema-organization-missing-logo",
+            "category": "structured-data",
+            "severity": "medium",
+            "message": "Organization is missing required field \"logo\""
+          },
+          {
+            "id": "schema-organization-missing-logo",
+            "category": "structured-data",
+            "severity": "medium",
+            "message": "Organization is missing required field \"logo\""
+          },
+          {
+            "id": "schema-organization-missing-logo",
+            "category": "structured-data",
+            "severity": "medium",
+            "message": "Organization is missing required field \"logo\""
+          },
+          {
+            "id": "schema-organization-missing-logo",
+            "category": "structured-data",
+            "severity": "medium",
+            "message": "Organization is missing required field \"logo\""
+          },
+          {
+            "id": "schema-organization-missing-logo",
+            "category": "structured-data",
+            "severity": "medium",
+            "message": "Organization is missing required field \"logo\""
+          }
+        ]
+      },
+      {
+        "url": "https://freeze-dried-fruit.com/es/articles/how-its-made/",
+        "finalUrl": "https://freeze-dried-fruit.com/es/articles/how-its-made/",
+        "statusCode": 200,
+        "redirected": false,
+        "redirectChain": [],
+        "responseTimeMs": 198,
+        "impressions": 0,
+        "clicks": 0,
+        "indexable": true,
+        "indexabilityStatus": "Indexable",
+        "title": "Cómo se hace la fruta liofilizada — Freeze-Dried-Fruit.com",
+        "titleLength": 58,
+        "metaDescriptionLength": 297,
+        "metaKeywords": null,
+        "h1Count": 1,
+        "h3Count": 11,
+        "h4Count": 3,
+        "h5Count": 3,
+        "h6Count": 0,
+        "wordCount": 1287,
+        "canonicalUrl": "https://freeze-dried-fruit.com/es/articles/how-its-made/",
+        "canonicalIsSelf": true,
+        "noindex": false,
+        "internalLinks": 53,
+        "externalLinks": 3,
+        "imagesMissingAlt": 0,
+        "imagesCount": 3,
+        "hasStructuredData": true,
+        "structuredDataTypes": [
+          "Answer",
+          "Article",
+          "BreadcrumbList",
+          "CreativeWork",
+          "FAQPage",
+          "ImageObject",
+          "ListItem",
+          "Organization",
+          "Question",
+          "SpeakableSpecification",
+          "WebPage"
+        ],
+        "schemaIssues": [
+          {
+            "type": "Organization",
+            "level": "error",
+            "field": "logo",
+            "message": "Organization is missing required field \"logo\""
+          },
+          {
+            "type": "Organization",
+            "level": "error",
+            "field": "logo",
+            "message": "Organization is missing required field \"logo\""
+          },
+          {
+            "type": "Organization",
+            "level": "error",
+            "field": "logo",
+            "message": "Organization is missing required field \"logo\""
+          },
+          {
+            "type": "Organization",
+            "level": "error",
+            "field": "logo",
+            "message": "Organization is missing required field \"logo\""
+          }
+        ],
+        "hasViewport": true,
+        "faviconPresent": true,
+        "lang": "es",
+        "hreflangCount": 3,
+        "bodyBytes": 38524,
+        "contentEncoding": "br",
+        "issues": [
+          {
+            "id": "meta-long",
+            "category": "meta",
+            "severity": "low",
+            "message": "Meta description is 297 chars (over ~160 may truncate)"
+          },
+          {
+            "id": "schema-organization-missing-logo",
+            "category": "structured-data",
+            "severity": "medium",
+            "message": "Organization is missing required field \"logo\""
+          },
+          {
+            "id": "schema-organization-missing-logo",
+            "category": "structured-data",
+            "severity": "medium",
+            "message": "Organization is missing required field \"logo\""
+          },
+          {
+            "id": "schema-organization-missing-logo",
+            "category": "structured-data",
+            "severity": "medium",
+            "message": "Organization is missing required field \"logo\""
+          },
+          {
+            "id": "schema-organization-missing-logo",
+            "category": "structured-data",
+            "severity": "medium",
+            "message": "Organization is missing required field \"logo\""
+          }
+        ]
+      },
+      {
+        "url": "https://freeze-dried-fruit.com/articles/how-many-types-of-persimmons-are-there/",
+        "finalUrl": "https://freeze-dried-fruit.com/articles/how-many-types-of-persimmons-are-there/",
+        "statusCode": 200,
+        "redirected": false,
+        "redirectChain": [],
+        "responseTimeMs": 190,
+        "impressions": 9,
+        "clicks": 0,
+        "indexable": true,
+        "indexabilityStatus": "Indexable",
+        "title": "How Many Types of Persimmons Are There? A Guide to Persimmon Varieties — Freeze-Dried-Fruit.com",
+        "titleLength": 95,
+        "metaDescriptionLength": 129,
+        "metaKeywords": null,
+        "h1Count": 1,
+        "h3Count": 12,
+        "h4Count": 3,
+        "h5Count": 3,
+        "h6Count": 0,
+        "wordCount": 1638,
+        "canonicalUrl": "https://freeze-dried-fruit.com/articles/how-many-types-of-persimmons-are-there/",
+        "canonicalIsSelf": true,
+        "noindex": false,
+        "internalLinks": 54,
+        "externalLinks": 1,
+        "imagesMissingAlt": 0,
+        "imagesCount": 4,
+        "hasStructuredData": true,
+        "structuredDataTypes": [
+          "Answer",
+          "Article",
+          "BreadcrumbList",
+          "FAQPage",
+          "ImageObject",
+          "ListItem",
+          "Organization",
+          "Question",
+          "SpeakableSpecification",
+          "WebPage"
+        ],
+        "schemaIssues": [
+          {
+            "type": "Organization",
+            "level": "error",
+            "field": "logo",
+            "message": "Organization is missing required field \"logo\""
+          }
+        ],
+        "hasViewport": true,
+        "faviconPresent": true,
+        "lang": "en",
+        "hreflangCount": 0,
+        "bodyBytes": 40940,
+        "contentEncoding": "br",
+        "issues": [
+          {
+            "id": "title-long",
+            "category": "meta",
+            "severity": "low",
+            "message": "Title is 95 chars (over ~60 may truncate)"
+          },
+          {
+            "id": "schema-organization-missing-logo",
+            "category": "structured-data",
+            "severity": "medium",
+            "message": "Organization is missing required field \"logo\""
+          }
+        ]
+      }
+    ],
+    "dataSource": "api"
+  },
+  "repositoryFindings": {
+    "englishArticles": 379,
+    "spanishArticles": 19,
+    "fruitVarietyPagesWithUndefinedTableCells": 30,
+    "undefinedTableCells": 151,
+    "ga4Configured": false,
+    "spanishGlossaryLastmod": "buildSitemap still uses today's date for every Spanish per-term entry; other glossary entries use glossary_data_lastmod",
+    "semanticRelatedLinks": "Already present for English articles",
+    "allArticlesArchive": "Already segmented into category directories"
+  },
+  "limits": [
+    "Live GSC API; query rows omit anonymized queries: 164 visible-query impressions vs 476 property impressions over 90 days; 16 vs 101 over 28 days.",
+    "Page-level impressions can count multiple URLs for one search and must not be equated with property totals.",
+    "No GA4 linked to this property in GSC Wizard, so no conversion/revenue conclusions.",
+    "No proof of a penalty, algorithm cause, or systematic server bottleneck from this audit.",
+    "Automated audit logo and character-count warnings are not demonstrated indexing blockers."
+  ]
+}

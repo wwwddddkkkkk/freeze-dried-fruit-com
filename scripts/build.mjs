@@ -3705,13 +3705,9 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs
   }
 
   // Spanish home + Spanish article translations + Spanish glossary.
-  //
-  // Priority lowered (May 2026) while English indexing is still being worked
-  // through. With ~50% of submitted URLs sitting in "Discovered — not
-  // indexed", we want Google to spend crawl budget on English first; Spanish
-  // can be re-promoted once English coverage is solid and we have dedicated
-  // Spanish backlinks. Pages remain in the sitemap so they stay discoverable
-  // and hreflang stays intact — only the priority hint changes.
+  // Sitemap priority is not a crawl-budget control. Locale pages remain here
+  // because they are canonical, linked alternatives—not to steer Google away
+  // from one language in favor of another.
   if (articlesEs.length) {
     const latestEsDate = articlesEs.reduce((acc, a) => {
       const t = (a.updated || a.date)?.getTime();
@@ -3768,7 +3764,9 @@ function buildSitemap({ site, articles, reports = [], articlesEs = [], reportsEs
     for (const t of GLOSSARY_ES) {
       entries.push({
         loc: `/es/glossary/${t.slug}/`,
-        lastmod: today,
+        // English and Spanish definitions share one source data revision, so
+        // this date must not change merely because a static build ran today.
+        lastmod: glossaryLastmod,
         changefreq: "monthly",
         priority: "0.3",
       });

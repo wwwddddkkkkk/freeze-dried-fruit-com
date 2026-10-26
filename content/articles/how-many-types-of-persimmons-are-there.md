@@ -3,7 +3,7 @@ title: "How Many Types of Persimmons Are There? A Guide to Persimmon Varieties"
 category: "Fruit Reports"
 report_series: "Fruit Variety Guide"
 date: 2026-04-25
-updated: 2026-05-15
+updated: 2026-10-26
 cover_image: /images/articles/how-many-types-of-persimmons-are-there.jpg
 cover_alt: "A ripe Fuyu persimmon on a plain background"
 cover_credit: "Joe Ravi / CC BY-SA 3.0"
@@ -28,12 +28,25 @@ faqs:
   - q: "What is Sharon fruit?"
     a: "Sharon fruit is the trade name for Israeli-grown persimmons (mostly Triumph cultivar) that have been treated to remove astringency. The name comes from the Sharon Plain growing region. The treatment lets the fruit be sold firm without the tannin problem — basically the Israeli equivalent of Spain's Rojo Brillante commercialization."
   - q: "Which persimmon variety is best for freeze-drying?"
-    a: "Astringency control is everything. Non-astringent types (Fuyu, Jiro, Sharon fruit, Rojo Brillante after treatment) are easier for slices and chips. Fully ripe astringent types (Hachiya, Saijo) can produce rich, honeyed flavor but need careful handling. Buyers should ask variety, astringency class, de-astringency treatment, ripeness at cutting, slice thickness, and whether the product is raw, treated, or puree-derived."
+    a: "There is no universal best variety without a product specification. Fuyu and Jiro are non-astringent cultivars that can be handled while firm; Hachiya and Saijo need full soft ripeness before fresh eating. Rojo Brillante is astringent, so a firm commercial offering should identify its de-astringency treatment. Buyers should ask variety, astringency class, treatment, ripeness at cutting, slice thickness, and whether the product is raw, treated, or puree-derived."
   - q: "What should buyers ask freeze-dried persimmon suppliers?"
     a: "Ask variety (Fuyu, Hachiya, Jiro, Rojo Brillante, Sharon, Saijo, etc.), astringency class, de-astringency treatment if any, ripeness standard at processing, origin, cut format, raw material state (firm, soft, puree), target moisture or water activity, expected breakage rate, and intended product positioning (snack, dessert ingredient, autumn blend)."
+sources:
+  - title: "Crop Profile for Persimmons in California"
+    url: "https://ucanr.edu/datastoreFiles/391-473.pdf"
+    publisher: "University of California Agriculture and Natural Resources"
+    note: "Referenced for the astringent/non-astringent classification and examples including Hachiya, Rojo Brillante, Fuyu, and Jiro."
+  - title: "Persimmons for California"
+    url: "https://my.ucanr.edu/repository/fileAccessPublic.cfm?fn=ca4204p7-171494.pdf"
+    publisher: "University of California Agriculture and Natural Resources"
+    note: "Referenced for the additional pollination-constant and pollination-variant classification used for Asian persimmon cultivars."
+  - title: "Home Garden Persimmons"
+    url: "https://extension.uga.edu/publications/detail.html?number=C784&title=home-garden-persimmons"
+    publisher: "University of Georgia Cooperative Extension"
+    note: "Referenced for the practical distinction between firm-eating Fuyu/Jiro fruit and fully soft-ripe astringent fruit."
 ---
 
-Persimmon variety begins with one essential question: is the fruit astringent or non-astringent? The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars. Some describe color groups, trade groups, regional selections, or related fruit types that consumers place in the same category.
+Persimmon variety begins with one essential question: is the fruit astringent or non-astringent? The search question sounds like it should have one clean number, but fruit variety is rarely that tidy. Some names describe cultivars; others are trade or regional names. Asian persimmons are also commonly described by whether pollination changes the fruit's flesh and eating behavior. Those overlapping systems are why a dependable answer starts with type and use, not a single cultivar count.
 
 This guide is written for curious consumers, snack founders, ingredient buyers, and anyone trying to understand why two products with the same fruit name can behave like different ingredients.
 
@@ -66,7 +79,7 @@ Rojo Brillante and commercial persimmon exports.
 
 ### Israel
 
-Sharon fruit as a market-recognized non-astringent type.
+Sharon fruit as a market-recognized commercial name; ask the supplier for the cultivar and any de-astringency treatment rather than treating the name as a complete specification.
 
 ### Specialty orchards
 
@@ -78,19 +91,27 @@ A global variety map helps separate local food culture from export trade. The fr
 
 | Personality | Examples | Why it matters |
 | --- | --- | --- |
-| Firm and non-astringent | Fuyu, Jiro, Sharon fruit | undefined |
-| Soft and astringent until ripe | Hachiya, Saijo | undefined |
-| Commercial export | Rojo Brillante after de-astringency treatment | undefined |
-| Dried persimmon culture | Hachiya and related drying-friendly types | undefined |
-| Specialty flavor | Chocolate and cinnamon-noted cultivars | undefined |
+| Firm and non-astringent | Fuyu, Jiro | These cultivars are typically edible while crisp, making the raw-fruit handling question clearer. |
+| Soft and astringent until ripe | Hachiya, Saijo | Fresh fruit needs to become fully soft before eating; a firm sample is not a reliable sensory approval. |
+| Commercial export | Rojo Brillante after de-astringency treatment | The treatment status matters as much as the cultivar when fruit is sold firm. |
+| Dried persimmon culture | Hachiya and related astringent types | Drying is a traditional use, but the finished format and treatment should still be specified rather than assumed from the name. |
+| Pollination-variant specialty | Chocolate, Cinnamon | Pollination can affect flesh color and astringency behavior, so these names need more context than a simple flavor label. |
 
 This is often more useful than asking for one best type. A variety can be perfect for fresh eating and weak for processing, or ordinary as a fresh fruit but excellent in powder, juice, or dried form.
 
+## Use astringency and pollination as two separate checks
+
+For the common Asian persimmons, astringency is the practical first screen. UC's California crop profile lists Hachiya, Triumph, and Rojo Brillante among astringent cultivars, and Fuyu and Jiro among non-astringent cultivars. The difference is meaningful: astringent fruit is normally eaten only when jelly-soft, while non-astringent fruit can be eaten crisp.
+
+That is not the whole classification. UC's cultivar guide also separates pollination-constant and pollination-variant fruit. Pollination-variant names such as Chocolate and Cinnamon can develop brown flesh around seeds, so a buyer should not use a color description, trade name, or one sample as a substitute for a cultivar and process specification.
+
 ## What this means for freeze-dried fruit
 
-For freeze-dried persimmon, astringency control is everything. Non-astringent types are easier for slices and chips. Fully ripe astringent types can produce rich, honeyed flavor but may need different handling. Buyers should ask variety, astringency class, de-astringency treatment, ripeness at cutting, slice thickness, and whether the product is raw, treated, or puree-derived.
+For freeze-dried persimmon, astringency control is an important raw-material screen, not a finished-product guarantee. Non-astringent fruit may be simpler to slice while firm; astringent fruit should be fully ripe or appropriately treated before sensory approval. Buyers should ask variety, astringency class, de-astringency treatment, ripeness at cutting, slice thickness, and whether the product is raw, treated, or puree-derived.
 
 Freeze-drying concentrates both strengths and flaws. Strong aroma can become more vivid. Weak flavor can become more obvious. Tough skin, large seeds, excess fiber, low acidity, or high water content may require a different cut format, blend partner, or use case.
+
+For a format-focused procurement checklist, see the existing [persimmon freeze-drying field guide](/articles/persimmon-for-freeze-drying/). It is a companion guide, not evidence that a particular cultivar will perform the same way in every process.
 
 ## Why labels often hide variety
 

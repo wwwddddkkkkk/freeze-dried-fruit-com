@@ -2,10 +2,10 @@
 title: "Cómo se hace la fruta liofilizada"
 category: "Technology"
 date: 2026-04-07
-updated: 2026-05-14
+updated: 2026-11-02
 read: "9 min de lectura"
 hero: "process"
-summary: "La liofilización elimina el agua de la fruta mediante congelación, vacío y sublimación. En lugar de usar calor alto, el proceso permite que el hielo dentro de la fruta se convierta directamente en vapor a baja presión, ayudando a preservar gran parte de la forma, color, aroma y sabor de la fruta."
+summary: "La liofilización elimina el agua de la fruta mediante congelación, vacío y sublimación. En lugar de usar calor alto, el proceso permite que el hielo dentro de la fruta se convierta directamente en vapor a baja presión; después, el punto final se comprueba con mediciones de humedad y actividad de agua."
 intro: "La liofilización elimina el agua de la fruta mediante congelación, vacío y sublimación."
 en_slug: "how-its-made"
 faqs:
@@ -16,7 +16,7 @@ faqs:
   - q: "¿Por qué la liofilización no usa calor como el secado regular?"
     a: "El secado convencional con aire caliente o deshidratación usa calor alto, que puede degradar color, aroma y forma. La liofilización evita el calor alto mediante sublimación impulsada por vacío, así que la fruta retiene más de su estructura celular original, color, aroma y sabor."
   - q: "¿Por qué la fruta liofilizada es más cara que la fruta seca regular?"
-    a: "El proceso requiere sistemas de cámara de vacío, ciclos largos medidos en horas en vez de minutos, control cuidadoso de temperatura y presión, y empaques diseñados para mantener fuera la humedad después del secado. Todo eso cuesta más que el secado con aire caliente."
+    a: "El proceso requiere sistemas de cámara de vacío, ciclos largos medidos en horas, control cuidadoso de temperatura y presión, y empaques diseñados para mantener fuera la humedad después del secado. El costo final también depende de la fruta, el formato, el volumen y el empaque; no hay un multiplicador de precio universal."
   - q: "¿Cómo afecta el tamaño de corte a la liofilización?"
     a: "Las piezas más gruesas tardan más en secarse y pueden dejar humedad residual en el centro; las piezas más delgadas se secan más rápido pero se vuelven más frágiles. El tamaño de corte es parte del diseño del proceso, no una decisión cosmética."
   - q: "¿Por qué es importante la congelación rápida antes de la etapa de vacío?"
@@ -30,10 +30,14 @@ sources:
     url: "https://www.ars.usda.gov/research/programs/programs.htm?np_code=306"
     publisher: "USDA Agricultural Research Service"
     note: "Investigación activa del USDA sobre tecnologías de secado para frutas y verduras, incluyendo la liofilización."
-  - title: "Apollo y Skylab — sistemas alimentarios"
-    url: "https://www.nasa.gov/history/the-history-of-food-in-space/"
-    publisher: "NASA — Historia de la alimentación espacial"
-    note: "Referencia sobre la adopción temprana de la liofilización por la NASA que impulsó el desarrollo comercial de equipos de grado alimentario."
+  - title: "Actividad de agua (aw) en alimentos"
+    url: "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/water-activity-aw-foods"
+    publisher: "U.S. Food & Drug Administration — Guía técnica de inspección"
+    note: "Guía oficial de la FDA sobre actividad de agua y estabilidad de alimentos, útil para interpretar la verificación del producto después del secado."
+  - title: "Preservación de alimentos — secado"
+    url: "https://nchfp.uga.edu/how/dry/"
+    publisher: "National Center for Home Food Preservation"
+    note: "Guía de extensión universitaria sobre el secado de alimentos y el papel de la humedad durante el almacenamiento."
 ---
 
 La liofilización elimina el agua de la fruta mediante congelación, vacío y sublimación. En lugar de usar calor alto, el proceso permite que el hielo dentro de la fruta se convierta directamente en vapor a baja presión, ayudando a preservar gran parte de la forma, color, aroma y sabor de la fruta.
@@ -52,13 +56,13 @@ La fruta se congela rápidamente para fijar el agua como hielo cristalino. La ve
 
 La fruta congelada entra a una cámara de vacío. La presión baja por debajo del punto triple del agua (~6.1 mbar a 0°C). A esa presión, el hielo no se derrite — se sublima directamente a vapor. Se aplica calor suave a través de las bandejas para acelerar la sublimación, manteniendo siempre la temperatura del producto por debajo del punto de fusión del hielo.
 
-Este es el corazón del proceso, y el más largo: 20 a 40 horas dependiendo del grosor, la fruta y el sistema.
+Este es el corazón del proceso y suele ser la etapa más larga. La duración depende del grosor, la composición de la fruta, la carga, el equipo y el perfil de temperatura y presión. Por eso una duración genérica no sustituye una especificación de proceso validada para un producto concreto.
 
 ### 4. Secado secundario + empaque
 
-Una vez que el hielo se sublima, queda agua residual ligada químicamente a los azúcares y polisacáridos. El secado secundario eleva la temperatura ligeramente y mantiene el vacío para extraer esa humedad ligada, llegando a 1–4% de humedad residual.
+Una vez que el hielo se sublima, queda agua residual ligada a componentes de la fruta. El secado secundario eleva la temperatura de forma controlada y mantiene el vacío para reducir esa humedad. El punto final no debe asumirse a partir de un único porcentaje universal: los equipos de calidad lo verifican para la fruta, el formato y el empaque previstos, junto con la textura y la estabilidad.
 
-Después se rompe el vacío con nitrógeno (no aire húmedo) y la fruta se empaca inmediatamente en bolsas de barrera para evitar absorber humedad del ambiente.
+Después se rompe el vacío con un gas adecuado al proceso y la fruta se empaca rápidamente en bolsas de barrera para limitar la absorción de humedad del ambiente. Para interpretar la verificación final, conviene revisar tanto el [contenido de humedad como la actividad de agua](/es/articles/water-activity-vs-moisture-content/); para entender lo que ocurre después de abrir la bolsa, consulta la guía sobre [control de humedad](/es/articles/moisture-control/).
 
 ## Por qué la liofilización es diferente del secado con calor
 
@@ -75,7 +79,16 @@ La liofilización requiere:
 - empaques de barrera más caros para proteger el producto seco
 - procesos de control de calidad más estrictos
 
-Por eso la fruta liofilizada cuesta entre 3 y 8 veces más por kilo que la fruta seca con aire caliente equivalente.
+El costo relativo frente a la fruta seca con aire caliente no tiene un multiplicador fijo. Cambia con la fruta, el rendimiento, el formato, el volumen, la energía, el empaque y el canal de venta.
+
+## Qué comprobar después del ciclo
+
+La liofilización no termina al salir de la cámara. Para saber si un producto puede conservar la textura esperada, el equipo de calidad debe conectar el punto final del secado con las especificaciones de humedad y actividad de agua, la barrera del empaque y las pruebas de vida útil. Si una bolsa se ablanda, no basta con culpar al ciclo: también hay que revisar el sello, la película y las condiciones de almacenamiento.
+
+Sigue esta ruta para profundizar:
+
+- [Actividad de agua vs. contenido de humedad](/es/articles/water-activity-vs-moisture-content/) para distinguir las dos mediciones.
+- [El control de humedad es la clave oculta del crujiente](/es/articles/moisture-control/) para revisar empaque, sellos y almacenamiento.
 
 ## Conclusión
 

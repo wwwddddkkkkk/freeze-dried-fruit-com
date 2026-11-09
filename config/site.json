@@ -23,6 +23,10 @@
     "ga4Id": "",
     "cloudflareToken": ""
   },
+  "newsletter": {
+    "companyId": "W4zixY",
+    "listId": "TJeaQC"
+  },
   "nav": [
     { "label": "Insights", "category": "Industry Insights" },
     { "label": "Technology", "category": "Technology" },

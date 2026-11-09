@@ -1,9 +1,9 @@
 name: Auto-update News Wire
 
 # Pulls fresh items from the configured RSS sources every six hours and commits
-# the updated content/news/feed.json back to main. The follow-up push to main
-# triggers the deploy workflow, so the homepage News Wire stays current
-# without any manual work.
+# content changes back to main. The follow-up push triggers Cloudflare Workers
+# Builds. Failed polls keep the previous feed and fail the run; unchanged polls
+# keep the timestamp and do not trigger an unnecessary deployment.
 on:
   schedule:
     - cron: "0 */6 * * *"
@@ -19,15 +19,19 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
-          node-version: 20
+          node-version-file: .node-version
           cache: npm
 
       - run: npm ci
+
+      - name: Check RSS failure handling
+        run: node --test scripts/fetch-news.test.mjs
 
       - name: Fetch RSS sources
         run: npm run fetch-news

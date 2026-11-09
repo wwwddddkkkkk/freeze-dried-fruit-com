@@ -5,12 +5,19 @@
   "type": "module",
   "description": "Static site for Freeze-Dried-Fruit.com — editorial field guide deployed with Cloudflare Workers Builds.",
   "scripts": {
+    "prebuild": "npm run check:content",
     "build": "node scripts/build.mjs",
+    "postbuild": "npm run check:publisher && npm run check:site",
     "check:publisher": "node scripts/check-publisher.mjs",
+    "check:content": "node scripts/check-content-integrity.mjs",
+    "check:site": "node scripts/check-site.mjs",
+    "test": "node --test scripts/*.test.mjs",
+    "verify": "npm test && npm run build",
     "dev": "node scripts/build.mjs && node scripts/serve.mjs",
     "fetch-news": "node scripts/fetch-news.mjs",
     "new-article": "node scripts/new-article.mjs",
     "deploy": "wrangler deploy",
+    "deploy:redirects": "wrangler deploy --config wrangler.redirects.jsonc",
     "preview:cloudflare": "wrangler dev"
   },
   "dependencies": {
@@ -18,10 +25,10 @@
     "marked": "^12.0.2"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2",
-    "wrangler": "^4.118.0"
+    "wrangler": "^4.159.0"
   }
 }

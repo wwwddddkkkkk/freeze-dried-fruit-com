@@ -4,6 +4,8 @@ Editorial site for the freeze-dried fruit field guide. Markdown articles and JSO
 
 ## Quick start
 
+Use Node 24 LTS, selected by `.node-version` for both Cloudflare Workers Builds and the News Wire GitHub Action. Node 22 is the minimum supported local runtime.
+
 ```bash
 npm install
 npm run build       # writes dist/
@@ -46,6 +48,42 @@ To unpublish without deleting, set `draft: true` in the frontmatter.
 
 ## Changing the homepage features
 
+### Recent publications and revisions
+
+The English homepage's recent section and the Spanish homepage sort articles
+by their latest substantive revision (`updated`) or original publication
+(`date`). Cards explicitly distinguish "Updated" from "Published"; original
+publication dates and archive ordering remain unchanged. The hero and sidebar
+still follow the manual selections in `config/homepage.json`.
+
+The editorial plan in `SEO-EDITORIAL-ROADMAP.md` prioritizes maintenance of the
+existing library. A quiet new-publication calendar does not mean the RSS news
+job has failed. In each weekly editorial batch, choose 1–2 existing URLs from
+current Search Console evidence, verify sources and factual claims, make a
+substantive improvement, and record its real `updated` date. Keep future
+articles as drafts or future-dated previews until editorial review is complete.
+Do not bump dates for site-wide template fixes or auto-publish articles to fill
+a category quota. News Wire automation remains a separate aggregation process.
+
+### Industry Notes subscriptions
+
+`config/site.json` contains the public Klaviyo site ID and the dedicated
+Freeze-Dried-Fruit.com Industry Notes list ID under `newsletter`. The list uses
+double opt-in and stays separate from the publisher's store newsletter. No
+private API key is included in the site.
+
+The English and Spanish homepages contain a native HTML email form with
+explicit consent. The browser validates the email and required consent before
+submitting directly to Klaviyo's hosted confirmation page. Readers finish
+subscribing by confirming the email they receive. This works without
+JavaScript and avoids cross-origin client API failures. Shared header/menu
+links point to the appropriate homepage form.
+
+Run `node --test scripts/recent-articles.test.mjs` for editorial recency checks.
+Verify the generated signup form's action, email/list fields, required consent,
+and browser validation without submitting a real address just to test a
+deployment.
+
 ### OhCrisp reader referrals
 
 The header, menu, and footer disclose the publisher relationship and link to
@@ -83,12 +121,20 @@ Each ID matches a filename in `content/articles/` (without `.md`). Set `auto_lat
 
 ## News Wire (auto-updated)
 
-The News Wire section on the homepage pulls items from the RSS feeds in `config/news-sources.json`. The `update-news` GitHub Action runs every 6 hours, refreshes `content/news/feed.json`, commits it, and that commit triggers the build/deploy workflow.
+The News Wire section on the homepage pulls items from the RSS feeds in `config/news-sources.json`. The `update-news` GitHub Action runs every 6 hours on Node 24 LTS. It refreshes `content/news/feed.json` and commits only when the news items actually change; that commit triggers Cloudflare Workers Builds. An unchanged poll preserves the previous update timestamp and does not trigger a needless deployment.
+
+Each source has a 10-second request timeout and up to three attempts. Refreshes are atomic: if any source remains unavailable or returns invalid/empty RSS, the script keeps the entire previous feed and exits with an error, so the GitHub run surfaces the failure rather than publishing a misleading successful update. A successful refresh writes the new feed atomically, with dates formatted in UTC.
 
 To run the fetcher manually:
 
 ```bash
 npm run fetch-news
+```
+
+Run the feed regression checks without fetching external feeds or changing the working feed:
+
+```bash
+node --test scripts/fetch-news.test.mjs
 ```
 
 To change sources, edit `config/news-sources.json`:
@@ -125,7 +171,24 @@ The build is path-portable: set `BASE_PATH=/<repo>` and `SITE_URL=https://<owner
 
 ### Custom domain
 
-After connecting the deploy target, add `freeze-dried-fruit.com` in the host's DNS / domain settings. Update `url` in [`config/site.json`](config/site.json) so canonical/Open Graph URLs resolve correctly.
+The production static Worker serves `https://freeze-dried-fruit.com`. A small,
+separate Worker configured in `wrangler.redirects.jsonc` redirects the HTTP
+apex route and the `www` custom domain to the HTTPS apex, preserving paths and
+query strings. Cloudflare provisions DNS and TLS for the `www` custom domain.
+Canonical HTTPS requests continue using static asset delivery directly.
+
+Run `npm run verify` before publishing: it runs regression tests, validates
+source covers and report anchors, completes the build, then checks publisher
+links, every generated internal link, images, social cards, and sitemap dates.
+The source and generated-output checks also run automatically around every
+Cloudflare build. After changing redirect code or routes, deploy that Worker
+with `npm run deploy:redirects`; normal news refreshes only deploy the static
+site.
+
+Visitor analytics requires a real provider site ID. Set
+`analytics.cloudflareToken` in `config/site.json` to this domain's public
+Cloudflare Web Analytics token after the site is registered in the owning
+account. Do not paste private Cloudflare API credentials into site config.
 
 ## Automation push (CI / external triggers)
 

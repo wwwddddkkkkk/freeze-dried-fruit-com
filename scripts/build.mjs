@@ -33,6 +33,7 @@ import { FRUIT_DATA, SLUG_TO_FRUIT, clusterForFruit, buildComparisonPairs, compa
 import { renderHero } from "./lib/illustrations.mjs";
 import { Icons } from "./lib/icons.mjs";
 import { buildMailto } from "./lib/mailto.mjs";
+import { articleActivity, recentArticles } from "./lib/recent-articles.mjs";
 import { publisherUrl } from "./lib/publisher-links.mjs";
 import { renderPage as renderPageRaw, escapeHtml, articleUrl, categoryUrl } from "./lib/layout.mjs";
 import {
@@ -193,7 +194,7 @@ function pickHomeArticles(articles, homeConfig) {
   }
 
   const used = new Set([featuredId, ...sidebarIds, guideId].filter(Boolean));
-  const latest = articles.filter(a => !used.has(a.id)).slice(0, homeConfig.latest_count || 4);
+  const latest = recentArticles(articles).filter(a => !used.has(a.id)).slice(0, homeConfig.latest_count || 4);
   return {
     featured: byId[featuredId],
     sidebar: sidebarIds.map(id => byId[id]).filter(Boolean),
@@ -203,6 +204,16 @@ function pickHomeArticles(articles, homeConfig) {
 }
 
 // ---------- Reusable HTML fragments ----------
+
+function renderActivityDate(article, lang = "en") {
+  const activity = articleActivity(article);
+  const iso = activity.date.toISOString().slice(0, 10);
+  const label = activity.date.toLocaleDateString(lang === "es" ? "es" : "en-US", {
+    month: "short", day: "numeric", year: "numeric", timeZone: "UTC",
+  });
+  const kind = activity.updated ? iT(lang, "updated") : (lang === "es" ? "Publicado" : "Published");
+  return `${escapeHtml(kind)} <time datetime="${iso}">${escapeHtml(label)}</time>`;
+}
 
 function exchangeBand({ mailto }) {
   return `
@@ -227,22 +238,44 @@ function exchangeBand({ mailto }) {
   </section>`;
 }
 
-function newsletterBand({ mailto }) {
+function newsletterBand({ site, mailto, lang = "en" }) {
+  const es = lang === "es";
+  const companyId = site.newsletter?.companyId;
+  const listId = site.newsletter?.listId;
+  const configured = companyId && listId;
+  if (configured && ![companyId, listId].every(id => /^[A-Za-z0-9_-]{3,32}$/.test(id))) {
+    throw new Error("Invalid newsletter company/list identifier");
+  }
+  const hostedUrl = configured
+    ? `https://manage.kmail-lists.com/subscriptions/subscribe?a=${encodeURIComponent(companyId)}&g=${encodeURIComponent(listId)}`
+    : mailto.notes;
+  const formHtml = configured ? `
+          <form action="${escapeHtml(hostedUrl)}" method="post" lang="${lang}" data-newsletter>
+            <input type="hidden" name="g" value="${listId}">
+            <label class="newsletter__label" for="industry-notes-email">${es ? "Dirección de correo" : "Email address"}</label>
+            <div class="newsletter__form">
+              <input id="industry-notes-email" name="email" placeholder="you@company.com" type="email" autocomplete="email" maxlength="254" required aria-describedby="industry-notes-consent industry-notes-help">
+              <button type="submit" class="btn btn-mint">${es ? "Suscribirme" : "Join the List"} ${Icons.arrow}</button>
+            </div>
+            <label class="newsletter__consent" id="industry-notes-consent">
+              <input type="checkbox" required>
+              <span>${es ? "Quiero recibir las Notas de Industria de Freeze-Dried-Fruit.com por correo. Puedo darme de baja en cualquier momento." : "I agree to receive Freeze-Dried-Fruit.com Industry Notes by email. I can unsubscribe at any time."}</span>
+            </label>
+          </form>
+          <p id="industry-notes-help" class="newsletter__help">${es ? "Al enviar, se abrirá la página de confirmación de Klaviyo. Revisa tu correo y confirma para completar la suscripción. También puedes usar la" : "Submitting opens Klaviyo’s confirmation page. Check your inbox and confirm by email to complete your subscription. You can also use the"} <a href="${escapeHtml(hostedUrl)}">${es ? "página de suscripción" : "signup page"}</a>. <a href="/privacy/">${es ? "Privacidad" : "Privacy"}</a>.</p>` : `
+          <a href="${escapeHtml(mailto.notes)}" class="btn btn-mint">${es ? "Solicitar suscripción por correo" : "Request a subscription by email"} ${Icons.arrow}</a>
+          <p class="newsletter__help">${es ? "Se abrirá tu aplicación de correo. Envía la solicitud para suscribirte." : "This opens your email app. Send the request to join the list."}</p>`;
   return `
-  <section>
+  <section id="industry-notes">
     <div class="container">
       <div class="newsletter">
         <div>
-          <span class="eyebrow">Industry Notes · Occasional dispatch</span>
-          <h3>Get freeze-dried fruit industry notes</h3>
-          <p>Occasional insights on fruit quality, processing, pricing, sourcing, and category trends.</p>
+          <span class="eyebrow">${es ? "Notas de Industria · Envíos ocasionales" : "Industry Notes · Occasional dispatch"}</span>
+          <h3>${es ? "Recibe notas sobre la industria de la fruta liofilizada" : "Get freeze-dried fruit industry notes"}</h3>
+          <p>${es ? "Información ocasional sobre calidad, proceso, precios, abastecimiento y tendencias del sector." : "Occasional insights on fruit quality, processing, pricing, sourcing, and category trends."}</p>
         </div>
         <div>
-          <div class="newsletter__form">
-            <input placeholder="you@company.com" type="email">
-            <a href="${mailto.notes}" class="btn btn-mint">Join the List ${Icons.arrow}</a>
-          </div>
-          <p class="muted" style="font-size:13px;margin-top:12px">No spam. Unsubscribe any time.</p>
+          ${formHtml}
         </div>
       </div>
     </div>
@@ -715,7 +748,7 @@ function renderHomeBody({ site, mailto, articles, home, news, homeConfig, report
           <div class="latest__cat">${escapeHtml(a.category)}</div>
           <h3 class="latest__title">${escapeHtml(a.title)}</h3>
           <p class="latest__sum">${escapeHtml(a.summary)}</p>
-          <div class="latest__date">${escapeHtml(a.dateLabel)} · ${escapeHtml(a.read)}</div>
+          <div class="latest__date">${renderActivityDate(a)} · ${escapeHtml(a.read)}</div>
         </div>
       </a>
     </article>`).join("");
@@ -756,7 +789,7 @@ function renderHomeBody({ site, mailto, articles, home, news, homeConfig, report
     <div class="container">
       <div class="fi-head">
         <div class="fi-head__icon">${Icons.article}</div>
-        <h2 class="fi-head__title">Latest Articles</h2>
+        <h2 class="fi-head__title">Recently published &amp; updated</h2>
       </div>
       <div class="fi-rule"></div>
       <div class="latest">${latestHtml}</div>
@@ -771,7 +804,7 @@ function renderHomeBody({ site, mailto, articles, home, news, homeConfig, report
   ${renderBrowseFieldGuide({ articles, reports })}
 
   ${exchangeBand({ mailto })}
-  ${newsletterBand({ mailto })}`;
+  ${newsletterBand({ site, mailto })}`;
 }
 
 // ---------- Browse the field guide ----------
@@ -2447,7 +2480,7 @@ function renderPrivacyBody({ site }) {
       <div class="container">
         <span class="eyebrow">Legal · Privacy</span>
         <h1>Privacy Policy</h1>
-        <p>Effective Date: May 8, 2026</p>
+        <p>Effective Date: November 9, 2026</p>
       </div>
     </section>
     <section class="section">
@@ -2467,6 +2500,7 @@ function renderPrivacyBody({ site }) {
           <p>If you submit information for possible inclusion in future industry resources, directories, listings, or exchange opportunities, we may review and organize that information internally. We will not publish your personal contact details publicly without permission.</p>
           <h2>4. Email Communications</h2>
           <p>If you contact us by email or click a mailto link on our website, your email address and message content will be shared with us through your email provider. You may unsubscribe at any time by contacting us at ${helloLink}.</p>
+          <p>Industry Notes signups are processed by Klaviyo in our publisher OhCrisp’s account using a separate Freeze-Dried-Fruit.com mailing list. When you choose to subscribe, we send Klaviyo your email address, language preference, and the signup page path. Your subscription requires confirmation through an email from Klaviyo. You can unsubscribe using the link in an Industry Notes email or contact us to request removal.</p>
           <h2>5. Cookies and Analytics</h2>
           <p>Our website may use cookies or similar technologies to understand website traffic, measure article performance, improve content and navigation, maintain website security, and remember basic preferences. We may use analytics tools such as Cloudflare Web Analytics or similar services.</p>
           <h2>6. Third-Party Services</h2>
@@ -3137,10 +3171,11 @@ function render404Body({ site, mailto, articles, categories }) {
 // English-only assets (compare, glossary, calculators) with brief Spanish
 // labels so the visitor isn't dropped into an English-only experience.
 function renderEsHomeBody({ articlesEs, reportsEs = [], mailto, site }) {
-  const cards = articlesEs.map(a => `
+  const cards = recentArticles(articlesEs).map(a => `
     <a class="continue-reading__card" href="${articleUrl(a.id, "es")}">
       <span class="continue-reading__date">${escapeHtml(a.category)}</span>
       <span class="continue-reading__title">${escapeHtml(a.title)}</span>
+      <span class="continue-reading__date">${renderActivityDate(a, "es")}</span>
       <span class="continue-reading__cta">Leer artículo ${Icons.arrowSmall}</span>
     </a>`).join("");
 
@@ -3191,7 +3226,7 @@ function renderEsHomeBody({ articlesEs, reportsEs = [], mailto, site }) {
 
         <div class="continue-reading" style="background:transparent;border:0;padding:0;margin:0">
           <div class="continue-reading__eyebrow">Artículos disponibles en Español</div>
-          <h2 class="continue-reading__heading">Comienza por aquí</h2>
+          <h2 class="continue-reading__heading">Publicaciones y actualizaciones recientes</h2>
           <div class="continue-reading__grid">${cards}</div>
         </div>
 
@@ -3218,7 +3253,8 @@ function renderEsHomeBody({ articlesEs, reportsEs = [], mailto, site }) {
           <p>La edición en español está en construcción. ¿Quieres ver un artículo traducido? <a href="${mailto.hello}">Escríbenos</a>.</p>
         </div>
       </div>
-    </section>`;
+    </section>
+    ${newsletterBand({ site, mailto, lang: "es" })}`;
 }
 
 // ---------- Calculator pages (backlink-bait assets) ----------

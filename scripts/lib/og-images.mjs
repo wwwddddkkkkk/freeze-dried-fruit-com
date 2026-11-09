@@ -5,11 +5,53 @@
 // We render an SVG string and rasterize it via @resvg/resvg-js — no headless
 // browser, no native compile, prebuilt binaries for darwin-arm64 + linux-x64.
 import { Resvg } from "@resvg/resvg-js";
+import { existsSync } from "node:fs";
+import path from "node:path";
 
 export const OG_WIDTH = 1200;
 export const OG_HEIGHT = 630;
 
 const PADDING = 80;
+
+// Resvg creates a font database for each SVG. Loading every system font for
+// each of hundreds of cards is especially expensive on a design workstation.
+// Select only the faces these templates use, once per build, while preserving
+// the previous system-font fallback on hosts with a different font layout.
+function selectFonts() {
+  const sets = [
+    {
+      directory: "/System/Library/Fonts/Supplemental",
+      files: ["Georgia.ttf", "Georgia Bold.ttf", "Georgia Italic.ttf", "Courier New.ttf", "Courier New Bold.ttf"],
+      serif: "Georgia", mono: "Courier New",
+    },
+    ...["liberation2", "liberation"].map(directory => ({
+      directory: `/usr/share/fonts/truetype/${directory}`,
+      files: ["LiberationSerif-Regular.ttf", "LiberationSerif-Bold.ttf", "LiberationSerif-Italic.ttf", "LiberationMono-Regular.ttf", "LiberationMono-Bold.ttf"],
+      serif: "Liberation Serif", mono: "Liberation Mono",
+    })),
+    {
+      directory: "/usr/share/fonts/truetype/dejavu",
+      files: ["DejaVuSerif.ttf", "DejaVuSerif-Bold.ttf", "DejaVuSerif-Italic.ttf", "DejaVuSansMono.ttf", "DejaVuSansMono-Bold.ttf"],
+      serif: "DejaVu Serif", mono: "DejaVu Sans Mono",
+    },
+    {
+      directory: path.join(process.env.WINDIR || "C:\\Windows", "Fonts"),
+      files: ["georgia.ttf", "georgiab.ttf", "georgiai.ttf", "cour.ttf", "courbd.ttf"],
+      serif: "Georgia", mono: "Courier New",
+    },
+  ];
+  for (const set of sets) {
+    const fontFiles = set.files.map(file => path.join(set.directory, file));
+    if (!fontFiles.every(file => existsSync(file))) continue;
+    return {
+      loadSystemFonts: false, fontFiles,
+      defaultFontFamily: set.serif, serifFamily: set.serif, monospaceFamily: set.mono,
+    };
+  }
+  return { loadSystemFonts: true };
+}
+
+const FONT_OPTIONS = selectFonts();
 
 function escapeXml(s) {
   return String(s ?? "")
@@ -133,7 +175,7 @@ export function renderSiteOgSvg(site) {
 export function rasterize(svg) {
   const resvg = new Resvg(svg, {
     fitTo: { mode: "width", value: OG_WIDTH },
-    font: { loadSystemFonts: true },
+    font: FONT_OPTIONS,
     background: "#FFFFFF",
   });
   return resvg.render().asPng();

@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 import { publisherUrl } from "./lib/publisher-links.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
-const dist = path.join(root, "dist");
+const dist = path.resolve(process.env.DIST_DIR || path.join(root, "dist"));
 const catalog = JSON.parse(await readFile(path.join(root, "config/publisher-products.json"), "utf8"));
 assert.throws(() => publisherUrl("https://example.com/"));
 const productPaths = new Set(catalog.products.map(product => product.path));

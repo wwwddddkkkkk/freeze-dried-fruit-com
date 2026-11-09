@@ -103,6 +103,7 @@ function renderHeader({ site, mailto, currentPath, lang = "en", i18n, alternates
   const T = i18n;
   const prefix = lang === "en" ? "" : `/${lang}`;
   const homePath = `${prefix}/`;
+  const notesUrl = site.newsletter?.companyId && site.newsletter?.listId ? `${homePath}#industry-notes` : mailto.notes;
   const navHtml = site.nav.map(item => {
     const url = lang === "en" ? navItemUrl(item) : navItemUrlForLang(item, lang);
     const label = (lang !== "en" && item.category)
@@ -141,7 +142,7 @@ function renderHeader({ site, mailto, currentPath, lang = "en", i18n, alternates
         </div>
         <div class="site-header__top-right">
           ${languageSwitcher}
-          <a href="${mailto.notes}">${escapeHtml(T.t("signUpNotes"))}</a>
+          <a href="${escapeHtml(notesUrl)}">${escapeHtml(T.t("signUpNotes"))}</a>
         </div>
       </div>
 
@@ -160,7 +161,7 @@ function renderHeader({ site, mailto, currentPath, lang = "en", i18n, alternates
           <a href="/methodology/">${escapeHtml(T.t("methodology"))}</a>
           <a href="/contact/">${escapeHtml(T.t("contact"))}</a>
           <a href="/privacy/">${escapeHtml(T.t("privacy"))}</a>
-          <a href="${mailto.notes}">${escapeHtml(T.t("industryNotes"))}</a>
+          <a href="${escapeHtml(notesUrl)}">${escapeHtml(T.t("industryNotes"))}</a>
         </div>
       </div>
 

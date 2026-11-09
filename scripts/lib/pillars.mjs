@@ -56,13 +56,14 @@ function decodeBasicEntities(s) {
 // We assign sequential anchor ids when the heading lacks one.
 export function extractTocFromHtml(html) {
   const out = [];
-  const re = /<h2(\s+id="([^"]+)")?[^>]*>([\s\S]*?)<\/h2>/g;
+  const re = /<h2\b([^>]*)>([\s\S]*?)<\/h2>/g;
+  const anchoredHtml = ensureH2Anchors(html);
   let m;
   let i = 0;
-  while ((m = re.exec(html))) {
+  while ((m = re.exec(anchoredHtml))) {
     i += 1;
-    const explicit = m[2];
-    const rawText = m[3].replace(/<[^>]+>/g, "").trim();
+    const explicit = /\bid="([^"]+)"/.exec(m[1])?.[1];
+    const rawText = m[2].replace(/<[^>]+>/g, "").trim();
     const text = decodeBasicEntities(rawText);
     const id = explicit || slugify(text) || `section-${i}`;
     out.push({ id, text });
@@ -70,9 +71,17 @@ export function extractTocFromHtml(html) {
   return out;
 }
 
-// Inject id="..." on every H2 that lacks one so the TOC anchors resolve.
+// Support Markdown's explicit heading suffix used by the reports. Marked
+// leaves `{#snapshot}` as text; it must become id="snapshot", not part of
+// an automatically generated slug or a visible label.
 export function ensureH2Anchors(html) {
   return html.replace(/<h2([^>]*?)>([\s\S]*?)<\/h2>/g, (full, attrs, inner) => {
+    const explicit = /\s*\{#([A-Za-z][A-Za-z0-9_.:-]*)\}\s*$/.exec(inner);
+    const visible = explicit ? inner.slice(0, explicit.index).trimEnd() : inner;
+    if (explicit) {
+      if (/\bid=/.test(attrs)) return `<h2${attrs}>${visible}</h2>`;
+      return `<h2${attrs} id="${explicit[1]}">${visible}</h2>`;
+    }
     if (/\bid=/.test(attrs)) return full;
     const text = decodeBasicEntities(inner.replace(/<[^>]+>/g, "").trim());
     const id = slugify(text);

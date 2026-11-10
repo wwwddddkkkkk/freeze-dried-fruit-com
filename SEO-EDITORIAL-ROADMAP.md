@@ -6,9 +6,10 @@ Follow [SEO-WEEKLY-PLAN.md](SEO-WEEKLY-PLAN.md) and
 config/seo-priority-pages.json for the fixed ten-page cohort, the completed
 three-article refresh, contextual-link baselines, and the next weekly batches.
 That plan supersedes the dated four-run queue and old refresh backlog below.
-The November 9 work is recorded as local implementation until production
-deployment is separately verified. GSC access currently returns
-subscription_required; October metrics and inspection results remain historical.
+The November 9 content batch was deployed and all ten production pages were
+verified. GSC Wizard returns subscription_required, but direct signed-in
+Search Console UI access works. Fresh individual inspections are recorded in
+reports/seo/2026-11-09-gsc-direct.json; October metrics remain historical.
 
 ## Business and editorial decision — October 14, 2026
 
@@ -255,8 +256,9 @@ does not satisfy this gate.
 
 - Weekly: one 28-day performance comparison, three-month top queries/pages,
   leading indexing cause, and individual checks on affected URLs when access
-  is available. GSC Wizard access was unavailable on November 9 because the
-  subscription ended; record that gap and never invent a current snapshot.
+  is available. Prefer the directly accessible official GSC website; a GSC
+  Wizard subscription error is only a connector limitation. Record genuine
+  access gaps and never invent a current snapshot.
 - For each refresh: compare the same URL and relevant visible query family
   before/after, separating crawl/index gains from ranking and click gains.
   Observe a full settled 28-day window; small counts remain directional only.

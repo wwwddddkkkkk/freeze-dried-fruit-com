@@ -2,7 +2,8 @@
   "selectedOn": "2026-11-09",
   "reviewTimezone": "America/Los_Angeles",
   "siteUrl": "https://freeze-dried-fruit.com",
-  "indexStatusNote": "Current Google index status is unverified: GSC Wizard returned subscription_required on 2026-11-09. Selection reflects reader/business value and repository evidence, not confirmed non-indexing.",
+  "indexStatusNote": "Local audits do not inspect Google's index. A direct, signed-in Google Search Console UI baseline was collected on 2026-11-09 in reports/seo/2026-11-09-gsc-direct.json. Keep those inspection timestamps distinct from local rendering checks; GSC Wizard is not required.",
+  "googleInspectionBaseline": "reports/seo/2026-11-09-gsc-direct.json",
   "pages": [
     { "slug": "buyer-guide", "reason": "Core buying decision and disclosed publisher product journey." },
     { "slug": "added-sugar", "reason": "Homepage feature; historical discovered-not-indexed sample; inaccurate label advice needs repair.", "refreshDate": "2026-11-09" },

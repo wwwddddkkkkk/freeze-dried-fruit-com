@@ -1,0 +1,232 @@
+{
+  "reviewDate": "2026-11-09",
+  "timezone": "America/Los_Angeles",
+  "property": "sc-domain:freeze-dried-fruit.com",
+  "source": "Signed-in Google Search Console website, individual URL Inspection; no GSC Wizard used.",
+  "method": "Read Google index records; live tests are recorded separately and do not certify indexing. No request-indexing or sitemap submission action performed.",
+  "lastCrawlTimezoneNote": "Dates/times are copied verbatim from Google UI; the UI did not explicitly display a timezone.",
+  "inspections": [
+    {
+      "slug": "buyer-guide",
+      "url": "https://freeze-dried-fruit.com/articles/buyer-guide/",
+      "checkedAt": "2026-11-10T05:39:40.306Z",
+      "inspectionUrl": "https://search.google.com/search-console/inspect?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=WSdpf5guekuSoUVIRQJlbw",
+      "evidence": "text https://freeze-dried-fruit.com/articles/buyer-guide/\n\t\t\t\t217 container\n\t\t\t\t\t218 container Breadcrumbs\n\t\t\t\t\t\t219 heading URL Inspection, Value: 1\n\t\t\t\t\t\t\t220 text URL Inspection\n\t\t\t\t\t221 button TEST LIVE URL\n\t\t\t\t\t\t222 text TEST LIVE URL\n\t\t\t\t\t223 container\n\t\t\t\t\t\t224 text URL is on Google\n\t\t\t\t\t\t225 container\n\t\t\t\t\t\t\t226 text It can appear in Google Search results (if not subject to a manual action or removal request) with all relevant enhancements. \n\t\t\t\t\t\t\t227 link Description: Learn more, Value: support.google.com/webmasters/answer/9012289#url_on_google\n\t\t\t\t\t\t228 button View crawled page\n\t\t\t\t\t\t\t229 text VIEW CRAWLED PAGE\n\t\t\t\t\t\t230 text Page changed?\n\t\t\t\t\t\t231 button Request indexingRequest again\n\t\t\t\t\t\t\t232 text REQUEST INDEXING\n\t\t\t\t\t241 container\n\t\t\t\t\t\t242 button (expanded) Page indexing Page is indexed, Secondary Actions: Collapse\n\t\t\t\t\t\t\t243 text Page indexing\n\t\t\t\t\t\t\t244 text Page is indexed\n\t\t\t\t\t\t245 text Discovery\n\t\t\t\t\t\t246 text Sitemaps\n\t\t\t\t\t\t247 text https://freeze-dried-fruit.com/sitemap.xml\n\t\t\t\t\t\t248 text Referring page\n\t\t\t\t\t\t249 text https://freeze-dried-fruit.com/es/articles/buyer-guide/\n\t\t\t\t\t\t250 text https://freeze-dried-fruit.com/\n\t\t\t\t\t\t251 text Crawl\n\t\t\t\t\t\t252 text Last crawl\n\t\t\t\t\t\t253 text Oct 14, 2026, 9:08:38 PM\n\t\t\t\t\t\t254 text Crawled as\n\t\t\t\t\t\t255 text Googlebot smartphone\n\t\t\t\t\t\t256 text Crawl allowed?\n\t\t\t\t\t\t257 text Yes\n\t\t\t\t\t\t258 text Page fetch\n\t\t\t\t\t\t259 text Successful\n\t\t\t\t\t\t260 text Indexing allowed?\n\t\t\t\t\t\t261 text Yes\n\t\t\t\t\t\t262 text Indexing\n\t\t\t\t\t\t263 text User-declared canonical\n\t\t\t\t\t\t264 text https://freeze-dried-fruit.com/articles/buyer-guide/\n\t\t\t\t\t\t265 text Google-selected canonical\n\t\t\t\t\t\t266 button (collapsed) Description: null, Secondary Actions: Expand\n\t\t\t\t\t\t267 text Inspected URL\n\t\t\t\t\t\t268 link Description: Link to more extensive documentation, Value: support.google.com/webmasters/answer/7440203#submitted_and_indexed\n\t\t\t\t\t\t269 link Description: OPEN REPORT, Value: search.google.com/search-console/index/drilldown?resource_id=sc-domain%3Afreeze-dried-fruit.com&item_key=CAMYASAB\n\t\t\t\t\t236 text Enhancements & Experience\n\t\t\t\t\t237 container\n\t\t\t\t\t\t238 link Description: HTTPS Page is served over HTTPS, Value: search.google.com/search-console/inspect/https?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=WSdpf5guekuSoUVIRQJlbw\n\t\t\t\t\t\t239 link Description: Breadcrumbs 1 valid item detected, Value: search.google.com/search-console/inspect/r/breadcrumbs?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=WSdpf5guekuSoUVIRQJlbw\n\t\t148 ",
+      "coverageState": "Page is indexed",
+      "lastCrawlDisplay": "Oct 14, 2026, 9:08:38 PM",
+      "crawlAllowed": "Yes",
+      "pageFetch": "Successful",
+      "indexingAllowed": "Yes",
+      "userDeclaredCanonical": "https://freeze-dried-fruit.com/articles/buyer-guide/",
+      "googleSelectedCanonical": "https://freeze-dried-fruit.com/articles/buyer-guide/",
+      "googleCanonicalUiValue": "Inspected URL"
+    },
+    {
+      "slug": "added-sugar",
+      "url": "https://freeze-dried-fruit.com/articles/added-sugar/",
+      "checkedAt": "2026-11-10T05:40:17.361Z",
+      "inspectionUrl": "https://search.google.com/search-console/inspect?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=66Sg3_1GqCfDji12GOL1kw",
+      "evidence": "text https://freeze-dried-fruit.com/articles/added-sugar/\n\t\t\t\t217 container\n\t\t\t\t\t218 container Breadcrumbs\n\t\t\t\t\t\t219 heading URL Inspection, Value: 1\n\t\t\t\t\t\t\t220 text URL Inspection\n\t\t\t\t\t221 button TEST LIVE URL\n\t\t\t\t\t\t222 text TEST LIVE URL\n\t\t\t\t223 container\n\t\t\t\t\t224 container\n\t\t\t\t\t\t225 text URL is not on Google This page is not indexed. Pages that aren't indexed can't be served on Google. See the details below to learn why it wasn't indexed. \n\t\t\t\t\t\t226 link Description: Learn more, Value: support.google.com/webmasters/answer/9012289#url_not_on_google\n\t\t\t\t\t227 button (disabled) View crawled page\n\t\t\t\t\t\t228 text VIEW CRAWLED PAGE\n\t\t\t\t\t229 container\n\t\t\t\t\t\t230 text Page changed?\n\t\t\t\t\t\t231 button Request indexingRequest again\n\t\t\t\t\t\t\t232 text REQUEST INDEXING\n\t\t\t\t\t233 button (expanded) Page indexing Page is not indexed: Discovered - currently not indexed, Secondary Actions: Collapse\n\t\t\t\t\t\t234 text Page indexing\n\t\t\t\t\t\t235 container\n\t\t\t\t\t\t\t236 text Page is not indexed:  Discovered - currently not indexed\n\t\t\t\t\t237 container\n\t\t\t\t\t\t238 text Discovery Sitemaps https://freeze-dried-fruit.com/sitemap.xml Referring page https://freeze-dried-fruit.com/ Crawl Last crawl N/A Crawled as N/A Crawl allowed? N/A Page fetch N/A Indexing allowed? N/A Indexing User-declared canonical N/A Google-selected canonical\n\t\t\t\t\t\t239 button (collapsed) Description: null, Secondary Actions: Expand\n\t\t\t\t\t\t240 text N/A\n\t\t\t\t\t\t241 link Description: Link to more extensive documentation, Value: support.google.com/webmasters/answer/7440203#discovered__unclear_status\n\t\t\t\t\t\t242 link Description: OPEN REPORT, Value: search.google.com/search-console/index/drilldown?resource_id=sc-domain%3Afreeze-dried-fruit.com&item_key=CAMYFiAC\n\t\t\t\t\t243 text Enhancements & Experience Only indexed URLs can have enhancements\n\t\t148 ",
+      "coverageState": "Discovered - currently not indexed",
+      "lastCrawlDisplay": "N/A",
+      "crawlAllowed": "N/A",
+      "pageFetch": "N/A",
+      "indexingAllowed": "N/A",
+      "userDeclaredCanonical": null,
+      "googleSelectedCanonical": null,
+      "googleCanonicalUiValue": "N/A"
+    },
+    {
+      "slug": "how-its-made",
+      "url": "https://freeze-dried-fruit.com/articles/how-its-made/",
+      "checkedAt": "2026-11-10T05:40:22.006Z",
+      "inspectionUrl": "https://search.google.com/search-console/inspect?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=hyOmBHmxVpctv8NhAiPysQ",
+      "evidence": "text https://freeze-dried-fruit.com/articles/how-its-made/\n\t\t\t\t217 container\n\t\t\t\t\t218 container Breadcrumbs\n\t\t\t\t\t\t219 heading URL Inspection, Value: 1\n\t\t\t\t\t\t\t220 text URL Inspection\n\t\t\t\t\t221 button TEST LIVE URL\n\t\t\t\t\t\t222 text TEST LIVE URL\n\t\t\t\t\t223 container\n\t\t\t\t\t\t224 text URL is on Google\n\t\t\t\t\t\t225 container\n\t\t\t\t\t\t\t226 text It can appear in Google Search results (if not subject to a manual action or removal request) with all relevant enhancements. \n\t\t\t\t\t\t\t227 link Description: Learn more, Value: support.google.com/webmasters/answer/9012289#url_on_google\n\t\t\t\t\t\t228 button View crawled page\n\t\t\t\t\t\t\t229 text VIEW CRAWLED PAGE\n\t\t\t\t\t\t230 text Page changed?\n\t\t\t\t\t\t231 button Request indexingRequest again\n\t\t\t\t\t\t\t232 text REQUEST INDEXING\n\t\t\t\t\t241 container\n\t\t\t\t\t\t242 button (expanded) Page indexing Page is indexed, Secondary Actions: Collapse\n\t\t\t\t\t\t\t243 text Page indexing\n\t\t\t\t\t\t\t244 text Page is indexed\n\t\t\t\t\t\t245 text Discovery\n\t\t\t\t\t\t246 text Sitemaps\n\t\t\t\t\t\t247 text https://freeze-dried-fruit.com/sitemap.xml\n\t\t\t\t\t\t248 text Referring page\n\t\t\t\t\t\t249 text https://freeze-dried-fruit.com/es/articles/how-its-made/\n\t\t\t\t\t\t250 text https://freeze-dried-fruit.com/articles/category/technology/\n\t\t\t\t\t\t251 text Crawl\n\t\t\t\t\t\t252 text Last crawl\n\t\t\t\t\t\t253 text Jul 24, 2026, 11:41:52 PM\n\t\t\t\t\t\t254 text Crawled as\n\t\t\t\t\t\t255 text Googlebot smartphone\n\t\t\t\t\t\t256 text Crawl allowed?\n\t\t\t\t\t\t257 text Yes\n\t\t\t\t\t\t258 text Page fetch\n\t\t\t\t\t\t259 text Successful\n\t\t\t\t\t\t260 text Indexing allowed?\n\t\t\t\t\t\t261 text Yes\n\t\t\t\t\t\t262 text Indexing\n\t\t\t\t\t\t263 text User-declared canonical\n\t\t\t\t\t\t264 text https://freeze-dried-fruit.com/articles/how-its-made/\n\t\t\t\t\t\t265 text Google-selected canonical\n\t\t\t\t\t\t266 button (collapsed) Description: null, Secondary Actions: Expand\n\t\t\t\t\t\t267 text Inspected URL\n\t\t\t\t\t\t268 link Description: Link to more extensive documentation, Value: support.google.com/webmasters/answer/7440203#submitted_and_indexed\n\t\t\t\t\t\t269 link Description: OPEN REPORT, Value: search.google.com/search-console/index/drilldown?resource_id=sc-domain%3Afreeze-dried-fruit.com&item_key=CAMYASAB\n\t\t\t\t\t236 text Enhancements & Experience\n\t\t\t\t\t237 container\n\t\t\t\t\t\t238 link Description: HTTPS Page is served over HTTPS, Value: search.google.com/search-console/inspect/https?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=hyOmBHmxVpctv8NhAiPysQ\n\t\t\t\t\t\t239 link Description: Breadcrumbs 1 valid item detected, Value: search.google.com/search-console/inspect/r/breadcrumbs?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=hyOmBHmxVpctv8NhAiPysQ\n\t\t148 ",
+      "coverageState": "Page is indexed",
+      "lastCrawlDisplay": "Jul 24, 2026, 11:41:52 PM",
+      "crawlAllowed": "Yes",
+      "pageFetch": "Successful",
+      "indexingAllowed": "Yes",
+      "userDeclaredCanonical": "https://freeze-dried-fruit.com/articles/how-its-made/",
+      "googleSelectedCanonical": "https://freeze-dried-fruit.com/articles/how-its-made/",
+      "googleCanonicalUiValue": "Inspected URL"
+    },
+    {
+      "slug": "moisture-control",
+      "url": "https://freeze-dried-fruit.com/articles/moisture-control/",
+      "checkedAt": "2026-11-10T05:40:53.126Z",
+      "inspectionUrl": "https://search.google.com/search-console/inspect?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=ywSTgF92bnNf_jTWqZ_oRw",
+      "evidence": "text https://freeze-dried-fruit.com/articles/moisture-control/\n\t\t\t\t218 container\n\t\t\t\t\t219 container Breadcrumbs\n\t\t\t\t\t\t220 heading URL Inspection, Value: 1\n\t\t\t\t\t\t\t221 text URL Inspection\n\t\t\t\t\t222 button TEST LIVE URL\n\t\t\t\t\t\t223 text TEST LIVE URL\n\t\t\t\t\t224 container\n\t\t\t\t\t\t225 text URL is on Google\n\t\t\t\t\t\t226 container\n\t\t\t\t\t\t\t227 text It can appear in Google Search results (if not subject to a manual action or removal request) with all relevant enhancements. \n\t\t\t\t\t\t\t228 link Description: Learn more, Value: support.google.com/webmasters/answer/9012289#url_on_google\n\t\t\t\t\t\t229 button View crawled page\n\t\t\t\t\t\t\t230 text VIEW CRAWLED PAGE\n\t\t\t\t\t\t231 text Page changed?\n\t\t\t\t\t\t232 button Request indexingRequest again\n\t\t\t\t\t\t\t233 text REQUEST INDEXING\n\t\t\t\t\t241 container\n\t\t\t\t\t\t242 button (expanded) Page indexing Page is indexed, Secondary Actions: Collapse\n\t\t\t\t\t\t\t243 text Page indexing\n\t\t\t\t\t\t\t244 text Page is indexed\n\t\t\t\t\t\t245 text Discovery\n\t\t\t\t\t\t246 text Sitemaps\n\t\t\t\t\t\t247 text https://freeze-dried-fruit.com/sitemap.xml\n\t\t\t\t\t\t248 text Referring page\n\t\t\t\t\t\t249 text https://freeze-dried-fruit.com/es/articles/moisture-control/\n\t\t\t\t\t\t250 text https://freeze-dried-fruit.com/articles/category/technology/\n\t\t\t\t\t\t251 text Crawl\n\t\t\t\t\t\t252 text Last crawl\n\t\t\t\t\t\t253 text Oct 20, 2026, 9:35:06 AM\n\t\t\t\t\t\t254 text Crawled as\n\t\t\t\t\t\t255 text Googlebot smartphone\n\t\t\t\t\t\t256 text Crawl allowed?\n\t\t\t\t\t\t257 text Yes\n\t\t\t\t\t\t258 text Page fetch\n\t\t\t\t\t\t259 text Successful\n\t\t\t\t\t\t260 text Indexing allowed?\n\t\t\t\t\t\t261 text Yes\n\t\t\t\t\t\t262 text Indexing\n\t\t\t\t\t\t263 text User-declared canonical\n\t\t\t\t\t\t264 text https://freeze-dried-fruit.com/articles/moisture-control/\n\t\t\t\t\t\t265 text Google-selected canonical\n\t\t\t\t\t\t266 button (collapsed) Description: null, Secondary Actions: Expand\n\t\t\t\t\t\t267 text Inspected URL\n\t\t\t\t\t\t268 link Description: Link to more extensive documentation, Value: support.google.com/webmasters/answer/7440203#submitted_and_indexed\n\t\t\t\t\t\t269 link Description: OPEN REPORT, Value: search.google.com/search-console/index/drilldown?resource_id=sc-domain%3Afreeze-dried-fruit.com&item_key=CAMYASAB\n\t\t\t\t\t237 text Enhancements & Experience\n\t\t\t\t\t238 container\n\t\t\t\t\t\t239 link Description: HTTPS Page is served over HTTPS, Value: search.google.com/search-console/inspect/https?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=ywSTgF92bnNf_jTWqZ_oRw\n\t\t\t\t\t\t240 link Description: Breadcrumbs 1 valid item detected, Value: search.google.com/search-console/inspect/r/breadcrumbs?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=ywSTgF92bnNf_jTWqZ_oRw\n\t\t148 ",
+      "coverageState": "Page is indexed",
+      "lastCrawlDisplay": "Oct 20, 2026, 9:35:06 AM",
+      "crawlAllowed": "Yes",
+      "pageFetch": "Successful",
+      "indexingAllowed": "Yes",
+      "userDeclaredCanonical": "https://freeze-dried-fruit.com/articles/moisture-control/",
+      "googleSelectedCanonical": "https://freeze-dried-fruit.com/articles/moisture-control/",
+      "googleCanonicalUiValue": "Inspected URL"
+    },
+    {
+      "slug": "water-activity-vs-moisture-content",
+      "url": "https://freeze-dried-fruit.com/articles/water-activity-vs-moisture-content/",
+      "checkedAt": "2026-11-10T05:40:57.272Z",
+      "inspectionUrl": "https://search.google.com/search-console/inspect?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=lYWq4CZV8zkfs4FiqW190g",
+      "evidence": "text https://freeze-dried-fruit.com/articles/water-activity-vs-moisture-content/\n\t\t\t\t218 container\n\t\t\t\t\t219 container Breadcrumbs\n\t\t\t\t\t\t220 heading URL Inspection, Value: 1\n\t\t\t\t\t\t\t221 text URL Inspection\n\t\t\t\t\t222 button TEST LIVE URL\n\t\t\t\t\t\t223 text TEST LIVE URL\n\t\t\t\t\t224 container\n\t\t\t\t\t\t225 text URL is on Google\n\t\t\t\t\t\t226 container\n\t\t\t\t\t\t\t227 text It can appear in Google Search results (if not subject to a manual action or removal request) with all relevant enhancements. \n\t\t\t\t\t\t\t228 link Description: Learn more, Value: support.google.com/webmasters/answer/9012289#url_on_google\n\t\t\t\t\t\t229 button View crawled page\n\t\t\t\t\t\t\t230 text VIEW CRAWLED PAGE\n\t\t\t\t\t\t231 text Page changed?\n\t\t\t\t\t\t232 button Request indexingRequest again\n\t\t\t\t\t\t\t233 text REQUEST INDEXING\n\t\t\t\t\t242 container\n\t\t\t\t\t\t243 button (expanded) Page indexing Page is indexed, Secondary Actions: Collapse\n\t\t\t\t\t\t\t244 text Page indexing\n\t\t\t\t\t\t\t245 text Page is indexed\n\t\t\t\t\t\t246 text Discovery\n\t\t\t\t\t\t247 text Sitemaps\n\t\t\t\t\t\t248 text https://freeze-dried-fruit.com/sitemap.xml\n\t\t\t\t\t\t249 text Referring page\n\t\t\t\t\t\t250 text None detected\n\t\t\t\t\t\t251 text Crawl\n\t\t\t\t\t\t252 text Last crawl\n\t\t\t\t\t\t253 text Oct 20, 2026, 10:00:06 AM\n\t\t\t\t\t\t254 text Crawled as\n\t\t\t\t\t\t255 text Googlebot smartphone\n\t\t\t\t\t\t256 text Crawl allowed?\n\t\t\t\t\t\t257 text Yes\n\t\t\t\t\t\t258 text Page fetch\n\t\t\t\t\t\t259 text Successful\n\t\t\t\t\t\t260 text Indexing allowed?\n\t\t\t\t\t\t261 text Yes\n\t\t\t\t\t\t262 text Indexing\n\t\t\t\t\t\t263 text User-declared canonical\n\t\t\t\t\t\t264 text https://freeze-dried-fruit.com/articles/water-activity-vs-moisture-content/\n\t\t\t\t\t\t265 text Google-selected canonical\n\t\t\t\t\t\t266 button (collapsed) Description: null, Secondary Actions: Expand\n\t\t\t\t\t\t267 text Inspected URL\n\t\t\t\t\t\t268 link Description: Link to more extensive documentation, Value: support.google.com/webmasters/answer/7440203#submitted_and_indexed\n\t\t\t\t\t\t269 link Description: OPEN REPORT, Value: search.google.com/search-console/index/drilldown?resource_id=sc-domain%3Afreeze-dried-fruit.com&item_key=CAMYASAB\n\t\t\t\t\t237 text Enhancements & Experience\n\t\t\t\t\t238 container\n\t\t\t\t\t\t239 link Description: HTTPS Page is served over HTTPS, Value: search.google.com/search-console/inspect/https?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=lYWq4CZV8zkfs4FiqW190g\n\t\t\t\t\t\t240 link Description: Breadcrumbs 1 valid item detected, Value: search.google.com/search-console/inspect/r/breadcrumbs?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=lYWq4CZV8zkfs4FiqW190g\n\t\t148 ",
+      "coverageState": "Page is indexed",
+      "lastCrawlDisplay": "Oct 20, 2026, 10:00:06 AM",
+      "crawlAllowed": "Yes",
+      "pageFetch": "Successful",
+      "indexingAllowed": "Yes",
+      "userDeclaredCanonical": "https://freeze-dried-fruit.com/articles/water-activity-vs-moisture-content/",
+      "googleSelectedCanonical": "https://freeze-dried-fruit.com/articles/water-activity-vs-moisture-content/",
+      "googleCanonicalUiValue": "Inspected URL"
+    },
+    {
+      "slug": "barrier-films-for-freeze-dried-fruit",
+      "url": "https://freeze-dried-fruit.com/articles/barrier-films-for-freeze-dried-fruit/",
+      "checkedAt": "2026-11-10T05:41:00.109Z",
+      "inspectionUrl": "https://search.google.com/search-console/inspect?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=1eEHGEi0iKoYTchZzSvSQg",
+      "evidence": "text https://freeze-dried-fruit.com/articles/barrier-films-for-freeze-dried-fruit/\n\t\t\t\t218 container\n\t\t\t\t\t219 container Breadcrumbs\n\t\t\t\t\t\t220 heading URL Inspection, Value: 1\n\t\t\t\t\t\t\t221 text URL Inspection\n\t\t\t\t\t222 button TEST LIVE URL\n\t\t\t\t\t\t223 text TEST LIVE URL\n\t\t\t\t224 container\n\t\t\t\t\t225 container\n\t\t\t\t\t\t226 text URL is not on Google This page is not indexed. Pages that aren't indexed can't be served on Google. See the details below to learn why it wasn't indexed. \n\t\t\t\t\t\t227 link Description: Learn more, Value: support.google.com/webmasters/answer/9012289#url_not_on_google\n\t\t\t\t\t228 button (disabled) View crawled page\n\t\t\t\t\t\t229 text VIEW CRAWLED PAGE\n\t\t\t\t\t230 container\n\t\t\t\t\t\t231 text Page changed?\n\t\t\t\t\t\t232 button Request indexingRequest again\n\t\t\t\t\t\t\t233 text REQUEST INDEXING\n\t\t\t\t\t234 button (expanded) Page indexing Page is not indexed: Discovered - currently not indexed, Secondary Actions: Collapse\n\t\t\t\t\t\t235 text Page indexing\n\t\t\t\t\t\t236 container\n\t\t\t\t\t\t\t237 text Page is not indexed:  Discovered - currently not indexed\n\t\t\t\t\t238 container\n\t\t\t\t\t\t239 text Discovery Sitemaps https://freeze-dried-fruit.com/sitemap.xml Referring page http://freeze-dried-fruit.com/articles/barrier-films-for-freeze-dried-fruit/ Crawl Last crawl N/A Crawled as N/A Crawl allowed? N/A Page fetch N/A Indexing allowed? N/A Indexing User-declared canonical N/A Google-selected canonical\n\t\t\t\t\t\t240 button (collapsed) Description: null, Secondary Actions: Expand\n\t\t\t\t\t\t241 text N/A\n\t\t\t\t\t\t242 link Description: Link to more extensive documentation, Value: support.google.com/webmasters/answer/7440203#discovered__unclear_status\n\t\t\t\t\t\t243 link Description: OPEN REPORT, Value: search.google.com/search-console/index/drilldown?resource_id=sc-domain%3Afreeze-dried-fruit.com&item_key=CAMYFiAC\n\t\t\t\t\t244 text Enhancements & Experience Only indexed URLs can have enhancements\n\t\t148 ",
+      "coverageState": "Discovered - currently not indexed",
+      "lastCrawlDisplay": "N/A",
+      "crawlAllowed": "N/A",
+      "pageFetch": "N/A",
+      "indexingAllowed": "N/A",
+      "userDeclaredCanonical": null,
+      "googleSelectedCanonical": null,
+      "googleCanonicalUiValue": "N/A"
+    },
+    {
+      "slug": "apple-varieties-for-freeze-drying",
+      "url": "https://freeze-dried-fruit.com/articles/apple-varieties-for-freeze-drying/",
+      "checkedAt": "2026-11-10T05:41:08.660Z",
+      "inspectionUrl": "https://search.google.com/search-console/inspect?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=DITSq7RW1JWjxhU5VlmsJQ",
+      "evidence": "text https://freeze-dried-fruit.com/articles/apple-varieties-for-freeze-drying/\n\t\t\t\t218 container\n\t\t\t\t\t219 container Breadcrumbs\n\t\t\t\t\t\t220 heading URL Inspection, Value: 1\n\t\t\t\t\t\t\t221 text URL Inspection\n\t\t\t\t\t222 button TEST LIVE URL\n\t\t\t\t\t\t223 text TEST LIVE URL\n\t\t\t\t224 container\n\t\t\t\t\t225 container\n\t\t\t\t\t\t226 text URL is not on Google This page is not indexed. Pages that aren't indexed can't be served on Google. See the details below to learn why it wasn't indexed. \n\t\t\t\t\t\t227 link Description: Learn more, Value: support.google.com/webmasters/answer/9012289#url_not_on_google\n\t\t\t\t\t228 button (disabled) View crawled page\n\t\t\t\t\t\t229 text VIEW CRAWLED PAGE\n\t\t\t\t\t230 container\n\t\t\t\t\t\t231 text Page changed?\n\t\t\t\t\t\t232 button Request indexingRequest again\n\t\t\t\t\t\t\t233 text REQUEST INDEXING\n\t\t\t\t\t234 button (expanded) Page indexing Page is not indexed: Discovered - currently not indexed, Secondary Actions: Collapse\n\t\t\t\t\t\t235 text Page indexing\n\t\t\t\t\t\t236 container\n\t\t\t\t\t\t\t237 text Page is not indexed:  Discovered - currently not indexed\n\t\t\t\t\t238 container\n\t\t\t\t\t\t239 text Discovery Sitemaps https://freeze-dried-fruit.com/sitemap.xml Referring page http://freeze-dried-fruit.com/feed.xml Crawl Last crawl N/A Crawled as N/A Crawl allowed? N/A Page fetch N/A Indexing allowed? N/A Indexing User-declared canonical N/A Google-selected canonical\n\t\t\t\t\t\t240 button (collapsed) Description: null, Secondary Actions: Expand\n\t\t\t\t\t\t241 text N/A\n\t\t\t\t\t\t242 link Description: Link to more extensive documentation, Value: support.google.com/webmasters/answer/7440203#discovered__unclear_status\n\t\t\t\t\t\t243 link Description: OPEN REPORT, Value: search.google.com/search-console/index/drilldown?resource_id=sc-domain%3Afreeze-dried-fruit.com&item_key=CAMYFiAC\n\t\t\t\t\t244 text Enhancements & Experience Only indexed URLs can have enhancements\n\t\t148 ",
+      "coverageState": "Discovered - currently not indexed",
+      "lastCrawlDisplay": "N/A",
+      "crawlAllowed": "N/A",
+      "pageFetch": "N/A",
+      "indexingAllowed": "N/A",
+      "userDeclaredCanonical": null,
+      "googleSelectedCanonical": null,
+      "googleCanonicalUiValue": "N/A"
+    },
+    {
+      "slug": "strawberry-varieties-for-freeze-drying",
+      "url": "https://freeze-dried-fruit.com/articles/strawberry-varieties-for-freeze-drying/",
+      "checkedAt": "2026-11-10T05:41:12.299Z",
+      "inspectionUrl": "https://search.google.com/search-console/inspect?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=3H6cSXDAr6BPNkyrDsG79Q",
+      "evidence": "text https://freeze-dried-fruit.com/articles/strawberry-varieties-for-freeze-drying/\n\t\t\t\t218 container\n\t\t\t\t\t219 container Breadcrumbs\n\t\t\t\t\t\t220 heading URL Inspection, Value: 1\n\t\t\t\t\t\t\t221 text URL Inspection\n\t\t\t\t\t222 button TEST LIVE URL\n\t\t\t\t\t\t223 text TEST LIVE URL\n\t\t\t\t224 container\n\t\t\t\t\t225 container\n\t\t\t\t\t\t226 text URL is not on Google This page is not indexed. Pages that aren't indexed can't be served on Google. See the details below to learn why it wasn't indexed. \n\t\t\t\t\t\t227 link Description: Learn more, Value: support.google.com/webmasters/answer/9012289#url_not_on_google\n\t\t\t\t\t228 button (disabled) View crawled page\n\t\t\t\t\t\t229 text VIEW CRAWLED PAGE\n\t\t\t\t\t230 container\n\t\t\t\t\t\t231 text Page changed?\n\t\t\t\t\t\t232 button Request indexingRequest again\n\t\t\t\t\t\t\t233 text REQUEST INDEXING\n\t\t\t\t\t234 button (expanded) Page indexing Page is not indexed: Crawled - currently not indexed, Secondary Actions: Collapse\n\t\t\t\t\t\t235 text Page indexing\n\t\t\t\t\t\t236 container\n\t\t\t\t\t\t\t237 text Page is not indexed:  Crawled - currently not indexed\n\t\t\t\t\t238 container\n\t\t\t\t\t\t239 text Discovery Sitemaps https://freeze-dried-fruit.com/sitemap.xml Referring page https://freeze-dried-fruit.com/feed.xml Crawl Last crawl Jul 28, 2026, 9:49:09 PM Crawled as Googlebot smartphone Crawl allowed? Yes Page fetch Successful Indexing allowed? Yes Indexing User-declared canonical https://freeze-dried-fruit.com/articles/strawberry-varieties-for-freeze-drying/ Google-selected canonical\n\t\t\t\t\t\t240 button (collapsed) Description: null, Secondary Actions: Expand\n\t\t\t\t\t\t241 text Inspected URL\n\t\t\t\t\t\t242 link Description: Link to more extensive documentation, Value: support.google.com/webmasters/answer/7440203#crawled\n\t\t\t\t\t\t243 link Description: OPEN REPORT, Value: search.google.com/search-console/index/drilldown?resource_id=sc-domain%3Afreeze-dried-fruit.com&item_key=CAMYFyAC\n\t\t\t\t\t244 text Enhancements & Experience Only indexed URLs can have enhancements\n\t\t148 ",
+      "coverageState": "Crawled - currently not indexed",
+      "lastCrawlDisplay": "Jul 28, 2026, 9:49:09 PM",
+      "crawlAllowed": "Yes",
+      "pageFetch": "Successful",
+      "indexingAllowed": "Yes",
+      "userDeclaredCanonical": "https://freeze-dried-fruit.com/articles/strawberry-varieties-for-freeze-drying/",
+      "googleSelectedCanonical": "https://freeze-dried-fruit.com/articles/strawberry-varieties-for-freeze-drying/",
+      "googleCanonicalUiValue": "Inspected URL"
+    },
+    {
+      "slug": "best-freeze-dried-fruit-for-oatmeal-and-overnight-oats",
+      "url": "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/",
+      "checkedAt": "2026-11-10T05:41:20.717Z",
+      "inspectionUrl": "https://search.google.com/search-console/inspect?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=b5XzKl6uwDLemTVE93FeLw",
+      "evidence": "text https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/\n\t\t\t\t218 container\n\t\t\t\t\t219 container Breadcrumbs\n\t\t\t\t\t\t220 heading URL Inspection, Value: 1\n\t\t\t\t\t\t\t221 text URL Inspection\n\t\t\t\t\t222 button TEST LIVE URL\n\t\t\t\t\t\t223 text TEST LIVE URL\n\t\t\t\t\t224 container\n\t\t\t\t\t\t225 text URL is on Google\n\t\t\t\t\t\t226 container\n\t\t\t\t\t\t\t227 text It can appear in Google Search results (if not subject to a manual action or removal request) with all relevant enhancements. \n\t\t\t\t\t\t\t228 link Description: Learn more, Value: support.google.com/webmasters/answer/9012289#url_on_google\n\t\t\t\t\t\t229 button View crawled page\n\t\t\t\t\t\t\t230 text VIEW CRAWLED PAGE\n\t\t\t\t\t\t231 text Page changed?\n\t\t\t\t\t\t232 button Request indexingRequest again\n\t\t\t\t\t\t\t233 text REQUEST INDEXING\n\t\t\t\t\t242 container\n\t\t\t\t\t\t243 button (expanded) Page indexing Page is indexed, Secondary Actions: Collapse\n\t\t\t\t\t\t\t244 text Page indexing\n\t\t\t\t\t\t\t245 text Page is indexed\n\t\t\t\t\t\t246 text Discovery\n\t\t\t\t\t\t247 text Sitemaps\n\t\t\t\t\t\t248 text https://freeze-dried-fruit.com/sitemap.xml\n\t\t\t\t\t\t249 text Referring page\n\t\t\t\t\t\t250 text https://freeze-dried-fruit.com/articles/lychee-for-freeze-drying/\n\t\t\t\t\t\t251 text Crawl\n\t\t\t\t\t\t252 text Last crawl\n\t\t\t\t\t\t253 text Oct 28, 2026, 11:45:07 AM\n\t\t\t\t\t\t254 text Crawled as\n\t\t\t\t\t\t255 text Googlebot smartphone\n\t\t\t\t\t\t256 text Crawl allowed?\n\t\t\t\t\t\t257 text Yes\n\t\t\t\t\t\t258 text Page fetch\n\t\t\t\t\t\t259 text Successful\n\t\t\t\t\t\t260 text Indexing allowed?\n\t\t\t\t\t\t261 text Yes\n\t\t\t\t\t\t262 text Indexing\n\t\t\t\t\t\t263 text User-declared canonical\n\t\t\t\t\t\t264 text https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/\n\t\t\t\t\t\t265 text Google-selected canonical\n\t\t\t\t\t\t266 button (collapsed) Description: null, Secondary Actions: Expand\n\t\t\t\t\t\t267 text Inspected URL\n\t\t\t\t\t\t268 link Description: Link to more extensive documentation, Value: support.google.com/webmasters/answer/7440203#submitted_and_indexed\n\t\t\t\t\t\t269 link Description: OPEN REPORT, Value: search.google.com/search-console/index/drilldown?resource_id=sc-domain%3Afreeze-dried-fruit.com&item_key=CAMYASAB\n\t\t\t\t\t237 text Enhancements & Experience\n\t\t\t\t\t238 container\n\t\t\t\t\t\t239 link Description: HTTPS Page is served over HTTPS, Value: search.google.com/search-console/inspect/https?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=b5XzKl6uwDLemTVE93FeLw\n\t\t\t\t\t\t240 link Description: Breadcrumbs 1 valid item detected, Value: search.google.com/search-console/inspect/r/breadcrumbs?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=b5XzKl6uwDLemTVE93FeLw\n\t\t148 ",
+      "coverageState": "Page is indexed",
+      "lastCrawlDisplay": "Oct 28, 2026, 11:45:07 AM",
+      "crawlAllowed": "Yes",
+      "pageFetch": "Successful",
+      "indexingAllowed": "Yes",
+      "userDeclaredCanonical": "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/",
+      "googleSelectedCanonical": "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/",
+      "googleCanonicalUiValue": "Inspected URL"
+    },
+    {
+      "slug": "how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility",
+      "url": "https://freeze-dried-fruit.com/articles/how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility/",
+      "checkedAt": "2026-11-10T05:41:24.292Z",
+      "inspectionUrl": "https://search.google.com/search-console/inspect?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=uR1CbDYs6ME3f7TrHM7NlA",
+      "evidence": "text https://freeze-dried-fruit.com/articles/how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility/\n\t\t\t\t218 container\n\t\t\t\t\t219 container Breadcrumbs\n\t\t\t\t\t\t220 heading URL Inspection, Value: 1\n\t\t\t\t\t\t\t221 text URL Inspection\n\t\t\t\t\t222 button TEST LIVE URL\n\t\t\t\t\t\t223 text TEST LIVE URL\n\t\t\t\t224 container\n\t\t\t\t\t225 container\n\t\t\t\t\t\t226 text URL is not on Google This page is not indexed. Pages that aren't indexed can't be served on Google. See the details below to learn why it wasn't indexed. \n\t\t\t\t\t\t227 link Description: Learn more, Value: support.google.com/webmasters/answer/9012289#url_not_on_google\n\t\t\t\t\t228 button (disabled) View crawled page\n\t\t\t\t\t\t229 text VIEW CRAWLED PAGE\n\t\t\t\t\t230 container\n\t\t\t\t\t\t231 text Page changed?\n\t\t\t\t\t\t232 button Request indexingRequest again\n\t\t\t\t\t\t\t233 text REQUEST INDEXING\n\t\t\t\t\t234 button (expanded) Page indexing Page is not indexed: Discovered - currently not indexed, Secondary Actions: Collapse\n\t\t\t\t\t\t235 text Page indexing\n\t\t\t\t\t\t236 container\n\t\t\t\t\t\t\t237 text Page is not indexed:  Discovered - currently not indexed\n\t\t\t\t\t238 container\n\t\t\t\t\t\t239 text Discovery Sitemaps https://freeze-dried-fruit.com/sitemap.xml Referring page None detected Crawl Last crawl N/A Crawled as N/A Crawl allowed? N/A Page fetch N/A Indexing allowed? N/A Indexing User-declared canonical N/A Google-selected canonical\n\t\t\t\t\t\t240 button (collapsed) Description: null, Secondary Actions: Expand\n\t\t\t\t\t\t241 text N/A\n\t\t\t\t\t\t242 link Description: Link to more extensive documentation, Value: support.google.com/webmasters/answer/7440203#discovered__unclear_status\n\t\t\t\t\t\t243 link Description: OPEN REPORT, Value: search.google.com/search-console/index/drilldown?resource_id=sc-domain%3Afreeze-dried-fruit.com&item_key=CAMYFiAC\n\t\t\t\t\t244 text Enhancements & Experience Only indexed URLs can have enhancements\n\t\t148 ",
+      "coverageState": "Discovered - currently not indexed",
+      "lastCrawlDisplay": "N/A",
+      "crawlAllowed": "N/A",
+      "pageFetch": "N/A",
+      "indexingAllowed": "N/A",
+      "userDeclaredCanonical": null,
+      "googleSelectedCanonical": null,
+      "googleCanonicalUiValue": "N/A"
+    }
+  ],
+  "liveTests": [
+    {
+      "slug": "how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility",
+      "testedAtDisplay": "Nov 9, 2026, 9:41:40 PM",
+      "availability": "URL is available to Google",
+      "crawlAllowed": "Yes",
+      "pageFetch": "Successful",
+      "indexingAllowed": "Yes",
+      "crawler": "Google Inspection Tool smartphone",
+      "liveTestUrl": "https://search.google.com/search-console/inspect?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=AK9g-5ncglEKWNsPO11Dqw&alt_id=uR1CbDYs6ME3f7TrHM7NlA"
+    },
+    {
+      "slug": "added-sugar",
+      "testedAtDisplay": "Nov 9, 2026, 9:43:21 PM",
+      "availability": "URL is available to Google",
+      "crawlAllowed": "Yes",
+      "pageFetch": "Successful",
+      "indexingAllowed": "Yes",
+      "crawler": "Google Inspection Tool smartphone",
+      "liveTestUrl": "https://search.google.com/search-console/inspect?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=PDn0oDeq3_H2cYxGwn9wKg&alt_id=66Sg3_1GqCfDji12GOL1kw"
+    },
+    {
+      "slug": "apple-varieties-for-freeze-drying",
+      "checkedAt": "2026-11-10T05:52:36.105Z",
+      "availability": "URL is available to Google",
+      "liveTestUrl": "https://search.google.com/search-console/inspect?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=Zc3uIhd8ehcoCJAeclIwMw&alt_id=lwVGO6e3PJP5Un9SuKou3A",
+      "evidence": "Tested on: Nov 9, 2026, 9:45 PM\n\ncheck_circle\nURL is available to Google\nIf it gets indexed and selected as canonical, it could appear in Google Search results with all relevant enhancements. Learn more\nVIEW TESTED PAGE\nPage changed?\nREQUEST INDEXING\ncheck_circle\nPage availability\nPage can be indexed\n\nURL will be indexed only if certain conditions are met\nDiscovery\nNot checked in live tests\nCrawl\nTime\nNov 9, 2026, 9:45:00 PM\nCrawled as\nGoogle Inspection Tool smartphone\nCrawl allowed?\nYes\nPage fetch\nSuccessful\nIndexing allowed?\nYes\nIndexing\nUser-declared canonical\nhttps://freeze-dried-fruit.com/articles/apple-varieties-for-freeze-drying/\nGoogle-selected canonical\n\nOnly determined after indexing\nLEARN MORE\nEnhancements & Experience\ncheck_circle\nBreadcrumbs\n1 valid item detected\n",
+      "crawlAllowed": "Yes",
+      "pageFetch": "Successful",
+      "indexingAllowed": "Yes"
+    },
+    {
+      "slug": "barrier-films-for-freeze-dried-fruit",
+      "checkedAt": "2026-11-10T06:00:56.764Z",
+      "availability": "URL is available to Google",
+      "liveTestUrl": "https://search.google.com/search-console/inspect?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=jYIsNcCxYM47EEq2Qki-_A&alt_id=PCNZChNJ9BpusqCGFKQu5A",
+      "evidence": "Tested on: Nov 9, 2026, 9:53 PM\n\ncheck_circle\nURL is available to Google\nIf it gets indexed and selected as canonical, it could appear in Google Search results with all relevant enhancements. Learn more\nVIEW TESTED PAGE\nPage changed?\nREQUEST INDEXING\ncheck_circle\nPage availability\nPage can be indexed\n\nURL will be indexed only if certain conditions are met\nDiscovery\nNot checked in live tests\nCrawl\nTime\nNov 9, 2026, 9:53:04 PM\nCrawled as\nGoogle Inspection Tool smartphone\nCrawl allowed?\nYes\nPage fetch\nSuccessful\nIndexing allowed?\nYes\nIndexing\nUser-declared canonical\nhttps://freeze-dried-fruit.com/articles/barrier-films-for-freeze-dried-fruit/\nGoogle-selected canonical\n\nOnly determined after indexing\nLEARN MORE\nEnhancements & Experience\ncheck_circle\nBreadcrumbs\n1 valid item detected\n",
+      "crawlAllowed": "Yes",
+      "pageFetch": "Successful",
+      "indexingAllowed": "Yes"
+    },
+    {
+      "slug": "strawberry-varieties-for-freeze-drying",
+      "checkedAt": "2026-11-10T06:02:59.887Z",
+      "availability": "URL is available to Google",
+      "liveTestUrl": "https://search.google.com/search-console/inspect?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=OZWGTRWnSS1XCvFUWwL9Zw&alt_id=3H6cSXDAr6BPNkyrDsG79Q",
+      "evidence": "Tested on: Nov 9, 2026, 10:01 PM\n\ncheck_circle\nURL is available to Google\nIf it gets indexed and selected as canonical, it could appear in Google Search results with all relevant enhancements. Learn more\nVIEW TESTED PAGE\nPage changed?\nREQUEST INDEXING\ncheck_circle\nPage availability\nPage can be indexed\n\nURL will be indexed only if certain conditions are met\nDiscovery\nNot checked in live tests\nCrawl\nTime\nNov 9, 2026, 10:01:45 PM\nCrawled as\nGoogle Inspection Tool smartphone\nCrawl allowed?\nYes\nPage fetch\nSuccessful\nIndexing allowed?\nYes\nIndexing\nUser-declared canonical\nhttps://freeze-dried-fruit.com/articles/strawberry-varieties-for-freeze-drying/\nGoogle-selected canonical\n\nOnly determined after indexing\nLEARN MORE\nEnhancements & Experience\ncheck_circle\nBreadcrumbs\n1 valid item detected\n",
+      "crawlAllowed": "Yes",
+      "pageFetch": "Successful",
+      "indexingAllowed": "Yes"
+    }
+  ],
+  "indexRechecks": [
+    {
+      "slug": "barrier-films-for-freeze-dried-fruit",
+      "checkedAt": "2026-11-10T06:01:22.534Z",
+      "inspectionUrl": "https://search.google.com/search-console/inspect?resource_id=sc-domain%3Afreeze-dried-fruit.com&id=PCNZChNJ9BpusqCGFKQu5A&alt_id=jYIsNcCxYM47EEq2Qki-_A",
+      "evidence": "info\nURL is not on Google\nThis page is not indexed. Pages that aren't indexed can't be served on Google. See the details below to learn why it wasn't indexed. Learn more\nVIEW CRAWLED PAGE\nPage changed?\nREQUEST INDEXING\ninfo\nPage indexing\nPage is not indexed: URL is unknown to Google\n\nDiscovery\nSitemaps\nNo referring sitemaps detected\nReferring page\nNone detected\nURL might be known from other sources that are currently not reported\nCrawl\nLast crawl\nN/A\nCrawled as\nN/A\nCrawl allowed?\nN/A\nPage fetch\nN/A\nIndexing allowed?\ninfo\nN/A\nIndexing\nUser-declared canonical\nN/A\nGoogle-selected canonical\n\nN/A\nLEARN MORE\nEnhancements & Experience\nOnly indexed URLs can have enhancements",
+      "note": "Initial official inspection reported Discovered - currently not indexed; subsequent official inspection reported URL is unknown to Google. Both lack a last crawl. Preserve both results."
+    }
+  ],
+  "summary": {
+    "indexed": 5,
+    "notIndexed": 5,
+    "noRecordedIndexCrawl": 4,
+    "crawledButNotIndexed": 1,
+    "liveTestsPassed": 5,
+    "discoverySubstatusDiscrepancy": [
+      "barrier-films-for-freeze-dried-fruit"
+    ],
+    "note": "All six pages with a recorded index crawl show successful fetch, crawl/indexing allowed and matching canonical selection. None has a recorded index crawl after the November 9 deployment. Live tests use Google Inspection Tool and do not change the recorded Googlebot index crawl or guarantee indexing."
+  }
+}

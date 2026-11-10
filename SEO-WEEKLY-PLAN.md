@@ -16,9 +16,15 @@ The November 9 public HTTP audit found no current blanket robots/noindex
 block. The locally generated site contains 625 sitemap URLs, all reachable by
 HTML links; English articles are one or two clicks from the homepage. That
 does not establish historical availability or access by verified Googlebot.
-Current Search Console access returned `subscription_required`. The October 8
-coverage report is historical; none of the ten pages is being labeled as
-currently indexed or unindexed without a fresh individual inspection.
+The GSC Wizard connector returned `subscription_required`, but the signed-in
+Google Search Console website is accessible directly. Individual official UI
+inspections on November 9 found five indexed pages and five not indexed: four
+had no recorded crawl, and the strawberry guide had been crawled. Packaging
+showed inconsistent discovery sub-statuses across two official UI inspections;
+both results and their evidence are retained. The direct baseline is
+reports/seo/2026-11-09-gsc-direct.json. It supersedes the earlier access gap
+for these ten URLs; the October aggregate coverage report remains historical.
+Live-test results are separate from index status and do not prove indexing.
 
 The machine-readable cohort is config/seo-priority-pages.json. Preserve these
 ten canonical URLs until a measured review justifies a documented change.
@@ -87,13 +93,19 @@ the roadmap's conditions.
    unrelated changes; determine whether earlier work was actually deployed
    before repeating it or calling it live. Do not overwrite unpublished local
    work while syncing or automatically stage someone else's edits.
-2. If GSC is available, collect Web performance over the last 28 settled days
+2. Prefer the official Google Search Console website through the existing
+   signed-in Chrome browser connection. GSC Wizard is optional; its payment
+   error does not mean Google Search Console is unavailable. Preserve Google
+   account permissions and do not create a new authorization to read an
+   already accessible property. If GSC is available, collect Web performance over the last 28 settled days
    versus the preceding 28, plus the same pages/queries over 90 days. Use
-   individual URL Inspection results for index status. Read inspection quota
-   first; inspect at most the ten cohort URLs, comfortably below half the
-   remaining quota, and reuse recent history where appropriate. Save exact
-   date ranges and inspection timestamps. If GSC returns an access or payment
-   error, record it once and continue repository-evidenced maintenance. Do not
+   individual URL Inspection results for index status. For API inspections,
+   read quota first and remain comfortably below half the remaining quota;
+   for direct UI checks, inspect only the ten cohort URLs and use live tests
+   only for a specific diagnostic question. Reuse recent history where
+   appropriate. Save exact date ranges and inspection timestamps. If the
+   official UI and any already-authorized alternative are unavailable, record
+   that gap and continue repository-evidenced maintenance. Do not
    relabel old data as current, equate zero impressions with no indexing, or
    use the deprecated sitemap indexed field as coverage.
 3. Build, then run `npm run audit:priority`. Compare the ten paths against the

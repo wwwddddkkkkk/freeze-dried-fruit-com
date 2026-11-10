@@ -43,6 +43,8 @@ Most premium freeze-dried fruit targets 1–4% residual moisture. At those level
 
 > The crunch you feel is essentially a moisture spec. Lose the spec, lose the crunch.
 
+For a supplier specification, distinguish [moisture content from water activity](/articles/water-activity-vs-moisture-content/). A texture observation and either lab figure answer different parts of the quality question.
+
 ## Where moisture sneaks in
 
 - A bag seal that wasn't fully closed at the factory
@@ -54,3 +56,5 @@ Most premium freeze-dried fruit targets 1–4% residual moisture. At those level
 ## What buyers can ask suppliers
 
 Ask for the target moisture and water activity, the packaging film spec, the desiccant or oxygen absorber strategy, and shelf-life testing data. The answer tells you whether the supplier treats moisture as a casual concern or a controlled spec.
+
+Use the [barrier-film guide](/articles/barrier-films-for-freeze-dried-fruit/) to turn the packaging answer into specific questions about water vapor, seals, and repeated opening. Bring those answers into the [buyer's quality checklist](/articles/buyer-guide/) alongside ingredients and format.

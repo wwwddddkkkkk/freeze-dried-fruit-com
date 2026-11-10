@@ -1,6 +1,16 @@
 # Freeze-Dried-Fruit.com — SEO & Editorial Roadmap
 
-## Active decision — October 14, 2026
+## Active execution plan — November 9, 2026
+
+Follow [SEO-WEEKLY-PLAN.md](SEO-WEEKLY-PLAN.md) and
+config/seo-priority-pages.json for the fixed ten-page cohort, the completed
+three-article refresh, contextual-link baselines, and the next weekly batches.
+That plan supersedes the dated four-run queue and old refresh backlog below.
+The November 9 work is recorded as local implementation until production
+deployment is separately verified. GSC access currently returns
+subscription_required; October metrics and inspection results remain historical.
+
+## Business and editorial decision — October 14, 2026
 
 The business objective is to send relevant readers to OhCrisp and measure
 their product visits, cart additions, and completed checkouts. Organic reach
@@ -117,13 +127,10 @@ small sample does not show a blanket indexability block. Automated metadata
 length and repeated Organization-logo warnings are secondary review leads,
 not demonstrated causes of the backlog.
 
-Next batch: make sitemap signals truthful and review a small priority URL set.
-Repository inspection found that Spanish per-term glossary entries still emit
-the current build date as lastmod, while English terms use the declared
-glossary revision date. Fix that bounded inconsistency and remove the misleading
-assumption that sitemap priority can allocate English versus Spanish crawl.
-Google ignores priority and changefreq; changing either is not a crawl fix.
-Do not resubmit the sitemap as part of that batch.
+The earlier Spanish glossary lastmod inconsistency has been corrected in the
+current builder: both languages use glossary_data_lastmod. Do not repeat that
+completed repair. Google ignores priority and changefreq; changing either is
+not a crawl fix. Use the November 9 plan for the fixed cohort and current work.
 
 The sitemap was successfully read October 7, with 625 submitted Web URLs and
 zero warnings/errors. Its API indexed field reports zero, inconsistent with
@@ -198,7 +205,7 @@ The 90-day cannibalization scan found no competing query family above five
 visible impressions. With anonymized queries and low traffic, that is weak
 negative evidence, not a license to merge or remove pages.
 
-## Four-week execution schedule
+## Historical four-week execution schedule — superseded November 9
 
 Use exactly one bounded batch each week; a code/architecture batch replaces
 that week's content batch rather than adding to it.
@@ -247,8 +254,9 @@ does not satisfy this gate.
 ## Measurement and review discipline
 
 - Weekly: one 28-day performance comparison, three-month top queries/pages,
-  leading indexing cause, and individual checks on affected URLs. Connector
-  access now works; use it first. If it fails, record the access gap.
+  leading indexing cause, and individual checks on affected URLs when access
+  is available. GSC Wizard access was unavailable on November 9 because the
+  subscription ended; record that gap and never invent a current snapshot.
 - For each refresh: compare the same URL and relevant visible query family
   before/after, separating crawl/index gains from ranking and click gains.
   Observe a full settled 28-day window; small counts remain directional only.

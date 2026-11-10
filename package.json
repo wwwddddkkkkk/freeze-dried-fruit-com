@@ -11,6 +11,7 @@
     "check:publisher": "node scripts/check-publisher.mjs",
     "check:content": "node scripts/check-content-integrity.mjs",
     "check:site": "node scripts/check-site.mjs",
+    "audit:priority": "node scripts/audit-priority-pages.mjs",
     "test": "node --test scripts/*.test.mjs",
     "verify": "npm test && npm run build",
     "dev": "node scripts/build.mjs && node scripts/serve.mjs",

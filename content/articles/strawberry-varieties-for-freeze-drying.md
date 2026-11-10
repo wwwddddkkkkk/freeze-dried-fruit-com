@@ -66,6 +66,8 @@ These signals matter because consumers judge freeze-dried fruit quickly. They se
 
 ## Sourcing reality
 
+For the numerical part of a specification, read [moisture content versus water activity](/articles/water-activity-vs-moisture-content/). For the complete sample decision, use the [buyer's quality guide](/articles/buyer-guide/) alongside these strawberry-specific observations.
+
 Strawberry supply is strongly tied to region, season, and whether the processor uses fresh or IQF raw material. Fresh peak-season strawberries can give beautiful aroma, but IQF strawberries can deliver more consistency for year-round production. For retail snack bags, buyers should ask whether the product uses whole slices, irregular broken pieces, or mixed formats. For ingredient buyers, the key questions are cut size, color target, moisture or water activity, seed level, and acceptable fines.
 
 ::: note "Buyer checklist"
@@ -78,7 +80,11 @@ For premium snack positioning, use the format that lets the fruit remain recogni
 
 For mixed fruit snacks, strawberry should have a clear job. It can provide color, aroma, acidity, sweetness, novelty, or texture. If it does not play one of those roles clearly, it may disappear behind louder fruits like mango, pineapple, or strawberry.
 
+For breakfast applications, use the [oatmeal and overnight-oats guide](/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/) to decide whether the strawberry should remain a topping or soften through the bowl.
+
 ## How to read a strawberry label
+
+The [added-sugar guide](/articles/added-sugar/) explains why a sweet taste or a high Total Sugars value cannot identify a sweetened strawberry product on its own.
 
 A useful label should tell you whether the product is plain fruit or sweetened, what format is inside, and sometimes the origin or variety. If the label only says "strawberry" but the price is premium, the sample itself needs to justify that price through color, aroma, texture, and piece integrity.
 

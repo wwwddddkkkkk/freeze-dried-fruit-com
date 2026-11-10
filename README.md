@@ -65,6 +65,14 @@ articles as drafts or future-dated previews until editorial review is complete.
 Do not bump dates for site-wide template fixes or auto-publish articles to fill
 a category quota. News Wire automation remains a separate aggregation process.
 
+The active November 9 execution plan is `SEO-WEEKLY-PLAN.md`, with a fixed
+ten-page cohort in `config/seo-priority-pages.json`. It supersedes the earlier
+dated weekly queue. After a build, run `npm run audit:priority` to inspect
+manually authored contextual links and generated canonicals for that cohort.
+Use `--baseline reports/seo/2026-11-09-after.json --output <report.json>` to
+save a comparison. These local reports do not measure Google index status;
+current GSC access and actual deployment dates must be recorded separately.
+
 ### Industry Notes subscriptions
 
 `config/site.json` contains the public Klaviyo site ID and the dedicated

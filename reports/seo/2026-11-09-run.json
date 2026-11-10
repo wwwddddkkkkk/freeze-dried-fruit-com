@@ -1,0 +1,460 @@
+{
+  "runDate": "2026-11-09",
+  "timezone": "America/Los_Angeles",
+  "type": "initial implementation of the user-requested ten-page weekly plan",
+  "cohortFile": "config/seo-priority-pages.json",
+  "plan": "SEO-WEEKLY-PLAN.md",
+  "substantiveRewrites": [
+    "added-sugar",
+    "apple-varieties-for-freeze-drying",
+    "how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility"
+  ],
+  "newDistinctContextualSourceTargetPairs": 52,
+  "googleAccess": "subscription_required; no fresh inspections or current index claims",
+  "validation": {
+    "command": "DIST_DIR=/tmp/fdf-priority-after npm run verify",
+    "regressionTests": {
+      "passed": 13,
+      "failed": 0
+    },
+    "contentIntegrity": "passed",
+    "publisherJourney": "passed",
+    "siteIntegration": "passed",
+    "htmlPages": 627,
+    "sitemapUrls": 625,
+    "cohortAudit": "10 published pages, 10 matching canonicals, no unexpected noindex; all authored source links confirmed in generated HTML",
+    "visualReview": [
+      {
+        "slug": "buyer-guide",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "title": "The Buyer's Guide to Freeze-Dried Fruit Quality — Freeze-Dried-Fruit.com",
+        "h1": "The Buyer's Guide to Freeze-Dried Fruit Quality",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/buyer-guide/",
+        "passed": true
+      },
+      {
+        "slug": "added-sugar",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "title": "Why Some Freeze-Dried Fruit Has Added Sugar — Freeze-Dried-Fruit.com",
+        "h1": "Why Some Freeze-Dried Fruit Has Added Sugar",
+        "brokenImages": 0,
+        "tables": [
+          {
+            "width": 736,
+            "scrollWidth": 736
+          }
+        ],
+        "canonical": "https://freeze-dried-fruit.com/articles/added-sugar/",
+        "passed": true
+      },
+      {
+        "slug": "how-its-made",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "title": "How Freeze-Dried Fruit Is Made — Freeze-Dried-Fruit.com",
+        "h1": "How Freeze-Dried Fruit Is Made",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/how-its-made/",
+        "passed": true
+      },
+      {
+        "slug": "moisture-control",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "title": "Moisture Control Is the Hidden Key to Crunch — Freeze-Dried-Fruit.com",
+        "h1": "Moisture Control Is the Hidden Key to Crunch",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/moisture-control/",
+        "passed": true
+      },
+      {
+        "slug": "water-activity-vs-moisture-content",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "title": "Water Activity vs Moisture Content in Freeze-Dried Fruit — Freeze-Dried-Fruit.com",
+        "h1": "Water Activity vs Moisture Content in Freeze-Dried Fruit",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/water-activity-vs-moisture-content/",
+        "passed": true
+      },
+      {
+        "slug": "barrier-films-for-freeze-dried-fruit",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "title": "How to Choose Barrier Films for Freeze-Dried Fruit Packaging — Freeze-Dried-Fruit.com",
+        "h1": "How to Choose Barrier Films for Freeze-Dried Fruit Packaging",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/barrier-films-for-freeze-dried-fruit/",
+        "passed": true
+      },
+      {
+        "slug": "apple-varieties-for-freeze-drying",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "title": "A Field Guide to Apples for Freeze-Drying — Freeze-Dried-Fruit.com",
+        "h1": "A Field Guide to Apples for Freeze-Drying",
+        "brokenImages": 0,
+        "tables": [
+          {
+            "width": 736,
+            "scrollWidth": 736
+          },
+          {
+            "width": 844.546875,
+            "scrollWidth": 844
+          }
+        ],
+        "canonical": "https://freeze-dried-fruit.com/articles/apple-varieties-for-freeze-drying/",
+        "passed": true
+      },
+      {
+        "slug": "strawberry-varieties-for-freeze-drying",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "title": "A Field Guide to Strawberries for Freeze-Drying — Freeze-Dried-Fruit.com",
+        "h1": "A Field Guide to Strawberries for Freeze-Drying",
+        "brokenImages": 0,
+        "tables": [
+          {
+            "width": 721.625,
+            "scrollWidth": 722
+          },
+          {
+            "width": 884.875,
+            "scrollWidth": 884
+          }
+        ],
+        "canonical": "https://freeze-dried-fruit.com/articles/strawberry-varieties-for-freeze-drying/",
+        "passed": true
+      },
+      {
+        "slug": "best-freeze-dried-fruit-for-oatmeal-and-overnight-oats",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "title": "Best Freeze-Dried Fruit for Oatmeal and Overnight Oats — Freeze-Dried-Fruit.com",
+        "h1": "Best Freeze-Dried Fruit for Oatmeal and Overnight Oats",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/",
+        "passed": true
+      },
+      {
+        "slug": "how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility",
+        "width": 1440,
+        "scrollWidth": 1440,
+        "title": "How Freeze-Dried Fruit Powder Agglomeration Improves Flow and Dispersibility — Freeze-Dried-Fruit.com",
+        "h1": "How Freeze-Dried Fruit Powder Agglomeration Improves Flow and Dispersibility",
+        "brokenImages": 0,
+        "tables": [
+          {
+            "width": 736,
+            "scrollWidth": 736
+          }
+        ],
+        "canonical": "https://freeze-dried-fruit.com/articles/how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility/",
+        "passed": true
+      },
+      {
+        "slug": "buyer-guide",
+        "width": 768,
+        "scrollWidth": 768,
+        "title": "The Buyer's Guide to Freeze-Dried Fruit Quality — Freeze-Dried-Fruit.com",
+        "h1": "The Buyer's Guide to Freeze-Dried Fruit Quality",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/buyer-guide/",
+        "passed": true
+      },
+      {
+        "slug": "added-sugar",
+        "width": 768,
+        "scrollWidth": 768,
+        "title": "Why Some Freeze-Dried Fruit Has Added Sugar — Freeze-Dried-Fruit.com",
+        "h1": "Why Some Freeze-Dried Fruit Has Added Sugar",
+        "brokenImages": 0,
+        "tables": [
+          {
+            "width": 704,
+            "scrollWidth": 704
+          }
+        ],
+        "canonical": "https://freeze-dried-fruit.com/articles/added-sugar/",
+        "passed": true
+      },
+      {
+        "slug": "how-its-made",
+        "width": 768,
+        "scrollWidth": 768,
+        "title": "How Freeze-Dried Fruit Is Made — Freeze-Dried-Fruit.com",
+        "h1": "How Freeze-Dried Fruit Is Made",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/how-its-made/",
+        "passed": true
+      },
+      {
+        "slug": "moisture-control",
+        "width": 768,
+        "scrollWidth": 768,
+        "title": "Moisture Control Is the Hidden Key to Crunch — Freeze-Dried-Fruit.com",
+        "h1": "Moisture Control Is the Hidden Key to Crunch",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/moisture-control/",
+        "passed": true
+      },
+      {
+        "slug": "water-activity-vs-moisture-content",
+        "width": 768,
+        "scrollWidth": 768,
+        "title": "Water Activity vs Moisture Content in Freeze-Dried Fruit — Freeze-Dried-Fruit.com",
+        "h1": "Water Activity vs Moisture Content in Freeze-Dried Fruit",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/water-activity-vs-moisture-content/",
+        "passed": true
+      },
+      {
+        "slug": "barrier-films-for-freeze-dried-fruit",
+        "width": 768,
+        "scrollWidth": 768,
+        "title": "How to Choose Barrier Films for Freeze-Dried Fruit Packaging — Freeze-Dried-Fruit.com",
+        "h1": "How to Choose Barrier Films for Freeze-Dried Fruit Packaging",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/barrier-films-for-freeze-dried-fruit/",
+        "passed": true
+      },
+      {
+        "slug": "apple-varieties-for-freeze-drying",
+        "width": 768,
+        "scrollWidth": 768,
+        "title": "A Field Guide to Apples for Freeze-Drying — Freeze-Dried-Fruit.com",
+        "h1": "A Field Guide to Apples for Freeze-Drying",
+        "brokenImages": 0,
+        "tables": [
+          {
+            "width": 704,
+            "scrollWidth": 704
+          },
+          {
+            "width": 844.546875,
+            "scrollWidth": 844
+          }
+        ],
+        "canonical": "https://freeze-dried-fruit.com/articles/apple-varieties-for-freeze-drying/",
+        "passed": true
+      },
+      {
+        "slug": "strawberry-varieties-for-freeze-drying",
+        "width": 768,
+        "scrollWidth": 768,
+        "title": "A Field Guide to Strawberries for Freeze-Drying — Freeze-Dried-Fruit.com",
+        "h1": "A Field Guide to Strawberries for Freeze-Drying",
+        "brokenImages": 0,
+        "tables": [
+          {
+            "width": 704,
+            "scrollWidth": 704
+          },
+          {
+            "width": 884.875,
+            "scrollWidth": 884
+          }
+        ],
+        "canonical": "https://freeze-dried-fruit.com/articles/strawberry-varieties-for-freeze-drying/",
+        "passed": true
+      },
+      {
+        "slug": "best-freeze-dried-fruit-for-oatmeal-and-overnight-oats",
+        "width": 768,
+        "scrollWidth": 768,
+        "title": "Best Freeze-Dried Fruit for Oatmeal and Overnight Oats — Freeze-Dried-Fruit.com",
+        "h1": "Best Freeze-Dried Fruit for Oatmeal and Overnight Oats",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/",
+        "passed": true
+      },
+      {
+        "slug": "how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility",
+        "width": 768,
+        "scrollWidth": 768,
+        "title": "How Freeze-Dried Fruit Powder Agglomeration Improves Flow and Dispersibility — Freeze-Dried-Fruit.com",
+        "h1": "How Freeze-Dried Fruit Powder Agglomeration Improves Flow and Dispersibility",
+        "brokenImages": 0,
+        "tables": [
+          {
+            "width": 704,
+            "scrollWidth": 704
+          }
+        ],
+        "canonical": "https://freeze-dried-fruit.com/articles/how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility/",
+        "passed": true
+      },
+      {
+        "slug": "buyer-guide",
+        "width": 390,
+        "scrollWidth": 390,
+        "title": "The Buyer's Guide to Freeze-Dried Fruit Quality — Freeze-Dried-Fruit.com",
+        "h1": "The Buyer's Guide to Freeze-Dried Fruit Quality",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/buyer-guide/",
+        "passed": true
+      },
+      {
+        "slug": "added-sugar",
+        "width": 390,
+        "scrollWidth": 390,
+        "title": "Why Some Freeze-Dried Fruit Has Added Sugar — Freeze-Dried-Fruit.com",
+        "h1": "Why Some Freeze-Dried Fruit Has Added Sugar",
+        "brokenImages": 0,
+        "tables": [
+          {
+            "width": 326,
+            "scrollWidth": 326
+          }
+        ],
+        "canonical": "https://freeze-dried-fruit.com/articles/added-sugar/",
+        "passed": true
+      },
+      {
+        "slug": "how-its-made",
+        "width": 390,
+        "scrollWidth": 390,
+        "title": "How Freeze-Dried Fruit Is Made — Freeze-Dried-Fruit.com",
+        "h1": "How Freeze-Dried Fruit Is Made",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/how-its-made/",
+        "passed": true
+      },
+      {
+        "slug": "moisture-control",
+        "width": 390,
+        "scrollWidth": 390,
+        "title": "Moisture Control Is the Hidden Key to Crunch — Freeze-Dried-Fruit.com",
+        "h1": "Moisture Control Is the Hidden Key to Crunch",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/moisture-control/",
+        "passed": true
+      },
+      {
+        "slug": "water-activity-vs-moisture-content",
+        "width": 390,
+        "scrollWidth": 390,
+        "title": "Water Activity vs Moisture Content in Freeze-Dried Fruit — Freeze-Dried-Fruit.com",
+        "h1": "Water Activity vs Moisture Content in Freeze-Dried Fruit",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/water-activity-vs-moisture-content/",
+        "passed": true
+      },
+      {
+        "slug": "barrier-films-for-freeze-dried-fruit",
+        "width": 390,
+        "scrollWidth": 390,
+        "title": "How to Choose Barrier Films for Freeze-Dried Fruit Packaging — Freeze-Dried-Fruit.com",
+        "h1": "How to Choose Barrier Films for Freeze-Dried Fruit Packaging",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/barrier-films-for-freeze-dried-fruit/",
+        "passed": true
+      },
+      {
+        "slug": "apple-varieties-for-freeze-drying",
+        "width": 390,
+        "scrollWidth": 390,
+        "title": "A Field Guide to Apples for Freeze-Drying — Freeze-Dried-Fruit.com",
+        "h1": "A Field Guide to Apples for Freeze-Drying",
+        "brokenImages": 0,
+        "tables": [
+          {
+            "width": 326,
+            "scrollWidth": 326
+          },
+          {
+            "width": 844.546875,
+            "scrollWidth": 844
+          }
+        ],
+        "canonical": "https://freeze-dried-fruit.com/articles/apple-varieties-for-freeze-drying/",
+        "passed": true
+      },
+      {
+        "slug": "strawberry-varieties-for-freeze-drying",
+        "width": 390,
+        "scrollWidth": 390,
+        "title": "A Field Guide to Strawberries for Freeze-Drying — Freeze-Dried-Fruit.com",
+        "h1": "A Field Guide to Strawberries for Freeze-Drying",
+        "brokenImages": 0,
+        "tables": [
+          {
+            "width": 326,
+            "scrollWidth": 326
+          },
+          {
+            "width": 884.875,
+            "scrollWidth": 884
+          }
+        ],
+        "canonical": "https://freeze-dried-fruit.com/articles/strawberry-varieties-for-freeze-drying/",
+        "passed": true
+      },
+      {
+        "slug": "best-freeze-dried-fruit-for-oatmeal-and-overnight-oats",
+        "width": 390,
+        "scrollWidth": 390,
+        "title": "Best Freeze-Dried Fruit for Oatmeal and Overnight Oats — Freeze-Dried-Fruit.com",
+        "h1": "Best Freeze-Dried Fruit for Oatmeal and Overnight Oats",
+        "brokenImages": 0,
+        "tables": [],
+        "canonical": "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/",
+        "passed": true
+      },
+      {
+        "slug": "how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility",
+        "width": 390,
+        "scrollWidth": 390,
+        "title": "How Freeze-Dried Fruit Powder Agglomeration Improves Flow and Dispersibility — Freeze-Dried-Fruit.com",
+        "h1": "How Freeze-Dried Fruit Powder Agglomeration Improves Flow and Dispersibility",
+        "brokenImages": 0,
+        "tables": [
+          {
+            "width": 326,
+            "scrollWidth": 326
+          }
+        ],
+        "canonical": "https://freeze-dried-fruit.com/articles/how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility/",
+        "passed": true
+      }
+    ],
+    "visualScreenshots": "All ten pages checked at 1440, 768 and 390 px; the three rewritten articles mobile tables were visually inspected. Screenshots remain in /tmp, not production assets.",
+    "finalBuild": "Passed after final paragraph placement review; cohort and all thirty responsive checks rerun against the completed output."
+  },
+  "automation": {
+    "id": "daily-freeze-dried-fruit-articles",
+    "updated": true,
+    "status": "ACTIVE",
+    "schedule": "Monday 09:00 America/Los_Angeles",
+    "nextScheduledRun": "2026-11-16",
+    "executionEnvironment": "worktree",
+    "implicitEnvironmentSetup": "disabled explicitly with localEnvironmentConfigPath null",
+    "scope": "Current ten-page plan, source validation, measured follow-up; prior model and schedule preserved"
+  },
+  "delivery": {
+    "statusAtPreparation": "Ready for source commit and safe fast-forward push. Confirm production separately; neither a local build nor push proves deployment.",
+    "unrelatedEdit": "Pre-existing scripts/build.mjs methodology-email change is preserved and excluded from this batch."
+  },
+  "nextBatch": "Verify numerical claims and references in moisture-control and water-activity-vs-moisture-content on November 16; choose one bounded evidence-based batch."
+}

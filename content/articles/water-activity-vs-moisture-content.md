@@ -59,6 +59,8 @@ For buyers, the best freeze-dried fruit quality conversations include both numbe
 
 ## What moisture content tells you
 
+The [process guide](/articles/how-its-made/) explains where water is removed; the two measurements below help describe the finished result rather than proving that every drying step was controlled correctly.
+
 Moisture content is usually reported as a percentage. If a freeze-dried strawberry sample has 3% moisture, that means roughly 3% of the product weight is water.
 
 This number is useful because freeze-dried fruit should have very little residual water compared with fresh fruit. It helps buyers understand whether the drying process reached an expected endpoint.
@@ -113,6 +115,8 @@ Crunch is not just a sensory detail. It is a visible sign of process control. Wh
 This is why a good quality spec should connect the lab result to the eating experience. A buyer should not only ask, "Is it dry?" The better question is, "What moisture and water activity range protects the texture we are buying?"
 
 ## Practical buyer checklist
+
+Connect these measurements to [moisture exposure during handling](/articles/moisture-control/) and to the [pouch's barrier and seal design](/articles/barrier-films-for-freeze-dried-fruit/). A lab value taken on one sample does not replace checking the finished package over storage.
 
 Before approving a freeze-dried fruit supplier, ask:
 

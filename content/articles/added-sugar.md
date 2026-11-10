@@ -2,62 +2,78 @@
 title: "Why Some Freeze-Dried Fruit Has Added Sugar"
 category: "Labels & Quality"
 date: 2026-04-21
-updated: 2026-05-13
+updated: 2026-11-09
 read: "5 min read"
 hero: "sugar"
 cover_image: /images/articles/added-sugar.webp
 cover_alt: "Plain freeze-dried strawberries and raspberries beside glossy formulated fruit crisps and a small dish of sugar"
-summary: "Many shoppers assume freeze-dried fruit is just fruit. Sometimes it is. But some freeze-dried fruit snacks include added sugar, syrups, maltodextrin, starches, or other ingredients. A heavier bag may not always mean more real fruit."
-intro: "Many shoppers assume freeze-dried fruit is just fruit. Sometimes it is."
+summary: "How to check U.S. freeze-dried fruit labels for added sugar, distinguish it from natural fruit sugar, and compare plain fruit with sweetened snacks and powders."
+intro: "A sweet taste does not tell you whether sugar was added. The ingredient list and Nutrition Facts panel answer different parts of that question."
+takeaways:
+  - "Removing water concentrates the fruit's existing sugars; it does not itself add sugar."
+  - "On U.S. labels, read Total Sugars and Includes Added Sugars together, using the serving weight."
+  - "Fruit juice concentrate needs context; a carrier ingredient is not interchangeable with the Added Sugars line."
+  - "Compare ingredient statements and intended uses before comparing bag prices."
 faqs:
-  - q: "Does freeze-dried fruit have added sugar?"
-    a: "Some products do, some do not. Plain freeze-dried fruit is just fruit, but other products on the same shelf include added sugar, syrups, maltodextrin, starches, citric acid, or natural flavor. The ingredient list is the only reliable way to tell."
-  - q: "Why do producers add sugar or maltodextrin to freeze-dried fruit?"
-    a: "Added sugar can stabilize sweetness across seasons, thicken texture, or improve shelf appeal. Maltodextrin and starches are sometimes used to improve crispness, prevent sticking, or carry flavor. Citric acid sharpens taste; natural flavors fill in aroma lost in processing."
-  - q: "How can I tell if a freeze-dried fruit product has added sweetener?"
-    a: "Check the first ingredient — is it fruit, or sugar? A short ingredient list usually means less processing. If the per-serving sugar exceeds what the fresh fruit itself would carry, a sweetener has likely been added."
-  - q: "Is \"fruit juice concentrate\" the same as added sugar?"
-    a: "For nutritional purposes, yes. Fruit juice concentrate adds sugar to the product without the word *sugar* appearing on the ingredient line. Treat it as a sweetener when comparing products."
-  - q: "Are sweetened freeze-dried fruit products bad?"
-    a: "Not inherently. A 100% fruit product and a sweetened fruit crisp can both be good. They just should not be priced, compared, or evaluated as if they were the same thing."
-  - q: "Which ingredients suggest a minimally processed freeze-dried fruit?"
-    a: "A short ingredient list that names only the fruit is the strongest signal of a plain freeze-dried product. Added sugar, syrup, starch, maltodextrin, fruit juice concentrate, citric acid, oil, or natural flavor all indicate a different category of product."
+  - q: "Does freeze-drying add sugar to fruit?"
+    a: "No. Freeze-drying removes water. A manufacturer may separately add sugar, syrup, coatings, or other ingredients, so check the finished product's ingredient list and Nutrition Facts panel."
+  - q: "Does high Total Sugars mean sugar was added?"
+    a: "No. Total Sugars includes naturally occurring and added sugars. Water removal changes the amount of fruit solids in each gram, so comparing equal weights of fresh and freeze-dried fruit cannot establish that a sweetener was added."
+  - q: "Is fruit juice concentrate always labeled as added sugar?"
+    a: "Not in every use. U.S. rules include certain sugars from concentrated juices and provide exceptions, including specified juice and fruit-spread uses. Read the finished product's Added Sugars declaration rather than applying one rule to every occurrence of the ingredient."
+  - q: "Does 0 g Added Sugars mean the product contains only fruit?"
+    a: "No. A product can contain ingredients other than fruit without those ingredients being added sugars. Label rounding also applies. Use the ingredient statement to check whether the product contains only fruit."
 sources:
   - title: "Added Sugars on the Nutrition Facts Label"
     url: "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label"
     publisher: "U.S. Food & Drug Administration"
-    note: "FDA's definition of added sugars — including why fruit juice concentrate counts as added sugar in many cases."
-  - title: "21 CFR 101.9 — Nutrition Labeling of Food"
-    url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.9"
+    note: "Defines Total Sugars and Added Sugars and explains how the two declarations fit together."
+  - title: "21 CFR 101.9(c)(6) — Carbohydrates, Total Sugars, and Added Sugars"
+    url: "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.9#p-101.9(c)(6)"
     publisher: "Electronic Code of Federal Regulations"
-    note: "The regulation that requires the 'Includes Xg Added Sugars' line on every Nutrition Facts panel."
-  - title: "Dietary Guidelines for Americans 2020-2025 — Added Sugars"
-    url: "https://www.dietaryguidelines.gov/sites/default/files/2020-12/Dietary_Guidelines_for_Americans_2020-2025.pdf"
-    publisher: "USDA & U.S. Department of Health & Human Services"
-    note: "Recommends added sugars stay below 10% of daily calories — the framework behind 'no added sugar' positioning."
-  - title: "How Sweet It Is: All About Sweeteners"
-    url: "https://www.fda.gov/food/food-additives-petitions/high-intensity-sweeteners"
-    publisher: "U.S. Food & Drug Administration"
-    note: "FDA's reference page for approved sweeteners and how they must be declared on labels."
+    note: "Primary rule for sugar declarations, concentrated-juice exceptions, and rounding. Reviewed November 9, 2026; this guide discusses U.S. labels."
 ---
 
-Many shoppers assume freeze-dried fruit is just fruit. Sometimes it is. But some freeze-dried fruit snacks include added sugar, syrups, maltodextrin, starches, or other ingredients. A heavier bag may not always mean more real fruit.
+Plain freeze-dried fruit can taste very sweet without added sugar. [Freeze-drying removes water](/articles/how-its-made/), leaving the fruit solids in a much lighter product. Sweetened fruit pieces, coated snacks, and formulated powders may sit beside plain fruit on the shelf, so taste and the words on the front of a bag are not enough to distinguish them.
 
-## Why producers add ingredients
+This guide covers U.S. packaged-food labels. Start with the ingredient statement, then use the Nutrition Facts panel to understand the sugar declaration.
 
-Added sugar can stabilize sweetness across seasons, thicken texture, or boost shelf appeal. Maltodextrin and starches are sometimes used to improve crispness, prevent sticking, or carry flavor. Citric acid sharpens taste; natural flavors fill in aroma lost in processing.
+## Read two parts of the label together
 
-These additions are not inherently bad. They make sense for some product formats — sweetened crisps, flavored bites, dessert toppings. But they make the product something different from plain freeze-dried fruit.
+The [FDA explains Total Sugars and Added Sugars](https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label) as related measurements: the first includes naturally present sugars as well as added sugars; the second identifies the added portion. Do not add the two figures together.
 
-## What to check on the label
+Use this order when comparing bags:
 
-- The first ingredient — is it fruit, or sugar?
-- Total ingredient count — short lists tend to mean less processing.
-- Per-serving sugar that exceeds the natural sugar of the fruit suggests added sweetener.
-- "Fruit juice concentrate" is sweetener — it adds sugar without saying "sugar."
+1. **Read every ingredient.** A statement naming only the fruit answers a different question from one listing fruit, sugar, and a coating.
+2. **Find Total Sugars and Includes Added Sugars.** Where provided, the latter separates added sugar from the total.
+3. **Check serving weight.** Two different serving sizes make the displayed gram amounts difficult to compare directly.
+4. **Match the format.** Plain slices, sweetened crisps, and drink powders serve different purposes. The [buyer's quality guide](/articles/buyer-guide/) explains the broader comparison.
 
-If you want to avoid added sugar entirely, look for brands whose ingredient line reads "fruit" and nothing else — [**single-ingredient ranges like OhCrisp's**](https://ohcrisp.com) make label-checking trivial.
+## Why fresh-fruit sugar is the wrong comparison
 
-::: note "Reminder"
-A 100% fruit product and a sweetened fruit crisp can both be good. They just shouldn't be priced or compared as if they were the same thing.
-:::
+A fresh strawberry contains water that a freeze-dried strawberry has lost. Equal weights of the two products therefore contain different amounts of fruit solids. A higher sugar number per gram of freeze-dried fruit does **not** establish that the manufacturer added sweetener.
+
+When two dried products use different serving weights, an arithmetic comparison can help: divide the displayed sugar grams by the serving grams, then multiply by the same reference weight. That calculation compares label values; it cannot recover a recipe or prove how much fresh fruit was used. Serving declarations are rounded.
+
+## Ingredients that need different questions
+
+| Label clue | Useful next check |
+| --- | --- |
+| Sugar, honey, or syrup | Read the finished product's Added Sugars declaration. |
+| Fruit juice concentrate | Check its use and the finished declaration; concentrated-juice rules include exceptions. |
+| Maltodextrin or starch | Ask what function it serves and check the finished declaration rather than inferring an Added Sugars value from the name. |
+| Citric acid or flavoring | These make the ingredient list more than fruit alone; they are not themselves proof that sugar was added. |
+
+The [U.S. regulation](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-A/section-101.9#p-101.9(c)(6)) specifies when concentrated-juice sugars count as added sugars and lists exceptions. The ingredient name alone is insufficient to resolve every formulation. It also permits rounding: a displayed zero is not a laboratory claim of absolute absence.
+
+## Why a producer might formulate the product
+
+Some snacks aim for a particular sweetness, coating, or texture. Powders may need a carrier or a processing step to behave in a dry blend or drink. Those choices should be assessed through the actual formulation, rather than assuming every added ingredient is sugar or that every powder is plain milled fruit. Our [fruit-powder agglomeration guide](/articles/how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility/) explains the handling questions to ask.
+
+If plain fruit is your priority, check the current ingredient panel even when buying a familiar brand. [OhCrisp](https://ohcrisp.com) is the publisher's brand; its product pages are examples to inspect, rather than evidence that another brand or every item in a range has the same recipe.
+
+## Use the label for the decision you are making
+
+For a crunchy snack, compare ingredients alongside texture and piece integrity. For [oatmeal or overnight oats](/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/), also decide whether you want recognizable pieces or fruit dispersed through the bowl. A product can suit one job and be a poor fit for the other.
+
+The useful distinction is plain fruit versus the actual formulated product in your hand. Neither bag weight, sweetness, nor a single ingredient name can replace reading both parts of the label.

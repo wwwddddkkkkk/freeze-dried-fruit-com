@@ -47,6 +47,8 @@ Freeze-drying removes water from fruit through freezing, vacuum, and sublimation
 
 The fruit is washed, sometimes peeled, and cut to a target piece size. Cut size matters — thicker pieces take longer to dry and can leave residual moisture in the center; thinner pieces can become fragile.
 
+The [apple](/articles/apple-varieties-for-freeze-drying/) and [strawberry](/articles/strawberry-varieties-for-freeze-drying/) guides turn that preparation step into fruit-specific questions about cut, peel, and finished-sample requirements.
+
 ### 2. Freeze
 
 The fruit is frozen quickly to lock the water in place as ice. Faster freezing creates smaller ice crystals, which preserve more of the fruit's cellular structure.
@@ -60,5 +62,7 @@ The frozen fruit goes into a vacuum chamber. Pressure drops below the triple poi
 After hours of sublimation, residual moisture has been pulled out. The fruit is now light, porous, and crunchy. It is packaged immediately to prevent it from absorbing humidity from the air.
 
 ## Why it matters
+
+To evaluate the result, distinguish [moisture content from water activity](/articles/water-activity-vs-moisture-content/) rather than relying on the word dry. After production, [moisture control](/articles/moisture-control/) and the [package's barrier performance](/articles/barrier-films-for-freeze-dried-fruit/) remain separate quality decisions.
 
 Compared to hot-air drying or dehydration, freeze-drying uses no high heat. That's why freeze-dried fruit retains more color, more aroma, and more of the original fruit shape. It's also why the process is more expensive — vacuum systems, long cycle times, and careful packaging all cost.

@@ -57,6 +57,8 @@ For most freeze-dried fruit, the main packaging failure mode is still simple: to
 
 ## Why barrier film matters so much here
 
+The [moisture-control explanation](/articles/moisture-control/) describes the exposure problem, while the [moisture versus water activity guide](/articles/water-activity-vs-moisture-content/) helps interpret the measurements used to assess it.
+
 Freeze-dried fruit is unusually sensitive to ambient humidity. The product is dry, porous, and quick to absorb water once exposed. That means the pouch is not just a container. It is part of the quality system.
 
 When the film is under-specified, a few things tend to show up first:
@@ -151,6 +153,8 @@ Foodservice and industrial buyers often focus on landed cost first, but bulk pac
 
 ## Ask about the full package system
 
+For powder, review [particle form and agglomeration](/articles/how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility/) alongside the package. A powder that initially pours well still needs storage evidence for its actual formulation.
+
 Film should not be evaluated in isolation. A good packaging review also looks at:
 
 - seal consistency
@@ -182,6 +186,8 @@ When reviewing freeze-dried fruit packaging, ask:
 These questions are useful even when you are buying finished goods rather than converting packaging yourself.
 
 ## A practical way to choose
+
+Include the packaging evidence in the broader [buyer's quality comparison](/articles/buyer-guide/) so a low pouch cost is considered alongside ingredients, format, and performance.
 
 For freeze-dried fruit, the smartest packaging decision is rarely the cheapest pouch that seals. It is the structure that keeps the product aligned with the promised eating experience.
 

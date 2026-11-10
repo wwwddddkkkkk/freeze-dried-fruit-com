@@ -1,0 +1,18 @@
+{
+  "selectedOn": "2026-11-09",
+  "reviewTimezone": "America/Los_Angeles",
+  "siteUrl": "https://freeze-dried-fruit.com",
+  "indexStatusNote": "Current Google index status is unverified: GSC Wizard returned subscription_required on 2026-11-09. Selection reflects reader/business value and repository evidence, not confirmed non-indexing.",
+  "pages": [
+    { "slug": "buyer-guide", "reason": "Core buying decision and disclosed publisher product journey." },
+    { "slug": "added-sugar", "reason": "Homepage feature; historical discovered-not-indexed sample; inaccurate label advice needs repair.", "refreshDate": "2026-11-09" },
+    { "slug": "how-its-made", "reason": "Core process explanation and English counterpart of the existing Spanish process cluster." },
+    { "slug": "moisture-control", "reason": "Connects a common loss-of-crunch problem to storage and packaging decisions." },
+    { "slug": "water-activity-vs-moisture-content", "reason": "Explains the two measurements used in quality and supplier discussions." },
+    { "slug": "barrier-films-for-freeze-dried-fruit", "reason": "Packaging decision page; historical unknown-to-Google sample." },
+    { "slug": "apple-varieties-for-freeze-drying", "reason": "Business-relevant fruit with repeated template paragraphs; historical unknown-to-Google sample.", "refreshDate": "2026-11-09" },
+    { "slug": "strawberry-varieties-for-freeze-drying", "reason": "Business-relevant fruit that connects snacks, sourcing, and breakfast applications." },
+    { "slug": "best-freeze-dried-fruit-for-oatmeal-and-overnight-oats", "reason": "Existing application page with historical search impressions and relevant publisher placement." },
+    { "slug": "how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility", "reason": "Useful technical decision page with only a category entry in the HTML audit and a mismatched reference.", "refreshDate": "2026-11-09" }
+  ]
+}

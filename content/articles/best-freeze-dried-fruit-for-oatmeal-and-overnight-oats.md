@@ -60,6 +60,8 @@ If you want the fruit to stay noticeable as pieces rather than melt into the oat
 
 ### Strawberry
 
+When selecting a pack, the [strawberry format guide](/articles/strawberry-varieties-for-freeze-drying/) helps distinguish slices, dice, and powder before you decide how to use them in the bowl.
+
 Freeze-dried strawberry is the easiest default for many bowls. It brings bright flavor, clear visual contrast, and pieces that usually remain recognizable even after some softening.
 
 It works especially well when:
@@ -69,6 +71,8 @@ It works especially well when:
 - the bowl includes yogurt, nuts, or seeds
 
 ### Apple
+
+The [apple sourcing guide](/articles/apple-varieties-for-freeze-drying/) explains how peel, cut, and sample comparisons fit that choice; the fruit name alone does not specify the piece you will receive.
 
 Apple is quieter but practical. It tends to fit warm spice profiles well, especially cinnamon, maple, oat, and nut combinations.
 
@@ -99,6 +103,8 @@ If the goal is an evenly flavored bowl, powder can outperform pieces. It dissolv
 - a light pink, red, or purple tint
 
 This is often the easiest route for overnight oats too.
+
+If a powder forms lumps, review [wetting and dispersibility](/articles/how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility/) before assuming that a finer grind will solve the problem. Evaluate the result in the actual oat mixture.
 
 ## Fruits that work best when added late
 
@@ -161,6 +167,8 @@ If you are shopping specifically for oatmeal use, look for:
 - fruit formats matched to your bowl style rather than generic "snacking" claims
 
 The bag that works best for dry snacking is not always the best one for a spoon-and-bowl use case.
+
+Use the [added-sugar label guide](/articles/added-sugar/) when comparing formulations, and [moisture-control guidance](/articles/moisture-control/) to protect the dry fruit left in the bag between breakfasts.
 
 ## Bottom line
 

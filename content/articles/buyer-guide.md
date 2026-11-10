@@ -65,6 +65,8 @@ A bag that says "freeze-dried fruit" may contain only fruit. But some products i
 
 If the ingredient list is short and only names the fruit, the product is likely closer to plain freeze-dried fruit. If it includes sugar, syrup, starch, or fruit juice concentrate, the product may be heavier, sweeter, or more processed. As a format example, [**OhCrisp's individually wrapped whole freeze-dried bananas**](https://ohcrisp.com/products/freeze-dried-whole-banana-individually-wrapped-4-2oz) let you compare a whole-fruit snack with a mixed-fruit bag. Check the current ingredient panel and serving size on the product page before comparing products.
 
+For the ingredient check, use the [added-sugar label guide](/articles/added-sugar/) to distinguish naturally present fruit sugars from the finished product's Added Sugars declaration. Sweetness alone cannot answer that question.
+
 ## 2. Compare Real Fruit Content, Not Just Bag Weight
 
 Price per ounce can be misleading. Freeze-dried fruit is lightweight because most of the water has been removed. If a product includes added sugar, starch, or coatings, the bag may weigh more without containing more fruit.
@@ -76,6 +78,8 @@ That includes fruit content, fruit type, ingredient list, piece size, texture, m
 ## 3. Understand Product Format
 
 **Whole pieces** usually feel more premium but can be harder to ship without breakage. **Slices** are common for strawberry, banana, apple, and mango — thickness affects crispness. **Cubes** are efficient for cereal, baking, yogurt toppings. **Crumbles** work as toppings but feel less premium standalone. **Powder** is valuable for smoothies and baking but should not be compared to whole pieces. **Crisps and bites** are formulated snacks, not always plain freeze-dried fruit.
+
+When buying powder, also specify how it pours and mixes. The [agglomeration and dispersibility guide](/articles/how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility/) separates those checks from a piece-format texture assessment.
 
 ## 4. Evaluate Texture
 
@@ -89,15 +93,21 @@ Freeze-dried fruit is extremely sensitive to moisture. Once exposed to humid air
 Buyers should ask about final moisture target, water activity target, packaging material, desiccant use, seal integrity, shelf-life testing, and breakage rate during shipping.
 :::
 
+Use the [moisture-control guide](/articles/moisture-control/) for exposure risks, the [moisture versus water activity explanation](/articles/water-activity-vs-moisture-content/) for lab measurements, and the [barrier-film guide](/articles/barrier-films-for-freeze-dried-fruit/) when reviewing the pouch specification.
+
 ## 6. Consider Fruit Type and Ripeness
 
 Freeze-drying does not magically fix low-quality fruit. Variety, maturity, sweetness, acidity, fiber structure, skin thickness, and aroma all affect the final result. Mango can be rich and aromatic, but cultivar and ripeness make a big difference. Strawberry is colorful but fragile. Blueberry can be difficult because skin affects drying. The best products are built around fruits that work well in both flavor and structure.
+
+For two common starting points, the [apple sourcing guide](/articles/apple-varieties-for-freeze-drying/) and [strawberry sourcing guide](/articles/strawberry-varieties-for-freeze-drying/) show the fruit-specific questions behind a finished sample.
 
 ## 7. Fresh Fruit vs Frozen Fruit
 
 Fresh fruit can offer strong aroma but can be harder to source consistently. Frozen fruit can make production more stable, but freezing, thawing, and handling can affect texture and structure.
 
 > The better question is whether the raw material is appropriate for the fruit, format, and target quality — not simply fresh vs frozen.
+
+The [freeze-drying process explanation](/articles/how-its-made/) gives context for the freezing and drying decisions that sit behind a fresh-versus-frozen comparison.
 
 ## 8. Added Sugar, Fillers, and Weight
 
@@ -110,6 +120,8 @@ Some breakage is normal. But excessive powder reduces perceived quality. Inspect
 ## 10. Match Use Case to Format
 
 For **snacking**, look for large pieces, clean crunch, strong aroma, low breakage, simple ingredients. For **yogurt and smoothie bowls**, look for pieces that hold color but soften pleasantly. For **baking**, powders or smaller pieces. For **cereal or granola**, uniform cubes. For **ingredient manufacturing**, consistency, specification, and supply reliability matter most.
+
+For a concrete application, the [oatmeal and overnight-oats guide](/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/) separates visible toppings from fruit mixed through a bowl. Choose the application before comparing its ingredient formats.
 
 ## 11. Ask Better Questions When Sourcing
 

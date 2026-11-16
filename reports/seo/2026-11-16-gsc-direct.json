@@ -1,0 +1,65 @@
+{
+  "checkedOn": "2026-11-16",
+  "property": "sc-domain:freeze-dried-fruit.com",
+  "searchType": "Web",
+  "access": "Official signed-in Google Search Console UI in the existing Chrome browser. No GSC Wizard request was used.",
+  "constraints": [
+    "Inspected only the fixed ten-URL cohort.",
+    "Did not click Request indexing, submit a sitemap, run a live test, or change account settings or permissions.",
+    "URL Inspection status and local rendering checks are separate evidence."
+  ],
+  "performance": {
+    "lastUpdatedDisplay": "4 hours ago",
+    "last28Days": {
+      "range": "2026-10-18 through 2026-11-14",
+      "clicks": 0,
+      "impressions": 31,
+      "ctr": "0%",
+      "averagePosition": 42.5
+    },
+    "previous28Days": {
+      "range": "2026-09-20 through 2026-10-17",
+      "clicks": 1,
+      "impressions": 99,
+      "ctr": "1%",
+      "averagePosition": 25.5
+    },
+    "threeMonthUiPreset": {
+      "range": "2026-08-15 through 2026-11-14",
+      "clicks": 2,
+      "impressions": 291,
+      "ctr": "0.7%",
+      "averagePosition": 33.2,
+      "topQueriesByImpressions": [
+        { "query": "proceso de liofilización de frutas", "clicks": 0, "impressions": 10 },
+        { "query": "maqui liofilizado", "clicks": 0, "impressions": 8 },
+        { "query": "dried fruit for charcuterie board", "clicks": 0, "impressions": 5 },
+        { "query": "dried fruit with cheese", "clicks": 0, "impressions": 5 },
+        { "query": "types of persimmons", "clicks": 0, "impressions": 4 }
+      ],
+      "topPagesByImpressions": [
+        { "page": "https://freeze-dried-fruit.com/", "clicks": 1, "impressions": 18 },
+        { "page": "https://freeze-dried-fruit.com/articles/kiwi-for-freeze-drying/", "clicks": 1, "impressions": 1 },
+        { "page": "https://freeze-dried-fruit.com/articles/", "clicks": 0, "impressions": 89 },
+        { "page": "https://freeze-dried-fruit.com/es/articles/how-its-made/", "clicks": 0, "impressions": 15 },
+        { "page": "https://freeze-dried-fruit.com/methodology/", "clicks": 0, "impressions": 13 }
+      ]
+    },
+    "interpretation": "The comparison is a descriptive UI readout. Small counts and an incomplete post-deployment observation window do not support an outcome claim."
+  },
+  "inspections": [
+    { "slug": "buyer-guide", "url": "https://freeze-dried-fruit.com/articles/buyer-guide/", "checkedAt": "2026-11-16T17:06:37.409Z", "coverageState": "Page is indexed", "lastCrawl": "Nov 12, 2026, 4:03:03 PM", "crawledAs": "Googlebot smartphone", "crawlAllowed": "Yes", "pageFetch": "Successful", "indexingAllowed": "Yes", "userDeclaredCanonical": "https://freeze-dried-fruit.com/articles/buyer-guide/", "googleSelectedCanonical": "Inspected URL" },
+    { "slug": "added-sugar", "url": "https://freeze-dried-fruit.com/articles/added-sugar/", "checkedAt": "2026-11-16T17:06:39.668Z", "coverageState": "Page is not indexed: Discovered - currently not indexed", "lastCrawl": "N/A", "crawledAs": "N/A", "crawlAllowed": "N/A", "pageFetch": "N/A", "indexingAllowed": "N/A", "userDeclaredCanonical": "N/A", "googleSelectedCanonical": "N/A" },
+    { "slug": "how-its-made", "url": "https://freeze-dried-fruit.com/articles/how-its-made/", "checkedAt": "2026-11-16T17:06:43.664Z", "coverageState": "Page is indexed", "lastCrawl": "Jul 24, 2026, 11:41:52 PM", "crawledAs": "Googlebot smartphone", "crawlAllowed": "Yes", "pageFetch": "Successful", "indexingAllowed": "Yes", "userDeclaredCanonical": "https://freeze-dried-fruit.com/articles/how-its-made/", "googleSelectedCanonical": "Inspected URL" },
+    { "slug": "moisture-control", "url": "https://freeze-dried-fruit.com/articles/moisture-control/", "checkedAt": "2026-11-16T17:06:47.080Z", "coverageState": "Page is indexed", "lastCrawl": "Oct 20, 2026, 9:35:06 AM", "crawledAs": "Googlebot smartphone", "crawlAllowed": "Yes", "pageFetch": "Successful", "indexingAllowed": "Yes", "userDeclaredCanonical": "https://freeze-dried-fruit.com/articles/moisture-control/", "googleSelectedCanonical": "Inspected URL" },
+    { "slug": "water-activity-vs-moisture-content", "url": "https://freeze-dried-fruit.com/articles/water-activity-vs-moisture-content/", "checkedAt": "2026-11-16T17:06:50.160Z", "coverageState": "Page is indexed", "lastCrawl": "Oct 20, 2026, 10:00:06 AM", "crawledAs": "Googlebot smartphone", "crawlAllowed": "Yes", "pageFetch": "Successful", "indexingAllowed": "Yes", "userDeclaredCanonical": "https://freeze-dried-fruit.com/articles/water-activity-vs-moisture-content/", "googleSelectedCanonical": "Inspected URL", "detailReadNote": "Crawl detail expanded in the same browser session after the first status read." },
+    { "slug": "barrier-films-for-freeze-dried-fruit", "url": "https://freeze-dried-fruit.com/articles/barrier-films-for-freeze-dried-fruit/", "checkedAt": "2026-11-16T17:06:52.976Z", "coverageState": "Page is not indexed: Discovered - currently not indexed", "lastCrawl": "N/A", "crawledAs": "N/A", "crawlAllowed": "N/A", "pageFetch": "N/A", "indexingAllowed": "N/A", "userDeclaredCanonical": "N/A", "googleSelectedCanonical": "N/A" },
+    { "slug": "apple-varieties-for-freeze-drying", "url": "https://freeze-dried-fruit.com/articles/apple-varieties-for-freeze-drying/", "checkedAt": "2026-11-16T17:06:56.190Z", "coverageState": "Page is not indexed: Discovered - currently not indexed", "lastCrawl": "N/A", "crawledAs": "N/A", "crawlAllowed": "N/A", "pageFetch": "N/A", "indexingAllowed": "N/A", "userDeclaredCanonical": "N/A", "googleSelectedCanonical": "N/A" },
+    { "slug": "strawberry-varieties-for-freeze-drying", "url": "https://freeze-dried-fruit.com/articles/strawberry-varieties-for-freeze-drying/", "checkedAt": "2026-11-16T17:06:58.906Z", "coverageState": "Page is not indexed: Crawled - currently not indexed", "lastCrawl": "Jul 28, 2026, 9:49:09 PM", "crawledAs": "Googlebot smartphone", "crawlAllowed": "Yes", "pageFetch": "Successful", "indexingAllowed": "Yes", "userDeclaredCanonical": "https://freeze-dried-fruit.com/articles/strawberry-varieties-for-freeze-drying/", "googleSelectedCanonical": "Inspected URL" },
+    { "slug": "best-freeze-dried-fruit-for-oatmeal-and-overnight-oats", "url": "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/", "checkedAt": "2026-11-16T17:07:02.795Z", "coverageState": "Page is indexed", "lastCrawl": "Oct 28, 2026, 11:45:07 AM", "crawledAs": "Googlebot smartphone", "crawlAllowed": "Yes", "pageFetch": "Successful", "indexingAllowed": "Yes", "userDeclaredCanonical": "https://freeze-dried-fruit.com/articles/best-freeze-dried-fruit-for-oatmeal-and-overnight-oats/", "googleSelectedCanonical": "Inspected URL" },
+    { "slug": "how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility", "url": "https://freeze-dried-fruit.com/articles/how-freeze-dried-fruit-powder-agglomeration-improves-flow-and-dispersibility/", "checkedAt": "2026-11-16T17:07:05.167Z", "coverageState": "Page is not indexed: Discovered - currently not indexed", "lastCrawl": "N/A", "crawledAs": "N/A", "crawlAllowed": "N/A", "pageFetch": "N/A", "indexingAllowed": "N/A", "userDeclaredCanonical": "N/A", "googleSelectedCanonical": "N/A" }
+  ],
+  "comparisonTo2026-11-09": {
+    "summary": "The cohort remains five indexed and five not indexed. Buyer guide has a newly recorded Nov 12 index crawl; it was already indexed, so this is not an indexing gain. Powder changed from the prior unknown-to-Google read to Discovered - currently not indexed; retain the two timestamped UI reads rather than infer a cause."
+  }
+}
